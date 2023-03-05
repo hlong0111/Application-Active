@@ -1,0 +1,1476 @@
+lang=0x0b Finnish
+tips=tips_fi.txt
+
+
+// Dialogs
+
+//main dialog
+1281=Luokat
+t1278=Piilota kansiot
+20369=Q
+20370=Tiedoston nimi
+20371=Tila
+20372=Koko
+20373=Aikaa jäljellä
+20374=Siirtonopeus
+20375=Kuvaus
+
+//toolbar
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20376=Lisää URL
+20377=Jatka
+20378=Pysäytä
+20379=Pysäytä kaikki
+20380=Poista
+20446=Poista kaikki...
+20381=Asetukset
+20382=Aikataulu
+20383=Kerro ystävälle
+//tooltips for buttons
+t32789=Lisää/Lataa uusi URL manuaalisesti
+t32790=Aloita/Jatka latausta valituille tiedostoille
+t32791=Lopeta valittujen tiedostojen lataus
+t32792=Pysäytä kaikki lataukset
+t32793=Poista valitut tiedostot luettelosta
+t32794=Poista kaikki suoritetut tiedostot luettelosta
+t32795=Selaimen/systeemin integrointi, Tiedostotunnisteet, Proxi välitys, Tunnussanat ja muut
+t32798=Aikataulu ja latausjonotus
+t32788=Kirjoita kirje IDM ohjelmasta ystävällesi
+
+//Registration dialog
+138=Internet Download Manager rekisteröinti
+1326=Kirjoita rekisteröinti tiedot oikeisiin kenttiin ja paina OK painiketta
+1330=Sarjanumero
+1327=Etunimi
+1328=Sukunimi
+1329=Sähköposti
+1191=OK
+1201=&Kuinka lisensoida
+1080=&Peruuta
+
+//Download progress dialog
+103=Lataamis prosessi
+1154=(tuntematon)
+1178=<< Piiloita tiedot
+20426=<< Piiloita tiedot
+1158=Keskeytä
+20392=Keskeytä
+20424=Aloita
+20425=Näytä tiedot >>
+1300=Tiedosto koko
+1301=Ladattu
+1302=Siirtonopeus
+1303=Aikaa jäljellä
+1149=(tuntematon)
+1299=Tila:
+1030=Yhdistää...
+1305=Aloituspaikat ja latauksen eteneminen yhteyksien mukaan
+1304=Jatkamis mahdollisuus
+1175=(tuntematon)
+2=Peruuta
+20416=N.
+20417=Ladattu
+20418=Infoa
+20419=Kyllä
+20420=Ei
+20421=%d tuntia %d minuuttia
+20422=%d minuuttia %d sekuntia
+20423=%d sekuntia
+
+130=Ladatun tiedoston tiedot
+1006=&Aloita lataus
+1010=Selaa...
+1004=Lataa myöhemmin
+1298=Kuvaus
+1173=Esikatselu
+1297=Luokka
+1296=Tallenna nimellä
+t1004=Lisää tiedosto URL luetteloon ja lataa myöhemmin
+t1006=Aloita tiedoston lataaminen
+
+148=Syötä uusi osoite lataukseen
+1182=Käytä valtuutusta
+1184=Kirjaudu
+1186=Tunnussana
+1022=OK
+
+//Options Dialog
+134=Internet Download Manager asetukset
+1092=OK
+20286=Yleistä
+20287=Yhteys
+20288=Lataukset
+20289=Välityspalvelin
+20290=Sivustojen kirjaantumiset
+20291=Puhelinverkko
+20292=Äänet
+20293=Yleistä
+20294=Yhteys
+20295=Lataukset
+20296=Välityspalvelin
+20297=Kirjaantumiset
+20298=Puhelinverkko
+20299=Äänet
+20300=Selaimen/Systeemin integraatio
+20301=Yhteyden tyyppi
+20302=Latauksen oletus asetukset
+20303=HTTP, HTTPS ja FTP asetukset
+20304=Käyttäjänimet ja tunnussana palvelimille /sivustoille
+20305=Puhelinverkon asetukset
+20306=Ääniasetukset
+//General tab
+1056=Käynnistä Internet Download Manager koneen käynnistyessä
+1061=Aloita leikkuupöydälle kopioitujen URL:ien lataukset automaattisesti
+1065=Integroi Internet Explorer, MSN Explorer ja IE pohjaiset selaimet
+1077=&Oletus
+1238=Käytä ALT näppäintä estääksesi IDM lataamiset linkeistä
+1251=Käytä CTRL näppäintä pakottaaksesi IDM lataamaan linkit
+1314=Laajennukset
+1169=Tiedostotyypit...
+1270=Aloita automaattisesti lataamaan seuraavat tiedostotyypit:
+t1056=Käynnistä Internet Download Manager systeemin käynnistyksessä
+t1061=Monitoroi leikkuupöydälle asetettuja URL:iä
+t1065=Monitoroi Internet Explorerin URL napsautuksia
+t1068=Monitoroi Netscape Navigatorin URL napsautuksia
+//Proxy tab
+1102=Käytä HTTP välityspalvelinta
+1272=Vahvista tunnussana
+1122=Välityspalvelin
+1123=Portti
+1124=Käyttäjänimi
+1125=Tunnussana
+1107=Tuo IE:stä
+1108=Käytä FTP välityspalvelinta
+1274=Vahvista tunnussana
+1126=Välityspalvelin
+1127=Portti
+1128=Käyttäjänimi
+1129=Tunnussana
+1113=Tuo IE:stä
+1116=Käytä FTP:tä PASV tilassa
+1118=Käytä HTTPS välityspalvelinta
+1273=Vahvista tunnussana
+1133=Välityspalvelin
+1135=Portti
+1137=Käyttäjänimi
+1139=Tunnussana
+1141=Tuo IE:stä
+t1107=Yritä etsiä Internet Explorer asetuksessa olevaa HTTP välityspalvelinta
+t1116=Käytä FTP protokollaa passiivisessa tilassa (tarvitaan palomuurien takana)
+//Connection tal
+1153=Yhteys tyyppi/nopeus
+1306=Maksimi yhteyksien määrä
+1254=Latauksen rajat
+//Downloads tab
+1049=Selaa
+1190=Muista viimeisin tallennuspolku "Yleiset" luokkaan
+1136=Oletus latauskansio "Yleiset" luokkaan
+1132=Tallenna tiedostoon...
+1236=Näytä "lataus suoritettu" ikkuna
+1317=Virus tarkistus
+1318=Virus skanneri ohjelma
+1165=Selaa
+1319=Komentorivien muuttujat
+1316=Latauksen eteneminen
+1315=Ikkunat
+1059=Näytä "aloita lataus" ikkuna
+1138=Tilapäinen kansio
+1054=Selaa
+//Dial Up tab
+1313=Yhteys:
+1307=Yhteysasetukset
+1166=Aseta
+1308=Uudelleensoiton asetukset
+1309=Uudelleensoiton yritykset (0 jos loputon):
+1310=Aika yrityksien välissä:
+1312=sekuntia
+1311=kertaa
+1058=Käytä Windows puhelinverkkoa
+//Sounds tab
+1320=Valitse äänet Internet Download Managerin tapahtumiin
+1172=Selaa...
+1091=Soita
+//Passwords tab
+20436=Sivusto/polku
+20437=Käyttäjä
+20438=Tunnussana
+1087=Uusi
+1196=Muokkaa
+1050=Poista
+
+//File properties dialog
+135=Tiedosto asetukset
+1325=Tyyppi:
+1324=Koko:
+1323=Tallenna:
+1082=&Selaa...
+1322=Kirjaudu
+1289=Tunnussana
+1321=Vahvista tunnussana
+1164=Avaa
+1240=Viimeisin yritys
+1241=Tulos: 
+
+100=Tietoja Internet Downlaod Managerista
+1284=Kotisivut:
+1285=Tukiryhmä:
+1286=Tämä tuote on lisensoitu:
+1181=Rekisteröimätön versio
+1161=&Tarkista päivitys
+1185=Rekisteröinti
+1085=Osta
+1262=Versio:
+t1187=Vieraile IDM kotisivuilla
+t1189=Ota yhteys IDM tukeen
+t1161=Tarkista mahdolliset päivitykset www.internetdownloadmanager.com
+t1185=Rekistöi IDM annetulla rekisteröintiavaimella
+t1201=Napsauta, kuinka saat lisenssin IDM:ään
+t1085=Osta rekisteröity IDM ohjelma
+
+150=Sulje
+1263=Internet Download Manager on lopettanut jonotuksen käsittelyn. Ajastin asetuksien mukaan tietokoneesi on sulkeutumassa.
+1170=Sulje nyt
+
+1163=Kyllä
+1088=Kyllä kaikkiin
+1202=Ei
+1051=Ei kaikkiin
+
+177=Aikataulu
+1331=Latausjono
+1333=Lataa
+1332=Aikataulu
+1218=Aloita lataus
+1219=Kerran
+1221=Päivittäin
+1062=Sunnuntai
+1057=Maanantai
+1066=Tiistai
+1069=Keskiviikko
+1222=Torstai
+1223=Perjantai
+1224=Lauantai
+1225=Lopeta lataus
+1228=Sulje tietokone suorituksen jälkeen
+1235=Pakota lopettamaan käsittelyt
+1089=Aseta
+1232=Aloita nyt
+1233=Pysäytä
+1079=Sulje
+1227=Sulje modeemi suorituksen jälkeen
+1264=MBittiä
+1265=tunti
+1266=Älä lataa enempää kuin
+1171=Apua
+1267=joka
+1268=Näytä varoitus ennen latauksien pysäytystä
+1271=Sulje IDM suorituksen jälkeen
+1335=tiedostoa samaan aikaan
+t1229=Siirrä kohde alas
+t1230=Siirrä kohde ylös
+t1231=Poista kohde latausjonosta
+t1232=Aloita jonotus
+t1233=Lopeta jonotus
+t1235=Käytä tätä asetusta hätätilassa. Tämä saattaa aiheuttaa datan häviämisen.
+
+184=Puhelinverkko
+1247=Yhdistää...
+1167=Soita uudelleen
+
+186=Puhelinverkon asetukset
+1336=Soita
+1237=Tallenna tunnussana
+1288=Käyttäjänimi
+
+187=Pudota hyperlinkit tänne
+
+190=Lataa IDM komponentteja
+1=OK
+1258=Lataa komponentteja
+
+191=Vie latausluettelo
+1259=Vie latausjonotus
+1260=Vie valitut tiedostot
+1261=Vie kaikki tiedostot
+
+192=Tuo linkit IDM:ään
+1168=Muokkaa...
+1090=Poista
+
+193=Aloita lataus automaattisesti seuraavissa tunnisteissa:
+
+105=Päivän vihje
+1001=Näytä vihjeet aloituksessa
+1003=&Seuraava vihje
+107=&Päivän vihje...
+108=Tiesitkö että...
+109=Vihjetiedostoa ei ole määritetyssä kansiossa
+110=Ongelmia vihjetiedoston luvussa
+
+146=Sivustoon kirjaantuminen
+1337=Palvelin/polku
+1290=Vahvista tunnussana
+1287=Huomioi: Kirjoita polku ainoastaan jos sinulla on eri kirjaantumisnimet eri palvelimien kansioihin.
+
+182=Pikapäivitys
+1295=Tarkistaa uudempaa versiota
+								
+194=Latausrajat saavutettu!                                                                   																					
+
+144=Uusi versio Internet Download Managerista saatavilla
+1162=Päivitä nyt
+1086=Peruuta
+
+//Zip preview dialog
+196=Zip esikatselu
+20254=Tiedoston nimi
+20255=Pakattu
+20256=Koko
+20257=Muokattu
+
+//New category dialog
+204=IDM luokat
+1174=Selaa...
+1291=Luokan nimi
+1292=Laita automaattisesti tähän luokkaan seuraavat tiedosto tyypit:
+1293=Huomioi: kirjoita tiedosto luokitukset erotettuna tyhjällä välillä (esim. avi mpg mpeg)
+1239=Muista viimeisin tallennuspolku
+1294=Tallenna uudet tämän luokan lataukset kansioon:
+
+
+// Menu
+m32771=Tehtävät
+32771=Lisää uusi lataus
+32809=Näytä "pudota kohde"
+m32821=Vie
+32821=IDM viesti tiedostoon
+32823=teksti tiedostoon
+m32816=Tuo
+32816=IDM tuontitiedostosta
+32818=Teksti tiedostosta
+32772=&Poistu
+
+m32774=Tiedosto
+32774=Pysäytä lataus
+32775=Poista
+32776=Lataa nyt
+
+m32778=Lataukset
+32778=Keskeytä kaikki
+32779=Pysäytä kaikki
+32794=Poista kaikki suoritetut
+32801=Aikataulu
+32803=Aloita jonotus
+32805=Lopeta jonotus
+32781=Asetukset
+
+m32825=Näytä
+32825=Piilota luokat
+m32828=Järjestele tiedostot
+32828=Lisäyksen mukaan
+32830=Tiedostonimen mukaan
+32832=Koon mukaan
+32834=Tilan mukaan
+32836=Jäljellä olevan ajan
+32838=Siirron mukaan
+32840=Kuvauksen mukaan
+m32841=Kieli
+
+m57670=Apua
+57670=Indeksi
+32811=Oppaat
+106=Päivän vihje...
+32813=IDM kotisivut
+32784=Ota yhteyttä
+32787=Pikapäivitys
+32786=Tietoja IDM:stä
+32788=Kerro ystävälle
+
+m32785=Rekisteröinti
+32785=Tilaa online
+32783=Rekisteröinti
+//end menu
+
+
+//Strings & messages
+101=Tietoja IDM:stä...
+32799=Avaa porttia
+32800=Portti avattu
+32802=Yhdistää laitetta
+32804=Laite yhdistetty
+32806=Kaikki laitteet yhdistetty
+32807=Aloittaa vahvistusta
+32808=Vahvistuksen ilmoitus
+32810=Vahvistuksen uudelleen yritys
+32812=Pyydetty takaisinsoitto
+32814=Pyydetty muuttamaan tunnussana
+32815=Aloitetaan suunnittelun vaihe
+32817=Linkin nopeus laskelma
+32819=Vahvistus hyväksytty
+32820=Uudelleenvahvistus aloitettu
+32822=Vahvistettu
+32826=Modeemin nollausta odotetaan
+32827=Takasinsoittoa odotetaan
+32829=Interaktiivinen
+32831=Vahvistuksen uudelleenyritys
+32833=Soittajan takaisinsoitto asetus
+32835=Tunnussana vanhentunut
+32837=Yhdistynyt
+32839=Yhteys katkaistu
+
+20000=Tiedoston %s lataus suoritettu.\n\nLadattu %s (%I64d Bittiä)\nTiedosto tallennettu %s
+20001=Tämä toiminto on saatavilla vain rekisteröidyssä versiossa.
+20002=Ei voi uudelleennimetä ladattua tiedostoa tilapäiskansiossa (%s) :sta %s. Tiedosto on tallennettu tilapäistiedostoon.
+20003=Tunnussanan vahvistus epäonnistunut! Yritä uudelleen.
+20004=Tunnussanaa ei ole annettu!
+20005=Käyttäjäniemä ei ole annettu! Yritä uudelleen.
+20006=Sivustoa/polkua ei ole annettu! Yritä uudelleen
+20007=Halautko varmasti poistaa kirjaantumis tiedot tälle sivustolle?
+20008=Latausluettelossa on tiedosto joka ladataan 
+20009=.\nLisätäänkö tämä käyttäjänimi ja tunnussana lataukseen?
+20010=.\nMuuta käyttäjänimi ja tunnussana tähän lataukseen \"anonyymi\" ?
+20011=Kirjaantumistiedot tälle sivustolle/polulle ovat jo tunnussanaluettelossa.\nUutta kirjaantumistietoa ei ole lisätty. Muokkaa vanhempaa tietoa tarvittaessa.
+20012=Olet muuttanut \"sivusto/polku kenttää.\" Kirjaantumistiedot tälle uudelle sivusto/polku on jo tunnussana luettelossa.\nKirjaantumistieto ei ole muuttunut. Muokkaa vanhempaa tietoa tarvittaessa.
+20013=Sivustoa tilapäisesti ei saatavilla!
+20014=Tälle sivustolle/polulle tarvitaan valtuutus. Voit asettaa sisäänkirjaantumis tiedot tälle lataukselle valitsemalla kohteen asetukset oikeasta hiiri näppäimestä. Tai lisää kirjaantumis tiedot \"Asetukset/Sivustojen tunnussanat\" käyttääksesi käyttäjänimeä/tunnussanaa ladataksesi sivustolta jatkossa.
+20015=Proxi valtuutus tarvitaan valitulle välityspalvelimelle. Voit vaihtaa proxin käyttäjänimeä ja tunnussanaa \"Asetukset/Välityspalvelin\"
+20016=Tuntematon virhe tapahtui latauksen aikana.\rLähetä lokin tiedostot %s ja %s (jos olemassa) ohjelmiston tekijälle.
+20017=Latauksen aikana tapahtui virhe.\n Yritä uudelleen. Jos voit ladata tiedoston toisella ohjelmalla mutta et voi IDM:llä. Lähetä loki tiedosto %s (jos olemassa) ohjelmiston tekijälle.
+20018=Tiedostoa ei voi ladata.
+20019=Tiedostoa ei voi ladata.
+20020=Muistia ei tarpeeksi latauksen jatkamiseen.
+20021=Yhteyttä ei voitu luoda koska kohdepalvelin kieltäytyi. \nPalvelu on suljettu tai sinulla on palomuuri asennettu, joka estää IDM lataukset. Jos sinulla on palomuuri varmistu että sen asetukset sallivat IDM ohjelman lataukset Internetistä.
+20022=Käyttö estetty.
+20023=Pyydettyä osoitetta ei voi määrittää. Pyydetty osoite ei ole kelvollinen.
+20024=Etäpalvelin katkaisi olemassa olevan yhteyden. Normaalisti tämä johtuu etäpalvelimen ohjelman sulkeutumisesta (esim.kaatui), palvelin uudelleenkäynnistyi tai palvelin käytti \'Kovaa sulkua\'
+20025=Vastake operaatio epäonnistui koska kohteen isäntä ei ollut päällä. Vastake operaatio kohtasi nk."kuolleen isännän" (yhteyttä ei voitu rakentaa). Liikennettä ei voitu rakentaa yhteyksien välille.
+20026=Yhteysvirhe. Isäntää ei tunnisteta. Nimi ei ole virallinen isännännimi tai alias tai sitä ei löydetä tietokannasta kyselyllä.
+20027=Välityspalvelua ei voida yhdistää tuntemattomaan verkkoon. Tämä tarkoittaa että paikallinen ohjelma ei tiedä polkua tavoittaakseen etäpalvelinta.
+20028=Palvelin johon olit yhteyssä kaatui ja uudelleen käynnistyi.
+20029=Välityspalvelin kohtasi "kuolleen verkon". Tämä tarkoittaa vakavaa virhettä verkon systeemissä (esim. protokolla virhe jossa WinSock DLL ei toimi) tai paikallisessa verkossa.
+20030=Liian monta avonaista verkkoyhteyttä. Odota hetki latauksien vähenemistä.
+20031=Yhdistymisessä tapahtui virhe
+20032=Koko %s on %I64d bittiä.\nTallennustila on loppu asemassa \'%s\' Mihin tiedosto tallennetaan.\nJos et vapauta tallennustilaa latauksen aikana. Tiedosto tallennetaan tilapäiseen hakemistoon nimellä %s
+20033=Tallennustila on loppu asemassa \'%s\' to store downloaded file parts.\nJatkaaksesi latausta vapauta tallennustilaa tai vaihda tilapäisen tallennuksen hakemisto Asetukset\\Yleistä ja jatka latausta
+20034=Palvelinta %s ei löydy
+20035=Välityspalvelinta %s ei löydy
+20036=Kohteeseen %s:%ld ei voi yhdistyä
+20037=Välityspalvelimeen %s:%ld ei voi yhdistyä
+20038=Ei voi yhdistyä %s:%ld\nAikarajan katkaisu
+20039=Ei voi yhdistyä välityspalvelimeen %s:%ld\nAikarajan katkaisu
+20040=Tuntematon virhe tapahtui liitettäessä ladattuja tiedostoja tai yhdistettäessä tiedostopaloja yhdeksi tiedostoksi
+20041=Tuntematon virhe tapahtui yhdistettäessä ladattuja osia yhdeksi tiedostoksi
+20042=Paikallista tiedostoa ei voi avata, koska ladattuja osia liitetään yhdeksi tiedostoksi
+20043=Seuraavan osan kokoa ei saada, koska ladattuja osia liitetään yhdeksi tiedostoksi
+20044=Virtuaalimuistin varauksen virhe yhdistettäessä ladattuja osia yhdeksi tiedostoksi
+20045=Tapahtui vakava kirjoitusvirhe yhdistettäessä ladattuja osia yhdeksi tiedostoksi
+20046=Tapahtui vakava lukuvirhe yhdistettäessä ladattuja osia yhdeksi tiedostoksi
+20047=Tapahtui tuntematon tiedosto tai rekisteri virhe liitettäessä vanhoja ladattuja osia
+20048=Palvelimeen ei voida yhdistyä
+20049=Internet vastakkeen lukuvirhe
+20050=Internet vastakkeen kirjoitusvirhe
+20051=Yhteys aikakatkaistiin
+20052=Yhteys aikakatkaistiin
+20053=Yhteys aikakatkaistiin, käynnistyy uudelleen...
+20054=Yhteys epäonnistui; käynnistyy uudelleen...
+20055=Virhe datan vastaanotossa
+20056=Palvelin katkaisi yhteyden.
+20057=FTP Palvelimelle ei voi kirjautua.
+20058=Tiedostoa ei löydy FTP palvelimelta.
+20059=FTP Palvelin ei salli yhteyksiä.
+20060=FTP palvelimen vastausta saataessa tapahtui virhe.
+20061=Tapahtui virhe FTP palvelimen vastauksessa: Kelvoton vastaus formaatti
+20062=PASV komennon vastauksessa ei löydy IP osoitetta data vastakkeelle.
+20063=Internet vastaketta ei voi aukaista.
+20064=FTP data vastaketta ei voi aukaista
+20065=Osoitetta ei voi sitoa Internet vastakkeeseen
+20066=Virhe call to listen() data vastakkeen aikana
+20067=Virhe call to accept() internet vastakkeen aikana.
+20068=PORT komentoa ei voi lähettää.\nVirhe call to getsocketname() aikana.
+20069=PORT komento epäonnistui.
+20070=Tiedoston kirjoitusvirhe vastaanotettaessa dataa Internet palvelimista.\nMahdollinen syy: Kovalevy täysi.
+20071=Data yhteyttä ei voi avata koska FTP palvelin ei tue PASV komentoa ja valintaruutu \'Käytä FTP:tä PASV tilassa\' Asetukset\\Proxi/Palomuuri on pois päältä.
+20072=Tiedoston kokoa %s ei löydetty palvelimen vastauksessa
+20073=Palvelin lähetti väärän vastauksen uudelleenkäynnistys komennossa.
+20074=Palvelin lähetti uuden sijainnin ja tiedostonimen. %s on muuttunut %s.\n\nJatketaanko latausta ?
+20075=Katkaistaan yhteyttä...
+20076=Lataus suoritettu. Kaikki ladatut osat liitetään yhdeksi tiedostoksi...
+20077=Vaihtoehtoiset yhteydet on luotu.
+20078=Yhdistää...
+20079=Valinta epäonnistui
+20080=Yhdistyminen OK.
+20081=Tiedoston kirjoitusvirhe vastaanotettaessa dataa Internet palvelimista.
+20082=Recv() toiminto epäonnistui
+20083=Palvelin sulki yhteyden.
+20084=Katkaise yhteys.
+20085=Odottaa vastausta...
+20086=Vastaus OK
+20087=Vastaanottaa dataa...
+20088=Suoritettu.
+20089=Data yhteys: Yhdistää...
+20090=Data yhteys: OK
+20091=Valmis vastaanottamaan dataa
+20092=Tarkistaa komentojen järjestystä: lähettää kaki komentoa yhtäaikaa...
+20093=Tarkistaa komentojen järjestystä: Ensimmäinen vastaus OK, odotetaan toista vastausta...
+20094=Tiedoston infoa vastaanotetaan...
+20095=Palvelimen vastauksen komentorivin loppua ei löydy.
+20096=FTP palvelimen vastauksen komentorivin loppua ei löydy.
+20097=Lähettää LOPETUKSEN.
+20098=Palvelin ei valmis uudelle käyttäjälle.
+20099=Yhdistetty kontrolli vastakkeeseen.
+20100=Lähettää käyttäjänimen...
+20101=Lähettää tunnussanan...
+20102=Käyttäjänimi epäonnistui
+20103=Käyttäjänimi OK
+20104=Tunnussana epäonnistui
+20105=Tunnussana OK
+20106=Lähetä PASV komento...
+20107=palvelin ei tue PASV toimintoa.
+20108=PASV OK, erotellaan osoitetta...
+20109=Vastakkeen yhdistyminen OK. Yritä call listen()
+20110=Hyväksyy...
+20111=Hyväksyntä OK
+20112=Lähettää PORT komennon...
+20113=PORT OK
+20114=Vaihtaa palvelimen työkansiota...
+20115=CWN epäonnistui.
+20116=CWD OK
+20117=Yhteys epäonnistui.
+20118=Lähettää TYPE...
+20119=TYPE komento epäonnistui.
+20120=TYPE OK.
+20121=Lähettää REST komennon...
+20122=REST epäonnistui
+20123=REST OK
+20124=Lähettää RETR komennon...
+20125=RETR epäonnistui.
+20126=Lähettää SIZE komennon...
+20127=Lähettää LIST komennon.
+20128=LIST epäonnistui.
+20129=LIST OK
+20130=SIZE epäonnistui.
+20131=Vastauksessa ei löydy tiedoston kokoa.
+20132=SIZE OK
+20133=Kontrollointi vastaketta ei ole yhdistetty palvelimeen.
+20134=Lataus aloitetaan uusiksi koska paikallis tiedosto on poistettu. Segmentoitu lataus ei ole tässä tapauksessa mahdollista.
+20135=Yhteys uudelleenkäynnistetty...
+20136=Palvelin ei mahdollisesti tue komentojen reititystä.
+20137=Komentojen järjestäminen: OK
+20138=Lähetä HEAD...
+20139=Lähetä GET...
+20140=Rakentaa uusiksi vanhoista ladatuista tiedosto osista...
+20141=Yhdistää...
+20142=Lataus suoritettu. Ladattu %I64d Bittiä yhteensä
+20143=Vastaanottaa dataa...
+20144=Vaihtoehtoiset yhteydet, yhdistää...
+20145=Lataus epäonnistui. Ladattu: %I64d Bittiä yhteensä
+20146=Koko %s on %I64d bittiä.\nTallennustilaa ei ole jäljellä asemassa \'%s\' ladatuille osille.\nJatkaaksesi latausta vapauta tallennustilaa tai poista tämä tiedosto latausluettelosta. Vaihda tilapäinen hakemiston sijainti Asetukset\\Yleistä, ja yritä uudestaan.
+20147=Tallennustilaa ei ole jäljellä asemassa \'%s\'.
+20148=Ladattuja tiedosto osia ei voi rakentaa uudestaan.
+20149=Tämä lataus on jo suoritettu. Paikallista polkua ei ole muutettu.
+20150=Tiedoston muokkauspäivä on muuttunut palvelimella.\nHaluatko ladata koko tiedoston alusta.
+20151=Sinulla on viimeisin versio Internet Download Managerista. Tarkista päivitykset uudestaan aika-ajoin.
+20152=Tallennettaessa dataa tapahtui virhe. Yritä myöhemmin uudestaan.
+20153=Virtuaali muistin paikoituksessa tapahtui virhe. Yritä sulkea muita ohjelmia ja paina \'Yritä uudestaan\'.
+20154=Rakentaa uusiksi
+20155=Pyydetyn palvelimen nimi on voimassa mutta sillä ei ole oikeaa dataa saatavilla (Isäntä on olemassa mutta ei suoraan yhdistettävissä).
+20156=Tiedosto %s - ladattu %s (%I64d Bittiä). Tiedostoa ei ehkä ole ladattu kokonaan koska tiedosto koko on tuntematon.\nTiedosto tallennettu nimellä %s
+20157=Kohdetta ei valittu!
+20158=Siirrä ylös
+20159=Siirrä alas
+20160=Poista kohde
+20161=Tiedostoa ei voi ladata. Kelvoton HTTP palvelimen vastaus.
+20162=Uutta IDM aputiedoston versiota ei löydy!
+20163=Ei voi uudelleennimetä uutta IDM aputiedostoa: newIDMan.hlp tiedostoa idman.hlp. Koita tehdä se manuaalisti.
+20164=IDM pikapäivitys www.internetdownloadmanager.com palvelimelta. Vastaanottaa uusia tiedostoja...
+20165=Pika päivitys IDM:lle www.tonec.com palvelimelta. Vastaanottaa uutta aputiedostoa...
+20166=Internet Download Manager Manuaali
+20167=Käyttäjä peruutti latauksen
+20168=Pikapäivitys epäonnistui. Ladattaessa uusia IDM tiedostoja tapahtui virhe. Yritä myöhemmin uudestaan.
+20169=Pyydettyä tiedostoa ei ole olemassa.
+20170=\nHaluatko aukaista sen?
+20171=Tiedosto on jo latausluettelossa. Haluatko lisätä kaksoiskappaleen?
+20172=Palvelin vastasi ettei sinulla ole oikeutta ladata tätä tiedostoa.
+20173=Puhelinluetteloa luettaessa tapahtui virhe.
+20174=Internettiin ei saada yhteyttä.
+20175=Tiedostoa ei voi ladata aikakatkaisun takia
+20176=Pyydetty tiedosto näyttää HTML sivulta.\r\n\r\nJos tämä lataus on otettu automaattisesti Internet Explorerista kun painoit latauslinkkiä. Yritä painaa ALT näppäintä ja napsauta latauslinkkiä IE:ssä salliaksesi sivun avautumisen.\r\n\r\nHaluatko jatkaa latausta IDM:llä ja tallentaa tiedoston HTML sivuna?
+20177=Ladattu tiedosto näyttää HTML sivulta.\r\n\r\nJos tämä lataus on otettu automaattisesti Internet Explorerista kun painoit latauslinkkiä. Yritä painaa ALT näppäintä ja napsauta latauslinkkiä IE:ssä salliaksesi sivun avautumisen.\r\n\r\nHaluatko uudelleennimetä ladatun tiedoston HTML sivuksi?
+20198=Internet Download Managerin integraatiota IE:hen ei voi muuttaa. Tapahtui virhe. Lähetä tiedosto %s ohjelman tekijöille.
+20199=Internet Download Managerin integraatiota IE:hen ei voi muuttaa. koska sinulla ei mahdollisesti ole tarpeeksi oikeuksia systeemi rekisteriin
+20200=Internet Download Manager on onnistuneesti integroitu Internet Exploreriin. Sinun täytyy uudelleenkäynnistää Internet Explorer muutoksien takia.
+20201=IDM integratio on onnistuneesti poistettu Internet Explorerista. Sinun täytyy uudelleenkäynnistää IE muutoksien takia.
+20202=Lisälaajennuksia ei voi päivittää. Katso \"%s\" tiedosto yksityiskohtineen.
+20203=Tämä on Internet Download Managerin 60 päivän koeversio.
+20204=Tiedosto on siirretty.
+20205=Tiedosto %s on siirretty.
+20206=Avaa ladattua tiedostoa
+20207=Lataa IDM komponentti
+20208=Integraatiota Internet Doanload Managerin ja Netscapen välillä ei voi muuttaa. Sinulla ei ehkä ole tarpeeksi oikeuksia muuttaa systeemi rekisteriä
+20209=Tiedosto versio etcprotocol.dll on vanhentunut. Ladataanko uusi versio? Sulje Internet Explorer ylikirjoittaaksesi tiedoston!
+20210=Ei voi uudelleennimetä tiedostoa %s %s :ksi. Yritä sulkea Internet Explorer ja tee se manuaalisesti.
+20211=Tiedosto %s tallennetaan nimellä %s. Annettu tiedostonimi on jo tietokoneellasi. Haluatko vaihtaa olemassa olevan tiedoston?\n\n Paina \"KYLLÄ\" korvataksesi sen, \"EI\" tallentaaksesi tiedoston eri nimellä, \"PERUUTA\" peruuttaaksesi tiedoston lisäämisen latausluetteloon.
+20212=Tiedosto %s tallennetaan nimellä %s. Annettu tiedostonimi on jo latauslistassa. Vahvistatko tallennuksen tällä nimellä?\n\n Paina \"KYLLÄ\" vahvistaaksesi, \"EI\" tallentaaksesi tiedoston eri nimellä, \"PERUUTA\" peruuttaaksesi tiedoston lisäämisen latausluetteloon.
+20213=Tuo IDM:ään
+20214=Linkkejä ei voi lukea tiedostosta tai tiedosto on virheellinen
+20215=Tiedosto ei ole kelvollinen IDM vienti tiedosto tai on virheellinen
+20216=Tiedostossa ei ole yhtään web linkkejä
+20217=Operaatiota käynnistäessä tapahtui tuntematon virhe!
+20218=Tiedostoa ei voi ladata. FTP palvelin ei ehkä tue lataamisen jatkamista. Haluatko lisätä saman tiedoston uudestaan ja ladata sen alusta?
+20219=Tallennettavan tiedoston nimi oli \"%s%s\", mutta palvelin antoi nimen \"%s\". Haluatko tallentaa tiedoston nimellä, joka saatiin palvelimelta?
+20220=Tiedoston %s lataus suoritettu.\nTämä m3u tiedosto sisältää internet linkin mp3 tiedostoon. Haluatko ladata tämän mp3 tiedoston?
+20221=Tiedoston %s lataus suoritettu.\nTämä m3u tiedosto sisältää yhden tai useamman internet linkin mp3 tiedostoihin. Haluatko lisätä nämä mp3 tiedostot latausluetteloon?
+20222=M3U tiedosto ladattu.
+20223=Lisälaajennus
+20224=MIME tyyppi
+20225=Viruksen tarkistus ohjelmaa ei voi käynnistää.\n%s
+20226=Internet Download Managerin jonotus prosessi suoritettu. IDM aikataulu asetuksien mukaan IDM sulkee modeemi yhteyden.
+20227=Sulje modeemi
+20228=Sulje nyt
+20229=Lopeta nyt
+20230=Latausrajat saavutettu!
+20231=Data ei kelpaa
+20232=Tuntien arvo \"Latausrajat\" täytyy olla välillä 1-23. Korjaa ja ota asetus valintaruudusta \"Latausrajat\" pois.
+20233=Haluatko ladata IDM kotisivuilta ohjekirjasen (noin 60kb) ?
+20234=Haluatko ladata ja asentaa aputiedoston (noin 200KB) IDM kotisivuilta ?
+20235=Tiedostoa HHCtrl.ocx ei löydy aputiedoston lukemiseen!
+20236=IDM Apu
+20237=Tiedostokoko on muuttunut palvelimellar.\nTiedosto ladataan uudestaan alusta.
+20238=Yhteyttä välityspalvelimen kautta ei voi luoda.
+20239=Luodessa turvattua yhteyttä %s tapahtui virhe.
+20240=Purettaessa pyyntö viestiä tapahtui virhe.
+20241=Ladatessa tiedostoa security.dll tapahtui virhe.HTTPS yhteyttä ei voi luoda.
+20242=Tunnussana ja tunnussanan vahvistamiskentät eivät vastaa keskenään HTTP välityspalvelimelle.Yritä uusiksi.
+20243=Tunnussana ja tunnussanan vahvistamiskentät eivät vastaa keskenään HTTPS välityspalvelimelle.Yritä uusiksi.
+20244=Tunnussana ja tunnussanan vahvistamiskentät eivät vastaa keskenään FTP välityspalvelimelle.Yritä uusiksi.
+20245=Internet Download Manager vaihtoehdot
+20246=Lataus suoritettu
+20247=Lataus epäonnistunut
+20248=Prosessin jonotus pysäytetty/suoritettu
+20249=Prosessin jonotus aloitettu
+20250=Tapahtuma
+20251=Ääni tiedosto
+20252=Valittua äänitiedostoa ei voi kopioida IDM ääni kansioon!
+20253=Sinulla on %d päivää jäljellä käyttää Internet Download Manageria. Haluatko rekisteröidä IDM ohjelman nyt?
+20258=Kaikki lataukset
+20259=Keskeneräiset
+20260=Valmiit
+20261=Ohjelmat
+20262=Musiikki
+20263=Video
+20264=Pelit
+20265=Dokumentit
+20266=Lisää luokka
+20267=Poista
+20268=Asetukset
+20269=Haluatko todella poistaa \"%s\" luokan IDM luokkaluettelosta?
+20270=Poistaa luokan IDM luokkaluettelosta
+20271=Lisää luokan IDM luokkaluetteloon
+20272=Muokkaa luokan tietoja
+20273=Kirjoita nimi \"Luokannimi\" kenttään.
+20274=Kansiota \"%s\" ei ole olemassa.\r\nHaluatko luoda kansion?
+20275=Ei voi luoda kansiota!\r\n%s
+20276=Piilota luokat
+20277=Näytä luokat
+20278=Valitse tiedosto
+20279=Yleistä
+20280=Haluatko laittaa kaikki vanhat lataukset näihin luokkiin tiedostotyyppien mukaan? Tiedostoja ei siirretä kovalevyllä. Tiedoston nimet yhdistetään kuitenkin omiin latausluokkiin.
+20281=Haluatko siirtää kaikki vanhat lataukset \"%s\" tiedostotyypit tähän luokkaan? Tiedostoja ei siirretä kovalevyllä. Tiedoston nimet yhdistetään kuitenkin omiin latausluokkiin
+20282=IDM luokat
+20283=IDM sai \"Yhteys kielletty\" virheen yhdistäessä ladattuja osia yhdeksi tiedostoksi. Syy saattaa olla muissa ohjelmissa esim. virusohjelma tai palomuuri avasi tiedoston mutta ei sulkenut sitä oikein. Ehkä yritit aukaista tiedoston sen lataamisen aikana. Uudelleenkäynnistä tietokone ja paina jatka painiketta yhdistääksesi tiedoston.
+20284=Oletus lataushakemisto \"%s\" luokalle
+20285=Muista viimeisin tallennuspolku \"%s\" luokalle
+20307=- Valitse Internet yhteytesi -
+20314=256K Kaapeli/DSL/muu
+20315=300K Kaapeli/DSL/muu
+20316=512K Kaapeli/DSL/muu
+20319=toinen
+20320=Tietoja IDM:stä
+20321=Palauta
+20322=Poistu
+20323=Ota yhteyttä
+20324=Apua
+20325=Tilaa online
+20326=Rekisteröinti
+20327=Pysäytä lataus
+20328=Poista
+20329=Jatka latausta
+20330=Asetukset
+20331=Kelvoton URL. Korjaa virhe.
+20332=Tämä lataus ei ole valmis. Jatketaanko poistamista?
+20333=Internet Explorerin asetuksissa ei löydy välityspalvelimen asetuksia
+20334=Internet Download Manager on jo ladannut tiedoston tästä URL:stä. Haluatko ladata sen uudestaan?
+20335=Tiedosto tässä URL:ssä on jo latausluettelossa ja odottaa latauksen loppuun suorittamista. Haluatko jatkaa lataamista?
+20336=Liian monta tiedostoa samalla nimellä. Poista ne tai muuta nimet tallennuskansiossa
+20337=Kirjoita sisäänkirjausnimi.
+20338=Käytettävää selainta ei löydy
+20339=Pikapäivitys ohjelmaa ei löydetty.
+20340=Kirjoita rekisteröity nimi.
+20341=Väärä rekisteröinti numero.
+20342=URL löydetty leikkuupöydältä. Haluatko ladata sen?
+20343=Kirjoita sinun etunimesi
+20344=Kirjoita sinun sukunimesi
+20346=Kirjoita sähköposti osoite
+20347=Kirjoita sarjanumerosi
+20348=Kirjoitit sarjanumeron väärin
+20349=Internet Download Manager on rekisteröity väärällä Sarajnumerolla. IDM sulkeutuu...
+20350=Internet Downlaod Managerin rekisteröintejä tällä sarjanumerolla on liikaa. IDM sulkeutuu...
+20351=Internet Download Manager on rekisteröity väärällä Sarajnumerolla. IDM sulkeutuu...
+20352=Internet Download Manageria ei ole rekisteröity 60 päivän aikana. Koeaika on ohi ja IDM sulkeutuu...
+20353=Internet Download Manageria ei ole rekisteröity 15 päiväksi. IDM sulkeutuu...
+20354=Tuntematon virhe
+20355=Tuntematon
+20356=Lisää latausjonoon
+20357=Poista jonosta
+20358=Aloita jonotus
+20359=Lopeta jonotus
+20360=Avaa
+20361=Viimeisin yrityspäivä:  
+20362=Tulokset:\n
+20363=Valitse ainoastaan yksi avattava tiedosto!
+20364=Avaa
+20365= on jo tietokoneellasi. Haluatko vaihtaa olemassa olevan tiedoston?\n Paina \"KYLLÄ\" vaihtaaksesi, \"EI\" tallentaaksesi tiedoston eri nimellä, \"PERUUTA\" peruuttaaksesi latauksen.
+20366=Ladataan
+20367=Tallenna
+20368=Haluatko poistaa kaikki suoritetut lataukset?
+20384=Näytä "pudota kohde"
+20385=Varoitus: Tämä tietokoneohejlma on suojattu kopiointi oikeuksin ja kansainvälisin sopimuksin. Laiton kopiointi tai ohjelman jakelu, tai osan jakelu voi johtaa oikeustoimiin lain nojalla sen maksimi rangaistuksen kanssa.
+20386=Älä luo kansiota %s, virhe koodi = %ld\n
+20387=Virhe
+20388=TIEDOSTOT
+20389=Kaikki tiedostot
+20390=Yksityiskohdat:\n
+20391=Suoritettu.
+20393=Lataus suoritettu. Virus tarkistus käynnissä...
+20394=AVI: Res. %dx%d, %d samp per sek, Pituus %s
+20395=, Pituus: 
+20396=, Kappale: 
+20397=, Artisti: 
+20398=, Albumi: 
+20399=, Tyyli: 
+20400=WAV: %d samp per sek, %d bittiä per samp, Pituus: %s
+20401=MPEG: Res. %dx%d, %.1f samp per sek, %d bittiä per samp
+20402=%s,   yhteensä %ld tiedostoa
+20403= Koeversio
+20404= Täysi
+20405=Uudelleensoitto  %ld
+20406=Määrittämätön RAS soitto virhe.
+20407=Ohjelman kielimuutokset toimivat vasta uudelleenkäynnistyksen jälkeen. Haluatko käynnistää uudestaan ?
+20408=Välillä %d:%02d ja %d:%02d sinä latasit %d MB. Kaikki IDM lataukset on pysäytetty , koska olet ylittänyt latausrajan joka on asetettu IDM aikataulussa (tai \'Asetukset->Yhteydet\')!
+20409=Välillä %d:%02d ja %d:%02d sinä latasit %d MB. Kaikki IDM lataukset on pysäytetty %d:%02d koska olet ylittänyt latausrajan joka on asetettu IDM aikataulussa (tai \'Asetukset->Yhteydet\')!\r\n\r\nKaikki pysäytetyt lataukset jatkuvat automaattisesti %02d:%02d. Jos haluat jatkaa latauksia välittömästi. Vaihda asetukset Latausrajoituksissa ja paina Jatka painiketta.
+20410=Valmis
+20411=Uudelleen rakentaa...
+20412=Katkaistaan yhteyttä...
+20413=Tekstitiedostot
+20414=IDM Vienti tiedostot
+20415=Tallenna nimellä...
+20427=Älä sulje latausikkunaa kun IDM liittää tiedostoa. Muuten datan liittämisestä saattaa olla virheellinen.
+20428=Pikapäivitys
+
+20429=Lataus siirretty IDM:lle...
+20430=Napsauta 'Takaisin' palataksesi jatkamaan selaamista.
+20431=IDM epäonnistui aloittaa latausta. Käynnistys tiedostoa ei löytynyt.
+
+20433=Varoitus
+20434=Valitse tiedosto
+20435=Virus skanneri ohjelma
+20439=Äänitiedostot
+20440=valmis
+20441=Tiedosto asetukset
+20442=Internet%20Download%20Manager%20-%20todella%20tarpeellinen%20ohjelma!!!
+20443=lataa%20 %20 :sta
+
+//Please don't replace "English" to your local language, please just translate the "English" word
+20444=Käytä Englannin kieltä
+
+20445=Tuntematon
+
+20447=Näytä normaali koko
+20448=Näytä pienennettynä
+20449=Älä näytä
+
+//Please change XXX on the language you are translating IDM to.
+q1=Internet Download Manager on löytänyt käyttäväsi xxx kieltä oletuksena Windowsissa. Haluatko ladata ja asentaa xxx kielen IDM ohjelmaan?
+
+20500=Osta ja asenna ensin täysiversioinen IDM!
+1338=Valitse IDM ohjelman kieli (Voit vaihtaa sen myöhemmin kohdasta "Näytä->Kieli" valikosta)
+20501=Internet Download Manageria ei ole rekisteröity 15 päiväksi. IDM sulkeutuu...
+20502=Muokkaa...
+20503=Päiväys lisätty
+20504=Viimeisin yrityspäivä
+20505=Tallenna
+20506=Viittaaja
+33001=Mukauta työkaluriviä...
+33002=Muokkaa URL luetteloa...
+33004=Tallennus polkua
+33005=Välittäjän mukaan
+33006=Viimeisimmän yrityksen mukaan
+20507=Sarakkeet...
+
+209=Sarakkeet
+1339=Valitse sarakkeet jotka haluat näkyviin luettelossa.Käytä siirrä ylös ja siirrä alas näppäimiä sarakkeiden järjestelemiseen.
+1160=Siirrä ylös
+1083=Siirrä alas
+1340=Näytä
+1048=Piilota
+1053=Nollaa
+1341=Valitun sarakkeen pitäisi olla
+1342=kuvapisteiden leveys
+
+//new category
+20508=Pakattu
+
+//new dialog
+226=Maksimi yhteydet palvelimelle
+1348=Palvelin
+
+1350=Yhteyksien määrän maksimi oletus
+1343=Maksimi yhteyksien määrä
+1344=Uusi
+1345=Poista
+1346=Muokkaa
+1347=Poikkeukset:
+20509=Palvelin
+20510=Luku
+
+228=Lataa kaikki linkit IDM:llä
+20511=Tiedostotyyppi
+20512=Linkki teksti
+1234=Käytä linkin tekstiä latauksen kuvauksena
+1055=Piilota HTML tiedostot
+1060=Piilota toistetut tiedostot
+1353=Tarkista kaikki
+1354=Poista kaikki valinnat
+1352=Muokkaa...
+1355=Valitse linkit jotka haluat lisätä IDM latausluetteloon ja paina OK painiketta.\r\nVoit odottaa kun IDM tarkistaa ja täyttää kaikki tiedosto tyypit.
+
+20513=Tallennettavan tiedoston nimi oli \"%s\", mutta palvelin lähetti tiedosto tyypin \"%s\", ja tiedosto pitäisi tallentaa  \"%s\". Haluatko tallentaa tiedoston palvelimelta saadulla nimellä joka vastaa oikeaa tyyppiä?
+
+//vers. 4.00
+20514=Lataa uudelleen
+20515=Avaa kansio
+
+q2=Ohjelma \"%s\" (%s) haluaa ladata \"%s\" tiedoston.\n\nHaluatko IDM ottavan latauksen haltuunsa ohjelmalta?\nVoi muuttaa myöhemmin asetuksia IDM latauksille \"%s\" :sta IDM->Asetukset->Yleistä
+
+20516=\"%s\" data lähetys protokollaa IDM ei tue tällähetkellä. Voi olla myös tavausvirhe. Tarkista tekstin tavaus ja yritä uudelleen.
+20517=IDM on saanut \"Yhteys kielletty\" virheen liittäessä tiedoston osia. Voi olla että tiedosto osa oli auki toisessa ohjelmassa esim. viruksen tarkistus ohjelma tai yritit itse aukaista sitä. Liittääksesi osat yhteen sinun täytyy uudelleen käynnistää tietokone ja valitse tiedosto IDM ohjelmassa ja paina Jatka painiketta.
+20518=Rekisteröi IDM ennen päivitystä.\r\n Valitse \"Rekisteröi->Rekisteröidy\" valikosta ja syötä rekisteröinti tiedot. Valitse \"Apua->Pikapäivitys\" valikosta ja aloita päivitys.
+20523=Lisenssi sopimuksen mukaan, jonka olet hyväksynyt. Olet sallittu päivittämään Internet Download Managerin ilmaiseksi vuoden aikana ostopäivästä. Jos haluat jatkaa IDM päivitystä tämän ajan jälkeen sinun täytyy liittyä tilaajapalveluun.\r\nHaluatko nähdä IDM tilaajapalvelun sivun ?
+20519=Näppäimet estääksesi lataamisen eivät saa olla samoja kuin näppäimet, jotka pakottavat lataamisen. \r\n Valitse jokin muu näppäin.
+20525=Yhteys virhe. Palvelinta ei tunnisteta. Nimi ei ole virallinen palvelinnimi tai alias. Sitä ei löytynyt tietokannan kyselyssä.\r\n\r\nAlhaalla mahdolliset syyt virheeseen:\r\n\r\n1. Sinulla on palomuuri asennettuna tietokoneeseesi ja olet asentanut, muuttanut tai päivittänyt Internet Download Managerin version. Tarkista palomuurin asetukset ja varmista että IDM:llä on täydet oikeudet internettiin.\r\n\r\n2. Palvelu joka löytää palvelimet internetissä kutsutaan Domain Name Service (DNS) on ongelmia, tai verkkoyhteys sinun tietokoneen ja DNS välillä katkoo. Uudelleenkäynnistys saattaa auttaa ongelmaan.\r\n\r\n3. Palvelimen nimessä on tavausvirhe. Tarkista tavaus.\r\n
+20522=IDM ei löydä tiedostoa(ja) %d jotka ovat tarpeellisia selaimen ja systeemin integraatioon. Haluatko ladata ne?
+
+//Options->general
+1370=Etsi uudet ohjelmistot, jotka yrittävät ladata tiedostoja Internetistä
+1368=Muokkaa näppäimiä estääksesi IDM lataamasta
+1367=Näppäimet...
+1375=Integroi IDM selaimiin:
+
+229=Käytä erikoisnäppäimiä
+1361=Käytä seuraavaa näppäintä estääksesi IDM automaattisen latauksen linkeistä:
+1067=Käytä seuraavaa näppäintä ladataksesi jokaisen linkin IDM:llä:
+1366=Vasen hiirinäppäin + valittua näppäintä painaessa pakota IDM lataamaan linkki
+1374=Huomio: Painettaessa lataus linkkiä webbisivu saattaa ilmoittaa latauksen alkavan X sekunnin päästä. Tässä tapauksessa sinun täytyy poistaa seuraava asetus, jotta IDM voi ladata automaattisesti.
+
+//Download all links with IDM
+1356=Tallenna
+1357=Lajittele tiedostot oikeisiin kansioihin luokittain
+1358=Kaikki tiedostot yhteen luokkaan
+1359=Kaikki tiedostot yhteen kansioon
+1360=Selaa...
+
+//Options->Proxy
+1378=Älä käytä välityspalvelinta osoitteille, jotka alkavat:
+1377=Eroita nimet tyhjällä välillä
+
+
+20526=Internet Download Managerin verkon integrointi
+20527=Internet Download Manager havaitsi että sen verkon integraatio on poistettu toisen ohjelman asentuessa. Haluatko palauttaa verkko integraation IDM:lle?
+20528=Internet Download Manager havaitsi toisen ohjelman muuttaneen IDM verkon integraatiota. Tämä voi johtua uusien verkko ohjelmien asennuksesta tai ohjelma joka palauttaa rekisteritiedot alkuperäisiin. Haluatko palauttaa IDM verkko integroinnin?
+20529=Internet Download Manager verkon integraatio on muuttunut. Suosittelemme uudelleenkäynnistystä. Haluatko uudelleenkäynnistää nyt?
+20530=Internet Download Manager verkon integraatio on muuttunut. Sinun täytyy uudellenkäynnistaa tietokone koska palomuurisi ei ole havainnut muutoksia. Internet ohjelmat eivät kommunikoi oikein ennen käynnistystä.\r\n\r\nTalleta työsi ja sulje kaikki ohjelmat nyt. Tietokone uudelleenkäynnistyy kun painat OK painiketta.
+
+20531=Jos haluat integroida Internet Download Managerin ohjelmaan joka on käynnissä. Sinun täytyy uudelleen käynnistää ohjelma, koska IDM ei voi integroida käynnissä oleviin ohjelmiin.\r\n\r\nIDm integroinnin jälkeen voit poistaa \"Etsi uudet ohjelmistot\" valinta optimoituun suoritukseen.
+20532=Etsi uudet ohjelmistot
+
+//v 4.01
+//Download All Links with IDM dialog
+1385=Piilota tämän sivuston kuvat
+//Options->General dialog
+1381=Käytä edistettyä selaimen integraatiota
+20547=Vaihdettaessa perusasetuksista selaimen integraatioon. Voi olla että tarvitset uudelleenkäynnistää tietokoneen. Haluatko jatkaa?
+//new dialog
+230=Tarkistaa Internet yhteyttä
+1382=Valitse
+20536=IDM lataa pientä testisivua tarkistaakseen Internet yhteyden. Odota muutama sekunti.
+20537=IDM testaa Internet Exploreria. Odota muutama sekunti. Internet Explorer lataa pientä testisivua
+//Problem report dialog
+232=Internet Download Managerin ongelma reportti
+20546=Olemme luoneet asennusraportin, jonka voit lähettää meille. Lähetä tieto meille jotta voimme korjata virheen tuleviin IDM versioihin. Lähetettävä data on teknistä. Me emme kerää sinun henkilötietoja ja käsittelemme tiedon salaisena ja anonyyminä.
+1386=Lisää kommentti tai pyynnöt alapuolelle
+1391=Jos haluat ilmoituksen, koska ongelma ratkaistaan. Kirjoita sähköposti osoitteesi alakohtaan
+20545=Lähettää dataa...\r\nOdota muutama sekunti
+1390=Lähetä
+
+//new messages
+20533=IDM on havainnut, että käytät välityspalvelua Internet Explorerissa. haluatko käyttää samoja asetuksia IDM:ssä?
+20534=Internet Download Managerin ensikäynnistys
+20535=IDM on havainnut että käytät Windows verkon soittoa yhdistyessä Internettiin. Haluatko käyttää samoja asetuksia IDM:ssä?
+
+20538=Testisivua ei voi ladata. Voi olla että IDM verkon integraatio on ristiriidassa toisen internet ohejlman kanssa tai palomuurin. IDM poistaa selain integraation ja palauttaa alkuperäiset asetukset. Voit laittaa selain integraation päälle myöhemmin IDM asetuksissa ->Asetukset->Yleistä ikkunassa
+20539=Sinun täytyy uudelleenkäynnistää tietokone palauttaaksesi alkuperäiset asetukset.Tallenna työsi ja sulje ohjelmat nyt. Tíetokone uudelleenkäynnistyy kun painat OK painiketta.
+20540=Internet Download Manager verkon integraatio on onnituneesti asennettu. Harvinaisissa tapauksissa verkon integraatio on ristiriidassa uusien internet ohjelmien kanssa. Jos on ongelmia integroinnin kanssa poista asetus valintaruudussa\"Käytä selaimen integraatiota\" IDM:ssä ->Asetukset->Yleistä ikkunassa
+20541=Olet ottanut selaimen integraation pois päältä. Jos sinulal oli ongelmaa selaimen integroinnissa. Haluamme korjata tämän ongelman sinulle. Korjataksemme ongelman meidän täytyy kerätä ja analysoida teknisiä tietoja tietokoneestasi ja sen asetuksista. IDM kerää ja näyttää sinulle kerättävän tiedon seuraavassa vaiheessa ennenkuin se lähettää meidän ohjelmatukeen.\r\n\r\n Haluatko IDM:n hakevan nämä tiedot?
+20542=Sulkee selaimen integraation
+20543=IDM yrittää ladata testisivua tarkistaakseen internet yhteyden.Varmistu että olet yhteydessä internettiin. jos sinulla on palomuuri. Varmistu että se päästää IDM:n internettiin ennen testin aloitusta. Paina \"Tarkista\" painiketta alapuolella ja IDM yrittää ladata testisivun uusiksi.
+20544=IDM on muuttanut verkon integrointia ja tarkistaa internet yhteytesi uudelleen. Jos et ole yhteydessä internettiin, yhdisty nyt ja paina \"Tarkista\" painiketta.
+20548=Internet Download Managerin verkko integraatio on muuttunut. Sinun täytyy uudelleenkäynnistää tietokone koska internet ohjelmat eivät kommunikoi oikein ennen käynnistystä.\r\n\r\nTallenna työsi ja sulje kaikki ohjelmat nyt. Tietokone uudelleenkäynnistyy kun painat OK painiketta.
+
+//v4.01 build 4
+20549=Tässä Internet Download Managerissa on aselain integraatio toiminto. Toiminnon asennus tarvii uudelleenkäynnistyksen.\r\n\r\nKun selain integraatio on päällä. IDM voi kaapata kaikki lataukset jotka oli mahdottomia aikaisemmissa versioissa tai muissa latausohjelmissa. Käytettäessä tätä integraatiota IDM voidaan integroida ihan mihin vain selaimeen tai internet ohjelmaan ottaakseen sinun FTP/HTTP lataukset.\r\n\r\nHarvinaisissa tapauksissa integraatio on ristiriidassa uusien internet ohjelmien kanssa. Jos integraatio aiheuttaa ongelmaa voit poistaa asetuksen \"Käytä selain integraatiota\" IDM:n->Asetukset->Yleistä ikkunassa.\r\n\r\nHaluatko asentaa selain integraation?
+20550=Selain integraatio onnistuneesti asennettu!
+
+//menu "File->Redownload"
+33009=Lataa uudelleen
+
+//new (since v4.00) toolbar buttons of the main window
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20551=Aloita jonotus
+20552=Lopeta jonotus
+
+//tooltips for these buttons. You can write long descriptions here.
+t32803=Aloita jonotus
+t32805=Lopeta jonotus
+
+//v4.01 build 5
+20553=Internet Download Manageri automaattisesti kaappasi latauslinkin toisesta internet ohjelmasta. Jos et halua ladata tiedostoa IDM:llä, avaa Asetukset ikkuna painamalla Asetukset painiketta\r\n\r\n 1. Jos et halua ladata IDM:llä tämän tyyppisiä tiedostoja, voit poistaa tiedosto tyypin (tiedosto laajennuksen) automaattisesti kaapattavien tiedosto tyyppien luettelosta.\r\n\r\n 2. Jos et halua ladata IDM:llä mitään tiedostoja halutulta sivustolta, lisää tämä sivusto poissuljettujen sivustojen luetteloon.
+236=IDM vihje: Automaattinen linkin kaappaus
+1393=Älä näytä vihjettä uudestaan
+1397=IDM:llä on joustava mekanismi ottaa tai välttää lataukset toisista INternet ohjelmista. Haluatko lukea lisää tietoa?
+1396=Lue enemmän
+
+//v4.02
+20569=Tämä virheilmoitus on mahdollista jos IDM:ää on käytetty useassa tietokoneessa samalla sarjanumerolla. Huomioi että IDM lisenssi on konekohtainen. Jos haluat käyttää IDM:ää useassa tietokoneessa samaan aikaan. Tarvitset lisenssin jokaiseen erikseen.
+20570=Pienet painikkeet
+20571=Isot painikkeet
+20572=Klassiset painikkeet
+20573=Katso uutta
+
+//new main menu items
+m33001=Työkalurivi
+33510=Klassiset painikkeet
+34010=Pienet painikkeet
+34011=Isot painikkeet
+34012=Katso uutta
+
+//a new (since 4.401) button on the Options dialog
+1371=Apua
+
+// The abbreviation of second, kilobytes, megabytes and gigabytes, 
+// it's used when denoting download speed measurement units, 
+// e.g. KB/sec --- kilobytes per second, etc.
+20575=sek
+20576=GB
+20577=MB
+20578=KB
+20579=Bittiä
+
+//v4.03
+20588=Ladattua tiedostoa ei voi yhdistää. Latausosat ovat rikkonaisia. Alhaalla muuta syy, jotka aiheuttavat ongelman.\r\n\r\n 1.	Tietokone on sulkeutunut odottamattomasti latauksen aikana/tiedostoja liitettäessä yhteen.\r\n 2.	Toinen ohjelma tai käyttäjä on sulkenut IDM prosessin latauksen aikana tai liitettäessä paloja yhteen. Huomioi että isot osat tarviivat enemmän aikaa liittämisessä. Ei huolta, kärsivällisyyttä isoissa tiedostoissa ja odota prosessin loppumista. Älä katkaise IDM prosessia Windowsin tehtävienhallinnasta.\r\n\r\nJos näitä tapahtumia ei ollut. Lähetä tiedosto %s (jos olemassa) Internet Download Managerin tekijöille analyysiä varten.
+
+
+//v 5.00 --- grabber
+1429=< Edellinen
+1430=Seuraava >
+
+1405=Lisää suodatin
+1421=Lisää suodatin
+1437=Etsi tiedostot ainoastaan tällä sivustolla
+1459=Aloita lataus kaikille yhteensopiville tiedostoille välittömästi
+1471=Voi selata sivustoa ensin ja valita tiedostot mitä tarvitset. Voit ladata ne kaappaajan pääikkunassa tai lisätä ne IDM:n pääluetteloon. Tämä vaihtoehto lataa kaikki selatut tiedostot välittömästi.
+1515=Lataa seuraavat tiedostot (tiedosto tyypit)
+1516=Älä lataa seuraavia tiedostoja (tiedosto tyypit)
+1480=Ei vähempää kuin
+1482=Ei enempää kuin
+1483=Lataa tiedostot jotka sijaitsee seuraavien polkujen/domainien sisällä :
+1486=Älä lataa tiedostoja jotka sijaitsee seuraavien polkujen/domainien sisällä:
+1517=Lataa jos tiedostokoko on
+1488=Käytä puolipistettä ( ; ) erottaaksesi merkinnät.
+
+241=IDM sivuston kaappaaja
+1446=Tiedostoja ladattu:
+1448=Tiedostoja löydetty:
+1450=Sivustoja prosessoitu:
+
+244=Suodattimet
+1423=Lisää
+1424=Muokkaa
+1425=Poista
+
+245=Suodatin
+1426=Nimi
+1427=Peite
+
+1414=Kaappaus projektin nimi
+1510=Aloitus sivu/osoite
+1439=Käytä valtuutusta
+1441=Kirjoita sisäänkirjaantuminen ja tunnussana manuaalisti seuraavilla sivustoilla:
+1511=Projektin malli
+1470=Jos valitset projekti mallin. Ohjattu asetus määrittää projektin asetukset valittuun malliin. Muista että voit aina vaihtaa asetuksia manuaalisesti.
+
+1514=Käytä alkuperäistä vastaavia alakansioita
+1468=Käännä linkit ladatuissa HTML tiedostoissa paikallisesti selattavaksi
+1469=Ylikirjoita olemassa olevat tiedostot
+1436=Lisää valitut tiedostot kaappaajan suljetaessa IDM pääluetteloon ja latausjonoon
+
+262=IDM kaappaajan asetukset
+1518=Käytä linkki tekstiä latauskuvauksena kun tiedosto lisätään IDM pääluetteloon
+1466=Selattavia tiedostoja samaan aikaan (1-10)
+1467=Ladattavia tiedostoja samaan aikaan (1-10)
+1509=Muista että palvelin saattaa kieltäytyä jos asetat liikaa latauksia/kyselyjä samaan aikaan.
+
+1416=Älä selaa pääkansioita
+1490=kenttiä pääsivuston sisällä
+1435=Selaa koko sivusto
+1445=Selaa määritetty määrä linkki kenttiä:
+1491=kenttiä muilla sivustoilla
+1474=Selaa sivustoja vain seuraavien polkujen/domainien sisällä:
+1476=Älä selaa sivustoja seuraavien polkujen/domainien sisällä:
+1512=Tässä vaihessa sinun täytyy määrittää mitä sivuja selataan tiedostojen löytämiseksi. Seuraavassa vaiheessa voit asettaa tiedosto tyypit, sijainnin ja muut suodattimet.
+1489=Linkki kenttien määrä ?
+1493=Selaa kaikki sivustot päädomainin sisällä
+1494=Sivuuta popup ikkunat
+
+268=Mallin nimi
+1508=Kirjoita nimi kaappaajan malliin
+
+269=Tallentaa IDM kaappajan projektia
+1507=Tallenna projekti seuraavalla nimiellä
+1513=Älä näytä tätä ikkunaa jos nimi on erikoinen
+
+270=Lataa projekti
+
+32811=Oppaat
+34022=Kaappaajan apu
+      
+
+m1458=Projekti
+1458=Uusi
+1438=Kuormitus...
+1442=Tallenna
+34020=Tallenna tämänhetkiset asetukset mallina
+m34013=Viimeisimmät projektit
+34013=Viimeisin projekti luettelo
+m1457=Asetukset
+1457=Kaappaajan asetukset
+34021=Projektin aikataulu
+
+t1398=Aloita palvelimen selaus
+t1401=Pysäytä palvelimen selaus
+t1353=Valitse kaikki tiedostot
+t1354=Poista kaikki tiedosto valinnat
+t1432=Aloita valittujen tiedostojen lataus
+t1433=Pysäytä valittujen tiedostojen lataus
+t1434=Lisää valitut tiedostot IDM pääluettoon ja latausjonoon
+
+
+20580=Mukautetut asetukset
+20581=Kaikki sivuston kuvat
+20582=Audio tiedostot aloitussivulta ja seuraavilta sivutasoilta
+20583=Kaikki sivuston video tiedostot
+20584=Kaikki tiedostot sivustolta poislukien websivut ja kuvat
+20585=Koko kotisivusto
+
+20589=Webin sisältö
+20590=Lisäasetukset
+20591=Kaappaajan projektit
+20592=IDM Kaappaaja
+20593=Kirjoita aloitus sivu/osoite
+20594=Aloitus sivu/osoite
+20595=Kirjoita käyttäjänimi ja tunnussana tai poista \"Käytä valtuutusta\" valintaruutu
+20596=Kirjoita manuaalinen sisäänkirjaantumissivu tai poista valintaruutu
+20597=Manuaalinen sisäänkirjaantumissivu
+20598=Ei valittuja tiedostoja
+20599=%ld tiedostoa lisätty IDM pääluetteloon.
+20600=Tiedostoja ei voi lisätä. Liian monta valittua tiedostoa. Lataa ne tässä projektissa painamalla \"Lataa valitut\" työkalurivin painiketta.
+20601=Uusia tiedostoja ei voi lisätä. IDM pääluettelo sisältää liian monta ladattavaa tiedostoa ja hidastaa IDM:ää. Poista muutama tiedosto pääluettelosta.
+
+20602=Tämä nimi on varattu. Valitse toinen nimi mallillesi.
+20603=Malli kyseisellä nimellä on jo olemassa. Haluatko vaihtaa mallin?
+20604=Tallennetaanko Kaappaus projekti?
+
+//right click menu
+20605=Avaa projekti
+20606=Projektin aikataulu
+20607=Poista projekti
+
+20608=Sulje ensin käynnissä oleva Kaappaaja projekti.
+20609=Ajoita kaappaajan projekti
+20610=Tulossa pikapuolin!!!\r\n\r\nTarkista tämä toiminto seuraavassa IDM versiossa
+
+//displayed statuses
+20611=Selaa sivustoa
+20612=Ladataan
+20613=Valmis
+20614=Pysäytetty
+
+20615=Projekti nimellä \"%s\" on jo olemassa. Valitse jokin toinen nimi.
+20616=IDM kaappaajalla ei ole tallennettuja projekteja
+20617=Valitse projektin nimi!
+20618=Haluatko poistaa \"%s\" kaappaajan projektin?
+20619=Virheellinen määrä tiedostoja selattu samaan aikaan. Aseta määrä oikein.
+20620=Virheellinen määrä ladattavia tiedostoja samaan aikaan. Aseta määrä oikein.
+20621=Ei voi aukaista tiedostoa \"%s\"\r\n\r\n%s
+20622=Haluatko ladata ja asentaa IDM Kaappaajan aputiedoston (noin 100KB) IDM kotisivulta ?
+20623=Projektia ei voi ladata.\r\nMuistin paikoitusvirhe.
+20624=Projektia ei voi ladata.\r\nKaappaja projektin tiedosto on vioittunut tai sen versio ei ole hyväksyttävä.
+20625=Kaappaaja projektin tiedosto on viallinen. Useita tiedostoja ei ole ladattu
+20626=Mallia ei voi ladata.\r\nMalli tiedoston tieto on vioittunut tai sen versio ei ole hyväksyttävä.
+20627=Lataa kaappaajan mallia
+20628=Tallentaa kaappaajan mallia
+20629=Tallentaa kaappaajan projektin
+20630=Lataa kaappaajan projektia
+      
+//step dialogs captions
+20631=IDM Sivuston kaappaaja. Vaiheet %d --- %s
+20632=Määritä aloitussivu
+20633=Tallenna tiedostot
+20634=Aseta selain suodattimet
+20635=Aseta tiedosto suodattimet
+
+20636=Manuaalinen sisäänkirjaantumissivu
+20637=Paina OK painiketta kun kirjaantumis prosessi on valmis
+20638=OK
+20639=Peruuta
+
+//v4.04
+20640=Jos suunnittelet ottavasi lataukset vain Internet Explorerista. Et tarvitse tätä toimintoa ja vastaat tähän \"Ei\".
+
+//v4.06
+20641=Yhdistää
+20642=Alue:
+1534=Tallenna tämä tunnussana IDM tunnusana luetteloon
+1536=Kirjoita käyttäjänimi ja tunnussana.
+1537=Käyttäjänimi:
+1538=Tunnussana:
+
+//v4.07
+
+280=Erälataus
+1553=IDM latausjonoon on mahdollistaa liiittää peräkkäisiä tiedostonimiä img001.jpg, img002.jpg, jne., img100.jpg. Käytä tähtimerkki villikorttia tiedostonimeen. \nEsim:   http://www.internetdownloadmanager.com/pictures/img*.jpg
+1540=Numerot
+1541=Kirjeet
+1556=Keneltä:
+1557=Kenelle:
+1547=Villikortin koko
+1555=Vaihda tähtimerkki
+1558=1. tiedosto:
+1559=2. tiedosto:
+1560=Viim. tiedosto:
+
+20643=Valitse kaikki halutut tiedostot
+20644=Poista valinnat kaikista halutuista tiedostoista
+
+1552=Vaihda tiedostonimet käyttämällä tähtimerkki villikorttia tiedoston nimeen:
+
+34024=Lisää erälataus
+
+20645=URL:ssä ei ole tähtimerkki villikorttia lataus tiedostoluettelon luontiin!
+20646=Erälataus
+20647=Liian monta tiedostoa. Tiedostojen määrä ei saa ylittää 1000. Valitse toinen \"mistä : mihin\" väli.
+20648=Tallenna hakemistoon/luokkaan
+
+//v5.00 beta
+
+20574=Kaappaaja
+20649=Kirjoita poiskirjaantumis sivu tai poista valintaruutu
+
+20554=Kaikki tiedostot
+20555=Kuva tiedostot
+20556=Video tiedostot
+20557=Audio tiedostot
+20558=Suoritettavat tiedostot
+20559=Pakatut tiedostot
+20560=PDF Dokumentti tiedostot
+
+20561=Älä käytä sivuutus suodatinta
+
+20562=Sivuston kartta
+20563=Asetukset
+
+20564=Suodattimen nimi
+20565=Peite
+20566=Anna suodattimen nimi
+20567=Täytä peite
+20568=Suodatin nimellä \"%s\" on jo olemassa. Valitse toinen nimi.
+
+20650=Odota...
+20651=Poistaa tilapäisiä tiedostoja
+20652=Tallentaa kaapaus projektia
+20653=Poistaa kaappaus projektia
+20654=Asettaa muutoksia
+20655=Lataa kaappaus projektia
+20661=Tarkistaa muutoksia
+20662=Lataa manuaalista sisäänkirjaantumis sivua
+
+20656=Tallennustilaa ei ole tarpeeksi asemassa %s kaappaus projektille. Vapauta tilaa ja yritä uudestaan.
+20657=Tallennustilaa ei ole tarpeeksi asemassa %s kaappaus projektin avaamiseksi. Vapauta tilaa ja yritä uudestaan.
+20658=Projektia ei voi avata. Osa projekti tiedostoista on viallisia tai poistettu.
+
+20659=Koko aloitussivu kaikkine kuvineen, tyylineen ja komentorivineen offline selaukseen
+20660=Koko aloitussivu
+
+20663=Ei voi aloittaa lataamaan manuaalista sisäänkirjaantumis sivua. Tarkista URL syntaksi.
+
+33010=Käynnistä sivuston kaappaus
+
+1563=Paina lisäasetukset painiketta manuaaliseen sisäänkirjautumiseen tai ottaa uloskirjaantumissivu pois päältä
+1561=Älä avaa poiskirjautumis sivua:
+1564=Monilla sivustoilla on uloskirjaantumis sivu jota Kaappaajan ei pidä avata. Voit käyttää tähtimerkki villikorttia määrittääksesi tekstijonon eri uloskirjaantumis sivuille.
+1571=Piilota kaksoistiedostot, jotka on löydetty eri paikoissa
+1565=Prosessoi JavaScript
+1567=Käytä tätä asetusta varovasti. Mikä on riskinä?
+1573=Tarkista tiedostot IE:n välimuistista ennen lataamista
+1568=Käytä tähtimerkkiä villikortti kuviona. Käytä pilkkua ilman tyhjää väliä eroittaaksesi merkinnät 
+
+//grabber dlg tree
+20664=Kaikki tiedostot
+20665=Linkki näyttö
+20671=Kansio näyttö
+20667=Muut sivustot
+20668=sivustot
+
+20669=Pois sulkevat suodattimet
+20670=Sisällyttävät suodattimet
+
+t34023=Näytä kaappaajan statistiikka
+271=IDM kaappaajan tilastot
+1574=Tila:
+1575=Sivustoja prosessoitu
+1576=Pelkistetty
+1577=Lisäasetukset
+1578=TIEDOSTOT
+1579=Yhteensä
+1580=Selattu
+1581=Vastaavuus
+1582=Ladattu
+
+//v5.00 build 3
+20672=Esikatselu näyttö
+20673=Ei ladattuja tiedostoja
+
+20674=Ei löydetty
+20675=Kielletty
+20676=Virhe
+
+//v5.01
+284=Ajoita kaappaajan projekti
+1583=Kerta selaus/lataus
+1584=Jaksollinen sykronisaatio
+1585=Selaa ainoastaan
+1586=Selaa sivusto ja lataa halutut tiedostot
+1587=Lataukseen valitut tiedostot
+1588=Vaihe 3. Aikataulu
+1601=Vaihe 2. Valitse toiminta
+1600=Vaihe 1. Valitse tyyppi
+1593=Projekti:
+1590=Avaa seuraava tiedosto latauksen jälkeen:
+1595=Aloita uudestaan joka
+1597=tunti
+1598=minuutti
+1599=Päivittäin
+1602=Huomioi: IDM ohjelma täytyy olla päällä systeemin alapalkissa jos käytät projektin aikataulua
+20677=Projektin aikataulua käyttääksesi sinun täytyy tallentaa projekti. Tallennetaanko nyt?
+20678=Internet Download Manager on lopettanut Kaappaajan projektin. Projektin aikataulu asetuksien mukaan tietokoneesi suljetaan.
+t33010=Käynnistä sivuston kaappaus
+t34021=Projektin aikataulu
+t34025=Päivitä kaikki
+20679=Ajoitettua kaappaus projektia ei voitu aloittaa %d:%02d koska projekti oli käynnissä tähän aikaan.
+20680=Ajoitettua kaappaus projektia ei voitu aloittaa %d:%02d koska projektin asetuksia muokattiin tähän aikaan.
+20681=Java komentoja ei prosessoida websivuille, jotka on jo selattu/prosessoitu. Jos haluat prosessoida Java komennot näille sivuille. Paina \"Päivitä kaikki\" työkalurivi kuvaketta Kaappaus toiminta ikkunassa.
+20682=Päivitä painike päivittää projektin (a) aloittamalla sivuston selaamisen aloitussivulta, (b) päivittää tiedostot , jos ne ovat muuttuneet palvelimella ja (c) lataa uudet tiedostot.
+20683=Päivitä painike päivittää projektin (a) aloittamalla sivuston selaamisen aloitussivulta, (b) päivittää ladatut ja valitut tiedostot jos ne ovat muuttuneet palvelimella.
+20684=Huomioi että vanhat tiedostot, jotka on löydetty ennen päivitystä ei poisteta. Kaappaaja erittelee kaikki websivut palvelimella uudestaan (voi ottaa aikaa).\r\n\r\nOletko varma että haluat päivittää tämän projektin?
+
+//version 5.02
+20685=Uudelleen nimeä projekti
+20686=Pienennä ilmaisinalueeseen
+20688=Palauta kaikki lataus ikkunat
+20689=Voit laittaa päälle ikkunan \"Asetukset->Lataukset\"
+20690=IDM asetukset
+20691=Ladattu %s (%I64d Bittiä)
+20692=Tiedostoa ei ehkä ole ladattu kokonaisuudessaan koska tiedoston koko on tuntematon.
+20693=Muista polku \"%s\" luokalle
+20694=Lataus suoritettu
+1610=Osoite
+1611=Tiedosto tallennettuna
+1606=Avaa kansio
+1607=Älä näytä tätä ikkunaa uudestaan
+t1608=Selaa
+20695=IDM Lataukset
+1615=Sivuuta tiedoston muokatut aika muutokset latausta jatkettaessa
+1613=Lue enemmän
+20696=IDM tarkistaa uuden version joka toinen viikko pyytämällä päivityssivun kotipalvelimelta. Jos sinun palomuuri estää päivitys kyselyn ja näyttää varoituksen. Varoitus on OK ja on turvallista päästää se läpi.
+1617=Osoite
+1619=Osoite:
+1618=Voit käyttää tähtimerkkiä villikorttina tekstissä
+
+//Please note that the old menu item string changed from m32771=URL to m32771=Tasks
+//also strings 32771 and 148 have been changed
+
+//v 5.02 Build 2
+1621=Päivitys ilmoitus
+290=IDM päivitys ilmoitus
+20697=Ei minimoituja latauksia
+
+// v 5.02 Build 3
+1622=Huomioi: Nämä muutokset eivät vaikuta jonotus toimintaan
+
+// v 5.02 Build 6
+20698=Selaa
+
+// v 5.02 Build 10
+20586=Alhaalla mahdolliset syyt virheeseen:\r\n\r\n1. Internet yhteyttä ei löytynyt.Tarkista internet yhteytesi.\r\n\r\n2. Sinulla on palomuuri asennettuna tietokoneeseesi ja olet asentanut, muuttanut tai päivittänyt Internet Download Managerin version. Tarkista palomuurin asetukset ja varmista että IDM:llä on täydet oikeudet internettiin.\r\n\r\n3. Palvelu joka löytää palvelimet internetissä kutsutaan Domain Name Service (DNS) on ongelmia, tai verkkoyhteys sinun tietokoneen ja DNS välillä katkoo. Uudelleenkäynnistys saattaa auttaa ongelmaan.\r\n
+1570=Viittaaja:
+
+// v 5.02 Build 12
+20587=Yrittäessä jatkaa lataamista. Internet Download Manager sai vastauksen palvelimelta, ettei se tue latauksen jatkamista. \r\nVoi olla että se on tilapäinen virhe palvelimessa.Voit yrittää uudelleen latausta myöhemmin tai antaa IDM ladata tiedosto alusta alkaen. \r\n\r\n Haluatko ladata tiedoston alusta alkaen?
+
+// v 5.03
+20699=Tiedosto tyypit joita ei ole merkitty muihin luokkiin
+20700=Painoit "Lataa myöhemmin" painiketta mutta IDM on itseasiassa jo ladannut pienen osan tiedostosta. IDM aloittaa latauksen jo kun näet ikkunan "Lataa Tiedoston tiedot". Voit poistaa asetuksen ikkunassa "Asetukset->Lataukset"
+20701=Lataa myöhemmin
+20702=Tilapäis hakemisto tarvitaan tiedosto osien talletukseen latauksen aikana.\nJos sinulla on useita fyysisiä asemia tietokoneessasi. Voit valita eri fyysisen aseman tilapäiselle kansiolle ja "Tallenna" kansiot nopeaan ladattujen tiedostojen liittämiseen.
+20703=Laita automaattisesti \"%s\" luokkaan seuraavat tiedosto tyypit:
+20704=Tallenna
+20705=Luokat, tiedosto tyypit, kansiot
+1623=Aloita lataaminen välittömästi "Lataa tiedosto info" ikkunan näkyessä
+
+292=Uudelleenkäynnistää tietokoneen
+1627=Pysäytä
+20706=Uudelleenkäynnistää %d sekunnissa
+20707=Uudelleenkäynnistä
+
+// v 5.04
+//Options->File Types and Options->General changes (for basic integration)
+20708=Tiedostotyypit
+20709=Ladattavat tiedosto tyypit
+20711=Huomioi: Opera ja vanhan Mozilla pohjaiset selaimet voidaan integroida ohjelma laajennuksella. Integraatio tyyppi ei tue palvelimen poisjättämis luetteloa estääksesi lataukset IDM:llä. jos muutat tiedostotyyppien luetteloa. Selaimet täytyy uudelleenkäynnistää.\n Näitä rajoituksia ei ole asetettu jos käytät \"Selaimen integraatiota\" valikossa \"Yleistä\".
+1632=Tiedot
+1633=Lisää selain...
+1634=Integroi uudelleen
+20710=Huomioi: Opera ja vanhan Mozilla pohjaiset selaimet voidaan integroida ohjelma laajennuksella. Integraatio tyypit eivät tue erikois näppäimiä estääksesi tai pakottaaksesi latauksia IDM:lle kyseisiltä selaimilta.\nJos haluat estaa tai pakottaa lataukset IDM:lle erikoisnäppäimin. Sinun täytyy käyttää \"Selain integraatiota\".
+
+//MessageBoxes
+20713=IDM selain integraatio
+20712=IDM ei löydä %s selainta tietokoneestasi. Paikallista selaimen käynnistystiedosto seuraavassa ikkunassa.
+20714=Käyttämällä lisämoduli integraatiota selaimiin epäonnistui!
+20715=Lisämodulit %s selaimeen on asennettu.
+20716=Lisämodulit %s %s selaimiin on asennettu.
+20717=Lisämodulit %s selaimelle on poistettu.
+20718=Käynnistä selain uudestaan ladataksesi muutokset.
+20719=Paikallista selaimen käynnistystiedosto seuraavassa ikkunassa.
+20720=Ei voi asentaa idmmzcc.xpi selaimen laajennusta Mozilla Firefoxiin!
+20721=IDM on onnistuneesti integroitu Mozilla Firefoxiin 1.5 ja uudempiin.\n Sinun täytää uudelleenkäynnistää Firefox selain
+20722=IDM on havainnut %s %s selaimen olevan oletus selain tietokoneessasi. \n Haluatko integroida sen IDM:n kanssa?
+20723=Ei voi asentaa idmmzcc.xpi selaimen laajennusta!
+20724= %s %s selain avautuu IDM laajennusmoduulin asennukseen.\n Vahvista asennus idmmzcc.xpi laajennusmoduuli Tonec Inc.:ltä selaimen ikkunassa. Käynnistä uudestaan asennuksen jälkeen ladataksesi muutokset.
+20725=Ei voi asentaa lisämoduulia %s %s selaimeen!
+20726=IDM on onnistuneesti integroitu Internet Exploreriin.\n Sinun täytyy uudelleenkäynnistää IE ladataksesi muutokset.
+20727=IDM havaitsi %s %s selaimen asennettuna tietokoneessasi. \n Haluatko integroida sen IDM:n kanssa?
+20728=Valitut selaimet avautuvat IDM integraation asennukseen.\nVahvista idmmzcc.xpi laajennusmoduuli Tonec Inc:ltä selaimen ikkunassa ja uudelleenkäynnistä selain ladataksesi kaikki muutokset.
+20729=Lisämoduulit valittuihin selaimiin on asennettu.\nUudelleenkäynnistä selaimet ladataksesi muutokset.
+20730=IDM on jo integroitu Internet Explorer selaimeen!
+20731=IDM ei löydä selainta perus integraatio tiedostokannasta. Sinä voit yrittää selaimen integraation lisäasetuksia latausten kaappaamiseen selaimestasi.
+20732=Lisämoduulia ei voi asentaa ja integroida selaimeen!
+
+//new dialogs
+296=Selaimien integraatio
+1635=IDM on löytänyt seuraavat selaimet tietokoneessa. Valitse selaimet, jotka haluat integroida IDM ohjelman kanssa.
+297=Selaimen tiedot
+1636=Lisää versio...
+20733=Web-selain
+20734=Integraation tyyppi
+20735=Polku
+20736=Lisälaajennus
+20737=Laajennukset
+
+//new menu item on main dlg popup menu and new button on Download complete dlg
+20738=Avaa sovelluksessa...
+1639=Avaa sovelluksessa...
+
+//
+20739=Paikallista selain
+
+// v 5.05
+20740=IDM lataa kyseistä tiedostoa!
+20741=Monista latauslinkki
+298=Monista latauslinkki
+20742=Näytä ikkuna ja kysy mitä tehdä.
+20743=Lisää kaksoistiedosto numeroidulla nimellä
+20744=Lisää kaksoistiedosto ja ylikirjoita olemassa oleva
+20745=Jos olemassa oleva tiedosto on valmis. Näytä lataus suoritettu ikkuna. Muussa tapauksessa jatka latausta.
+1641=Tiedoston on jo latauslistassa. Voit valita yhden seuraavista valinnoista tai painaa Peruuta painiketta ohittaaksesi tiedoston latauksen
+1645=Muista valintani äläkä näytä tätä ikkunaa uudestaan.\r\nVoit vaihtaa sen IDM ohjelmassa Asetukset -> Lataukset myöhemmin.
+1646=Jos kaksois latauslinkki on lisätty:
+
+20746=Internet Explorer, MSN Explorer, ja IE pohjaiset selaimet
+20747=Netscape 8.0 ja uudemmat
+20748=Netscape 7.xx ja 6.xx
+
+// v 5.05 build 2
+20749=Voit vetää ja pudottaa tämän tiedoston
+//Dear translators, if you added "CompleteDlg.htm" topic to your help file, or you did not translate the help file and use the English version, please add and translate the phrase "Press F1 to read more" at the next line.
+20750=Vedä tämä kuvake aloittaaksesi vedä ja pudota toiminnan ladatulle tiedostolle.
+//or 20750=Drag this icon to start the drag and drop operation for the downloaded file.\r\nPress F1 to read more.
+20751=Vedä ja pudota ladattu tiedosto
+
+// v 5.07
+1647=Jatka
+20754=Tarvitset ylläpitäjän luvan tallentaaksesi tiedostoja valittuun paikkaan
+20755=Tarvitset ylläpidon luvan suorittaaksesi tämän toiminnon
+
+// v 5.07 build 2
+20756=IDM asennusohjelma uudelleenkäynnistää tieokoneesi vaihtaakseen käytössä olevat tiedostot. Paina OK painiketta uudelleenkäynnistääksesi tietokoneen
+20757=Vahvista uudelleenkäynnistys
+20758=Internet Download Manager on asennettu onnistuneesti. Ohjelma käynnistyy automaattisesti ja ottaa lataukset haltuunsa selaimelta.
+20759=Voit käynnistää sen myös \"Aloita -> Kaikki ohjelmat -> Internet Download Manager\" valikko.
+
+// v 5.07 build 6
+//new checkbox on Options->General
+1650=Käynnistä moduli napsausten monitorointiin IE pohjaisissa selaimissa (MSN, Avant, jne)
+
+// v 5.07 build 7
+20760=IDM on havaitsenut oletus selaimen olevan %s.\n  Yleisesti on tarpeeksi käyttää perusselaimen integraatiota IDM kanssa. IDM ottaa lataukset haltuunsa kaikilta yleisiltä selaimilta. \"Integraatio asetukset\" moduuli on käytössä latauksiin ja se voi aiheuttaa konflikteja toisten Internet ohjelmien kanssa. Jos et käytä \"Integraatio asetukset\" ottaaksesi lataukset muilta Internet ohjelmilta. Suosittelemme tarkistamaan asetuksen \"Käytä selaimen integraatio asetusta\" pois \"Asetukset->Yleistä\" ikkunassa.
+
+//v 5.08 build 5
+//new dialogs
+302=Peruuttaa automaattisesti aloitetun latauksen
+1651=Olet peruuttanut latauksen kaksi kertaa.\n\n Jos IDM ottaa latauksen virheellisesti. Voit lisätä osoitteen tai tämän sivuston IDM:n poikkeusluetteloon:
+1652=Älä aloita latausta automaattisesti tältä sivustolta:
+1653=Älä aloita latausta automaattisesti tästä osoitteesta:
+1655=Voit muokata poikkeusluetteloa \"Asetukset->Tiedosto tyypit\" valitse vaihtoehdot ikkuna
+1654=Älä näytä tätä ikkunaa uudestaan
+
+303=Osoitteiden poikkeusluettelo
+1661=Älä aloita latausta automaattisesti seuraavista osoitteista:
+1659=Näytä ikkuna lisätäksesi osoitteen poikkeusluetteloon jos lataus peruutettu kaksi kertaa
+
+304=Lisää osoite poikkeusluetteloon
+
+//changes in "Options->File Types" dialog:
+1656=Muokkaa luetteloa ...
+//label 1372 was divided into 2 parts
+1667=Älä aloita latauksia automaattisesti seuraavilta sivustoilta:
+1662=(eroita nimet tyhjällä välillä)
+
+//v 5.08 build 7
+20763=Pyydetty tiedosto näyttää HTML sivulta.\r\n\r\n Palvelin lähetti HTML sivun toisella pyynnöllä. Jotkut palvelimet eivät salli saman tiedoston pyyntöä kahdesti. Sinulla on \"Aloita lataus välittömästi Lataa tiedoston info ikkunan avautuessa\" vaihtoehto pois päältä. IDM lähetti ensimmäisen pyynnön saadakseen tiedosto tyypin ja koon ja lähetti toisen pyynnön painaessa \"Aloita lataus\". \r\n\r\n Koita poistaa asetus \"Aloita lataus välittömästi Lataa tiedoston info ikkunan avautuessa\" vaihtoehto \"Asetukset->Lataukset\", Virkistä sivu selaimessa ja koita ladata uudestaan..
+
+//v 5.09 build 4
+305=IDM ei voi ottaa latausta
+20764=Jotkut sivustot eivät salli saman tiedoston kyselyä kahdesti.\r\n\r\n Internet selain teki pyynnön \"%s\" tiedostolle. IDM:n pyytäessä tiedostoa uudestaan, sivusto lähetti webbisivun latauksen sijasta.\r\n\r\n Halutessasi ottaa tämän latauksen IDM:lle aseta erikoisnäppäin \"IDM Asetukset->Yleistä->Näppäimet...\". Paina ja pidä tätä näppäintä kun napsautat lataus linkkiä/painiketta. IDM ottaa latauksen haltuunsa ennen selaimen latausta. Huomioi että \"Ins\" näppäin toimii useimmilla selaimilla.

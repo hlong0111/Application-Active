@@ -1,0 +1,13 @@
+AWS > Điện toán đám mây > sử dụng tài nguyên qua internet > sử dụng bất cứ lúc nào và trả tiền cho dịch vụ mình sử dụng
+AWS thị phần đứng đầu 2016
+
+Region > đặt hạ tầng (26) > sing hongkong jarkata
+AvailabilityZone nằm trong 1 region > phục vụ failover cho region nên chạy trên 2 AZ khác nhau
+Đường truyền riêng/ không qua internet
+
+Mo hình chia sẻ trách nhiệm (Shared responsibility model):
+AWS chịu trách nhiệm Region, AZ, Edge locations + compute storage, db, network
+Client: chịu trách nghiệm cho các component từ cài đặt (mã hoá, mạng, tường lửa,...)
+
+
+AWS IAM: khi bắt đầu sử dụng -> email/pass -> root user

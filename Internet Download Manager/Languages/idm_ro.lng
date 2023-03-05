@@ -1,0 +1,1727 @@
+lang=0x18 Romanian
+tips=tips_ro.txt
+help=idmman.chm
+tutor=tutor.chm
+grabberhelp=grabber.chm
+
+//Traducere în limba românã: flavius@akapost.com
+//Ready for IDM version 5.18b5
+
+//This template should be used to translate Internet Download Manager 
+//to foreign languages.
+//All template files should be named using idm_*.lng name pattern convention. 
+//Please place the abbreviated language name (de, en, es, fr, :) 
+//instead of the asterisk. For example: idm_de.lng or idm_fr.lng
+
+//The first string inside the template should be lang=ID Name
+//where Name - the full name of the language (on English),
+//ID - hex number that defines Windows API value of the language.
+//Here are sample primary language IDs:
+//0x06 DANISH
+//0x0b FINNISH
+//0x0c FRENCH
+//0x07 GERMAN
+//0x10 ITALIAN
+//0x11 JAPANESE
+//0x0a SPANISH
+//0x1d SWEDISH
+
+//The strings from second to fourth may contain file names of translated tips, 
+//help and tutorial files. If these strings are absent, 
+//or files cannot be found in <IDM root>/Languages folder, 
+//then IDM uses default English files.
+//Sample:
+//tips=tips_de.txt
+//help=idm_de.chm
+//tutor=tut_de.chm
+
+//Then you need to translate all IDM strings. 
+//It's IMPORTANT when a string has any special characters 
+//(%s %d %x %ld %I64d %%), they should all remain in the translated 
+//string and cannot trade places. Remember that IDM inserts dynamic 
+//values instead of these special characters in a predefined order. 
+//Instead of %s IDM inserts a string, %% - %, in all other cases IDM 
+//inserts a number.
+
+//The strings beginning with // are comments 
+//and you don't need to translate them
+
+
+// Dialogs
+
+//main dialog
+1281=Categorii
+t1278=Ascunde dosarele
+20369=În coadã
+20370=Nume fiºier
+20371=Status
+20372=Mãrime
+20373=Timp rãmas
+20374=Vitezã transfer
+20375=Descriere
+
+//toolbar
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20376=URL nou
+20377=Reluare
+20378=Stop
+20379=Stop tot
+20380=ªterge
+20446=ªterge OK
+20381=Opþiuni
+20382=Planificator
+20383=Promo IDM
+//tooltips for buttons
+t32789=Adaugã/Descarcã manual un nou URL
+t32790=Start/Reia descãrcarea fiºierului selectat
+t32791=Opreºte descãrcarea fiºierului selectat
+t32792=Opreºte toate descãrcãrile
+t32793=ªterge din listã fiºierul selectat
+t32794=ªterge din listã fiºierele descãrcate
+t32795=Opþiuni program : Integrare Browser/Sistem, extensii fiºiere, proxy, parole ºi altele
+t32798=Programeazã ºi pune în aºteptare descãrcãri de fiºiere
+t32788=Scrie unui amic despre IDM
+
+//Registration dialog
+138=Înregistrare Internet Download Manager
+1326=Introdu informaþiile de înregistrare în câmpurile corespunzãtoare ºi apasã OK.
+1330=Cod înregistrare :
+1327=Prenume :
+1328=Nume de familie :
+1329=Email :
+1191=&OK
+1201=&Cumpãrã online
+1080=&Renunþã
+
+//Download progress dialog
+103=Progres descãrcare
+1154=(necunoscut)
+1178=<< Ascunde &detaliile
+20426=<< Ascunde detaliile
+1158=&Pauzã
+20392=Pauzã
+20424=Start
+20425=Aratã &detaliile >>
+1300=Mãrime :
+1301=Descãrcat :
+1302=Vitezã :
+1303=Timp rãmas :
+1149=(necunoscut)
+1299=Status :
+1030=Conectare la server ...
+1305=Descãrcare în funcþie de conexiuni
+1304=Posibilitate reluare :
+1175=(necunoscut)
+2=&Renunþã
+20416=Nr.
+20417=Descãrcat
+20418=Info
+20419=Da
+20420=Nu
+20421=%d ore %d min
+20422=%d min %d sec
+20423=%d sec
+
+130=Info descãrcare
+1006=&Start
+1010=&Cautã ...
+1004=&Mai târziu
+1298=Descriere
+1173=Preview
+1297=Categorie
+1296=Salveazã ca
+t1004=Adaugã în listã un fiºier de descãrcat mai târziu
+t1006=Start descãrcare
+
+148=Scrie noua adresã de descãrcat
+1182=&Autorizeazã
+1184=&Login :
+1186=&Password :
+1022=&OK
+
+//Options Dialog
+134=Configurare Internet Download Manager
+1092=&OK
+20286=Generale
+20287=Conexiune
+20288=Descãrcãri
+20289=Proxy
+20290=Login site-uri
+20291=Dial Up
+20292=Sunete
+20293=Generale
+20294=Conexiune
+20295=Descãrcãri
+20296=Proxy
+20297=Login
+20298=Dial Up
+20299=Sunete
+20300=Integrare Browser/Sistem
+20301=Tip conexiune
+20302=Setãri default descãrcãri
+20303=Configurare proxy HTTP, HTTPS ºi FTP
+20304=Nume ºi parole pentru servere/site-uri
+20305=Setãri Dial up
+20306=Setãri sunete
+//General tab
+1056=&Porneºte Internet Download Manager odatã cu Windows
+1061=Porneºte automat descãrcarea &URL-urilor din clipboard
+1065=&Integreazã în Internet Explorer, MSN Explorer ºi browsere bazate pe IE
+1077=&Default
+1238=Foloseºte tasta ALT ca IDM sã nu descarce nimic
+1251=Foloseºte tasta CTRL ca IDM sã descarce orice link
+1314=Plugins
+1169=Tipuri fiºiere
+1270=Descarcã automat urmãtoarele tipuri de fiºiere :
+t1056=Porneºte Internet Download Manager odatã cu Windows
+t1061=Monitorizeazã link-urile din Clipboard
+t1065=Monitorizeazã Internet Explorer
+t1068=Monitorizeazã Nescape Navigator
+//Proxy tab
+1102=Pro&xy HTTP
+1272=Confirmã parola
+1122=Proxy
+1123=Port
+1124=Utilizator
+1125=Parolã
+1107=Ia de la IE
+1108=Proxy &FTP
+1274=Confirmã parola
+1126=Proxy
+1127=Port
+1128=Utilizator
+1129=Parolã
+1113=Ia de la IE
+1116=Use FTP in PASV mode
+1118=Proxy &HTTPS
+1273=Confirmã parola
+1133=Proxy
+1135=Port
+1137=Utilizator
+1139=Parolã
+1141=Ia de la IE
+t1107=Proxy HTTP din configuraþia Internet Explorer
+t1116=Protocol FTP în mod pasiv (necesar pt. firewall)
+//Connection tal
+1153=Tipul ºi viteza conexiunii
+1306=Numãr maxim de conexiuni
+1254=&Limite descãrcãri
+//Downloads tab
+1049=&Cautã
+1190=Foloseºte ultimul dosar pentru categoria "Generale"
+1136=Dosar default pentru categoria "Generale"
+1132=Salvare fiºiere
+1236=Aratã dialogul "Descãrcare completã"
+1317=Verificare anti-virus
+1318=Program anti-virus
+1165=&Cautã
+1319=Parametri pt. linia de comandã
+1316=Dialog cu progresul descãrcãrii
+1315=Dialoguri
+1059=Aratã dialogul cu descãrcarea
+1138=Dosar temporar
+1054=&Cautã
+//Dial Up tab
+1313=Conexiune:
+1307=Opþiuni conexiuni
+1166=&Aplicã
+1308=Opþiuni rechemare numãr
+1309=Tentative de a recompune numãrul (zero pt. infinite):
+1310=Timpul între tentative:
+1312=secunde
+1311=ori
+1058=Foloseºte Windows Dial Up Networking
+//Sounds tab
+1320=Sunete pentru evenimentele Internet Download Manager
+1172=&Cautã
+1091=Play
+//Passwords tab
+20436=Site/cale
+20437=Utilizator
+20438=Parolã
+1087=Nou
+1196=Editeazã
+1050=ªterge
+
+//File properties dialog
+135=Proprietãþi fiºier
+1325=Tip:
+1324=Mãrime:
+1323=Salveazã în:
+1082=&Cautã
+1322=Login
+1289=Parolã
+1321=Confirmã parola
+1164=Deschide
+1240=Ultima încercare
+1241=Rezultat: 
+
+100=Despre Internet Download Manager
+1284=Pagina web:
+1285=Suport:
+1286=Acest produs este înregistrat de:
+1181=Versiune neînregistratã
+1161=Cautã &actualizãri
+1185=În&registrare
+1085=&Cumpãrã
+1262=versiunea:
+t1187=Click pentru a vizita site-ul IDM
+t1189=Contacteazã echipace oferã suport
+t1161=Verificã dacã existã actualizãri pe www.internetdownloadmanager.com
+t1185=Înregistreazã IDM cu codul tãu personal (registration key)
+t1201=Click pentru a afla cum se obþine o licenþã pentru IDM
+t1085=Cumpãrã o copie înregistratã a IDM
+
+150=Închidere computer
+1263=Internet Download Manager a terminat. Conform setãrilor de tine fãcute, computerul va fi închis.
+1170=În&chide acum
+
+1163=&Da
+1088=Da, &toate
+1202=&Nu
+1051=Ni&ciunul
+
+177=Planificare
+1331=Descãrcãri în aºteptare
+1333=Descarcã
+1332=Planificator
+1218=Începe descãrcarea la
+1219=O datã
+1221=Zilnic
+1062=Duminicã
+1057=Luni
+1066=Marþi
+1069=Miercuri
+1222=Joi
+1223=Vineri
+1224=Sâmbãtã
+1225=Stop descãrcare la
+1228=Închide computerul la terminare
+1235=Forþeazã terminarea tuturor proceselor
+1089=&Aplicã
+1232=&Descarcã !
+1233=&Stop
+1079=Înc&hide
+1227=Deconecteazã modemul la terminare
+1264=MBytes
+1265=ore
+1266=Descarcã nu mai mult de
+1171=Aj&utor
+1267=la fiecare
+1268=Avertizeazã înaintea opririi descãrcãrilor
+1271=Închide Internet Download Manager la terminare
+1335=fiºiere în acelaºi timp
+t1229=Mutã jos
+t1230=Mutã sus
+t1231=ªterge din lista de aºteptare
+t1232=Start coadã
+t1233=Stop coadã
+t1235=Foloseºte opþiunea numai în caz de urgenþã deoarece ar putea cauza pierderi de date altor programe.
+
+184=Dial up
+1247=Conectare ...
+1167=&Recompune
+
+186=Opþiuni Dial Up
+1336=&Compune
+1237=&Salveazã parola
+1288=&Utilizator
+
+187=Adu aici hyperlink-uri
+
+190=Descãrcare componente IDM
+1=&OK
+1258=&Descarcã componentele
+
+191=Exportare listã descãrcare
+1259=Exportã &lista de aºteptare
+1260=Exportã fiºierele &selectate
+1261=Exportã &toate fiºierele
+
+192=Importare link-uri în IDM
+1168=&Editeazã
+1090=ª&terge
+
+193=Porneºte automat descãrcarea urmãtoarelor tipuri de fiºiere:
+
+105=Sfatul zilei
+1001=Aratã &Sfatul zilei
+1003=&Urmãtorul
+107=Sfatul zilei
+108=ªtiai cã ...
+109=Fiºierul cu sfaturi nu se aflã în dosarul specificat
+110=Probleme citind fiºierul cu sfaturi
+
+146=Logare la un site
+1337=Server/cale
+1290=Confirmã parola
+1287=Notã: Scrie calea numai dacã ai nume de utilizator diferite pentru dosarele de pe server.
+
+182=Actualizare
+1295=Caut o versiune mai nouã ...
+								
+194=A fost atinsã limita descãrcãrilor !                                                                   																					
+
+144=O nouã versiune a Internet Download Manager estedisponibilã
+1162=&Actualizeaza
+1086=&Renunþã
+
+//Zip preview dialog
+196=Preview ZIP
+20254=Nume fiºier
+20255=Împachetat
+20256=Mãrime
+20257=Modificat
+
+//New category dialog
+204=Categorii IDM
+1174=&Cautã
+1291=Nume categorie
+1292=Pune automat în aceastã categorie urmãtoarele tipuri de fiºiere:
+1293=Notã: separã extensiile de fiºiere cu spaþiu (ex: avi mpg mpeg)
+1239=&Memoreazã dosarul ultimei salvãri
+1294=Salveazã descãrcãrile viitoare ale acestei categorii în dosarul:
+
+
+// Menu
+m32771=&Misiuni
+32771=Descãrcare nouã
+32809=Aratã icoana pt. drag-and-drop
+m32821=Exportare
+32821=în fiºier IDM
+32823=în fiºier text
+m32816=Importare
+32816=din fiºier IDM
+32818=din fiºier text
+32772=&Ieºire
+
+m32774=&Fiºier
+32774=Stop descãrcare
+32775=ªterge
+32776=Descarcã acum
+
+m32778=&Descãrcãri
+32778=Toate în pauzã
+32779=Opreºte toate
+32794=ªterge din listã fiºierele descãrcate
+32801=Planificator
+32781=Opþiuni
+
+m32825=&Vizualizare
+32825=Ascunde categoriile
+m32828=Ordineazã fiºierele
+32828=în ordinea adãugãrii
+32830=dupã nume
+32832=dupã mãrime
+32834=dupã status
+32836=dupã timpul rãmas
+32838=dupã rata de transfer
+32840=dupã descriere
+m32841=Limba IDM
+
+m57670=&Ajutor
+57670=Index
+32811=Tutoriale
+106=Sfatul zilei
+32813=Pagina web IDM
+32784=Contact
+32787=Actualizare
+32786=Despre IDM
+32788=Spune unui amic
+
+m32785=Î&nregistrare
+32785=Comandã online
+32783=Înregistreazã
+//end menu
+
+
+//Strings & messages
+101=&Despre IDM ...
+32799=Deschid Port
+32800=Port deschis
+32802=Conectez dispozitiv
+32804=Dispozitiv conectat
+32806=Toate dispozitivele conectate
+32807=Autentificare
+32808=Notificare autentificare
+32810=Reîncercare autentificare
+32812=Callback
+32814=E cerutã modificarea parolei
+32815=Proiectare ...
+32817=Calculez viteza
+32819=Autentificare recunoscutã
+32820=ReAutentificare
+32822=Autentificat
+32826=Aºtept resetarea modemului
+32827=Aºtept Callback
+32829=Interactiv
+32831=Reîncerc autentificarea
+32833=Callback setat de Caller
+32835=Parolã expiratã
+32837=Conectat
+32839=Deconectat
+
+20000=Descãrcarea fiºierului %s este completã.\n\nDescãrcat %s (%I64d Bytes)\nFiºier salvat ca %s
+20001=Caracteristicã disponibilã numai în versiunea înregistratã.
+20002=Nu pot redenumi fiºierul descãrcat din (%s) în %s. Fiºierul a fost salvat în dosarul temporar.
+20003=Parolã greºitã! Mai încearcã.
+20004=Ai uitat sã scrii parola!
+20005=Ai uitat sã scrii numele!
+20006=Ai uitat sã scrii calea!
+20007=Vrei sã ºtergi informaþiile de logare pentru acest site?
+20008=Lista de descãrcãri conþine fiºierele ce vor fi descãrcate din 
+20009=.\nSunt acestea numele ºi parola pentru aceastã descãrcare?
+20010=.\nSchimbi numele ºi parola acestei descãrcãri în \"anonim\" ?
+20011=Informaþiile de logare la acest site existã deja în lista de parole.\nNoile informaþii nu au fost salvate. Dacã vrei poþi modifica informaþiile existente.
+20012=Ai modificat câmpul \"site/cale.\" Informaþiile de logare la acest nou site existã deja în lista de parole.\nInformaþiile de logare nu au fost modificate. Dacã vrei poþi modifica informaþiile existente.
+20013=Momentan acest site nu este disponibil!
+20014=Ai nevoie de autorizaþie pentru acest site. Poþi seta informaþiile de logare astfel: Click cu butonul drept/Proprietãþi sau adaugã informaþiile în \"Opþiuni/Parole site-uri\" pentru a le folosi la fiecare descãrcare de pa acest site.
+20015=Ai nevoie de autorizaþie pentru acest proxy server. Modificã numele ºi parola în \"Opþiuni/Proxy\"
+20016=A apãrut o eroare necunoscutã în timpul descãrcãrii.\nTrimite-ne via email fiºierele %s ºi %s (dacã existã).
+20017=A apãrut o eroare în timpul descãrcãrii.\n Reîncearcã. Dacã poþi descãrca acest fiºier cu o altã aplicaþie, dar nu cu IDM, trimite-ne via email fiºierul %s (dacã existã).
+20018=IDM nu poate descãrca acest fiºier.
+20019=IDM nu poate descãrca acest fiºier.
+20020=Memorie insuficientã pentru a relua descãrcarea.
+20021=IDM nu s-a putut conecta la server. \nProbabil serviciul este inactiv sau ai un firewall care blocheazã IDM. Dacã ai un firewall asigurã-te cã este setat sã permitã IDM sã descarce de pe internet.
+20022=Autorizaþie refuzatã.
+20023=Nu pot asocia adresa. Adresa cerutã nu este validã în context.
+20024=O conexiune existentã a fost închisã forþat de host. Asta se întâmplã dacã aceeaºi aplicaþie este opritã pe host, host-ul este repornit sau închis forþat.
+20025=Operaþiunea a eºuat pentru cã host-ul e inactiv. Nu a fost iniþializatã reþeaua pe host.
+20026=Eroare la conectare. Host necunoscut. Numele acestuia nu este oficial sau nu poate fi gãsit în bazele de date în care am cãutat.
+20027=Reþea inaccesibilã. Aceastã înseamnã cã aplicaþia localã nu ºtie strada spre host.
+20028=Host-ul la care erai conectat s-a blocat ºi s-a repornit.
+20029=Reþea inactivã. Ar putea indica o problemã serioasã cu sistemul de reþea, cu interfaþa reþelei sau cu reþeaua localã.
+20030=Prea multe conexiuni active. Aºteaptã terminarea unor descãrcãri.
+20031=Eroare la conectare
+20032=Mãrimea fiºierului %s este de %I64d bytes.\nPe drive-ul \'%s\' unde vrei sã salvezi nu mai este spaþiu suficient.\nDacã nu eliberezi spaþiul necesar în timpul descãrcãrii, fiºierul va fi salvat cu numele %s în dosarul temporar.
+20033=Nu mai este spaþiu liber pe drive-ul \'%s\' .\nPentru a continua descãrcarea elibereazã spaþiul necesar sau modificã dosarul temporar în Opþiuni\\Generale ºi reia descãrcarea.
+20034=Nu pot gãsi serverul %s
+20035=Nu pot gãsi serverul proxy %s
+20036=IDM nu se poate conecta la %s:%ld
+20037=IDM nu se poate conecta la serverul proxy %s:%ld
+20038=IDM nu se poate conecta la %s:%ld\nConexiunea a expirat.
+20039=IDM nu se poate conecta la serverul proxy %s:%ld\nConexiunea a expirat.
+20040=Eroare necunoscutã în timpul integrãrii de segmente de fiºier într-un fiºier.
+20041=Eroare necunoscutã în timpul integrãrii de segmente de fiºier descãrcate în fiºierul final.
+20042=Eroare la deschiderea fiºierului pentru a integra segmentele descãrcate.
+20043=Nu pot calcula mãrimea segmentului urmãtor în timpul integrãrii de segmente descãrcate.
+20044=Eroare la alocarea memoriei virtuale pentru integrarea segmentelor descãrcate.
+20045=Eroare fatalã de integrare a segmentelor descãrcate într-un singur fiºier.
+20046=Eroare fatalã de citire a segmentelor descãrcate într-un singur fiºier.
+20047=Eroare necunoscutã (fiºier sau Registry) în timpul integrãrii segmentelor descãrcate.
+20048=IDM nu se poate conecta la server.
+20049=Eroare la citirea Internet socket
+20050=Eroare la scrierea Internet socket
+20051=Conexiune expiratã
+20052=Conexiune expiratã
+20053=Conexiune expiratã, repornesc ...
+20054=Conexiune eºuatã, repornesc ...
+20055=Eroare la primirea datelor
+20056=Conexiune închisã de server.
+20057=IDM nu se poate loga la serverul FTP.
+20058=IDM nu gãseºte acest fiºier pe serverul FTP.
+20059=Serverul FTP nu permite conexiuni.
+20060=Eroare la rãspunsul serverului FTP.
+20061=Eroare la rãspunsul serverului FTP.: format de rãspuns invalid
+20062=IDM nu gãseºte adresa IP pentru date la rãspunsul comenzii PASV.
+20063=IDM nu poate deschide socket-ul internet.
+20064=IDM nu poate deschide socket-ul de date FTP.
+20065=Asociere nereuºitã între adresã ºi socket internet.
+20066=Eroare la verificarea socket-ului date.
+20067=Eroare la verificarea socket-ului internet.
+20068=IDM nu poate trimite comanda PORT.\nEroare getsockname().
+20069=Comanda PORT eºuatã.
+20070=Eroare de scriere a fiºierului.\nMotiv posibil: discul de destinaþie este plin.
+20071=Conexiune imposibilã deoarece serverul FTP nu suportã comanda PASV ºi este bifatã cãsuþa \'FTP în mod PASV\' în Opþiuni\\Proxy/Firewall.
+20072=Mãrimea fiºierului %s nu a fost obþinutã din rãspunsul serverului.
+20073=Serverul a rãspuns incorect la comanda repornire.
+20074=Serverul a dat o nouã locaþie ºi numele fiºierului %s a fost schimbat în %s.\n\nContinui descãrcarea ?
+20075=Deconectare ...
+20076=Descãrcare completã, integrez segmentele descãrcate într-un singur fiºier ...
+20077=Au fost create conexiuni opþionale.
+20078=Conectare ...
+20079=Selecþionare eºuatã
+20080=Conexiune OK.
+20081=Eroare de scriere în timpul recepþiei de date.
+20082=Procedura Recv() eºuatã.
+20083=Conexiune închisã de server.
+20084=Deconectare.
+20085=Aºteptare rãspuns ...
+20086=Rãspuns primit
+20087=Recepþie date ...
+20088=Descãrcare completatã.
+20089=Date conexiune: conectare ...
+20090=Date conexiune: conectat
+20091=Pregãtit pentru a primi date
+20092=Verificare compatibilitate comenzi: trimitere 2 comenzi ...
+20093=Verificare compatibilitate comenzi: primul rãspuns e OK, aºtept al doilea...
+20094=Recepþie info fiºier ...
+20095=String inexistent în rãspunsul de la server.
+20096=String inexistent în rãspunsul de la serverul ftp.
+20097=Trimitere comanda QUIT.
+20098=Serverul nu este pregãtit pentru un nou utilizator.
+20099=Socket-ul de control este conectat.
+20100=Trimitere nume utilizator ...
+20101=Trimitere parolã ...
+20102=Nume utilizator greºit
+20103=Nume utilizator OK
+20104=Parolã greºitã
+20105=Parolã OK
+20106=Trimitere comanda PASV ...
+20107=Serverul nu suportã PASV.
+20108=PASV OK, extrag adresa ...
+20109=Conectare socket OK, ascultare apel
+20110=Acceptare ...
+20111=Acceptat
+20112=Trimitere comanda PORT ...
+20113=PORT OK
+20114=Modificare dosar de lucru server ...
+20115=CWD eºuat.
+20116=CWD OK
+20117=Conexiune eºuatã.
+20118=Trimitere comanda TYPE ...
+20119=Comanda TYPE eºuatã.
+20120=TYPE OK.
+20121=Trimitere comanda REST ...
+20122=Comanda REST eºuatã.
+20123=REST OK
+20124=Trimitere comanda RETR ...
+20125=Comanda RETR eºuatã.
+20126=Trimitere comanda SIZE ...
+20127=Trimitere comanda LIST ...
+20128=Comanda LIST eºuatã.
+20129=LIST OK
+20130=Comanda SIZE eºuatã.
+20131=În rãspunsul de la server lipseºte mãrimea fiºierului.
+20132=SIZE OK
+20133=Control socket nu este conecteat la server.
+20134=Reluare de la capãt deoarece fiºierul local a fost ºters. Reluarea dintr-un punct arbitrar nu este posibilã în acest caz.
+20135=Conexiunea este refãcutã ...
+20136=Probabil serverul nu suportã comenzi în paralel.
+20137=Compatibilitate comenzi: OK
+20138=Trimitere comanda HEAD ...
+20139=Trimitere comanda GET ...
+20140=Reintegrare segmente de fiºier ...
+20141=Conectare ...
+20142=Descãrcare completã. Descãrcaþi: %I64d Bytes
+20143=Primire date ...
+20144=Conexiuni opþionale, conectare ...
+20145=Descãrcare eºuatã. Descãrcaþi: %I64d Bytes
+20146=Mãrimea fiºierului %s este %I64d bytes.\nPe drive-ul \'%s\' nu mai este loc suficient pentru segmentele fiºierului.\nPentru a continua descãrcarea elibereazã spaþiul necesar sau ºterge fiºierul din lista de aºteptare sau schimbã dosarul fiºierelor temporare în Opþiuni\\Generale, apoi reîncearcã.
+20147=Spaþiu insuficient pe drive-ul \'%s\'.
+20148=Reintegrarea segmentelor descãrcate este imposibilã.
+20149=Aceastã descãrcare este deja completã, destinaþia fiºierului nu a fost schimbatã.
+20150=Pe server a fost modificatã data fiºierului.\nVrei sã descarci acest fiºier de la început ?
+20151=Foloseºti cea mai nouã versiune a Internet Download Manager. Mai verificã, în curând vor fi disponibile actualizãri.
+20152=Eroare, mai încearcã.
+20153=Eroare de alocare a memoriei virtuale. Închide unele programe ºi apasã \'Reîncearcã\'.
+20154=Integrare
+20155=Nume server valid, dar datele nu îi sunt corect asociate lui.
+20156=Fiºier %s - descãrcat %s (%I64d Bytes). Fiºierul ar putea fi descãrcat doar parþial deoarece mãrimea este necunoscutã.\nFiºier salvat ca %s.
+20157=Nici un obiect selectat !
+20158=Mutã sus
+20159=Mutã jos
+20160=ªterge
+20161=Descãrcare imposibilã, rãspuns invalid de la server.
+20162=Nu existã o versiune mai nouã a fiºierului ajutor IDM !
+20163=Nu pot redenumi fiºierul newIDMan.hlp în idman.hlp. Încearcã sã-l redenumeºti manual.
+20164=Actualizare rapidã IDM de pe www.internetdownloadmanager.com. Primesc fiºierele noi ...
+20165=Actualizare rapidã IDM de pe www.tonec.com. Primesc fiºierul cu ajutor mai nou ...
+20166=Manual Internet Download Manager
+20167=Descãrcare anulatã de utilizator
+20168=Actualizare rapidã eºuatã, eroare la descãrcarea noilor fiºiere IDM. Încearcã mai târziu.
+20169=Fiºierul necesar nu existã.
+20170=\nVrei sã-l deschizi ?
+20171=Acest fiºier se aflã deja în lista fiºierelor de descãrcat. Îl adaugi ca duplicat?
+20172=Serverul rãspunde cã nu ai permisiunea sã descarci acest fiºier.
+20173=Eroare la citirea cãrþii de telefon.
+20174=Conectare la Internet imposibilã
+20175=Nu pot descãrca fiºierul, timpul a expirat
+20176=Fiºierul pare a fi o paginã web html.\r\n\r\nDacã faci descãrcarea din Internet Explorer (fãcând click pe link), apasã ºi þine apãsatã tasta Alt în timp ce faci click pe link.\r\n\r\nVrei sã descarci acest fiºier cu IDM ºi sã-l salvezi ca paginã html?
+20177=Fiºierul pare a fi o paginã web html.\r\n\r\nDacã faci descãrcarea din Internet Explorer (fãcând click pe link), apasã ºi þine apãsatã tasta Alt în timp ce faci click pe link.\r\n\r\nVrei ã redenumeºti fiºierul descãrcat în paginã html?
+20198=Eroare: Nu pot schimba integrarea Internet Download Manager în Internet Explorer. Trimite fiºierul  %s autorilor IDM.
+20199=Nu pot schimba integrarea Internet Download Manager în Internet Explorer pentru cã nu ai acces la modificarea Registry.
+20200=Internet Download Manager a fost integrat în Internet Explorer. Închide Internet Explorer ºi reporneºte-l.
+20201=Integrarea în Internet Explorer a fost anulatã. Închide Internet Explorer ºi reporneºte-l.
+20202=Nu pot actualiza plugin-urile, vezi fiºierul \"%s\" pentru detalii.
+20203=Aceasta este versiunea de probã de 60 de zile a Internet Download Manager.
+20204=Fiºierul a fost mutat.
+20205=Fiºierul %s a fost mutat.
+20206=Deschidere fiºier descãrcat
+20207=Descãrcare componente IDM
+20208=Nu pot schimba integrarea Internet Download Manager în Netscape pentru cã nu ai acces la modificarea Registry.
+20209=Versiunea fiºierului etcprotocol.dll este obsoletã. Vrei sã descarci versiunea mai nouã? Închide Internet Explorer pentru a suprascrie fiºierul!
+20210=Nu pot redenumi fiºierul %s în %s. Închide Internet Explorer ºi redenumeºte-l manual.
+20211=Fiºierul %s va fi salvat ca %s. Acest fiºier existã deja. Vrei sã înlocuieºti fiºierul existent?\n\n Apasã \"DA\" pentru a-l înlocui, \"NU\" pentru a-l salva cu un nume diferit, \"RENUNÞÃ\" pentru a-l ºterge din lista fiºierelor de descãrcat.
+20212=Fiºierul %s va fi salvat ca %s. Acest fiºier existã deja în lista fiºierelor de descãrcat. Confirmi salvarea fiºierului cu acest nume?\n\n Apasã \"DA\" pentru confirmare, \"NU\" pentru salvarea cu un alt nume, \"RENUNÞÃ\" pentru anularea adãugãrii în lista fiºierelor de descãrcat.
+20213=Importare în IDM
+20214=Nu pot citi link-urile din fiºier sau fiºierul este corupt.
+20215=Fiºierul nu este o exportare validã IDM export file sau este corupt.
+20216=Fiºierul nu conþine nici un link.
+20217=Eroare necunoscutã la executarea operaþiunii!
+20218=Descãrcare imposibilã, probabil serverul FTP nu permite reluarea. Vrei sã-l descarci de la început?
+20219=Fiºierul trebuia salvat cu numele \"%s%s\", dar serverul dã numele \"%s\". Vrei sã salvezi fiºierul cu numele dat de server?
+20220=Descãrcarea fiºierului %s este completã.\nAcest fiºier m3u conþine un link spre un fiºier mp3. Vrei sº descarci fiºierul mp3?
+20221=Descãrcarea fiºierului %s este completã.\nAcest fiºier m3u conþine unul sau mai multe link-uri spre fiºiere mp3. Vrei sº descarci fiºierele mp3?
+20222=Fiºier M3U descãrcat.
+20223=Extensie
+20224=Mimetype
+20225=Nu pot porni programul antivirus.\n%s
+20226=Internet Download Manager a terminat descãrcãrile. Conform programãrii, IDM va deconecta modemul.
+20227=Deconectare modem
+20228=Deconecteazã acum
+20229=Stop acum
+20230=Limitele descãrcãrii depºie!
+20231=Date invalide
+20232=Valoarea orelor în \"Limite descãrcãri\" trebuie sã fie între 1 º 23. Corecteazã sau debifeazã \"Limite descãrcãri\" .
+20233=Vrei sã descarci un tutorial (circa 60 KB) de pe site-ul IDM ?
+20234=Vrei sã descarci ºi sã instalezi fiºierul cu ajutor IDM (circa 200 KB) ?
+20235=Nu gãsesc fiºierul HHCtrl.ocx necesar pentru afiºarea fiºierului cu ajutor!
+20236=Ajutor IDM
+20237=Mãrimea fiºierului a fost modificatã pe server.\nVa fi descãrcat de la început.
+20238=Nu pot crea o conexiune via proxy server.
+20239=Eroare la crearea conexiunii securizatela %s.
+20240=Eroare la criptarea cererii.
+20241=Eroare la deschiderea security.dll. Nu pot crea conexiunea https.
+20242=Din pãcate parolã ºi confirmarea parolei nu se potrivesc pentru serverul proxy http! Mai încearcã.
+20243=Din pãcate parolã ºi confirmarea parolei nu se potrivesc pentru serverul proxy https! Mai încearcã.
+20244=Din pãcate parolã ºi confirmarea parolei nu se potrivesc pentru serverul proxy ftp! Mai încearcã.
+20245=Opþiuni Internet Download Manager
+20246=Descãrcare completã
+20247=Descãrcare eºuatã
+20248=Terminare/Oprire descãrcare coadã
+20249=Pornire descãrcare coadã
+20250=Eveniment
+20251=Sunet
+20252=Nu pot copia sunetul în dosarul cu sunete IDM!
+20253=Mai poþi folosi Internet Download Manager timp de %d zile. Vrei sã înregistrezi IDM acum?
+20258=Toate descãrcãrile
+20259=Neterminate
+20260=Terminate
+20261=Programe
+20262=Muzicã
+20263=Video
+20264=Jocuri
+20265=Documente
+20266=Adaugã categorie
+20267=ªterge
+20268=Proprietãþi
+20269=Vrei sã ºtergi categoria \"%s\" ?
+20270=ªtegrere categorie IDM
+20271=Adãugare categorie IDM
+20272=Editing category properties
+20273=Completeazã câmpul \"Nume categorie\".
+20274=Dosarul \"%s\" nu existã.\r\nVrei sã îl creezi?
+20275=Nu pot crea dosarul!\r\n%s
+20276=Ascunde categoriile
+20277=Aratã categoriile
+20278=Alege un dosar
+20279=Generale
+20280=Vrei sã muþi fiºierele descãrcate în aceste categorii conform tipurilor de fiºiere? Fiºierele nu vor fi mutate pe hard-disc, dar vor fi asociate cu categoria desemnatã.
+20281=Vrei sã muþi toate fiºierele descãrcate cu extensia \"%s\" în aceastã categorie? Fiºierele nu vor fi mutate pe hard-disc, dar vor fi asociate cu aceastã categorie.
+20282=Categorii IDM
+20283=\"Acces interzis\", eroare la asamblarea segmentelor descãrcate ale fiºierului. Ar putea fi cauzatã de programul antivirus sau firewall, sau ai încercat deschiderea fiºierului în timp ce se descãrca. Reporneºte computerul ºi apasã butonul de reluare pentru a asambla fiºierul.
+20284=Dosar default pentru categoria \"%s\"
+20285=Memoreazã ultimul dosar pentru categoria \"%s\"
+20307=- Alege conexiunea ta la internet -
+20314=256K Cablu/DSL/alta
+20315=300K Cablu/DSL/alta
+20316=512K Cablu/DSL/alta
+20319=Alta
+20320=Despre IDM
+20321=Aratã
+20322=Ieºire
+20323=Contacteazã-ne
+20324=Ajutor
+20325=Comandã online
+20326=Înregistreazã
+20327=Stop Download
+20328=ªterge
+20329=Reia Descãrcarea
+20330=Proprietãþi
+20331=URL invalid. Corecteazã-l.
+20332=Aceastã descãrcare nu este completã. O ºtergi?
+20333=Nu gãsesc configurarea proxy în setãrile Internet Explorer.
+20334=Fiºierul cu acest URL a fost deja descãrcat de Internet Download Manager. Vrei sã îl mai descarci o datã?
+20335=Fiºierul cu acest URL existã deja în lista fiºierelor de descãrcat º aºteaptã sã fie descãrcat. Vrei sã reiei descãrcarea?
+20336=Prea multe fiºiere cu acest nume. ªterge-le sau modificã numele.
+20337=Scrie numele pentru logare.
+20338=Nu pot gãsi un browser asociat.
+20339=Nu gãsesc aplicaþia Actualizare rapidã.
+20340=Introdu numele de înregistrare.
+20341=Nume de înregistrare invalid.
+20342=Am gãsit un URL în clipboard. Vrei sã îl descarci?
+20343=Scrie numele tãu !
+20344=Scrie numele de familie !
+20346=Scrie adresa email !
+20347=Introdu numãrul serial !
+20348=Ai introdus un numãr serial incorect.
+20349=Internet Download Manager a fost înregistrat cu un numãr serial fals. IDM se închide ...
+20350=Existã prea multe înregistrãri cu acest numãr serial. IDM se închide ...
+20351=Internet Download Manager a fost înregistrat cu un numãr serial fals. IDM se închide ...
+20352=Internet Download Manager nu a fost înregistrat în ultimele 60 zile. Perioada de probã s-a terminat. IDM se închide ...
+20353=Internet Download Manager nu a fost înregistrat în ultimele 15 zile. IDM se închide ...
+20354=Eroare necunoscutã
+20355=Necunoscut
+20356=Pune în aºteptare
+20357=ªterge din aºteptare
+20358=Start aºteptare
+20359=Stop aºteptare
+20360=Deschide
+20361=Ultima încercare:  
+20362=Rezultat:\n
+20363=Alege un singur fiºier!
+20364=Deschide
+20365= existã deja. Vrei sã înlocuieºti fiºierul existent?\n Apasã \"DA\" pentru înlocuire, \"NU\" pentru salvarea cu un nume divers, \"RENUNÞÃ\" pentru anularea descãrcãrii.
+20366=Descãrcare de pe
+20367=Salveazã în
+20368=Vrei sã ºtergi din listã toate fiºierele descãrcate?
+20384=Aratã icoana pt. drag-and-drop
+20385=Atenþie: Acest program pentru computer este protejat de legi de copyright ºi acorduri internaþionale. Reproducerea neautorizatã sau distribuirea chiar ºi în parte a acestui program ar putea aduce penalizãri civile ºi criminale severe ºi va fi pedepsitã de lege.
+20386=Nu pot crea dosarul %s, cod eroare = %ld\n
+20387=Eroare
+20388=Fiºiere
+20389=Toate fiºierele
+20390=Detalii:\n
+20391=Completã.
+20393=Descãrcare completã. Verificare antivirus în curs ...
+20394=AVI: Rez. %dx%d, %d frame/sec, Lungime: %s
+20395=, Lungime: 
+20396=, Titlu: 
+20397=, Artist: 
+20398=, Album: 
+20399=, Gen: 
+20400=WAV: %d frame/sec, %d bits/frame, Lungime: %s
+20401=MPEG: Rez. %dx%d, %.1f frame/sec, %d bits/frame
+20402=%s,   total %ld fiºiere
+20403= Trial (probã)
+20404= completã
+20405=Recompunere  %ld
+20406=Eroare nedefinitã compunere RAS.
+20407=Limba pe care ai ales-o va fi activã doar dupã repornirea IDM.\nVrei sã reporneºti IDM acum?
+20408=Din %d:%02d în %d:%02d ai descãrcat %d MB. Toate descãrcãrile vor fi oprite pentru cã ai depãºit limitele setate în Programator (vezi \'Opþiuni->Conexiuni\')!
+20409=Din %d:%02d în %d:%02d ai descãrcat %d MB. Toate descãrcãrile au fost oprite la %d:%02d pentru cã ai depãºit limitele setate în Programator (vezi \'Opþiuni->Conexiuni\')!\r\n\r\Toate descãrcãrile oprite vor fi reluate automat la %02d:%02d. Dacã vrei sã le reiei imediat, modificã setãrile în Limite descãrcare ºi apasã Reluare.
+20410=Descãrcat
+20411=Reconstruire ...
+20412=Deconectare ...
+20413=Fiºiere text
+20414=Fiºiere export IDM
+20415=Salvare ca ...
+20427=Nu închide dialogul descãrcãrii în timp ce IDM reconstruieºte fiºierul, altfel datele pot fi deteriorate.
+20428=Actualizare rapidã
+
+20429=Descãrcare transferatã spre IDM...
+20430=Click pe 'Înapoi' pentru a merge înapoi wwºi a continua navigarea.
+20431=IDM nu poate porni descãrcarea. Fiºier executabil negãsit.
+
+20433=Atenþie
+20434=Alege un dosar
+20435=Program antivirus
+20439=Fiºiere cu sunete
+20440=completã
+20441=Proprietãþi fiºier
+20442=Internet%20Download%20Manager%20-%20un%20program%20fantastic!!!
+20443=ia-l%20de pe%20
+
+//Please don't replace "English" to your local language, please just translate the "English" word
+20444=Scrie-ne numai în limba englezã
+
+20445=Necunoscut
+
+20447=Aratã în mãrime normalã
+20448=Aratã minimizat
+20449=Nu arãta
+
+//Please change XXX on the language you are translating IDM to.
+q1=Internet Download Manager vede cã limba românã este default în Windows. Vrei sã instalezi limba românã a programului IDM ?
+
+20500=Cumpãrã ºi instaleazã versiunea completã mai întîi !
+1338=Alege limba pentru IDM (o poþi schimba ulterior în "Vizualizare->Limba IDM)
+20501=Internet Download Manager nu a fost înregistrat în ultimele 15 zile, se închide ...
+20502=Particularizare ...
+20503=Data adãugãrii
+20504=Ultima încercare
+20505=Salveazã în
+20506=Referer
+33001=Particularizeazã bara
+33002=Particularizeazã lista URL...
+33004=dupã cale salvare
+33005=dupã Referer
+33006=dupã ultima încercare
+20507=Coloane ...
+
+209=Coloane
+1339=Alege coloanele vizibile în aceastã listã. Foloseºte butoanele Mutã sus ºi Mutã jos pentru a ordona coloanele aºa cum îþi place.
+1160=Mutã sus
+1083=Mutã jos
+1340=Aratã
+1048=Ascunde
+1053=Reset
+1341=Coloana selectatã ar trebui sã fie
+1342=pixels largã
+
+//new category
+20508=Comprimate
+
+//new dialog
+226=Nr. max. conexiuni server
+1348=Server
+
+1350=Nr. max. default conexiuni
+1343=Nr. max. conexiuni
+1344=Nou
+1345=ªterge
+1346=Editeazã
+1347=Excepþii:
+20509=Server
+20510=Numãr
+
+228=Descarcã toate link-urile cu with IDM
+20511=Tip fiºier
+20512=Text link
+1234=Text link = descriere descãrcare
+1055=Ascunde fiºierele HTML
+1060=Ascunde fiºierele repetate
+1353=Bifeazã tot
+1354=Debifeazã tot
+1352=Editare...
+1355=Verificã link-urile de adãugat în lista descãrcãrilor IDM ºi apasã OK.\r\nVa trebui sã aºtepþi pânã IDM verificã ºi completeazã toate tipurile de fiºiere.
+
+20513=Numele cu care fiºierul trebuia salvat este \"%s\", dar serverul spune cã cã este de tip \"%s\" ºi cã ar trebui salvat ca \"%s\". Vrei sã salvezi fiºierul cu numele ºi tipul primite de la server?
+
+//vers. 4.00
+20514=Descarcã încã o datã
+20515=Deschide dosarul
+
+q2=Programul \"%s\" (%s) vrea sã descarce fiºierul \"%s\".\n\nVrei ca IDM sã preia descãrcãrile de la aceastã aplicaþie?\nUlterior poþi activa sau dezactiva preluarea de cãtre IDM a descãrcãrilor de la \"%s\" în IDM->Opþiuni->Generale
+
+20516=Protocolul de transmisii date \"%s\" nu este suportat momentan de IDM. Ar putea fi ºi o eroare de scriere, deci verificã dacã ai scris corect ºi mai încearcã.
+20517=IDM a primit \"Acces interzis\" în timpul reconstruirii segmentelor fiºierului. Acesta ar putea fi deschis de o altã aplicaþie, de ex. antivirus, sau tu însuþi ai încercat sã îl deschizi. Pentru a-l putea reconstrui, reporneºte computerul, alege fiºierul în IDM ºi apasã butonul Reluare.
+20518=Înregistreazã IDM înaintea actualizãrii.\r\n Alege meniul \"Înregistrare->Înregistrare\" ºi introdu informaþiile tale de  înregistrare. Dupã aceea alege meniul \"Ajutor->Actualizare rapidã\".
+20523=În baza condiþiilor de licenþã pe care le-ai acceptat, îþi este permis sã actualizezi Internet Download Manager gratis pe durata unui an de la data cumpãrãrii licenþei. Dacã vrei sã continui actualizarea dupã un an, trebuie sã te înscrii la serviciul actualizare.\r\n Vrei sã vizitezi pagina cu informaþii referitoare la înscriere?
+20519=Tastele care împiedicã descãrcarea nu trebuie sã fie aceleaºi care o forþeazã. \r\n Alege alte taste.
+20525=Eroare la conectare. Host-ul nu exist2. Numele acestuia nu este oficial sau nu poate fi gãsit în baza de date în care am cãutat.\r\n\r\nMai jos sunt motivele posibile ale acestei erori:\r\n\r\n1. Ai un program firewall ºi tocmai ai instalat, înlocuit sau actualizat Internet Download Manager. Verificã setãrile programului firewall ºi asigurã-te cã IDM are permisiunea sã acceseze Internetul.\r\n\r\n2. Serviciul care gãseºte serverele în Internet numit Domain Name Service (DNS) are momentan probleme, sau conexiunea de reþea între DNS ºi computerul tã se întrerupe. Ar putea fi de ajutor repornirea computerului.\r\n\r\n3. Numele server-ului a fost scris greºit. Verificã.\r\n
+20522=IDM nu gãseºte %d fiºier(e) necesare pentru navigare ºi integrarea în sistem. Vrei sã le descarci acum?
+
+//Options->general
+1370=Detecteazã noi aplicaþii care descarcã fiºiere de pe Internet
+1368=Taste care împiedicã sau forþeazã descãrcãrile cu IDM
+1367=&Taste
+1375=Integreazã IDM în navigatoarele (browser-e):
+
+229=Taste speciale
+1361=Urmãtoarele taste împiedicã descãrcarea fiºierelor din orice link cu IDM:
+1067=Urmãtoarele taste forþeazã descãrcarea fiºierelor din orice link cu IDM:
+1366=Verificã forþarea descãrii când faci click cu butonul stâng al mouse-ului pe un link ºi apeºi o tastã specialã
+1374=Notã: Uneori, dupã ce faci click pe un link, se deschide o paginã web care avizeazã cã descãrcarea va porni în X secunde. În acest caz trebuie sã debifezi urmãtoarea opþiune pentru a forþa descãrcarea cu IDM.
+
+//Download all links with IDM
+1356=Salveazã ...
+1357=Fiecare fiºier conform categoriei de apartenenþã
+1358=Toate fiºierele într-o singurã categorie
+1359=Toate fiºierele într-un singur dosar
+1360=&Cautã ...
+
+//Options->Proxy
+1378=Nu folosi un server proxy pentru adresele începând cu:
+1377=Separã numele cu spaþii
+
+
+20526=Integrare Internet Download Manager Network
+20527=Internet Download Manager a detectat cã integrarea în reþea i-a fost ºtearsã de o altã aplicaþie. Vrei sã restabileºti integrarea?
+20528=Internet Download Manager a detectat cã integrarea în reþea i-a fost modificatã de o altã aplicaþie. Cauza ar putea fi instalarea unei noi aplicaþii de reþea sau o aplicaþie care înregistreazã greºit în Registry. Vrei sã restabileºti integrarea?
+20529=Integrarea în reþea a Internet Download Manager a fost modificatã. Este recomandat sã reporneºti computerul. Vrei sã-l reporneºti acum?
+20530=Integrarea în reþea a Internet Download Manager a fost modificatã. Trebuie sã reporneºti computerul pentru cã programul firewall nu este în mãsurã sã detecteze aceste modificãri, iar aplicaþiile pentru Internet nu vor comunica optim pânã dupã repornirea computerului.\r\n\r\nSalveazã fiºierele deschise, închide aplicaþiile acum, computerul va fi repornit dupã ce apeºi butonul OK.
+
+20531=Dacã vrei sã integrezi Internet Download Manager într-o aplicaþie deschisã va trebui sã o reporneºti deoarece IDM nu se poate integra într-o aplicatþie deja deschisã.\r\n\r\nDupã integrare debifeazã opþiunea \"Detecteazã aplicaþii noi\" .
+20532=Detecteazã aplicaþii noi
+
+//v 4.01
+//Download All Links with IDM dialog
+1385=Ascunde imaginile din aceastã paginã web
+//Options->General dialog
+1381=Integrare avansatã în navigator (browser)
+20547=Trecerea de la integrarea clasicã la cea avansatã, sau invers, necesitã repornirea computerului. Eºti sigur cã vrei sã continui?
+//new dialog
+230=Verific conexiunea Internet
+1382=Verificã
+20536=IDM descarcã o paginã de test pentru a verifica conexiunea la Internet. Aºteaptã câteva secunde...
+20537=IDM testeazã Internet Explorer. Aºteaptã câteva secunde pânã când Internet Explorer deschide o paginã de test.
+//Problem report dialog
+232=Raportare probleme Internet Download Manager
+20546=Am creat un raport de configuraþie pe care eºti rugat sã ni-l trimiþi pentru a ne ajuta sã rezolvãm aceastã problemã ãn viitoarele versiuni ale IDM. Datele sunt de naturã tehnicã. Nu culegem informaþii personale ºi vom trata acest raport cu confidenþialitate ºi va rãmâne anonim.
+1386=Adaugã mai jos eventuale comentarii ºi cerinþ
+1391=Dacã vrei sã fii anunþat când problema va fi rezolvatã, scrie mai jos adresa ta de email.
+20545=Trimitere date ...\r\nAºteaptã câteva secunde ...
+1390=Trimite
+
+//new messages
+20533=IDM a detectat folosirea unui server proxy în Internet Explorer. Vrei ca IDM sã foloseascã aceleaºi setãri proxy?
+20534=Prima utilizare a Internet Download Manager
+20535=IDM a detectat folosirea Windows DialUp pentru conectarea la Internet cu un modem. Vrei ca IDM sã foloseascã aceleaºi setãri?
+
+20538=Nu pot descãrca pagina de test. Este posibil ca integrarea Internet Download Manager în reþea sã fie în conflict cu o altã aplicaþie Internet sau firewall. IDM va renunþa la integrarea avansatã cu browser-ul ºi va restabili setãrile originale. Ulterior poþi reactiva integrarea avansatã cu browser-ul în IDM->Opþiuni->Generale.
+20539=Computerul trebuie repornit pentru ca vechile setãri sã fie restabilite. Salveazã fiºierele deschise, închide toate aplicaþiile, computerul va fi repornit dupã apãsarea butonului OK.
+20540=Integrarea Internet Download Manager a fost fãcutã cu succes. Rareori integrarea ar putea intra în conflict cu aplicaþii Internet instalate ulterior. Dacã vei constata o problemã de acest fel, debifeazã \"Foloseºte integrarea avansatã cu browser-ul\" în IDM->Opþiuni->Generale.
+20541=Ai oprit integrarea avansatã cu browser-ul. Dacã este din cauzã cã ai avut o problemã cu aceasta, noi, autorii IDM, am vrea sã o rezolvãm. Pentru aceasta avem nevoie sã analizãm anumite date tehnice despre configurarea computerului ºi programele Internet instalate. IDM va culege ºi îþi va arãta aceste informaþii înainte de a le trimite autorilor.\r\n\r\n Vrei ca IDM sã genereze aceste informaþii?
+20542=Oprire integrare avansatã cu browser-ul
+20543=IDM încearcã sã descarce o paginã web de test pentru verificarea conectãrii la Internet. Asigurã-te cã eºti conectat la Internet. Dacã ai un firewall, asigurã-te înainte cã noua versiune a IDM are permisiunea sã acceseze Internetul, apoi apasã \"Verificã\". IDM va încerca încã o datã sã descarce pagina web de test .
+20544=IDM a modificat integrarea ºi trebuie sã verifice din nou conexiunea Internet. Dacã nui eºti conectat la Internet conecteazã-te ºi apasã \"Verificã\" .
+20548=Integrarea Internet Download Manager a fost modificatã. Trebuie sã reporneºti computerul, altfel aplicaþiile Internet nu vor funcþiona corect.\r\n\r\nSalveazã toate fiºierele deschise, computerul va fi repornit dupã apãsarea butonului OK.
+
+//v4.01 build 4
+20549=Aceastã versiune a Internet Download Manager are caracteristica Integrare avansatã cu browser-ul. Instalarea acesteia necesitã repornirea computerului.\r\n\r\nCând integrarea avansatã este activatã, IDM "prinde" fiºiere de descãrcat care cu vechile versiuni erau imposibile. De asemenea, IDM poate fi integrat în orice browser (navigator) ºi aplicaþie Internet pentru a prelua descºrcºri de fiºiere FTP sau HTTP.\r\n\r\Rareori integrarea ar putea intra în conflict cu aplicaþii Internet instalate ulterior. Dacã vei constata o problemã de acest fel, debifeazã \"Foloseºte integrarea avansatã cu browser-ul\" în IDM->Opþiuni->Generale.\r\n\r\nVrei sã instalezi Integrarea avansatã cu browser-ul?
+20550=Integrarea avansatã cu browser-ul a fost instalatã!
+
+//menu "File->Redownload"
+33009=Mai descarcã o datã
+
+//new (since v4.00) toolbar buttons of the main window
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20551=Start coadã
+20552=Stop coadã
+
+//v4.01 build 5
+20553=Internet Download Manager a capturat automat link-ul de descãrcare al fiºierului de la o altã aplicaþie. Dacã NU VREI sã descarci acest fiºier cu IDM, verificã opþiunile apãsând butonul Opþiuni.\r\n\r\n 1. Dacã nu vrei sã descarci acest tip de fiºier cu IDM, ºterge extensia corespunzãtoare din lista fiºierelor de descãrcat automat cu IDM.\r\n\r\n 2. Dacã nu vrei sã descarci nici un fiºier de pe un anumit site cu IDM, adaugã numele acestui site la lista site-urilor de exclus.
+236=Sfat IDM: Capturã automatã link
+1393=Nu mai arãta acest sfat
+1397=IDM are un mecanism flexibil de ignorare sau preluare a descãrcãrilor din alte aplicaþii Internet. Vrei sã citeºti mai multe informaþii?
+1396=Citeºte
+
+//v4.02
+20569=Acest mesaj este datorat folosirii IDM pe mai multe computere cu acelaºi numãr serial. IDM este oferit cu licenþã pentru un singur computer. Pentru a folosi IDM pe mai multe computere deodatã este necesarã câte o licenþã pentru fiecare.
+20570=Butoane mici
+20571=Butoane mari
+20572=Butoane clasice
+20573=Cautã mai nou
+
+//new main menu items
+m33001=Bara cu unelte
+33510=Butoane clasice
+34010=Butoane mici
+34011=Butoane mari
+34012=Cautã mai nou
+
+//a new (since 4.401) button on the Options dialog
+1371=Ajutor
+
+// The abbreviation of second, kilobytes, megabytes and gigabytes, 
+// it's used when denoting download speed measurement units, 
+// e.g. KB/sec --- kilobytes per second, etc.
+20575=sec
+20576=GB
+20577=MB
+20578=KB
+20579=Bytes
+
+//v4.03
+20588=Nu pot reconstrui fiºierul descãrcat. Cauze posibile:\r\n\r\n 1.	Computerul a fost închis neprevãzut datoritã întreruperii de curent în timpul descãrcãrii/asemblãrii segmentelor fiºierului.\r\n 2.	Altã aplicaþie (sau chiar tu) a terminat execuþia procesului Internet Download Manager în timpul descãrcãrii/asemblãrii segmentelor fiºierului. Noteazã cã este nevoie de ceva timp pentru a reconstrui fiºiere mari. Fii rãbdãtor ºi aºteaptã pânã când IDM terminã asamblarea. Nu termina procesul Internet Download Manager din Task Manager.\r\n\r\nDacã nici un caz din cele de mai sus nu a fost întâlnit, trimite-ne fiºierul %s (dacã existã) pentru a-l analiza.
+
+
+//v 5.00 --- grabber
+1429=<- Înapoi
+1430=Înainte ->
+
+1405=Adãugare filtru
+1421=Adaugã filtru
+1437=Cautã fiºiere numai pe acest site
+1459=Porneºte deodatã descãrcarea fiºierelor ce se potrivesc
+1471=Explorã site-ul, verificã fiºierele ce îþi trebuie ºi descarcã-le în fereastra principalã sau adaugã-le în lista IDM. Aceastã opþiune face posibilã descãrcarea imediatã a tuturor fiºierelor explorate.
+1515=Descarcã urmãtoarele (tipuri de ) fiºiere
+1516=Nu descãrca urmãtoarele (tipuri de ) fiºiere
+1480=Nu mai puþin de
+1482=Nu mai mult de
+1483=Descarcã numai fiºierele din domeniile:
+1486=Nu descãrca fiºierele din domeniile:
+1517=Descarcã dacã mãrimea este 
+1488=Foloseºte punct-ºi-virgulã ( ; ) pentru a separa intrãrile.
+
+241=IDM Site Grabber
+1446=Fiºiere descãrcate:
+1448=Fiºiere gãsite:
+1450=Pagini web procesate:
+
+244=Filtre
+1423=Adaugã
+1424=Editeazã
+1425=ªterge
+
+245=Filtru
+1426=Nume
+1427=Mascã
+
+1414=Nume proiect Grabber
+1510=Start paginã/adresã
+1439=Cu autorizare
+1441=Introdu manual nume utilizator ºi parolã în urmãtoare paginã web:
+1511=ªablon proiect
+1470=Dacã alegi un ºablon, asistentul va crea setãrile necesare proiectului în urmãtorii paºi. Vei putea modifica oricând setãrile manual.
+
+1514=Foloseºte subdosarele relative originale
+1468=Converteºte link-urile în fiºiere html pentru navigarea offline
+1469=Suprascrie fiºierele existente
+1436=Adaugã fiºierele bifate la lista IDM ºi pune-le în aºteptare
+
+262=Setãri IDM Grabber
+1518=Foloseºte textul link-urilor ca descriere a descãrcãrii când adaugi fiºiere în listã
+1466=fiºiere de explorat simultan (de la 1 la 10)
+1467=fiºiere de descãrcat simultan (de la 1 la 10)
+1509=Un server web ar putea refuza explorarea/descãrcarea unui numãr mare de fiºiere simultan.
+
+1416=Nu explora dosare rãdãcinã
+1490=nivele în site-ul principal
+1435=Exploreazã întregul site
+1445=Exploreazã numãrul specificat de nivele de link-uri:
+1491=nivele de pe alte site-uri
+1474=Exploreazã pagini numai în domeniile/cãile:
+1476=Nu explora pagini web în domeniile/cãile:
+1512=Aici trebuie sã alegi paginile web de explorat pentru a gãsi fiºierele. În pasul urmãtor vei alege tipurile de fiºiere, locaþia ºi alte filtre.
+1489=Care este numãrul de nivele de link-uri?
+1493=Exploreazã toate site-urile din domeniul principal
+1494=Ignorã ferestrele popup
+
+268=Nume ºablon
+1508=Scrie un nume pentru ºablon
+
+269=Salvarea proiectului IDM Grabber
+1507=Salveazã acest proiect cu numele
+1513=Nu arãta acest dialog dacã numele este unic
+
+270=Deschidere proiect
+
+32811=Tutoriale
+34022=Ajutor Grabber
+      
+
+m1458=Proiect
+1458=Nou
+1438=Deschide
+1442=Salveazã
+34020=Salveazã setãrile curente ca ºablon
+m34013=Proiecte recente
+34013=Lista proiectelor recente
+m1457=Opþiuni
+1457=Setãri Grabber
+34021=Programeazã proiectul
+
+t1398=Start explorare site
+t1401=Stop explorare site
+t1353=Selecteazã toate fiºierele
+t1354=Deselecteazã toate fiºierele
+t1432=Start descãrcare fiºiere selectate
+t1433=Stop descãrcare fiºiere selectate
+t1434=Adaugã fiºierele selectate în lista principalã IDM ºi în lista de aºteptare
+
+
+20580=Setãri particulare
+20581=Toate imaginile de pe site
+20582=Fiºiere audio de la început pânã la urmãtorul nivel al paginei web
+20583=Toate fiºierele video de pe web site
+20584=Toate fiºierele de pe web site exceptând paginile web ºi imaginile
+20585=Întreaga paginã web
+
+20589=Conþinut Web
+20590=Avansat
+20591=Proiecte Grabber
+20592=IDM Grabber
+20593=Scrie adresa/pagina iniþialã
+20594=Adresa/pagina iniþialã
+20595=Scrie nume utilizator ºi parola sau debifeazã \"Cu autorizare\"
+20596=Scrie manual pagina de login sau debifeazã cãsuþa corespunzãtoare
+20597=Pagina login
+20598=Nici un fiºier selectat!
+20599=%ld fiºiere au fost adãugate în lista principalã.
+20600=Nu pot adãuga fiºierele. Ai selectat prea multe. Le poþi descãrca în acest proiect fãcând click pe butonul de pe barã \"Descarcã selecþia\".
+20601=Nu pot adãuga fiºiere noi. Lista principalã IDM conþine prea multe fiºiere ºi ar putea încetini IDM. ªterge niºte fiºiere din listã.
+
+20602=Numele este rezervat. Alege un alt nume pentru acest ºablon.
+20603=Existã deja un ºablon cu acest nume. Vrei sã îl înlocuieºti?
+20604=Salvezi proiectul?
+
+//right click menu
+20605=Deschide proiect
+20606=Programeazã proiect
+20607=ªterge proiect
+
+20608=Închide mai întâi proiectul în execuþie.
+20609=Programeazã proiectul
+20610=În curând!!!\r\n\r\nVerificã aceastã caracteristicã într-o versiune IDM viitoare.
+
+//displayed statuses
+20611=Explorare site
+20612=Descãrcare
+20613=Completatã
+20614=Opritã
+
+20615=Proiectul cu numele \"%s\" existã deja. Alege un nume diferit.
+20616=Nu existã proiecte salvate IDM grabber.
+20617=Alege numele proiectului!
+20618=Vrei sã ºtergi proiectul \"%s\"?
+20619=Numãr invalid de fiºiere explorate simultan. Alege numãrul corect.
+20620=Numãr invalid de fiºiere descãrcate simultan. Alege numãrul corect.
+20621=Nu pot deschide fiºierul \"%s\"\r\n\r\n%s
+20622=Vrei sã descarci ºi instalezi ajutorul IDM Grabber (circa 100 KB) ?
+20623=Nu pot deschide proiectul.\r\nEroare de alocare a memoriei.
+20624=Nu pot deschide proiectul.\r\nEste corupt sau are o versiune neacceptatã.
+20625=Proiectul este corupt. Câteva fiºiere nu pot fi deschise.
+20626=Nu pot deschide ºablonul.\r\nEste corupt sau are o versiune neacceptatã.
+20627=Deschidere ºablon
+20628=Salvare ºablon
+20629=Salvare proiect
+20630=Deschidere proiect
+      
+//step dialogs captions
+20631=IDM Site Grabber. Pasul %d --- %s
+20632=Alege pagina principalã
+20633=Salveazã fiºierele în
+20634=Seteazã filtrele de explorare
+20635=Seteazã filtrele fiºierului
+
+20636=Pagina de logare manualã
+20637=Apasã OK când procesul de logare este terminat
+20638=&OK
+20639=&Renunþã
+
+//v4.04
+20640=Dacã vrei sã preiei numai descãrcãrile din Internet Explorer only nu ai nevoie de aceastã caracteristicã ºi poþi rãspunde \"Nu\".
+
+//v4.06
+20641=Conectare la
+20642=Domeniu:
+1534=Salvazã aceastã parolã în lista de parole IDM
+1536=Scrie nume utilizator ºi parolã.
+1537=Utilizator:
+1538=Parolã:
+
+//v4.07
+
+280=Descãrcare multiplã
+1553=Este posibilã adãugarea unui grup secvenþial de nume de fiºiere precum img001.jpg, img002.jpg, ..., img100.jpg în lista de aºteptare (în coadã). Foloseºte asteriscul (wildcard) pentru baza numelui. \nDe exemplu:   http://www.internetdownloadmanager.com/pictures/img*.jpg
+1540=Numere
+1541=Litere
+1556=De la:
+1557=la:
+1547=Mãrime wildcard:
+1555=Înlocuieºte asteriscul în
+1558=Primul fiºier:
+1559=Al doilea fiºier:
+1560=Ultimul fiºier:
+
+20643=Bifeazã fiºierele selectate
+20644=Debifeazã fiºierele selectate
+
+1552=Înlocuieºte numele fiºierului cu un asterisc:
+
+34024=Adaugã descãrcare multiplã
+
+20645=Nu existã nici un asterisc în URL pentru a crea lista fiºierelor de descãrcat!
+20646=Descãrcare multiplã
+20647=Prea multe fiºiere. Numãrul acestora nu trebuie sã fie mai mare de 1000. Alege un numãr valid.
+20648=Salveazã în dosar/categorie
+
+//v5.00 beta
+
+20574=Grabber
+20649=Scrie pagina de sau debifeazã cãsuþa corespuzãtoare
+
+20554=Toate fiºierele
+20555=Fiºiere imagini
+20556=Fiºiere video
+20557=Fiºiere audio
+20558=Fiºiere executabile
+20559=Fiºiere comprimate
+20560=Fiºiere PDF
+
+20561=Nu folosi filtrul de excluderi
+
+20562=Hartã Site
+20563=Setãri
+
+20564=Nume filtru
+20565=Mascã
+20566=Scrie numele filtrului
+20567=Scrie masca
+20568=Filtrul cu numele \"%s\" existã deja. Alege alt nume.
+
+20650=Aºteaptã ...
+20651=ªtergere fiºiere temporare
+20652=Salvare proiect Grabber
+20653=ªtergere proiect Grabber
+20654=Aplicare modificãri
+20655=Deschidere proiect Grabber
+20661=Cãutare modificãri
+20662=Descãrcare paginã login
+
+20656=Nu existã suficient spaþiu liber pe drive-ul %s pentru a procesa proiectul. Elibereaã niºte spaþiu ºi mai încearcã.
+20657=Nu existã suficient spaþiu liber pe drive-ul %s pentru a deschide proiectul. Elibereaã niºte spaþiu ºi mai încearcã.
+20658=Nu pot deschide proiectul. Anumite fiºiere sunt corupte sau au fost ºterse.
+
+20659=Pagina de start completã cu toate imaginile, stilurile ºi script-urile pentru navigare offline
+20660=Pagina de start completã
+
+20663=Nu pot porni descãrcarea paginii de login. Verificã sintaxa URL.
+
+33010=Porneºte Site Grabber
+
+1563=Apasã Avansat pentru a activa logarea manualã sau a dezactiva pagina de logout
+1561=Nu deschide pagina de logout:
+1564=Multe site-uri au o paginã de logout pe care Grabber nu ar trebui sã o deschidã. Poþi folosi asteriscul (wildcard) pentru a specifica un model pentru pagini de logout diferite.
+1571=Ascunde fiºierele duplicate gãsite în diferite locaþii
+1565=Proceseazã script-urile Java
+1567=Foloseºte cu atenþie aceastã opþiune. Care este riscul?
+1573=Înainte de descãrcare cautã fiãierele în cache-ul IE
+1568=Foloseºte asteriscul ca un model wildcard. Foloseºte virgule, fãrã spaþii, pentru a separa intrãrile 
+
+//grabber dlg tree
+20664=Toate fiºierele
+20665=Vizualizare link
+20671=Vizualizare dosar
+20667=Alte site-uri
+20668=site-uri
+
+20669=Exclude filtre
+20670=Include filtre
+
+t34023=Aratã statistici grabber
+271=Statistici IDM Grabber
+1574=Status:
+1575=Pagini web procesate
+1576=Simplu
+1577=Avansat
+1578=Fiºiere
+1579=Total
+1580=Explorate
+1581=Compatibile
+1582=Descãrcate
+
+//v5.00 build 3
+20672=Vizualizare miniaturi
+20673=Fiºiere nedescãrcate
+
+20674=Negãsit
+20675=Interzis
+20676=Eroare
+
+//v5.01
+284=Programeazã proiect grabber
+1583=Explorare/descãrcare unicã
+1584=Sincronizare periodicã
+1585=Doar explorare
+1586=Exploreazã site-urile ºi descarcã fiºierele compatibile
+1587=Descarcã fiºierele selectate
+1588=Pasul 3. Programare
+1601=Pasul 2. Alegere acþiune
+1600=Pasul 1. Alegere tip
+1593=Proiect:
+1590=La terminarea descãrcãrii deschide fiºierul:
+1595=Reporneºte la fiecare
+1597=ore
+1598=min
+1599=zilnic
+1602=Notã: IDM nu ar trebui sã fie activ în System tray la ora descãrcãrii specificatã.
+20677=Pentru a programa un proiect, acesta trebuie mai întâi salvat. Vrei sã îl salvezi acum?
+20678=Internet Download Manager a terminat procesarea proiectului. Conform setãrilor IDM, compouterul va fi închis.
+t33010=Porneºte Site grabber
+t34021=Programeazã proiectul
+t34025=Actualizeazã toate
+20679=Proiectul programat nu poate fi pornit la ora %d:%02d din cauzã cã este deja în procesare în acel moment.
+20680=Proiectul programat nu poate fi pornit la ora %d:%02d din cauzã cã setãrile au fost modificate în acel moment.
+20681=Scrip-urile Java nu vor fi procesate în paginile deja explorate/procesate. Dacã vrei, totuºi, sã le procesezi, apasã butonul \"Actualizeazã toate\" din dialogul Acþiune Grabber.
+20682=Butonul Actualizare va actualiza proiectul: (a) pornind explorarea site-ului de la pagina iniþialã, (b) actualizând fiºierele dacã au fost modificate pe server, ºi (c) descãrcând noile fiºiere.
+20683=Butonul Actualizare va actualiza proiectul: (a) pornind explorarea site-ului de la pagina iniþialã, (b) actualizând fiºierele descãrcate dacã au fost modificate pe server.
+20684=Fiºierele vechi gãsite înaintea actualizãrii nu vor fi ºterse. Grabber va parcurge din nou toate paginile de pe site, ceea ce ar putea cere ceva timp.\r\n\r\nVrei sã actualizezi acest proiect?
+
+//version 5.02
+20685=Redenumeºte proiectul
+20686=Minimizeazã în System tray
+20688=Restoreazã ferestrele tuturor descãrcãrilor
+20689=Poþi activa acest dialog în \"Opþiuni->Descãrcãri\"
+20690=Setw2ri IDM
+20691=Descãrcat %s (%I64d Bytes)
+20692=Fiºierul ar putea fi descãrcat incomplet din cauzã cã mãrimea este necunoscutã.
+20693=Memoreazã aceastã cale pentru categoria \"%s\"
+20694=Descãrcare completã
+1610=Adresã
+1611=Fiºierul salvat ca 
+1606=Deschide dosarul
+1607=Nu mai arãta acest dialog
+t1608=Cautã
+20695=Descãrcãri IDM
+1615=Ignorã data fiºierului la reluarea descãrcãrii
+1613=Citeºte mai multe
+20696=IDM cautã o nouã versiune la fiecare 2 sãptãmâni. Dacã programul firewall blocheazã cererea de actualizare a IDM ºi îþi aratã mesajul de blocare, poþi fi sigur cã cererea poate fi acceptatã.
+1617=Adresã
+1619=Adresã:
+1618=Poþi folosi asteriscul ca model de wildcard
+
+//Please note that the old menu item string changed from m32771=URL to m32771=Tasks
+//also strings 32771 and 148 have been changed
+
+//v 5.02 Build 2
+1621=Aviz actualizare
+290=Aviz actualizare IDM
+20697=Nici o descãrcare minimizatã
+
+// v 5.02 Build 3
+1622=Notã: Aceste setãri nu sunt relative procesului de punere în coadã (aºteptare)
+
+// v 5.02 Build 6
+20698=Cautã
+
+// v 5.02 Build 10
+20586=Posibile motivãri ale acestei erori:\r\n\r\n 1. Conexiunea la nu a fost gãsitã. Verificã.\r\n\r\n 2. Ai un program firewall ºi tocmai ai instalat sau actualizat Internet Download Manager. Verificã setãrile firewall-ului ºi asigurã-te ca IDM are permisiunea sã acceseze Internetul.\r\n\r\n 3. Serviciul care gãseºte serverele în Internet numit Domain Name Service (DNS) are momentan probleme, sau conexiunea de reþea între DNS ºi computerul tã se întrerupe. Ar putea fi de ajutor repornirea computerului.\r\n
+1570=Referer:
+
+// v 5.02 Build 12
+20587=La încercarea reluãrii descãrii, Internet Download Manager a primit rãspuns de la server cã nu permite reluarea. \r\nEste posibil ca aceasta sã fie doar o eroare temporarã a server-ului ºi vei putea relua ulterior descãrcarea, dar momentan IDM poate descãrca fiºierul de la început. \r\n\r\nVrei sã descarci fiºierul de la început?
+
+// v 5.03
+20699=Tipurile de fiºiere care nu sunt listate în alte categorii
+20700=Ai apãsat butonul "Descarcã mai târziu", dar IDM a descãrcat deja o parte a acestui fiºier. IDM porneºte întotdeauna la afiºarea dialogului "Info descãrcare". Poþi dezactiva aceastw2 opþiune în "Opþiuni->Descãrcãri".
+20701=Descarcã mai târziu
+20702=Este necesar un dosar temporar pentru pãstrarea segmentelor de fiºier descãrcate.\nDacã ai mai multe drive-uri fizice, ar trebui sã alegi unul pentru dosarul temporar ºi altul pentru destinaþia finalã pentru o mai rapidã asemblare a fiºierelor descãrcate.
+20703=Pune automat în categoria \"%s\" fiºierele de tipul:
+20704=Salvare fiºiere
+20705=Categorii, tipuri de fiºiere, dosare
+1623=Porneºte descãrcarea imediat ºi aratã dialogul "Info descãrcare"
+
+292=Repornire computer
+1627=Stop
+20706=Repornire în %d secunde
+20707=Reporneºte acum
+
+// v 5.04
+//Options->File Types and Options->General changes (for basic integration)
+20708=Tipuri de fiºiere
+20709=Tipuri de fiºiere descãrcate
+20711=Notã: Opera ºi vechile browser-e de tip Mozilla pot fi integrate cu IDM cu ajutorul plugin-urilor. Acest tip de integrare anuleazã lista definitã de tine a serverelor de pe care lui IDM i se interzice descãrcarea de fiºiere. De asemenea, când modifici lista tipurilor de fiºiere, trebuie sã reporneºti aceste browser-e pentru a reactiva plugin-urile.\nAceste restricþii nu se aplicã dacã ai ales \"Integrare avansatã în navigator\" în tab-ul \"Generale\".
+1632=Detalii
+1633=Adaugã browser...
+1634=Reintegreazã toate
+20710=Notã: Opera ºi vechile browser-e de tip Mozilla pot fi integrate cu IDM cu ajutorul plugin-urilor. Acest tip de integrare anuleazã tastele speciale pentru împiedicarea sau forþarea descãrcãrii cu IDM din aceste browser-e.\nDacã vrei împiedicarea sau forþarea descãrcãrii cu IDM folosind tastele speciale, trebuie sã alegi \"Integrare avansatã în navigator\".
+
+//MessageBoxes
+20713=Integrare IDM în browser
+20712=IDM nu gãseºte %s pe acest computer. Alege fiºierul executabil al browser-ului în dialogul urmãtor.
+20714=Integrare în browser-e cu ajutorul plugin-urilor nereuºitã!
+20715=Plugin-urile pentru browser-ul %s au fost instalate.
+20716=Plugin-urile pentru browser-ul %s %s au fost instalate.
+20717=Plugin-urile pentru browser-ul %s au fost eliminate.
+20718=Reporneºte browser-ul pentru aplicarea modificãrilor fãcute.
+20719=Alege fiºierul executabil al browser-ului în dialogul urmãtor.
+20720=Nu gãsesc fiºierul idmmzcc.xpi, extensia pentru Mozilla Firefox!
+20721=IDM a fost integrat în Mozilla Firefox 1.5 ºi mai recent.\nReporneºte Firefox pentru aplicarea modificãrilor fãcute.
+20722=IDM a detectat cã browser-ul predefinit este %s %s. \nVrei sã-l integrezi cu IDM?
+20723=Nu pot instala extensia idmmzcc.xpi!
+20724=Browser-ul %s %s va fi pornit pentru a instala extensia necesarã integrãrii cu IDM.\nConfirmã instalarea extensiei idmmzcc.xpi de la Tonec Inc. ºi reporneºte browser-ul dupã instalare.
+20725=Nu pot instala plugin-urile pentru %s %s !
+20726=IDM a fost integrat în Internet Explorer.\nReporneºte IE pentru aplicarea modificãrilor fãcute.
+20727=IDM a detectat ºi prezenþa browser-ului %s %s pe acest computer.\nVrei sã-l integrezi cu IDM?
+20728=Browser-ele selectate vor fi deschise pentru a instala extensia necesarã integrãrii cu IDM.\nConfirmã instalarea extensiei idmmzcc.xpi de la Tonec Inc. ºi reporneºte browser-ul dupã instalare.
+20729=Plugin-urile pentru browser-ele selectate au fost instalate.\nReporneºte browser-ele pentru aplicarea modificãrilor fãcute.
+20730=IDM a fost deja integrat în Internet Explorer!
+20731=IDM nu gãseºte acest browser în baza de date. Încearcã integrarea avansatã dacã vrei sã "prinzi" descãrcãri din acest browser.
+20732=Nu pot instala plugin-urile pentru browser-e cu acelaºi tip de integrare!
+
+//new dialogs
+296=Integrarea cu browser-e
+1635=IDM a detectat prezenþa  urmãtoarelor browser-e instalate în acest computer. Alege browser-ele pe care vrei sã le integrezi cu IDM:
+297=Detalii browser
+1636=Adaugã versiune...
+20733=Browser
+20734=Tip de integrare
+20735=Cale
+20736=Extensie
+20737=Plugin-uri
+
+//new menu item on main dlg popup menu and new button on Download complete dlg
+20738=Deschidere...
+1639=Deschide cu...
+
+//
+20739=Localizare browser
+
+// v 5.05
+20740=IDM descarcã acest fiºier acum!
+20741=Link duplicat
+298=Link duplicat
+20742=Aratã un dialog cu opþiuni
+20743=Adaugã duplicatului un numãr în numele fiºierului
+20744=Adaugã duplicatul ºi suprascrie fiºierul existent
+20745=Dacã fiºierul existenteste complet, aratã dialogul Descãrcare completã; dacã nu apasã Reluare.
+1641=Acest fiºier existã deja în lista fiºierelor de descãrcat. Alege una din urmãtoarele opþiuni sau apasã Renunþã pentru a sãri peste descãrcarea acestui fiºier.
+1645=Memoreazã selecþia ºi nu mai arãta acest dialog.\r\n Vezi în IDM Opþiuni -> Descãrcãri.
+1646=Dacã un link duplicat este adãugat:
+
+20746=Internet Explorer, MSN Explorer ºi browser-e de tip IE
+20747=Netscape 8.0 ºi mai recent
+20748=Netscape 7.xx ºi 6.xx
+
+// v 5.05 build 2
+20749=Cu acest fiºier poþi face drag-and-drop
+//Dear translators, if you added "CompleteDlg.htm" topic to your help file, or you did not translate the help file and use the English version, please add and translate the phrase "Press F1 to read more" at the next line.
+//20750=Drag this icon to start the drag and drop operation for the downloaded file.
+20750=Trage aceastã icoanã pentru a porni operaþia de drag-and-drop a fiºierului descãrcat.\r\nApasã F1 pentru a citi mai multe.
+20751=Trage ºi lasã (drag-and-drop) fiºierul
+
+// v 5.07
+1647=Continuã
+20754=Ai nevoie de permisiunea administratorului pentru a salva fiºiere în dosarul ales
+20755=Ai nevoie de permisiunea administratorului pentru aceastã operaþie
+
+// v 5.07 build 2
+20756=Instalarea IDM necesitã repornirea computerului pentru a înlocui fiºierele în uz. Apasã OK pentru a-l reporni acum.
+20757=Confirmare repornire
+20758=Internet Download Manager a fost instalat. Va porni automat descãrcarea fiºierelor.
+20759=Îl poþi porni ºi manual din \"Start -> Programe -> Internet Download Manager\" .
+
+// v 5.07 build 6
+//new checkbox on Options->General
+1650=Activeazã monitorarea click-urilor în browser-ele de tip IE (MSN, Avant, etc)
+
+// v 5.07 build 7
+20760=IDM a detectat browser-ul default : %s.\n În general este suficientã simpla integrare cu browser-ul pentru ca IDM sã se ocupe de descãrcãrile de fiºiere. Modulul \"Integrare advanasatã" a fost revizionat ºi ar putea cauza conflicte cu alte aplicaþii. Dacã nu foloseºti \"Integrarea avansatã\" , este recomandabil sã nu alegi \"Integrare avansatã cu browser-ul\" în \"Opþiuni->Generale\" .
+
+//v 5.08 build 5
+//new dialogs
+302=ªtergere descãrcare pornitã automat
+1651=Ai anulat descãrcarea de douã ori.\n\nDacã IDM încearcã sã descarce acest fiºier din greºealã, adaugã adresa sau site-ul în lista de excepþii:
+1652=Nu porni descãrcarea automat de pe acest site:
+1653=Nu porni descãrcarea automat de la adresa:
+1655=Poþi edita lista de excepþii în \"Opþiuni->Tipuri de fiºiere\"
+1654=Nu mai arãta acest dialog
+
+303=Lista adreselor exceptate
+1661=Nu porni descãrcarea automat de la adresele:
+1659=Aratã dialogul de adãugare adrese în lista de excepþii pentru descãrcarea anulatã de douã ori
+
+304=Adãugare adresã în lista de excepþii
+
+//changes in "Options->File Types" dialog:
+1656=Editare listã ...
+//label 1372 was divided into 2 parts
+1667=Nu porni descãrcarea automat de la adresele:
+1662=(separã numele cu spaþii)
+
+//v 5.08 build 7
+20763=Fiºierul cerut pare a fi o paginã web html.\r\n\r\nServerul rãspunde cu o paginã web html la a doua cerere. Unele servere nu permit cererea aceluiaºi fiºier de douã ori. Din moment ce NU ai ales *Porneºte descãrcarea imediat ºi aratã dialogul "Info descãrcare"*, IDM a întrebat serverul care este tipul ºi mãrimea fiºierului, apoi a trimis a doua cerere când ai apãsat \"Start descãrcare\". \r\n\r\nActiveazã \"Porneºte descãrcarea imediat ºi aratã dialogul "Info descãrcare"\" în \"Opþiuni descãrcare->Descãrcãri\", fã Refresh în browser ºi încearcã sã descarci din nou.
+
+//v 5.09 build 4
+305=IDM nu poate prelua descãrcarea
+20764=Unele site-uri nu acceptã ca un fiºier sã fie cerut de douã ori.\r\n\r\n Browser-ul a fost primul care a cerut fiºierul \"%s\" iar când IDM a cerut acelaºi fiºier din nou,, site-ul a rãspuns cu o paginã web.\r\n\r\n Pentru a prelua aceastã descãrcare poþi alege o tastã specialã în \"Opþiuni->Generale->Taste\". Apasã ºi þine apãsatã aceastã tastã în timp ce faci click pe link sau buton, în acest fel IDM va cere fiºierul înaintea browser-ului. Atenþie, tasta \"Ins\" ar trebui sã fie valabilã pentru orice browser.
+
+//v 5.11
+//new scheduler dialog
+308=Planificator
+1675=Coadã &nouã
+1678=ª&terge
+1684=Lista cozilor
+20783=Cozi
+306=Planificã
+1680=Numãr de reîncercãri în caz de eºec: 
+307=Fiºiere în coadã
+1687=Limite descãrcare
+20765=Limite descãrcare
+20767=Coada nr. %ld
+20768=Coadã descãrcare principalã
+20769=Sincronizare coadã
+
+20770=Creeazã coadã nouã
+20771=Mutã în coadã
+20772=Adaugã la coadã
+20773=Start
+20774=Stop
+20775=Modificã
+20776=Planificã
+20777=Vrei sã ºtergi %s?
+20778=Start %s
+20779=Stop %s
+20780=Cozi IDM
+20781=Imaginile din coloana \"În coadã\" aratã cãrei cozi aparþin fiºierele.\r\nPoþi muta fiºiere dintr-o coadã în alta din meniul contextual.\r\nPentru mai multe informaþii despre cozi, citeºte ajutorul Planificatorului.
+20782=Vrei sã descarci ºi sã instalezi fiºierul cu ajutor pentru \"Planificator ºi cozi IDM\" (cam 100 KB) de pe site-ul IDM ?
+1685=Ai planificat procesarea unei cozi.\r\nÞine minte cã, pentru a porni automat o descãrcare la ora specificatã, este necesar ca IDM sã fie pornit în acel moment cel puþin în taskbar (vezi imaginea alãturatã).
+310=Numele cozii noi
+1686=Alege un nume pentru noua coadã. Acesta va fi afiºat în lista cozilor.
+
+//menu items
+m34026=Start coadã
+m34028=Stop coadã
+34029=Planificator ºi cozi
+//tooltips for "Start queue" and "Stop queue" toolbar buttons.
+t34030=Start coadã descãrcare principalã (sau alege o coadã din listã)
+t34031=Stop coadã descãrcare principalã (sau alege o coadã din listã)
+
+//v 5.11 build 3
+1679=Descãrcare unicã
+
+//v 5.11 build 5
+20786=Transfer de date întrerupt. Serverul nu permite \"reluarea\". Este posibilã doar descãrcarea de la început.\r\n\r\n Existã totuºi câteva cãi posibile pentru rezolvarea problemei::\r\n 1. Este posibil ca serverul sã aibã o problemã temporarã. Încearcã reluarea descãrcãrii mai târziu.\r\n 2. Lasã fiºierul în coadã (creeazã o nouã coadã) ºi porneºte coada. În acest caz IDM va tot încerca sã redescarce fiºierul de la început pânã va reuºi.\r\n Pentru rezultate optime, ai putea seta o conexiune specialã pentru acest site în lista excepþiilor în IDM \"Opþiuni->Conexiune\".\r\n
+20784=Extensia \"IDM CC\" pentru browser-e de tip Mozilla  s-a modificat în aceastã versiune  a IDM. Trebuie sã reinstalezi extensia pentru a putea folosi noile proprietãþi. Vrei sã reinstalezi extensia pentru %s %s ?
+20785=Extensia \"IDM CC\" pentru browser-e de tip Mozilla  s-a modificat în aceastã versiune  a IDM. Trebuie sã reinstalezi extensia pentru a putea folosi noile proprietãþi. Vrei sã reinstalezi noua extensie \"IDM CC\" pentru browser-ele care au vechea extensie \"IDM CC\"?
+
+//v 5.11 build 7
+//Items in context menu of browsers:
+20810=Descarcã cu IDM
+20811=Descarcã video FLV cu IDM
+20812=Descarcã ultimul video FLV solicitat
+20813=Alege din ultimele 10 fiºiere FLV solicitate
+20814=Descarcã ultimul video FLV solicitat cu IDM
+20815=Descarcã fiºiere FLV cu IDM din ultimele 10 solicitate
+20816=Descarcã toate link-urile cu IDM
+20817=Descarcã conþinutul fiºierului FLV cu IDM
+
+20790=Salvare fiºier video FLV
+20791=Poþi salva fiºierele video FLV preferate folosind \"Descarcã conþinutul fiºierului FLV cu IDM\" în meniul contextual al browser-ului. \r\n\r\nBrowser-ul va afiºa un meniu când faci click cu butonul drept într-o paginã web (dar nu ºi într-un player FLV) sau când apeºi tasta Meniu contextual (de lângã tasta cu logo Windows).
+20792=Nu existã link-uri spre fiºiere FLV în aceastã paginã.\r\nProbabil browser-ul nu a cerut încã fiºierul video FLV. Aºteaptã puþin ºi încearcã din nou. În unele cazuri ajunge sã apeºi butonul \"Play\" din player-ul de pe website.
+20793=Descarcã cu IDM
+20794=Descarcã tot cu IDM
+20795=Nu existã link-uri!\r\nDacã aceastã paginã conþine link-uri apasã F5 ºi încearcã din nou. Dacã problema persistã, contacteazã echipa IDM.
+20796=Nu existã link-uri spre fiºiere FLV!
+20797=Nu pot accesa link-urile solicitate de Internet Explorer!\r\nTU (sau vreun program antispyware) ai dezactivat IDM Browser Helper Object în Internet Explorer. Porneºte IE, urmeazã meniul \"Tools->Manage Add-ons->Enable or Disable Add-ons\". Cautã ºi activeazã \"IDMIEHlprObj Class\".
+20798=Eroare monitorizare link-uri video solicitate de IE.\r\nCauze posibile:\r\n - Nu ai repornit computerul dupã actualizarea IDM la cea mai recentã versiune. Reporneºte PC-ul ºi încearcã din nou.\r\n - IDM nu a fost instalat corect. Descarcã cea mai recentã versiune IDM de pe site-ul oficial ºi încearcã din nou.
+
+//new feature in "Options->General" dialog:
+1688=&Editeazã
+1689=Editeazã meniul contextual IDM al browser-elor
+334=Internet Explorer ºi similare
+335=Firefox ºi altele de tip Mozilla
+1696=Obiectele selectate vor apãrea în meniul contextual al browser-ului :
+20818=Reporneºte Internet Explorer pentru a aplica modificãrile
+20819=Modificare meniu contextual IE
+
+//v 5.11 b8
+20820=Ieºi acum
+20821=Închide IDM
+20822=Internet Download Manager a descãrcat fiºierele din coadã. Conform planificãrii iniþiale, IDM se va închide. Celelalte fiºiere pe care le descarcã acum vor fi întrerupte la ieºire. Apasã "Renunþã" pentru a nu închide IDM.
+
+//v 5.11 build 9
+20823=Ai anulat descãrcarea fiºierelor similare.\n\n Dacã IDM descarcã întotdeauna din greºealã de pe acest site, adaugã-l la lista de excepþii:
+20824=Nu descãrca din adrese similare folosind acest model:
+336=Raport pentru autorii IDM
+1702=Poþi trimite autorilor IDM un raport despre descãrcãrile fãcute din greºealã de pe acest site. Astfel vei ajuta la crearea unei soluþii în viitoarele versiuni IDM.
+1700=Adãugatã urmãtoarea excepþie:
+1698=Adãugatã excepþia:
+1701=Adresa URL de unde descãrcarea a pornit din greºealã:
+1703=Foloseºte asteriscul ca wildcard pentru acest model de adresã.
+
+//v5.12
+20825=(Limitatã)
+1707=Foloseºte Limitatorul de vitezã
+337=Setãri Limitator de vitezã
+1704=&Activeazã Limitatorul de vitezã la pornirea IDM
+1705=Aratã \"&Limitator de vitezã\" în dialogul \"Progres descãrcare\"
+1706=R&eþine excepþiile fãcute în dialogurile \"Progres descãrcare\" pentru utilizarea Limitatorului de vitezã indiferent dacã este activat sau nu.
+1708=Viteza ma&ximã descãrcare pt. fiecare fiºier
+1709=KBytes/sec
+1710=Notã: serverele internet ar putea întrerupe conexiunea dacã este prea limitatã! Deci nu este recomandatã folosirea Limitatorului de vitezã pentru a descãrca de pe servere ce nu suportã \"Reluarea descãrcãrii\".
+1711= Setãri Limitator de vitezã pentru fiecare descãrcare în parte 
+m34033=Limitator de vitezã
+34033=Activeazã
+34034=Dezactiveazã
+34035=Setãri
+
+//v5.12 build 5
+20831=Dacã un fiºier video FLV este vizualizat în browser, este posibil ca IDM sã nu poatã asocia link-ul FLV cu aceastã paginã web. Încearcã meniul contextual pe browser \"Descarcã fiºiere video FLV cu IDM din ultimele 10 accesate\".\r\n(Meniul contextual al browser-ului poate fi setat în \"Opþiuni IDM -> Generale\")
+20830=Eroare CRC la descãrcare. Este posibil sã fie vreo problemã cu harddisk-ul. Ai putea face o scanare pentru a verifica dacã sunt erori astfel: Windows Explorer->Disk properties->Tools->Error-checking.
+
+//5.12b7
+20832=Trebuie sã fii logat ca administrator pentru a putea înregistra IDM pentru toþi utilizatorii acestui computer.
+
+//5.12b8
+20837=Confirmare ºtergere descãrcãri
+20833=Descãrcãrile selectate sunt incomplete. Eºti sigur cã vrei sã le ºtergi din lista IDM ?
+20834=Descãrcarea selectatã este incompletã. Eºti sigur cã vrei sã o ºtergi din lista IDM ?
+20835=Ai selectat ºi descãrcãri incomplete. Eºti sigur cã vrei sã le ºtergi din lista IDM ?
+20836=Eºti sigur cã vrei sã ºtergi toate descãrcãrile complete din lista IDM ?
+1715=Eºti sigur cã vrei sã ºtergi toate descãrcãrile selectate din lista IDM?
+1713=ªterge de pe hard-disk inclusiv fiºierele descãrcate. ATENÞIE !
+
+//v5.14
+20850=video
+20851=audio
+20852=Descarcã acest %s 
+20853=Descarcã acest %s cu IDM
+20854=Despre acest panou
+20855=Închide
+20856=Acesta este panoul cu descãrcãrile IDM.\r\n Poate fi personalizat sau închis  din "Descãrcãri - Opþiuni - Generale"
+20857=Panou cu descãrcãrile IDM
+20858=Descarcã %s din aceatã paginã
+20859=Descarcã %s din aceatã paginã cu IDM
+20860=Descarcã tot
+20861=%ld %s fiºiere
+20862=fiºier
+
+//new on Options->General
+1724=Panou descãrcãri IDM pentru web-players în browser
+1727=IDM poate afiºa Panoul descãrcãri într-un browser când detecteazã o cerere multimedia request de la web-player
+1728=Vizualizare Panou:
+1717=Completã
+1718=Mini
+1726=Afiºeazã Panoul descãrcãri IDM pentru fiºiere de tip:
+20863=Notã: Dacã debifezi un tip de fiºier care se aflã în lista din \"Opþiuni->Tipuri de fiºiere\" , descãrcãrile acestui tip de fiºier vor fi capturate de IDM automat ºi nu vor fi vizualizate în web-player. Dacã nu vrei asta, bifeazã mai jos:
+1720=Nu captura automat descãrcãrile din web-player
+
+//on Scheduler dlg
+1729=Porneºte descãrcarea la pornirea IDM
+
+//v5.14b5
+20864=Poþi folosi integrarea cu acest browser dupã activarea \"Integrare avansatã în navigator (browser)\"
+
+//v5.15b2
+1731=ATENÞIE: IDM are drepturi de Administrator. \r\n IDM nu va putea prelua descãrcãri din browsere în acest mod.
+20865=Firefox nu poate transfera descãrcarea fiºierului spre IDM pentru cã rulezi IDM cu drepturi de administrator. \r\n\r\nDeschide dosarul IDM, click cu butonul drept pe \"IDMan.exe\", alege \"Properties\" ->  \"Compatibility\" ºi debifeazã \"Run this program as an administrator\".
+
+//v5.16
+20867=Nu pot relua descãrcarea fiºierului: 
+20868=IDM aºteaptã noua adresã pentru a relua fiºierul: 
+20869=Este posibil ca adresa acestui fiºier sã nu (mai) fie validã sau sesiunea a expirat.
+20870=Aceasta este adresa nouã pentru decsãrcarea expiratã?
+20872=Actualizeazã adresa
+20873=IDM aºteaptã noua adresã penrtu încã o descãrcare expiratã. Nu poþi folosi în acelaºi timp aceastã caracteristicã pentru mai mult de o singurã descãrcare expiratã.
+20874=IDM va deschide pagina web unde a fost capturatã aceastã descãrcare. Reporneºte descãrcarea, IDM va încerca sã captureze noua adresã sau sesiune.
+20871=Aºteptare date...
+1732=Nu mai aºtepta
+20875=IDM a primit cu succes noul link pentru acest fiºier.
+20876=Porneºte descãrcarea manual din browser, IDM va încerca sã captureze noua adresã sau sesiune.
+20877=Încearcã actualizarea sesiunii descãrcãrii: click cu butonul drept pe \"Actualizeazã adresa\" în lista de descãrcãri. \r\nOr ªterge descãrcarea ºi reporneºte-o din browser, IDM o va prelua de la început.
+20878=Descãrcare pagina proprietarã pentru actualizarea link-ului
+20879=Situl web a rãspuns cu o paginã web în loc de fiºierul cerut de IDM a doua oarã. Probabil acest site foloseºte linkuri temporare ºi nu permite cereri duplicate.\r\n\r\nªterge descãrcarea ºi reporneºte-o din browser, iar când IDM o captureazã nu mai folosi butonul stop/pauzã.
+1741=Pagina web de unde provine fiºierul:
+20880=Verificare adresã: %s
+20881=Nu ai ales nici un fiºier de descãrcat!\r\n Dacã nu mai vrei sã descarci nimic, închide dialogul \"%s\" folosind butonul \"Renunþã\".
+20882=Adãugare fiºiere de descãrcat cu IDM
+1739=Afiºeazã panoul cu coada descãrcãrilor când apeºi "Descarcã mai târziu"
+1738=Afiºeazã panoul cu coada descãrcãrilor când adaugi descãrcãri
+1735=Adaugã fiºiere acestei cozi:
+20884=Nu adãuga nici unei cozi
+1736=Start coadã
+1737=Nu mai întreba
+20883=Poþi activa acest panou în \"Opþiuni->Descãrcãri\"
+
+//v5.17b4
+34036=Adaugã o serie de descãrcãri din &clipboard
+20885=În clipboard existã mai multe URL-uri. Vrei sã le descarci pe toate?
+20886=Serie de descãrcãri din clipboard.
+20887=În clipboard nu existã nici o adresã web!
+
+//v5.18b3
+m34037=Icoanã IDM în system tray
+34037=stil 3D
+34038=stil clasic
+34039=Nu arãta
+
+//v5.18b5
+20889=Licenþa pentru Internet Download Manager a expirat.\r\n IDM nu mai funcþioneazã. Obþine o nouã licenþã pentru a putea folosi IDM.
+20890=Atenþie:\r\nLicenþa IDM va expira peste %ld zile.\r\n\r\n Meniul \"Înregistrare->Înregistreazã\" este dezactivat acum,\r\n dar va fi activat la expirarea licenþei.
+
+20891=Nu ai ales nici o zi pentru Planificator!
+20892=Porneºte zilnic
+
+20893=Existã un spaþiu înaintea numelui utilizatorului. Dacã spaþiul a fost introdus din greºealã vrei ca IDM sã-l ºteargã ?
+20894=Existã un spaþiu dupã numele utilizatorului. Dacã spaþiul a fost introdus din greºealã vrei ca IDM sã-l ºteargã ?
+20895=Existã un spaþiu înaintea parolei. Dacã spaþiul a fost introdus din greºealã vrei ca IDM sã-l ºteargã ?
+20896=Existã un spaþiu dupã parolã. Dacã spaþiul a fost introdus din greºealã vrei ca IDM sã-l ºteargã ?

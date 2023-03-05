@@ -1,0 +1,1804 @@
+lang=0x06 Dansk
+tips=tips_dk.txt
+
+
+
+
+
+
+// Dialogs
+
+//main dialog
+1281=Kategorier
+20369=Q
+20370=Fil Navn
+20371=Status
+20372=Str.
+20373=Tid tilbage
+20374=Transfer rate
+20375=Beskrivelse
+
+//toolbar
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20376=Tilføj URL
+20377=Fortsæt
+20378=Stop
+20379=Stop Alt
+20380=Slet
+20446=Slet Færd...
+20381=Tilpas
+20382=Planlæg
+20383=Mail en ven
+//tooltips for buttons
+t32790=Start/Fortsæt downloading af valgte fil(er)
+t32791=Stop downloading af valgte fil(er)
+t32792=Stop alle downloads
+t32793=Fjern valgte fil(er) fra listen
+t32794=Fjern alle fuldførte filer fra listen
+t32795=Browser/System integration, Fil typer, Proxy, Passwords og andet
+t32798=Planlagte og download kø'er
+t32788=Skriv en mail til din ven om IDM
+
+//Registration dialog
+138=Internet Download Manager Registréring
+1326=Indtast venligts dine registrérings detaljer i de tilsvarende felter og kilk på OK knappen
+1330=Seriel nummer
+1327=Fornavn
+1328=Efternavn
+1329=Email
+1191=&OK
+1201=&Hvordan Licens
+1080=&Annullér
+
+//Download progress dialog
+103=Download forløb
+1154=(ukendt)
+1178=<< Skjul detaljer
+20426=<< Skjul detaljer
+1158=Pause
+20392=Pause
+20424=Start
+20425=Vis detaljer >>
+1300=Fil str.
+1301=Downloaded
+1302=Transfer rate
+1303=Tid tilbage
+1149=(ukendt)
+1299=Status:
+1030=Tilslutter...
+1305=Start positioner og download forløb efter tilslutninger
+1304=Fortsæt muligheder
+1175=(ukendt)
+2=Annullér
+20416=N.
+20417=Downloaded
+20418=Info
+20419=Ja
+20420=Nej
+20421=%d timer %d min.
+20422=%d min. %d sek.
+20423=%d sek.
+
+130=Download Fil Info
+1006=&Start Download
+1010=Gennemse...
+1004=Download &Senere
+1298=Beskrivelse
+1173=Vis
+1297=Kategori
+1296=Gem som...
+t1006=Start fil downloading
+
+148=Indtast ny adresse der skal downloades
+1182=Brug &autorisation
+1184=Login
+1186=Password
+1022=O&K
+
+//Options Dialog
+134=Internet Download Manager Konfiguration
+1092=OK
+20286=Generelt
+20287=Tilslutning
+20288=Downloads
+20289=Proxy
+20290=Site Logins
+20291=Opkald
+20292=Lyde
+20293=Generelt
+20294=Forbindelse
+20295=Downloads
+20296=Proxy
+20297=Logins
+20298=Opkald
+20299=Lyde
+20300=Browser/System Integration
+20301=Forbindelses type
+20302=Standard download Indstillinger
+20304=Brugernavne og passwords for servere/sites
+20305=Opkalds Indstillinger
+20306=Lyd Indstillinger
+//General tab
+1056=Kør Internet Download Manager ved opstart
+1061=Start automatisk downloading af URL\'s placeret i udklipsholderen
+1065=Integrér i IE, MSN Explorer og IE baserede browsere
+1077=&Standard
+1169=Fil typer...
+1270=Start automatisk downloading af følgende fil typer:
+t1056=Kør Internet Download Manager ved system opstart
+//Proxy tab
+1102=Brug HTTP Proxy
+1272=Bekræft pasword
+1122=Proxy
+1123=Port
+1124=Brugernavn
+1125=Password
+1107=Hent fra IE
+1108=Benyt FTP Proxy
+1274=Bekræft pasword
+1126=Proxy
+1127=Port
+1128=Brugernavn
+1129=Password
+1113=Hent fra IE
+1116=Benyt FTP i PASV mode
+1118=Benyt HTTPS Proxy
+1273=Bekræft pasword
+1133=Proxy
+1135=Port
+1137=Brugernavn
+1139=Password
+1141=Hent fra IE
+t1107=Forsøg at finde HTTP proxy i Internet Explorer konfigurationen
+t1116=Benyt FTP protokol i passiv mode (kræves bag firewalls)
+//Connection tal
+1153=Forbindelses Type/Hastighed
+1306=Maks. antal tilslutninger
+1254=Download grænse
+//Downloads tab
+1049=Gennemse
+1190=Skift mappe for "Generel" kategorien til senest valgte
+1136=Standard download mappe for "Generel" kategorien
+1132=Gem i...
+1236=Vis download udført besked
+1317=Virus tjekning
+1318=Virus skanner program
+1165=Gennemse
+1319=Kommando linie parametre
+1316=Besked om Download forløb
+1315=Beskeder
+1059=Vis besked ved start af download
+1138=Midlertidig mappe
+1054=Gennemse
+//Dial Up tab
+1313=Forbindelse:
+1307=Tilpas forbindelse
+1166=Tilføj
+1308=Tilpas genopkald
+1309=Genopkalds forsøg (nul hvis uendelig):
+1310=Tid mellem genopkalds forsøg:
+1312=sekunder
+1311=gange
+1058=Brug Windows Opkald til Netværk
+//Sounds tab
+1320=Vælg lyde til Internet Download Manager begivenheder
+1172=Gennemse...
+1091=Afspil
+//Passwords tab
+20436=Site/sti
+20437=Bruger
+20438=Password
+1087=Ny
+1196=Redigér
+1050=Fjern
+
+//File properties dialog
+135=Fil Egenskaber
+1325=Type:
+1324=Str.:
+1323=Gem i:
+1082=&Gennemse...
+1322=Login
+1289=Password
+1321=Bekræft password
+1164=Åbn
+1240=Sidste forsøg
+1241=Resultat: 
+
+100=Om Internet Download Manager
+1284=Hjemmeside:
+1285=Support Team:
+1286=Dette produkt er givet i licens til:
+1181=Uregistreret Version
+1161=Tjek for &Opdatéringer
+1185=&Registréring
+1085=&Køb
+1262=Version:
+t1187=Klik for at besøge IDM hjemmeside
+t1189=Kontakt IDM\'s support team
+t1161=Tjek for tilgængelige opdatéringer på www.internetdownloadmanager.com
+t1185=Registrér IDM med din registrérings nøgle
+t1201=Klik for oplysninger om hvordan man køber en licens til IDM
+t1085=Køb en registréret kopi af IDM
+
+150=Luk ned
+1263=Internet Download Manager har fuldført kø'en. Ifølge planlægger indstillingerne lukker din computer ned.
+1170=Luk ned nu
+
+1163=Ja
+1088=Ja til alt
+1202=Nej
+1051=Nej til alt
+
+177=Planlægger
+1331=Download Kø
+1333=Download
+1332=Planlægger
+1218=Start download klokken :
+1219=En gang d. :
+1221=Dagligt
+1062=Søndag
+1057=Mandag
+1066=Tirsdag
+1069=Onsdag
+1222=Torsdag
+1223=Fredag
+1224=Lørdag
+1225=Stop download klokken :
+1228=Sluk computeren når udført
+1235=Tving stop af opgaver
+1089=Tilføj
+1232=Start nu
+1233=Stop
+1079=Luk
+1227=Afbryd forbindelsen når udført
+1264=MBytes
+1265=timer
+1266=Download ikke mere end
+1171=Hjælp
+1267=hver
+1268=Vis advarsel før downloads stoppes
+1271=Afslut Inernet Download Manager når udført
+1335=filer på samme tid
+t1229=Flyt emne ned
+t1230=Flyt emne op
+t1231=Fjern emne fra download kø'en
+t1232=Start kø'en
+t1233=Stop kø'en
+t1235=Brug dette valg i nødtilfælde. Dette kan forårsage at programmet mister data.
+
+184=Opkald
+1247=Forbinder ...
+1167=Genopkald
+
+186=Opkalds Tilpasning
+1336=Opkald
+1237=Gem password
+1288=Brugernavn
+
+190=Download IDM komponenter
+1=OK
+1258=Download komponenter
+
+191=Eksportér download listen
+1259=Eksportér download kø'en
+1260=Eksportér valgte filer
+1261=Eksportér alle filer
+
+192=Importér links til IDM
+1168=Redigér...
+1090=Slet
+
+193=Start automatisk download af følgende udvidelser:
+
+105=Dagens Tip
+1001=&Vis Tips ved Opstart
+1003=&Næste Tip
+107=Dagens Ti&p...
+108=Vidsate du at...
+109=Tips filen findes ikke i den angivede mappe
+110=Problem ved læsning af tip filen
+
+146=Site login
+1337=Server/sti
+1290=Bekræft password
+1287=Bemærk: Skriv kun hvis du har forskellige login navne til forskellige server mapper.
+
+182=Kvik Opdatéring
+1295=Tjekker for ny version
+								
+194=Download begrænsninger overskredet!                                                                   																					
+
+144=En ny version af Intenet Download Manager er tilgængelig
+1162=Opdatér nu
+1086=Annullér
+
+//Zip preview dialog
+196=Vis Zip indhold
+20254=Filnavn
+20255=Pakket
+20256=Str.
+20257=Ændret
+
+//New category dialog
+204=IDM kategorier
+1174=Gennemse...
+1291=Kategori navn
+1292=Automatisk gem følgende fil typer i denne kategori:
+1293=Bemærk: skriv fil typen adskildt med et mellemrum (eks. avi mpg mpeg)
+1239=Husk seneste gemme sti
+1294=Gem fremtidige downloads af denne kategori i følgende mappe:
+
+
+// Menu
+m32771=Opgaver
+32771=Tilføj ny download
+32809=Vis drop mål
+m32821=Eksportér
+32821=Som IDM eksport fil
+32823=Som en tekst fil
+m32816=Importér
+32816=Fra IDM eksport fil
+32818=Fra en tekst fil
+32772=&Afslut
+
+m32774=Fil
+32774=Stop Download
+32775=Fjern
+32776=Download Nu
+
+m32778=Downloads
+32778=Pause Alt
+32779=Stop Alt
+32794=Slet Alle Udførte
+32801=Planlægger
+32781=Tilpas
+
+m32825=Vis
+32825=Skjul kategorier
+m32828=Arrangér filer
+32828=Efter Tilføjelse
+32830=Efter Filnavn
+32832=Efter Størrelse
+32834=Efter Status
+32836=Efter Tid Tilbage
+32838=Efter Transfer Rate
+32840=Efter Beskrivelse
+m32841=Sprog
+
+m57670=Hjælp
+32811=Tutorials
+106=Dagens Tip...
+32813=IDM\'s Hjemmeside
+32784=Kontakt IDM Supporten
+32787=Tjek for opdatéringer...
+32786=Om IDM...
+32788=Fortæl en ven
+
+m32785=Registréring
+32785=Bestil online
+32783=Registréring
+//end menu
+
+
+//Strings og messages
+101=&Om IDM...
+32799=Åbner Port
+32800=Port Åbnet
+32802=Tilslutter Enhed
+32804=Enhed Tilsluttet
+32806=Alle Enheder Tilsluttet
+32807=Starter Godkendelse
+32808=Godkendelses Besked
+32810=Gentager Godkendelse
+32812=Callback Forespørgsel
+32814=Ændring af Password Forespurgt
+32815=Prognose Fase Startet
+32817=Link Hastigheds Beregning
+32819=Godkendelses Bekræftigelse
+32820=Gen-godkendelse Startet
+32822=Godkendt
+32826=Afventer nulstilling af Modem
+32827=Afventer Callback
+32829=Interaktiv
+32831=Genoptag Godkendelse
+32833=Callback Sat af Opkalder
+32835=Password Udløbet
+32837=Tilsluttet
+32839=Afbrudt
+
+20000=Download af Filen %s udført.\n\nDownloaded %s (%I64d Bytes)\nFilen gemt som %s
+20001=Denne feature er kun tilgængelig i den registrerede version.
+20002=Kan ikke omdøbe downloaded fil i temp mappen (%s) til %s. Filen er gemt i temp mappen.
+20003=Password bekræftigelse fejlede! Prøv venligst igen.
+20004=Password feltet er ikke udfyldt!
+20005=Brugernavn feltet er ikke udfyldt! Prøv venligst igen.
+20006=Site/sti feltet er ikke udfyldt! Prøv venligst igen.
+20007=Er du sikker på at du vil slette login informationerne for dette site?
+20008=Din download liste indeholder filen som vil blive downloaded fra 
+20009=.\nTilføj dette brugernavn og password til denne download?
+20010=.\nÆndre brugernavn og password af denne download til \"anonymous\" ?
+20011=Login informationer for denne site/sti findes allerede i din password liste.\nDe nye login informationer blev ikke tilføjet. Måske vil du redigere den nuværende.
+20012=Du har ændret \"site/sti feltet.\" Login informationer for denne nye site/sti findes allerede i din password liste.\nLogin informationer er uændret. Måske vil du redigere den nuværende.
+20013=Dette site er midlertidigt ikke tilgængeligt!
+20014=Autorisation er påkrævet for denne site/sti. Du kan indstille login informationer for denne download ved at vælge egenskaber i højre-kliks menuen. Eller tilføj login informationer til \"Tilpas/Sites passwords\" for at bruge disse login/password hver gang du downloader filer fra dette site.
+20015=Proxy autorisation er påkrævet af denne proxy server. Du kan ændre proxy brugernavn og password i \"Tilpas/Proxy\"
+20018=Kan ikke downloade denne fil.
+20019=Kan ikke downloade denne fil.
+20020=Utilstrækkelig hukommelse til at fortsætte download.
+20021=Der kunne ikke oprettes forbindelse da mål maskinen aktivt afslog. \nMåske er servicen ikke aktiv på serveren eller du har en firewall installéret som blokkére for Internet Download Manager. Hvis du har en firewall, så sikre dig venligst at indstillingerne tillader IDM at downloade fra Internettet.
+20022=Tilladelse afslået.
+20023=Kan ikke tilslutte til den forespurgte adresse. Den forespurgte adresse er ugyldig i sit indhold.
+20024=En eksisterende forbindelse blev tvangsafbrudt af fjen værten. Dette sker normalt hvis et peer program på fjern værten pludselig stopper, værten genstarter eller fjern værten brugte kommandoen \'hard close\'
+20025=En socket handling fejlede fordi destinations værten var nede. En socket handling støder på en død vært. Netværks aktiviteten på en lokal vært blev ikke iværksat.
+20026=Fejl ved tilslutning. Værten er ukendt. Navnet er ikke et officielt værtsnavn el. alias, eller kunne ikke findes i database(r) som blev forespurgt.
+20027=En socket handling blev forsøgt til et ikke tilgængeligt netværk. Dette betyder normalt at den lokale software ikke kender ruten til at forbinde til fjern værten.
+20028=Den host du var forbundet til crashede og blev genstartet.
+20029=En socket handling stødte på et dødt netværk. Dette kan indikére en seriøs fejl på netværks systemet (eks. protokol stack'en som WinSock DLL kører over), netværks interface, el. selve lokal netværket.
+20030=For mange åbne netværks forbindelser. Vent venligst til nogle downloads afsluttes.
+20031=En fejl opstod under tilslutningen
+20032=Str. af %s er %I64d bytes.\nDer er ikke mere plads på drev \'%s\' hvor du vil gemme denne fil.\nHvis du ikke frigør mere plads imens du downloader, vil filen blive gemt i en midlertidig mappe som %s
+20033=Der er ikke mere plads på drev \'%s\' til at gemme downloaded fil dele.\nFor at fortsætte downloading, frigør noget diskplads el. skift midlertidig mappe placeringen i \"Tilpas->Gem i...\" og fortsæt downloading
+20034=Kan ikke finde serveren %s
+20035=Kan ikke finde proxy serveren %s
+20036=Kan ikke forbinde til %s:%ld
+20037=Kan ikke forbinde til proxy serveren %s:%ld
+20038=Kan ikke forbinde til %s:%ld\nForbindelsen udløb
+20039=Kan ikke forbinde til proxy serveren %s:%ld\nForbindelsen udløb
+20040=En ukendt fejl opstod under tilføjning el. sammenføjning af downloadede dele til én fil
+20041=En ukendt fejl opstod under sammenføjningen af downloadet dele til én fil
+20042=Kan ikke åbne lokal fil for skrivning under sammenføjning af downloadede dele til én fil
+20043=Kan ikke hente størrelsen på næste del under sammenføjning af downloadede dele til én fil
+20044=Virtuel hukommelse allokérings fejl under sammenføjning af downloadede dele til én fil
+20045=En fatal skrivefejl opstod under sammenføjning af downloadede dele til én fil
+20046=En fatal læsefejl opstod under sammenføjning af downloadede dele til én fil
+20047=En ukendt fil el. register fejl opstod under genopbygning af ældre downloadede dele
+20048=Kan ikke forbinde til serveren
+20049=Internet socket læse fejl
+20050=Internet socket skrive fejl
+20051=Forbindelsen udløb
+20052=Forbindelsen udløb
+20053=Forbindelsen udløb, genstarter...
+20054=Forbindelsen fejlede, genstarter...
+20055=En fejl opstod under modtagelsen af data
+20056=Forbindelsen blev afbrudt af sereren.
+20057=Kan ikke logge ind på ftp serveren.
+20058=Kan ikke finde filen på ftp serveren.
+20059=Ftp serveren tillader ingen forbindelser.
+20060=En fejl opstod under modtagelse af ftp server svar.
+20061=En fejl opstod under modtagelse af ftp server svar: Ugyldig svar format
+20062=Kan ikke finde IP adressen for data socket svaret i PASV kommando.
+20063=Kan ikke åbne internet socket.
+20064=Kan ikke åbne ftp data socket
+20065=Kan ikke binde adressen til internet socket
+20066=Fejl under opkald til listen() af data socket
+20067=Fejl under kald for accept() af internet socket.
+20068=Kan ikke sende PORT kommando.\nFejl under kald til getsockname().
+20069=PORT kommando mislykket.
+20070=Fil skrivningsfejl opstod under modtagelse af data fra Internet socket.\nMulig årsag: Disken er fuld.
+20071=Kan ikke åbne data forbindelsen da ftp serveren ikke understøtter PASV kommando og tjekboksen \"Brug FTP i PASV mode\" i \"Tilpas->Proxy/Firewall\" er markeret.
+20072=Størrelsen på filen %s blev ikke fundet i svaret fra serveren
+20073=Serveren sendte ukorrekt svar på genstarts kommandoen.
+20074=Serveren sendte ny placering og filnavn %s som er ændret til %s.\n\nFortsæt downloading ?
+20075=Afbryder...
+20076=Download udført, sammenføjer alle downloadede dele til én fil...
+20077=Valgfrie forbindelser blev oprettet.
+20078=Forbinder...
+20079=Valget fejlede
+20080=Forbind OK.
+20081=Skrivefejl under modtagelse af data fra internet socket.
+20082=Recv() proceduren fejlede
+20083=Forbindelsen blev afbrudt af serveren.
+20084=Afbryd.
+20085=Afventer svar...
+20086=Svar OK
+20087=Modtager data...
+20088=Udført.
+20089=Data forbindelse: tilslutter...
+20090=Data forbindelse: OK
+20091=Klar til at modtage data
+20092=Tjekker kommando rækkefølge styrken: sender to kommandoer samtidig...
+20093=Tjekker kommando rækkefølge styrken: første svar OK, afventer andet svar...
+20094=Modtager fil info...
+20095=Kan ikke finde enden af strengen i server svaret.
+20096=Kan ikke finde enden af strengen i ftp server svaret.
+20097=Sender QUIT.
+20098=Serveren er ikke klar for nye brugere.
+20099=Kontrol socket forbundet.
+20100=Sender brugernavn...
+20101=Sender password...
+20102=Brugernavn fejlede
+20103=Brugernavn OK
+20104=Password fejlede
+20105=Password OK
+20106=Sender PASV kommando...
+20107=Serveren understøtter ikke PASV.
+20108=PASV OK, udtrækker adresse...
+20109=Bind socket OK, prøv call listen()
+20110=Acceptérer...
+20111=Accept OK
+20112=Sender PORT kommando...
+20113=PORT OK
+20114=Skifter server arbejdsmappe...
+20115=CWD fejlede.
+20116=CWD OK
+20117=Forbindelsen fejlede.
+20118=Sender TYPE ...
+20119=TYPE kommando fejlede.
+20120=TYPE OK.
+20121=Sender REST kommando...
+20122=REST fejlede
+20123=REST OK
+20124=Sender RETR kommando...
+20125=RETR failed.
+20126=Sender SIZE kommando...
+20127=Sender LIST kommando.
+20128=LIST fejlede.
+20129=LIST OK
+20130=SIZE fejlede.
+20131=Kan ikke finde fil str. i svaret.
+20132=SIZE OK
+20133=Kontrol socket er ikke forbundet til serveren.
+20134=Genstarter fra begyndelsen da den lokale fil er blevet slettet. Genstart fra en vilkårlig position er ikke understøttet i dette tilfælde.
+20135=Forbindelsen blev genoprettet...
+20136=Serveren understøtter muligvis ikke kommando pipelining.
+20137=Kommando rækkefølge styrke: OK
+20138=Sender HEAD...
+20139=Sender GET...
+20140=Genopbygger ældre downloadede fil dele...
+20141=Forbinder...
+20142=Download udført. Downloadede %I64d Bytes Totalt
+20143=Modtager data...
+20144=Valgfrie forbindelser, tilslutter...
+20145=Download fejlede. Downloadede: %I64d Bytes Totalt
+20146=Størrelsen af %s er %I64d bytes.\nDer er ikke mere ledig plads på drev \'%s\' til at gemme downloadede fil dele.\nFor at fortsætte med downloading, frigør noget plads el. fjern denne fil på download listen, ændre den midlertidige mappe placering i \"Tilpas->Gem i...\", og prøv igen.
+20147=Der er ikke mere ledigt plads på drev \'%s\'.
+20148=Kan ikke genopbygge downloadede fil stykker.
+20149=Denne download er allerede udført, den lokale sti er uændret.
+20150=Filens seneste ændrings dato er ændret på serveren.\nVil du downloade denne fil fra begyndelsen?
+20151=Du bruger den seneste version af Internet Download Manager. Tjek venligst igen for opdateringer på et senere tidspunkt.
+20152=En fejl opstod under gemning af indtastet data, prøv venligst igen.
+20153=En fejl opstod under allokéring af virtuel hukommelse. Prøv at lukke nogle programmer og klik på \'Prøv igen\'.
+20154=Genopbygger
+20155=Det angivne server navn er gyldig, men har ikke de korrekte associerede data som besluttet (værten selv findes, men kan ikke nåes direkte).
+20156=Filen %s - downloaded %s (%I64d Bytes). Filen blev muligvis ikke fuldstændigt downloaded, da fil størrelsen er ukendt.\nFilen gemt som %s
+20157=Ingen emner valgt!
+20158=Flyt op
+20159=Flyt ned
+20160=Slet emne
+20161=Kan ikke downloade denne fil. Ugyldigt http server svar.
+20164=QuickUpdate til IDM fra www.internetdownloadmanager.com. Modtager nye data...
+20166=Internet Download Manager Manual
+20167=Download blev annulléret af bruger
+20168=Quick update fejlede, en fejl opstod under downloading af nye IDM filer. Prøv igen senere.
+20169=Den forespurgte fil findes ikke.
+20170=\nVil du gerne åbne den?
+20171=Denne fil findes allerede på din download liste. Vil du downloade en dublét?
+20172=Serveren svarede at du ikke har rettigheder til at downloade denne fil.
+20173=En fejl opstod under læsning af telefonbogen.
+20174=Kan ikke forbinde til Internettet.
+20175=Kan ikke downloade filen da der opstod en timeout
+20199=Kunne ikke ændre integrationen af Internet Download Manager i Internet Explorer da du muligvis ikke har adgangs rettigheder til system registret
+20204=Filen blev flyttet.
+20205=Filen %s blev flyttet.
+20206=Åbner downloaded fil
+20207=Download IDM komponent
+20211=Filen %s vil blive gemt som %s. En lign. fil findes allerede på din computer. Vil du overskrive den eksisterende fil?\n\n Tryk \"JA\" for at overskrive, \"NEJ\" for at gemme med et andet navn, \"ANNULLÈR\" for at annullére tilføjelsen af filen på din download liste.
+20212=Filen %s vil blive gemt som %s. En lign. fil findes allerede på din download liste. Vil du bekræfte at gemme filen med dette navn?\n\n Tryk \"JA\" bekræfter, \"NEJ\" for at gemme med et andet navn, \"ANNULLÈR\" for at annullére tilføjelsen på din download liste.
+20213=Importér til IDM
+20214=Kan ikke læse linket fra filen el. filen er ødelagt
+20215=Filen er ikke en gyldig IDM eksportéret fil el. filen er ødelagt
+20216=Filen har ingen web links
+20217=En ukendt fejl opstod under eksekvéring af handlingen!
+20218=Kan ikke downloade denne fil, ftp serveren understøtter muligvis ikke fortsættelse af downloads. Vil du tilføje den samme fil og starte fra begyndelsen?
+20219=Navnet på filen der skal gemmes var \"%s%s\", men serveren sendte følgende navn \"%s\". Vil du gemme filen med filnavnet som blev modtaget fra serveren?
+20220=Downloading af filen %s blev udført.\nDenne m3u fil indeholder et web link til en mp3 fil. Vil du downloade denne mp3 fil?
+20221=Downloading af filen %s blev udført.\nDenne m3u fil indeholder een el. flere web links til mp3 filer. Vil du tilføje dem på din download liste?
+20222=M3U filen downloadet.
+20225=Kan ikke starte virus tjeknings program.\n%s
+20226=Internet Download Manager har udført kø behandlingen. Ifølge planlægger indstillingerne vil IDM afbryde modem forbindelsen.
+20227=Afbryd modem
+20228=Afbryd nu
+20229=Stop nu
+20230=Download grænse overskredet!
+20231=Ugyldig data
+20232=Værdien af timer i \"Download grænser\" skal være mellem 1 og 23. Ret venligst el. fjern hakket i \"Download grænser\" boksen.
+20233=Vil du downloade vejledningen (ca. 60 KB) fra IDM hjemmesiden ?
+20234=Vil du downloade og installére IDM hjælpe filen (ca. 200 KB) fra IDM hjemmesiden ?
+20235=Kan ikke finde HHCtrl.ocx til at vise hjælpe filen!
+20236=IDM hjælp
+20237=Fil str. er blevet ændret på serveren.\nDen vil blive downloadet fra begyndelsen.
+20238=Kan ikke oprette forbindelse via proxy serveren.
+20239=En fejl opstod under oprettelse af sikkerheds forbindelsen til %s.
+20240=En fejl opstod under enkryptérings forespørgslen.
+20241=En fejl opstod under indlæsning af sikkerheds dll. Kan ikke oprette https forbindelse.
+20245=Internet Download Manager tilpasning
+20246=Download udført
+20247=Download fejlede
+20248=Kø behandlingen stoppet/udført
+20249=Kø behandlingen startet
+20250=Begivenhed
+20251=Lyd fil
+20252=Kan ikke kopiére valgte lyd fil til IDM\'s lyd mappe!
+20253=Du har %d dage tilbage at prøve Internet Download Manager. Vil du registrére din kopi af IDM nu?
+20258=Alle Downloads
+20259=Ufuldstændige
+20260=Fuldførte
+20261=Programmer
+20262=Musik
+20263=Video
+20264=Spil
+20265=Dokumenter
+20266=Tilføj kategori
+20267=Slet
+20268=Egenskaber
+20269=Vil du virkeligt slette \"%s\" kategorien fra IDM kategorier listen?
+20270=Sletter en kategori fra IDM kategorier listen
+20271=Tilføjer en kategori til IDM kategorier listen
+20272=Redigérer kategori egenskaberne
+20273=Udfyld venligst \"Kategori navn\" feltet.
+20274=Mappen \"%s\" findes ikke.\r\nVil du oprette denne mappe?
+20275=Kan ikke oprette mappen!\r\n%s
+20276=Skjul kategorierne
+20277=Vis kategorierne
+20278=Vælg en mappe
+20279=Generelt
+20280=Vil du placere alle ældre downloads i disse kategorier efter fil typerne? Filerne vil ikke blive flyttet på harddisken, men vil blive associéret med deres bestemte download kategorier.
+20281=Vil du placere alle ældre downloads med \"%s\" fil typen i denne kategori? Filerne vil ikke blive flyttet på harddisken, men vil blive associéret med denne kategori.
+20282=IDM kategorier
+20283=IDM fik \"Adgang nægtet\" fejl ved samling af downloadede dele af filen. Dette kan ske fordi nogle programmer så som et anti virus program el. en firewall åbnede filen, men ikke lukkede den korrekt, eller du forsøgte at åbne filen under downloadningen. Du bør genstarte din computer og derefter klikke på fortsæt knappen for at samle filen.
+20284=Standard download mappen for \"%s\" kategorien
+20285=Ændre mappen for \"%s\" kategorien til senest valgte
+20307=- Vælg din internet forbindelse -
+20314=256K Kabel/DSL/Andet
+20315=300K Kabel/DSL/Andet
+20316=512K Kabel/DSL/Andet
+20319=Andet
+20320=Om IDManager
+20321=Gendan
+20322=Afslut
+20323=Kontakt os
+20324=Hjælp
+20325=Bestil online
+20326=Registréring
+20327=Stop Download
+20328=Fjern
+20329=Fortsæt Download
+20330=Egenskaber
+20331=Ugyldig URL indtastet. Ret venligst.
+20332=Denne download er ikke komplet. Fortsæt med at slette?
+20333=Kunne ikke finde proxy konfigurationen i Internet Explorer Indstillinger
+20334=Filen med denne URL er allerede blevet downloaded af Internet Download Manager. Vil du downloade den igen?
+20335=Filen med denne URL findes allerede på din liste og venter at downloadning bliver udført. Vil du fortsætte med filen?
+20336=For mange filer med dette navn. Slet dem venligst el. omdøb dem
+20337=Indtast venligst login navn.
+20338=Kunne ikke  finde en associéret Browser
+20339=Kunne ikke finde Quick Update programmet.
+20340=Indtast venligst registrérings navn.
+20341=Ugyldigt registrérings nummer indtastet.
+20343=Indtast venligst dit fornavn
+20344=Indtast venligst dit efternavn
+20346=Indtast venligst din email
+20347=Indtast venligst dit Seriel Nummer
+20348=Du har indtastet et ukorrekt Seriel Nummer
+20349=Internet Download Manager blev registréret med et falsk Seriel Nummer. IDM afslutter...
+20351=Internet Download Manager blev registréret med et falsk Seriel Nummer. IDM afslutter...
+20352=Internet Download Manager er ikke blevet registréret i 30 dage. Trial period is over and IDM afslutter...
+20353=Internet Download Manager er ikke blevet registréret i 15 dage. IDM afslutter...
+20354=Ukendt fejl under
+20355=Ukendt
+20356=Tilføj til download kø'en
+20357=Sletter fra kø'en
+20358=Start kø'en
+20359=Stop kø'en
+20360=Åbn
+20361=Seneste forsøgs dato:  
+20362=Resultat:\n
+20363=Vælg kun een fil der skal åbnes!
+20364=Åbn
+20365= findes allerede på din computer. Vil du overskrive filen?\n Klik \"JA\" for at overskrive, \"NEJ\" for at gemme med et andet navn, \"ANNULLÈR\" for at annullére.
+20366=Download fra
+20367=Gem i...
+20368=Vil du virkeligt slette alle udførte downloads?
+20384=Vis drop målet
+20385=Advarsel: Dette computer program er beskyttet af copyright love og internationale aftaler. Uautoriséret reproduktion el. distribution af dette program, el. andre dele af det, kan resultérer i alvorlige civile og kriminelle straffe, og vil blive tiltalt iflg. højest mulige straf som muligt iflg. loven.
+20386=Kan ikke oprette mappen %s, fejl kode = %ld\n
+20387=Fejl
+20388=Filer
+20389=Alle Filer
+20390=Detaljer:\n
+20391=Udførte.
+20393=Download komplet. Virus tjekning i gang...
+20394=AVI: Res. %dx%d, %d samp pr sek, Længde %s
+20395=, Længde: 
+20396=, Titel: 
+20397=, Artist: 
+20398=, Album: 
+20399=, Genre: 
+20400=WAV: %d samp pr sek, %d bits pr samp, Længde: %s
+20401=MPEG: Res. %dx%d, %.1f samp pr sek, %d bits pr samp
+20402=%s,   totalt %ld filer
+20403= Prøve
+20404= Fuld
+20405=Genopkald  %ld
+20406=Udefinéret RAS Opkalds Fejl.
+20407=Sprog ændringerne vil først træde i kraft efter en genstart af IDM. Vil du genstarte IDM nu?
+20408=Fra %d:%02d til %d:%02d du downloadede %d MB. Alle IDM downloads vil blive stoppet fordi du har overskredet din download grænse indsat i IDM Planlægger (el. \'Tilpas->Forbindelser\')!
+20409=Fra %d:%02d til %d:%02d du downloadede %d MB. Alle IDM downloads blev stoppet ved %d:%02d fordi du har overskredet din download grænse sat i IDM Planlægger (el. \'Tilpas->Forbindelser\')!\r\n\r\nAlle stoppede downloads vil fortsætte automatisk ved %02d:%02d. Hvis du straks vil fortsætte med at downloade, ændre indstillingerne i Download Grænser og klik på Fortsæt.
+20410=Udført
+20411=Genopbygger...
+20412=Afbryder...
+20413=Tekst Filer
+20414=IDM Eksport Filer
+20415=Gem som...
+20427=Luk venligst ikke download vinduet når IDM samler filen, ellers kan data blive beskadiget.
+20428=Quick Update
+
+20429=Download overført til IDM...
+20430=Klik 'Tilbage' for at gå tilbage og fortsæt gennemse.
+20431=IDM fejlede start af download. Eksekvérbar fil ikke fundet.
+
+20433=Advarsel
+20434=Vælg en mappe
+20435=Virus skanner program
+20439=Lyd Filer
+20440=udført
+20441=Fil Egenskaber
+20442=Internet%20Download%20Manager%20-%20meget%20cool%20program!!!
+20443=download%20fra%20
+
+//Please don't replace "English" to your local language, please just translate the "English" word
+20444=Brug venligst English
+
+20445=Ukendt
+
+20447=Vis normal str.
+20448=Vis miniméret
+20449=Vis ikke
+
+//Please change XXX on the language you are translating IDM to.
+q1=Internet Download Manager har opdaget at du bruger Dansk sprog som dit standard Windows sprog. Vil du installére Dansk sprog i IDM?
+
+20500=Køb og installér venligst den fulde version af IDM først!
+1338=Vælg venligst sproget i IDM bruger interfacet (Du kan ændre dette senere i "Vis->Sprog" menu'en)
+20501=Internet Download Manager er ikke blevet registréret i 15 dage. IDM afslutter...
+20502=Tilpas...
+20503=Dato Tilføjet
+20504=Sidst Forsøgs Dato
+20505=Gem i...
+20506=Henviser
+33001=Tilpas Værktøjsbjælke...
+33002=Tilpas URL Listen...
+33004=Efter Gem Stien
+33005=Efter Henviser
+33006=Efter Sidste Forsøgs Dato
+20507=Kolonner...
+
+209=Kolonner
+1339=Tjek de kolonner du vil have skal være synlige på denne liste. Brug Flyt Op og Flyt Ned knapperne for at arrangérer kolonnerne som du vil have dem.
+1160=Flyt Op
+1083=Flyt Ned
+1340=Vis
+1048=Skjul
+1053=Nulstil
+1341=De valgte kolonner skal være
+1342=pixels bredde
+
+//new category
+20508=Kompriméret
+
+//new dialog
+226=Maks. antal tilslutninger til en server
+1348=Server
+
+1350=Standard maks. antal tilslut.
+1343=Maks. antal forbindelser
+1344=Ny
+1345=Slet
+1346=Redigér
+1347=Undtagelser:
+20509=Server
+20510=Antal
+
+228=Download Alle Links med IDM
+20511=Fil Type
+20512=Link Tekst
+1234=Brug link tekst som download beskrivelser
+1055=Skjul HTML filer
+1060=Skjul gentagne filer
+1353=Vælg Alle
+1354=Fravælg Alle
+1352=Redigér...
+1355=Tjek venligst links, hvilke du vil tilføje til download listen i IDM, og klik på OK knappen.\r\nDu kan vente til IDM tjekker og udfylder alle fil typer.
+
+20513=Navnet på filen som skal gemmes var \"%s\", men serveren sendte følgende fil type \"%s\", og skulle være gemt som \"%s\". Vil du gemme filen med navnet passende med fil typen som blev modtaget fra serveren?
+
+//vers. 4.00
+20514=Gendownload
+20515=Åbn mappen
+
+q2=\"%s\" (%s) vil downloade \"%s\" filen.\n\nVil du have at IDM skal overtage downloads fra dette program?\nSenere kan du enten vælge el. fravælge om IDM skal overtage downloads fra \"%s\" i IDM->Tilpas->Generelt
+
+20516=\"%s\" data overførsels protokolen er ikke understøttet af IDM på nuværende tidspunkt. Eller der opstod en stavefejl, du bør derfor tjekke stavningen og forsøge igen.
+20517=IDM har modtaget en \"Adgang Nægtet\" fejl under samling af fil delene. Det kan ske fordi filen blev åbnet af et andet program så som en Anti-Virus software, el. du selv har forsøgt at åbne filen. For at kunne samle filen, skal du genstarte din computer, vælge filen i IDM og klikke på Fortsæt knappen.
+20518=Registrér venligst IDM før du opdatérer.\r\n Vælg \"Registrér->Registréring\" i menu'en og indtast dine registrérings oplysninger. Vælg herefter \"Hjælp->Quick Update\" i menu'en for at starte opdatéringen.
+20523=Ifølge vores licens aftale som du har acceptéret, har du lov til at opdatére Internet Download Manager gratis i eet år efter købet. Hvis du vil fortsætte med at opdatére IDM efter denne periode, er du nødt til at abonnérer på opdatérings servicen.\r\n Vil du kigge på IDM\'s abonnement side?
+20519=Tasten(erne) for at ungå downloading bør ikke indgå i tasten(erne) for at tvinge en downloading. \r\n Vælg venligst andre taster.
+20525=Fejl ved tilslutning. Værten er ukendt. Navnet er ikke et kendt officielt værtsnavn el. alias, el. det kan ikke findes i databasen(erne) som blev forespurgt.\r\n\r\nFind herunder mulige årsager for denne fejl:\r\n\r\n1. Du har et firewall prgram på din computer, og du har netop installeret, erstattet el. opdatéret din nuværrende version af Internet Download Manager. Tjek venligst dine firewall indstillinger og sikre dig at IDM har tilladelse til at forbinde til Internettet.\r\n\r\n2. En service som finder servere på Internettet kaldet Domain Name Service (DNS) har midlertidigt problemmer, el. netværks forbindelsen mellem DNS og din computer blev brudt. Du skal muligvis genstarte din computer.\r\n\r\n3. Der er en stavefejl i server navnet. Tjek venligst din stavning.\r\n
+20522=IDM kan ikke finde %d filen(erne) som er nødvendigt for browser og system integrationen. Vil du downloade dem?
+
+//Tilpas->Generelt
+1370=Find nye programmer som forsøger at downloade filer fra Internettet
+1368=Tilpas tasterne for at undgå el. tvinge downloading med IDM
+1367=Taster...
+1375=Integrér IDM i browsere:
+
+229=Brug speciel tasterne
+1361=Brug de følgende taster for at undgå downloading med IDM for ethvert links:
+1067=Brug de følgende taster for at tvinge downloading med IDM for alle links:
+1366=Tjek at venstre musse knap klikkes på et link samtidigt med speciel tasterne for at tvinge downloading af linket
+1374=Bemærk: Sometider efter du har klikket på et download link, vil en mulig web side blive vist og fortælle at downloadningen starter om X sekunder. I dette tilfælde skal du fravælge følgende tilpasning for at tvinge downloading med IDM.
+
+//Download all links with IDM
+1356=Gem i...
+1357=Alle filer i mappen ifølge fil kategorien
+1358=Alle filer i een kategori
+1359=Alle filer i een mappe
+1360=Gennemse...
+
+//Options->Proxy
+1378=Brug ikke proxy servere for adresser begyndende med:
+1377=Adskil navne med et mellemrum
+
+
+20526=Internet Download Manager Netværks Integration
+20527=Internet Download Manager opdagede at netværks integrationen er blevet slettet af et 3. parts program. Vil du gendanne netværks integrationen af Internet Download Manager?
+20528=Internet Download Manager opdagede at et 3. parts program har ændret IDM netværks integrationen. Dette kan ske p.gr.a. et nyeligt installeret netværks program el. fordi et program gendannede registret\'s arkiver fejlagtigt. Vil du gendanne netvæks integrationen af Internet Download Manager?
+20529=Internet Download Manager netværks integrationen er blevet ændret. Vi anbefaler at du genstarter din computer. Vil du genstarte nu?
+20530=Internet Download Manager netværks integrationen er blevet ændret. Du skal genstarte din computer, fordi din firewall ikke kan se disse ændringer, og Internet Programmer ikke kan kommunikere med Internettet ordentligt før en genstart.\r\n\r\nGem venligst alt dit arbejde og luk alle programmer nu, computeren vil genstarte efter du har klikket på OK knappen.
+
+20531=Hvis du vil integrere Internet Download Manager i et program som kører, skal du genstarte programmet fordi IDM ikke kan integreres i et program som allerede kører.\r\n\r\nEfter integrationen af IDM i programmet kan du fraslå \"Find Nye Programmer\" valget for en bedre performance.
+20532=Detect New Applications
+
+//v 4.01
+//Download All Links with IDM dialog
+1385=Skjul billeder placeret på denne webside
+//Options->General dialog
+1381=Brug avancéret browser integration
+20547=Skiftet mellem basis og avancéret browser integrationer kan kræve en system genstart. Er du sikker på du vil fortsætte?
+//new dialog
+230=Tjekker Internet Forbindelse
+1382=Tjek
+20536=IDM downloader en lille test side for at tjekke din Internet forbindelse. Vent venligst nogle få sekunder
+20537=IDM tester din Internet Explorer. Vent venligst nogle få sekunder imens Internet Explorer indlæser en lille testside
+//Problem report dialog
+232=Internet Download Manager Problem Rapport
+20546=Vi har oprettet en konfigurations rapport som du kan sende til os. Send os venligst de følgende informationer for at hjælpe os med at løse dette problem i fremtidige versioner af IDM. Disse data er af tekniske karaktére. Vi indsamler ingen personlige informationer, og vi vil behandle denne rapport fortroligt og anonymt.
+1386=Tilføj nogle kommentare og forespørgsler herunder hvis du vil
+1391=Hvis du vil modtage en besked om når problemet er blevet løst, indtast venligst din email herunder
+20545=Sender data...\r\nVent venligst i få sekunder
+1390=Sendt
+
+//new messages
+20533=IDM har opdaget at du bruger en proxy server i Internet Explorer. Vil du bruge de samme proxy indstillinger i IDM?
+20534=Første kørsel af Internet Download Manager
+20535=IDM har opdaget at du bruger Windows Opkalds netværk til at forbinde dit modem til Internettet. Vil du bruge de samme indstillinger i IDM?
+
+20538=Kan ikke downloade test siden. Der er muligvis opstået en konflikt i Internet Download Manager netværks integrationen med et andet Internet program el. en  firewall. IDM vil slå avanceret browser integration fra for at gendanne dine originale indstillinger. Du kan slå advanceret browser integration til senere i IDM->Tilpas->Generelt boksen
+20539=Du skal genstarte din computer for at gendanne de originale indstillinger. Gem venligst dit arbejde og luk alle programmer nu, computeren vil genstarte efter du har klikket på OK knappen.
+20540=Internet Download Manager netværks integrationen er med succes blevet installeret. I sjælne tilfælde kan netværks integrationen konflikte med et nyligt installeret 3.-parts Internet program. Hvis du finder nogle problemmer med netværks integrationen, fjern da hakket i \"Brug avanceret browser integration\" boksen i IDM->Tilpas->Generelt boksen
+20541=Du har slået avanceret browser integration fra. Hvis du finder et problem med avanceret browser integration, vil vi løse problemet for dig. For at kunne løse problemet, skal vi indsamle og analysére nogle tekniske informationer om din computer\'s konfiguration og installerede Internet programmer. IDM vil indsamle og visedig disse informationer i næste skridt før afsendelse af rapporten til vores support afdeling.\r\n\r\n Vil du have at IDM skal generére disse informationer?
+20542=Slår avanceret browser integration fra
+20543=IDM prøver at downloade en test side for at tjekke din Internet forbindelse. Sikre dig venligst at du er forbundet til Internettet. Hvis du har en firewall, sikre dig venligst at den nye version af IDM har tilladelse til at forbinde til Internettet før du fortsætter. Klik så på \"Tjek\" knappen herunder, og IDM vil prøve at downloade test siden igen.
+20544=IDM har ændret dens netværks integration og skal tjekke din Internet forbindelse igen. Hvis du ikke er forbundet til Internettet så tilslut venligst og klik på \"Tjek\" knappen.
+20548=Internet Download Manager netværks integrationen blev ændret. Du skal genstarte din computer, fordi dine Internet Programmer ikke vil kunne kommunikére med Internettet ordentligt før en genstart.\r\n\r\nGem venligst alt dit arbejde og luk alle programmer nu, computeren vil genstarte efter du har klikket på OK knappen.
+
+//v4.01 build 4
+20549=Denne version af Internet Download Manager har Avancerede Browser Integrations features. Installationen af denne feature kræver en mulig system genstart.\r\n\r\nNår Avanceret Browser Integration er slået til, kan IDM indfange disse downloads hvilket var umuligt at fange før i IDM, el. i anden download manager. Når du bruger denne integration, kan IDM blive integreret i en hvilken som helst browser og Internet programmer for at overtage dine FTP/HTTP downloads.\r\n\r\nI sjældne tilfælde kan denne integration konflikte med et nyligt installeret 3.-parts Internet program. Hvis du finder nogle problemmer med netværks integrationen, kan du slå hakket fra i \"Brug avanceret browser integration\" boksen i IDM->Tilpas->Generelt boksen for at slå den fra.\r\n\r\nVil du installére Avanceret Browser Integration?
+20550=Avanceret Browser Integration er med succes blevet installeret!
+
+//menu "File->Redownload"
+33009=Gendownload
+
+//new (since v4.00) toolbar buttons of the main window
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20551=Start Kø
+20552=Stop Kø
+
+//v4.01 build 5
+20553=Internet Download Manager indfangede automatisk download links fra et andet Internet Program da det prøvede at downloade en fil. Hvis du IKKE vil downloade denne fil med IDM, åbn venligst Tilpasnings boksen ved at klikke på Tilpas knappen\r\n\r\n 1. Hvis du ikke vil downloade denne type af filer med IDM, skal du slette den tilsvarende fil type (fil udvidelsen) på listen over automatisk indfangede fil typer.\r\n\r\n 2. Hvis du ikke vil downloade nogen filer fra et specielt site med IDM, skal du tilføje dette site på ekskludér listen over sites.
+236=IDM tip: Automatisk link indfangning
+1393=Vis ikke dette tip igen
+1397=IDM har en fleksibel mekanisme til at overtage el. ignorére downloads fra et andre Internet Programmer. Vil du læse mere om dette?
+1396=Læs mere
+
+//v4.02
+20569=Denne fejl besked er mulig hvis IDM bliver brugt på flere computere med de samme Seriel Numre. Bemærk venligst, at IDM har pr. computer licens. For at kunne bruge IDM på flere computere på samme tid skal der indkøbes een licens for hver computer.
+20570=Små Knapper
+20571=Store Knapper
+20572=Klassiske Knapper
+
+//new main menu items
+m33001=Knapbjælke
+33510=Klassiske Knapper
+34010=Små Knapper
+34011=Store Knapper
+
+//a new (since 4.401) button on the Options dialog
+1371=Hjælp
+
+// The abbreviation of second, kilobytes, megabytes and gigabytes, 
+// it's used when denoting download speed measurement units, 
+// e.g. KB/sec --- kilobytes per second, etc.
+20575=sek
+20576=GB
+20577=MB
+20578=KB
+20579=Bytes
+
+//v4.03
+20588=Kan ikke genopbygge downloadet fil. Opbygnings sekvensen af downloadede dele blev ødelagt. Find herunder mulige årsager til dette problem.\r\n\r\n 1.	Computer blev uventet lukket ned p.g.a strømafbrydelse under downloading/samling af fil delene.\r\n 2.	Et andet program el. bruger fjernede Internet Download Manager processen under downloading/samling af fil delene. Bemærk venligst at det kan tage nogen tid at genopbygge store filer. Vær ikke ked af det, men vær tålmodig og vent indtil IDM færdiggører samlingen. Afbryd venligst ikke Internet Download Manager processen i Job Listen.\r\n\r\nHvis disse begivenheder ikke indtræf, send venligst %s filen (hvis den findes) til Internet Download Manager\'s support afdeling for videre analyse.
+
+
+//v 5.00 --- grabber
+1429=< Tilbage
+1430=Næste >
+
+1405=Tilføj Filter
+1421=Tilføj Filter
+1437=Søg filer kun fra dette site
+1459=Start download af alle passende filer straks
+1471=Du kan undersøge sitet først, markér de filer du ønsker, og download dem i hoved Grabber vinduet, el. tilføj dem til hoved listen i IDM. Dette valg downloader alle fundne filer med det samme.
+1515=Download følgende filer (fil typer)
+1516=Download ikke følgende filer (fil typer)
+1480=Ikke under
+1482=Ikke mere end
+1483=Download kun filer placeret indenfor følgende stier/domæner:
+1486=Download ikke filer placeret indenfor følgende stier/domæner:
+1517=Download hvis fil str. er
+1488=Brug semikolon'er ( ; ) for at adskille emnerne.
+
+241=IDM Site Grabber
+1446=Filer Downloadet:
+1448=Filer Fundet:
+1450=Web sider behandlet:
+
+244=Filtre
+1423=Tilføj
+1424=Redigér
+1425=Slet
+
+245=Filter
+1426=Navn
+1427=Maske
+
+1414=Grabber Projekt Navn
+1510=Start side/adresse
+1439=Brug autorisation
+1441=Indtast login og password manuelt på følgende web side:
+1511=Projekt skabelon
+1470=Hvis du vælger en projekt skabelon, vil guiden sætte de krævede projekt indstillinger for den valgte skabelon i det næste forløb. Bemærk at du altid kan ændre indstillingerne manuelt.
+
+1514=Brug de originale relative undermapper
+1468=Konvertér links i downloadet html filer til deres lokale filer for offline læsning
+1469=Overskriv eksisterende filer
+1436=Tilføj markerede filer til IDM\'s hoved liste og til download kø'en ved lukning af grabber'en
+
+262=Indstilling af IDM Grabber
+1518=Brug link tekter som download beskrivelse når der tilføjes filer til IDM\'s hoved liste
+1466=filer der skal findes på samme tid (1 til 10)
+1467=filer der downloades på samme tid (1 til 10)
+1509=Bemærk venligst at en web server kan afslå hvis du sætter et for stort antal af filer der skal findes (downloads) på samme tid.
+
+1416=Gennemse ikke forældre mapper
+1490=niveauer indenfor samme base site
+1435=Gennemse hele sitet
+1445=Gennemse det specificerede antal af link niveauer:
+1491=niveauer på andre sites
+1474=Gennemse kun web sider indenfor følgende stier/domæner:
+1476=Gennemse ikke web sider indenfor følgende stier/domæner:
+1512=På dette trin skal du angive hvilker web sider der skal gennemses for at finde de ønskede filer. I næste trin, har du mulighed for at sætte fil typer, placeringer og andre filtre.
+1489=Hvad er antallet af link niveauer?
+1493=Gennemse alle sites indenfor hoved domænet
+1494=Ignorér popup vinduer
+
+268=Skabelon Navn
+1508=Indtast navnet på grabber skabelonen
+
+269=Gemmer projektet af IDM Grabber
+1507=Gem dette projekt med følgende navn
+1513=Vis ikke denne besked hvis navnet er unikt
+
+270=Indlæs projekt
+
+32811=Vejledning
+34022=Grabber Hjælp
+      
+
+m1458=Projekt
+1458=Ny
+1438=Indlæs...
+1442=Gem
+34020=Gem aktuel indstilling som skabelon
+m34013=Seneste Projekter
+34013=Seneste Projekter liste
+m1457=Tilpas
+1457=Grabber Indstilling
+34021=Planlæg projektet
+
+t1398=Start Gennemsyn af Site
+t1401=Stop Gennemsyn af Site
+t1353=Vælg Alle Filer
+t1354=Fravælg Alle Filer
+t1432=Start Download af valgte filer
+t1433=Stop download af valgte filer
+t1434=Tilføj valgte filer til hoved listen i IDM og i download køen
+
+
+20580=Tilpasset indstillinger
+20581=Alle Billeder fra web sitet
+20582=Audio filer fra start side og fra et næste niveau
+20583=Alle Video filer fra web sitet
+20584=Alle filer web sitet undtagen web sider og billeder
+20585=Hele web sitet
+
+20589=Web indhold
+20590=Avanceret
+20591=Grabber projekter
+20592=IDM Grabber
+20593=Indtast start side/adresse
+20594=Start side/adresse
+20595=Indtast venligst login og password el. fjern hakket i \"Brug Autorisation\" boksen
+20596=Indtast venligst manuelt login side el. fjern hakket i tilsvarende boks
+20597=Manuelt login side
+20598=Ingen markéret filer!
+20599=%ld filer blev tilføjet på hoved listen i IDM.
+20600=Kan ikke tilføje filerne. For mange filer blev markeret. Download dem venligst i dette projekt ved at klikke på \"Download Markeret\" værktøjsbjælke knappen.
+20601=Kan ikke tilføje nye filer. Hoved IDM listen indeholder for mange filer og det kan sløve IDM. Slet venligst nogle af filerne på hoved listen.
+
+20602=Dette navn er reserveret. Vælg venligst et andet navn på din skabelon.
+20603=Skabelonen med dette navn findes allerede. Vil du overskrive skabelonen?
+20604=Gem grabber projektet?
+
+//right click menu
+20605=Åbn projekt
+20606=Planlæg projekt
+20607=Slet projekt
+
+20608=Luk venligst det kørende grabber projekt først.
+20609=Planlæg grabber projekt
+20610=Kommer snart!!!\r\n\r\nTjek denne feature i den næste version af IDM
+
+//displayed statuses
+20611=Gennemser sitet
+20612=Downloader
+20613=Udført
+20614=Stoppet
+
+20615=Projektet med \"%s\" navnet findes allerede. Vælg venligst et andet navn.
+20616=Der er ingen gemte projekter af IDM grabber
+20617=Vælg venligst et projekt navn!
+20618=Vil du slette \"%s\" grabber projektet?
+20619=Ugyldigt antal af filer gennemset på samme tid. Sæt venligst det korrekte antal.
+20620=Ugyldigt antal af filer downloadet på samme tid. Sæt venligst det korrekte antal.
+20621=Kan ikke åbne filen \"%s\"\r\n\r\n%s
+20622=Vil du downloade og installére IDM Grabber hjælp filen (ca. 100 KB) fra IDM\'s hjemmeside?
+20623=Kan ikke indlæse projekt.\r\nHukommelses allokérings fejl.
+20624=Kan ikke indlæse projekt.\r\nFilen i grabber projektet er korrupt el. det\'s version er uacceptabel.
+20625=Filen i grabber projektet er korrupt. Flere filer er ikke blevet indlæst.
+20626=Kan ikke indlæse skabelonen.\r\nFilen i skabelonen\'s oplysninger er korrupte el. det\'s version er uacceptabel.
+20627=Indlæser grabber skabelon
+20628=Gemmer grabber skabelon
+20629=Gemmer grabber projekt
+20630=Indlæser grabber projekt
+      
+//step dialogs captions
+20631=IDM Site Grabber. Trin %d --- %s
+20632=Sæt start side
+20633=Gem filer i
+20634=Sæt gennemsyns filtre
+20635=Sæt fil filtre
+
+20636=Manuel login side
+20637=Tryk på OK knappen når login handlingen er udført
+20638=OK
+20639=Annullér
+
+//v4.04
+20640=Hvis du planlægger kun at overtage downloads fra Internet Explorer, så behøver du ikke denne feature, og du bør da svare \"Nej\".
+
+//v4.06
+20641=Forbinder til
+20642=Område:
+1534=Gem dette password i IDM\'s password listen
+1536=Indtast dit brugernavn og password.
+1537=Brugernavn:
+1538=Password:
+
+//v4.07
+
+280=Gruppe download
+1553=Det er muligt at tilføje en gruppe af fortløbende filnavne så som img001.jpg, img002.jpg, osv., img100.jpg til IDM download kø'en. Brug asteriske jokertegn for fil navne mønstret. \nF.eks.:   http://www.internetdownloadmanager.com/pictures/img*.jpg
+1540=Numre
+1541=Bogstaver
+1556=Fra:
+1557=Til:
+1547=Jokertegns str.
+1555=Replace asterisk to
+1558=Første fil:
+1559=Anden fil:
+1560=Sidste fil:
+
+20643=Tjek alle valgte filer
+20644=Fra tjek alle valgte filer
+
+1552=Erstat filnavne v.hj.a. asteriske jokertegn for filnavne mønstret:
+
+34024=Tilføj gruppe download
+
+20645=Der er ingen asteriske jokertegn i URL'en til at lave en fil download liste!
+20646=Gruppe download
+20647=For mange filer. Antallet af filer bør ikke overskride 1000. Vælg venligst et andet \"fra : til :\" område.
+20648=Gem til mappe/kategori
+
+//v5.00 beta
+
+20574=Grabber
+20649=Indtast venligst logout side el. fjern hakket i tilsvarende tjekboks
+
+20554=Alle Filer
+20555=Billed Filer
+20556=Video Filer
+20557=Audio Filer
+20558=Eksekvérbare Filer
+20559=Pakkede Filer
+20560=PDF Dokument Filer
+
+20561=Brug ikke ekskludér filter
+
+20562=Site Oversigt
+20563=Indstillinger
+
+20564=Filter navn
+20565=Maske
+20566=Udfyld venligst filter navn
+20567=Udfyld venligst maske
+20568=Filter med \"%s\" navnet findes allerede. Vælg venligst et andet navn.
+
+20650=Vent venligst...
+20651=Sletter midlertidige filer
+20652=Gemmer Grabber projekt
+20653=Sletter Grabber projekt
+20654=Tilføjer ændringer
+20655=Indlæser Grabber projekt
+20661=Tjekker for ændringer
+20662=Downloader manuel login side
+
+20656=Der er ikke nok ledigt plads på drev %s til at udføre grabber projektet. Frigør venligst først noget plads og prøv igen.
+20657=Der er ikke nok ledigt plads på drev %s til at åbne grabber projektet. Frigør venligst først noget plads og prøv igen.
+20658=Kan ikke åbne projektet. Nogle af projekt filerne er blevet ødelagt el. slettet.
+
+20659=Fuldfør start side med alle billeder, stile, og scripts for offline læsning
+20660=Fuldfør start side
+
+20663=Kan ikke starte downloading af manuel login side. Tjek venligst URL syntaksen.
+
+33010=Kør site grabber
+
+1563=Klik på Avanceret knappen for at tillade manuel login el. for at fraslå en logout side
+1561=Åbn ikke logout siden:
+1564=Mange sites har logout side(r) som Grabber ikke bør åbne. Du kan bruge asteriske jokertegn her for at angive et mønster til forskellige logout sider.
+1571=Skjul dublét filer fundet på forskellige placeringer
+1565=Udfør JavaScript
+1567=Brug dette valg med omtanke. Hvad er risikoen?
+1573=Gennemse filer i IE cachen før downloading
+1568=Brug asterisk som et jokertegns mønster. Brug kommaer uden mellemrum for at adskille emner 
+
+//grabber dlg tree
+20664=Alle Filer
+20665=Link Visning
+20671=Mappe Visning
+20667=Andre sites
+20668=sites
+
+20669=Ekskludér filtre
+20670=Inkludér filtre
+
+t34023=Vis grabber statistikker
+271=IDM Grabber Statistikker
+1574=Status:
+1575=Web sider behandlet
+1576=Enkelt
+1577=Avanceret
+1578=Filer
+1579=Totalt
+1580=Gennemset
+1581=Afstemt
+1582=Downloadet
+
+//v5.00 build 3
+20672=Vis Miniature
+20673=Ingen downloadet filer
+
+20674=Ikke Fundet
+20675=Forbudt
+20676=Fejl
+
+//v5.01
+284=Planlæg grabber projekt
+1583=Een-gang\'s udforskning/downloader
+1584=Periodisk synkroniséring
+1585=Udforsk kun
+1586=Udforsk site og download afstemte filer
+1587=Download afstemte filer
+1588=Trin 3. Planlæg
+1601=Trin 2. Vælg handling
+1600=Trin 1. Vælg type
+1593=Projekt:
+1590=Åbn følgende fil når udført:
+1595=Start igen hver
+1597=timer
+1598=min
+1599=Dagligt
+1602=Bemærk: IDM bør kører i din system bakke på det angivede tidspunkt for at kunne starte et planlagt projekt
+20677=For at bruge projekt planlægning bør du gemme projektet først. Gem projektet nu?
+20678=Internet Download Manager har udført behandlingen af grabber projektet. Ifølge projekt planlægnings indstillingerne vil din computer lukke ned.
+t33010=Kør site grabber
+t34021=Planlæg projektet
+t34025=Opdatér alle
+20679=Det planlagte grabber projekt kunne ikke startes kl. %d:%02d da projektet kørte på dette tidspunkt.
+20680=Det planlagte grabber projekt kunne ikke startes kl. %d:%02d fordi projekt indstillingerne blev redigeret på dette tidspunkt.
+20681=Java-scriptet vil ikke blive kørt for web siderne hvilket allerede er blevet gennemset/kørt. Hvis du vil køre Java-scriptet for disse sider skal du klikke på \"Opdatér alle\" værktøjsbjælke knappen i Grabber Aktion vinduet.
+20682=Opdatérings knappen vil opdatére projektet efter (a) start gennemsyn af sitet fra start siden, (b) opdatéring af filer hvis de er blevet ændret på serveren, og (c) downloading af nye filer.
+20683=Opdatérings knappen vil opdatére projektet efter (a) start gennemsyn af sitet fra start siden, (b) opdatéring af downloadede og kontrolléret filer hvis de er blevet ændret på serveren.
+20684=Bemærk at ældre filer som blev fundet før opdatéringen ikke vil blive slettet. Grabber vil analysere alle web siderne på sitet igen, og dette kan tage noget tid.\r\n\r\nEr du sikker på du vil opdatére dette projekt?
+
+//version 5.02
+20685=Omdøb projekt
+20686=Minimér til system bakken
+20688=Gendan alle download vinduer
+20689=Du kan slå denne besked til i \"Tilpas->Downloads\"
+20690=IDM indstillinger
+20691=Downloadet %s (%I64d Bytes)
+20692=Filen er muligvis ikke blevet helt downloadet da fil størrelsen er ukendt.
+20693=Husk denne sti for \"%s\" kategorien
+20694=Download udført
+1610=Adresse
+1611=Filen gemt som
+1606=Åbn mappen
+1607=Vis ikke denne besked igen
+t1608=Gennemse
+20695=IDM Downloads
+1615=Ignorér fil ændrings tidspunktet når der fortsættes med en download
+1613=Læs mere
+20696=IDM tjekker for en ny udgave hver 2. uge ved at forespørge en opdatérings side fra den\'s hjemmeside. Hvis din firewall blokkérer opdatérings forespørgslen af IDM og viser en tilsvarende advarsels besked, bør du forstå at forespørgslen er OK og det er sikkert at tillade dette.
+1617=Adresse
+1619=Adresse:
+1618=Du kan bruge asterisk som jokertegns mønster
+
+//Please note that the old menu item string changed from m32771=URL to m32771=Tasks
+//also strings 32771 and 148 have been changed
+
+//v 5.02 Build 2
+1621=Opdatérings bemærkning
+290=IDM opdatérings bemærkning
+20697=Ingen miniméret downloads
+
+// v 5.02 Build 3
+1622=Bemærk: Disse indstillinger relatérer ikke til kø behandlingen
+
+// v 5.02 Build 6
+20698=Gennemse
+
+// v 5.02 Build 10
+20586=Find herunder mulige årsager til denne fejl:\r\n\r\n 1. Internet Forbindelse ikke fundet. Tjek venligst din Internet Forbindelse.\r\n\r\n 2. Du har et firewall program på din computer, og du har lige installéret, erstatet el. opdatéret din nuværrende version af Internet Download Manager. Tjek venligst dine firewall indstillinger og sikre dig at IDM har tilladelse til at forbinde til Internettet.\r\n\r\n 3. En service som finder servere på Internettet kaldet Domain Name Service (DNS) har midlertidige problemer, el. netværks forbindelsen mellem DNS og din computer blev brudt. Du skal muligvis genstarte din computer.\r\n
+1570=Reference:
+
+// v 5.02 Build 12
+20587=Når der prøves på at fortsætte en download, får Internet Download Manager et svar fra serveren at den ikke understøtter fortsættelse af downloads. \r\nDet er muligvis en midlertidig fejl på serveren, og du vil kunne fortsætte med filen på et senere tidspunkt, men på nuværrende tidspunkt kan IDM downloade denne fil fra begyndelsen. \r\n\r\n Vil du downloade denne fil fra begyndelsen?
+
+// v 5.03
+20699=Fil typer som ikke er listet i en anden kategori
+20700=Du klikkede på "Download Senere" knappen, men faktisk har IDM allerede downloadet dele af filen. IDM starter altid downloading mens der vises "Download Fil Info" vinduet. Du kan slå dette valg fra i "Tilpas->Downloads" boksen
+20701=Download senere
+20702=En midlertidig mappe er påkrævet for at kunne gemme fil dele under en download.\n Hvis du har flere fysiske drev på din computer, bør du vælge et andet fysisk drev som midlertidig mappe og "Gem i" mappe for hurtigere samling af downloadede filer.
+20703=Automatisk sæt i \"%s\" kategorien for følgende fil typer:
+20704=Gem i
+20705=Kategorier, fil typer, mapper
+1623=Start downloads med det samme under visningen af "Download Fil Info" boksen
+
+292=Genstarter computeren
+1627=Stop
+20706=Genstarter om %d sekunder
+20707=Genstart nu
+
+// v 5.04
+//Options->File Types and Options->General changes (for basic integration)
+20708=Fil typer
+20709=Downloadede fil typer
+20711=Bemærk: Opera og GAMLE Mozilla baserede browsere kan integreres i IDM v.hj.a. plugins. Denne integrations type understøtter ikke server undtagelses listen for at undgå downloadning med IDM. Du kan også ændre fil type listen men du skal genstarte disse browsere for at genindlæse disse plugins.\n Disse restriktioner bliver ikke tilføjet hvis du bruger \"Avanceret browser integration\" i \"Generelt\" fanen.
+1632=Detaljer
+1633=Tilføj browser...
+1634=Reintegrér Alt
+20710=Bemærk: Opera og GAMLE Mozilla baserede browsere kan integreres med IDM v.hj.a. plugins. Denne integrations type understøtter ikke speciel tasterne for at undgå  el. tvangs downloade med IDM i disse browsere.\n Hvis du vil undgå el. tvinge downloadning med IDM ved at trykke på speciel tasterne, bør du bruge \"Avanceret browser integration\".
+
+//MessageBoxes
+20713=IDM browser integration
+20712=IDM kan ikke finde %s browseren på din computer. Angiv venligst placeringen af de eksekvérbare browser filer i den næste boks.
+20714=Integrationen i browsere ved brug af plugins fejlede!
+20715=Plugins for %s browseren blev installéret.
+20716=Plugins for %s %s browseren blev installeret.
+20717=Plugins for %s browseren blev fjernet.
+20718=Genstart venligst browseren for at tilføje ændringerne.
+20719=Angiv placeringen af de eksekvérbare browser filer i den næste boks.
+20720=Kan ikke installére idmmzcc.xpi browser udvidelsen for Mozilla Firefox!
+20722=IDM har opdaget at %s %s browseren er standard browseren på din computer. \n Vil du integrére den med IDM?
+20723=Kan ikke installére idmmzcc.xpi browser udvidelsen!
+20724= %s %s browseren vil blive åbnet nu for at installére udvidelsen for integreringen med IDM.\n Bekræft venligst installationen af idmmzcc.xpi udvidelsen fra Tonec Inc. på tilsvarende browser vindue og genstart browseren efter installationen.
+20725=Kan ikke installére plugins til %s %s browseren!
+20726=IDM blev succesfuldt integréret i Internet Explorer.\n Du skal genstarte IE for at tilføje ændringerne.
+20727=IDM opdagede at %s %s browseren også blev installéret på din computer. \n Vil du også gerne integrérer den med IDM?
+20728=De valgte browsere vil blive åbnet nu for at installére udvidelserne til integrationen med IDM.\n Bekræft venligst installationen af idmmzcc.xpi udvidelsen fra Tonec Inc. på tilsvarende browser beskedboks og genstart browseren efter installationen.
+20729=Plugins til de valgte browsere blev installéret.\n Genstart venligst browserne for at tilføje ændringerne.
+20730=IDM er allerede integréret i Internet Explorer!
+20731=IDM kan ikke finde denne browser i basis integrations databasen. Du bør prøve avanceret browser integration for at fange downloads fra denne browser.
+20732=Kan ikke installére plugins til browsere med en tilsvarende type af integration!
+
+//new dialogs
+296=Browsere integration
+1635=IDM har opdaget følgende yderligere browsere på din computer. Vælg venligst de browsere som du vil integrérer med IDM.
+297=Browser detaljer
+1636=Tilføj version...
+20733=Browser
+20734=Type af integration
+20735=Sti
+20736=Udvidelse
+20737=Plugins
+
+//new menu item on main dlg popup menu and new button on Download complete dlg
+20738=Åbn med...
+1639=Åbn med...
+
+//
+20739=Lokalisér browseren
+
+// v 5.05
+20740=IDM downloader denne fil nu!
+20741=Duplikéret download link
+298=Duplikéret download link
+20742=Vis en besked og spørg om hvad der skal ske.
+20743=Tilføj kopi med et nummereret filnavn
+20744=Tilføj kopi og overskriv den eksistérende fil
+20745=Hvis den eksiserende fil er komplet, vis download komplet besked; ellers fortsæt.
+1641=Denne fil findes allerede i din download liste. Du kan vælge eet af følgende valg, el. klik på Annullér knappen for at skippe download af denne fil
+1645=Husk mit valg og vis ikke denne besked igen i fremtiden.\r\n Du kan ændre dette i IDM Tilpas->Download på et senere tidspunkt.
+1646=Hvis et dublikéret download link bliver tilføjet:
+
+20746=Internet Explorer, MSN Explorer og IE baserede browsere
+20747=Netscape 8.0 og senere
+20748=Netscape 7.xx og 6.xx
+
+// v 5.05 build 2
+20749=Du kan trække og slippe denne fil
+//Dear translators, if you added "CompleteDlg.htm" topic to your help file, or you did not translate the help file and use the English version, please add and translate the phrase "Press F1 to read more" at the next line.
+20750=Træk dette ikon for at starte træk og slip handlingen for den downloadede fil.\r\nTryk F1 for at læse mere.
+20751=Træk og slip den downloadede fil
+
+// v 5.07
+1647=Fortsæt
+20754=Du skal have administrator\'s rettigheder for at kunne gemme filer på den valgte lokation
+20755=Du skal have administrator\'s rettigheder for at kunne udføre denne handling
+
+// v 5.07 build 2
+20756=IDM\'s Installations program skal genstarte din computer for at erstatte de filer der var i brug. Tryk på OK knappen for at genstarte din computer nu
+20757=Bekræft genstart
+20758=Internet download manager er med succes blevet installéret. Den vil starte automatisk og overtage downloads fra din browser.
+20759=Du kan også starte den i \"Start -> Alle Programmer -> Internet Download Manager\" menuen.
+
+// v 5.07 build 6
+//new checkbox on Options->General
+1650=Kør modulet til klik overvågning i IE-baserede browsere (MSN, Avant, osv.)
+
+//v 5.08 build 5
+//new dialogs
+302=Annullérer en automatisk startet download
+1651=Du har annulléret denne download 2 gange.\n\n Hvis IDM altid overtager denne download ved en fejl, kan du prøve at tilføje adressen el. sitet til IDM\'s liste over undtagelser:
+1652=Start ikke downloads automatisk fra dette site:
+1653=Start ikke downloads automatisk fra denne adresse:
+1655=Du kan også redigére undtagelses listen i \"Tilpas->Fil Typer\" fanen i tilpasnings vinduet
+1654=Vis ikke denne besked igen
+
+303=Listen over undtaget adresser
+1661=Start ikke downloads automatisk fra følgende adresser:
+1659=Vis dialog vinduet for at tilføje en adresse på listen over undtagelser for en 2. gang\'s annulléret download
+
+304=Tilføj en adresse på undtagelses listen
+
+//changes in "Options->File Types" dialog:
+1656=Redigér listen ...
+//label 1372 was divided into 2 parts
+1667=Start ikke downloads automatisk fra følgende sites:
+1662=(adskil navne med et mellemrum)
+
+//v 5.08 build 7
+20763=Den anmodede fil ligner en html web side.\r\n\r\n Serveren sendte en html side på 2. anmodning. Nogle servere tillader ikke en anmodning om den samme fil 2 gange. Siden du har \"Start downloads straks imens Download Fil Info dialog boksen vises\" valget slået fra, vil IDM sende den første anmodning for at finde ud af fil typen og str., og sende den 2. anmodning når du har klikket på \"Start download\". \r\n\r\n Prøv at slå \"Start downloads straks imens Download Fil Info dialog boksen vises\" valget til i \"Tilpas->Downloads\", genopfrisk siden i din browser og prøv at downloade denne fil igen.
+
+//v 5.09 build 4
+305=IDM kunne ikke overtage denne download
+20764=Nogle servere tillader ikke en anmodning om den samme fil 2 gange.\r\n\r\n Browseren foretog den første anmodning om \"%s\" filen og da IDM prøvede at anmode om den samme fil igen, sendte sitet en web side til IDM i stedet for at downloade.\r\n\r\n For at overtage denne download kan du indstille en speciel tast i \"IDM Tilpas->Generelt->Taster...\". Tryk og hold denne tast imens du klikker på download linket/knappen sådan at IDM kan overtage downloadingen før den første browser anmodning. Bemærk at \"Ins\" tasten burde virke i de fleste browsere.
+
+//v 5.11
+//new scheduler dialog
+308=Planlægger
+1675=Ny Kø
+1678=Slet
+1684=Kø'er
+20783=Kø'er
+306=Planlæg
+1680=Antal af nye forsøg for hver fil hvis downloading fejler:
+307=Filer i kø'en
+1687=Download grænser
+20765=Download grænser
+20767=Kø # %ld
+20768=Hoved download kø
+20769=Synkronisérings kø
+
+20770=Opret ny kø
+20771=Flyt til kø
+20772=Tilføj til kø
+20773=Start nu
+20774=Stop
+20775=Redigér kø
+20776=Planlæg
+20777=Vil du virkeligt slette %s?
+20778=Start %s
+20779=Stop %s
+20780=IDM Kø'er
+20781=Billederne i \"Q\" kolonnen viser hvilken kø filerne tilhører.\r\nDu kan flytte filer fra een kø til en anden med højre klik\'s menuen.\r\nFor mere information om kø'er, henviser vi til Planlægger hjælpe filen.
+20782=Vil du downloade og installére \"IDM Planlægger og kø'er\" hjælpe filen (ca. 100 KB) fra IDM\'s hjemmeside?
+1685=Du har planlagt start tidspunktet af kø behandlingen.\r\nBemærk venligst, for at kunne starte kø'en på et bestemt tidspunkt, er det nødvendigt at have IDM kørende i baggrunden, f.eks. nede i proceslinien (se billede herunder)
+310=Indtast kø navn
+1686=Indtast et navn på den nye kø som vil blive vist på listen over kø'er
+
+//menu items
+m34026=Start kø
+m34028=Stop kø
+34029=Planlægger og kø'er
+//tooltips for "Start queue" and "Stop queue" toolbar buttons.
+t34030=Start hoved download kø, el. vælg en kø for at starte på ned-rulle listen
+t34031=Stop hoved download kø, el. vælg en kø for at stoppe på ned-rulle listen
+
+//v 5.11 build 3
+1679=Een-gangs downloading
+
+//v 5.11 build 5
+20786=Data overførslen blev afbrudt og serveren understøtter ikke \"fortsæt\". Det er kun muligt at downloade denne fil fra begyndelsen.\r\n\r\n Der er flere muligheder for at kunne løse dette problem:\r\n 1. Muligvis havde serveren midlertidige problemer. Prøv at fortsætte denne downloadpå et senere tidspunkt.\r\n 2. Du kan lade filen være i kø'en (opret en anden ny kø) og start så kø'en. I dette tilfælde vil IDM igen forsøge at downloadefilen fra begyndelsen indtil den er downloadet succesfuldt.\r\n For at opnå det bedste resultat, bør du også sætte 1 forbindelse for dette site på listen over undtagelser i IDM \"Tilpas->Forbindelse\" fanen.\r\n
+20784=\"IDM CC\" udvidelsen til Mozilla baserede browsere er ændret i denne version af IDM. Du skal geninstallére udvidelsenfor at kunne bruge de nye features. Vil du geninstallére udvidelsen til %s %s browseren?
+20785=\"IDM CC\" udvidelsen til Mozilla baserede browserere er ændret i denne version af IDM. Du skal geninstallére udvidelsenfor at kunne bruge de nye features. Vil du installére den nye \"IDM CC\" udvidelse til browserne hvilke har en gammel \"IDM CC\" udvidelse?
+
+//v 5.11 build 7
+//Items in context menu of browsers:
+20810=Download med IDM
+20811=Download FLV video med IDM
+20812=Download senest anmodet FLV video
+20813=Vælg fra 10 seneste anmodede FLV videoer
+20814=Download senest anmodet FLV video med IDM
+20815=Download FLV videoer med IDM fra 10 senest anmodede
+20816=Download alle links med IDM
+20817=Download FLV video indhold med IDM
+
+20790=Gemmer FLV video
+20791=Du kan gemme FLV videoer som du kan lide v.hj.a. \"Download FLV video indhold med IDM\" i browserens højre-kliks menu. \r\n\r\nBrowserens højre-kliks menu vises når du højre-klikker på en web side (men ikke på en FLV afspiller) i din browser el. v.hj.a. højre-kliks menu tasten på dit tastatur
+20792=Kan ikke finde FLV video links på denne web side.\r\nDin browser har muligvis ikke anmodet om video filen endnu. Du er nødt til at vente på at din browser foretager anmodningen før du kan prøve igen. I nogle tilfælde kan du blot klikke på \"Afspil\" knappen i din web afspiller.
+20793=Download med IDM
+20794=Download Alle med IDM
+20795=Kan ikke finde links!\r\nHvis denne side har links, genindlæs siden og prøv så igen. Hvis problemet fortsætter, kontakt venligst IDM support teamet.
+20796=Kan ikke finde nogen FLV video links!
+20797=Kan ikke hente internet video links anmodet af explorer!\r\nDu (el. noget særligt spyware fjerner program) har fraslået IDM Browser Hjælper Objektet i din IE. Brug venligst \"Værktøjer->Håndtér Add-ons->Aktivér el. deaktivér Add-ons\" i Internet Explorer menuen. Find så \"IDMIEHlprObj Class\" add-on og aktivér denne.
+20798=Kan ikke forbinde til IDM interfacet som overvåger internet video links anmodet af explorer.\r\nMulige årsager:\r\n - Du genstartede ikke din computer efter opgradéringen af IDM til den nyeste version. Genstart venligst din computer og prøv igen\r\n - IDM blev ikke installéret korrekt. Prøv venligst at gen-downloade den nyeste version af IDM fra det\'s officiele site og prøv igen.
+
+//new feature in "Options->General" dialog:
+1688=Redigér...
+1689=Tilpas IDM menu emner i højre-kliks menuen i browsere
+334=Internet Explorer og IE baseret
+335=Firefox og andre Mozilla baseret
+1696=Valgte menu emner vil vises i browserens højre-kliks menu:
+20818=Genstart venligst Internet Explorer for at tilføje ændringerne
+20819=Ændrer IE højre-kliks menu
+
+//v 5.11 b8
+20820=Afslut nu
+20821=Afslut IDM
+20822=Internet Download Manager har fuldført kø behandlingen. Ifølge planlægger indstillingerne vil IDM afsluttes. Men du har andre downloads kørende som vil blive stoppet ved afslutning. Klik på Annullér knappen for ikke at afslutte.
+
+//v 5.11 build 9
+20823=Du har annulléret lign. downloads.\n\n Hvis IDM altid overtager sådanne downloads ved en fejl, kan du tilføje dette site el. et mønster for lign. adresser til IDM listen over undtagelser:
+20824=Fang ikke downloads fra lign. adresser v.hj.a dette mønster:
+336=Rapport for IDM udviklere
+1702=Du kan sende en rapport til IDM\'s udviklere om downloads som blev overtaget ved en fejl for at kunne undgå dette site i fremtidige versioner af IDM.
+1698=Tilføjede den flg. undtagelse:
+1700=Videresendelses URL'en fra hvilken download blev overtaget ved en fejl:
+1703=Du kan bruge asteriske jokertegn i adresse mønstret.
+
+//v5.12
+20825=(Begrænset)
+1707=Brug Hastigheds Begrænser
+337=Hastigheds Begrænser Indstilling
+1704=Aktivér altid Hastigheds Begrænser ved opstart af IDM
+1705=Vis \"Brug Hastigheds Begrænser\" markérings felt i \"Download Forløb\" vinduet
+1706=Husk bruger-tilpassede undtagelser i \"Download Forløb\" vinduet under brug af Hastigheds Begrænser uafhængig af om global Hastigheds Begrænser er slået til el. fra
+1708=Maks. download hastighed for en fil
+1709=KBytes/sek
+1710=Bemærk: Internet servere kan afbryde forbindelsen når hastigheden er for begrænset! Det anbefales dog ikke at man bruger hastigheds begrænser til downloadning fra servere som ikke understøtter \"fortsæt\" featuren.
+1711=Hastigheds Begrænser indstilling for individuele downloads
+m34033=Hastigheds Begrænser
+34033=Slå Til
+34034=Slå Fra
+34035=Indstilling...
+
+//v5.12 build 5
+20831=Hvis en FLV video på en web side bliver afspillet i din browser, er det muligt at IDM ikke kan associere dette FLV link med den\'s web side. Du kan prøve at bruge \"Download FLV videoer med IDM fra 10 senest anmodede\" browserens højre-kliks menu.\r\n(Højre-kliks menuen i browsere kan tilpasses i \"IDM Tilpas->Generelt fanen\")
+20830=Der opstod en CRC fejl under downloadningen. Det betyder at du havde nogle problemer med din harddisk. Du bør skanne din disk for fejl v.hj.a. disk egenskaber->Funktioner \"Status for fejlsøgning\" værktøjet.
+
+//5.12b7
+20832=Du skal have administrators rettigheder for at registrére IDM til alle brugere på denne computer
+
+//5.12b8
+20837=Bekræft sletning af downloads
+20833=De valgte downloads er ikke færdige. Er du sikker på at du vil slette dem fra IDM\'s liste over downloads?
+20834=Den valgte download er ikke færdig. Er du sikker på at du vil slette den fra IDM\'s liste over downloads?
+20835=Der er ufærdige downloads i mellem de valgte. Er du sikker på at du ligeledes vil slette dem fra IDM\'s liste over downloads også?
+20836=Er du sikker på at du vil slette alle udførte downloads fra IDM\'s liste af downloads?
+1715=Er du sikker på at du vil slette de valgte downloads fra IDM\'s liste af downloads?
+1713=Slet fuldstændigt alle udførte downloadede filer også på din harddisk. Vær Forsiktig !
+
+//v5.14
+20850=video
+20851=audio
+20852=Download denne %s
+20853=Download denne %s med IDM
+20854=Om dette panel
+20855=Luk
+20856=Dette er IDM\'s download panel.\r\n Den kan tilpasses el. slået fra i \"IDM->Tilpas boksen->Generelt fanen\"
+20857=IDM download panel
+20858=Download %s fra denne side
+20859=Download %s fra denne side med IDM
+20860=Download alle
+20861=%ld %s filer
+20862=fil
+
+//new on Options->General
+1724=IDM Download panel for web-afspillere i browsere
+1727=IDM kan vise det\'s Download panel på en web-afspiller i en browser når IDM modtager en multimedia anmodning fra web-afspilleren
+1728=Panel visning:
+1717=Fuld mode
+1718=Mini mode
+1726=Vis IDM download panelet for følgende fil typer:
+20863=Bemærk: Hvis du fravælger en fil type på listen herover og hvis fil typen er på listen i \"Tilpas->Fil Typer\" fanen, bliver downloads af denne fil type indfanget af IDM automatisk og vil ikke blive spillet i web-afspilleren. Hvis du vil undgå dette, sæt hak i boksen herunder:
+1720=Fang ikke downloads til web-afspiller automatisk
+
+//on Scheduler dlg
+1729=Start download ved opstart af IDM
+
+20864=Du kan bruge integréringen i denne browser efter \"Avanceret browser integration\" featuren er slået til i denne boks
+1731=Advarsel: Du kører IDM med Administrator rettigheder. \r\n IDM kan ikke overtage downloads fra browsere i denne tilstand.
+20865=Firefox kan ikke overføre fil downloads til Internet Download Manager da du har sat hak i \"Kør dette program som administrator\" boksen i windows fil egenskaberne af IDMan.exe. \r\n\r\nÅbn venligst IDM mappen, højre klik på \"IDMan.exe\", vælg \"Egenskaber\" menuen, skift til \"Kompatibilitet\" fanen, og fjern hakket fra \"Kør dette program som administrator\" boksen.
+
+//v5.16
+20867=Kan ikke fortsætte med downloadning af filen:
+20868=IDM venter på den nye adresse for at fortsætte med filen:
+20869=Det er muligt at adressen på filen ikke længere er gyldig el. din session er udløbet.
+20870=Er dette den nye adresse til din udløbet download?
+20872=Opdatér download adresse
+20873=IDM venter på en ny adresse for en anden udløbet download. Kun een udløbet download bør bruge denne feature på samme tid.
+20874=IDM vil åbne en web side i din browser hvor det fangede denne download. Start venligst download af den samme fil i din browser igen, og IDM vil forsøge at fange en ny adresse el. nye sessions data for at fortsætte denne download
+20871=Afventer nye data
+1732=Stop afventning
+20875=Ny link adresse for denne fil blev modtaget succesfuldt.
+20876=Start venligst download af samme fil i din browser manuelt, og IDM vil forsøge at fange en ny adresse el. nye sessions data for at fortsætte denne download
+20877=Prøv at opdatére download sessionen og hent en ny adresse v.hj.a. \"Opdatér download adresse\" i højre-kliks menuen på emnet i IDM\'s download liste. \r\nEller prøv at slette denne download, start den igen fra din browser for at downloade den med IDM fra begyndelsen.
+20878=Downloader ejer web siden for at opdatére link adressen
+20879=Web sitet sendte en web side istedet for en fil da IDM anmodede om denne fil 2. gang. Måske dette site bruger midlertidige links og ikke tillader anmodninger om den samme adresse 2 gange.\r\n\r\nPrøv at slette denne download, start den igen fra din browser og når IDM fanger den, download den uden stop/pause.
+1741=Web side hvilken denne fil blev fundet fra:
+20880=Tjekker adresse: %s
+20881=Du har ikke markeret nogen fil til download!\r\n Hvis du ikke vil downloade noget, så luk venligst \"%s\" boksen v.hj.a. \"Annullér\" knappen.
+20882=Tilføjer filer der skal downloades med IDM
+1739=Vis kø valg panellet ved klik på "Download Senere"
+1738=Vis kø valg panellet ved tilføjelse af gruppe downloads
+1735=Tilføj filer til kø'en:
+20884=Tilføj ikke til nogen kø
+1736=Starter kø behandlingen
+1737=Spørg mig ikke igen
+20883=Du kan slå dette panel til igen i \"Tilpas->Downloads\"
+
+//v5.17b4
+34036=Tilføj gruppe download fra &udklipsholderen
+20885=Der blev fundet flere URL\'s i udklipsholderen. Vil du downloade dem?
+20886=Gruppe download fra udklipsholder.
+20887=Kan ikke finde nogen web adresse i udklipsholderen!
+
+//v5.18b3
+m34037=IDM bakke ikon
+34037=3D stil
+34038=Klassisk stil
+34039=Vis ikke
+
+//v5.18b5
+20889=Din licens for Internet Download Manager er udløbet.\r\n IDM er stoppet med at virke. Køb venligst en ny licens for at bruge IDM
+20890=BEMÆRK:\r\nDin licens for IDM vil udløbe om %ld dage.\r\n\r\n Bemærk venligst at \"Registréring->Registréring\" i menuen er slået fra nu,\r\n men bliver slået til igen når din licens er udløbet
+
+20891=Du har IKKE markeret nogen dage i ugen for hvornår planlæggeren skal starte!
+20892=Start dagligt
+
+20893=Du har indsat et mellemrum før brugernavnet. Hvis det blev indsat ved en fejl, vil du have at IDM skal fjerne det?
+20894=Du har indsat et mellemrum efter brugernavnet. Hvis det blev indsat ved en fejl, vil du have at IDM skal fjerne det?
+20895=Du har indsat et mellemrum før password. Hvis det blev indsat ved en fejl, vil du have at IDM skal fjerne det?
+20896=Du har indsat et mellemrum efter password. Hvis det blev indsat ved en fejl, vil du have at IDM skal fjerne det?
+
+//5.19
+1748=Tilpas IDM Download paneller i browsere 
+20899=For web-afspillere
+20900=For valgte filer
+1749=IDM kan vise Download panellet på en web-side når du vælger en tekst som indholder et download link.
+20901=(For tiden virker denne feature i Internet Explorer, IE baseret browsere, Firefox og Mozilla-baseret browsere)
+20903=Download valgte fil(er) med IDM
+1744=Vis Download panellet for alle valgte links
+1745=Vis ikke Download panellet for valgte links
+1746=Vis Download panellet for valgte links men kun på følgende sites:
+1751=Fang downloads fra de følgende browsere:
+1742=Tjek Alle
+1743=Fjern Alle
+
+//5.19b3
+20904=IDM kan ikke finde et komponent som installérer/afinstallérer avanceret browser integration. Geninstallér venligst IDM.
+20911=IDM vil downloade en web-side i stedet for en fil.
+20909=Vil du gerne vide hvordan man downloader filer fra rapidshare med IDM?
+20910=Vil du gerne vide hvordan man downloader fra fil delings sites med IDM?
+20905=Kan ikke overføre downloads til IDM
+20906=Det er muligt at din browser og IDM er sat til at køre under andre privilegier (forskellige Status niveauer).\r\n\r\nHvis du kører IDM med \"Kør som administrator\" i menuen, afslut venligst IDM (vælg \"Opgaver->Afslut\" i menuen i IDM\'s hoved vindue) og kør IDM igen normalt.\r\n\r\nMåske du har \"Kør dette program som administrator\" boksen markeret i Windows fil egenskaberne af IDMan.exe. Åbn venligst IDM mappen, højre-klik på \"IDMan.exe\", vælg \"Egenskaber\" i menuen, skift til \"Kompatibilitet\" fanen, og fjern hakket i \"Kør dette program som administrator\" boksen. Du skal også fjerne kompatibilitet med tidligere versioner af Windows hvis der er nogen slået til. Genstart venligst IDM efter dette.
+20907=Hvis der i \"Kør dette program som administrator\" el. \"kompatibilitet med tidligere versioner af Windows\" er sat hak i boksene for IDM, så fjern hakket i dem i Windows egenskaberne i din browser.
+
+//v6.0b
+20897=video %dx%d, varighed %d:%02d
+20912=Varighed
+20913=Bemærk venligst at hvis du har flere brugere på din computer, vil avanceret browser integration blive slået fra for alle brugere.
+20914=Efter integrationen af Internet Download Manager i de nye programmer kan du fraslå \"Find Nye Programmer\" valget for bedre performance.
+20915=Dette er en BETA version af Internet Download Manager.\r\nDen vil installére en ny netværks driver, hvilke i væsentlig grad forbedrer integrationen med web afspillere og ændrer ældre integrationer med flere browsere så som Chrome el. Opera. Hvis du oplever nogen problermer når du forbinder til Internettet, f.eks., systemet fryser, el. crasher, osv., åbn venligst tilpas IDM og fjern hakket i \"Brug avanceret browser integration\" boksen på Generelt fanen. Det vil slå den nye driver fra.
+
+//v6.03b2
+20919=IDM fandt ud af at din computer måske ikke har en afspiller som kan spille %s videoer. Du er nødt til at installére en %s afspiller.\r\n\r\nVil du læse mere om en %s afspiller?
+20920=%s video blev downloadet
+
+//
+//Dear translators, please note that we have changed several old strings:
+//
+t1278=Skjul kategorier
+t32789=Tilføj nye download adresser manuelt
+t1004=Tilføj en fil til IDM listen for downloading senere
+t1061=Overvåg system Udklipsholderen for links der skal downloades med IDM
+187=IDM drop mål. Drop web links der skal downloades her.
+20176=Den anmodede fil ligner en html web side.\r\n\r\nHvis denne download blev overtaget fra din browser automatisk da du klikkede på et link, prøv at holde Alt tasten nede når der klikkes på linket for at lade IE åbne siden.\r\n\r\nVil du fortsætte med at downloade filen med IDM og gemme den som en html side?
+20177=Den downloadede fil ligner en html web side.\r\n\r\nHvis denne download blev overtaget fra din browser automatisk da du klikkede på et link, så prøv at holde Alt tasten nede når du klikker på linket for at lade IE åbne siden.\r\n\r\nVil du gerne omdøbe den downloadet fil til en html side?
+34012=Søg efter nye værktøjsbjælker
+20573=Søg efter nye værktøjsbjælker
+57670=Hjælp Indhold
+20721=IDM er succesfuldt blevet integreret i Mozilla Firefox.\n Du er nødt til at genstarte Firefox browseren for at tilføje ændringer
+20342=Download link blev fundet i udklipsholderen. Vil du downloade det?
+
+//Old strings 20016, 20017, 20350 replaced with:
+20916=En ukendt fejl opstod under downloadning. Prøv venligst igen.
+20917=En fejl opstod under downloadningen. Prøv venligst igen.
+20918=Dit Seriel Nummer for Internet Download Manager blev blokkeret af en anden registréring. IDM afslutter...
+
+//And deleted the following strings: 
+//20178, 20179, 20180, 20181, 20182, 20183, 20184, 20185, 20186, 20187, 20188, 20189, 20190, 20191, 20192, 20193, 20194, 20195, 20196, 20197, 
+//20198, 20200, 20201, 20202, 20208, 20209, 20210, 20223, 20224, 1238, 1251, 1314, t1065, t1068, 20016, 20017, 20350
+
+//v6.03b3
+//We have changed the old strings: 20146 and 20033 (Tab name) 
+
+20921=Vil du gerne vide hvordan man downloader filer fra %s sitet med IDM?
+20923=IDM er på Skrivebordet
+20922=Du har placeret IDM\'s eksekvérbare fil på skrivebordet. IDM kan ikke arbejde korrekt uden det\'s andre filer, flyt venligst IDMan.exe tilbage til programmer, og opret en Genvej til IDM på Skrivebordet i stedet for. For at oprette en Genvej, åbn IDM mappen i Programmer, højre klik på IDMan.exe filen og vælg \"Send Til -> Skrivebordet (opret genvej)\" i popup menuen.
+20924=Bemærk 2: Nogle gange når du klikker på et link, vil din browser anmode om andre filer PÅ SAMME TID så som Java scripts, web sider, billeder, osv.. Når du trykker og holder en speciel tast nede, IDM opfanger disse filer, og browseren kan ikke anmpode om den nødvendige fil da den ikke vil køre et Javascript, hvilket fejlagtigt er blevet opsnappet af IDM. Hvis du kun vil fange og downloade de nødvendige filer med IDM, så slå venligst disse valg til herunder:
+1753=Når der trykkes/holdes på en speciel tast overtag IKKE downloads som enten er web-sider, billeder, scripts osv.
+20925=Du har en forældet %s browser integration, el. %s integrationen er ikke installéret. Vil du læse hvordan man fikser dette?
+20926=IDM viser et download panel i stedet for at indfange downloads i web afspillere når %s integrationen virker korrekt.
+
+//v6.04b2
+20928=IDM har opfanget denne fil fra en web medie afspiller fordi download panellet er slået fra for respektive fil typer i IDM Indstillingen.\r\n\r\n Hvis du vil have at IDM skal afholde sig fra at opsnappe sådanne filer, så gå venligst til \"Generelt\" fanen i IDM Tilpasning, klik \"Redigér...\" knappen for download paneller i browsere og slå \"Indfang ikke downloads fra web-afspiller automatisk\" til i boksen i pop-up vinduet.
+20929=IDM kan ikke ændre i Avancéret Browser Integration p.gr.a. een af følgende muligheder:\r\n1. Du har ingen Administrator rettigheder el. du tillod ikke at IDM hjælpe programmet at køre som Administrator.\r\n2. Du trykkede på Annullér knappen under IDM netværks driver installationen.\r\n3. Du blokkerede for IDM netværks driver opstart el. en uhensigtsmæssig installation af et 3. parts sikkerheds software el. antivirus.
+//v6.04b3
+20930=IDM kan ikke finde %ld fil(erne) som er nødvendige for browseren og system integrationen. Geninstallér venligst IDM 
+
+//v6.06
+//"Seriel Nummer" forklaring i registrérings boksen
+20931=Hvad er \"%s\"?
+20932=%s er en produkt nøgle for Internet Download Manager.\r\nDette er en unik alphanummerisk kode for hver bruger som ser ud som hér \r\n xxxxx-xxxxx-xxxxx-xxxxx\r\n\r\nDu vil modtage dit Seriel Nummer men KUN efter IDM betaling.\r\nTryk venligst på \"%s\" knappen for at købe IDM.
+
+//v6.07
+20933=Disse indstillinger er ikke tilgængelige for downloads hvilket behandles fra IDM kø\'en
+20934=Disse indstillinger er ikke tilgængelige når \"%s\" er slået til
+363=Download status
+364=Tilpas færdiggørelsen
+20935=Internet Download Manager har fuldført downloadning af filen. Ifølge dine indstillinger for denne download vil IDM nu afslutte. Men du har andre downloads i gang hvilket vil blive stoppet ved afslutning. Tryk på Annullér knappen for ikke at afslutte.
+20936=Internet Download Manager har udført downloadning af filen. Ifølge dine indstillinger for denne download vil IDM nu afbryde dit modem.
+20937=Internet Download Manager har udført downloadning af filen. Ifølge dine indstillinger for denne download vil IDM lukke din computer ned.
+1762=Vis download panellet for beskyttet indhold \r\n hvilke IDM muligvis ikke har downloadet
+20938=beskyttet indhold
+20939=IDM kan ikke downloade denne beskyttede stream af juridiske årsager. Download af sådanne streams er ikke understøttet da IDM muligvis ikke kan forbigå de teknologiske foranstaltninger som er lavet til beskyttelse af audio, video og data indhold.\r\n\r\nDet er muligt at slå download panellet fra for det beskyttede indhold som IDM måske ikke downloader i \"IDM Tilpas -> Generelt fanen\"
+
+//v6.07b7
+365=Hastigheds Begrænser
+1763=Maks. download hastighed:
+1765=Husk Hastigheds Begrænser indstillingerne for denne fil\r\n ved download stop/fortsæt
+1772=Skjul fane
+367=Tilpas download forløbs boksen
+1767=Tilpas "Download forløb" boksen
+1775=Start visning:
+1774=Bemærk: "Start visning" valget relatérer ikke til kø behandlingen. Når IDM behandler kø\'er, vil "Download forløb" boksen altid starte miniméret i system bakken
+1768=Vis "Hastigheds Begrænser" fanen
+1769=Vis "Tilpas færdiggørelse" fanen
+1773=Vis "Skjul fanen" knapper
+
+//v6.07b12
+20941=Fejl ved forbindelse til VPN
+20940=Det er muligt at du skal ændre VPN forbindelsen som er sat i IDM indstillingen, el. fra-slå  \"Brug Windows Opkald / VPN Netværk\" markérings boksen i IDM tilpasning -> \"Opkald / VPN\" fanen
+20942=kvalitet
+
+//v6.08b2 beta
+20949=Proxy/Socks
+20948=Proxy / socks konfiguration
+369=Avancéret proxy indstilling
+1777=Avancéret...
+1778=Brug proxy
+1785=Brug denne proxy til flg. protokoler:
+1779=Brug socks
+1786=Socks server adresse
+20943=Kan ikke forbinde til socks server, autorisation påkrævet
+20944=Socks server kan ikke forbinde til %s 
+20945=Kan ikke forbinde via socks server, ukendt socks type
+20946=Kan ikke forbinde via socks server, autorisation fejlede!
+20947=Kan ikke forbinde til socks server %s
+
+//v6.09b2 beta
+1787=Undtagelser
+370=Download panel undtagelser
+1788=Vis ikke IDM download panellet for følgende sites:
+1789=Adskil navne med et mellemrum. Du kan bruge asterisk som et jokertegns mønster
+20950=IDM kan ikke ændre Avancéret Browser Integration fordi \"Base Filtrérings Motor\" Windows servicen ikke kører. Højre-klik venligst på Computer ikonet, vælg \"Håndtér\", navigér til \"Servicer og Programmer -> Servicer\", find så \"Base Filtrérings Motor\" på listen og højre-klik på den for at åbne Egenskaber. Ændre Opstarts typen til \"Automatisk\", klik \"Start\" og bekræft ændringer.\r\n\r\nKlik OK for at besøge en web side for yderliggere information.
+20951=IDM kan ikke ændre Avancéret Browser Integration fordi \"Base Filtrérings Motor\" Windows service mangler. Dette kan ske fordi dit system er blevet beskadiget af et computer malware.\r\n\r\nKlik OK for at åbne en web side med rednings instruktioner.
+
+/v6.11
+341=Tilføj fil type
+349=Indtast site navn
+1790=Indsæt automatisk kun filer fra følgende sites i denne kategori:
+1793=Sepérer sites med et mellemrum. Du kan bruge asterisk som jokertegns mønster
+20952=Bemærk venligst at du under IDM installationen iflg. licensen har acceptéret, at du nu skal afinstallérer det el. købe en licens
+
+//v6.11b7
+20953=Senest...
+
+//v6.12b2
+20954=Din browser kan ikke åbne IDM websiden fordi en vigtig system fil er beskadiget på din computer. Reparér denne fil?
+20955=IDM kan ikke tjekke for opdatéringer da en vigtig system fil er beskadiget på din computer. Reparér denne fil?
+
+//v6.12b5
+1795=Sæt fil oprettelses datoen som angivet af serveren
+
+//v6.12b6
+20956=For at kunne opdatérer dele af IDM udvidelser til Firefox, luk venligst Firefox (el. SeaMonkey) og klik på \"Prøv Igen\" knappen\r\nEller du kan genstarte din computer senere
+
+//v6.12b8
+//Please pay attention that we added the possibility to translate text for IDM installer and IDM uninstaller. 
+//You can find the template to translate installer in "template_inst.lng" file in "Languages" folder
+
+//v6.12b22
+20995=IDM startede med at downloade filen v.hj.a. en forbindelse grundet en data korruption under nyeligt modtaget data via flere forbindelser som ikke passede med de samme data som blev downloadet tidligere.\r\nVil du læse om mulige årsager til denne data korruption?
+20996=IDM startede med at downloade filen fra begyndelsen da data blev ødelagt fordi nyeligt modtaget data ikke passede med de samme data som blev downloadet tidligere.\r\nVil du læse om mulige årsager til denne data korruption?
+20997=IDM udvidelsen blev succesfuldt installéret i (el. opdatéret i) Google Chrome browseren.\nDu skal genstarte Chrome for at tilføje ændringerne
+

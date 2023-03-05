@@ -1,0 +1,100 @@
+instlng=0x12 Korean(한국어)
+full_lng=idm_kr.lng
+
+//This template should be used to translate Internet Download Manager installer to foreign languages.
+//All files of installer translations should be named using inst_*.lng name pattern convention. 
+//Please place the abbreviated language name (e.g. de, en, es, fr, etc. :) instead of the asterisk. 
+//For example: inst_de.lng, inst_fr.lng etc.
+ 
+//The first string inside the template should be lang=ID Name
+//where Name - the full name of the language,
+//ID - hex number that defines Windows API value of the language, it is the same as in the main lng file.
+//The second line "full_lng=idm_*.lng" is the name of your main lng file
+ 
+
+//It's IMPORTANT when a string has any special characters 
+//(%i %s %d %x %ld %I64d %% \r\n), they should all remain in the translated 
+//string and cannot change places. Remember that IDM inserts dynamic 
+//values instead of these special characters in a predefined order. 
+//Instead of %s IDM inserts a string, %% - %, in all other cases IDM inserts a number.
+ 
+//The strings beginning with // are comments 
+//and you don't need to translate them and it is better if you delete them
+
+//You can read how to test installer translation on the following page
+// http://www.internetdownloadmanager.com/support/testinsttr.html
+
+20984=Internet Download Manager 설치 마법사
+20992=IDM 라이선스 계약을 읽어주세요.
+20985=설치 폴더 선택
+20986=프로그램 관리자 그룹 선택
+20987=Internet Download Manager 설치 시작
+20988=설치 중
+20989=설치 완료
+20990=제거 방식 선택
+20991=제거 수행
+20993=IDM 빠른 업데이트
+1050=IDM 설치 프로그램입니다. 이 프로그램은 사용자 컴퓨터에 Internet Download Manager를 설치합니다.
+1053=이 설치 프로그램을 실행하기 전에 모든 웹 브라우저를 닫아야 합니다. '다음'을 눌러 설치를 계속합니다.
+1054= 경고: 이 프로그램은 저작권법과 국제 조약의 보호를 받습니다.
+1055=이 컴퓨터 프로그램은 저작권법 및 국제 조약에 의해 보호를 받습니다. 이 프로그램 또는 그 일부를 무단으로 복제 또는 배포하는 행위는 민형사상의 기소 사유가 될 수 있습니다.
+1039=다음 폴더에 Internet Download Manager를 설치합니다.
+1040=다른 폴더에 설치하려면 '찾아보기'를 누르고 다른 폴더를 선택합니다.
+1041=대상 폴더
+1016=찾아보기...
+1044=IDM 아이콘을 추가할 프로그램 관리자 그룹의 이름 입력:
+1047=Internet Download Manager설치가 준비되었습니다.\r\n\r\n설치를 시작하려면 '다음'을 누르고, 설정을 변경하려면 '뒤로'를 누릅니다.
+1035=Internet Download Manager가 성공적으로 설치되었습니다.
+1036=설치를 끝내려면 '마침' 단추를 누릅니다.
+1037=설치 후 IDM으로 다운로드하려면 계속하기 전에 열려 있는 모든 웹 브라우저를 닫고 IDM을 실행한 다음 브라우저를 다시 엽니다.
+1042=현재 파일
+1038=파일 복사 중:
+1043=모든 파일
+108=IDM 설치
+1059=설치가 완료되지 않았습니다. 지금 설치 프로그램을 종료하면 Internet Download Manager가 설치되지 않습니다.\r\n나중에 이 설치 프로그램을 실행하여 설치를 완료할 수 있습니다.
+1060=설치를 계속하려면 '재개'를 누르고, 설치 프로그램을 종료하려면 '설치 종료'를 누릅니다.
+1000=재개
+1001=설치 종료
+1015=< 이전
+1008=다음 >
+1009=마침 >
+1007=취소
+1058=Internet Download Manager 제거 프로그램입니다.
+1057="기본 값" 또는 "전체" 제거 옵션을 선택합니다.
+1027=기본값
+1028=전체
+1056="기본값" 옵션은 IDM의 모든 실행 파일과 IDM 브라우저 통합을 삭제하고 IDM 환경 설정은 유지합니다. (향후 재설치 시 유용함)
+1061="전체" 옵션은 완료되지 않은 모든 다운로드를 삭제하고, IDM 다운로드 목록을 지우고, IDM 설정을 제거합니다. 나중에 IDM을 사용할 계획이고 다운로드 및 설정을 그대로 유지하려면 "기본값" 옵션을 선택하세요.
+1045=시스템에서 Internet Download Manager를 제거할 준비가 되었습니다.
+1046=제거를 시작하려면 '마침'을 누르고, 제거를 종료하려면 '취소'를 누릅니다.
+1049=Internet Download Manager 제거 중...
+1048=파일 제거 중:
+1051=IDM 사용자 인터페이스의 언어를 선택합니다. (나중에 ""보기->언어"" 메뉴에서 변경 가능)
+20957=%s 브라우저에서 IDM 통합을 제거하는 중에 알 수 없는 오류가 발생했습니다. %s 파일을 수동으로 삭제해야 할 수 있습니다.
+20958=IDM 제거
+20960=남은 시간: %i분 %i초
+20962=IDM 설치
+20963=주의
+20964=이 폴더에는 파일이 포함되어 있습니다.\r\n이 폴더에 설치하면 기존 데이터가 손상될 수 있습니다.\r\n이 폴더에 설치를 계속하려면 '확인' 단추를 누릅니다.\r\n설치할 다른 폴더를 선택하려면 '취소'를 누르세요.
+20965=IDM 설치 프로그램은 사용 중인 파일을 교체/삭제하기 위해 컴퓨터를 재부팅해야 합니다. '확인' 단추를 눌러 지금 컴퓨터를 재부팅하시기 바랍니다.
+20966=재부팅 확인
+20971=Windows가 이 폴더의 일부 IDM 구성 요소를 등록할 수 없습니다.\r\n\"%s\"\r\n\r\nIDM을 설치하려면 라틴 문자만 포함된 다른 경로를 선택하세요.
+20972=IDM 네트워크 드라이버 업데이트 중...
+20973=파일 복사 대화 상자를 취소하지 마세요.
+20974=지정된 위치에 폴더를 만드는 중에 \"액세스 거부\" 오류가 발생했습니다! IDM 설치를 위한 다른 경로를 선택하거나 관리자로 로그인하세요.
+20975=%s\r\n지정한 위치에 폴더를 만들 수 없습니다! IDM 설치를 위한 다른 경로를 선택하세요.
+20976=IDM 설치 프로그램은 약 10 MB의 디스크 공간이 필요합니다. IDM 설치를 위해 선택한 디스크에 여유 공간이 충분하지 않습니다! 디스크 공간을 확보하거나 IDM 설치를 위한 다른 경로를 선택하세요.
+20980=기본 IDM 실행 파일을 지정한 위치에 복사하는 중에 \"액세스 거부\" 오류가 발생했습니다!\r\n\r\n설치를 계속 진행할 수 없습니다. IDM 설치를 위한 다른 경로를 선택하거나 관리자로 로그인하세요.
+20981=IDM 설치 프로그램이 하나 이상의 IDM 관련 파일을 설치할 수 없습니다. 심각한 오류는 아니며 IDM 작동에 문제가 없으므로 설치 작업을 계속해도 됩니다. 설치를 계속하시겠습니까?
+20982=Internet Download Manager가 성공적으로 업데이트 되었습니다.
+20983=Internet Download Manager가 실행 중입니다.\r\n계속하기 전에 IDM 메인 창에서 \"작업->종료\"(또는 이전 버전의 경우 \"URL->종료\") 메뉴 항목을 선택하여 Internet Download Manager를 종료해 주세요.
+//Please change XXX on the language you are translating IDM to
+20994=IDM 홈페이지에서 한국어 주 번역 파일을 다운로드해야 합니다.
+//new v6.17
+1062=바탕 화면에 IDM 바로 가기 만들기
+//new v6.18b3
+21112=선택한 폴더에 IDM을 설치하면 향상된 보호 모드가 활성화된 Internet Explorer에 IDM을 통합할 수 없습니다.\r\n\r\nIDM을 \"%s\" 폴더에 설치해야 합니다.\r\n\r\n설치 폴더를 \r\n\"%s\"(으)로 변경하시겠습니까?
+//new v6.25b15
+1063=라이선스 계약 조건에 동의합니다.
+//new v6.33b3
+20970=인터넷 프로토콜 옵션이 변경되었습니다. 재부팅할 때까지 인터넷 응용 프로그램이 인터넷에서 제대로 통신하지 못하므로 컴퓨터를 재부팅해야 합니다.\r\n\r\n지금 작업을 저장하고 모든 응용 프로그램을 종료해 주세요. '확인' 단추를 누르면 컴퓨터가 재부팅됩니다.

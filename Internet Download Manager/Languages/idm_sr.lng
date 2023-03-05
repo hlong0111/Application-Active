@@ -1,0 +1,2122 @@
+﻿lang=0x081A Serbian
+tips=tips_sr.txt
+help=idm_sr.chm
+tutor=tut_sr.chm
+
+
+//This template should be used to translate Internet Download Manager 
+//to foreign languages.
+
+//This template should be used to translate Internet Download Manager 
+//to foreign languages.
+
+//You can save translation file in UTF-8 format if your language does not support ASCII code page. 
+//IDM can use UTF-8 format translations only starting from 6.32 version. 
+//Please don't save to UTF-8 if ASCII is supported because older IDM versions will not be able to load your translation
+
+//All template files should be named using idm_*.lng name pattern convention. 
+//Please place the abbreviated language name (de, en, es, fr, :) 
+//instead of the asterisk. For example: idm_de.lng or idm_fr.lng
+
+//The first string inside the template should be lang=ID Name
+//where Name - the full name of the language (on English),
+//ID - hex number that defines Windows API value of the language.
+//Here are sample primary language IDs:
+//0x06 DANISH
+//0x0b FINNISH
+//0x0c FRENCH
+//0x07 GERMAN
+//0x10 ITALIAN
+//0x11 JAPANESE
+//0x0a SPANISH
+//0x1d SWEDISH
+
+//The strings from second to fourth may contain file names of translated tips, 
+//help and tutorial files. If these strings are absent, 
+//or files cannot be found in <IDM root>/Languages folder, 
+//then IDM uses default English files.
+//Sample:
+//tips=tips_de.txt
+//help=idm_de.chm
+//tutor=tut_de.chm
+
+//Then you need to translate all IDM strings. 
+//It's IMPORTANT when a string has any special characters 
+//(%s %d %x %ld %I64d %% \r\n), they should all remain in the translated 
+//string and cannot trade places. Remember that IDM inserts dynamic 
+//values instead of these special characters in a predefined order. 
+//Instead of %s IDM inserts a string, %% - %, in all other cases IDM 
+//inserts a number.
+
+//The strings beginning with // are comments 
+//and you don't need to translate them
+
+
+// Dialogs
+
+//main dialog
+1281=Kategorije
+20369=Red
+20370=Ime datoteke
+20371=Status
+20372=Veličina
+20373=Preostalo vreme
+20374=Brzina prenosa
+20375=Opis
+
+//toolbar
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20376=Dodaj URL
+20377=Nastavi
+20378=Zaustavi
+20379=Zaustavi sve
+20380=Izbriši
+20446=Izbriši ko...
+20381=Opcije
+20382=Planer
+20383=Reci prijatelju
+//tooltips for buttons
+t32790=Počni/Nastavi preuzimanje izabranih datoteka
+t32791=Zaustavi preuzimanje izabranih datoteka
+t32792=Zaustavi sva preuzimanja
+t32793=Ukloni izabrane datoteke sa spiska
+t32794=Ukloni sve kompletirane datoteke sa spiska
+t32795=Integracija pregledača/sistema, tipovi datoteka, proksi, lozinke i ostalo
+t32798=Planer i redovi preuzimanja
+t32788=Napišite pismu prijatelju o IDM
+
+//Registration dialog
+138=Internet Download Manager registracija
+1326=Unesite vaše registracijske detalje u odgovarajuća polja i kliknite na OK
+1330=Serijski broj
+1327=Ime
+1328=Prezime
+1329=Email
+1191=&OK
+1201=&Kako licencirati
+1080=&Otkaži
+
+//Download progress dialog
+103=Tok preuzimanja
+1154=(nepoznato)
+1178=<< Sakrij detalje
+20426=<< Sakrij detalje
+1158=Pauza
+20392=Pauza
+20424=Počni
+20425=Prikaži detalje >>
+1300=Veličina datoteke
+1301=Preuzeto
+1302=Brzina prenosa
+1303=Preostalo vreme
+1149=(nepoznato)
+1299=Status:
+1030=Povezivanje...
+1305=Početna pozicija i tok preuzimanja po vezama
+1304=Mogućnost nastavljanja
+1175=(nepoznato)
+2=Otkaži
+20416=Br.
+20417=Preuzeto
+20418=Info
+20419=Da
+20420=Ne
+20421=%d sati %d min
+20422=%d min %d sek
+20423=%d sek
+
+130=Info o datoteci koja se preuzima
+1006=&Započni preuzimanje
+1010=Pregledaj...
+1004=Preuzmi &kasnije
+1298=Opis
+1173=Pregled
+1297=Kategorija
+1296=Sačuvaj kao
+t1006=Počni preuzimanje datoteke
+
+148=Unesite novu adresu za preuzimanje
+1182=Koristi &autorizaciju
+1184=Prijava
+1186=Lozinka
+1022=O&K
+
+//Options Dialog
+134=Internet Download Manager konfiguracija
+1092=OK
+20286=Opšte
+20287=Veza
+20288=Preuzimanja
+20289=Proksi
+20290=Prijave na sajtove
+20291=Dial Up
+20292=Zvukovi
+20293=Opšte
+20294=Veza
+20295=Preuzimanja
+20296=Proksi
+20297=Prijave
+20298=DialUp
+20299=Zvukovi
+20300=Integracija u pregledač/sistem
+20301=Vrsta veze
+20302=Podrazumevane postavke preuzimanja
+20304=Korisnička imena i lozinke za servere/sajtove
+20305=Dial up postavke
+20306=Postavke zvuka
+//General tab
+1056=Pokreni Internet Download Manager pri pokretanju sistema
+1061=Automatski počni preuzimanje URL-ova kopiranih u klipboard
+1065=Integriši u Internet Explorer, MSN Explorer, i pregledače zasnovane na IE
+1077=&Podrazum.
+1169=Tipovi datoteka...
+1270=Automatski počni preuzimanje sledećih tipova datoteka:
+t1056=Pokreni Internet Download Manager pri pokretanju sistema
+//Proxy tab
+1102=Koristi HTTP proksi
+1122=Proksi
+1123=Port
+1124=Korisničko ime
+1125=Lozinka
+1107=Preuzmi iz IE
+1108=Koristi FTP proksi
+1126=Proksi
+1127=Port
+1128=Korisničko ime
+1129=Lozinka
+1113=Preuzmi iz IE
+1116=Koristi FTP u PASV režimu
+1118=Koristi HTTPS proksi
+1133=Proksi
+1135=Port
+1137=Korisničko ime
+1139=Lozinka
+1141=Preuzmi iz IE
+t1107=Napravi pokušaj pronalaska HTTP proksija u konfiguraciji Internet Explorera
+t1116=Koristi FTP protokol u pasivnom režimu (potrebno iza zaštitnog zida)
+//Connection tal
+1153=Vrsta/brzina veze
+1306=Max. broj veza
+1254=Limiti preuzimanja
+//Downloads tab
+1049=Pregledaj
+1190=Promeni fasciklu za kategoriju "Opšte" za poslednje izabrano
+1136=Podrazumevana fascikla preuzimanja za kategoriju "Opšte"
+1132=Sačuvaj u...
+1236=Prikaži dijalog kompletiranog preuzimanja
+1317=Provera za virusima
+1318=Program za skeniranje virusa
+1165=Pregledaj
+1319=Parametri komandne linije
+1316=Dijalog toka preuzimanja
+1315=Dijalozi
+1059=Prikaži dijalog za početak preuzimanja
+1138=Privremena fascikla
+1054=Pregledaj
+//Dial Up tab
+1313=Veza:
+1307=Opcije veze
+1166=Primeni
+1308=Opcije ponovnog biranja
+1309=Pokušaji pon. biranja (0 za beskrajno):
+1310=Vreme između pokušaja pon. biranja:
+1312=sekundi
+1311=puta
+1058=Koristi Windows Dial Up mrežu
+//Sounds tab
+1320=Izaberite zvukove za događaje Internet Download Manager-a
+1172=Pregledaj...
+1091=Reprodukuj
+//Passwords tab
+20436=Sajt/putanja
+20437=Korisnik
+20438=Lozinka
+1087=Novo
+1196=Uredi
+1050=Ukloni
+
+//File properties dialog
+135=Svojstva datoteke
+1325=Tip:
+1324=Veličina:
+1323=Sačuvaj u:
+1082=&Pregledaj...
+1322=Prijava
+1289=Lozinka
+1321=Potvrdi lozinku
+1164=Otvori
+1240=Posljednji pokušaj
+1241=Rezultat: 
+
+100=O Internet Download Manager-u
+1284=Početna stranica:
+1285=Tim podrške:
+1286=Ovaj proizvod je licenciran na:
+1181=Neregistrovana verzija
+1161=Proveriti postoji li &ažuriranje
+1185=&Registracija
+1085=&Kupovina
+1262=Verzija:
+t1187=Kliknite da posetite IDM početnu stranicu
+t1189=Kontaktirajte IDM tim podrške
+t1161=Provera za dostupnim ažuriranjima na www.internetdownloadmanager.com
+t1185=Registrujte IDM sa vašim registracijskim ključem
+t1201=Kliknite da saznate kako da nabavite licencu za IDM
+t1085=Kupite registrovanu kopiju IDM-a
+
+150=Isključiti
+1263=Internet Download Manager je završio obradu reda. Prema postavkama planera vaš računar će biti ugašen.
+1170=Isključi sada
+
+1163=Da
+1088=Da za sve
+1202=Ne
+1051=Ne za sve
+
+177=Planer
+1331=Red preuzimanja
+1333=Preuzimanje
+1332=Planer
+1218=Počni preuzimanje u
+1219=Jednom u
+1221=Dnevno
+1062=Nedelja
+1057=Ponedeljak
+1066=Utorak
+1069=Sreda
+1222=Četvrtak
+1223=Petak
+1224=Subota
+1225=Zaustavi preuzimanje u
+1228=Isključi računar po završetku
+1235=Prisili prekidanje procesa
+1089=Primeni
+1232=Počni sada
+1233=Zaustavi
+1079=Zatvori
+1227=Prekini modem po završetku
+1264=MBajtova
+1265=sati
+1266=Preuzmi ne više od
+1171=Pomoć
+1267=svakih
+1268=Prikaži upozorenje pre zaustavljanja preuzimanja
+1271=Isključi Internet Download Manager po završetku
+1335=datoteka u isto vreme
+t1229=Pomeri stavku dole
+t1230=Pomeri stavku gore
+t1231=Ukloni stavku iz reda za preuzimanje
+t1232=Počni preuzimanja
+t1233=Zaustavi preuzimanja
+t1235=Koristite ovu opciju u hitnim slučajevima. Ovo može prouzrokovati gubitak podataka u aplikaciji.
+
+184=Dial up
+1247=Uspostavljanje veze ...
+1167=Pon. biranje
+
+186=Dial Up opcije
+1336=Biraj
+1237=Sačuvaj lozinku
+1288=Korisničko ime
+
+190=Preuzmi IDM komponente
+1=OK
+1258=Preuzmi komponente
+
+191=Izvesi spisak preuzimanja
+1259=Izvezi red za preuzimanje
+1260=Izvezi izabrane datoteke
+1261=Izvezi sve datoteke
+
+192=Uvezi veze do IDM
+1168=Uredi...
+1090=Izbriši
+
+193=Automatski počni preuzimanje sledećih ekstenzija:
+
+105=Savet dana
+1001=&Prikaži savete pri pokretanju
+1003=&Sledeći savet
+107=Save&t dana...
+108=Da li ste znali...
+109=Datoteka sa savetima ne postoji u propisanoj fascikli
+110=Problemi sa čitanjem datoteke sa savetima
+
+146=Prijava na sajt
+1337=Server/putanja
+1290=Potvrdi lozinku
+1287=Napomena: Unesite putanju samo ako imate različita imena za prijave za različite fascikle servera.
+
+182=Brzo ažuriranje
+1295=Provera za novom verzijom
+								
+194=Premašena ograničenja preuzimanja!                                                                   																					
+
+144=Nova verzija Internet Download Manager-a je dostupna
+1162=Ažuriraj sada
+1086=Otkaži
+
+//Zip preview dialog
+196=Pregled Zip-a
+20254=Ime datoteke
+20255=Upakovano
+20256=Veličina
+20257=Izmenjeno
+
+//New category dialog
+204=IDM kategorije
+1174=Pregledaj...
+1291=Ime kategorije
+1292=Automatski stavi u ovu kategoriju sledeće tipove datoteka:
+1293=Napomena: unesite ekstenzije datoteka odvojene razmakom (npr. avi mpg mpeg)
+1239=Zapamti zadnju spašenu putanju
+1294=Sačuvaj buduća preuzimanja ove kategorije u sledeću fasciklu:
+
+
+// Menu
+m32771=Zadaci
+32771=Dodaj novo preuzimanje
+32809=Prikaži polje za prevlačenje
+m32821=Izvoz
+32821=U IDM datoteku za izvoz
+32823=U tekstualnu datoteku
+m32816=Uvoz
+32816=Iz IDM datoteke za izvoz
+32818=Iz tekstualne datoteke
+32772=&Izlaz
+
+m32774=Datoteka
+32774=Zaustavi preuzimanje
+32775=Ukloni
+32776=Preuzmi sada
+
+m32778=Preuzimanja
+32778=Pauziraj sve
+32779=Zaustavi sve
+32794=Izbriši sve kompletirano
+32801=Planer
+32781=Opcije
+
+m32825=Prikaz
+32825=Sakrij kategorije
+m32828=Raspored datoteka
+32828=Po redu dodavanja
+32830=Po imenu datoteke
+32832=Po veličini
+32834=Po statusu
+32836=Po preostalom vremenu
+32838=Po brzini prenosa
+32840=Po opisu
+m32841=Jezik
+
+m57670=Pomoć
+32811=Tutorijali
+106=Savet dana...
+32813=IDM početna stranica
+32784=Kontaktiraj IDM podršku
+32787=Provera za ažuriranjem...
+32786=O IDM
+32788=Reci prijatelju
+
+m32785=Registracija
+32785=Naruči onlajn
+32783=Registracija
+//end menu
+
+
+//Strings & messages
+101=&O IDM...
+32799=Otvaranje porta
+32800=Port otvoren
+32802=Spajanje uređaja
+32804=Uređaj spojen
+32806=Svi uređaji spojeni
+32807=Pokretanje autentifikacije
+32808=Obaveštenje o autentifikaciji
+32810=Pon. pokušaj autentifikacije
+32812=Zahtevan je povratni poziv
+32814=Zahtevana je promena lozinke
+32815=Faza projekcije započeta
+32817=Izračun brzine veze
+32819=Potvrđena autentifikacija
+32820=Pon. autentifikacija počela
+32822=Potvrđeno
+32826=Čeka se zahtev modema
+32827=Čeka se povratni poziv
+32829=Interaktivno
+32831=Ponovo pokušaj autentifikaciju
+32833=Povratni poziv postavio pozivalac
+32835=Lozinka je istekla
+32837=Povezano
+32839=Prekinuto
+
+20000=Preuzimanje datoteke %s završeno.\n\Preuzeto %s (%I64d bajtova)\Datoteka sačuvana kao %s
+20001=Ova funkcija je dostupna samo u registrovanoj verziji.
+20002=Nije moguće preimenovati preuzetu datoteku iz privremene fascikle (%s) u %s. Datoteka je sačuvana u privremenu fasciklu.
+20003=Verifikacije lozinke nije uspela! Pokušajte ponovo.
+20004=Lozinka nije unesena!
+20005=Korisničko ime nije uneseno! Pokušajte ponovo.
+20006=Sajt/putanja nije unesena! Pokušajte ponovo
+20007=Da li zaista želite obrisati informacije o prijavi za ovaj sajt?
+20008=Vaš spisak preuzimanja ima datoteku koja će biti preuzeta sa 
+20009=.\nPrimeni ovo korisničko ime i lozinku na ovo preuzimanje?
+20010=.\nPromeni korisničko ime i lozinku ovog preuzimanja u \"anonimno\" ?
+20011=Informacije prijave za ovaj sajt/putanju već postoji na vašem spisku lozinki.\nNova informacija o prijavi nije dodata. Izmenite postojeću.
+20012=Promenili ste polje \"sajt/putanju.\" Informacije prijave za ovaj novi sajt/putanju već postoji na vašem spisku lozinki.\nInformacije prijave nisu izmenjene. Izmenite postojeću.
+20013=Ovaj sajt je privremeno nedostupan!
+20014=Autorizacija je zahtevana za ovaj sajt/putanju. Možete postaviti informacije prijave za ovo preuzimanje biranjem stavke svojstva u kontekstnom meniju desnim klikom. Ili dodajte informacije prijave u \"Opcije/Lozinke sajtova\" da biste koristili te prijave/lozinke svaki put kada preuzimate datoteke sa ovog sajta.
+20015=Proksi autorizacija je zahtevana za ovaj proksi server. Možete promeniti korisničko ime i lozinku u \"Opcije/Proksi\"
+20018=Nije moguće preuzeti ovu datoteku.
+20019=Nije moguće preuzeti ovu datoteku.
+20020=Nema dovoljno memorije da se nastavi preuzimanje.
+20021=Vezu nije moguće uspostaviti jer je ciljna mašina aktivno odbila. \nServis je verovatno neaktivan na serveru ili imate instaliran zaštitni zid koji blokira Internet Download Manager. Ako imate zaštitni zid, podesite ga tako da dopustite IDM-u da preuzima sa interneta.
+20022=Dozvola odbijena.
+20023=Nije moguće dodeliti zahtevanu adresu. Zahtevana adresa nije važeća u svom kontekstu.
+20024=Postojeću vezu je prisilno prekinuo udaljeni domaćin. Ovo se obično dešava ako se peer aplikacija na udaljenom domaćinu iznenada prekinula, domaćin je restartovan, ili je udaljeni domaćin koristio \'prisilno zatvaranje\'
+20025=Soket operacija nije uspela jer je udaljeni domaćin isključen. Soket operacija je naišla na neaktivnog domaćina. Mrežna aktivnost lokalnog domaćina je inicirana.
+20026=Greška pri povezivanju. Nepoznat domaćin. Ime nije zvanično ime hosta ili pseudonim, ili ne može biti pronađeno u bazama podataka.
+20027=Soket operacija je pokušana prema nedostupnoj mreži. Ovo obično znači da lokalni softver ne poznaje rutu da se poveže sa udaljenim domaćinom.
+20028=Domaćin sa kojim ste bili povezani se srušio ili restartovao.
+20029=Soket operacija je naišla na mrtvu mrežu. Ovo može ukazivati na ozbiljan kvar mrežnog sistema (npr. stek protokola preko kojeg WinSock DLL radi), mrežni interfejs, ili sama lokalna mreža.
+20030=Previše otvorenih mrežnih veza. Sačekajte da neka preuzimanja završe.
+20031=Nastala je greška pri povezivanju
+20032=Veličina %s je %I64d bajtova.\nNema preostalog prostora na disku \'%s\' gde želite sačuvati ovu datoteku.\nAko ne oslobodite prostor tokom preuzimanja, datoteka će biti sačuvana u privremenu fasciklu kao %s
+20033=Nema preostalog prostora na disku \'%s\' da se smeste preuzeti delovi datoteke.\nDa nastavite sa preuzimanjem oslobodite prostor na disku ili promenite lokaciju privremene fascikle u \"Opcije->Sačuvaj u\" i zatim nastavite preuzimanje
+20034=Nije moguće pronaći server %s
+20035=Nije moguće pronaći proksi server %s
+20036=Nije moguće uspostaviti vezu sa %s:%ld
+20037=Nije moguće uspostaviti vezu sa proksi serverom %s:%ld
+20038=Nije moguće uspostaviti vezu sa %s:%ld\nVreme povezivanja je isteklo
+20039=Nije moguće uspostaviti vezu sa proksi serverom %s:%ld\nVreme povezivanja je isteklo
+20040=Nepoznata greška je nastala prilikom dodavanja datoteka ili spajanja preuzetih delova u jednu datoteku
+20041=Nepoznata greška je nastala pri spajanju preuzetih delova u jednu datoteku
+20042=Nije moguće otvoriti lokalnu datoteku za pisanje pri spajanju preuzetih delova u jednu datoteku
+20043=Nije moguće saznati veličinu sledećeg dela za spajanje preuzetih delova u jednu datoteku
+20044=Došlo je do greške u dodeli virtuelne memorije za spajanju preuzetih delova u jednu datoteku
+20045=Došlo je do fatalne greške upisivanja pri spajanju preuzetih delova u jednu datoteku
+20046=Došlo je do fatalne greške čitanja pri spajanju preuzetih delova u jednu datoteku
+20047=Nepoznata greška datoteke ili registra je nastala pri obradi starih preuzetih delova
+20048=Nije se moguće povezati sa serverom
+20049=Greška čitanja internet soketa
+20050=Greška pisanja internet soketa
+20051=Veza je istekla
+20052=Veza je istekla
+20053=Veza je istekla, restartovanje...
+20054=Povezivanje nije uspelo, restartovanje...
+20055=Došlo je do greške pri primanju podataka
+20056=Vezu je zatvorio server.
+20057=Nije se moguće prijaviti na ftp server.
+20058=Nije moguće pronaći ovu datoteku na ftp serveru.
+20059=Ftp server ne dozvoljava veze.
+20060=Došlo je do greške pri primanju odgovora ftp servera.
+20061=Došlo je do greške pri primanju odgovora ftp servera: Nevažeći odgovor servera
+20062=Nije moguće pronaći IP adresu soket podataka u odgovoru na PASV komandu.
+20063=Nije moguće otvoriti internet soket.
+20064=Nije moguće otvoriti ftp soket podataka
+20065=Nije moguće vezati adresu sa internet soketom
+20066=Došlo je do greške prilikom poziva za slušanje soketa podataka
+20067=Došlo je do greške prilikom poziva za prihvatanje internet soketa.
+20068=Nije moguće poslati PORT komandu.\nDošlo je do greške tokom poziva getsockname().
+20069=PORT komanda nije uspela.
+20070=Nastala je greška upisivanja datoteke prilikom primanja podataka sa Internet soketa.\nMogući razlog: Disk je pun.
+20071=Nije moguće otvoriti vezu za prenos podataka jer ftp server ne podržava PASV komandu a opcija \"Koristi FTP u PASV režimu\" je uključena u \"Opcije->Proksi/Zaštitni zid\".
+20072=Veličina datoteke %s nije pronađena u odgovoru servera
+20073=Server je poslao netačan odgovor za restart komandu.
+20074=Server je poslao novu lokaciju i ime datoteke %s je promenjeno u %s.\n\nNastaviti preuzimanje ?
+20075=Prekidanje veze...
+20076=Preuzimanje je završeno, spajanje svih preuzetih delova u jednu datoteku...
+20077=Opcione veze su kreirane.
+20078=Povezivanje...
+20079=Selekcija nije uspela
+20080=Povezano.
+20081=Došlo je do greške pri pisanju datoteke tokom primanja podataka sa internet soketa.
+20082=Recv() procedura nije uspela
+20083=Vezu je zatvorio server.
+20084=Veza prekinuta.
+20085=Čekanje odgovora...
+20086=Odgovoreno
+20087=Primanje podataka...
+20088=Završeno.
+20089=Veza za prenos podataka: povezivanje...
+20090=Veza za prenos podataka: OK
+20091=Spremno za primanje podataka
+20092=Provera sposobnosti sekvence komande: slanje dve komande zajedno...
+20093=Provera sposobnosti sekvence komande: prvi odgovor OK, čekanje drugog odgovora...
+20094=Primanje informacije o datoteci...
+20095=Nije moguće pronaći kraj niza u odgovoru servera.
+20096=Nije moguće pronaći kraj niza u odgovoru ftp servera.
+20097=Šalje se QUIT.
+20098=Server nije spreman za novog korisnika.
+20099=Kontrolni soket povezan.
+20100=Slanje korisničkog imena...
+20101=Slanje lozinke...
+20102=Pogrešno korisničko ime
+20103=Korisničko ime OK
+20104=Pogrešna lozinka
+20105=Lozinka OK
+20106=Slanje PASV komande...
+20107=Server ne podržava PASV.
+20108=PASV OK, izvlačenje adrese...
+20109=Vezanje soketa OK, pokušaj poziva listen()
+20110=Prihvatanje...
+20111=Prihvatanje OK
+20112=Slanje PORT komande...
+20113=PORT OK
+20114=Menja se radna fascikla servera...
+20115=CWD nije uspeo.
+20116=CWD OK
+20117=Veza nije uspela.
+20118=Šalje se TYPE ...
+20119=TYPE komanda nije uspela.
+20120=TYPE OK.
+20121=Šalje se REST komanda...
+20122=REST nije uspela
+20123=REST OK
+20124=Šalje se RETR komanda...
+20125=RETR nije uspela.
+20126=Šalje se SIZE komanda...
+20127=Šalje se LIST komanda.
+20128=LIST nije uspela.
+20129=LIST OK
+20130=SIZE nije uspela.
+20131=Nije moguće pronaći veličinu datoteke u odgovoru.
+20132=SIZE OK
+20133=Kontrolni soket nije povezan sa serverom.
+20134=Restartuje se na početku jer je lokalna datoteka obrisana. Restartovanje iz proizvoljnog položaja nije podržano u ovom slučaju.
+20135=Veza je restartovana...
+20136=Server verovatno ne podržava protočnu obradu komandi.
+20137=Sposobnost komandne sekvence: OK
+20138=Slanje HEAD...
+20139=Slanje GET...
+20140=Obnova starih preuzetih delova datoteke...
+20141=Povezivanje...
+20142=Preuzimanje završeno. Preuzeto ukupno %I64d bajtova
+20143=Primanje podataka...
+20144=Opcione veze, povezivanje...
+20145=Preuzimanje nije uspelo. Preuzeto: %I64d ukupno bajtova
+20146=Veličina %s je %I64d bajtova.\nNema preostalog prostora na disku \'%s\' da se preuzmu delovi datoteke.\nDa nastavite preuzimati oslobodite prostor na disku ili uklonite ovu datoteku sa spiska preuzimanja, promenite lokaciju privremene fascikle u \"Opcije->Sačuvaj u\", i pokušajte ponovo.
+20147=Nema preostalog prostora na disku \'%s\'.
+20148=Nije moguće obnoviti preuzete delove datoteke.
+20149=Ovo preuzimanje je već završeno, lokalna putanja nije promenjena.
+20150=Datum poslednje izmene datoteke je promenjen na serveru.\nDa li želite da preuzmete ovu datoteku ispočetka?
+20151=Koristite najnoviju verziju Internet Download Manager-a. Proverite ponovo kasnije da li su dostupna ažuriranja.
+20152=Došlo je do greške pri čuvanju unesenih podataka, pokušajte ponovo.
+20153=Došlo je do greške prilikom dodele virtuelne memorije. Pokušajte zatvoriti neke aplikacije i onda protisnite \'Pokušaj ponovo\'.
+20154=Obnavljanje
+20155=Zahtevano ime servera je važeće, ali nema tačno povezane podatke za koje se rešava (domaćin postoji, ali nije direktno dostupan).
+20156=Datoteka %s - preuzeto %s (%I64d bajtova). Datoteka možda nije preuzeta u potpunosti, jer je veličina nepoznata.\nDatoteka sačuvana kao %s
+20157=Ništa nije izabrano!
+20158=Pomeri gore
+20159=Pomeri dole
+20160=Izbriši stavku
+20161=Nije moguće preuzeti ovu datoteku. Nevažeći odgovor http servera.
+20164=Brzo ažuriranje IDM-a sa www.internetdownloadmanager.com. Primanje novih datoteka...
+20166=Internet Download Manager uputstvo
+20167=Preuzimanje je otkazao korisnik
+20168=Brzo ažuriranje nije uspelo, greška je nastala prilikom preuzimanja novih IDM datoteka. Pokušajte kasnije.
+20169=Zahtevana datoteka ne postoji.
+20170=\nŽelite li da otvorite?
+20171=Ova datoteka već postoji na spisku preuzimanja. Želite li da dodate duplikat?
+20172=Server je odgovorio da nemate dozvolu da preuzmete ovu datoteku.
+20173=Nastala je greška pri čitanju telefonskog imenika.
+20174=Nije se moguće povezati sa internetom.
+20175=Nije moguće preuzeti datoteku zbog isteka vremena
+20199=Nije moguće promeniti integraciju Internet Download Manager u Internet Explorer je možda nemate pristupna prava sistemskom registru
+20204=Datoteka je premeštena.
+20205=Datoteka %s je premeštena.
+20206=Otvaranje preuzete datoteke
+20207=Preuzmi IDM komponentu
+20211=Datoteka %s će biti sačuvana kao %s. Takva datoteka već postoji na vašem računaru. Da li želite da zamenite postojeću datoteku?\n\n Pritisnite \"DA\" da zamenite, \"NE\" da sačuvate datoteku sa drugačijim imenom, \"OTKAŽI\" da otkažete dodavanje datoteke na vaš spisak preuzimanja.
+20212=Datoteka %s će biti sačuvana kao %s. Takva datoteka već postoji na vašem spisku preuzimanja. Da li potvrđujete čuvanje datoteke sa ovim imenom?\n\n Pritisnite \"DA\" da potvrdite, \"NE\" da sačuvate datoteku sa drugačijim imenom, \"OTKAŽI\" da otkažete dodavanje datoteke na vaš spisak preuzimanja.
+20213=Uvoz u IDM
+20214=Nije moguće pročitati linkove iz datoteke ili je ista oštećena
+20215=Datoteka nije validna datoteka za IDM izvoz ili je ista oštećena
+20216=Datoteka ne sadrži ni jedan link
+20217=Nastala je nepoznata greška pri izvršavanju operacije!
+20218=Nije moguće preuzeti ovu datoteku, možda ovaj ftp server ne podržava nastavljanje preuzimanja. Želite li da dodate istu datoteku i počnete preuzimanje ispočetka?
+20219=Ime za čuvanje datoteke je bilo \"%s%s\", ali je server poslao ime \"%s\". Želite li da sačuvate datoteku sa imenom koje je server poslao?
+20220=Preuzimanje datoteke %s je završeno.\nOva m3u datoteka sadrži link do jedne mp3 datoteke. Želite li preuzeti ovu mp3 datoteku?
+20221=Preuzimanje datoteke %s je završeno.\nOva m3u datoteka sadrži linkove do jedne ili više mp3 datoteke. Želite li dodati ove mp3 datoteke na vaš spisak preuzimanja?
+20222=M3U datoteka preuzeta.
+20225=Nije moguće pokrenuti program za proveru virusa.\n%s
+20226=Internet Download Manager je završio obradu reda. Prema postavkama planera, IDM će prekinuti vezu modema.
+20227=Prekini vezu modema
+20228=Prekini sada
+20229=Zaustavi sada
+20230=Ograničenja preuzimanja premašena!
+20231=Nevažeći podaci
+20232=Vrednost časova u \"Limiti preuzimanja\" mora biti između 1 i 23. Unesite ispravnu vrednost ili deaktivirajte opciju \"Limiti preuzimanja\".
+20233=Želite li preuzeti tutorijal (oko 60 KB) sa IDM početne stranice?
+20234=Želite li preuzeti i instalirati IDM datoteku pomoći (oko 200 KB) sa IDM početne stranice ?
+20235=Nije moguće pronaći HHCtrl.ocx za prikaz datoteke pomoći!
+20236=IDM pomoć
+20237=Veličina datoteke se promenila na serveru.\nBiće preuzeta ispočetka.
+20238=Nije moguće kreirati vezu putem proksi servera.
+20239=Došlo je do greške pri kreiranju sigurne veze prema %s.
+20240=Došlo je do greške pri šifriranju poruke zahteva.
+20241=Došlo je do greške pri učitavanju sigurnosnog dll-a. Nije moguće kreirati https vezu.
+20245=Internet Download Manager opcije
+20246=Preuzimanje završeno
+20247=Preuzimanje nije uspelo
+20248=Obrada reda zaustavljena/završena
+20249=Obrada reda počela
+20250=Događaj
+20251=Zvučna datoteka
+20252=Nije moguće kopirati izabranu zvučnu datoteku u IDM fascikli za zvukove!
+20253=Preostalo vam je %d dan(a) da koristite Internet Download Manager. Da li želite registrovati vašu kopiju IDM sada?
+20258=Sva preuzimanja
+20259=Nedovršena
+20260=Završena
+20261=Programi
+20262=Muzika
+20263=Video
+20264=Igre
+20265=Dokumenti
+20266=Dodaj kategoriju
+20267=Izbriši
+20268=Svojstva
+20269=Da li zaista želite da izbrišite kategoriju \"%s\" sa IDM spiska kategorija?
+20270=Brisanje kategorije sa IDM spiska kategorija
+20271=Dodavanje kategorije na IDM spisak kategorija
+20272=Uređivanje svojstava kategorije
+20273=Popunite polje \"Ime kategorije\".
+20274=Fascikla \"%s\" ne postoji.\r\nDa li želite da je kreirate?
+20275=Nije moguće kreirati fasciklu!\r\n%s
+20276=Sakrij kategorije
+20277=Prikaži kategorije
+20278=Izaberi fasciklu
+20279=Opšte
+20280=Želite li da smestite sva stara preuzimanja u ove kategorije prema tipovima datoteka? Datoteke neće biti premeštene na čvrstom disku, ali će biti povezani sa sa njihovim naznačenim kategorijama preuzimanja.
+20281=Želite li da smestite sva stara preuzimanja sa \"%s\" tipovima datoteka u ovu kategoriju? Datoteke neće biti premeštene na čvrstom disku, ali će biti povezani sa ovom kategorijom.
+20282=IDM kategorije
+20283=IDM je primio grešku \"Pristup odbijen\" prilikom sastavljanja preuzetih delova datoteke. To se može desiti jer su neke aplikacije kao anti virusni programi ili zaštitni zidovi otvorili ovu datoteku, ali je nisu ispravno zatvorili, ili ste pokušali otvoriti datoteku dok se preuzimala. Restartujete računar i zatim kliknite na dugme za nastavljanje da sastavite datoteku.
+20284=Podrazumevana fascikla za kategoriju \"%s\"
+20285=Promeni fasciklu za kategoriju \"%s\" na posljednje izabrano
+20307=- Izaberite vašu vezu -
+20319=Ostalo
+20320=O IDManager
+20321=Vrati
+20322=Izlaz
+20323=Kontaktirajte nas
+20324=Pomoć
+20325=Naruči onlajn
+20326=Registracija
+20327=Zaustavi preuzimanje
+20328=Ukloni
+20329=Nastavi preuzimanje
+20330=Svojstva
+20331=Unesen je nevažeći URL.
+20332=Ovo preuzimanje nije završeno. Nastaviti sa brisanjem?
+20333=Nije moguće pronaći proksi konfiguraciju u postavkama Internet Explorera
+20334=Datoteka sa ovim URL-om je već preuzeta sa Internet Download Manager-om. Želite li da je ponovo preuzmete?
+20335=Datoteka sa ovim URL-om već postoji na vašem spisku i čeka kompletiranje preuzimanja. Želite li da nastavite preuzimanje?
+20336=Previše datoteka sa ovim imenom. Obrišite ih ili promenite lokalna imena
+20337=Unesite ime za prijavu.
+20338=Nije moguće pronaći povezani pregledač
+20339=Nije moguće pronaći aplikaciju za brzo ažuriranje.
+20340=Unesite registracijsko ime.
+20341=Unesen je nevažeći registracijski broj.
+20343=Unesite vaše ime
+20344=Unesite vaše prezime
+20346=Unesite vaš e-mail
+20347=Unesite vaš serijski broj
+20348=Uneli ste netačan serijski broj
+20349=Internet Download Manager je registrovan sa lažnim serijskim brojem. IDM se isključuje...
+20351=Internet Download Manager je registrovan sa lažnim serijskim brojem. IDM se isključuje...
+20352=Internet Download Manager nije registrovan 30 dana. Probni period je završen i IDM se isključuje...
+20353=Internet Download Manager nije registrovan 15 dana. IDM se isključuje...
+20354=Nepoznata greška tokom
+20355=Nepoznato
+20356=Dodaj u red za preuzimanje
+20357=Izbriši iz reda
+20358=Počni red
+20359=Zaustavi red
+20360=Otvori
+20361=Datum poslednjeg pokušaja:  
+20362=Rezultat:\n
+20363=Izaberite samo jednu datoteku za otvaranje!
+20364=Otvori
+20365= već postoji na vašem računaru. Da li želite da zamenite postojeću datoteku?\n Kliknite \"Da\" da zamenite, \"NE\" da sačuvate datoteku pod drugim imenom, \"OTKAŽI\" da otkažete preuzimanje.
+20366=Preuzmi sa
+20367=Sačuvaj u
+20368=Da li zaista želite da obrišete sva kompletirana preuzimanja?
+20384=Prikaži polje za prevlačenje
+20385=Upozorenje: Ovaj računarski program je zaštićen autorskim pravima i međunarodnim ugovorima. Neovlašćeno umnožavanje ili distribucija ovog programa, ili bilo kojeg njegovog dela, može rezultirati ozbiljnim građanskim i krivičnim kaznama, i bićete gonjeni u najvećoj mogućoj meri predviđenoj zakonom.
+20386=Nije moguće kreirati fasciklu %s, kod greške = %ld\n
+20387=Greška
+20388=Datoteke
+20389=Sve datoteke
+20390=Detalji:\n
+20391=Završeno.
+20393=Preuzimanje završeno. Provera za virusima u toku...
+20394=AVI: Rez. %dx%d, %d uzoraka po sek, dužina %s
+20395=, dužina: 
+20396=, naslov: 
+20397=, izvođač: 
+20398=, album: 
+20399=, žanr: 
+20400=WAV: %d uzoraka po sek, %d bitova po uzorku, dužina: %s
+20401=MPEG: Rez. %dx%d, %.1f uzoraka po sek, %d bitova po uzorku
+20402=%s,   ukupno %ld datoteka
+20403= Probni period
+20404= Puno
+20405=Pon. biranje  %ld
+20406=Nedefinisana RAS greška biranja.
+20407=Promene jezika će biti primenjene nakon restartovanja IDM. Da li želite sada da to učinite?
+20408=Od %d:%02d do %d:%02d ste preuzeli %d MB. Sva IDM preuzimanja će biti zaustavljena jer ste premašili ograničenja preuzimanja podešena u IDM Planeru (ili \'Opcije->Veze\')!
+20409=Od %d:%02d do %d:%02d ste preuzeli %d MB. Sva IDM preuzimanja su zaustavljena u %d:%02d jer ste premašili ograničenja preuzimanja podešena u IDM Planeru (ili \'Opcije->Veze\')!\r\n\r\nSva zaustavljena preuzimanja će se automatski nastaviti u %02d:%02d. Ako želite odmah da nastavite, promenite postavke u Ograničenja preuzimanja i kliknite na Nastavi.
+20410=Završeno
+20411=Obnavljanje...
+20412=Prekidanje veze...
+20413=Tekstualne datoteke
+20414=IDM datoteke izvoza
+20415=Sačuvaj kao...
+20427=Nemojte zatvarati dijalog preuzimanja dok IDM sastavlja datoteku inače se podaci mogu oštetiti.
+20428=Brzo ažuriranje
+
+20429=Preuzimanje prebačeno u IDM...
+20430=Kliknite 'Nazad' da se vratite nazad i nastavite pregledati.
+20431=IDM nije uspeo pokrenuti preuzimanje. Izvršna datoteka nije pronađena.
+
+20433=Upozorenje
+20434=Izaberite fasciklu
+20435=Program za skeniranje virusa
+20439=Zvučne datoteke
+20440=završeno
+20441=Svojstva datoteke
+20442=Internet%20Download%20Manager%20-%20veoma%20kul%20aplikacija!!!
+20443=preuzeto%20od%20
+
+//Please don't replace "English" to your local language, please just translate the "English" word
+20444=Please use Engleski
+
+20445=Nepoznato
+
+20447=Prikaži normalnu veličinu
+20448=Prikaži umanjeno
+20449=Ne prikazuj
+
+//Please change XXX on the language you are translating IDM to.
+q1=Internet Download Manager je detektovao da koristiti srpski jezik kao podrazumevani Windows jezik. Da li želite da instalirate srpski jezik za IDM?
+
+20500=Molimo vas da prvo kupite i instalirate punu verziju IDM-a!
+1338=Molimo izaberite jezik za korisnički interfejs IDM-a (možete ga kasnije promeniti koristeći meni "Prikaz->Jezik")
+20501=Internet Download Manager nije registrovan 15 dana. IDM se isključuje...
+20502=Prilagodi...
+20503=Datum dodavanja
+20504=Datum poslednjeg pokušaja
+20505=Sačuvaj u
+20506=Preporučitelj
+33001=Prilagodi alatnu traku...
+33002=Prilagodi spisak URL-ova...
+33004=Po sačuvanoj putanji
+33005=Po preporučiocu
+33006=Po datumu poslednjeg pokušaja
+20507=Kolone...
+
+209=Kolone
+1339=Označite kolone koje želite da su vidljive na ovom spisku. Koristite dugmad Pomeri gore i Pomeri dole da promenite raspored.
+1160=Pomeri gore
+1083=Pomeri dole
+1340=Prikaži
+1048=Sakrij
+1053=Resetuj
+1341=Izabrana kolona bi trebala biti
+1342=piksela široka
+
+//new category
+20508=Kompresovano
+
+//new dialog
+226=Maks. broj veza za server
+1348=Server
+
+1350=Podrazumevani maks. broj veza
+1343=Maks. broj veza
+1344=Novo
+1345=Izbriši
+1346=Uredi
+1347=Izuzeci:
+20509=Server
+20510=Broj
+
+228=Preuzmi sve linkove sa IDM
+20511=Vrsta datoteke
+20512=Tekst linka
+1234=Koristi tekstove linka kao opis preuzimanja
+1055=Sakrij HTML datoteke
+1060=Sakrij ponavljajuće datoteke
+1353=Označi sve
+1354=Poništi sve
+1352=Uredi...
+1355=Označite linkove koje želite da dodate na IDM-ov spisak preuzimanja, i kliknite OK dugme.\r\nMožete sačekati dok IDM proveri i popunite sve vrste datoteka.
+
+20513=Ime za čuvanje datoteke je bilo \"%s\", ali server je poslao vrstu datoteke \"%s\", i datoteka bi trebala biti sačuvana kao  \"%s\". Želite li da sačuvate datoteku sa imenom koje odgovara vrsti datoteke primljene sa servera?
+
+//vers. 4.00
+20514=Ponovo preuzmi
+20515=Otvori fasciklu
+
+q2=\"%s\" (%s) želi da preuzme datoteku \"%s\".\n\Da li želite da IDM preuzme preuzimanja od ove aplikacije?\nKasnije možete onemogućiti ili omogućiti IDM da preuzima preuzimanja od \"%s\" u IDM->Opcije->Opšte
+
+20516=Protokol za prenos podataka \"%s\" nije podržan od strane IDM u ovom trenutku. Ili je možda reč o pravopisnoj grešci, stoga proverite pravopis, i pokušajte ponovo.
+20517=IDM je primio grešku \"Pristup odbijen\" dok je sastavljao delove datoteke. To se može desiti jer je datoteku otvorila druga aplikacija kao što je antivirusni program, ili ste sami pokušali da je otvorite. Da bi sastavili ovu datoteku, restartujte računar, izaberite datoteku u IDM, i pritisnite dugme za nastavak.
+20518=Registrujte IDM prije ažuriranja.\r\n Izaberite meni \"Registracija->Registracija\" i unesite vaše registracijske informacije. Zatim izaberite \"Pomoć->Brzo ažuriranje\" da počnete proces ažuriranja.
+20523=Prema našem ugovoru o licenci koji ste prihvatili, dozvoljeno vam je da ažurirate Internet Download Manager besplatno tokom jedne godine od trenutka kupovine. Ako želite nastaviti da ažurirate IDM nakon toga, moraćete da se pretplatite za servis ažuriranja.\r\n Želite li da otvorite IDM stranicu za pretplatu?
+20519=Tasteri za sprečavanje preuzimanja ne bi trebala biti sadržana u tasterima za prisilno preuzimanje. \r\n Izaberite druga dugmad.
+20525=Greška pri povezivanju. Takav domen ne postoji. Ime nije zvanično ime domena ili pseudonim, ili ne može biti pronađeno u bazama podataka.\r\n\r\nMogući razlozi ove greške su:\r\n\r\n1. Imate zaštitni zid na računaru, i tek ste instalirali, zamenili ili ažurirali vašu trenutnu verziju Internet Download Manager-a. Proverite postavke zaštitnog zida i obezbedite da IDM ima dozvolu to pristupi internetu.\r\n\r\n2.Servis koji pronalazi servere na internetu pod nazivom Domain Name Service (DNS) ima privremene probleme, ili je mreža između DNS-a i vašeg računara u prekidu. Moguće je da trebate restartovati računar.\r\n\r\n3. I dalje postoji pravopisna greška u imenu servera. Proverite vaš pravopis.\r\n
+20522=IDM ne može pronaći datoteke %d koje su neophodne za pregledač i sistemsku integraciju. Želite li ih preuzeti?
+
+//Options->general
+1370=Detektuj nove aplikacije koje pokušaju preuzeti datoteke sa interneta
+1368=Prilagodite tastere da sprečite ili prisilite preuzimanje sa IDM
+1367=Tasteri...
+1375=Integriši IDM u pregledače:
+
+229=Upotreba posebnih tastera
+1361=Koristi sledeće tastere za sprečavanje preuzimanja sa IDM za bilo koje linkove:
+1067=Koristi sledeće tastere za prisiljavanje preuzimanja sa IDM za bilo koje linkove:
+1366=Provera levog klika miša na link uz pritisnuti poseban taster kako bi se prisililo preuzimanje linka
+1374=Napomena: Ponekad nakon što kliknete na link za preuzimanje, veb stranica će vam reći da će vaše preuzimanje početi za X sekundi. U ovom slučaju ćete trebati deaktivirati opciju ispod kako bi prisilili preuzimanje sa IDM.
+
+//Download all links with IDM
+1356=Sačuvaj u
+1357=Svaka datoteka u direktori prema kategoriji istog
+1358=Sve datoteke u jednu kategoriju
+1359=Sve datoteke u jednu fasciklu
+1360=Pregledaj...
+
+//Options->Proxy
+1378=Ne koristi proksi server za adrese koje počinju sa:
+1377=Odvojite imena razmakom
+
+
+20526=Internet Download Manager mrežna integracija
+20527=Internet Download Manager je otkrio da je njegova mrežna integracija obrisana od strane neke treće aplikacije. Da li želite da vratite mrežnu integraciju Internet Download Manager-a?
+20528=Internet Download Manager je otkrio da je neka treća aplikacija promenila IDM mrežnu integraciju. Ovo se može desiti zbog novo instalirane mrežne aplikacije, ili zbog aplikacije koja pogrešno vraća zapise registra. Da li želite da vratite mrežnu integraciju Internet Download Manager-a?
+20529=Internet Download Manager mrežna integracija je promenjena. Preporučujemo restatovanje računara. Želite li to učiniti sada?
+20530=Internet Download Manager mrežna integracija je promenjena. Trebate restartovati računar jer vaš zaštitni zid ne može da detektuje te promene, a internet aplikacije neće ispravno komunicirati sa internetom dok ne restartujete.\r\n\r\nSačuvajte vaš rad i zatvorite sve aplikacije, računar će se restartovati nakon što kliknite na dugme OK.
+
+20531=Ako želite integrisati Internet Download Manager u aplikaciju koja se izvršava, trebaćete restartovati aplikaciju, jer IDM se ne može integrisati u aplikacije koje se izvršavaju.\r\n\r\nNakon integracije IDM u aplikaciju možete isključiti opciju \"Detektuj nove aplikacije\" radi boljih performansi.
+20532=Detektuj nove aplikacije
+
+//v 4.01
+//Download All Links with IDM dialog
+1385=Sakrij slike sa ove veb stranice
+//Options->General dialog
+1381=Koristi naprednu integraciju u pregledač
+20547=Promena između osnovne i napredne integracije u pregledač će možda zahtevati restartovanje sistema. Želite li da nastavite?
+//new dialog
+230=Proveravam internet vezu
+1382=Proveri
+20536=IDM preuzima malu testnu stranicu da proveri vašu internet vezu. Sačekajte nekoliko sekundi
+20537=IDM testira vaš Internet Explorer. Sačekajte nekoliko sekundi dok Internet Explorer učita malu testnu stranicu
+//Problem report dialog
+232=Internet Download Manager - Prijava problema
+20546=Napravili smo konfiguracijski izveštaj koji nam možete poslati. Pošaljite nam sledeće informacije da nam pomognete da popravimo ovaj problem u budućim verzijama IDM. Ovi podaci su tehničke prirode. Ne sakupljamo vaše lične podatke, i tretiraćemo ovaj izveštaj kao poverljiv i anoniman.
+1386=Dodajte komentare ili želje ispod
+1391=Ako želite obaveštenje kada će problem biti rešen, dodajte vaš e-mail adresu ispod
+20545=Slanje podataka...\r\nSačekajte nekoliko sekundi
+1390=Pošalji
+
+//new messages
+20533=IDM je detektovao da koristite proksi server u Internet Explorer-u. Da li želite da koristite iste postavke u IDM-u?
+20534=Prvo pokretanje Internet Download Manager-a
+20535=IDM je detektovao da koristite Windows DialUp za povezivanje vašeg modema sa internetom. Da li želite da koristite iste postavke u IDM?
+
+20538=Nije moguće preuzeti testnu stranicu. Moguće je da je mrežna integracija Internet Download Manager-a u konfliktu sa drugom internet aplikacijom ili zaštitnim zidom. IDM će isključiti naprednu integraciju u pregledač kako bi vratio originalne postavke. Možete uključiti naprednu integraciju u pregledač kasnije preko dijaloga IDM->Opcije->Opšte
+20539=Morate restartovati računar kako bi vratili originalne postavke. Sačuvajte vaš rad i zatvorite sve aplikacije, računar će se restartovati nakon što kliknete na OK dugme.
+20540=Mrežna integracija Internet Download Manager-a je uspešno instalirana. U retkim slučajevima mrežna integracija može biti u konfliktu sa novo instaliranim trećim internet aplikacijama. Ako budete imali probleme sa mrežnom integracijom, deaktivirajte opciju \"Koristi naprednu integraciju u pregledač\" u dijalogu IDM->Opcije->Opšte
+20541=Isključili ste naprednu integraciju u pregledač. Ako imate probleme sa mrežnom integracijom, želeli bismo da popravimo problem za vas. Da bi popravili problem, moramo prikupiti i analizirati neke tehničke informacije o vašoj konfiguraciji računara i instaliranim internet aplikacijama. IDM će prikupiti i pokazati vam te informacije u sledećoj fazi prije slanja našem odeljenju za podršku.\r\n\r\n Da li želite da IDM generiše ove informacije?
+20542=Isključivanje napredne integraciju iz pregledača
+20543=IDM pokušava da preuzme testnu stranicu kako bi proverio vašu internet vezu. Proverite da li ste spojeni na internet. Ako imate zaštitni zid, proverite da li nova verzija IDM ima dozvole da pristupi internetu prije nastavka. Zatim pritisnite dugme \"Proveri\", i IDM će ponovo pokušati da preuzme testnu stranicu.
+20544=IDM je promenio svoju mrežnu integraciju i treba da ponovo proveri vašu internet vezu. Ako niste povezani sa internetom, povežite se i pritisnite dugme \"Proveri\".
+20548=Mrežna integracija Internet Download Manager-a je promenjena. Morate restartovati računar jer vaše internet aplikacije neće ispravno komunicirati sa internetom dok to ne učinite.\r\n\r\nSačuvajte vaš rad i zatvorite sve aplikacije, računar će se restartovati nakon što kliknete na OK dugme.
+
+//v4.01 build 4
+20549=Ova verzija Internet Download Manager-a ima opciju napredna integracija u pregledač. Instalacija ove opcije može zahtevati restartovanje sistema.\r\n\r\nKada je napredna integracija uključena, IDM može presresti preuzimanja koja se ranije nisu mogla presresti sa IDM-om, ili bilo koje druge aplikacije za preuzimanje. Takođe, kada koristite integraciju, IDM može biti integrisan u bilo koji pregledač i internet aplikaciju kako bi presreo vaša FTP/HTTP preuzimanja.\r\n\r\nU retkom slučaju ova integracija može prouzrokovati konflikt sa novo instaliranim trećim internet aplikacijama. Ako budete imali probleme sa mrežnom integracijom, možete deaktivirati opciju \"Koristi naprednu integraciju u pregledač\" u dijalogu IDM->Opcije->Opšte.\r\n\r\nDa li želite da instalirate naprednu integraciju u pregledač?
+20550=Napredna integracija pregledača je uspešno instalirana!
+
+//menu "File->Redownload"
+33009=Ponovo preuzmi
+
+//new (since v4.00) toolbar buttons of the main window
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20551=Počni red
+20552=Zaustavi red
+
+//v4.01 build 5
+20553=Internet Download Manager je automatski uhvatio linkove za preuzimanje iz druge internet aplikacije kada je pokušala preuzeti datoteku. Ako ne želite da preuzmete ovu datoteku sa IDM, otvorite dijalog Opcije tako što ćete kliknuti na dugme Opcije\r\n\r\n 1. Ako ne želite da preuzimate ovu vrstu datoteka sa IDM, možete obrisati odgovarajuću vrstu datoteke (ekstenziju datoteke) sa spiska automatski uhvaćenih vrste datoteka.\r\n\r\n 2. Ako ne želite da preuzmete ni jednu vrstu datoteka sa određene stranice sa IDM, možete dodati tu stranicu na spisak izuzetih stranica.
+236=IDM savet: Automatsko hvatanje linkova
+1393=Ne prikazuj ovaj savet ponovo
+1397=IDM ima fleksibilan mehanizam da preuzme ili ignoriše preuzimanja drugih internet aplikacija. Želite li da pročitate više?
+1396=Pročitaj više
+
+//v4.02
+20569=Ova greška je moguća ako je IDM korišćen na nekoliko računara sa istim serijskim brojem. Imajte da IDM ima licence po računar. Da biste koristili IDM na nekoliko računara u isto vreme nabavite licencu za svaki.
+20570=Mala dugmad
+20571=Velika dugmad
+20572=Klasična dugmad
+
+//new main menu items
+m33001=Traka sa alatima
+33510=Klasična dugmad
+34010=Mala dugmad
+34011=Velika dugmad
+
+//a new (since 4.401) button on the Options dialog
+1371=Pomoć
+
+// The abbreviation of second, kilobytes, megabytes and gigabytes, 
+// it's used when denoting download speed measurement units, 
+// e.g. KB/sec --- kilobytes per second, etc.
+20575=sek
+20576=GB
+20577=MB
+20578=KB
+20579=bajt(ova)
+
+//v4.03
+20588=Nije moguće izgraditi preuzetu datoteku. Sekvenca izgradnje preuzetih delova se prekinula. Pročitajte moguće razloge ovog problema ispod.\r\n\r\n 1.	Računar je neočekivano isključen zbog nestanka električne energije tokom preuzimanja/sastavljanja delova datoteke.\r\n 2.	Druga aplikacija ili korisnik su prekinuli proces Internet Download Manager-a tokom preuzimanja/sastavljanja delova datoteke. Imajte na umu da sastavljanje velikih datoteka može potrajati. Ne brinite, budite strpljivi, i sačekajte da IDM završi sastavljanje. Nemojte prekidati proces Internet Download Manager koristeći Menadžer zadataka.\r\n\r\nAko ovi događaji nisu nastali, pošaljite datoteku %s (ako postoji) timu podrške Internet Download Manager-a radi analize.
+
+
+//v 5.00 --- grabber
+1429=< Nazad
+1430=Dalje >
+
+1405=Dodaj filter
+1421=Dodaj filter
+1437=Traži datoteke samo na ovoj stranici
+1459=Počni preuzimanje svih datoteka koje se podudaraju odjednom
+1471=Prvo možete istražiti stranicu, označiti datoteke koje trebate, i preuzeti ih u glavnom prozoru Hvatača, ili dodati ih na glavni spisak IDM-a. Ova opcija preuzima sve istražene datoteke odmah.
+1515=Preuzmi sledeće datoteke (vrste datoteka)
+1516=Ne preuzimaj sledeće datoteke (vrste datoteka)
+1480=Ne manja od
+1482=Ne viša od
+1483=Preuzmi datoteke smeštene samo na sledeće putanje/domene :
+1486=Ne preuzimaj datoteke smeštene na sledeće putanje/domene:
+1517=Preuzmi ako je veličina dat.
+1488=Koristite tačku zarez ( ; ) za odvajanje unosa.
+
+241=IDM Hvatač stranica
+1446=Preuzete datoteke:
+1448=Pronađene datoteke:
+1450=Obrađene veb stranice:
+
+244=Filteri
+1423=Dodaj
+1424=Uredi
+1425=Obriši
+
+245=Filter
+1426=Ime
+1427=Maska
+
+1414=Ime projekta Hvatača
+1510=Početna stranica/adresa
+1439=Koristi autorizaciju
+1441=Unesi korisničko ime i lozinku ručno na sledećoj veb stranici:
+1511=Šablon projekta
+1470=Ako izaberete šablon projekta, čarobnjak će napraviti zahtevane postavke projekta za izabrane šablone u sledećim koracima. Imajte na umu da uvek možete promeniti svaku postavku ručno.
+
+1514=Koristi originalne relativne poddirektorijume
+1468=Pretvori linkove u preuzetim html datotekama u lokalne za oflajn pregledanje
+1469=Prepiši postojeće datoteke
+1436=Dodaj označene datoteke u glavni spisak IDM-a i u red za preuzimanje nakon zatvaranja hvatača
+
+262=Postavke IDM Hvatača
+1518=Koristi tekst linka kao opis preuzimanja pri dodavanju datoteka na glavni spisak IDM
+1466=datoteka za istraživanje u isto vreme (1 do 10)
+1467=datoteka za preuzimanje u isto vreme (1 do 10)
+1509=Imajte na umu da veb server može odbiti zahteve ako podesite veliki broj datoteka za istraživanje (preuzimanje) u isto vreme.
+
+1416=Ne istražuj roditeljske direktorijume
+1490=nivo(a) unutar osnovne stranice
+1435=Istraži čitavu stranicu
+1445=Istraži određeni broj nivoa linkova:
+1491=nivo(a) ostalih stranica
+1474=Istraži veb stranice samo unutar sledećih putanja/domena:
+1476=Ne istražuj veb stranice unutar sledećih putanja/domena:
+1512=Na ovom koraku trebate izabrati koje veb stranice želite da istražite kako bi pronašli zahtevane datoteke. Na sledećem koraku, moći ćete podesiti vrste datoteka, lokacije, i ostale filtere.
+1489=Šta je broj nivoa linkova?
+1493=Istraži sve stranice unutar glavne domene
+1494=Ignoriši iskačuće prozore
+
+268=Ime šablona
+1508=Unesite ime za šablon hvatača
+
+269=Čuvanje projekta IDM Hvatača
+1507=Sačuvaj ovaj projekat sa sledećim imenom
+1513=Ne prikazuj ovaj dijalog ako je ime jedinstveno
+
+270=Učitaj projekat
+
+32811=Tutorijali
+34022=Pomoć za Hvatač
+      
+
+m1458=Projekat
+1458=Novo
+1438=Učitaj...
+1442=Sačuvaj
+34020=Sačuvaj trenutne postavke kao šablon
+m34013=Najnoviji projekti
+34013=Lista najnovijih projekata
+m1457=Opcije
+1457=Postavke Hvatača
+34021=Zakaži projekat
+
+t1398=Počni istraživanje stranice
+t1401=Zaustavi istraživanje stranice
+t1353=Označi sve datoteke
+t1354=Ukloni oznake sa svih datoteka
+t1432=Počni preuzimanje označenih datoteka
+t1433=Zaustavljanje preuzimanje označenih datoteka
+t1434=Dodaj označene datoteke na glavni spisak IDM-a i u red preuzimanja
+
+
+20580=Prilagođene postavke
+20581=Sve slike veb stranice
+20582=Audio datoteke sa početne stranice i sa sledećeg nivoa
+20583=Sve video datoteke veb stranice
+20584=Sve datoteke veb stranice osim veb stranica i slika
+20585=Čitava veb stranica
+
+20589=Veb sadržaj
+20590=Napredno
+20591=Projekti Hvatača
+20592=IDM Hvatač
+20593=Unesite početnu stranicu/adresu
+20594=Početna stranica/adresa
+20595=Unesite korisničko ime i lozinku ili deaktivirajte opciju \"Koristi autorizaciju\"
+20596=Unesite stranicu za ručnu prijavu ili deaktivirajte odgovarajuću opciju
+20597=Stranicu za ručnu prijavu
+20598=Nema označenih datoteka!
+20599=%ld datoteka je dodato na glavni spisak IDM-a.
+20600=Nije moguće dodati datoteke. Previše datoteka je označeno. Preuzmite ih u ovom projektu klikom na dugme \"Preuzmi označeno\" u traci sa alatima.
+20601=Nije moguće dodati nove datoteke. Glavni spisak IDM-a sadrži previše datoteka i može usporiti IDM. Obrišite neke datoteke sa glavnog spiska.
+
+20602=Ovo ime je rezervisano. Izaberite drugo ime za vaš šablon.
+20603=Šablon sa ovim imenom već postoji. Da li želite da ga zamenite?
+20604=Sačuvaj projekat hvatača?
+
+//right click menu
+20605=Otvori projekat
+20606=Zakaži projekat
+20607=Obriši projekat
+
+20608=Prvo zatvorite tekući projekat Hvatača.
+20609=Zakaži projekat Hvatača
+20610=Stiže uskoro!!!\r\n\r\nOznačite ovu opciju u narednoj verziji IDM-a
+
+//displayed statuses
+20611=Istraživanje stranice
+20612=Preuzimanje
+20613=Završeno
+20614=Zaustavljeno
+
+20615=Projekat sa imenom \"%s\" već postoji. Izaberite drugo ime.
+20616=Nema sačuvanih projekata u IDM hvataču
+20617=Izaberite ime projekta!
+20618=Da li želite da obrišete projekat \"%s\" iz hvatača?
+20619=Nevažeći broj datoteka istražen u isto vreme. Postavite tačan broj.
+20620=Nevažeći broj datoteka preuzet u isto vreme. Postavite tačan broj.
+20621=Nije moguće otvoriti datoteku \"%s\"\r\n\r\n%s
+20622=Da li želite da preuzmete i instalirate datoteku pomoći za IDM Hvatač (oko 100 KB) sa početne stranice IDM ?
+20623=Nije moguće učitati projekat.\r\nGreška pri dodeljivanju memorije.
+20624=Nije moguće učitati projekat.\r\nDatoteka projekta hvatača je oštećena ili njena verzija nije prihvatljiva.
+20625=Datoteka projekta hvatača je oštećena. Nekoliko datoteka nije učitano
+20626=Nije moguće učitati šablon.\r\nDatoteka sa informacijama šablona je oštećena ili njena verzija nije prihvatljiva.
+20627=Učitavanje šablona hvatača
+20628=Čuvanje šablona hvatača
+20629=Čuvanje projekta hvatača
+20630=Učitavanje projekta hvatača
+      
+//step dialogs captions
+20631=IDM Hvatač Stranica. Korak %d --- %s
+20632=Podešavanje početne stranice
+20633=Sačuvaj datoteke u
+20634=Postavke filtera istraživanja
+20635=Postavke filtera datoteka
+
+20636=Stranica za ručnu prijavu
+20637=Pritisnite dugme OK kada je proces prijave završen
+20638=OK
+20639=Otkaži
+
+//v4.04
+20640=Ako planirate da preuzmete preuzimanja samo iz Internet Explorer-a, onda ne trebate ovu funkcionalnost, i trebate odgovoriti sa \"Ne\".
+
+//v4.06
+20641=Povezivanje sa
+20642=Područje:
+1534=Sačuvaj ovu lozinku u spisak lozinki IDM-a
+1536=Unesite vaše korisničko ime i lozinku.
+1537=Korisničko ime:
+1538=Lozinka:
+
+//v4.07
+
+280=Grupno preuzimanje
+1553=Moguće je dodati grupu sekvencijalnih imena datoteka kao što su img001.jpg, img002.jpg, itd., img100.jpg u IDM red za preuzimanje. Koristite zamenjivi znak zvezdicu za šablon imena datoteke. \nNa primer:   http://www.internetdownloadmanager.com/pictures/img*.jpg
+1540=Brojeve
+1541=Slova
+1556=Od:
+1557=Do:
+1547=Veličina zam. znaka
+1555=Zameni zvezdicu u
+1558=I datoteka:
+1559=II datoteka:
+1560=Poslednja dat.:
+
+20643=Označi sve izabrane datoteke
+20644=Ukloni oznake sa svih izabranih datoteka
+
+1552=Zameni imena datoteka koristeći zamenjivi znak zvezdicu za šablon imena datoteke:
+
+34024=Dodaj grupno preuzimanje
+
+20645=Nema zamenjivog znaka zvezdica u URL-u za kreiranje spiska preuzimanja datoteka!
+20646=Grupno preuzimanje
+20647=Previše datoteka. Broj datoteka ne može preći 1000. Izaberite drugi \"od : do :\" opseg.
+20648=Sačuvaj u fasciklu/kategoriju
+
+//v5.00 beta
+
+20574=Hvatač
+20649=Unesite stranicu za odjavu ili deaktivirajte odgovarajuću opciju
+
+20554=Sve datoteke
+20555=Datoteke slika
+20556=Video datoteke
+20557=Zvučne datoteke
+20558=Izvršne datoteke
+20559=Kompresovane datoteke
+20560=PDF dokumenti
+
+20561=Ne koristi filter za izuzimanje
+
+20562=Mapa stranice
+20563=Postavke
+
+20564=Ime filtera
+20565=Maska
+20566=Unesite ime filtera
+20567=Unesite masku
+20568=Filter sa imenom \"%s\" već postoji. Izaberite drugo ime.
+
+20650=Sačekajte...
+20651=Brisanje privremenih datoteka
+20652=Čuvanje projekta Hvatača
+20653=Brisanje projekta Hvatača
+20654=Primenjivanje promena
+20655=Učitavanje projekta Hvatača
+20661=Provera za promenama
+20662=Preuzimanje stranice za ručnu prijavu
+
+20656=Nema dovoljno slobodno prostora na disku %s za obradu projekta hvatača. Oslobodite prostor i pokušajte ponovo.
+20657=Nema dovoljno slobodno prostora na disku %s za otvaranje projekta hvatača. Oslobodite prostor i pokušajte ponovo.
+20658=Nije moguće otvoriti projekat. Neke datoteke projekta su oštećene ili obrisane.
+
+20659=Kompletnu početnu stranu sa svim slikama, stajlovima, i skriptama za oflajn pregledanje
+20660=Kompletnu početnu stranu
+
+20663=Nije moguće početi preuzimanje stranice za ručnu prijavu. Proverite URL sintaksu.
+
+33010=Pokreni hvatač sajtova
+
+1563=Pritisnite dugme Napredno da omogućite ručnu prijavu ili da onemogućite stranicu za odjavu
+1561=Ne otvaraj stranicu za odjavu:
+1564=Mnogi sajtovi imaju stranicu za odjavu koju Hvatač ne bi trebao otvarati. Koristite zamenjivi znak zvezdicu da unesete šablon za različite stranice za odjavu.
+1571=Sakrij duple datoteke pronađene na različitim lokacijama
+1565=Obradi JavaScript
+1567=Koristite ovu opciju pažljivo. Kakav je rizik?
+1573=Potraži datoteke u kešu IE prije preuzimanja
+1568=Koristite zvezdicu kao šablon. Koristite zareze bez razmaka za odvajanje unosa 
+
+//grabber dlg tree
+20664=Dodaj datoteke
+20665=Prikaz linkova
+20671=Prikaz fascikli
+20667=Ostali sajtovi
+20668=sajtovi
+
+20669=Izuzmi filtere
+20670=Uključi filtere
+
+t34023=Prikaži statistiku hvatača
+271=Statistika IDM Hvatača
+1574=Status:
+1575=Obrađene veb stranice
+1576=Jednostavno
+1577=Napredno
+1578=Datoteke
+1579=Ukupno
+1580=Istraženo
+1581=Pronađeno
+1582=Preuzeto
+
+//v5.00 build 3
+20672=Prikaz u sličicama
+20673=Nema preuzetih datoteka
+
+20674=Nije pronađeno
+20675=Zabranjeno
+20676=Greška
+
+//v5.01
+284=Zakaži projekat hvatača
+1583=Jednokratno istraživanje/preuzimanje
+1584=Periodična sinhronizacija
+1585=Samo istraživanje
+1586=Istraživanje sajta i preuzimanje odgovarajućih datot.
+1587=Preuzmi označene datoteke
+1588=Korak 3. Planiranje
+1601=Korak 2. Izaberi akciju
+1600=Korak 1. Izaberi vrstu
+1593=Projekat:
+1590=Otvori sledeće datoteke kada bude završeno:
+1595=Počni ponovo svakih
+1597=sati
+1598=min
+1599=Dnevno
+1602=Napomena: IDM bi trebao biti aktivan tokom izabranog vremena kako bi počeo zakazane projekte
+20677=Da bi koristili planer projekata prvo trebate sačuvati projekat. Sačuvati sada?
+20678=Internet Download Manager je završio obradu projekta hvatača. Prema planeru postavki projekta vaš računar će biti ugašen.
+t33010=Pokreni hvatač sajta
+t34021=Zakaži projekat
+t34025=Ažuriraj sve
+20679=Zakazani projekat hvatača nije mogao da se pokrene u %d:%02d jer je projekat bio pokrenut u tom trenutku.
+20680=Zakazani projekat hvatača nije mogao da se pokrene u %d:%02d jer su postavke projekta uređivane u tom trenutku.
+20681=Java-script neće biti obrađen za veb sajtove koji su već istraženi/obrađeni. Ako želite da obradite Java-script za ove stranice moraćete da pritisnete dugme \"Ažuriraj sve\" u akcijskom dijalogu Hvatača.
+20682=Dugme ažuriranja će ažurirati projekat tako što će (a) početi istraživanje sajta od početne stranice, (b) ažurirati datoteke ako su promenjene na serveru, (c) preuzeti nove datoteke.
+20683=Dugme ažuriranja će ažurirati projekat tako što će (a) početi istraživanje sajta od početne stranice, (b) ažurirati preuzete i označene datoteke ako su promenjene na serveru.
+20684=Imajte na umu da stare datoteke koje su pronađene prije ažuriranja neće biti izbrisane. Hvatač će ponovo parsirati sve veb stranice na sajtu, i to može potrajati.\r\n\r\nDa li zaista želite ažurirati ovaj projekat?
+
+//version 5.02
+20685=Preimenuj projekat
+20686=Umanji u sistemsku paletu
+20688=Prikaži sve prozore za preuzimanje
+20689=Možete uključiti ovaj dijalog u \"Opcije->Preuzimanja\"
+20690=IDM postavke
+20691=Preuzeto %s (%I64d bajtova)
+20692=Datoteka možda nije preuzeta u potpunosti jer je veličina iste nepoznata.
+20693=Zapamti ovu putanju za kategoriju \"%s\"
+20694=Preuzimanje završeno
+1610=Adresa
+1611=Datoteka sačuvana kao
+1606=Otvori fasciklu
+1607=Ne prikazuj ponovo ovaj dijalog
+t1608=Pregledaj
+20695=IDM preuzimanja
+1615=Ignoriši promene vremena izmene datoteke pri nastavku preuzimanja
+1613=Opširnije
+20696=IDM proverava za novim izdanjima svake 2 sedmice tražeći ažuriranje na svojoj početnoj stranici. Ako vaš zaštitni zid blokira zahtev za ažuriranjem IDM-a i pokaže odgovarajuću poruku upozorenja, trebate shvatiti da je zahtev validan i da je sigurno da ga dopustite.
+1617=Adresa
+1619=Adresa:
+1618=Možete koristiti zvezdicu kao as a šablon
+
+//Please note that the old menu item string changed from m32771=URL to m32771=Tasks
+//also strings 32771 and 148 have been changed
+
+//v 5.02 Build 2
+1621=Obaveštenje o ažuriranju
+290=IDM obaveštenje u ažuriranju
+20697=Nema minimizovanih preuzimanja
+
+// v 5.02 Build 3
+1622=Napomena: Ove postavke ne odnose se na obradu redova
+
+// v 5.02 Build 6
+20698=Pregledaj
+
+// v 5.02 Build 10
+20586=Mogući razlozi za ovu grešku:\r\n\r\n 1. Internet veza nije pronađena. Proverite vašu internet vezu.\r\n\r\n 2. Imate zaštitni zid na vašem računaru, i tek ste instalirali, zamenili ili ažurirali vašu trenutnu verziju Internet Download Manager-a. Proverite postavke zaštitnog zida i obezbedite da IDM ima dozvolu da pristupi internet.\r\n\r\n 3. Servis koji pronalazi servere na internetu pod imenom called Sistem imena domena (DNS) ima privremene probleme, ili je mrežna veza između DNS-a i vašeg računara prekinuta. Moguće je da trebate restartovati računar.\r\n
+1570=Preporučilac:
+
+// v 5.02 Build 12
+20587=Pri pokušaju nastavka preuzimanja, Internet Download Manager je dobio odgovor sa servera da ne podržava nastavljanje preuzimanja. \r\nMoguće je da je ovo privremena greška na serveru, i moći ćete nastaviti preuzimanje kasnije, ali u ovom trenutku IDM može preuzeti datoteku ispočetka. \r\n\r\n Da li želite da preuzmete ovu datoteku ispočetka?
+
+// v 5.03
+20699=Vrste datoteka koje nisu na spisku u bilo kojoj drugoj kategoriji
+20700=Kliknuli ste na dugme "Preuzmi kasnije", ali zapravo IDM je već preuzeo deo datoteke. IDM uvek počne preuzimanje dok prikazuje dijalog "Info o datoteci koja se preuzima". Možete isključiti ovu opciju u dijalogu "Opcije->Preuzimanja"
+20701=Preuzmi kasnije
+20702=Privremena fascikla je neophodna za smeštanje delove datoteka tokom preuzimanja.\n Ako imate nekoliko diskova u vašem računaru, trebate izabrati različite diskove za privremenu fasciklu i fascikle "Sačuvaj u" radi bržeg sastavljanja preuzetih datoteka.
+20703=Automatski stavi u kategoriju \"%s\" sledeće vrste datoteka:
+20704=Sačuvaj u
+20705=Kategorije, vrste datoteka, fascikle
+1623=Odmah počni preuzimanje dok se prikazuje dijalog "Info o datoteci koja se preuzima"
+
+292=Restartovanje računara
+1627=Zaustavi
+20706=Restartovanje za %d sekundi
+20707=Restartuj sada
+
+// v 5.04
+//Options->File Types and Options->General changes (for basic integration)
+20708=Vrste datoteka
+20709=Preuzete vrste datoteka
+20711=Napomena: Opera i STARI pregledači zasnovani na Mozili mogu biti integrisani sa IDM upotrebom dodataka. Ova vrsta integracije ne podržava spisak izuzetih servera za sprečavanje preuzimanja sa IDM. Takođe, kada promenite spisak vrsta datoteka morate restartovati ove pregledače kako bi se dodaci ponovo učitali.\n Ova ograničenja se ne primenjuju ako koristite \"napredna integracija u pregledač\" koja se nalazi na tabu \"Opšte\".
+1632=Detalji
+1633=Dodaj pregledač...
+1634=Ponovo integriši sve
+20710=Napomena: Opera i STARI pregledači zasnovani na Mozili mogu biti integrisani sa IDM upotrebom dodataka. Ova vrsta integracije ne podržava posebne tastere za sprečavanje ili prisiljavanje preuzimanja sa IDM iz ovih pregledača.\n Ako želite da sprečite ili prisilite preuzimanje sa IDM putem posebnih dugmadi, trebati koristiti opciju \"napredna integracija u pregledač\".
+
+//MessageBoxes
+20713=IDM integracija u pregledač
+20712=IDM ne može pronaći pregledač %s na vašem računaru. Pronađite izvršnu datoteku pregledača u sledećem dijalogu.
+20714=Integracija u pregledače koristeći dodatke nije uspela!
+20715=Dodaci za pregledač %s su instalirani.
+20716=Dodaci za pregledač %s %s su instalirani.
+20717=Dodaci za pregledač %s su uklonjeni.
+20718=Restartujte pregledač da primenite promene.
+20719=Pronađite izvršnu datoteku pregledača u sledećem dijalogu.
+20720=Nije moguće instalirati idmmzcc.xpi ekstenziju za Mozilla Firefox!
+20722=IDM je otkrio da je pregledač %s %s podrazumevani na vašem računaru. \n Da li želite da ga integrišete u IDM?
+20723=Nije moguće instalirati idmmzcc.xpi ekstenziju pregledača!
+20724=Pregledač %s %s će biti sada otvoren radi instaliranja ekstenzije za integraciju u IDM.\n Potvrdite instalaciju ekstenzije idmmzcc.xpi od Tonec Inc. u odgovarajućem dijalogu i restartujte pregledač nakon instalacije.
+20725=Nije moguće instalirati dodatke za pregledač %s %s!
+20726=IDM je uspešno integrisan u Internet Explorer.\n Trebate restartovati IE da primenite promene.
+20727=IDM je otkrio da je pregledač %s %s takođe instaliran na vašem računaru. \n Da li takođe želite da ga integrišete sa IDM?
+20728=Izabrani pregledači će sada biti otvoreni radi instalacije ekstenzije za integraciju u IDM.\n Potvrdite instalaciju ekstenzije idmmzcc.xpi od Tonec Inc. u odgovarajućem dijalogu pregledača i restartujte pregledač nakon instalacije.
+20729=Dodaci za izabrane pregledače su instalirani.\n Restartujte pregledače da primenite promene.
+20730=IDM je već integrisan u Internet Explorer!
+20731=IDM ne može pronaći ovaj pregledač u bazi osnovnih integracija. Trebate pokušati naprednu integraciju u pregledač da uhvatite preuzimanja iz ovog pregledača.
+20732=Nije moguće instalirati dodatke za pregledače sa odgovarajućom vrstom integracije!
+
+//new dialogs
+296=Integracija u pregledače
+1635=IDM je otkrio sledeće dodatne pregledače na vašem računaru. Izaberite pregledače koje želite da integrišete u IDM.
+297=Detalji pregledača
+1636=Dodaj verziju...
+20733=Pregledač
+20734=Vrste integracije
+20735=Putanja
+20736=Ekstenzija
+20737=Dodaci
+
+//new menu item on main dlg popup menu and new button on Download complete dlg
+20738=Otvori sa...
+1639=Otvori sa...
+
+//
+20739=Pronađi pregledač
+
+// v 5.05
+20740=IDM sada preuzima ovu datoteku!
+20741=Dupli link za preuzimanje
+298=Dupli link za preuzimanje
+20742=Prikaži dijalog i pitaj šta uraditi
+20743=Dodaj duplikat sa numerisanim imenom datoteke
+20744=Dodaj duplikat i prepiši postojeću datoteku
+20745=Ako je postojeća datoteka preuzeta, prikaži dijalog završenog preuzimanja; inače nastavi.
+1641=Datoteka već postoji na vašem spisku preuzimanja. Možete izabrati jednu od sledećih opcija, ili kliknuti na dugme Otkaži da preskočite preuzimanje ove datoteke
+1645=Zapamti moj izbor i ne prikazuj ponovo ovaj dijalog.\r\n Ovo možete izmeniti kasnije u IDM Opcije->Preuzimanja.
+1646=Ako je dupli link za preuzimanje dodat:
+
+20746=Internet Explorer, MSN Explorer, i pregledači zasnovani na IE
+20747=Netscape 8.0 i noviji
+20748=Netscape 7.xx i 6.xx
+
+// v 5.05 build 2
+20749=Možete povući & ispustiti ovu datoteku
+//Dear translators, if you added "CompleteDlg.htm" topic to your help file, or you did not translate the help file and use the English version, please add and translate the phrase "Press F1 to read more" at the next line.
+20750=Povucite ovu ikonu da počnete operaciju povuci i ispusti za preuzetu datoteku.
+//or 20750=Drag this icon to start the drag and drop operation for the downloaded file.\r\nPress F1 to read more.
+20751=Povuci i ispusti preuzetu datoteku
+
+// v 5.07
+1647=Nastavi
+20754=Moraćete da date administratorske dozvole da sačuvate datoteke na izabranoj lokaciji
+20755=Moraćete da date administratorske dozvole da izvedete ovu operaciju
+
+// v 5.07 build 2
+20756=Instalacijski program IDM-a mora restartovati vaš računar da zamenite datoteke koje su bile u upotrebi. Pritisnite dugme OK da restartujete računar sada.
+20757=Potvrdite restartovanje
+20758=IDM je uspešno restartovan. Automatski će se pokrenuti i preuzeti preuzimanja vašeg pregledača.
+20759=Takođe ga možete pokrenuti preko menija \"Start -> Svi programi -> Internet Download Manager\".
+
+// v 5.07 build 6
+//new checkbox on Options->General
+1650=Modul za praćenje klika u pregledačima na bazi IE (MSN, Avant, itd)
+
+//v 5.08 build 5
+//new dialogs
+302=Otkazivanje automatski početog preuzimanja
+1651=Otkazali ste ovo preuzimanje dva puta.\n\n Ako IDM uvek preuzima ovo preuzimanje greškom, možete dodati ovu adresu ili ovaj sajt na IDM spisak izuzetaka:
+1652=Ne počinji automatsko preuzimanje sa ovog sajta:
+1653=Ne počinji automatsko preuzimanje sa ove adrese:
+1655=Takođe možete urediti spisak izuzetaka u dijalogu \"Opcije->Vrste datoteka\"
+1654=Ne prikazuj ponovo ovaj dijalog
+
+303=Spisak izuzetih adresa
+1661=Ne počinji automatsko preuzimanje sa sledećih adresa:
+1659=Prikaži dijalog za dodavanje adrese na spisak izuzetaka za dva puta otkazano preuzimanje
+
+304=Dodaj adresu na spisak izuzetaka
+
+//changes in "Options->File Types" dialog:
+1656=Uredi spisak ...
+//label 1372 was divided into 2 parts
+1667=Ne počinji automatsko preuzimanje sa sledećih sajtova:
+1662=(odvojite imena razmakom)
+
+//v 5.08 build 7
+20763=Zahtevana datoteka je izgleda html veb stranica.\r\n\r\n Server je poslao html stranicu u drugom zahtevu. Neki serveri ne dozvoljavaju zahtevanje iste datoteke dva puta. Pošto ste isključili opciju \"Odmah počni preuzimanje dok se prikazuje dijalog Info o datoteci koja se preuzima\", IDM je poslao prvi zahtev da otkrije vrstu datoteke i veličinu, i poslao je drugi zahtev kada ste kliknuli na \"Počni preuzimanje\". \r\n\r\n Pokušajte uključiti opciju \"Odmah počni preuzimanje dok se prikazuje dijalog Info o datoteci koja se preuzima\" u \"Opcije->Preuzimanja\", osvežite stranicu u pregledaču, i pokušajte preuzeti ovu datoteku ponovo.
+
+//v 5.09 build 4
+305=IDM nije mogao preuzeti ovo preuzimanje
+20764=Neki sajtovi ne dozvoljavaju zahtevanje iste datoteke dva puta.\r\n\r\n Pregledač je napravio prvi zahtev datoteke \"%s\" i zatim kada je IDM pokušao da zahteva istu datoteku ponovo, sajt je poslao veb stranicu IDM-u umesto preuzimanja.\r\n\r\n Da presretnete ovo preuzimanje možete podesiti poseban taster u \"IDM Opcije->Opšte->Tasteri...\". Pritisnite i držite ovaj taster kada kliknete na link/dugme za preuzimanje tako da IDM može presresti preuzimanje prije prvog zahteva pregledača. Taster \"Ins\" bi trebao raditi za većinu pregledača.
+
+//v 5.11
+//new scheduler dialog
+308=Planer
+1675=Novi red
+1678=Izbriši
+1684=Redovi
+20783=Redovi
+306=Planer
+1680=Broj pokušaja za svaku datoteku ako preuzimanje nije uspelo :
+307=Datoteka u redu
+1687=Ograničenja preuzimanja
+20765=Ograničenja preuzimanja
+20767=Red # %ld
+20768=Glavni red preuzimanja
+20769=Sinhronizacijski red
+
+20770=Napravi novi red
+20771=Premesti u red
+20772=Dodaj u red
+20773=Počni sada
+20774=Zaustavi
+20775=Uredi red
+20776=Planer
+20777=Da li zaista želite da obrišete %s?
+20778=Počni %s
+20779=Zaustavi %s
+20780=IDM redovi
+20781=Slike u koloni \"R\" pokazuje kojem redu datoteka pripada.\r\nMožete premestiti datoteke iz jednog reda u drugi uz pomoć kontekstnog menija.\r\nZa više informacija o redovima, pročitajte datoteku pomoći Planera.
+20782=Želite li da preuzmete i instalirate datoteku pomoći (oko 100 KB) za \"IDM planer i redovi\" sa IDM početne stranice ?
+1685=Postavili ste početno vreme obrade reda.\r\nImajte na umu to da bi red počeo u izabrano vreme, potrebno je da je IDM pokrenut u to vreme barem u području obaveštenja na traci zadataka (pogledajte sliku ispod)
+310=Unesite ime reda
+1686=Unesite ime za novi red koji će biti prikazan na spisku redova
+
+//menu items
+m34026=Počni red
+m34028=Zaustavi red
+34029=Planer i redovi
+//tooltips for "Start queue" and "Stop queue" toolbar buttons.
+t34030=Počnite glavni red preuzimanja, ili izaberite red za počinjanje sa padajuće liste
+t34031=Zaustavite glavni red preuzimanja, ili izaberite red za zaustavljanje sa padajuće liste
+
+//v 5.11 build 3
+1679=Jednokratno preuzimanje
+
+//v 5.11 build 5
+20786=Prenos podataka je prekinut a server ne podržava \"nastavljanje\". Jedino je moguće preuzeti datoteku ispočetka.\r\n\r\n Postoji nekoliko načina za rešavanje problema:\r\n 1. Moguće je da server ima privremene probleme. Pokušajte nastaviti ovo preuzimanje kasnije.\r\n 2. Možete ostaviti ovu datoteku u redu (napraviti novi red) i pokrenuti ga. U ovom slučaju, IDM će ponovo pokušati preuzeti datoteku ispočetka sve dok je uspešno ne preuzme.\r\n Da postignete najbolje rezultate, trebate podesiti 1 vezu za ovaj sajt na listi izuzetaka u IDM dijalogu \"Opcije->Veza\".\r\n
+20784=\"IDM CC\" ekstenzija za pregledače zasnovane na Mozili su promenjeni u ovoj verziji IDM. Moraćete reinstalirati ekstenziju kako bi koristili nove mogućnosti. Da li želite da to učinite za pregledač %s %s?
+20785=\"IDM CC\" ekstenzija za pregledače zasnovane na Mozili su promenjeni u ovoj verziji IDM. Moraćete reinstalirati ekstenziju kako bi koristili nove mogućnosti. Da li želite da instalirate novu ekstenziju  \"IDM CC\" za pregledače koji imaju stare \"IDM CC\" ekstenzije?
+
+//v 5.11 build 7
+//Items in context menu of browsers:
+20810=Preuzmi sa IDM
+20811=Preuzmi FLV video sa IDM
+20812=Preuzmi zadnji zahtevani FLV video
+20813=Izaberi od 10 poslednjih zahtevanih FLV video zapisa
+20814=Preuzmi zadnji zahtevani FLV video sa IDM
+20815=Preuzmi FLV video zapise sa IDM od 10 poslednjih zahtevanih
+20816=Preuzmi sve linkove sa IDM
+20817=Preuzmi FLV video sadržaj sa IDM
+
+20790=Čuvanje FLV video zapisa
+20791=Možete sačuvati FLV video zapise koje želite koristeći meni \"Preuzmi FLV video sa IDM\" u kontekstnom meniju pregledača. \r\n\r\nKontekstni meni pregledača je prikazan kada kliknete desnim klikom na veb stranicu (ali ne na FLV plejer) u vašem pregledača ili kada pritisnete dugme na tastaturi.
+20792=Nije moguće pronaći FLV video linkove na ovoj veb stranici.\r\nMoguće je da vaš pregledač još nije zahtevao video datoteku. Morate sačekati dok vaš pregledač napravi zahtev i pokušajte ponovo. U nekim slučajevima samo treba da pritisnite dugme \"Reprodukuj\" u vašem veb plejeru.
+20793=Preuzmi sa IDM
+20794=Preuzmi sve sa IDM
+20795=Nije moguće pronaći linkove!\r\nAko ova stranica nema linkove, osvežite ovu stranicu, i pokušajte ponovo. Ako se problem nastavi, kontaktirajte IDM tim podrške.
+20796=Nije moguće pronaći FLV video linkove!
+20797=Nije moguće dobaviti internet video linkove koje je zahtevao istraživač!\r\nIDM objekat pomoćnik pregledaču je onemogućen od strane vas (ili nekog programa za uklanjanje spajvera) u vašem IE. Molimo koristite meni \"Alati->Upravljanje dodacima->Omogući ili onemogući dodaci\" u Internet Explorer-u. Zatim pronađite dodatak \"IDMIEHlprObj Class\" i omogućite ga.
+20798=Nije se moguće povezati sa IDM interfejsom koji nadgleda internet video linkove koje zahteva istraživač.\r\nMogući razlozi:\r\n - Niste restartovali računar nakon nadogradnje IDM na poslednju verziju. Restartujte vaš računar i pokušajte ponovo\r\n - IDM nije ispravno instaliran. Pokušajte preuzeti poslednju verziju IDM sa zvanične stranice i pokušajte ponovo
+
+//new feature in "Options->General" dialog:
+1688=Uredi...
+1689=Prilagođavanje IDM stavke menija u kontekstnom meniju pregledača
+334=Internet Explorer i zasnovani na IE
+335=Firefox i ostali zasnovani na Mozili
+1696=Izabrane stavke menija će se pojaviti u kontekstnom meniju pregledača:
+20818=Restartujte Internet Explorer da primenite promene
+20819=Izmenjivanje IE kontekstnog menija
+
+//v 5.11 b8
+20820=Izađi sada
+20821=Isključi IDM
+20822=Internet Download Manager je završio obrađivanje reda. Prema postavkama planera, IDM će biti isključen. Ali imate druga preuzimanja u toku koja će biti zaustavljena. Pritisnite dugme Otkaži da prekinete isključivanje.
+
+//v 5.11 build 9
+20823=Otkazali ste slično preuzimanje.\n\n Ako IDM uvek presreće takva preuzimanja greškom, možete dodati ovaj sajt ili šablon za slične adrese na IDM spisak izuzetaka:
+20824=Ne presreći preuzimanja sa sličnih adresa koristeći šablon:
+336=Izveštaj za IDM programere
+1702=Možete poslati izveštaj IDM programerima o preuzimanjima koja su greškom preuzeta kako bi napravili zaobilazno rešenje za ovaj sajt u budućim verzijama IDM
+1698=Dodati sledeći izuzeci:
+1700=Upućeni URL sa kojeg je preuzimanje greškom presretnuto:
+1703=Možete koristiti zamenjivi znak zvezdicu za šablon adrese.
+
+//v5.12
+20825=(Ograničeno)
+1707=Koristi ograničenje brzine
+337=Postavke ograničenja brzine
+1704=Uvek uključi ograničenja brzine pri pokretanju IDM
+1705=Prikaži polje \"Koristi ograničenje brzine\" na dijalogu \"Tok preuzimanja\"
+1706=Zapamti korisničke izuzetke na dijalozima \"Tok preuzimanja\" za korišćenje ograničenje brzine nezavisno da li je globalno ograničenje brzine uključeno ili isključeno
+1708=Maksimalna brzina preuzimanja za jednu datoteku
+1709=KBajtova/sek
+1710=Napomena: Internet serveri mogu prekinuti vezu kada je brzina previše ograničena! Stoga nije preporučeno koristiti ograničenje brzine za preuzimanje sa servera koji ne podržavaju opciju \"nastavljanja\".
+1711=Postavke ograničenje brzine za pojedinačna preuzimanja
+m34033=Ograničenje brzine
+34033=Uključi
+34034=Isključi
+34035=Postavke...
+
+//v5.12 build 5
+20831=Ako se FLV video na veb stranici reprodukuje od strane vašeg pregledača, moguće je da IDM ne može povezati ovaj FLV link sa ovom veb stranicom. Možete pokušati sa menijem \"Preuzmi FLV video zapise sa IDM od 10 poslednjih zahtevanih\" u kontekstnom meniju pregledača.\r\n(Kontekstni meni se može prilagoditi u tabu \"IDM Opcije->Opšte\")
+20830=CRC greška je nastala pri preuzimanju. To znači da ste imali neke probleme sa vašim diskom. Trebate skenirati vaš disk za greškama koristeći \"proveru grešaka\" u Windows dijalogu svojstva->alati.
+
+//5.12b7
+20832=Moraćete dati administratorske dozvole kako bi registrovali IDM za sve korisnike na ovom računaru
+
+//5.12b8
+20837=Potvrda brisanja preuzimanja
+20833=Izabrana preuzimanja nisu završena. Da li ste sigurni da želite da ih obrišite sa IDM spiska preuzimanja?
+20834=Izabrano preuzimanje nije završeno. Da li ste sigurni da želite da ga obrišite sa IDM spiska preuzimanja?
+20835=Nema nepotpunih preuzimanja među označenim. Da li ste sigurni da želite da ih takođe obrišite sa IDM spiska preuzimanja?
+20836=Da li ste sigurni da želite da obrišite sva kompletirana preuzimanja sa IDM spiska preuzimanja?
+1715=Da li ste sigurni da želite da obrišite izabrana preuzimanja sa IDM spiska preuzimanja?
+1713=Brisanje datoteke i sa diska. Budite pažljivi !
+
+//v5.14
+20850=video
+20851=audio
+20852=Preuzmi ovaj %s
+20853=Preuzmi ovaj %s sa IDM
+20854=O ovom panelu
+20855=Zatvori
+20856=Ovo je IDM panel za preuzimanje.\r\n Može se prilagoditi ili isključiti putem \"IDM->Opcije->Opšte\"
+20857=IDM panel za preuzimanje
+20858=Preuzmi %s sa ove stranice
+20859=Preuzmi %s sa ove stranice sa IDM
+20860=Preuzmi sve
+20861=%ld %s datoteka
+20862=datoteka
+
+//new on Options->General
+1724=IDM panel preuzimanja za veb-plejere u pregledačima
+1727=IDM može pokazati svoj panel preuzimanja na veb-plejeru u pregledaču kada IDM detektuje zahtev multimedije od veb-plejera
+1728=Prikaz panela:
+1717=Puni režim
+1718=Mini režim
+1726=Prikaži IDM panel preuzimanja za sledeće vrste datoteka:
+20863=Napomena: Ako uklonite oznaku sa spiska vrsta datoteka iznad i ako je vrsta datoteke na spisku u tabu \"Opcije->Vrste datoteka\", preuzimanja ove vrste datoteke su automatski uhvaćena sa IDM i neće biti reprodukovana u veb-plejeru. Ako želite da to sprečite, označite polje ispod:
+1720=Ne hvataj preuzimanja automatski iz veb-plejera
+
+//on Scheduler dlg
+1729=Počni preuzimanje pri pokretanju IDM
+
+20864=Možete koristiti integraciju u ovaj pregledač nakon omogućavanje funkcije \"Napredna integracija u pregledač\" na ovom dijalogu
+1731=Upozorenje: Pokrenuli ste IDM sa administratorskim privilegijama. \r\n IDM neće moći da presretne preuzimanja iz pregledača u ovom režimu.
+20865=Firefox ne može da prebaci preuzimanje datoteke u Internet Download Manager jer ste upalili opciju \"Pokreni ovaj program kao administrator\" u svojstvima datoteke IDMan.exe. \r\n\r\nOtvorite IDM fasciklu, kliknite desnim klikom na \"IDMan.exe\", izaberite meni \"Svojstva\", prebacite se na tab \"Kompatibilnost\", i uklonite oznaku sa polja \"Pokreni ovaj program kao administrator\".
+
+//v5.16
+20867=Nije moguće nastaviti preuzimanje datoteke:
+20868=IDM čeka novu adresu da nastavi datoteku:
+20869=Moguće je da adresa datoteke više nije validna ili je vaša sesija istekla.
+20870=Da li je ovo nova adresa za vaše isteklo preuzimanje?
+20872=Osveži adresu preuzimanja
+20873=IDM čeka novu adresu za drugo isteklo preuzimanje. Samo jedno isteklo preuzimanje bi trebalo koristiti ovu opciju u trenutku.
+20874=IDM će otvoriti veb stranicu u vašem pregledaču gde je uhvatio ovo preuzimanje. Ponovo počnite preuzimanje iste datoteke iz vašeg pregledača, i IDM će pokušati da uhvati novu adresu ili sesiju da nastavi ovo preuzimanje
+20871=Čekanje novih podataka
+1732=Zaustavi čekanje
+20875=Nova adresa za ovu datoteku je uspešno primljena.
+20876=Počnite preuzimanje iste datoteke iz vašeg pregledača ručno, i IDM će pokušati da uhvati novu adresu ili sesiju da nastavi ovo preuzimanje
+20877=Pokušajte osvežiti seriju preuzimanja i dobavite novu adresu korišćenjem menija \"Osveži adresu preuzimanja\" putem desnog klika na datoteku na spisku IDM preuzimanja. \r\nIli pokušajte izbrisati ovo preuzimanje, a zatim ga ponovo počnite iz vašeg pregledača da preuzmete datoteku sa IDM ispočetka.
+20878=Preuzimanje veb stranice da bi se osvežio link
+20879=Veb sajt je poslao veb stranicu umesto datoteke kada je IDM zahtevao datoteku drugi put. Ovaj sajt verovatno koristi privremene linkove i ne dozvoljava zahtevanje iste adrese dva puta.\r\n\r\nPokušajte izbrisati ovo preuzimanje, onda ga ponovo pokrenite iz pregledača i, kada ga IDM uhvati, preuzmite ga bez zaustavljanja/pauziranja.
+1741=Veb stranica sa koje je ova datoteka dobavljena:
+20880=Proveravanje adrese: %s
+20881=Niste označili ni jednu datoteku za preuzimanje!\r\n Ako ne želite da preuzmete neke datoteke, zatvorite dijalog \"%s\" koristeći dugme \"Otkaži\".
+20882=Dodavanje datoteka za preuzimanje sa IDM
+1739=Prikaži panel za biranje reda prilikom klika na dugme "Preuzmi kasnije"
+1738=Prikaži panel za biranje reda pri dodavanju grupnog preuzimanja
+1735=Dodaj datoteke u red:
+20884=Ne dodaji ni u jedan red
+1736=Počni obradu reda
+1737=Ne pitaj me ponovo
+20883=Možete uključiti ovaj panel u \"Opcije->Preuzimanja\"
+
+//v5.17b4
+34036=Dodaj grupna preuzimanja iz &klipboarda
+20885=Nekoliko URL-ova je pronađeno u klipboardu. Da li želite da ih preuzmete?
+20886=Grupno preuzimanje iz klipboarda.
+20887=Nije moguće pronaći ni jednu veb adresu u klipboardu!
+
+//v5.18b3
+m34037=IDM ikona palete
+34037=3D stil
+34038=Klasični stil
+34039=Ne prikazuj
+
+//v5.18b5
+20889=Vaša licenca za Internet Download Manager je istekla.\r\n IDM je prestao raditi. Nabavite novu licencu da bi koristili IDM
+20890=Pažnja:\r\nVaša licenca za IDM će isteći za %ld dan(a).\r\n\r\n Imajte na umu da je meni \"Registracija->Registracija\" trenutno onemogućen,\r\n ali biće omogućen kada vam licenca istekne
+
+20891=Niste označili ni jedan dan u sedmici kada bi planer trebao početi!
+20892=Počni dnevno
+
+20893=Uneli ste razmak ispred korisničkog imena. Ako je razmak greškom unesen, da li želite da ga IDM izbriše?
+20894=Uneli ste razmak nakon korisničkog imena. Ako je razmak greškom unesen, da li želite da ga IDM izbriše?
+20895=Uneli ste razmak ispred lozinke. Ako je razmak greškom unesen, da li želite da ga IDM izbriše?
+20896=Uneli ste razmak nakon lozinke. Ako je razmak greškom unesen, da li želite da ga IDM izbriše?
+
+//5.19
+1748=Prilagođavanje IDM panela preuzimanja u pregledačima 
+20899=Za veb-plejere
+20900=Za izabrane datoteke
+1749=IDM može prikazati panel preuzimanja na veb-stranici kada izaberete tekst koji sadrži veze za preuzimanje.
+20901=(Ova mogućnost trenutno radi za Internet Explorer, pregledače zasnovane na IE, Firefox i pregledače zasnovane na Mozili)
+20903=Preuzmi izabrane datoteke sa IDM
+1744=Prikaži panel preuzimanja za bilo koje izabrane linkove
+1745=Ne prikazuj panel preuzimanja za izabrane linkove
+1746=Prikaži panel preuzimanja za izabrane linkove samo za sledeće sajtove:
+1751=Uhvati preuzimanja iz sledećih pregledača:
+1742=Označi sve
+1743=Poništi sve
+
+//5.19b3
+20904=IDM ne može pronaći komponentu koja instalira/deinstalira naprednu integraciju u pregledač. Reinstalirajte IDM.
+20911=IDM će preuzeti veb-stranicu umesto datoteke.
+20909=Da li želite da saznate kako da preuzmete datoteke sa rapidshare sa IDM?
+20910=Da li želite da saznate kako da preuzmete sa sajta za deljenje datoteka sa IDM?
+20905=Nije moguće prebaciti preuzimanje u IDM
+20906=Moguće je da su vaš pregledač i IDM podešeni da se izvršavaju pod različitim privilegijama (različitim dozvolama).\r\n\r\nAko ste pokrenuli IDM koristeći meni \"Pokreni kao administrator\", isključite IDM (izaberite \"Zadaci->Izlaz\" u glavnom prozoru IDM) i ponovo pokrenite IDM normalno.\r\n\r\nMožda ste aktivirali opciju \"Pokreni ovaj program kao administrator\" u Windows dijalogu svojstava datoteke IDMan.exe. Otvorite IDM fascikli, kliknite desnim klikom na \"IDMan.exe\", izaberite meni \"Svojstva\", prebacite se na tab \"Kompatibilnost\", i uklonite oznaku sa opcije \"Pokreni ovaj program kao administrator\". Takođe trebate da uklonite kompatibilnost sa prethodnim verzijama Windowsa ako su uključene. Restartujte IDM nakon toga.
+20907=Ako opcije \"Pokreni ovaj program kao administrator\" ili \"kompatibilnost sa prethodnim verzijama Windowsa\" nisu označene u IDM, uklonite ih sa Windows svojstava vašeg pregledača.
+
+//v6.0b
+20897=video %dx%d, trajanje %d:%02d
+20912=Trajanje
+20913=Imajte na umu da ako imate nekoliko korisnika na vašem računaru, napredna integracija u pregledač će biti isključena za sve korisnike.
+20914=Nakon integracije Internet Download Manager u novu aplikaciju, možete isključiti opciju \"Otkrivanje novih aplikacija\" radi boljih performansi.
+20915=Ovo je BETA verzija Internet Download Managera.\r\nInstaliraće novi mrežni upravljački program, koji značajno poboljšava integraciju sa veb plejerima i menja staru integraciju sa nekoliko pregledača kao što su Chrome ili Opera. Ako budete imali neki problem sa povezivanjem na Internet, na primer, smrzavanje sistema, ili rušenje programa, itd., otvorite IDM opcije i isključite opciju \"Koristi naprednu integraciju u pregledač\" na tabu Opšte. To će isključiti novi upravljački program.
+
+//v6.03b2
+20919=IDM je otkrio da vaš računar možda nema plejer koji bi reprodukovao %s video zapise. Trebaćete instalirati bilo koji %s plejer.\r\n\r\nDa li želite da pročitate o %s plejeru?
+20920=%s video zapisa je preuzeto
+
+//
+//Dear translators, please note that we have changed several old strings:
+//
+t1278=Sakrij kategorije
+t32789=Ručno dodaj novu adresu preuzimanja
+t1004=Dodaj datoteku na spisak IDM za preuzimanje kasnije
+t1061=Nadgledanje sistemskog klipboarda za linkove za preuzimanje sa IDM
+187=IDM meta za prevlačenje. Ovde prevucite veb linkove da biste ih preuzeli.
+20176=Zahtevana datoteka izgleda kao html veb stranica.\r\n\r\nAko je ovo preuzimanje automatski preuzeto iz vašeg pregledača kada ste kliknuli na link, pokušajte držati dugme Alt kada kliknete na link da dozvolite IE da otvori stranicu.\r\n\r\nŽelite li da nastavite preuzimanje datoteke sa IDM i da je sačuvate kao html stranicu?
+20177=Zahtevana datoteka izgleda kao html veb stranica.\r\n\r\nAko je ovo preuzimanje automatski preuzeto iz vašeg pregledača kada ste kliknuli na link, pokušajte držati dugme Alt kada kliknete na link da dozvolite IE da otvori stranicu.\r\n\r\nŽelite li da preimenujete preuzetu datoteku u html stranicu?
+34012=Potražite nove trake sa alatkama
+20573=Potražite nove trake sa alatkama
+57670=Sadržaj pomoći
+20721=IDM je uspešno integrisan u Mozilla Firefox.\n Morate restartovati Firefox da biste primenili promene
+20342=Link za preuzimanje je pronađen u klipboardu. Da li želite da ga preuzmete?
+
+//Old strings 20016, 20017, 20350 replaced with:
+20916=Desila se nepoznata greška tokom preuzimanja. Pokušajte ponovo.
+20917=Došlo je do greške prilikom preuzimanja. Pokušajte ponovo.
+20918=Vaš serijski broj za Internet Download Manager je blokiran zbog različitih registracija. IDM se isključuje...
+
+//And deleted the following strings: 
+//20178, 20179, 20180, 20181, 20182, 20183, 20184, 20185, 20186, 20187, 20188, 20189, 20190, 20191, 20192, 20193, 20194, 20195, 20196, 20197, 
+//20198, 20200, 20201, 20202, 20208, 20209, 20210, 20223, 20224, 1238, 1251, 1314, t1065, t1068, 20016, 20017, 20350
+
+//v6.03b3
+//We have changed the old strings: 20146 and 20033 (Tab name) 
+
+20921=Da li želite da saznate kako da preuzmete datoteke sa stranice %s sa IDM?
+20923=IDM izvršna datoteka je na desktopu
+20922=Stavili ste izvršnu datoteku IDM na desktop. IDM ne može ispravno raditi bez svojih ostalih datoteka, molimo vratite IDMan.exe nazad, i kreirajte prečicu do IDM na Desktopu. Da kreirate prečicu, otvorite IDM fasciklu, kliknite desnim klikom na datoteku IDMan.exe i koristite meni \"Pošalji na -> Desktop (kreiraj prečicu)\".
+20924=Napomena 2: Ponekada kada kliknete na link, vaš pregledač zahteva druge datoteke u isto vreme, kao što su Java skripte, veb stranice, slike, itd. Kada pritisnete i držite poseban taster, IDM presreće ove datoteke, i pregledač možda neće zahtevati potrebnu datoteku jer se neće pokrenuti Java skripta, koja je pogrešno presretnuta od strane IDM. Ako želite da presretnete i preuzmete samo potrebne datoteke sa IDM, uključite opciju ispod:
+1753=Dok je pritisnut poseban taster NE presreći preuzimanja koja su veb stranice, slike, skripte, itd.
+20925=Imate zastarelu %s integraciju u pregledač, ili %s integracija nije instalirana. Da li želite da pročitate kako da ovo popravite?
+20926=IDM prikazuje panel preuzimanja umesto hvatanja preuzimanja u veb plejerima kada %s integracija ispravno radi.
+
+//v6.04b2
+20928=IDM je presreo ovu datoteku iz veb media plejera zbog onemogućenog panela preuzimanja za odgovarajuću vrstu datoteke u IDM opcijama.\r\n\r\n Ako želite da IDM ne presreće takve datoteke, idite na tab \"Opšte\" u IDM opcijama, kliknite na dugme \"Uredi...\" za panele preuzimanja u pregledačima i uključite opciju \"Ne hvataj preuzimanja automatski iz veb-plejera\".
+20929=IDM ne može da aktivira naprednu integraciju u pregledač zbog sledećih razloga:\r\n1. Nemate administratorske dozvole ili niste dopustili pomoćnom programu IDM da se izvrši kao administrator.\r\n2. Pritisnuli ste na dugme Otkaži tokom instalacije mrežnog upravljačkoj programa IDM.\r\n3. Blokirali ste pokretanje IDM mrežnog upravljačkog programa ili instalaciju putem nezavisnog softvera za zaštitu ili antivirusem.
+//v6.04b3
+20930=IDM ne može pronaći %ld datoteke koje su neophodne za integraciju u sistem i pregledač. Reinstalirajte IDM 
+
+//v6.06
+//"Serial Number" explanation on registration dialog
+20931=Šta je \"%s\"?
+20932=%s je ključ proizvoda Internet Download Manager.\r\nOvo je jedinstveni alfa numerički kod za svakog korisnika koji izgleda ovako: \r\n xxxxx-xxxxx-xxxxx-xxxxx\r\n\r\nPrimićete serijski broj SAMO nakon kupovine IDM.\r\nPritisnite dugme \"%s\" da kupite IDM.
+
+//v6.07
+20933=Ove postavke nisu dostupne za preuzimanja koja se obrađuju u IDM redu
+20934=Ove postavke nisu dostupne kada je uključeno \"%s\"
+363=Status preuzimanja
+364=Opcije po završetku
+20935=Internet Download Manager je završio preuzimanje datoteke. Prema vašim postavkama za ovo preuzimanje, IDM će se isključiti. Ali vi imate druga preuzimanja u toku koja će biti zaustavljena pri gašenju. Pritisnite dugme Otkaži da zaustavite gašenje.
+20936=Internet Download Manager je završio preuzimanje datoteke. Prema vašim postavkama za ovo preuzimanje, IDM će prekinut vezu vašeg modema.
+20937=Internet Download Manager je završio preuzimanje datoteke. Prema vašim postavkama za ovo preuzimanje, vaš računar će biti ugašen.
+1762= Prikaži panel preuzimanja za zaštićeni sadržaj \r\n koji IDM ne može preuzeti
+20938=zaštićeni sadržaj
+20939=IDM ne može preuzeti ovaj zaštićeni video tok zbog pravnih razloga. Takvo preuzimanje nije podržano jer IDM ne može zaobići tehnološke mere koje su napravljene za zaštitu zvuka, video i sadržaja podataka.\r\n\r\nMoguće je isključiti panel preuzimanja za zaštićeni sadržaj koji IDM ne može preuzeti putem \"IDM Opcije -> Opšte\"
+
+//v6.07b7
+365=Ograničavanje brzine
+1763=Maksimalna brzina preuzimanja:
+1765=Zapamti postavke ograničenja brzine za ovu datoteku\r\n prilikom zaustavljanja//nastavljanja
+1772=Sakrij tab
+367=Prilagodi dijalog za tok preuzimanja
+1767=Prilagodi dijalog "Tok preuzimanja"
+1775=Početni prikaz:
+1774=Napomena: Opcija "Početni prikaz" nije povezana sa obradom reda. Kada IDM obrađuje red,  dijalog "Tok preuzimanja" uvek počinje umanjen u sistemsku paletu
+1768=Prikaži tab "Ograničavanje brzine"
+1769=Prikaži tab "Opcije po završetku"
+1773=Prikaži dugmad "Sakrij tab"
+
+//v6.07b12
+20941=Greška pri povezivanju sa VPN
+20940=Moguće je da trebate da promenite VPN vezu koja je postavljena u IDM opcijama, ili isključite opciju  \"Koristi Windows Dial Up / VPN mrežu\" u IDM Opcije -> \"Dial Up / VPN\" tabu
+20942=kvalitet
+
+//v6.08b2 beta
+20949=Proksi/Socks
+20948=Konfiguracija proksija / socks-a
+369=Napredna podešavanja proksija
+1777=Napredno...
+1778=Koristi proksi
+1785=Koristi ovaj proksi za sledeće protokole:
+1779=Koristi socks
+1786=Socks adresa servera
+20943=Nije se moguće povezati sa socks serverom, potrebna je autorizacija
+20944=Socks server se ne može povezati sa %s 
+20945=Nije se moguće povezati putem socks servera, nepoznat tip socks-a
+20946=Nije se moguće povezati putem socks servera, autorizacija neuspešna!
+20947=Nije se moguće povezati sa socks serverom %s
+
+//v6.09b2 beta
+1787=Izuzeci
+370=Izuzeci za panel preuzimanja
+1788=Ne prikazuj IDM panel preuzimanja za sledeće sajtove:
+1789=Odvojite imena razmakom. Možete koristiti zvezdicu kao šablon
+20950=IDM ne može pokrenuti naprednu integraciju pregledača jer Windows servis \"Base Filtering Engine\" nije pokrenut. Kliknite desnim klikom na ikonu Računar, izaberite \"Upravljanje\", zatim idite na \"Servisi i aplikacije -> Servisi\", zatim pronađite \"Base Filtering Engine\" na spisku i desnim klikom otvorite Svojstva. Promenite tim pokretanja na \"Automatski\", kliknite na \"Pokreni\" i potvrdite promene.\r\n\r\nKliknite na OK da posetite veb stranicu radi dodatnih informacija.
+20951=IDM ne može pokrenuti naprednu integraciju pregledača jer Windows servis \"Base Filtering Engine\" nedostaje. Ovo se moglo desiti jer je vaš sistem oštetio zlonamerni program.\r\n\r\nKliknite na OK da posetite veb stranicu za instrukcijama za rešenje problema.
+
+//v6.11
+341=Dodaj vrstu datoteke
+349=Unesite ime sajta
+1790=Automatski stavi datoteke u ovu kategoriju sa sledećih sajtova:
+1793=Odvojite sajtove razmakom. Možete koristiti zvezdicu za šablon
+20952=Imajte na umu da prema IDM licenci koju ste prihvatili tokom IDM instalacije, sada trebate ili deinstalirati IDM ili ga kupiti
+
+//v6.11b7
+20953=Nedavno...
+
+//v6.12b2
+20954=Vaš pregledač ne može da otvori IDM veb stranicu jer je važna sistemska datoteka oštećena na vašem računaru. Želite li da je popravite?
+20955=IDM ne može proveriti ažuriranja jer je važna sistemska datoteka oštećena na vašem računaru. Želite li da je popravite?
+
+//v6.12b5
+1795=Postavi datum kreiranja datoteke onako kako je server odredio
+
+//v6.12b6
+20956=Da bi se ažurirao deo IDM ekstenzije za Firefox, zatvorite Firefox (ili SeaMonkey) i zatim pritisnite dugme \"Pokušaj ponovo\"\r\nIli ćete trebati da restartujete računar kasnije
+
+//v6.12b8
+//Please pay attention that we added the possibility to translate text for IDM installer and IDM uninstaller. 
+//You can find the template to translate installer in "template_inst.lng" file in "Languages" folder
+
+//v6.12b22
+20995=IDM je počeo da preuzima datoteku koristeći jednu vezu zbog korupcije podataka kada se novo primljeni podaci sa nekoliko veza nisu poklapali sa istim podacima preuzetim ranije.\r\nDa li želite da pročitate o mogućim razlozima korupcije podataka?
+20996=IDM je počeo da preuzima datoteku ispočetka jer se novo primljeni podaci sa nekoliko veza nisu poklapali sa istim podacima preuzetim ranije.\r\nDa li želite da pročitate o mogućim razlozima korupcije podataka?
+20997=IDM ekstenzija je uspešno instalirana (ili ažurirana) u pregledač Google Chrome.\nMorate restartovati Chrome da bi primenili promene
+
+//v6.15
+1796=Koristi skriptu automatske konfiguracije
+20998=Proksi autorizacija je neophodna za ovaj proksi server. Ili isključite opciju \"Koristi skriptu automatske konfiguracije\" u IDM Opcije->Proksi/Socks
+20999=IDM je otkrio da koristite sledeće automatske skripte za konfiguraciju proksija u Internet Exploreru:\r\n%s\r\n\r\nDa li želite da koristite iste proksi postavke u IDM?
+//v6.15b7
+21000=Ovo je prenos uživo. Ako ga zaustavite, nećete moći nastaviti preuzimanje sa trenutne pozicije.\r\nDa li želite da prekinete i sačuvate prenos kao kompletiranu datoteku?
+21001=Čuvanje živog prenosa
+
+//v6.15b9
+21002=Preuzimanje skripte proksija nije uspelo
+21003=Da li želite da pročitate detaljne instrukcije kako da konfigurišete vaš zaštitni zid da bi radio sa IDM?
+
+//6.15b10
+21004=nepoznat format (%d)
+20898=Preuzima se dok se ne poklopi sa okvirom u sledećem delu datoteke...
+
+//v6.16
+21105=Napredna integracija u pregledač ne može biti omogućena jer je neispravna verzija Kaspersky TDI upravljačkog programa instalirana!\r\n Ako automatsko ažuriranje vašeg Kaspersky proizvoda ne pomogne, kontaktirajte Kaspersky podršku kako biste dobili nadogradnju za \"kltdi\" upravljački program.
+
+//v6.17b7
+21106=Došlo je do greške tokom sastavljanja datoteke
+21109=Ova verzija IDM ne podržava ovu vrstu preuzimanja. Pokušajte ažurirati IDM na najnoviju verziju.
+21110=IDM ekstenzija je uspešno instalirana (ili ažurirana) u pregledač Google Chrome.\r\nMorate omogućiti ekstenziju \"IDM Integration module\" u postavkama Google Chrome ako želite da IDM ispravno radi sa Chrome
+21111=1. Restartujte Google Chrome i zatim otvorite glavi meni od Chrome (strelica 1 na slici)\r\n2. Izaberite meni \"Postavke\" (strelica 2 na slici).\r\n3. Izaberite tab \"Ekstenzije\" (strelica 3 na slici). \r\n4. Proverite da li je ekstenzija \"IDM Integration Module\" omogućena (strelica 4 na slici).\r\n5. Ako koristite inkognito režim u Chrome, trebate uključiti opciju \"Dozvoli u inkognito\" (strelica 5 na slici).
+
+//v6.17b9
+//Dear translators, please pay attention that we have added one new line (1062) to template_inst.lng file. Please translate it, and add it to your installer translation file.
+
+//v6.18b3 
+//One more :) 
+//Please pay attention that we have added one more new line (21112) to template_inst.lng file. Please translate it, and add it to your installer translation file.
+
+//v6.18b8
+//we have changed Options->Connection tab
+21113=Mala brzina: Dial Up modem / ISDN / Bluetooth / Mobilni Edge / IrDA
+21114=Srednja brzina: ADSL / DSL /  Mobilni 3G / Wi-Fi / Bluetooth 3.0 / ostalo
+21115=Velika brzina: Direktna veza (kabl) / Wi-Fi / Mobilni 4G / ostalo
+21116=Koristite veliki broj veza sa oprezom. Neki serveri možda imaju određena ograničenja za broj veza prema jednom klijentu. Kada je broj veza visok, serveri mogu staviti vaš računar na crnu listu, posebno kada preuzimate nekoliko datoteka u isto vreme sa visokim brojem veza.\r\n\r\nŠtaviše, za neke vrste veza, ili slabije računare ili rutere, brzina preuzimanja se može smanjiti kada uvećate broj veza.
+
+//v6.19
+21117=U vašem izboru postoji samo ime fascikle. Unesite ime za datoteku.
+21118=Veličina datoteke \"%s\" je %.1f GBajta.\r\nDisk \"%s\" gde želite da sačuvate ovu datoteku ima %s sistem datoteka. Datoteke veće od %d GBajta ne mogu biti upisane u ovaj sistem datoteka.\r\n\r\nIzaberite fasciklu za ovu datoteku na drugom nisku sa NTFS sistemom datoteka.
+21119=Veličina datoteke \r\n%s\r\n je %.1f GBajta.\r\nPrivremena fascikla IDM za smeštanje delova datoteke tokom preuzimanja se nalazi na disku \"%s\", ovaj disk ima %s sistem datoteka. Datoteke veće od %d GBajta ne mogu biti upisane u ovaj sistem datoteka.\r\n\r\nDa nastavite preuzimanje, promenite lokaciju privremene fascikle na drugi disk u meniju \"Opcije->Sačuvaj u\" i zatim nastavite preuzimanje
+
+//v6.19b8
+21005=samo audio zapis
+21006=samo video zapis
+
+//v6.19b9
+21120=Provera ažuriranja nije uspela jer informacija o nadogradnji nije važeća.\r\nAko koristite wi-fi koji zahteva prijavu u pregledaču, prijavite se prije provere za nadogradnjama
+21121=Neka aplikacija je oštetila IDM integraciju u pregledače\r\n\r\nMoraćete reinstalirati IDM da je obnovite. Ili pokušajte ažurirati IDM koristeći meni \"Pomoć->Provera za ažuriranjem\".\r\nTakođe potvrdite da je IDM integracija u vaš pregledač uključena u IDM Opcije -> Opšte.
+
+//6.21b3
+21125=Premesti
+21126=Premesti/Preimenuj
+
+//new "Find file" dialog
+487=Pronalazak datoteke
+21122=Pronalazak datoteke
+21123=Nisu pronađene takve datoteke
+21124=Pretraga je završena
+1807=Ime datoteke ili deo imena:
+1809=Opis ili deo opisa:
+1811=Poklapanje velikih i malih slova
+1812=Poklapanje čitave reči
+1673=Pronađi
+//New subitems in "Downloads" main menu
+34040=Pronađi (Ctrl-F)
+34041=Pronađi sledeće (F3)
+
+//v6.21b5
+21128=IDM nije mogao pokrenuti aplikaciju za ažuriranje. Ovo se može desiti zbog netačnih postavki antivirusnih programa za fasciklu koja sadrži IDM servisne datoteke.\r\n\r\nIDM će sada ottvoriti ovu fasciklu, i možete ručno pokrenuti datoteku \"idmupdt.exe\".\r\n\r\nIli možete preuzeti najnoviju verziju IDM sa IDM početne stranice, i instalirati je preko vaše trenutne verzije
+21129=Ostali kvaliteti...
+21130=Ako želite da preuzmete ovaj video u drugom kvalitetu, izaberite željeni kvalitet u veb plejeru. Nakon toga, izabrani kvalitet će se pojaviti u padajućem meniju IDM panela za preuzimanje.
+21131=Izaberite fasciklu
+
+//v6.21b11
+21132=IDM je preuzeo datoteku %s koja koristi video kodek koji nije instaliran na vašem računaru.\r\nPročitajte više informacija na IDM stranici da bi saznali kako da reprodukujete takve datoteke.
+1813=Koristi naprednu obradu veb stranice
+21133=Nekoliko IDM modula nije ažurirano. Reinstalirajte najnovijom verzijom IDM, restartujte računar, i ponovo pokušajte preuzeti ovu datoteku
+
+//v6.21b16
+21134=IDM neće moći da probudi računar iz režima spavanja kako bi počeo red preuzimanja u planirano vreme.
+21135=Imajte na umu da kada prebacite na Metro režim, desktop možda neće ući u režim spavanja.
+21136=Ako želite da IDM preuzme red u planirano vreme, omogućite budilnike u Windows postavkama.\r\nOtvorite sledeće: \"Kontrolna ploča\\Opcije napajanja\\Promena postavki plana\\Promena naprednih postavki napajanja\", zatim otvorite \"Režim spavanja\\Dozvoli budilnike\" i postavite na \"Omogući\".\r\n\r\nDa li želite da vidite kako se to radi na slikama ekrana?
+
+//v6.23b12
+21137=Imajte na umu da ove verzija i sve prethodne verzije IDM neće koristiti \"hosts\" datoteku pri povezivanju sa IDM početnom stranicom. Kada promenite ovu datoteku, onemogućujete pristup IDM veb stranici samo vašem pregledaču. Kada pritisnte dugme OK, IDM će uspešno proveriti za ažuriranjima čak i sa oštećenom \"hosts\" datotekom.
+21138=Vaš pregledač možda neće moći otvoriti IDM veb stranicu jer je važna sistemska datoteka oštećena na vašem računaru. IDM će sada popraviti ovu datoteku.
+
+//v6.25b16
+21139=Serijski broj za IDM koji ste uneli se koristi na drugom računaru i povezan je sa drugom e-mail adresom
+21140=Serijski broj za IDM\r\n%s\r\nkoji ste uneli se koristi na drugom računaru.\r\n\r\nAko želite da koristite serijski broj na ovom računaru, trebate deinstalirati IDM sa drugog računara (ili svih ostalih računara) gde je ovaj serijski broj korišćen ranije. Ako koristite serijski broj na različitim računarima u isto vreme, ovaj serijski broj će biti automatski blokiran.\r\n\r\nDa li želite da nastavite da koristite IDM registraciju sa\r\n%s\r\nserijskim brojem?
+//Please pay attention that we have added one more new line (1063) to template_inst.lng file. Please translate it, and add it to your installer translation file.
+
+//v6.25b18
+21142=Da li želite da saznate više?
+21141=Registrovali ste IDM sa serijskim brojem ispod\r\n%s\r\n\r\nOvaj serijski broj je blokiran na IDM serverima. IDM se isključuje...
+
+//v6.26b5
+21146=IDM je pronašao delove starih preuzimanja bez reference i koji nisu obrisani u privremenoj fascikli IDM\r\n%s\r\nDa li želite da ih IDM obriše kako bi ste oslobodili prostor na disku?
+
+//v6.27
+21147=Vaš serijski broj počinje sa:  %s...............
+488=Minimalna veličina
+1822=Min. veličina
+21148=Ne prikazuj panel \"Preuzmi ovaj audio\" ako je veličina audio datoteke ispod sledeće minimalne veličine u kilobajtima
+21149=Ne prikazuj panel \"Preuzmi ovaj video\" ako je veličina datoteke ispod sledeće minimalne veličine u kilobajtima
+21150=Napomena: Ovo ograničenje radi samo ako je poznata veličina datoteke. Postoje situacije kada je poznata samo dužina trajanja, ili ništa nije poznato dok se datoteka ne preuzme. Za takve situacije ovo ograničenje veličine datoteke neće raditi.
+
+//v6.28b7
+21151=Moguće je da imate zastarele Windows XP kriptografske biblioteke.\r\nŽelite li da pročitate više?
+
+21153=Isključivanje
+21154=Spavanje
+21155=Hibernacija
+21157=Internet Download Manager je završio obradu reda. Prema postavkama planera vaš računar će ući u režim spavanja.
+21158=Internet Download Manager je završio obradu projekta hvatača. Prema postavkama planera projekta vaš računar će ući u režim spavanja.
+21159=Internet Download Manager je završio preuzimanje datoteke. Prema postavkama planera projekta vaš računar će ući u hibernaciju.
+21160=Internet Download Manager je završio obradu reda. Prema postavkama planera vaš računar će ući u hibernaciju.
+21161=Internet Download Manager je završio obradu projekta hvatača. Prema postavkama planera projekta vaš računar će ući u hibernaciju.
+21162=Internet Download Manager je završio preuzimanje datoteke. Prema postavkama planera projekta vaš računar će ući u hibernaciju.
+21163=Režim spavanja
+21164=Spavaj sada
+21165=Hiberniraj sada
+
+21167=IDM integration into Firefox 53 and later will work only when \"Use advanced browser integration\" is turned on in IDM Options -> General tab
+
+//v6.30
+1823=Ručna konfiguracija proksija/socks-a
+1824=Automatski otkrij proksi postavke za ovu mrežu
+1825=Koristi sistemske postavke
+1826=Nema proksija/socks-a
+21169=IDM ne može detektovati URL datoteke za automatsku konfiguraciju proksija za ovu mrežu!/r/n/r/nAko nemate automatsku konfiguraciju podešenu za vašu mrežu, ne biste trebali koristiti ovu opciju kako biste izbegli kašnjenja kada IDM pokušava da pronađe datoteku proksi paketa.
+489=Integracija u pregledač Microsoft Edge
+21170=Nova ekstenzija "IDM integracijski modul" za Edge je puštena. Ova ekstenzija je neophodna za potpunu integraciju u pregledač Microsoft Edge. IDM će sada početi instalaciju ove ekstenzije iz Microsoft prodavnice.\r\nDijalog Microsoft prodavnice za instalaciju IDM ekstenzije će se pojaviti kada zatvorite ovaj dijalog.\r\nPritisnite na dugme "Preuzmi" u Microsoft prodavnici kao što je prikazano na slici ispod.
+1828=Zatim sačekajte da se instalacija završi i pokrenite Edge pregledač. Za nekoliko sekundi, Edge će prikazati obaveštenje nove ekstenzije. Potvrdite to pritiskom na dugme "Uključi". Pogledajte sliku ispod.
+
+//v6.30b7
+p21171=Unesite vašu email adresu gde ćemo poslati IDM serijski broj i ostale informacije o registraciji nakon kupovine.
+p21172=Imajte na umu da se ovaj email može koristiti da preuzmete serijski broj IDM ako ga izgubite, ili se može koristiti za prioritetnu IDM podršku. Stoga, važno je uneti ispravan e-mail.
+p21173=Unesite vaš e-mail
+
+p21174=Vaša jednogodišnja IDM licenca sa serijskim brojem koji počinje sa %s...
+p21175=ističe (ili je istekla) datuma %s
+
+p21176=Želite li da produžite licencu za narednu godinu?
+p21177=Produži moju licencu odmah
+p21178=Takođe možete pritisnuti dugme Kupi na veb stranici kako biste otvorili redovnu stranicu za kupovinu
+
+//v6.30b8
+21179=Vaša IDM licenca je produžena do %s
+
+//v6.33
+21180=Poboljšajte presretanje preuzimanja
+21181=IDM će poslati izveštaj o problemu sa ponovljenim zahtevima za preuzimanje sa veb stranice %s, i pravila za obradu preuzimanja sa ove veb stranice be posebnih tastera bi trebali biti dodani na IDM servere kroz neko vreme.\r\n\r\nTakođe je moguće da IDM serveri već imaju rešenje za preuzimanje sa ove veb stranice, onda će IDM ažurirati svoju bazu nakon slanja izveštaja.
+21182=Pravila za obradu preuzimanja sa veb stranice %s su ažurirana.\r\nSada će preuzimanja sa ove veb stranice biti presretnuta bez upotrebe posebnih tastera.\r\n\r\nImajte na umu da stara preuzimanja koja su dodana prije ažuriranja neće biti nastavljena, morate ih obrisati i ponovo preuziti koristeći vaš pregledač.
+21183=Nije izmenjeno
+21184=IDM je presreo preuzimanje koje prema postavkama veb stranice %s može biti zahtevano samo jednom, stoga IDM pokušava da ga zahteva prije pregledača. Ali nema dovoljno podataka u presretnutom zahtevu da bi se preuzela ova datoteka.\r\n\r\nMoguće je da ste dodali preuzimanje u pregledaču koristeći na neuobičajen način čime ste zaobišli obradu veb stranice na sajtu za deljenje. U ovom slučaju trebate da počnete ponovo sa javnim linkom kako biste izvršili preuzimanje i prošli sve neophodne korake da bi presretnuti zahtev imao sve neophodne podatke.\r\n\r\nAko se ne radi o preuzimanju i IDM je greškom izvršio presretanje, podesite poseban taster ("Del" bi trebao raditi za većinu pregledača) u IDM Opcije -> Opšte -> "Prilagodite tastere da sprečite ili prisilite preuzimanje sa IDM" i držite ga pritisnutim pa zatim kliknite na link da sprečite preuzimanje sa IDM
+21185=Datoteka sa pravilima preuzimanja koja je preuzeta sa IDM servera ima novi format.\r\nAžurirajte IDM koristeći meni \"Pomoć->Provera za ažuriranjem\" tako da bi IDM mogao koristiti ova pravila.
+
+//v6.33b3
+21186=Ovaj problem može nastati jer je ekstenzija "IDM integracijski modul" onemogućena ili nije instalirana u vašem pregledaču.
+
+//v6.33b5
+21187=Instalirajte ekstenziju za Pale Moon pregledač sa IDM veb stranice.
+21188=Imajte na umu da vaš pregledač koristi ekstenziju za postavljanje VPN veze. IDM verovatno ne može da preuzme datoteku jer pregledač koristi drugi proksi/socks za zahtev ove datoteke i veb sajt odbija direktni zahtev od IDM. IDM nije mogao otkriti proksi ili socks server koji koristi ova ekstenzija.\r\n\r\nPokušajte isključiti ovu ekstenziju u vašem pregledaču i pokušajte presresti ovo preuzimanje ponovo. Ako ne možete da presretnete i preuzmete datoteku bez VPN ekstenzije, pokušajte sa drugom VPN ekstenzijom.
+21189=Ili pokušajte da presretnete ovo preuzimanje iz drugog pregledača
+1838=Postavke provere virusa
+1839=Korisnički agent za ručno dodata preuzimanja:
+
+//please note that "[File]" in square brackets should not be translated because it's a command line parameter
+21190=Ako želite da pokrenete antivirusni softver nakon preuzimanja, trebate da uneste ili izaberete čitavu putanju do izvršne datoteke. Ako IDM zna neophodne parametre za datu izvršnu datoteku, podesiće ih automatski. Inače, moraćete ih ručno podesiti u polju \"Parametri komandne linije\" prema dokumentaciji antivirusnog softvera. Skenirana datoteka među ostalim parametrima bi trebala biti napisana kao\r\n[File]\r\n(trebate uneti i uglaste zagrade). Ako parametri nisu podešeni, IDM će pokrenuti antivirusni softver dodajući kompletnu putanju preuzete datoteke.
+21191=Imajte na umu da svi moderni antivirusni softveri imaju funckionalnost \"zaštita u realnom vremenu\" koja provera sve operacije sa datotekama na ovom računaru, a to uključuje sve datoteke preuzete sa IDM. Stoga, trebate dodati skeniranje antivirusnim softverom u IDM postavke samo ako je zaštita u realnom vremenu isključena u postavkama antivirusnog softvera.\r\nTakođe, u nekim slučajevima, zaštita u realnom vremenu može značajno usporiti sastavljanje datoteka koje radi IDM. Tada trebate da dodate IDMan.exe proces među izuzetke prema dokumentaciji antivirusnog softvera, i podesiti antivirusnu proveru u ovom dijalogu.
+
+//v6.35b7
+21192=Video nije uparen sa zvukom jer zvučni tok ima drugačiji format. Zvučna datoteka će biti odvojeno spašena kao\r\n%s
+21193=Na dupli klik
+21194=Ne možete otvoriti ovu datoteku jer njeno preuzimanje nije završeno.\r\nMožete promeniti akciju duplog klika na \"Svojstva\" u meniju desnog klika
+
+//v6.35b9
+21195=Takav problem je takođe moguć kada je jedna od IDM datoteka sa pravilima preuzimanja za specifičnu veb stranicu izbrisana, ili netačno instalirana. To se moglo desiti zbog neispravne IDM instalacije.\r\nPreuzmite i instalirajte posljednju IDM verziju sa zvanične IDM veb stranice.
+21196=IDM je otkrio da su neke aplikacije onemogućile učitavanje IDM modula koji je neophodan za IDM integraciju u pregledač.\r\nIDM će sada pokušati da vrati normalne operacije ovog modula. Trebaćete da potvrdite pokretanje \"Internet Download Manager asistenta\" sa pravima administratora na sledećem koraku.
+21197=IDM je deblokirao modul za integraciju u pregledače. Međutim, potrebno je da restartujete računar kako bi promene imale efekta.
+
+//v6.35b18
+1842=Koristi Majkrosoftov TLS 1.3 (eksperimentalno)
+21198=Ovo je globalna Windows postavka, stoga neke aplikacije koje koriste Windows internet opcije mogu pokazati greške\r\nTakođe ćete trebati potvrditi pokretanje \"Internet Download Manager asistenta\" sa pravima administratora na sledećem koraku
+21199=Nije moguće učitati ssl biblioteku. Reinstalirajte IDM.
+21200=Greška pri učitavanju ssl biblioteke. Reinstalirajte IDM.
+21201=Došlo je do nepoznate greške pri učitavanju ssl biblioteke.
+1843=Napomena: IDM će koristiti socks samo za protokole koji NISU gore označeni
+
+//v6.35b05
+21202=Morate instalirati ekstenziju (dodatak) "IDM integracijski modul" i uključiti IDM integraciju u Firefox pregledač. IDM će otvoriti stranicu za instaliranje ekstenzija. Zatim pritisnite dugme "+ Dodaj u Firefox", i potvrdite instalaciju.
+
+//v6.36b07
+1844=Koristi proksi/socks iz zahteva pregledača ako se pojave greške za preuzimanje presretnuta iz pregledača
+
+//v6.37b6
+21203=titlovi
+
+//v6.37b7
+21204=Ovo je probna verzija Internet Download Manager-a koja traje 30 dana. Da li želite sada da registrujete vašu kopiju IDM?
+
+//v6.37b10
+34042=Podrška za tamni režim
+21205=Ove promene će biti primenjene nakon restartovanja IDM. Da li želite da restartujete IDM sada?
+21206=IDM će koristiti Tamni režim kada je omogućen u Windows postavkama\r\n(Desni klik na Desktop -> Personalizacija -> Boje -> Tamni režim)
+
+//v6.37b15
+21143=Digitalni potpis IDM datoteke za nadogradnju je nevažeći. Moguće je da je datoteka za ažuriranje oštećena.\r\nMožete preuzeti novu verziju IDM sa IDM početne stranice i ručno je instalirati preko trenutne verzije
+21144=IDM ne može preuzeti datoteku za nadogradnju.\r\nMožete preuzeti novu verziju IDM sa IDM početne stranice i ručno je instalirati preko trenutne verzije
+21145=Ova licenca ističe datuma  %s
+21207=IDM je registrovan
+
+//v6.38b8
+
+21208=Već ste kupili?
+//this question is used in combination with 20347 line. It looks like:
+//Already purchased? Please enter your Serial Number 
+
+//v6.38b19
+// Dear translators, please pay attention that 21209 line below has "<font color="red"></font>" html tag to 
+// highlight a part of string in red. You must not translate this tag
+// This is our new trial version dialog. It's not activated at the moment, but you can view it and verify 
+// translated strings by using a special query:
+// Press "Add URL" button on IDM toolbar and enter the following special link
+//    test://dl=N
+// where N - the number of days less than 31, for example:
+//    test://dl=10
+// and N is -1 when trial period expires:
+//    test://dl=-1
+// Press OK and wait for 2-3 seconds until IDM requests a file from its web site
+
+21209=Preostalo vam je <font color="red">%d dana</font> korišćenja Internet Download Manager-a
+21210=Ne čekajte da probni period istekne. Izaberite opciju posebne cijene ispod da odmah kupite IDM licencu
+21211=Probni period Internet Download Manager-a je istekao
+21212=Možete kupiti IDM da ga nastavite koristiti, ili ga deinstalirati. Kliknite na dugmad za posebnu cijenu ispod da kupite IDM
+
+
+//v6.39
+21213=Ovo je doživotna licenca
+
+// We have changed the search dialog and added SearchBar, find below the new lines for them
+// To test the translation, you can call the search dialog by pressing Ctrl-F (as before) or by using "Downloads->Find" menu item 
+
+1856=Pronađi:
+1076=Postavke...
+t1076=IDM postavke pretrage
+t1854=Zatvori traku za pretragu
+
+1861=Ime ili deo imena datoteke
+1858=Opis ili deo opisa
+1859=Ime sajta/Link za preuzimanje/Roditeljska veb stranica/Preporučitelj
+21215=Opcija za najmanje jednu od meta pretrage mora biti omogućena
+
+21216=Parent Web Page
+// new "View->Arrange files->..." main menu item:
+34043=Po roditeljskoj veb stranici
+
+//v6.39b3
+1862=Ne počinji preuzimanje, samo dodaj datoteke u red
+21217=IDM nije mogao presresti preuzimanje uprkos postojećim specijalnim pravilima presretanja preuzimanja sa veb stranice %s. Pravila se možda moraju promeniti.\r\nDa li želite da pošaljete izvještaj o ovom problemu na IDM veb stranicu?
+
+//v6.40
+//new menu
+m34045=Font
+34045=Izaberite font...
+34046=Resetuj na podrazumevani font
+21218=Promena veličine fonta u glavnom dijalogu će biti primenjan nakon restartovanja IDM-a. Da li želite sada da restartujete IDM?
+
+//Options dlg -> Proxy tab
+1863=Povuci iz sistema
+
+//v6.40b3
+21219=Mešanje audio i video tokova u jednu datoteku

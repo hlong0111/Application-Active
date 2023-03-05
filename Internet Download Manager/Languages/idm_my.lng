@@ -1,0 +1,2058 @@
+lang=0x43e Malay
+tips=tips_my.txt
+grabberhelp=grabber_my.chm
+
+
+
+
+//This template should be used to translate Internet Download Manager 
+//to foreign languages.
+
+//You can save translation file in UTF-8 format if your language does not support ASCII code page. 
+//IDM can use UTF-8 format translations only starting from 6.32 version. 
+//Please don't save to UTF-8 if ASCII is supported because older IDM versions will not be able to load your translation
+
+//All template files should be named using idm_*.lng name pattern convention. 
+//Please place the abbreviated language name (de, en, es, fr, :) 
+//instead of the asterisk. For example: idm_de.lng or idm_fr.lng
+
+//The first string inside the template should be lang=ID Name
+//where Name - the full name of the language (on English),
+//ID - hex number that defines Windows API value of the language.
+//Here are sample primary language IDs:
+//0x06 DANISH
+//0x0b FINNISH
+//0x0c FRENCH
+//0x07 GERMAN
+//0x10 ITALIAN
+//0x11 JAPANESE
+//0x0a SPANISH
+//0x1d SWEDISH
+
+//The strings from second to fourth may contain file names of translated tips, 
+//help and tutorial files. If these strings are absent, 
+//or files cannot be found in <IDM root>/Languages folder, 
+//then IDM uses default English files.
+//Sample:
+//tips=tips_de.txt
+//help=idm_de.chm
+//tutor=tut_de.chm
+
+//Then you need to translate all IDM strings. 
+//It's IMPORTANT when a string has any special characters 
+//(%s %d %x %ld %I64d %% \r\n), they should all remain in the translated 
+//string and cannot trade places. Remember that IDM inserts dynamic 
+//values instead of these special characters in a predefined order. 
+//Instead of %s IDM inserts a string, %% - %, in all other cases IDM 
+//inserts a number.
+
+//The strings beginning with // are comments 
+//and you don't need to translate them
+
+
+// Dialogs
+
+//main dialog
+1281=Kategori
+20369=Q
+20370=Nama Fail
+20371=Status
+20372=Saiz
+20373=Masa Tinggal
+20374=Kadar Pemindahan
+20375=Penerangan
+
+//toolbar
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20376=Tambah URL
+20377=Sambung
+20378=Henti
+20379=Henti Semua
+20380=Padam
+20446=Padam Se...
+20381=Pilihan
+20382=Penjadual
+20383=Beritahu Rakan
+//tooltips for buttons
+t32790=Mula/Sambung memuat-turun fail dipilih
+t32791=Henti memuat-turun fail dipilih
+t32792=Henti semua muat turun
+t32793=Padam fail yang dipilih daripada senarai
+t32794=Padam semua fail lengkap daripada senarai
+t32795=Pelayar/Integrasi Sistem, Jenis Fail, Proksi, Kata Laluan dan lain-lain
+t32798=Penjadual dan barisan muat-turun
+t32788=Tulis emel kepada rakan anda tentang IDM
+
+//Registration dialog
+138=Pendaftaran Internet Download Manager
+1326=Sila masukkan butiran pendaftaran anda dalam ruang yang sesuai dan tekan butang OK
+1330=Nombor siri
+1327=Nama pertama
+1328=Nama keluarga
+1329=Emel
+1191=&OK
+1201=&Cara untuk Lesen
+1080=&Batal
+
+//Download progress dialog
+103=Kemajuan muat-turun
+1154=(tidak diketahui)
+1178=<< Sembunyi butiran
+20426=<< Sembunyi butiran
+1158=Jeda
+20392=Jeda
+20424=Mula
+20425=Tunjuk butiran >>
+1300=Saiz fail
+1301=Dimuat-turun
+1302=Kadar pemindahan
+1303=Masa tinggal
+1149=(tidak diketahui)
+1299=Status:
+1030=Menyambung...
+1305=Kedudukan mula dan kemajuan muat-turun mengikut sambungan
+1304=Mampu menyambung
+1175=(tidak diketahui)
+2=Batal
+20416=N.
+20417=Memuat-turun
+20418=Maklumat
+20419=Ya
+20420=Tidak
+20421=%d jam %d minit
+20422=%d minit %d saat
+20423=%d saat
+
+130=Maklumat Fail Dimuat-turun
+1006=&Mulakan Muat-turun
+1010=Layari...
+1004=Muat-turun &Kemudian
+1298=Penerangan
+1173=Prapapar
+1297=Kategori
+1296=Simpan Sebagai
+t1006=Mulakan muat-turun fail
+
+148=Masukkan alamat baharu untuk muat-turun
+1182=Guna &kebenaran masuk
+1184=Log masuk
+1186=Kata laluan
+1022=O&K
+
+//Options Dialog
+134=Konfigurasi Internet Download Manager
+1092=OK
+20286=Umum
+20287=Sambungan
+20288=Muat-turun
+20289=Proksi
+20290=Log Masuk Laman
+20291=Dial Up
+20292=Bunyi
+20293=Umum
+20294=Sambungan
+20295=Muat-turun
+20296=Proksi
+20297=Log Masuk
+20298=DialUp
+20299=Bunyi
+20300=Pelayar/Integrasi Sistem
+20301=Jenis Sambungan
+20302=Tetapan muat-turun lalai
+20304=Nama dan kata laluan bagi pelayan/laman
+20305=Tetapan mendail
+20306=Tetapan bunyi
+//General tab
+1056=Lancarkan Internet Download Manager pada permulaan sistem
+1061=Mulakan muat-turun URL diletak di papan klip secara automatik
+1065=Integrasikan ke dalam Internet Explorer, MSN Explorer, dan pelayar berasaskan IE
+1077=&Lalai
+1169=Jenis fail...
+1270=Mula muat-turun bagi fail jenis berikut secara automatik:
+t1056=Lancarkan Internet Download Manager pada permulaan sistem
+//Proxy tab
+1102=Guna Proksi HTTP
+1122=Proksi 
+1123=Port
+1124=Nama Pengguna
+1125=Kata Laluan
+1107=Dapatkan dari IE
+1108=Guna Proksi FTP
+1126=Proksi
+1127=Port
+1128=Nama Pengguna
+1129=Kata Laluan
+1113=Dapatkan dari IE 
+1116=Guna FTP di mod PASV
+1118=Guna Proksi HTTPS
+1133=Proksi
+1135=Port
+1137=Nama Pengguna
+1139=Kata Laluan
+1141=Dapatkan dari IE
+t1107=Buat satu percubaan untuk mencari proksi HTTP dalam konfigurasi Internet Explorer
+t1116=Penggunaan protokol FTP dalam mod pasif (diperlukan di belakang dinding api) 
+//Connection tab
+1153=Jenis Sambungan/Kelajuan
+1306=Bilangan maks. sambungan
+1254=Had muat-turun
+//Downloads tab
+1049=Layari
+1190=Tukar folder "Umum" bagi kategori yang terakhir dipilih
+1136=Direktori lalai muat-turun bagi kategori "Umum"
+1132=Simpan Ke...
+1236=Papar dialog lengkap muat-turun
+1317=Semakan virus
+1318=Program pengimbas virus
+1165=Layari
+1319=Parameter baris perintah
+1316=Dialog kemajuan muat-turun
+1315=Dialog
+1059=Papar dialog memulakan muat-turun
+1138=Direktori sementara
+1054=Layari
+//Dial Up tab
+1313=Sambungan:
+1307=Pilihan sambungan
+1166=Guna
+1308=Pilihan dail semula
+1309=Cubaan dail (sifar jika berterusan):
+1310=Masa antara cubaan dail semula:
+1312=saat
+1311=masa
+1058=Gunakan Windows Dial Up Networking
+//Sounds tab
+1320=Pilih bunyi untuk aktiviti Internet Download Manager
+1172=Layari...
+1091=Mainkan
+//Passwords tab
+20436=Laman/laluan
+20437=Pengguna
+20438=Kata Laluan
+1087=Baharu
+1196=Ubah
+1050=Padam 
+
+//File properties dialog
+135=Sifat Fail
+1325=Jenis:
+1324=Saiz:
+1323=Simpan Ke:
+1082=&Layari... 
+1322=Log masuk
+1289=Kata laluan
+1321=Pengesahan kata laluan 
+1164=Buka 
+1240=Percubaan terakhir
+1241=Keputusan: 
+
+100=Mengenai Internet Download Manager 
+1284=Laman Utama:
+1285=Pasukan Sokongan:
+1286=Produk ini dilesenkan kepada:
+1181=Versi Tidak Berdaftar 
+1161=Semak untuk &Kemaskini
+1185=&Pendaftaran 
+1085=&Beli 
+1262=Versi: 
+t1187=Klik untuk melawat laman utama IDW
+t1189=Hubungi pasukan sokongan IDM 
+t1161=Semak kemaskini melalui www.internetdownloadmanager.com
+t1185=Daftar IDM dengan kekunci pendaftaran anda
+t1201=Klik untuk mengetahui bagaimana untuk mendapatkan lesen bagi IDM
+t1085=Beli perisian berdaftar IDM
+
+150=Matikan
+1263=Internet Download Manager telah selesai memproses barisan. Menurut tetapan penjadual komputer anda ia akan dimatikan.
+1170=Matikan sekarang
+
+1163=Ya 
+1088=Ya untuk semua 
+1202=Tidak 
+1051=Tidak untuk semua 
+
+177=Penjadual
+1331=Barisan Muat-turun
+1333=Muat-turun
+1332=Penjadual
+1218=Mula muat-turun di
+1219=Setelah di
+1221=Harian
+1062=Minggu
+1057=Isnin
+1066=Selasa
+1069=Rabu
+1222=Khamis
+1223=Jumaat
+1224=Sabtu
+1225=Hentikan muat-turun di
+1228=Matikan komputer apabila selesai
+1235=Paksa proses untuk ditamatkan
+1089=Guna
+1232=Mula sekarang
+1233=Henti
+1079=Tutup
+1227=Tutup modem apabila selesai
+1264=MByte
+1265=jam
+1266=Muat-turun tidak lebih dari
+1171=Bantuan
+1267=setiap
+1268=Papar amaran sebelum berhenti muat-turun
+1271=Tamatkan Internet Download Manager apabila selesai
+1335=jumlah fail dalam masa yang sama
+t1229=Pindah item ke bawah
+t1230=Pindah item ke atas
+t1231=Padam item dari barisan muat-turun
+t1232=Mula barisan
+t1233=Henti barisan
+t1235=Guna pilihan ini dalam keadaan kecemasan. Ini boleh menyebabkan aplikasi kehilangan data.
+
+184=Dail
+1247=Menyambung...
+1167=Dail semula
+
+186=Pilihan Dail
+1336=Dail
+1237=Simpan kata laluan
+1288=Nama pengguna
+
+190=Muat-turun komponen IDM
+1=OK
+1258=Muat-turun komponen
+
+191=Eksport senarai muat-turun
+1259=Eksport barisan muat-turun
+1260=Eksport fail yang dipilih
+1261=Eksport semua fail
+
+192=Import pautan ke IDM
+1168=Mengubah...
+1090=Padam
+
+193=Mulakan muat-turun penyambung berikut secara automatik:
+
+105=Tip harian
+1001=&Papar Tip pada Permulaan
+1003=Tip &Kemudian
+107=Ti&p harian...
+108=Adakah anda tahu...
+109=Fail tip tidak wujud dalam direktori yang ditetapkan
+110=Masalah membaca fail tip
+
+146=Log masuk laman
+1337=Pelayan/laluan
+1290=Pengesahan kata laluan
+1287=Nota: Isikan laluan sahaja jika anda mempunyai nama log masuk yang berbeza untuk direktori pelayan yang berbeza.
+
+182=Kemaskini Pantas
+1295=Memeriksa versi baharu
+								
+194=Had muat-turun dicapai!
+
+144=Versi baharu untuk Internet Download Manager telah tersedia
+1162=Kemaskini sekarang 
+1086=Batal 
+
+//Zip preview dialog
+196=Prapapar Zip
+20254=Nama fail
+20255=Dimampat
+20256=Saiz
+20257=Modifikasi
+
+//New category dialog
+204=Kategori IDM
+1174=Layari...
+1291=Nama kategori
+1292=Masukkan kategori ini ke dalam jenis fail berikut secara automatik:
+1293=Nota: penyambung jenis fail yang dipisahkan dengan ruang (contohnya avi mpg mpeg) 
+1239=Ingat laluan simpanan yang terakhir
+1294=Simpan muat-turun yang berikut dari kategori ini ke dalam folder berikut:
+
+
+// Menu
+m32771=Tugas
+32771=Tambah muat-turun baharu
+32809=Tunjuk sasaran lepas
+m32821=Eksport
+32821=Untuk fail eksport IDM
+32823=Untuk fail teks
+m32816=Import
+32816=Dari fail eksport IDM
+32818=Dari fail teks
+32772=&Tutup
+
+m32774=Fail
+32774=Henti muat-turun
+32775=Padam
+32776=Muat-turun sekarang
+
+m32778=Muat-turun
+32778=Jeda Semua
+32779=Henti Semua
+32794=Padam Semua yang Selesai
+32801=Penjadual
+32781=Pilihan
+
+m32825=Paparan
+32825=Sembunyi kategori 
+m32828=Atur fail
+32828=Dengan Aturan Ikut Penambahan
+32830=Dengan Nama Fail
+32832=Dengan Saiz
+32834=Dengan Status
+32836=Dengan Masa Tinggal
+32838=Dengan Kadar Pemindahan
+32840=Dengan Penerangan
+m32841=Bahasa
+
+m57670=Bantuan
+32811=Tutorial
+106=Tip Harian...
+32813=Laman Utama IDM
+32784=Hubungi Sokongan IDM
+32787=Semak untuk kemaskini...
+32786=Mengenai IDM
+32788=Beritahu rakan
+
+m32785=Pendaftaran
+32785=Pesan dalam talian
+32783=Pendaftaran
+//end menu
+
+
+//Strings & messages
+101=&Mengenai IDM...
+32799=Membuka Port
+32800=Port Dibuka
+32802=Menyambung Peranti
+32804=Peranti Disambung
+32806=Semua Peranti Disambung
+32807=Pengesahan Dimulakan
+32808=Pengesahan Dimaklum
+32810=Pengesahan Dicuba Semula 
+32812=Panggil Semula Diminta
+32814=Penukaran Kata Laluan Diminta
+32815=Fasa Unjuran Bermula
+32817=Pengiraan Kelajuan Sambungan
+32819=Pengesahan Diakui
+32820=Percubaan Semula Pengesahan Bermula
+32822=Disahkan
+32826=Menunggu Untuk Tetap Semula Modem
+32827=Menunggu Untuk Panggil Semula
+32829=Interaktif
+32831=Percubaan Semula Pengesahan 
+32833=Panggil Semula Ditetap Oleh Pemanggil
+32835=Tamat Tempoh Kata Laluan
+32837=Disambung
+32839=Terputus
+
+20000=Fail %s selesai dimuat-turun.\n\nMuat-turun %s (%I64d Bytes)\nFail disimpan sebagai %s
+20001=Ciri-ciri ini terdapat dalam versi berdaftar sahaja.
+20002=Tidak dapat menukar nama fail yang dimuat-turun dari folder sementara (%s) ke %s. Fail telah disimpan dalam folder sementara.
+20003=Pengesahan kata laluan gagal! Sila cuba lagi.
+20004=Medan kata laluan belum diisi!
+20005=Medan nama penguna belum diisi!! Sila cuba lagi.
+20006=Medan Laman/laluan belum diisi! Sila cuba lagi
+20007=Adakah anda ingin menghapuskan maklumat log masuk anda untuk laman ini?
+20008=Senarai muat-turun anda mempunyai fail yang akan dimuat-turun dari
+20009=.\nGuna nama pengguna dan kata laluan itu untuk muat-turun ini?
+20010=.\nTukar nama pengguna dan kata laluan ke \"anonymous\" untuk muat-turun ini? 
+20011=Maklumat log masuk untuk laman/laluan in telah ada dalam senarai kata laluan anda.\nMaklumat log masuk yang baharu belum ditambah. Anda mungkin ingin menukar yang berada.
+20012=Anda telah menukar \"ruang laman/laluan.\" Maklumat log masuk yang baharu untuk laman/laluan telah ada dalam senarai kata laluan anda.\nMaklumat log masuk tidak berubah. Anda mungkin ingin menukar yang sedia ada.
+20013=Laman ini tidak tersedia untuk sementara!
+20014=Kebenaran diperlukan untuk laman/laluan ini. Anda boleh menetapkan maklumat log masuk untuk muat-turun dengan memilih sifat item dalam menu konteks klik kanan. Atau menambah maklumat log masuk ke \"Pilihan/Kata laluan Laman\" untuk menggunakan log masuk/kata laluan setiap kali anda muat-turun fail dari laman ini.
+20015=Kebenaran proksi diperlukan untuk pelayan proksi. Anda boleh menukar nama pengguna dan kata laluan untuk proksi dari \"Pilihan/Proksi\"
+20018=Tidak boleh memuat-turun fail ini. 
+20019=Tidak boleh memuat-turun fail ini. 
+20020=Memori tidak cukup untuk menyambung muat-turun.
+20021=Tiada sambungan dapat dibuat kerana mesin sasaran menolaknya. \nKemungkinan perkhidmatan yang tidak aktif pada pelayan atau anda mempunyai dinding api yang menghalang Internet Download Manager. Jika anda mempunyai dinding api, sila pastikan tetapannya membenarkan IDM untuk muat-turun dari Internet.
+20022=Kebenaran ditolak.
+20023=Tidak boleh menetapkan alamat yang diminta. Alamat diminta tidak sah dalam konteksnya.
+20024=Sambungan sedia ada telah ditutup secara paksaan oleh hos luar. Ini biasanya berlaku sekiranya permohonan rakan sebaya pada hos luar tiba-tiba berhenti, hos sedang buka semula, atau hos luar menggunakan \'hard close\'
+20025=Operasi soket gagal kerana destinasi hos telah mati. Operasi soket menemui hos yang mati. Aktiviti rangkaian dalam hos lokal belum dimulakan.
+20026=Ralat menyambung. Tiada hos diketahui. Nama ini bukanlah satu nama hos rasmi atau samaran, atau ia tidak dapat dijumpai di dalam pangkalan data sedang disoal.
+20027=Operasi soket telah berusaha untuk rangkaian tidak dapat dihubungi. Ini biasanya bermaksud perisian lokal tidak mengenal laluan untuk sampai ke hos luar.
+20028=hos yang disambung telah terhempas dan diboot semula.
+20029=Operasi soket menghadapi rangkaian mati. Ini boleh menunjukkan kegagalan serius sistem rangkaian (iaitu timbunan protokol bahawa DLL WinSock telah hilang), antara muka rangkaian, atau rangkaian lokal sendiri.
+20030=Terlalu banyak sambungan rangkaian terbuka. Sila tunggu beberapa muat-turun selesai.
+20031=Ralat berlaku semasa menyambung
+20032=Saiz untuk %s adalah %I64d bytes.\nTidak ada ruang cakera tertinggal dalam pemacu \'%s\' untuk anda menyimpan fail ini.\nJika anda tidak bebaskan beberapa ruang cakera semasa muat-turun, fail akan disimpan direktori sementara sebagai %s
+20033=Tidak ada ruang cakera tertinggal dalam pemacu \'%s\' untuk menyimpan bahagian fail yang dimuat-turun.\nUntuk muat-turun seterusnya, bebaskan beberapa ruang cakera atau perubahan lokasi direktori sementara \"Pilihan->Simpan Ke\" kemudian melanjutkan muat-turun
+20034=Tidak dapat mencari pelayan %s
+20035=Tidak dapat mencari pelayan proksi %s
+20036=Tidak dapat menyambung ke %s:%ld
+20037=Tidak dapat menyambung ke pelayan proksi %s:%ld
+20038=Tidak dapat menyambung ke %s:%ld\nSambungan tamat masa
+20039=Tidak dapat menyambung ke pelayan proksi %s:%ld\nSambungan tamat masa
+20040=Ralat yang tidak diketahui telah berlaku semasa menambah atau menyambung  bahagian fail yang dimuat-turun ke satu fail
+20041=Ralat yang tidak diketahui telah berlaku semasa menyambung bahagian fail yang dimuat-turun ke satu fail
+20042=Tidak dapat membuka fail lokal untuk menulis semasa menyambung bahagian fail yang dimuat-turun ke satu fail
+20043=Tidak dapat saiz dari bahagian berikutnya semasa menyambung bahagian fail yang dimuat-turun ke satu fail
+20044=Ralat peruntukan memori maya yang berlaku samasa menyambung bahagian fail yang dimuat-turun ke satu fail
+20045=Ralat teruk ketika menulis berlaku semasa menyambung bahagian fail yang dimuat-turun ke satu fail
+20046=Ralat teruk ketika membaca berlaku semasa menyambung bahagian fail yang dimuat-turun ke satu fail
+20047=Ralat yang tidak diketahui telah berlaku bagi fail atau pendaftaran semasa membina semula bahagian lama yang dimuat-turun
+20048=Tidak dapat menyambung ke pelayan
+20049=Ralat membaca soket internet
+20050=Ralat menulis soket internet
+20051=Sambungan tamat masa
+20052=Sambungan tamat masa
+20053=Sambungan tamat masa, mulakan semula...
+20054=Sambungan gagal, mulakan semula...
+20055=Ralat berlaku semasa menerima data
+20056=Sambungan telah ditutup oleh pelayan.
+20057=Tidak dapat log masuk ke pelayan FTP.
+20058=Tidak dapat mencari fail ini di pelayan FTP.
+20059=Pelayan FTP tidak membenarkan sambungan.
+20060=Ralat berlaku semasa menerima balasan pelayan FTP.
+20061=Ralat berlaku semasa menerima balasan pelayan FTP: Format balasan tidak sah
+20062=Tidak dapat mencari alamat IP untuk soket data dalam balasan di perintah PASV.
+20063=Tidak dapat membuka soket internet.
+20064=Tidak dapat membuka soket data FTP
+20065=Tidak dapat mengikat alamat ke soket internet
+20066=Ralat semasa panggilan untuk soket data listen()
+20067=Ralat semasa panggilan untuk soket internet accept()
+20068=Tidak boleh menghantar perintah PORT.\nRalat semasa panggilan untuk getsockname().
+20069=Perintah PORT gagal.
+20070=Ralat berlaku menulis fail semasa menerima data dari soket Internet.\nKemungkinannya: Cakera sudah penuh.
+20071=Tidak dapat membuka sambungan data kerana pelayan FTP tidak menyokong perintah PASV dan checkbox \"Gunakan FTP dalam mod PASV\" dalam \"Pilihan->Proksi/dinding api\" telah membuka.
+20072=Saiz bagi fail %s tidak dijumpai pada balasan dari pelayan
+20073=Pelayan menghantar balasan yang tidak betul pada perintah memulakan semula.
+20074=Pelayan menghantar lokasi baharu dan nama fail %s telah berubah ke %s.\n\nLanjutkan muat-turun? 
+20075=Memutuskan sambungan...
+20076=Muat-turun telah selesai, menambah semua bahagian muat-turun ke dalam satu fail...
+20077=Sambungan pilihan telah dibuat.
+20078=Menyambung...
+20079=Pilihan gagal
+20080=Sambungan OK.
+20081=Ralat menulis fail semasa menerima data dari soket internet.
+20082=Prosedur Recv() gagal 
+20083=Sambungan telah ditutup oleh pelayan.
+20084=Putuskan sambungan.
+20085=Menunggu balasan...
+20086=Balasan OK
+20087=Menerima data...
+20088=Selesai.
+20089=Sambungan data: menyambung...
+20090=Sambungan data: OK
+20091=Bersedia untuk menerima data
+20092=Memeriksa keupayaan urutan perintah: menghantar dua perintah bersama-sama...
+20093=Memeriksa keupayaan urutan perintah: pertama balasan OK, menunggu balasan kedua...
+20094=Menerima makluman fail...
+20095=Tidak dapat mencari hujung di string dari balasan pelayan.
+20096=Tidak dapat mencari hujung di string dari balasan pelayan FTP.
+20097=Menghantar QUIT.
+20098=Pelayan tidak bersedia untuk pengguna baharu.
+20099=Soket kawalan menyambung.
+20100=Menghantar nama pengguna...
+20101=Menghantar kata laluan...
+20102=Nama pengguna gagal
+20103=Nama pengguna OK 
+20104=Kata laluan gagal 
+20105=Kata laluan OK 
+20106=Menghantar perintah PASV... 
+20107=Pelayan tidak menyokong PASV. 
+20108=PASV OK, mengekstrak alamat...
+20109=Bind soket OK, cuba memanggil listen()
+20110=Menerima...
+20111=Menerima OK
+20112=Menghantar perintah PORT...
+20113=PORT OK
+20114=Tukar direktori bekerja untuk pelayan...
+20115=CWD gagal.
+20116=CWD OK
+20117=Sambungan gagal. 
+20118=Menghantar TYPE...
+20119=Perintah TYPE gagal.
+20120=TYPE OK.
+20121=Menghantar perintah REST...
+20122=REST gagal
+20123=REST OK
+20124=Menghantar perintah RETR...
+20125=RETR gagal.
+20126=Menghantar perintah SIZE...
+20127=Menghantar perintah LIST.
+20128=LIST gagal.
+20129=LIST OK
+20130=SIZE gagal.
+20131=Tidak dapat mencari saiz fail di balasan.
+20132=SIZE OK
+20133=Kawalan soket tidak disambung ke pelayan.
+20134=Memulakan semula pada permulaan kerana fail lokal telah dipadamkan. Memulakan semula dari kedudukan sewenang-wenangnya tidak disokong dalam kes ini.
+20135=Sambungan dimulakan semula...
+20136=Mungkin pelayan tidak menyokong perintah saluran maklumat.
+20137=Keupayaan urutan perintah: OK
+20138=Kirim HEAD...
+20139=Kirim GET...
+20140=Membina semula bahagian fail yang dimuat turun...
+20141=Menyambung...
+20142=Muat-turun selesai. Jumlah %I64d Bytes dimuat-turun
+20143=Menerima data...
+20144=Sambungan pilihan, menyambung...
+20145=Muat-turun gagal. Jumlah: %I64d Bytes dimuat-turun
+20146=Saiz %s adalah %I64d bytes.\nTidak ada ruang cakera yang tinggal di dalam pemacu \'%s\' untuk menyimpan bahagian fail yang dimuat-turun.\nUntuk muat-turun seterusnya, kosongkan beberapa ruang cakera atau memadam fail ini dari senarai muat-turun, perubahan lokasi direktori sementara dalam \"Pilihan->Simpan Ke\", dan mencuba lagi.
+20147=Tidak ada ruang cakera yang tinggal di dalam pemacu \'%s\'.
+20148=Tidak dapat menghimpun semula ketulan fail yang dimuat turun.
+20149=Muat-turun ini telah selesai, laluan lokal tidak berubah.
+20150=Tarikh ubahsuai terakhir bagi fail telah ditukar pada pelayan.\nAdakah anda ingin muat-turun fail ini dari awal.
+20151=Anda menggunakan versi Internet Download Manager yang terbaru. Sila semak kembali untuk kemas kini pada masa yang lain.
+20152=Ralat berlaku semasa menyimpan data yang dimasukkan, sila cuba lagi.
+20153=Ralat berlaku semasa memperuntukkan memori maya. Cuba tutup beberapa aplikasi dan kemudian tekan \'Cuba\'.
+20154=Membina Semula
+20155=Nama pelayan yang diminta adalah sah, tetapi ia tidak mempunyai data yang betul berkaitan yang sedang diselesaikan untuk (hos wujud, tetapi tidak dapat dihubungi).
+20156=Fail %s - muat-turun %s (%I64d Bytes). Mungkin tidak mempunyai fail yang dimuat-turun lengkap, kerana saiz fail tidak diketahui.\nFail disimpan sebagai %s
+20157=Tidak ada item yang dipilih!
+20158=Pindah ke atas
+20159=Pindah ke bawah
+20160=Padam item
+20161=Tidak dapat muat-turun fail ini. Permintaan ke pelayan HTTP tidak sah.
+20164=Kemaskini Pantas untuk IDM dari www.internetdownloadmanager.com. Menerima fail baharu...
+20166=Panduan Internet Download Manager
+20167=Muat-turun telah dibatalkan oleh pengguna
+20168=Kemaskini Pantas gagal, ralat berlaku semasa muat turun fail IDM baharu. Cuba kemaskini kemudian.
+20169=Fail yang diminta tidak wujud.
+20170=\nAdakah anda ingin membukanya?
+20171=Fail ini telah wujud dalam senarai muat turun anda. Adakah anda ingin menambah pendua itu?
+20172=Pelayan membalas bahawa anda tidak mendapat kebenaran untuk muat-turun fail ini.
+20173=Ralat berlaku semasa membaca buku telefon.
+20174=Tidak dapat menyambung ke Internet.
+20175=Tidak boleh muat-turun fail kerana had masa tamat
+20199=Tidak dapat mengubah integrasi Internet Download Manager ke dalam Internet Explorer kerana mungkin anda tidak mempunyai hak akses kepada daftar sistem
+20204=Fail telah pindah.
+20205=Fail %s telah dipindahkan.
+20206=Membuka fail yang dimuat-turun
+20207=Muat-turun komponen IDM
+20211=Fail %s disimpan sebagai %s. Fail tersebut sudah wujud di komputer anda. Adakah anda ingin menukar fail yang wujud?\n\nTekan \"YA\" untuk menggantikan, \"TIDAK\" untuk menyimpan fail dengan nama yang berbeza, \"BATAL\" untuk membatalkan menambah fail ke senarai muat-turun anda.
+20212=Fail %s disimpan sebagai %s. Fail tersebut sudah wujud dalam senarai muat-turun anda. Adakah anda mengesahkan menyimpan fail dengan nama ini?\n\nTekan \"YA\" untuk pengesahan, \"TIDAK\" untuk menyimpan fail dengan nama yang berbeza, \"BATAL\" untuk membatalkan menambah fail ke senarai muat-turun anda.
+20213=Import ke IDM
+20214=Tidak boleh membaca pautan dari fail ataupun fail tersebut telah rosak
+20215=Fail adalah fail eksport IDM yang tidak sah atau fail telah rosak
+20216=Fail tidak mempunyai pautan web 
+20217=Ralat yang tidak diketahui telah berlaku semasa melaksanakan operasi!
+20218=Tidak dapat muat-turun fail ini, kemungkinan pelayan FTP ini tidak menyokong muat-turun yang menyambung. Adakah anda ingin menambah fail yang sama dan muat-turun dari awal?
+20219=Nama untuk menyimpan fail adalah \"%s%s\", tetapi pelayan memberikan nama berikut \"%s\". Adakah anda ingin menyimpan fail dengan nama yang diterima dari pelayan?
+20220=Fail %s selesai dimuat-turun.\nFail M3U ini mengandungi satu pautan web untuk fail MP3. Adakah anda ingin memuat-turun fail MP3?
+20221=Fail %s selesai dimuat-turun.\nFail M3U ini mengandungi satu atau lebih pautan web untuk fail MP3. Adakah anda ingin menambah fail MP3 ke senarai muat-turun?
+20222=fail M3U yang dimuat turun.
+20225=Tidak dapat mulakan program pemeriksaan virus. \n%s
+20226=Internet Download Manager telah selesai pemprosesan barisan. Menurut tetapan penjadual IDM akan menutup modem anda.
+20227=Tutup modem
+20228=Tutup sekarang
+20229=Henti Sekarang
+20230=Had muat turun melebihi!
+20231=Data yang tidak sah
+20232=Nilai jam dalam \"Had muat-turun\" mesti di antara 1 hingga 23. Sila betulkan atau buang tanda kotak \"Had muat-turun\".
+20233=Adakah anda ingin memuat-turun tutorial (lebih kurang 60 KB) daripada laman web utama IDM?
+20234=Adakah anda ingin memuat-turun dan memasang fail bantuan IDM (lebih kurang 200 KB) daripada laman web utama IDW?
+20235=Tidak dapat mencari HHCtrl.ocx untuk memaparkan fail bantuan!
+20236=Bantuan IDM
+20237=Fail saiz telah diubah pada pelayan.\nIni akan muat-turun dari awal.
+20238=Tidak boleh membuat sambungan melalui pelayan proksi.
+20239=Ralat berlaku semasa mewujudkan sambungan keselamatan kepada %s. 
+20240=Ralat berlaku semasa menyulitkan mesej permintaan.
+20241=Ralat berlaku semasa muat-turun dll keselamatan. Tidak dapat membuat sambungan HTTPS.
+20245=Pilihan Internet Download Manager
+20246=Muat-turun selesai 
+20247=Muat-turun gagal
+20248=Pemprosesan barisan berhenti/selesai
+20249=Pemprosesan barisan bermula
+20250=Aktiviti
+20251=Fail bunyi
+20252=Tidak dapat menyalin fail bunyi ke folder bunyi IDM!
+20253=Anda mempunyai %d hari lagi untuk menggunakan Internet Download Manager. Adakah anda ingin mendaftar salinan IDM anda sekarang?
+20258=Semua muat-turun
+20259=Belum Selesai
+20260=Selesai
+20261=Program
+20262=Muzik
+20263=Video
+20264=Permainan
+20265=Dokumen
+20266=Tambah kategori
+20267=Padam
+20268=Sifat
+20269=Adakah anda benar-benar mahu memadam kategori \"%s\" daripada senarai kategori IDM?
+20270=Menghapus satu kategori daripada senarai kategori IDM
+20271=Menambah kategori ke senarai kategori IDM
+20272=Ubah sifat kategori
+20273=Sila isi ruangan \"Nama Kategori\".
+20274=Folder \"%s\" tidak wujud.\r\nAdakah anda ingin membuat folder ini?
+20275=Tidak boleh membuat direktori!\r\n%s 
+20276=Sembunyi kategori
+20277=Papar kategori
+20278=Pilih satu direktori
+20279=Umum
+20280=Adakah anda ingin meletakkan semua muat-turun lama ke kategori ini menurut jenis fail? Fail ini tidak akan dipindahkan pada cakera keras, tetapi akan dikaitkan dengan kategori muat-turun yang diberi.
+20281=Adakah anda ingin meletakkan semua muat-turun lama dengan fail jenis \"%s\" untuk kategori ini? Fail ini tidak akan dipindahkan pada cakera keras, tapi akan dikaitkan dengan kategori ini. 
+20282=Kategori IDM
+20283=IDM mempunyai ralat \"Akses ditolak\" ketika menghimpun bahagian fail yang dimuat-turun. Ini mungkin berlaku kerana beberapa aplikasi seperti program anti virus atau dinding api membuka fail tersebut, tetapi tidak tutup dengan betul, atau anda cuba membuka fail tersebut semasa memuat-turun. Anda seharusnya membuka semula komputer anda dan kemudian klik butang sambung untuk menghimpun fail.
+20284=Direktori lalai untuk muat-turun kategori \"%s\"
+20285=Tukar folder untuk kategori \"%s\" yang terakhir dipilih
+20307=- Pilih sambungan internet anda -
+20319=Lain-lain
+20320=Tentang IDManager
+20321=Kembalikan
+20322=Keluar
+20323=Hubungi kami
+20324=Bantuan
+20325=Pesan dalam talian
+20326=Pendaftaran
+20327=Henti Muat-turun
+20328=Padam
+20329=Sambung Muat-turun
+20330=Sifat
+20331=URL tidak sah dimasukkan. Sila betulkan.
+20332=Muat-turun ini tidak lengkap. Teruskan dengan memadam?
+20333=Tidak dapat mencari konfigurasi proksi di Tetapan Internet Explorer
+20334=Fail dengan URL ini telah dimuat-turun dengan Internet Download Manager. Adakah anda ingin memuat turun lagi?
+20335=Fail dengan URL ini telah ada dalam senarai anda dan menunggu muat-turun untuk disiapkan. Adakah anda ingin untuk menyambung semula fail?
+20336=Terlalu banyak fail dengan nama ini. Sila padamnya atau tukar nama lokal
+20337=Sila masukkan nama log masuk.
+20338=Tidak dapat mencari Pelayar yang berkaitan
+20339=Tidak dapat mencari aplikasi Kemaskini Pantas.
+20340=Sila masukkan nama pendaftaran.
+20341=Nombor pendaftaran tidak sah dimasukkan.
+20343=Sila masukkan nama pertama anda
+20344=Sila masukkan nama keluarga anda
+20346=Sila masukkan emel anda
+20347=Sila masukkan Nombor Siri
+20348=Anda telah memasukkan Nombor Siri yang tidak betul
+20349=Internet Download Manager telah berdaftar dengan Nombor Siri palsu. IDM akan ditamatkan...
+20351=Internet Download Manager telah berdaftar dengan Nombor Siri palsu. IDM akan ditamatkan...
+20352=Internet Download Manager belum berdaftar untuk 30 hari. Tempoh percubaan telah tamat dan IDM akan ditamatkan...
+20353=Internet Download Manager belum berdaftar untuk 15 hari. IDM akan ditamatkan...
+20354=Ralat tidak diketahui semasa
+20355=Tidak diketahui
+20356=Tambah ke barisan muat-turun
+20357=Padam dari barisan
+20358=Mula barisan
+20359=Henti barisan
+20360=Buka
+20361=Tarikh terakhir dicuba:  
+20362=Keputusan:\n
+20363=Pilih hanya satu fail untuk dibuka!
+20364=Buka
+20365= sudah ada di komputer anda. Adakah anda ingin menggantikan fail yang sudah ada?\n Tekan \"YA\" untuk menggantikan, \"TIDAK\" untuk menyimpan fail dengan nama yang berbeza, \"BATAL\" untuk membatalkan muat-turun.
+20366=Muat-turun dari
+20367=Simpan ke
+20368=Adakah anda benar-benar ingin memadam semua fail yang selesai muat-turun? 
+20384=Tunjuk sasaran lepas
+20385=Amaran: Program komputer ini dilindungi oleh undang-undang hak cipta dan perjanjian antarabangsa. Pengeluaran semula atau pengedaran tanpa kebenaran dari program ini, atau sebahagian darinya, boleh menyebabkan hukuman sivil dan jenayah berat, dan akan dituntut semaksimum mungkin berdasarkan undang-undang.
+20386=Tidak dapat membuat folder %s, kod ralat = %ld\n
+20387=Ralat
+20388=Fail
+20389=Semua Fail
+20390=Keterangan:\n
+20391=Selesai.
+20393=Muat-turun selesai. Pemeriksaan untuk virus sedang dijalankan...
+20394=AVI: Res. %dx%d, %d samp setiap saat, Panjang %s
+20395=, Panjang: 
+20396=, Tajuk: 
+20397=, Artis: 
+20398=, Album: 
+20399=, Genre: 
+20400=WAV: %d Samp setiap saat, %d bit setiap Samp, Panjang: %s
+20401=MPEG: Res. %dx%d, %.1f samp setiap saat, %d bit setiap samp
+20402=%s,   jumlah %ld fail
+20403= Percubaan
+20404= Penuh
+20405=Dail semula %ld
+20406=Ralat Dail RAS yang tidak ditakrif.
+20407=Perubahan bahasa pada dialog utama akan dipakai hanya selepas memulakan semula IDM. Adakah anda ingin untuk memulakan semula IDM?
+20408=Dari %d:%02d ke %d:%02d anda telah muat-turun %d MB. Semua muat-turun IDM akan dihentikan kerana anda telah melebihi had muat-turun ditetapkan di dalam Penjadual IDM (atau \'Pilihan->Sambungan\')! 
+20409=Dari %d:%02d ke %d:%02d anda telah muat-turun %d MB. Semua muat-turun IDM telah dihentikan di %d:%02d kerana anda telah melebihi had muat-turun anda atur di dalam Penjadual IDM (atau \'Pilihan->Sambungan\')!\r\n\r\nSemua muat-turn yang berhenti akan kembali secara automatik pada %02d:%02d. Jika anda ingin melanjutkan muat-turun dengan pantas, menukar tetapan di had muat-turun dan tekan Menyambung.
+20410=Lengkap
+20411=Bina semula...
+20412=Putuskan sambungan...
+20413=Fail Teks
+20414=Fail Eksport IDM
+20415=Simpan sebagai...
+20427=Sila jangan tutup dialog muat-turun apabila IDM sedang menghimpun fail, jika tidak data mungkin akan rosak.
+20428=Kemaskini Pantas
+
+20429=Muat-turun dialihkan ke IDM...
+20430=Klik 'Kembali' untuk kembali dan terus pelayaran.
+20431=IDM gagal memulakan muat-turun. Fail pelaksana tidak dijumpai.
+
+20433=Amaran
+20434=Pilih direktori
+20435=Program pengimbas virus
+20439=Fail Bunyi
+20440=lengkap
+20441=Sifat Fail
+20442=Internet%20Download%20Manager%20-%20aplikasi%20sangat%20hebat!!!
+20443=muat-turun%20dari%20
+
+//Please don't replace "English" to your local language, please just translate the "English" word
+20444=Sila gunakan Bahasa English
+
+20445=Tidak diketahui
+
+20447=Papar saiz biasa
+20448=Papar dikecilkan
+20449=Jangan papar
+
+//Please change XXX on the language you are translating IDM to.
+q1=Internet Download Manager mengesan yang anda menggunakan Bahasa Melayu sebagai bahasa lalai Windows. Adakah anda ingin menggunakan Bahasa Melayu untuk IDM?
+
+20500=Sila beli dan pasang versi lengkap dari IDM dahulu!
+1338=Sila pilih bahasa antaramuka pengguna IDM (anda boleh mengubahnya dengan menggunakan item menu "Paparan->Bahasa")
+20501=Internet Download Manager belum berdaftar selama 15 hari. IDM akan ditamatkan...
+20502=Ubahsuai... 
+20503=Tarikh Ditambah
+20504=Tarikh Terakhir Dicuba
+20505=Simpan Ke
+20506=Perujuk
+33001=Ubahsuai Toolbar... 
+33002=Ubahsuai Senarai URL...
+33004=Dengan Laluan Simpan
+33005=Dengan Perujuk
+33006=Dengan Tarikh Terakhir Dicuba
+20507=Lajur...
+
+209=Lajur
+1339=Semak lajur yang anda ingin lihat dalam senarai ini. Gunakan Pindah ke Atas dan Pindah ke Bawah untuk susun semula ruang mengikut kesukaan anda.
+1160=Pindah ke Atas
+1083=Pindah ke Bawah
+1340=Papar
+1048=Sembunyi
+1053=Tetapkan semula
+1341=Lajur dipilih harus
+1342=lebar piksel
+
+//new category
+20508=Mampatan
+
+//new dialog
+226=Nombor maks. sambungan ke pelayan
+1348=Pelayan
+
+1350=Nombor maks. lalai bagi sambungan
+1343=Nombor maks. bagi sambungan
+1344=Baharu
+1345=Padam
+1346=Ubah
+1347=Pengecualian:
+20509=Pelayan
+20510=Nombor
+
+228=Muat-turun Semua Pautan dengan IDM
+20511=Jenis Fail
+20512=Teks Pautan
+1234=Gunakan teks pautan sebagai keterangan muat-turun
+1055=Sembunyi fail HTML
+1060=Sembunyi fail diulang
+1353=Tanda Semua
+1354=Padam Semua Tanda
+1352=Ubah...
+1355=Sila semak pautan, yang anda ingin tambah ke senarai muat-turun IDM, dan klik butang OK.\r\nAnda perlu menunggu sehingga IDM menyemak dan mengisi semua jenis fail.
+
+20513=Nama yang disimpan ialah \"%s\", tetapi pelayan menghantar jenis fail berikut \"%s\", dan fail sepatutnya disimpan sebagai \"%s\". Adakah anda ingin menyimpan fail dengan nama yang sama dengan jenis fail diterima dari pelayan?
+
+//vers. 4.00
+20514=Muat-turun kembali
+20515=Buka folder
+
+q2=\"%s\" (%s) ingin memuat-turun fail \"%s\".\n\nAdakah anda ingin IDM untuk mengambil alih muat-turun dari aplikasi ini?\nNanti anda boleh matikan atau aktifkan IDM untuk mengambil alih muat-turun dari \"%s\" di IDM->Pilihan->Umum
+
+20516=\"%s\" protokol penghantaran data tidak disokong oleh IDM pada masa ini. Atau mungkin ralat ejaan, jadi sila periksa ejaan anda, dan cuba lagi.
+20517=IDM telah menerima ralat \"Akses Ditolak\" ketika menghimpun bahagian fail. Ini berlaku mungkin kerana fail tersebut dibuka oleh aplikasi lain seperti perisian antivirus, atau anda cuba membuka sendiri. Untuk menyambung fail ini, anda akan perlu buka semula komputer anda, pilih fail dalam IDM, dan tekan butang sambung.
+20518=Sila daftarkan IDM sebelum mengemaskini.\r\n Pilih item menu \"Pendaftaran->Pendaftaran\" dan masukkan maklumat pendaftaran anda. Kemudian pilih item menu \"Bantuan->Kemaskini Pantas\" untuk memulakan kemaskini.
+20523=Menurut perjanjian lesen kami yang anda telah terima, anda dibenarkan untuk mengemaskini Internet Download Manager secara bebas selama satu tahun selepas pembelian. Jika anda ingin terus mengemaskini IDM selepas tempoh ini, anda perlu melanggan untuk mengemaskini perkhidmatan.\r\nAdakah anda ingin melihat laman melanggan IDM?
+20519=Kunci untuk mencegah muat-turun tidak boleh terkandung dalam kunci untuk memaksa memuat-turun.\r\nSila pilih kunci lain.
+20525=Ralat menyambung. Tiada hos yang diketahui. Nama ini bukan nama hos rasmi atau samaran, atau tidak boleh dijumpai di dalam sistem pangkalan data yang dipanggil.\r\n\r\nDapatkan sebab-sebab yang mungkin bagi ralat ini di bawah:\r\n\r\n1. Anda mempunyai aplikasi dinding api pada komputer anda, dan anda baharu saja dipasang, diganti atau dikemaskini versi sekarang anda dari Internet Download Manager. Sila semak tetapan dinding api anda dan pastikan bahawa IDM mempunyai izin untuk mengakses internet.\r\n\r\n2. Sebuah perkhidmatan yang menemukan pelayan di Internet yang disebut Domain Name Service (DNS) mempunyai masalah sementara, atau sambungan rangkaian antara DNS dan komputer anda telah putus. Kemungkinan bahawa anda perlu buka semula komputer anda.\r\n\r\n3. Kemungkinan ralat ejaan di nama pelayan. Sila semak ejaan anda.\r\n
+20522=IDM tidak dapat mencari fail %d yang diperlukan untuk integrasi pelayar dan sistem. Adakah anda ingin muat-turun ia?
+
+//Options->general
+1370=Mengesan aplikasi baharu yang cuba untuk muat-turun fail dari Internet
+1368=Ubahsuai kekunci untuk mencegah atau memaksa muat-turun dengan IDM
+1367=Kekunci...
+1375=Mengintegrasi IDM ke pelayar:
+
+229=Menggunakan kekunci khas
+1361=Guna kekunci berikut untuk cegah muat-turun dengan IDM bagi setiap pautan:
+1067=Guna kekunci berikut untuk paksa muat-turun dengan IDM bagi setiap pautan: 
+1366=Semak untuk butang kiri tetikus semasa klik pautan bersama dengan kekunci khas ditekan untuk paksa muat-turun pautan
+1374=Nota: Kadangkala setelah anda klik pautan muat-turun, laman web akan memberitahu bahawa muat-turun akan dimulai dalam X saat. Dalam hal ini, anda akan perlu padamkan tanda pada pilihan berikut untuk memaksa muat-turun dengan IDM.
+
+//Download all links with IDM
+1356=Simpan Ke
+1357=Setiap fail ke direktori mengikut kategori fail
+1358=Semua fail ke satu kategori
+1359=Semua fail ke satu direktori
+1360=Layari...
+
+//Options->Proxy
+1378=Jangan gunakan pelayan proksi untuk alamat yang bermula dengan:
+1377=Asingkan nama dengan ruang
+
+
+20526=Integrasi Rangkaian Internet Download Manager
+20527=Internet Download Manager mengesan bahawa integrasi rangkaian telah dihapuskan oleh beberapa aplikasi pihak ketiga. Adakah anda ingin mengembalikan integrasi rangkaian Internet Download Manager?
+20528=Internet Download Manager mengesan bahawa beberapa aplikasi pihak ketiga telah berubah integrasi rangkaian IDM. Hal ini boleh terjadi kerana aplikasi rangkaian baharu dipasang, atau kerana aplikasi yang mengembalikan rekod berdaftar. Adakah anda ingin mengembalikan integrasi rangkaian Internet Download Manager?
+20529=Integrasi Rangkaian Internet Download Manager telah diubah. Kami mengesyorkan anda untuk buka semula komputer anda. Adakah anda ingin buka semula sekarang? 
+20530=Integrasi Rangkaian Internet Download Manager telah diubah. Anda perlu buka semula komputer anda, kerana dinding api tidak mampu mengesan perubahan ini, dan Aplikasi Internet tidak dapat berkomunikasi dengan Internet sebelum buka semula.\r\n\r\nSila simpan kerja anda dan tutup semua aplikasi sekarang, komputer akan dibuka semula selepas anda menekan butang OK.
+
+20531=Jika anda ingin mengintegrasikan Internet Download Manager dengan sebuah aplikasi yang sedang berjalan, anda perlu memulakan semula aplikasi, kerana IDM tidak dapat mengintegrasikan ke dalam aplikasi yang sedang berjalan.\r\n\r\nSetelah mengintegrasikan IDM ke aplikasi, anda mungkin boleh matikan pilihan \"Kesan Aplikasi Baharu\" untuk prestasi yang lebih baik.
+20532=Kesan Aplikasi Baharu
+
+//v 4.01
+//Download All Links with IDM dialog
+1385=Sembunyikan imej yang terdapat di laman web ini
+//Options->General dialog
+1381=Gunakan integrasi sambungan pelayar
+20547=Perpindahan antara integrasi asas dan sambungan pelayar mungkin memerlukan buka semula sistem. Adakah anda ingin meneruskan?
+//new dialog
+230=Menyemak Sambungan Internet
+1382=Semak 
+20536=IDM sedang muat-turun halaman ujian kecil untuk menyemak sambungan internet anda. Sila tunggu beberapa saat
+20537=IDM sedang ujian Internet Explorer anda. Sila tunggu beberapa saat semasa Internet Explorer memuatkan laman uji kecil
+//Problem report dialog
+232=Laporan Masalah Internet Download Manager
+20546=Kami telah membuat laporan konfigurasi yang anda boleh kirimkan kepada kami. Sila hantar maklumat berikut untuk membantu kami memperbaiki masalah ini dalam versi berikutnya dari IDM. Data ini adalah jenis teknikal. Kami tidak mengumpul maklumat peribadi anda, dan kami akan melayan laporan ini sebagai rahsia dan tanpa nama.
+1386=Tambah komen dan permintaan di bawah ini jika anda mahu
+1391=Jika anda ingin pemberitahuan apabila masalah tersebut telah diselesaikan, sila tambah e-mel anda di bawah
+20545=Menghantar data...\r\nSila tunggu beberapa saat
+1390=Hantar
+
+//new messages
+20533=IDM telah mengesan bahawa anda menggunakan pelayan proksi di Internet Explorer. Adakah anda ingin menggunakan tetapan proksi yang sama di IDM?
+20534=Bukaan pertama Internet Download Manager
+20535=IDM telah mengesan bahawa anda menggunakan rangkaian Windows DialUp untuk menghubung modem anda ke Internet. Adakah anda ingin menggunakan tetapan ini di IDM?
+
+20538=Tidak boleh muat-turun laman ujian. Kemungkinan Internet Download Manager mempunyai konflik integrasi rangkaian dengan aplikasi Internet lain atau dinding api. IDM akan mematikan integrasi sambungan pelayar untuk mengembalikan tetapan awal anda. Anda boleh mengaktifkan integrasi sambungan pelayar selepasnya di IDM->Pilihan->dialog Umum
+20539=Anda perlu buka semula komputer anda untuk mengembalikan tetapan awal. Sila simpan kerja anda dan tutup semua aplikasi sekarang, komputer akan buka semula selepas anda menekan butang OK.
+20540=Integrasi rangkaian Internet Download Manager telah berjaya dipasang. Dalam kes yang jarang berlaku integrasi rangkaian mungkin konflik dengan aplikasi Internet pihak ketiga yang baharu dipasang. Jika anda menemukan masalah dengan integrasi rangkaian anda, anda mungkin boleh padam tanda kotak \"Gunakan integrasi sambungan pelayar\" di IDM->Pilihan->dialog Umum
+20541=Anda telah mematikan integrasi sambungan pelayar. Jika anda menemukan masalah dengan integrasi sambungan pelayar, kami akan memperbaiki masalah untuk anda. Untuk mengatasi masalah, kami harus mengumpul dan menganalisis beberapa maklumat teknikal tentang konfigurasi komputer anda dan aplikasi Internet dipasang. IDM akan mengumpul dan memaparkan maklumat ini dalam tahap selanjutnya sebelum menghantarnya ke pasukan sokongan kami.\r\n\r\nAdakah anda ingin IDM untuk menghasilkan maklumat ini?
+20542=Mematikan integrasi sambungan pelayar
+20543=IDM sedang bercuba untuk muat-turun laman ujian untuk menyemak sambungan internet anda. Sila pastikan bahawa anda menyambung ke Internet. Jika anda mempunyai dinding api, pastikan bahawa versi baharu IDM mempunyai kebenaran untuk mengakses Internet sebelum meneruskan. Kemudian tekan butang \"Semak\" di bawah ini, dan IDM akan cuba untuk muat-turun laman ujian lagi.
+20544=IDM telah berubah integrasi rangkaian dan perlu menyemak sambungan internet anda lagi. Jika anda tidak bersambung ke Internet sila menyambung dan tekan butang \"Semak\".
+20548=Integrasi Rangkaian Internet Download Manager telah diubah. Anda perlu buka semula komputer anda, kerana Aplikasi Internet anda tidak akan berkomunikasi degan Internet sebelum dibuka semula.\r\n\r\nHarap simpan kerja anda dan tutup semua aplikasi sekarang, komputer akan buka semula selepas anda menekan butang OK.
+
+//v4.01 build 4
+20549=Versi Internet Download Manager ini memiliki ciri-ciri Integrasi Lanjutan pelayar. Pemasangan ciri-ciri ini mungkin memerlukan buka semula sistem.\r\n\r\nKetika Integrasi Lanjutan Pelayar dihidupkan, IDM dapat menangkap para muat-turun yang tidak mungkin untuk menangkap sebelumnya di IDM, atau dalam muat-turun manager lain. Juga apabila menggunakan integrasi, IDM boleh diintegrasikan ke setiap pelayar dan aplikasi internet untuk mengambil alih muat-turun FTP/HTTP anda.\r\n\r\nKes yang jarang berlaku bagi integrasi ini adalah berlaku konflik dengan aplikasi internet pihak ketiga yang baharu dipasang. Jika anda menemukan masalah dengan integrasi rangkaian anda, anda mungkin boleh padam tanda kotak \"Gunakan integrasi sambungan pelayar\" di IDM->Pilihan->Dialog Umum untuk mematikannya.\r\n\r\nAdakah anda ingin memasang Integrasi Lanjutan Pelayar?
+20550=Integrasi Lanjutan Pelayar telah berjaya dipasang! 
+
+//menu "File->Redownload"
+33009=Muat-turun semula
+
+//new (since v4.00) toolbar buttons of the main window
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20551=Mula barisan
+20552=Henti barisan
+
+//v4.01 build 5
+20553=Internet Download Manager secara automatik menangkap pautan muat-turun dari Aplikasi Internet lain ketika ia cuba muat-turun fail. Jika anda TIDAK INGIN muat-turun fail dengan IDM, sila membuka dialog Pilihan dengan mengklik butang Pilihan\r\n\r\n1. Jika anda tidak ingin muat-turun jenis fail dengan IDM, anda boleh memadam jenis fail yang sesuai (penyambung fail) dari senarai jenis fail yang ditangkap automatik.\r\n\r\n2. Jika anda tidak ingin muat-turun fail dari laman tertentu dengan IDM, anda boleh menambah halaman ini ke dalam senarai pengecualian halaman.
+236=Tip IDM: Menangkap pautan automatik
+1393=Jangan paparkan tip ini lagi
+1397=IDM mempunyai mekanisme fleksibel untuk mengambil alih atau mengabaikan muat-turun dari Aplikasi Internet lain. Adakah anda ingin membaca lebih lanjut?
+1396=Baca lebih lanjut
+
+//v4.02
+20569=Mesej ralat ini wujud mungkin kerana IDM telah digunakan pada beberapa komputer di bawah Nombor Siri yang sama. Sila ambil perhatian bahawa satu lesen IDM adalah bagi satu komputer. Untuk menggunakan IDM bagi beberapa komputer pada masa yang sama sila dapatkan lesen masing-masing.
+20570=Butang Kecil
+20571=Butang Besar
+20572=Butang Klasik
+
+//new main menu items
+m33001=Toolbar
+33510=Butang Klasik
+34010=Butang Kecil
+34011=Butang Besar
+
+//a new (since 4.401) button on the Options dialog
+1371=Bantuan
+
+// The abbreviation of second, kilobytes, megabytes and gigabytes, 
+// it's used when denoting download speed measurement units, 
+// e.g. KB/sec --- kilobytes per second, etc.
+20575=saat
+20576=GB
+20577=MB
+20578=KB
+20579=Bytes
+
+//v4.03
+20588=Tidak dapat membina fail yang dimuat-turun. Urutan membina bagi bahagian muat-turun telah rosak. Berikut adalah kemungkinan punca masalah ini.\r\n\r\n1. Komputer telah ditutup tiba-tiba kerana kuasa padam semasa memuat-turun/menghimpun bahagian fail.\r\n2. Aplikasi lain atau pengguna mematikan Internet Download Manager semasa proses muat-turun/pemasang bahagian fail. Sila ambil perhatian bahawa kemungkinan pengambilan masa yang lama untuk menghimpun semula fail besar. Sila jangan risau, bersabar, dan tunggu sehingga IDM selesai menghimpun. Tolong jangan hentikan proses Internet Download Manager dari Task Manager.\r\n\r\nJika perkara ini tidak berlaku, sila hantar fail %s (jika ada) kepada pasukan sokongan Internet Download Manager untuk dianalisis.
+
+
+//v 5.00 --- penyambar
+1429=< Kembali
+1430=Seterus >
+
+1405=Tambah Penyaring
+1421=Tambah Penyaring
+1437=Cari fail di laman web ini sahaja
+1459=Mulakan muat-turun semua fail yang berpadanan sekaligus
+1471=Anda boleh teroka laman dahulu, tanda fail yang anda perlukan, dan muat-turun di tetingkap utama Penyambar, atau tambah ke senarai utama IDM. Pilihan ini akan memuat-turun semua fail diterokai dengan pantas.
+1515=Muat-turun fail berikut (jenis fail)
+1516=Jangan muat-turun fail berikut (jenis fail)
+1480=Tidak kurang dari
+1482=Tidak lebih dari
+1483=Muat-turun fail yang berada dalam laluan berikut/domain sahaja:
+1486=Jangan muat-turun fail yang terletak dalam laluan berikut/domain: 
+1517=Muat-turun jika saiz fail adalah
+1488=Guna titik koma (;) untuk entri berasingan
+
+241=Laman Penyambar IDM
+1446=Fail dimuat-turun:
+1448=Fail dijumpai:
+1450=Laman web diproses:
+
+244=Penyaring
+1423=Tambah
+1424=Ubah
+1425=Padam
+
+245=Penyaring 
+1426=Nama
+1427=Topengan
+
+1414=Nama Projek Penyambar
+1510=Mula halaman/alamat
+1439=Guna kebenaran
+1441=Masukkan log masuk dan kata laluan secara manual di laman web berikut:
+1511=Projek
+1470=Jika anda memilih templat projek, wizard akan membuat tetapan projek yang diperlukan untuk templat yang dipilih pada langkah seterusnya. Perhatikan bahawa anda sentiasa boleh menukar tetapan secara manual.
+
+1514=Guna relatif subfolder asli
+1468=Menukar pautan pada fail HTML dimuat-turun ke fail tempatan untuk pelayaran luar talian
+1469=Menulis ganti fail sedia ada
+1436=Tambah fail yang ditanda ke senarai utama IDM dan muat-turun barisan bila penyambar ditutup 
+
+262=Tetapan dari Penyambar IDM
+1518=Gunakan teks pautan sebagai keterangan muat-turun semasa menambah fail ke senarai utama IDM
+1466=fail untuk diterokai pada masa yang sama (1 hingga 10)
+1467=fail untuk dimuat-turun pada masa yang sama (1 hingga 10)
+1509=Sila ambil perhatian bahawa pelayan web mungkin menolak permintaan jika anda menetapkan sejumlah besar fail untuk meneroka (muat-turun) pada masa yang sama.
+
+1416=Jangan teroka direktori induk
+1490=tahap dalam laman asas
+1435=Teroka keseluruhan laman
+1445=Teroka jumlah tahap pautan yang dinyatakan
+1491=tahap di laman lain
+1474=Teroka laman web dalam laluan/domain berikut sahaja:
+1476=Jangan teroka laman web dalam laluan/domain berikut
+1512=Pada langkah ini anda perlu tentukan laman web untuk diterokai untuk mencari fail yang diperlukan. Pada langkah berikutnya, anda akan dapat menetapkan jenis fail, lokasi, dan penyaring lain.
+1489=Apakah jumlah tahap pautan?
+1493=Teroka semua halaman dalam domain utama
+1494=Abaikan tetingkap popup
+
+268=Nama Templat
+1508=Sila masukkan nama bagi templat penyambar
+
+269=Simpan projek bagi Penyambar IDM
+1507=Simpan projek ini dengan nama berikut
+1513=Jangan papar dialog, jika punyai nama unik
+
+270=Muatkan projek
+
+32811=Tutorial
+34022=Bantuan Penyambar
+      
+
+m1458=Projek
+1458=Baharu
+1438=Muatkan...
+1442=Simpan
+34020=Simpan tetapan sebagai templat
+m34013=Projek terbaru
+34013=Senarai Projek Terbaru
+m1457=Pilihan
+1457=Tetapan Penyambar
+34021=Jadual projek
+
+t1398=Mula Teroka Laman
+t1401=Henti Teroka Laman
+t1353=Tanda Semua Fail
+t1354=Padam Tanda Semua Fail
+t1432=Mula muat-turun fail ditanda
+t1433=Henti muat-turun fail ditanda
+t1434=Tambah fail ditanda ke senarai IDM utama dan ke barisan muat-turun
+
+
+20580=Ubahsuai tetapan
+20581=Semua Imej dari laman web
+20582=Fail Audio dari laman awal dan peringkat yang seterusnya
+20583=Semua fail Video dari laman web
+20584=Semua fail dari laman web kecuali halaman web dan imej
+20585=Keseluruhan laman web
+
+20589=Kandungan Web
+20590=Lanjutan 
+20591=Projek penyambar
+20592=Penyambar IDM
+20593=Sila masukkan halaman utama/alamat
+20594=Halaman utama/alamat
+20595=Sila masukkan log masuk dan kata laluan atau padam tanda kotak \"Guna Kebenaran\"
+20596=Sila masukkan laman log masuk manual atau padam tanda kotak yang sesuai
+20597=Laman log masuk manual
+20598=Tiada fail yang ditanda!
+20599=Fail %ld ditambah ke senarai IDM utama.
+20600=Tidak boleh menambah fail. Terlalu banyak fail telah ditanda. Sila muat-turun semuanya dalam projek ini dengan mengklik butang toolbar \"Muat-turun Tanda\".
+20601=Tidak boleh menambah fail baharu. Senarai IDM utama mengandungi terlalu banyak fail dan akan melambatkan IDM. Sila padam beberapa fail dari senarai utama.
+
+20602=Nama ini dikhaskan. Sila pilih nama lain untuk templat anda.
+20603=Templat dengan nama tersebut sudah ada. Adakah anda ingin menukar templat?
+20604=Simpan projek penyambar?
+
+//right click menu
+20605=Buka projek
+20606=Jadual projek
+20607=Padam projek
+
+20608=Sila tutup projek penyambar yang berjalan dahulu.
+20609=Jadual projek penyambar
+20610=Akan datang!\r\n\r\nPeriksa ciri ini di versi IDM yang berikutnya
+
+//displayed statuses
+20611=Meneroka laman
+20612=Muat-turun
+20613=Lengkap
+20614=Henti
+
+20615=Projek dengan nama \"%s\" sudah ada. Sila pilih nama lain.
+20616=Tidak ada projek yang disimpan dalam penyambar IDM
+20617=Sila pilih nama projek!
+20618=Adakah anda ingin memadam projek penyambar \"%s\"? 
+20619=Jumlah fail diterokai pada masa yang sama tidak sah. Sila tetapkan nombor yang seharusnya.
+20620=Jumlah fail dimuat-turun pada masa yang sama tidak sah. Sila tetapkan nombor yang seharusnya.
+20621=Tidak dapat membuka fail \"%s\"\r\n\r\n%s
+20622=Adakah anda ingin memuat-turun dan memasang fail bantuan Penyambar IDM (sekitar 100 KB) daripada laman utama IDM?
+20623=Tidak boleh memuatkan projek.\r\nRalat peruntukan memori.
+20624=Tidak boleh memuatkan projek.\r\nFail dengan projek penyambar telah rosak atau versi tidak dapat diterima.
+20625=Fail projek penyambar rosak. Beberapa fail yang belum muat
+20626=Tidak boleh memuatkan templat.\r\nFail dengan maklumat templat telah rosak atau versi tidak dapat diterima.
+20627=Memuatkan templat penyambar
+20628=Menyimpan templat penyambar
+20629=Menyimpan projek penyambar
+20630=Memuatkan projek penyambar
+      
+//step dialogs captions
+20631=Laman Penyambar IDM. Langkah %d --- %s
+20632=Tetapkan halaman utama
+20633=Simpan fail ke
+20634=Tetapkan penyaring peneroka
+20635=Tetapkan penyaring fail
+
+20636=Laman log masuk manual
+20637=Tekan butang OK apabila proses log masuk selesai
+20638=OK
+20639=Batal
+
+//v4.04
+20640=Jika anda bercadang untuk mengambil alih muat-turun dari Internet Explorer sahaja, maka anda tidak memerlukan ciri ini, dan anda harus menjawab \"Tidak\".
+
+//v4.06
+20641=Menyambung ke
+20642=Alam:
+1534=Simpan kata laluan di dalam senarai kata laluan IDM
+1536=Masukkan nama pengguna dan kata laluan anda.
+1537=Nama pengguna:
+1538=Kata laluan:
+
+//v4.07
+
+280=Muat-turun kelompok
+1553=Kemungkinan anda menambah sekumpulan nama fail berurutan seperti img001.jpg, img002.jpg, dll, img100.jpg ke barisan muat-turun IDM. Gunakan kad-bebas bintang untuk pola nama fail.\nSebagai contoh:   HTTP://www.internetdownloadmanager.com/pictures/img*.jpg
+1540=Nombor
+1541=Huruf
+1556=Dari:
+1557=Ke:
+1547=Saiz kad-bebas
+1555=Mengganti bintang ke 
+1558=Fail pertama:
+1559=Fail kedua:
+1560=Fail terkini:
+
+20643=Tanda semua fail yang dipilih
+20644=Padam tanda semua fail yang dipilih 
+
+1552=Menukar nama fail dengan menggunakan kad-bebas bintang untuk pola nama fail:
+
+34024=Tambah muat-turun kelompok
+
+20645=Tidak ada kad-bebas bintang dalam URL untuk membina senarai fail muat-turun!
+20646=Muat-turun kelompok
+20647=Terlalu banyak fail. Jumlah fail tidak boleh melebihi 1000. Sila pilih rangkaian yang lain \"dari : ke :\". 
+20648=Simpan ke direktori/kategori
+
+//v5.00 beta
+
+20574=Penyambar
+20649=Sila masukkan laman log keluar atau padam tanda kotak yang sesuai
+
+20554=Semua Fail
+20555=Fail imej
+20556=Fail Video
+20557=Fail Audio
+20558=Fail Pelaksana
+20559=Fail Dimampat
+20560=Fail Dokumen PDF
+
+20561=Jangan guna penyaring dikecualikan
+
+20562=Peta Laman
+20563=Tetapan
+
+20564=Nama Penyaring
+20565=Topengan
+20566=Sila isi nama penyaring
+20567=Sila isi topengan
+20568=Penyaring dengan nama \"%s\" sudah ada. Sila pilih nama lain.
+
+20650=Sila tunggu...
+20651=Padam fail sementara
+20652=Simpan projek Penyambar
+20653=Padam projek Penyambar
+20654=Mengaplikasikan perubahan
+20655=Memuatkan projek Penyambar
+20661=Menyemak perubahan
+20662=Muat-turun halaman log masuk manual
+
+20656=Tidak cukup ruang kosong di dalam pemacu %s untuk proses projek penyambar. Sila kosongkan sedikit ruangan dan cuba lagi.
+20657=Tidak cukup ruang kosong di dalam pemacu %s untuk membuka projek penyambar. Sila kosongkan sedikit ruangan dan cuba lagi.
+20658=Tidak boleh membuka projek. Beberapa fail projek telah rosak atau dihapuskan.
+
+20659=Lengkapkan halaman awal dengan semua imej, gaya, dan skrip untuk melayari tanpa talian
+20660=Lengkapkan halaman awal 
+
+20663=Tidak boleh muat-turun halaman log masuk manual. Sila semak sintaks URL.
+
+33010=Mulakan penyambar laman
+
+1563=Tekan butang Lanjutan untuk mengaktifkan log masuk manual atau untuk mematikan laman log keluar
+1561=Jangan buka halaman log keluar:
+1564=Banyak laman web mempunyai laman log keluar yang Penyambar tidak harus buka. Anda boleh menggunakan tanda bintang kad-bebas di sini untuk menentukan pola untuk laman log keluar berbeza.
+1571=Sembunyi salinan fail yang ditemui di lokasi yang berbeza
+1565=Proses JavaScript
+1567=Guna pilihan ini dengan teliti. Apakah risikonya?
+1573=Cari fail di cache IE sebelum muat-turun
+1568=Guna tanda bintang sebagai sebuah pola kad-bebas. Guna koma tanpa ruang untuk entri berasingan
+
+//penyambar dlg tree
+20664=Semua Fail
+20665=Lihat Pautan
+20671=Lihat Folder
+20667=Laman lain
+20668=Laman
+
+20669=Penyaring dikecuali
+20670=Penyaring dimasuk
+
+t34023=Papar statistik penyambar
+271=Statistik Penyambar IDM
+1574=Status:
+1575=Laman web diproses
+1576=Mudah
+1577=Lanjutan
+1578=Fail
+1579=Jumlah
+1580=Diterokai
+1581=Berpadanan
+1582=Dimuat-turun
+
+//v5.00 build 3
+20672=Papar Thumbnail
+20673=Tidak ada fail yang dimuat-turun
+
+20674=Tidak Ditemui
+20675=Larangan
+20676=Ralat
+
+//v5.01
+284=Jadualkan projek penyambar
+1583=Satu kali teroka/muat-turun
+1584=Penyegerakan berkala 
+1585=Hanya teroka
+1586=Teroka laman dan muat-turun fail yang sesuai
+1587=Muat-turun fail yang ditanda
+1588=Langkah 3. Jadual
+1601=Langkah 2. Pilih aksi
+1600=Langkah 1. Pilih jenis
+1593=Projek:
+1590=Buka fail berikut apabila selesai:
+1595=Mulai lagi setiap
+1597=jam
+1598=min
+1599=Harian
+1602=Nota: IDM harus berjalan di dulang sistem pada masa yang ditetapkan untuk mulakan projek yang dijadualkan
+20677=Untuk menggunakan penjadual projek anda perlu menyimpan projek ini dahulu. Simpan projek sekarang?
+20678=Internet Download Manager telah selesai memproses projek penyambar. Menurut tetapan projek penjadual komputer anda akan mematikan.
+t33010=Halaman permulaan penyambar
+t34021=Jadual projek
+t34025=Kemaskini semua
+20679=Projek penyambar dijadualkan tidak dapat bermula dalam %d:%02d kerana projek ini berjalan pada masa ini.
+20680=Projek penyambar dijadualkan tidak dapat bermula dalam %d:%02d kerana tetapan projek sedang diubah pada masa ini.
+20681=Javascript tidak akan diproses untuk laman web yang telah sudah diterokai/diproses. Jika anda ingin memproses Javascript untuk laman ini, anda perlu menekan butang toolbar \"Kemaskini semua\" pada dialog Aksi Penyambar.
+20682=Butang kemaskini akan mengemaskini projek dengan (a) mula menerokai laman web dari halaman awal, (b) kemaskini fail jika mereka telah diubah pada pelayan, dan (c) muat-turun fail baharu.
+20683=Butang kemaskini akan mengemaskini projek dengan (a) mula menerokai laman web dari halaman awal, (b) kemaskini fail yang muat-turun dan ditanda jika mereka telah diubah pada pelayan.
+20684=Perhatikan bahawa fail lama yang telah ditemui sebelum kemaskini tidak akan dihapuskan. Penyambar akan mengurai semua laman web dalam halaman lagi, dan mungkin mengambil masa beberapa saat.\r\n\r\nAdakah anda benar-benar ingin mengemaskini projek ini?
+
+//version 5.02
+20685=Tukar nama projek
+20686=Kecilkan ke dulang sistem
+20688=Kembalikan semua windows muat-turun
+20689=Anda boleh mengaktifkan dialog ini di \"Pilihan->Muat-turun\"
+20690=Tetapan IDM 
+20691=Muat-turun %s (%I64d Bytes)
+20692=Fail mungkin tidak dapat dimuat-turun sepenuhnya kerana saiz fail tidak diketahui.
+20693=Ingatkan laluan ini untuk kategori \"%s\" 
+20694=Selesai muat-turun
+1610=Alamat
+1611=Fail yang disimpan sebagai
+1606=Buka folder
+1607=Jangan paparkan dialog ini lagi
+t1608=Layari
+20695=Muat-turun IDM
+1615=Abaikan perubahan pengubahsuaian fail semasa meneruskan muat-turun
+1613=Baca lebih lanjut
+20696=IDM menyemak untuk keluaran baharu setiap 2 minggu dengan memanggil halaman kemaskini dari laman webnya. Jika dinding api anda menyekat permintaan kemaskini dari IDM dan menunjukkan mesej amaran yang sesuai, anda perlu memahami bahawa permintaan itu baik dan selamat untuk izinkannya.
+1617=Alamat
+1619=Alamat:
+1618=Anda boleh menggunakan tanda bintang sebagai sebuah pola kad-bebas
+
+//Please note that the old menu item string changed from m32771=URL to m32771=Tasks
+//also strings 32771 and 148 have been changed
+
+//v 5.02 Build 2
+1621=Notis kemaskini
+290=Notis kemaskini IDM
+20697=Muat-turun tidak dikecilkan
+
+// v 5.02 Build 3
+1622=Nota: Tetapan ini tidak berkaitan dengan pemprosesan barisan
+
+// v 5.02 Build 6
+20698=Layari
+
+// v 5.02 Build 10
+20586=Dapatkan sebab-sebab yang mungkin bagi ralat ini di bawah:\r\n\r\n1. Sambungan internet tidak dijumpai. Sila semak sambungan Internet anda.\r\n\r\n2. Anda mempunyai aplikasi dinding api pada komputer anda, dan anda baharu saja dipasang, diganti atau versi Internet Download Manager sekarang telah dikemaskini. Sila semak tetapan dinding api anda dan memastikan bahawa IDM mempunyai izin untuk mengakses internet.\r\n\r\n3. Sebuah perkhidmatan yang menemukan pelayan di Internet yang disebut Domain Name Service (DNS) mempunyai masalah sementara, atau sambungan rangkaian antara DNS dan komputer anda akan rosak. Kemungkinan bahawa anda perlu buka semula komputer anda.\r\n
+1570=Perujuk:
+
+// v 5.02 Build 12
+20587=Ketika cuba untuk meneruskan muat-turun, Internet Download Manager mendapat balasan dari pelayan yang tidak menyokong meneruskan turun.\r\nKemungkinan bahawa ini adalah ralat sementara pelayan, dan anda akan dapat meneruskan fail di waktu lain, tetapi pada saat ini IDM boleh muat-turun fail ini dari awal.\r\n\r\nAdakah anda ingin muat-turun fail ini dari awal?
+
+// v 5.03
+20699=Jenis fail yang tidak disenaraikan dalam kategori yang lain
+20700=Anda menekan pada butang "Muat-turun kemudian", tapi sebenarnya IDM telah muat-turun sebahagian daripada jumlah fail. IDM selalu mulai muat-turun sambil menunjukkan dialog "Maklumat muat-turun fail". Anda boleh mengaktifkan pilihan ini dari dialog "Pilihan->Muat-turun"
+20701=Muat-turun kemudian
+20702=Direktori sementara diperlukan untuk menyimpan bahagian-bahagian fail semasa muat-turun.\nJika anda mempunyai beberapa pemacu fizikal pada komputer anda, anda perlu memilih pemacu fizikal yang berbeza untuk direktori sementara dan "Simpan ke" folder untuk lebih cepat menghimpun fail yang dimuat-turun.
+20703=Masukkan kategori \"%s\" secara automatik ke dalam jenis fail berikut:
+20704=Simpan Ke
+20705=Kategori, jenis fail, folder
+1623=Mula muat-turun terus di dialog "Maklumat Muat-turun Fail"
+
+292=Mula semula komputer
+1627=Hentikan
+20706=Mula semula dalam %d saat
+20707=Mula semula sekarang
+
+// v 5.04
+//Options->File Types and Options->General changes (for basic integration)
+20708=Jenis fail
+20709=Muat-turun jenis fail
+20711=Nota: Opera dan Mozilla pelayar boleh diintegrasikan dengan IDM dengan menggunakan penyambung. Integrasi jenis ini tidak menyokong senarai pengecualian pelayan untuk mencegah muat-turun dengan IDM. Juga ketika anda menukar senarai jenis fail anda perlu mulakan semula pelayar untuk muat semula penyambung.\nSekatan ini tidak berlaku jika anda menggunakan. \"Integrasi sambungan pelayar\" di tab \"Umum\".
+1632=Keterangan 
+1633=Tambah pelayar... 
+1634=Berintegrasi Semua 
+20710=Nota: Pelayar Opera dan Mozilla LAMA boleh diintegrasikan dengan IDM menggunakan penyambung. Jenis ini tidak menyokong butang khas integrasi untuk mencegah atau memaksa muat-turun dengan IDM dari pelayar ini.\n Jika anda ingin mencegah atau memaksa muat-turun dengan IDM dengan menekan butang khas, anda perlu menggunakan \"Integrasi sambungan pelayar\".
+
+//MessageBoxes
+20713=Integrasi pelayar IDM
+20712=IDM tidak dapat mencari pelayar %s pada komputer anda. Sila cari fail pelaksana pelayar pada dialog seterusnya.
+20714=Integrasi ke dalam pelayar dengan menggunakan penyambung telah gagal!
+20715=Penyambung untuk pelayar %s telah dipasang.
+20716=Penyambung untuk pelayar %s %s telah dipasang.
+20717=Penyambung untuk pelayar %s telah dihapuskan.
+20718=Sila mulakan semula pelayar untuk melaksanakan perubahan. 
+20719=Sila cari fail pelaksana pelayar pada dialog seterusnya.
+20720=Tidak dapat memasang penyambung pelayar idmmzcc.xpi untuk Mozilla Firefox!
+20722=IDM mengesan bahawa pelayar %s %s adalah pelayar lalai di komputer anda.\nAdakah anda ingin mengintegrasikannya dengan IDM?
+20723=Tidak dapat memasang penyambung pelayar idmmzcc.xpi!
+20724=Pelayar %s %s akan dibuka sekarang untuk memasang penyambung untuk integrasi dengan IDM.\nSila sahkan pemasangan penyambung idmmzcc.xpi dari Tonec Inc pada dialog pelayar yang sesuai dan mulakan semula pelayar selepas pemasangan.
+20725=Tidak dapat memasang penyambung untuk pelayar %s %s!
+20726=IDM telah berjaya diintegrasikan ke dalam Internet Explorer.\nAnda perlu mulakan semula IE untuk melaksanakan perubahan.
+20727=IDM mengesan bahawa pelayar %s %s telah dipasang pada komputer anda.\nAdakah anda ingin mengintegrasikannya dengan IDM?
+20728=Pelayar yang dipilih akan dibuka sekarang untuk memasang penyambung untuk integrasi dengan IDM.\nSila sahkan pemasangan penyambung idmmzcc.xpi dari Tonec Inc pada dialog pelayar yang sesuai dan mulakan semula pelayar selepas pemasangan.
+20729=Penyambung untuk pelayar yang dipilih telah dipasang.\nSila mulakan semula pelayar untuk melaksanakan perubahan.
+20730=IDM telah sudah terintegrasi ke dalam Internet Explorer!
+20731=IDM tidak dapat mencari pelayar dalam integrasi pangkalan data dasar. Anda harus cuba integrasi sambungan pelayar untuk menangkap muat-turun dari pelayar ini.
+20732=Tidak dapat memasang penyambung untuk pelayar dengan jenis integrasi yang sesuai!
+
+//new dialogs
+296=Integrasi pelayar
+1635=IDM mengesan bahawa tambahan pelayar berikut pada komputer anda. Sila pilih pelayar yang anda ingin mengintegrasikan dengan IDM.
+297=Butiran pelayar
+1636=Tambah versi...
+20733=Pelayar
+20734=Jenis integrasi
+20735=Laluan 
+20736=Penyambung
+20737=Penyambung 
+
+//new menu item on main dlg popup menu and new button on Download complete dlg
+20738=Buka dengan...
+1639=Buka dengan...
+
+//
+20739=Mencari pelayar
+
+// v 5.05
+20740=IDM sedang muat-turun fail ini sekarang!
+20741=Salinan pautan muat-turun
+298=Salinan pautan muat-turun
+20742=Papar dialog dan tanya apa yang harus dilakukan.
+20743=Tambah salinan dengan nama fail bernombor
+20744=Tambah salinan dan menimpa fail yang berada
+20745=Jika fail sediada sudah selesai, papar dialog muat-turun selesai; jika belum teruskan ia.
+1641=Fail ini sudah ada dalam senarai muat-turun anda. Anda boleh memilih salah satu pilihan yang berikut, atau tekan butang Batal untuk melewati muat-turun fail ini.
+1645=Ingat pilihan saya dan tidak paparkan dialog ini lagi.\r\nAnda boleh mengubahnya dalam Pilihan IDM->Muat-turun di waktu lain.
+1646=Jika pautan muat-turun salinan ditambah:
+
+20746=Internet Explorer, MSN Explorer, dan pelayar yang berasaskan IE
+20747=Netscape 8.0 dan keatas
+20748=Netscape 7.xx dan 6.xx
+
+// v 5.05 build 2
+20749=Anda boleh tarik dan lepas fail ini
+//Dear translators, if you added "CompleteDlg.htm" topic to your help file, or you did not translate the help file and use the English version, please add and translate the phrase "Press F1 to read more" at the next line.
+20750=Tarik ikon ini untuk memulakan operasi tarik dan lepas untuk fail yang dimuat-turun.
+//or 20750=Drag this icon to start the drag and drop operation for the downloaded file.\r\nPress F1 to read more.
+20751=Tarik dan lepaskan fail yang dimuat-turun
+
+// v 5.07
+1647=Teruskan
+20754=Anda akan perlu memberikan hak akses pentadbir untuk menyimpan fail di lokasi yang dipilih
+20755=Anda akan perlu memberikan hak akses pentadbir untuk melakukan operasi ini
+
+// v 5.07 build 2
+20756=Program Pemasangan IDM harus buka semula komputer anda untuk menggantikan fail yang digunakan. Tekan butang OK untuk buka semula komputer anda sekarang
+20757=Pengesahan buka semula
+20758=Internet Download Manager telah berjaya dipasang. Ini akan bermula secara automatik dan mengambil alih muat-turun dari pelayar anda.
+20759=Anda juga boleh bermula daripada menu \"Mula -> Semua Program -> Internet Download Manager\". 
+
+// v 5.07 build 6
+//new checkbox on Options->General
+1650=Mulakan modul untuk pantauan klik di pelayar IE (MSN, Avant, dll)
+
+//v 5.08 build 5
+//new dialogs
+302=Batal muat-turun yang dimulakan secara automatik
+1651=Anda telah membatalkan muat-turun ini dua kali.\n\n Jika IDM selalu mengambil alih muat-turun ini kerana ralat, anda boleh menambah alamat atau laman web ini untuk daftar senarai pengecualian IDM:
+1652=Jangan mulakan muat-turun secara automatik dari laman web ini:
+1653=Jangan mulakan muat-turun secara automatik dari alamat ini:
+1655=Anda juga boleh mengubah senarai pengecualian pada tab dari dialog pilihan \"Pilihan->Jenis Fail\"
+1654=Jangan paparkan dialog ini lagi
+
+303=Senarai pengecualian alamat
+1661=Jangan mulakan muat-turun secara automatik dari alamat berikut:
+1659=Papar dialog untuk menambah alamat ke senarai pengecualian untuk muat-turun yang dibatalkan dua kali
+
+304=Tambahkan alamat ke senarai pengecualian
+
+//changes in "Options->File Types" dialog:
+1656=Ubah senarai...
+//label 1372 was divided into 2 part
+1667=Jangan mulakan muat-turun secara automatik dari laman berikut:
+1662=(asingkan nama dengan ruang)
+
+//v 5.08 build 7
+20763=Fail yang diminta kelihatan seperti laman web HTML.\r\n\r\nPelayan menghantar halaman HTML pada permintaan kedua. Sebahagian pelayan tidak membolehkan meminta fail yang sama dua kali. Kerana anda mempunyai pilihan \"Mulai muat-turun langsung semasa memaparkan dialog Maklumat muat-turun fail\" dimatikan, IDM menghantar permintaan pertama untuk mengetahui jenis dan saiz, dan menghantar permintaan kedua ketika anda menekan \"Mulakan muat-turun\".\r\n\r\nCobalah untuk mengaktifkan pilihan \"Mulai muat-turun langsung semasa memaparkan dialog Maklumat muat-turun fail\" dalam \"Pilihan->Muat-turun\", menyegarkan halaman dalam pelayar anda, dan cuba untuk muat-turun fail ini lagi.
+
+//v 5.09 build 4
+305=IDM tidak boleh mengambil alih muat-turun
+20764=Sebahagian laman web ini tidak membenarkan meminta fail yang sama dua kali.\r\n\r\nPelayar membuat permintaan pertama dari fail \"%s\" dan kemudian ketika IDM cuba untuk meminta fail yang sama lagi, laman web yang dihantar sebuah laman web ke IDM dan bukannya muat-turun\r\n\r\nUntuk mengambil alih muat-turun ini anda boleh menetapkan kunci khas dalam \"Pilihan IDM->Umum->Kunci...\". Tekan dan tahan butang ini sambil menklik pada pautan muat-turun/butang jadi IDM boleh mengambil alih muat-turun sebelum permintaan dari pelayar pertama. Perhatikan bahawa kunci \"Ins\" harus bekerja untuk kebanyakan pelayar.
+
+//v 5.11
+//new penjadual dialog
+308=Penjadual
+1675=Barisan baharu
+1678=Padam
+1684=Barisan
+20783=Barisan
+306=Jadual
+1680=Jumlah cuba semula untuk setiap fail jika muat-turun failed:
+307=Fail dalam barisan
+1687=Had muat-turun
+20765=Had muat-turun
+20767=Barisan # %ld 
+20768=Barisan muat-turun utama
+20769=Penyegerakan barisan
+
+20770=Mencipta barisan baharu 
+20771=Pindah ke barisan
+20772=Tambah ke barisan
+20773=Mula sekarang
+20774=Henti
+20775=Ubah barisan
+20776=Jadual
+20777=Adakah anda benar-benar ingin memadam %s?
+20778=Mula %s
+20779=Henti %s
+20780=Barisan IDM
+20781=imej di lajur \"Barisan\" menunjukkan manakah fail barisan yang dimiliki.\r\nAnda boleh memindahkan fail dari satu barisan ke lain dengan konteks menu fail.\r\nUntuk maklumat lebih lanjut tentang barisan, sila rujuk fail bantuan Penjadual.
+20782=Adakah anda ingin muat-turun dan memasang fail bantuan \"Penjadual dan barisan IDM\" (sekitar 100 KB) daripada laman utama IDM?
+1685=Anda telah menjadualkan waktu mula proses barisan.\r\nAmbil perhatian jika mahu memulakan barisan pada waktu yang ditentukan, IDM perlu berjalan pada masa itu sekurang-kurangnya dalam kawasan pemberitahuan dulang (lihat imej di bawah)
+310=Masukkan nama barisan
+1686=Masukkan nama untuk barisan baharu yang akan dipaparkan dalam senarai barisan
+
+//menu items
+m34026=Mula barisan
+m34028=Henti barisan
+34029=Penjadual dan barisan
+//tooltips for "Start queue" and "Stop queue" toolbar buttons.
+t34030=Mula barisan muat-turun utama, atau pilih barisan untuk dimula dari senarai
+t34031=Henti barisan muat-turun utama, atau pilih barisan untuk dihenti dari senarai
+
+//v 5.11 build 3
+1679=Muat-turun sekali
+
+//v 5.11 build 5
+20786=Pemindahan data telah terputus dan pelayan tidak menyokong \"sambung\". Ini hanya boleh muat-turun fail ini dari awal.\r\n\r\nAda beberapa cara yang mungkin boleh menyelesaikan masalah:\r\n1. Pelayan ini mungkin mempunyai masalah sementara. Cuba untuk teruskan muat-turun ini pada waktu lain.\r\n2. Anda boleh meninggalkan fail ini sendirian di barisan (mencipta barisan yang baharu) dan mulakan barisan. Dalam hal ini IDM akan mencuba untuk muat-turun fail dari awal sampai fail muat-turun berjaya.\r\nUntuk mencapai hasil yang terbaik, anda juga harus menentukan 1 sambungan untuk laman web ini dalam senarai pengecualian di tab IDM \"Pilihan- >Sambungan\".\r\n
+20784=Penyambung \"IDM CC\" untuk pelayar berasaskan Mozilla telah berubah dalam versi IDM. Anda perlu memasang semula penyambung untuk menggunakan ciri-ciri baharu. Adakah anda ingin memasang semula penyambung untuk pelayar %s %s?
+20785=Penyambung \"IDM CC\" untuk pelayar berasaskan Mozilla telah berubah dalam versi IDM. Anda perlu memasang semula penyambung untuk menggunakan ciri-ciri baharu. Adakah anda ingin memasang penyambung baharu \"IDM CC\" untuk pelayar yang mengandungi penyambung lama \"IDM CC\"?
+
+//v 5.11 build 7
+//Items in context menu of browsers:
+20810=Muat-turun dengan IDM
+20811=Muat-turun video FLV dengan IDM
+20812=Muat-turun video FLV yang terakhir diminta
+20813=Pilih daripada 10 video FLV yang terakhir diminta
+20814=Muat-turun video FLV yang terakhir diminta dengan IDM
+20815=Muat-turun video FLV dengan IDM dari 10 permintaan terakhir
+20816=Muat-turun semua pautan dengan IDM
+20817=Muat-turun kandungan video FLV dengan IDM
+
+20790=Simpan video FLV
+20791=Anda boleh menyimpan video FLV yang anda sukai dengan menggunakan item menu \"Muat-turun kandungan video FLV dengan IDM\" dalam konteks menu pelayar.\r\n\r\nMenu Konteks pelayar menunjukkan ketika anda mengklik kanan pada laman web (tapi tidak pada FLV player) pada pelayar anda atau dengan menggunakan butang menu konteks di keyboard
+20792=Tidak dapat mencari pautan video FLV di laman web ini.\r\nIni kemungkinan bahawa pelayar anda tidak belum meminta fail video. Anda perlu menunggu sehingga pelayar anda membuat permintaan dan cuba lagi. Dalam beberapa kes, anda hanya perlu menekan \"Play\" butang di pemain web anda.
+20793=Muat-turun dengan IDM
+20794=Muat-turun Semua dengan IDM
+20795=Tidak dapat mencari pautan!\r\nJika laman ini memang mempunyai pautan, sila segarkan semula laman ini, dan cuba lagi. Jika masalah berterusan, sila hubungi pasukan sokongan IDM.
+20796=Tidak dapat mencari pautan video FLV!
+20797=Tidak boleh mendapatkan pautan video internet yang diminta oleh explorer.\r\nAnda (atau beberapa program pembuang spyware) telah mematikan pelayar Helper Object IDM di IE anda. Sila gunakan item menu \"Alatan->Urus Add-ons->Aktif atau Nyahaktif Add-ons\" di Internet Explorer. Kemudian mencari add-on \"IDMIEHlprObj Class\" dan mengaktifkannya.
+20798=Tidak dapat menyambung ke antaramuka IDM yang memantau pautan video internet yang diminta oleh explorer.\r\nPenyebab Kemungkinan:\r\n - Anda tidak buka semula komputer anda selepas menaik taraf IDM ke versi terbaru. Sila buka semula komputer anda dan cuba lagi\r\n - IDM tidak dipasang dengan betul. Sila cuba untuk muat-turun versi terbaru dari laman rasmi IDM dan cuba lagi
+
+//new feature in "Options->General" dialog:
+1688=Ubah...
+1689=Ubahsuai menu IDM di dalam menu konteks pelayar
+334=Internet Explorer dan berdasarkan IE
+335=Firefox dan lain berdasarkan Mozilla 
+1696=Menu item yang dipilih akan muncul di menu konteks pelayar:
+20818=Sila buka semula Internet Explorer untuk laksanakan perubahan
+20819=Tukar menu konteks IE
+
+//v 5.11 b8
+20820=Keluar sekarang
+20821=Keluar IDM
+20822=Internet Download Manager telah selesai memproses barisan. Menurut tetapan penjadual IDM akan keluar. Tapi muat-turun yang lain dalam proses akan dihentikan pada keluar. Tekan butang Batal untuk tidak keluar.
+
+//v 5.11 build 9
+20823=Anda telah membatalkan muat-turun yang sama.\n\nJika IDM selalu mengambil alih muat-turun tersebut oleh kesilapan, anda boleh menambah laman web ini atau pola untuk alamat yang serupa dengan senarai pengecualian IDM:
+20824=Jangan muat-turun tangkapan dari alamat yang sama dengan menggunakan pola ini:
+336=Laporan untuk pembangun IDM
+1702=Anda boleh menghantar laporan kepada pembangun IDM tentang muat-turun yang diambil alih oleh kesilapan untuk membuat penyelesaian untuk laman web ini di versi IDM yang akan datang
+1698=Ditambah pengecualian berikut:
+1700=URL perujuk yang muat-turunnya diambil alih dengan kesilapan:
+1703=Anda boleh menggunakan kad-bebas tanda bintang untuk pola alamat.
+
+//v5.12
+20825=(Terhad)
+1707=Guna Had Kelajuan
+337=Tetapan Had Kelajuan
+1704=Selalu aktifkan Had Kelajuan pada permulaan IDM
+1705=Papar kotak semak \"Guna Had Kelajuan\" pada dialog \"Kemajuan muat-turun\"
+1706=Ingat pengguna-dibuat pengecualian pada dialog \"Kemajuan muat-turun\" dengan menggunakan Had Kelajuan bebas adakah Had Kelajuan global dihidupkan atau dimatikan
+1708=Kelajuan maksimum muat-turun untuk satu fail
+1709=KByte/saat
+1710=Nota: Pelayan internet mungkin putuskan hubungan ketika kelajuan terlalu terhad! Sehingga tidak disyorkan untuk menggunakan Had Kelajuan untuk muat-turun dari pelayan yang tidak menyokong ciri-ciri \"Menyambung\".
+1711=Tetapan Had Kelajuan untuk muat-turun individu
+m34033=Had Kelajuan
+34033=Aktifkan
+34034=Matikan
+34035=Tetapan...
+
+//v5.12 build 5
+20831=Jika sebuah video FLV pada laman web dimainkan oleh pelayar anda, kemungkinan bahawa IDM tidak dapat mengaitkan pautan FLV ini dengan laman web tersebut. Anda perlu cuba untuk menggunakan konteks item menu pelayar\"Muat-turun video FLV dengan IDM dari 10 permintaan terakhir\".\r\n(konteks menu pelayar boleh diubahsuai dalam \"Pilihan IDM->tab Umum\")
+20830=Ralat CRC terjadi saat muat-turun. Itu bermakna bahawa anda mempunyai beberapa masalah dengan hard disk anda. Anda perlu mengimbas cakera anda untuk ralat dengan menggunakan \"Error-checking\" pada dialog sifat cakera->alat Windows.
+
+//5.12b7
+20832=Anda perlu memberikan hak akses pentadbir untuk mendaftar IDM untuk semua pengguna di komputer ini
+
+//5.12b8
+20837=Pasti penghapusan muat-turun
+20833=Muat-turun yang dipilih tidak lengkap. Adakah anda ingin memadamnya dari senarai  muat-turun IDM?
+20834=Muat-turun yang dipilih tidak lengkap. Adakah anda ingin memadamnya dari senarai  muat-turun IDM?
+20835=Terdapat muat-turun yang tidak lengkap di antara yang dipilih. Adakah anda ingin juga memadamnya dari senarai muat-turun IDM?
+20836=Adakah anda ingin memadam semua muat-turun yang selesai dari senarai muat-turun IDM?
+1715=Adakah anda ingin memadam muat-turun yang dipilih dari senarai IDM muat-turun? 
+1713=Padam fail yang selesai muat-turun dari cakera keras anda. Berhati-hatilah!
+
+//v5.14
+20850=video
+20851=audio
+20852=Muat-turun %s
+20853=Muat-turun %s dengan IDM
+20854=Tentang panel ini
+20855=Tutup
+20856=Ini adalah panel muat-turun IDM.\r\nHal ini dapat diubahsuaikan atau dimatikan pada \"IDM->dialog Pilihan->tab Umum\"
+20857=Muat-turun panel IDM
+20858=Muat-turun %s dari laman ini
+20859=Muat-turun %s dari laman ini dengan IDM
+20860=Muat-turun semua
+20861=%ld %s fail
+20862=fail
+
+//new on Options->General
+1724=Panel muat-turun IDM untuk pemain-web di pelayar
+1727=IDM boleh memaparkan panel muat-turun pada pemain-web di pelayar apabila IDM mengesan permintaan multimedia dari pemain-web
+1728=Paparan panel:
+1717=Mod Penuh
+1718=Mod Mini
+1726=Papar panel muat-turun IDM untuk jenis fail berikut:
+20863=Nota: Jika anda tidak menanda jenis fail dalam senarai di atas dan jika jenis fail dalam senarai di tab \"Pilihan->Jenis Fail\", muat-turun fail jenis ini akan ditangkap oleh IDM secara automatik dan tidak dimainkan di pemain-web. Jika anda ingin mencegahnya, tandakan kotak di bawah ini:
+1720=Jangan tangkap muat-turun dari pemain-web secara automatik
+
+//on Scheduler dlg
+1729=Mula muat-turun pada permulaan IDM
+
+20864=Anda boleh menggunakan integrasi ke dalam pelayar ini setelah mengaktifkan ciri-ciri \"Integrasi Lanjutan Pelayar\" pada dialog ini
+1731=Amaran: anda sedang menjalankan IDM dengan hak akses Pentadbir.\r\nIDM tidak akan mampu mengambil alih muat-turun dari pelayar dalam mod ini.
+20865=Firefox tidak boleh memindahkan muat-turun fail ke Internet Download Manager kerana anda mempunyai kotak \"Mulakan program ini sebagai pentadbir\" yang ditandakan pada dialog sifat windows fail di IDMan.exe.\r\n\r\nSila buka folder IDM, klik kanan pada \"IDMan.exe\", pilih item menu \"Sifat\", beralih ke tab \"Keserasian\", dan menghapuskan tanda dari \"Mulakan program ini sebagai pentadbir\" kotak tanda. 
+
+//v5.16
+20867=Tidak boleh meneruskan muat-turun fail tersebut:
+20868=IDM sedang menunggu alamat baharu untuk meneruskan fail:
+20869=Ini kemungkinan bahawa alamat fail tersebut tidak sah lagi atau sesi anda telah berakhir.
+20870=Adakah alamat baharu ini untuk muat-turun tamat tempoh anda?
+20872=Menyegarkan alamat muat-turun
+20873=IDM sedang menunggu alamat baharu untuk muat-turun lain yang tamat tempoh. Hanya satu muat-turun tamat tempoh harus menggunakan ciri-ciri ini dalam masa yang sama.
+20874=IDM akan membuka laman web di pelayar anda di mana itu ditangkap muat-turun ini. Sila mulakan muat-turun dari fail yang sama dari pelayar anda lagi, dan IDM akan cuba untuk menangkap alamat baharu atau data sesi baharu untuk meneruskan muat-turun ini
+20871=Menunggu data baharu
+1732=Berhenti menunggu
+20875=Alamat pautan baharu untuk fail ini berjaya diterima.
+20876=Sila mulakan muat-turun fail yang sama dari pelayar anda secara manual, dan IDM akan cuba untuk menangkap alamat baharu atau data sesi baharu untuk meneruskan muat-turun ini
+20877=Cuba segarkan sesi muat-turun dan dapatkan alamat baharu dengan menggunakan item menu \"Segarkan alamat muat-turun\" dari menu klik kanan fail dalam senarai muat-turun IDM.\r\nAtaupun cuba untuk memadam muat-turun ini, kemudian mulai lagi dari pelayar anda untuk muat-turun dengan IDM dari awal.
+20878=Muat-turun laman web pemilik untuk segarkan alamat pautan
+20879=Laman web menghantar halaman dan bukan fail ketika fail ini diminta kedua kalinya dengan IDM. Mungkin laman web ini menggunakan pautan sementara dan tidak membenarkan permintaan alamat yang sama dua kali.\r\n\r\nCuba untuk menghapuskan muat-turun ini, kemudian mulai lagi dari pelayar anda dan, ketika IDM menangkap tersebut, muat-turun tanpa berhenti/jeda.
+1741=Laman web yang fail ini diperolehi daripada:
+20880=Memeriksa alamat: %s
+20881=Anda belum pilih fail untuk muat-turun!\r\nSila tutup dialog \"%s\" jika anda tidak ingin muat-turun apa-apa dengan menggunakan butang \"Batal\".
+20882=Tambah muat-turun fail dengan IDM
+1739=Papar barisan pilihan panel pada penekanan "Muat-turun nanti"
+1738=Papar barisan pilihan panel tentang cara menambah muat-turun kelompok
+1735=Tambah fail ke barisan:
+20884=Jangan tambah ke sebarang barisan
+1736=Mula memproses barisan
+1737=Jangan tanya saya lagi
+20883=Anda boleh mengaktifkan panel ini dalam \"Pilihan->Muat-turun\"
+
+//v5.17b4
+34036=Tambah muat-turun kelompok dari &papan klip
+20885=Beberapa URL ditemui di papan klip. Adakah anda ingin muat-turun ia?
+20886=Muat-turun kelompok dari papan klip.
+20887=Tidak dapat mencari alamat web di papan klip!
+
+//v5.18b3
+m34037=Ikon dulang IDM
+34037=Gaya 3D
+34038=Gaya klasik
+34039=Jangan paparkan
+
+//v5.18b5
+20889=Lesen anda untuk Internet Download Manager telah tamat.\r\nIDM telah berhenti berfungsi. Sila dapatkan lesen baharu untuk menggunakan IDM
+20890=Perhatian:\r\nLesen anda untuk IDM akan tamat tempoh dalam %ld hari.\r\n\r\nSila ambil perhatian bahawa item menu \"Pendaftaran->Pendaftaran\" telah dimatikan sekarang, \r\ntetapi akan dihidupkan selepas lesen anda tamat
+
+20891=Anda TIDAK menanda mana-mana hari dalam seminggu untuk penjadual harus bermula!
+20892=Mula harian
+
+20893=Anda telah memasukkan ruang sebelum nama pengguna. Jika ruang itu dimasukkan oleh ralat, adakah anda ingin memadam ruangan dengan IDM?
+20894=Anda telah memasukkan ruang selepas nama pengguna. Jika ruang itu dimasukkan oleh ralat, adakah anda ingin memadam ruangan dengan IDM?
+20895=Anda telah memasukkan ruang sebelum kata laluan. Jika ruang itu dimasukkan oleh ralat, adakah anda ingin memadam ruangan dengan IDM?
+20896=Anda telah memasukkan ruang selepas kata laluan. Jika ruang itu dimasukkan oleh ralat, adakah anda ingin memadam ruangan dengan IDM?
+
+//5.19
+1748=Ubahsuai panel muat-turun IDM di pelayar
+20899=Untuk pemain-web 
+20900=Untuk fail yang dipilih
+1749=IDM dapat menunjukkan panel muat-turun pada laman-web ketika anda memilih teks yang mengandungi pautan muat-turun.
+20901=(Saat ini ciri-ciri ini bekerja untuk Internet Explorer, pelayar berasaskan IE, Firefox dan pelayar berasaskan Mozilla)
+20903=Muat-turun fail yang dipilih dengan IDM
+1744=Papar panel muat-turun untuk setiap pautan yang dipilih
+1745=Jangan paparkan panel muat-turun untuk pautan yang dipilih
+1746=Papar panel muat-turun untuk pautan yang dipilih untuk halaman yang berikut sahaja:
+1751=Tangkap muat-turun dari pelayar berikut:
+1742=Tanda Semua
+1743=Padam Semua
+
+//5.19b3
+20904=IDM tidak dapat mencari bahagian untuk memasang/nyahpasang integrasi sambungan pelayar. Sila pasang semula IDM.
+20911=IDM akan muat-turun laman web bukan fail.
+20909=Adakah anda ingin tahu cara muat-turun fail dari Rapidshare dengan IDM?
+20910=Adakah anda ingin tahu cara muat-turun dari laman kongsian fail dengan IDM?
+20905=Tidak dapat pindahkan muat-turun ke IDM
+20906=Ini kemungkinan bahawa pelayar anda dan IDM ditetapkan untuk dijalankan di bawah hak istimewa yang berbeza (tahap peringkat yang berbeza).\r\n\r\nJika anda menjalankan IDM dengan menggunakan item menu \"Mulakan sebagai pentadbir\", sila keluar IDM (pilih item menu \"Tugas->Keluar\" dari tetingkap utama IDM) dan mulakan IDM sekali lagi.\r\n\r\nKemungkinan anda mempunyai kotak \"Mulakan program ini sebagai pentadbir\" yang ditandakan pada dialog sifat windows fail di IDMan.exe. Sila membuka folder IDM, klik kanan pada \"IDMan.exe\", pilih item menu \"Sifat\", beralih ke tab \"Keserasian\", dan menghapuskan tanda dari \"Mulakan program ini sebagai pentadbir\" kotak tanda. Selain itu anda perlu menghapuskan keserasian dengan versi sebelumnya dari Windows jika ada dihidupkan. Sila mulakan semula IDM selepas itu.
+20907=Jika kotak tanda \"Mulakan sebagai pentadbir\" atau \"keserasian dengan versi sebelumnya dari Windows\" tidak tanda untuk IDM, sila matikan mereka pada sifat Windows di pelayar anda.
+
+//v6.0b
+20897=video %dx%d, jangka masa %d:%02d
+20912=Jangka masa
+20913=Sila ambil perhatian bahawa jika anda mempunyai beberapa pengguna pada komputer anda, integrasi sambungan pelayar akan dimatikan untuk semua pengguna.
+20914=Setelah mengintegrasikan Internet Download Manager ke dalam aplikasi baharu anda boleh matikan pilihan \"Kesan Aplikasi Baharu\" untuk prestasi yang lebih baik.
+20915=Ini adalah versi BETA Internet Download Manager.\r\nIni akan memasang pemacu rangkaian baharu, ia akan meningkatkan integrasi dengan pemain web secara ketara dan perubahan integrasi tua dengan beberapa pelayar seperti Chrome atau Opera. Jika anda mengalami masalah saat menyambung ke Internet, contohnya, pembekuan sistem, atau crash, dll, sila buka pilihan IDM dan matikan tanda kotak \"Gunakan integrasi sambungan pelayar\" pada tab Umum. Ini akan mematikan pemacu baharu.
+
+//v6.03b2
+20919=IDM mendapati bahawa komputer anda mungkin tidak mempunyai pemain yang akan memainkan video %s. Anda perlu memasang pemain %s.\r\n\r\nAdakah anda ingin membaca tentang pemain %s?
+20920=video %s telah dimuat-turun
+
+//
+//Dear translators, please note that we have changed several old strings:
+//
+t1278=Sembunyi kategori
+t32789=Tambah alamat muat-turun baharu secara manual
+t1004=Tambah fail ke senarai IDM untuk muat-turun kemudian
+t1061=Memantau papan klip sistem untuk pautan yang dimuat-turun dengan IDM
+187=Sasaran lepas IDM. Lepaskan pautan web untuk memuat-turun di sini.
+20176=Fail yang diminta kelihatan seperti laman web HTML.\r\n\r\nJika muat-turun ini diambil alih dari pelayar anda secara automatik apabila anda klik pautan, cubalah untuk menahan butang Alt saat mengklik pautan untuk membuka laman dengan IE.\r\n\r\nAdakah anda ingin melanjutkan muat-turun fail dengan IDM dan menyimpannya sebagai halaman HTML?
+20177=Fail yang muat-turun kelihatan seperti laman web HTML.\r\n\r\nJika muat-turun ini diambil alih dari pelayar anda secara automatik apabila anda klik pautan, cubalah untuk menahan butang Alt saat mengklik pautan untuk membuka laman dengan IE.\r\n\r\nAdakah anda ingin menukar nama fail yang dimuat-turun untuk halaman HTML?
+34012=Cari toolbar baharu
+20573=Cari toolbar baharu
+57670=Kandungan bantuan
+20721=IDM telah berjaya diintegrasikan ke dalam Mozilla Firefox.\nAnda perlu membuka semula pelayar Firefox untuk melaksanakan perubahan.
+20342=Muat-turun pautan ditemui di papan klip. Adakah anda ingin memuat-turun ia?
+
+//Old strings 20016, 20017, 20350 replaced with:
+20916=Ralat tidak diketahui berlaku semasa muat-turun. Sila cuba sekali lagi.
+20917=Ralat berlaku semasa muat-turun. Sila cuba sekali lagi.
+20918=Nombor Siri anda untuk Internet Download Manager telah disekat kerana pendaftaran yang berbeza. IDM akan ditutup...
+
+//And deleted the following strings: 
+//20178, 20179, 20180, 20181, 20182, 20183, 20184, 20185, 20186, 20187, 20188, 20189, 20190, 20191, 20192, 20193, 20194, 20195, 20196, 20197, 
+//20198, 20200, 20201, 20202, 20208, 20209, 20210, 20223, 20224, 1238, 1251, 1314, t1065, t1068, 20016, 20017, 20350
+
+//v6.03b3
+//We have changed the old strings: 20146 and 20033 (Tab name) 
+
+20921=Adakah anda ingin tahu cara memuat-turun fail dari laman %s dengan IDM?
+20923=Pelaksana IDM ada di desktop
+20922=Anda telah menempatkan fail pelaksana IDM pada desktop. IDM tidak boleh berfungsi dengan betul tanpa fail lain, sila pindahkan IDMan.exe kembali ke program, dan membuat pintasan bagi IDM ke Desktop sebagai gantinya. Untuk membuat pintasan, buka folder IDM di Program, klik kanan pada fail IDMan.exe dan menggunakan popup item menu \"Send To -> Desktop (create shortcut)\"
+20924=Nota 2: Kadangkala bila anda klik pada pautan, pelayar anda akan meminta fail yang lain PADA WAKTU YANG SAMA seperti Javascript, laman web, imej, dll. Apabila anda menekan dan tekan butang khas, IDM menahan fail tersebut, dan pelayar tidak boleh meminta fail yang diperlukan kerana tidak akan menjalankan Javascript, yang telah dicegat oleh IDM. Jika anda ingin menahan dan muat-turun hanya fail yang diperlukan dengan IDM, sila aktifkan pilihan di bawah:
+1753=Sambil menekan butang khas JANGAN mengambil alih muat-turun yang laman web, imej, skrip dan lain-lain
+20925=Anda mempunyai %s integrasi pelayar yang usang, atau integrasi %s tidak dipasang. Adakah anda igin membaca bagaimana cara memperbaikinya?
+20926=IDM menunjukkan sebuah panel muat-turun dan bukannya menangkap muat-turun dalam pemain web ketika integrasi %s berfungsi dengan betul.
+
+//v6.04b2
+20928=IDM telah menahan fail ini dari pemain media web kerana panel muat-turun dimatikan untuk jenis fail masing-masing di Pilihan IDM.\r\n\r\nJika anda ingin IDM untuk menahan diri dari menahan fail tersebut sila layari tab \"Umum\" di Pilihan IDM, klik butang \"Ubah...\" untuk panel muat-turun di pelayar dan mengaktifkan kotak tanda \"Jangan menangkap muat-turun dari web-pemain automatik\" di tetingkap pop-up.
+20929=IDM tidak boleh melibat Integrasi Lanjutan Pelayar kerana salah satu alasan yang berikut:\r\n1. Anda tidak mempunyai hak Pentadbir atau anda tidak membolehkan program pembantu IDM untuk melaksana sebagai Pentadbir.\r\n2. Anda menekan butang Batal pada saat pemasangan pemacu rangkaian IDM.\r\n3. Anda telah menghalang pemulaan pemacu rangkaian IDM atau pemasangan dengan menggunakan perisian keselamatan pihak ketiga atau antivirus.
+//v6.04b3
+20930=IDM tidak dapat mencari fail %ld yang diperlukan untuk integrasi pelayar dan sistem. Sila pasang semula IDM
+
+//v6.06
+//"Serial Number" explanation on registration dialog
+20931=Apakah \"%s\"?
+20932=%s adalah kekunci produk bagi Internet Download Manager.\r\nIni adalah kod unik berabjad angka untuk setiap pengguna yang seperti\r\n xxxxx-xxxxx-xxxxx-xxxxx\r\n\r\nAnda akan menerima Nombor Siri anda HANYA selepas pembelian IDM.\r\nSila tekan butang \"%s\" untuk membeli IDM.
+
+//v6.07
+20933=Tetapan ini tidak tersedia untuk muat-turun yang diproses dari barisan IDM
+20934=Tetapan ini tidak tersedia apabila \"%s\" diaktifkan
+363=Status muat-turun
+364=Pilihan apabila selesai
+20935=Internet Download Manager telah selesai memuat-turun fail. Mengikut tetapan anda untuk muat-turun ini IDM akan ditutup. Tetapi anda mempunyai muat-turun lain sedang berjalan yang akan berhenti bila ditutupt. Tekan butang Batal untuk tidak menutupnya.
+20936=Internet Download Manager telah selesai memuat-turun fail. Mengikut tetapan anda untuk muat-turun ini IDM akan hentikan sambungan ke modem anda.
+20937=Internet Download Manager telah selesai memuat-turun fail. Mengikut tetapan anda untuk muat-turun ini komputer anda akan dimatikan.
+1762= Papar panel muat-turun untuk kandungan dilindungi \r\n yang IDM mungkin tidak dapat muat-turun
+20938=kandungan dilindungi
+20939=IDM tidak dapat muat-turun aliran dilindungi ini untuk sebab undang-undang. Muat-turun seperti ini tidak disokong kerana IDM mungkin tidak dapat memintas kaedah teknologi yang dicipta untuk perlindungan kandungan audio, video dan data.\r\n\r\nAnda boleh menyahaktif panel muat-turun untuk kandungan dilindungi yang IDM tidak dapat muat-turun di \"Pilihan IDM -> tab Umum\"
+
+//v6.07b7
+365=Had Kelajuan
+1763=Kelajuan muat turun maksima:
+1765=Ingat tetapan Had Kelajuan untuk fail ini\r\n berhenti/menyambung muat turun
+1772=Sembunyikan tab
+367=Mengubahsuai dialog kemajuan muat-turun
+1767=Mengubahsuai dialog "Kemajuan muat-turun"
+1775=Mulakan Paparan:
+1774=Nota: Pilihan "Mulakan Paparan" tidak berkaitan dengan barisan diproses. Semasa IDM memproses barisan, dialog "Kemajuan muat-turun" sentiasa dikecilkan ke dulang sistem
+1768=Papar tab "Had Kelajuan"
+1769=Papar tab "Pilihan setelah selesai"
+1773=Papar butang "Sembunyikan tab"
+
+//v6.07b12
+20941=Ralat menyambung ke VPN
+20940=Kemungkinan bahawa anda perlu menukar sambungan VPN yang ditetapkan dalam pilihan IDM, atau mematikan \"Gunakan Windows Dial Up / Rangkaian VPN\" kotak semak dalam pilihan IDM -> \"Dial Up / VPN\" tab
+20942=kualiti
+
+//v6.08b2 beta
+20949=Proksi/Socks
+20948=Konfigurasi proksi / socks
+369=Tetapan proksi lanjutan
+1777=Lanjutan...
+1778=Guna proksi
+1785=Guna proksi ini untuk protokol berikut:
+1779=Guna socks
+1786=Alamat pelayan socks
+20943=Tidak dapat menyambung ke pelayan socks, kebenaran yang diperlukan
+20944=Pelayan socks tidak dapat menyambung ke %s 
+20945=Tidak boleh menyambung melalui pelayan socks, jenis socks tidak diketahui
+20946=Tidak boleh menyambung melalui pelayan socks, kebenaran gagal!
+20947=Tidak boleh menyambung ke pelayan socks %s
+
+//v6.09b2 beta
+1787=Pengecualian
+370=Pengecualian panel muat-turun
+1788=Jangan tunjukkan panel muat-turun IDM untuk laman berikut:
+1789=Asingkan nama dengan ruang. Anda boleh menggunakan tanda bintang sebagai pola kad-bebas
+20950=IDM tidak boleh melibatkan Lanjutan Integrasi Pelayar kerana perkhidmatan Windows \"Base Filtering Engine\" tidak berjalan. Sila klik kanan ikon Komputer, pilih \"Mengurus\", navigasi ke \"Perkhidmatan dan Aplikasi -> Perkhidmatan\", kemudian cari \"Base Filtering Engine\" dalam senarai dan klik kanan untuk membuka Sifat. Tukar jenis Permulaan ke \"Automatik\", klik \"Mulakan\" dan sahkan perubahan.\r\n\r\nKlik OK untuk melawat laman web untuk dapatkan maklumat tambahan.
+20951=IDM tidak boleh melibatkan Integrasi Lanjutan Pelayar kerana perkhidmatan Windows \"Base Filtering Engine\" telah hilang. Ini boleh berlaku kerana sistem anda dirosakkan oleh malware komputer.\r\n\r\nKlik OK untuk membuka laman web dengan arahan pemulihan.
+
+//v6.11
+341=Tambah jenis fail
+349=Masukkan nama laman
+1790=Masukkan fail dalam kategori ini daripada laman berikut sahaja secara automatik:
+1793=Asingkan laman dengan ruang. Anda boleh menggunakan tanda bintang sebagai pola kad-bebas
+20952=Sila ambil perhatian bahawa mengikut lesen IDM yang anda terima semasa pemasangan IDM, sekarang anda perlu membeli atau nyahpasang IDM
+
+//v6.11b7
+20953=Terkini...
+
+//v6.12b2
+20954=Pelayar anda mungkin tidak boleh membuka laman web IDM kerana fail sistem yang penting telah rosak pada komputer anda. Baiki fail ini?
+20955=IDM tidak boleh menyemak kemas kini kerana fail sistem yang penting telah rosak pada komputer anda. Baiki fail ini?
+
+//v6.12b5
+1795=Tetapkan tarikh penciptaan fail seperti diperuntukkan pelayan
+
+//v6.12b6
+20956=Untuk mengemaskini sebahagian daripada sambungan IDM untuk Firefox, sila tutup Firefox (atau SeaMonkey) dan kemudian tekan butang \"Cuba\"\r\nAtau anda perlu memulakan semula komputer anda kemudian
+
+//v6.12b8
+//Please pay attention that we added the possibility to translate text for IDM installer and IDM uninstaller. 
+//You can find the templat to translate installer in "template_inst.lng" file in "Languages" folder
+
+//v6.12b22
+20995=IDM mula memuat-turun fail yang menggunakan satu sambungan kerana kerosakan data apabila data yang baharu diterima dalam beberapa sambungan tidak sepadan dengan data yang sama dimuat-turun sebelum ini.\r\nAdakah anda mahu membaca sebab-sebab kemungkinan kerosakan data?
+20996=IDM mula memuat-turun fail dari awal sejak data telah rosak kerana data yang baharu diterima tidak sepadan dengan data yang sama dimuat-turun sebelum ini.\r\nAdakah anda mahu membaca sebab-sebab kemungkinan kerosakan data?
+20997=Lanjutan IDM telah berjaya dipasang ke dalam (atau dikemaskini dalam) pelayar Google Chrome.\nAnda perlu mulakan semula Chrome untuk perubahan ini
+
+//v6.15
+1796=Guna skrip konfigurasi automatik
+20998=Kebenaran proksi diperlukan untuk pelayan proksi ini. Atau mematikan \"Gunakan skrip konfigurasi automatik\" kotak semak di Pilihan IDM->Proksi/Socks
+20999=IDM telah mengesan bahawa anda menggunakan skrip konfigurasi proksi automatik berikut dalam Internet Explorer:\r\n%s\r\n\r\nAdakah anda ingin untuk menggunakan tetapan proksi sama di IDM?
+//v6.15b7
+21000=Ini adalah siaran aliran secara langsung. Jika anda berhenti, anda tidak akan dapat menyambung semula muat-turun dari kedudukan semasa.\r\nAdakah anda ingin menghentikan dan menyimpan siaran sebagai fail yang lengkap?
+21001=Simpanan aliran secara langsung
+
+//v6.15b9
+21002=Muat-turun skrip proksi gagal
+21003=Adakah anda ingin membaca arahan terperinci bagaimana untuk mengkonfigurasi dinding api anda untuk berfungsi dengan IDM?
+
+//6.15b10
+21004=format yang tidak diketahui (%d)
+20898=Muat-turun sehingga bingkai yang sepadan ditemui pada bahagian fail seterusnya...
+
+//v6.16
+21105=Integrasi Lanjutan Pelayar tidak dapat diaktifkan kerana kesilapan versi pemacu TDI Kaspersky telah dipasang!\r\nJika kemaskini produk Kaspersky secara automatik tidak membantu, sila hubungi sokongan Kaspersky untuk mendapatkan kemaskini untuk pemacu \"kltdi\".
+
+//v6.17b7
+21106=Ralat telah berlaku semasa menghimpun fail
+21109=Versi IDM ini tidak menyokong jenis muat-turun sebegini. Cuba kemaskini IDM ke versi terkini.
+21110=Penyambung IDM telah berjaya dipasang ke dalam (atau dikemaskini dalam) pelayar Google Chrome.\r\nAnda perlu mengaktifkan sambungan \"Modul Integrasi IDM\" dalam tetapan Google Chrome jika anda mahu IDM berfungsi dengan betul dalam Chrome
+21111=1. Sila mulakan semula Google Chrome dan tekan pada menu Chrome (panah 1 dalam imej)\r\n2. Pilih item menu \"Tetapan\" (panah 2 dalam imej).\r\n3. Pilih tab \"Lanjutan\" (panah 3 dalam imej). \r\n4. Semak bahawa sambungan \"Modul Integrasi IDM\" telah diaktifkan (panah 4 dalam imej).\r\n5. Jika anda menggunakan mod inkognito dalam Chrome, anda perlu mengaktifkan kotak semak \"Benarkan dalam inkognito\" (panah 5 dalam imej).
+
+//v6.17b9
+//Dear translators, please pay attention that we have added one new line (1062) to template_inst.lng file. Please translate it, and add it to your installer translation file.
+
+//v6.18b3 
+//One more
+//Please pay attention that we have added one more new line (21112) to template_inst.lng file. Please translate it, and add it to your installer translation file.
+
+//v6.18b8
+//we have changed Options->Connection tab
+21113=Kelajuan rendah: Modem Dial Up / ISDN / Bluetooth / Mobile Edge / IrDA
+21114=Kelajuan sederhana: ADSL / DSL /  Mobile 3G / Wi-Fi / Bluetooth 3.0 / lain
+21115=Kelajuan tinggi: Sambungan terus (Ethernet/Kabel) / Wi-Fi / Mobile 4G / lain
+21116=Sila gunakan bilangan sambungan yang tinggi dengan berhati-hati. Sesetengah pelayan yang mempunyai had-had tertentu untuk beberapa sambungan dari satu klien. Apabila bilangan sambungan adalah tinggi, pelayan boleh meletakkan komputer anda ke dalam senarai hitam, terutamanya apabila anda memuat-turun beberapa fail pada masa yang sama dengan jumlah sambungan yang tinggi.\r\n\r\nSelain itu, untuk sesetengah jenis sambungan, atau komputer atau penghala dengan prestasi rendah, kelajuan muat-turun boleh berkurangan apabila anda meningkatkan bilangan sambungan.
+
+//v6.19
+21117=Hanya ada satu nama folder dalam pilihan anda. Sila masukkan nama untuk fail.
+21118=Saiz bagi fail \"%s\" adalah %.1f GBytes.\r\nDrive \"%s\" di mana anda ingin menyimpan fail ini mempunyai %s sistem fail. Fail yang lebih besar daripada %d GBytes tidak boleh ditulis di sistem fail ini.\r\n\r\nSila pilih folder untuk fail ini pada pemacu yang lain dengan sistem fail NTFS
+21119=Saiz bagi fail \r\n%s\r\n adalah %.1f GBytes.\r\nDirektori sementara bagi IDW untuk menyimpan bahagian fail semasa muat turun terletak pada pemacu \"%s\", pemacu ini mempunyai %s sistem fail. Fail yang lebih besar daripada %d GBytes tidak boleh ditulis di sistem fail ini.\r\n\r\nUntuk memuat-turun, sila tukar lokasi direktori sementara ke pemacu lain di \"Pilihan->Simpan Ke\" dan kemudian sambung semula memuat-turun
+
+//v6.19b8
+21005=trek audio sahaja
+21006=trek video sahaja
+
+//v6.19b9
+21120=Gagal menyemak kemaskini, kerana maklumat kemaskini tidak sah.\r\nJika anda menggunakan Wi-Fi yang memerlukan log masuk dalam pelayar, sila log masuk sebelum memeriksa kemaskini
+21121=Beberapa aplikasi telah merosakkan integrasi IDM ke dalam pelayar\r\n\r\nAnda perlu memasang semula IDM untuk mengembalikannya. Atau mencuba kemaskini IDM dengan menggunakan item menu IDM \"Bantuan->Semak kemaskini\".\r\nJuga mengesahkan bahawa integrasi IDM ke dalam pelayar anda dibuka di Pilihan IDM -> tab Umum.
+
+//6.21b3
+21125=Pindah
+21126=Pindah/Nama Semula
+
+//new "Find file" dialog
+487=Cari fail
+21122=Cari fail
+21123=Tiada fail dijumpai
+21124=Carian selesai
+1807=Nama fail atau sebahagian nama fail:
+1809=Penerangan atau sebahagian penerangan:
+1811=Padanan huruf
+1812=Padanan hanya tulisan keseluruhan
+1673=Cari
+//New subitems in "Downloads" main menu
+34040=Cari (Ctrl-F)
+34041=Cari Seterusnya (F3)
+
+//v6.21b5
+21128=IDM tidak dapat memulakan aplikasi Kemaskini. Ini mungkin disebabkan oleh ralat tetapan perisian antivirus untuk folder yang mengandungi fail perkhidmatan IDM.\r\n\r\nIDM kini akan membuka folder ini, dan anda boleh menjalankan fail \"idmupdt.exe\" secara manual.\r\n\r\nAtaupun anda boleh muat-turun versi terbaru IDM daripada laman IDM, dan pasang ia untuk gantikan versi semasa anda
+21129=Kualiti Lain...
+21130=Jika anda ingin muat-turun video ini dalam kualiti yang lain, sila pilih kualiti yang dikehendaki dalam pemain web. Selepas itu, kualiti yang dipilih akan muncul dalam menu turun-bawah daripada panel muat-turun IDM.
+21131=Pilih Folder
+
+//v6.21b11
+21132=IDM telah muat-turun fail %s yang menggunakan kodeks baharu yang tidak dipasang pada komputer anda.\r\nSila baca maklumat lanjut dari laman utama IDM untuk mainkan fail tersebut dalam pemain anda.
+1813=Gunakan pemprosesan laman web Lanjutan
+21133=Beberapa modul IDM belum dikemaskini. Sila pasang semula versi IDM terbaru, buka semula komputer anda, dan cuba lagi untuk muat-turun fail ini
+
+//v6.21b16
+21134=IDM tidak dapat bangunkan komputer dari tidur untuk mulakan barisan muat-turun anda pada masa yang dijadualkan.
+21135=Sila ambil perhatian bahawa apabila anda menukar ke mod Metro, desktop boleh pergi ke mod tidur.
+21136=Jika anda ingin IDM muat-turun barisan pada masa yang dijadualkan, sila aktifkan penentu masa membangunkan dalam persekitaran Windows.\r\nMembuka \"Control Panel\\Power Options\\Change Plan Settings\\Change advanced power settings\", kemudian buka nod \"Sleep\\Allow wake timers\" dan tetapkannya ke \"Enable\".\r\n\r\nAdakah anda mahu melihat bagaimana untuk melakukannya pada tangkapan skrin?
+
+//v6.23b12
+21137=Sila ambil perhatian bahawa versi ini dan versi terdahulu IDM tidak boleh menggunakan fail \"hos\" apabila mereka berhubung ke laman IDM. Apabila anda menukar fail ini, anda menutup akses ke laman web IDM untuk pelayar web anda sahaja. Apabila anda menekan butang OK, IDM akan menyemak kemaskini dengan jayanya walaupun dengan fail \"hos\" anda yang rosak.
+21138=Pelayar anda tidak boleh membuka laman web IDM kerana fail sistem penting pada komputer anda telah rosak. IDM akan membaiki fail ini sekarang.
+
+//v6.25b16
+21139=Nombor siri untuk IDM yang anda masukkan telah digunakan di komputer lain dan disambungkan ke alamat emel yang berlainan
+21140=Nombor siri untuk IDM\r\n%s\r\nyang anda masukkan telah digunakan di komputer lain.\r\n\r\nJika anda ingin gunakan nombor siri di komputer ini, maka anda perlu nyahpasang IDM dari komputer lain (atau semua komputer lain) dimana nombor siri ini telah digunakan. Jika anda gunakan nombor siri yang sama di komputer lain pada masa yang sama, nombor siri ini akan dihalang secara automatik.\r\n\r\nAdakah anda ingin sambung pendaftaran IDM dengan nombor siri\r\n%s\r\n?
+//Please pay attention that we have added one more new line (1063) to template_inst.lng file. Please translate it, and add it to your installer translation file.
+
+//v6.25b18
+21142=Adakah anda ingin baca lebih lagi?
+21141=Anda mendaftar IDM dengan nombor siri berikut \r\n%s\r\n\r\nNombor siri ini telah dihalang di pelayan IDM. IDM akan ditutup...
+
+//v6.26b5
+21146=IDM telah menjumpai bahagian yang tiada rujukan dan tidak dipadam dari muat-turun lama di folder sementara IDM\r\n%s\r\nAdakah anda mahukan IDM untuk padam semuanya bagi menambah kembali ruangan kosong cakera anda?
+
+//v6.27
+21147=Nombor siri anda bermula dengan:  %s...............
+488=Saiz mininum
+1822=Saiz min.
+21148=Jangan papar panel \"Muat-turun audio ini\" jika saiz fail audio dibawah saiz minimum berikut dalam kilobyte
+21149=Jangan papar panel \"Muat-turun video ini\" jika saiz fail media dibawah saiz minimum berikut dalam kilobyte 
+21150=Nota: Pengehadan ini hanya berfungsi jika saiz fail media diketahui. Dimana situasi apabila hanya jangkamasa diketahui, atau tiada apa diketahui sehingga fail dimuat-turun sepenuhnya. Untuk situasi itu pengehadan saiz fail tidak akan berfungsi.
+
+//v6.28b7
+21151=Anda mungkin mempunyai pustaka kriptografi XP yang usang.\r\nAdakah anda ingin baca lebih lanjut?
+
+21153=Matikan
+21154=Tidur
+21155=Hibernasi
+21157=Internet Download Manager telah selesai memproses barisan. Menurut tetapan penjadual komputer anda akan masuk ke mod tidur.
+21158=Internet Download Manager telah selesai memproses projek penyambar. Menurut tetapan penjadual komputer anda akan masuk ke mod tidur.
+21159=Internet Download Manager telah selesai memuat-turun fail. Menurut tetapan penjadual komputer anda akan masuk ke mod tidur.
+21160=Internet Download Manager telah selesai memproses barisan. Menurut tetapan penjadual komputer anda akan berhibernasi.
+21161=Internet Download Manager telah selesai memproses projek penyambar. Menurut tetapan penjadual komputer anda akan berhibernasi.
+21162=Internet Download Manager telah selesai memuat-turun fail. Menurut tetapan penjadual komputer anda akan berhibernasi.
+21163=Mod tidur
+21164=Tidur sekarang
+21165=Hibernasi sekarang
+
+21167=Integrasi IDM ke Firefox 53 dan ke atas akan berfungsi bila \"Gunakan integrasi sambungan pelayar\" diaktifkan di Pilihan IDM -> tab Umum
+
+//v6.30
+1823=Konfigurasi manual proksi/socks
+1824=Kesan tetapan proksi untuk rangkaian ini secara automatik
+1825=Guna tetapan sistem
+1826=Tiada proksi/socks
+21169=IDM tidak dapat kesan URL bagi fail Auto-Konfigurasi Proksi untuk rangkaian ini!/r/n/r/nJika anda tidak mempunyai konfigurasi automatik ditetapkan untuk rangkaian anda, anda tidak patut gunakan pilihan ini untuk elakkan lengah masa apabila IDM cuba mencari fail pek proksi.
+489=Integrasi ke pelayar Microsoft Edge
+21170=Satu penyambung baharu "modul integrasi IDM" untuk Edge telah diterbitkan. Penyambung ini diperlukan untuk integrasi sepenuhnya ke pelayar Microsoft Edge. IDM akan mulakan pemasangan penyambung ini dari Microsoft Store.\r\nDialog Microsoft Store untuk pemasangan penyambung IDM akan dipaparkan bila anda menutup dialog ini.\r\nSila tekan butang "Dapatkan" di dialog Microsoft Store seperti yang diilustrasi dalam imej dibawah.
+1828=Sila tunggu pemasangan selesai dan buka pelayar Edge. Dalam beberapa saat Edge akan paparkan satu notifikasi tentang penyambung baharu. Sila sahkan dengan tekan butang "Aktifkan ia". Lihat imej dibawah.
+
+//v6.30b7
+p21171=Sila masukkan alamat emel anda dimana kami akan menghantar nombor siri IDM dan maklumat lain pendaftaran selepas pembelian.
+p21172=Ambil perhatian yang emel ini boleh digunakan untuk dapatkan kembali nombor siri jika anda kehilangannya, atau ia boleh digunakan untuk bantuan keutamaan IDM. Jadi, ianya penting untuk memasukkan emel yang betul.
+p21173=Masukkan emel anda
+
+p21174=Lesen satu-tahun IDM anda dengan nombor siri yang bermula dengan %s...
+p21175=akan tamat (atau telah tamat) pada %s
+
+p21176=Adakah anda ingin lanjutkan lesen ini ke tahun berikutnya?
+p21177=Lanjutkan lesen saya sekarang
+p21178=Anda juga boleh tekan butang Beli di menu laman web untuk buka laman belian biasa
+
+//v6.30b8
+21179=Lesen IDM anda telah dilanjutkan sehingga %s
+
+//v6.33
+21180=Tingkatkan tangkapan muat turun
+21181=IDM akan menghantar laporan mengenai masalah dengan permintaan unduhan berulang dari laman web %s, dan peraturan untuk memproses muat turun dari laman web ini tanpa kunci khas harus ditambahkan ke pelayan IDM dalam beberapa waktu.\r\n\r\nIni juga kemungkinan pelayan IDM sudah mempunyai penyelesaian untuk memuat turun dari laman web ini, maka IDM akan mengemas kini pangkalan data setelah menghantar laporan ini.
+21182=Peraturan untuk memproses muat turun dari laman web %s telah dikemas kini.\r\nSekarang muat turun dari laman web ini dapat dipintas tanpa menggunakan kunci khas.\r\n\r\nPerhatikan bahawa muat turun lama yang ditambahkan sebelum kemas kini tidak akan disambung semula, anda perlu menghapusnya dan mengeluarkannya dari penyemak imbas anda sekali lagi.
+21183=Tidak diubah suai
+21184=IDM memintas muat turun yang menurut tetapan laman web %s hanya dapat diminta sekali, oleh itu IDM cuba memintanya sebelum penyemak imbas. Tetapi tidak ada cukup data dalam permintaan yang dicegat untuk memuat turun fail ini.\r\n\r\nMungkin anda menambahkan muat turun ke penyemak imbas menggunakan cara yang tidak konvensional dengan memintas pemprosesan laman web di laman web perkongsian. Dalam kes ini, anda perlu memulakan semula dengan pautan awam ke muat turun dan lulus semua langkah yang diperlukan agar permintaan yang dipintas akan mempunyai semua data yang diperlukan.\r\n\r\nJika bukan muat turun dan IDM memintasnya secara tidak sengaja, silakan tetapkan kunci khas ("Del" harus berfungsi untuk kebanyakan penyemak imbas) di Pilihan IDM -> Umum -> "Sesuaikan kekunci untuk mencegah atau memaksa memuat turun dengan IDM" dan tahan sambil mengklik pautan untuk mengelakkan memuat turun dengan IDM.
+21185=Fail dengan peraturan muat turun yang dimuat turun dari pelayan IDM mempunyai format baru.\r\nSila kemas kini IDM dengan menggunakan \"Bantuan-> Periksa kemas kini\" item menu IDM sehingga IDM dapat menggunakan peraturan ini.
+
+//v6.33b3
+21186=Masalah ini mungkin berlaku kerana pelanjutan "Modul integrasi IDM" dilumpuhkan atau tidak dipasang di penyemak imbas anda.
+
+//v6.33b5
+21187=Sila pasang pelanjutan untuk penyemak imbas Pale Moon dari laman web IDM.
+21188=Harap maklum bahawa penyemak imbas anda menggunakan peluasan untuk menetapkan sambungan VPN. Kemungkinan besar IDM tidak dapat memuat turun fail kerana penyemak imbas menggunakan proksi / socks yang berbeza untuk permintaan fail ini dan laman web menolak permintaan langsung dari IDM. IDM tidak dapat mengesan proksi atau pelayan socks yang digunakan oleh pelanjutan ini.\r\n\r\nCuba matikan pelanjutan ini di penyemak imbas anda dan cuba memintas muat turun ini sekali lagi. Sekiranya anda tidak dapat memintas dan memuat turun fail tanpa perluasan VPN, cubalah peluasan VPN yang lain.
+21189=Atau cuba memintas muat turun ini dari penyemak imbas lain
+1838=Tetapan pemeriksaan virus
+1839=Pengguna-Ejen untuk muat turun yang ditambahkan secara manual:
+
+//please note that "[File]" in square brackets should not be translated because it's a command line parameter
+21190=Sekiranya anda ingin menjalankan perisian antivirus setelah muat turun selesai, anda harus menaip atau melihat jalan lengkap ke fail yang boleh dilaksanakan. Sekiranya IDM mengetahui tentang parameter yang diperlukan untuk nama fail yang dapat dilaksanakan, ia akan menetapkannya secara automatik. Jika tidak, anda harus menetapkannya secara manual dalam \"Parameter baris arahan\" mengikut dokumentasi perisian antivirus. Fail yang diimbas di antara parameter yang berlainan hendaklah ditulis sebagai\r\n[Fail]\r\n (anda juga harus mengetik tanda kurung persegi). Sekiranya tidak ada parameter yang ditetapkan, IDM akan menjalankan perisian antivirus yang menambahkan jalan lengkap fail yang dimuat turun.
+21191=Perhatikan bahawa semua perisian antivirus moden mempunyai ciri \"perlindungan masa nyata\" yang memeriksa semua operasi dengan fail di komputer anda, dan ia merangkumi semua fail yang dimuat turun di IDM. Oleh itu, anda perlu menambahkan pengimbas perisian antivirus ke tetapan IDM hanya apabila perlindungan masa nyata dimatikan dalam tetapan perisian antivirus.\r\nJuga, dalam beberapa kes, perlindungan masa nyata dapat memperlambat pemasangan fail yang dibuat oleh IDM. Kemudian anda perlu menambahkan proses IDMan.exe ke pengecualian mengikut dokumentasi perisian antivirus, dan mengatur pemeriksaan antivirus pada dialog ini.
+
+//v6.35b7
+21192=Video belum dicampur dengan audio kerana aliran audio mempunyai format yang berbeza. Fail audio akan disimpan secara berasingan sebagai\r\n%s
+21193=Pada Klik dua kali
+21194=Anda tidak dapat membuka fail ini kerana muat turunnya tidak lengkap.\r\nAnda boleh mengubah tindakan klik dua kali ke \"Properties\" di menu klik kanan
+
+//v6.35b9
+21195=Masalah seperti itu berlaku juga apabila salah satu fail IDM dengan peraturan muat turun untuk laman web tertentu dihapus, atau dipasang dengan tidak betul. Ini mungkin berlaku kerana pemasangan IDM yang tidak betul.\r\nSilakan memuat turun dan memasang versi IDM terkini dari laman web rasmi IDM.
+21196=IDM mendapati bahawa beberapa aplikasi telah mematikan pemuatan modul IDM yang diperlukan untuk penyatuan IDM ke dalam penyemak imbas.\r\nIDM akan cuba mengembalikan operasi normal modul ini sekarang. Anda perlu mengesahkan menjalankan \"pembantu Pengurus Muat turun Internet\" dengan hak pentadbiran pada langkah seterusnya.
+21197=IDM telah melepaskan modul untuk penyatuan ke dalam penyemak imbas. Walau bagaimanapun, mungkin perlu menghidupkan semula komputer agar perubahan itu berlaku.
+
+//v6.35b18
+1842=Gunakan TLS 1.3 dari Microsoft (Eksperimental)
+21198=Ini adalah tetapan Windows global, jadi beberapa aplikasi yang menggunakan Pilihan Internet Windows mungkin berfungsi dengan ralat\r\nJuga anda perlu mengesahkan menjalankan \"pembantu Pengurus Muat turun Internet\" dengan hak pentadbiran pada langkah seterusnya
+21199=Tidak dapat memuatkan pustaka ssl. Cuba pasang semula IDM.
+21200=Ralat semasa memuatkan pustaka ssl. Cuba pasang semula IDM.
+21201=Ralat tidak diketahui semasa memuatkan pustaka ssl.
+1843=Catatan: IDM akan menggunakan socks hanya untuk protokol yang TIDAK diperiksa di atas
+
+//v6.35b05
+21202=Anda mesti memasang sambungan "IDM Integraton Module" (add-on) untuk menghidupkan integrasi IDM ke dalam penyemak imbas Firefox. IDM akan membuka halaman pemasangan add-on. Kemudian tekan butang "+ Tambahkan ke Firefox", dan sahkan pemasangannya.
+
+//v6.36b07
+1844=Gunakan proksi/socks dari permintaan penyemak imbas jika terdapat ralat muat turun untuk muat turun yang dipintas dari penyemak imbas
+
+//v6.37b6
+21203=sari kata
+
+//v6.37b7
+21204=Ini adalah versi percubaan 30 hari Pengurus Muat turun Internet. Adakah anda mahu mendaftarkan salinan IDM anda sekarang?
+
+//v6.37b10
+34042=Sokongan Mode Gelap
+21205=Perubahan ini akan berlaku hanya selepas memulakan semula IDM. Adakah anda ingin memulakan semula IDM sekarang?
+21206=IDM akan menggunakan Mode Gelap ketika diaktifkan dalam tetapan Windows\r\n(Klik kanan pada Desktop -> Peribadikan -> Warna -> Mod aplikasi gelap)
+
+//v6.37b15
+21143=Tandatangan digital fail kemas kini IDM tidak sah. Berkemungkinan fail kemas kini rosak.\r\nAnda boleh memuat turun versi baru IDM dari laman utama IDM dan memasangnya melalui versi semasa anda secara manual
+21144=IDM tidak dapat memuat turun fail kemas kini.\r\nAnda boleh memuat turun versi baru IDM dari laman utama IDM dan memasangnya melalui versi semasa anda secara manual
+21145=Lesen ini tamat pada %s
+21207=IDM didaftarkan

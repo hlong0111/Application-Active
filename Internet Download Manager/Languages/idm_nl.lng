@@ -1,0 +1,2055 @@
+﻿lang=0x13 Dutch
+tips=tips_nl.txt
+help=help_nl.chm
+tutor=tut_nl.chm
+grabberhelp=gr_nl.chm
+
+
+1281=Categorieën
+20369=Q
+20370=Bestandsnaam
+20371=Status
+20372=Grootte
+20373=Tijd over
+20374=Overdrachtssnelheid
+20375=Beschrijving
+
+20376=URL toevoegen
+20377=Hervat
+20378=Stop
+20379=Stop alles
+20380=Wissen
+20446=Wis alle
+20381=Opties
+20382=Planner
+20383=Vertel een vriend
+
+t32790=Start/Hervat download van geselecteerde bestand(en)
+t32791=Stop download van geselecteerde bestand(en)
+t32792=Stop alle downloads
+t32793=Verwijder de geselecteerde bestand(en) uit de lijst
+t32794=Verwijder alle voltooide bestanden uit de lijst
+t32795=Browsers/systeemintegratie, bestandstypen, proxy, wachtwoorden en andere
+t32798=Scheduler- en downloadwachtrijen
+t32788=Schrijf een brief naar je vriend over IDM
+
+138=Internet Download Manager Registration
+1326=Voer in de onderstaande velden uw registratiegegevens in en druk op OK button
+1330=Serienummer
+1327=Voornaam
+1328=Achternaam
+1329=E-mailadres
+1191=&OK
+1201=&Licentie aanvragen
+1080=&Annuleren
+
+103=Download voortgang
+1154=(onbekend)
+1178=<< Verberg details
+20426=<< Verberg details
+1158=Pauze
+20392=Pauze
+20424=Begin
+20425=Toon details >>
+1300=Bestandsgrootte
+1301=Gedownload
+1302=Overdrachtssnelheid
+1303=Tijd over
+1149=(onbekend)
+1299=Toestand:
+1030=Verbinden...
+1305=Startposities en downloadvoortgang per connecties
+1304=Hervattingsvermogen
+1175=(onbekend)
+2=Opzeggen
+20416=Nr.
+20417=Gedownload
+20418=Informatie
+20419=Ja
+20420=Nee
+20421=%d uur %d min
+20422=%d min %d sec
+20423=%d sec
+
+130=Bestandsinfo downloaden
+1006=&Download starten
+1010=Bladeren...
+1004=Download &Later
+1298=Omschrijving
+1173=Voorbeeld
+1297=Categorie
+1296=Opslaan als
+t1006=Start het downloaden
+
+148=Voer een nieuw URL in om te downloaden
+1182=Gebruik &autorisatie
+1184=Gebruikersnaam
+1186=Wachtwoord
+1022=O&K
+
+134=Internet Download Manager Configuration
+1092=OK
+20286=Algemeen
+20287=Verbinding
+20288=Downloads
+20289=Proxy
+20290=Sites Logins
+20291=Inbellen
+20292=Geluiden
+20293=Algemeen
+20294=Verbinding
+20295=Downloads
+20296=Proxy
+20297=Logins
+20298=Inbellen
+20299=Geluiden
+20300=Browser/systeemintegratie
+20301=Verbindingstype
+20302=Standaard downloadinstellingen
+20304=Aanmeldingsgegevens voor servers/sites
+20305=Inbelinstellingen
+20306=Geluidsinstellingen
+
+1056=Internet Download Manager met Windows opstarten
+1061=Automatisch URL's van het klembord downloaden
+1065=Integreer in Internet Explorer, MSN Explorer en op IE gebaseerde browsers
+1077=&Standaard
+1169=Bestandstypen...
+1270=Volgende bestanden automatisch starten:
+t1056=Internet Download Manager met Windows opstarten
+
+1102=Gebruik HTTP Proxy
+1272=Bevestig wachtwoord
+1122=Proxy
+1123=Poort
+1124=Gebruikersnaam
+1125=Wachtwoord
+1107=Proxy van IE
+1108=Gebruik FTP Proxy
+1274=Bevestig wachtwoord
+1126=Proxy
+1127=Poort
+1128=Gebruikersnaam
+1129=Wachtwoord
+1113=Proxy van IE
+1116=Gebruik FTP in PASSIEVE modus
+1118=Gebruik HTTPS Proxy
+1273=Bevestig wachtwoord
+1133=Proxy
+1135=Poort
+1137=Gebruikersnaam
+1139=Wachtwoord
+1141=Proxy van IE
+t1107=Probeer de HTTP proxy van Internet Explorer te vinden
+t1116=Gebruik FTP protocol in passieve modus (nodig voor gebruik achter een firewall)
+
+1153=Soort verbinding/snelheid
+1306=Max. aantal verbindingen
+1254=Download limieten
+
+1049=Bladeren
+1190=Onthoud de laatst gebruikte map voor de categorie "Algemeen"
+1136=Standaardmap voor downloads in de categorie "Algemeen"
+1132=Opslaan als...
+1236=Toon dialoog download voltooid
+1317=Virus controle
+1318=Virusscan programma
+1165=Bladeren
+1319=Commandoregel parameters
+1316=Dialoog voortgang
+1315=Dialogen
+1059=Toon dialoog download starten
+1138=Tijdelijke map voor opslaan
+1054=Bladeren
+
+1313=Verbinding:
+1307=Verbindingsopties
+1166=Toepassen
+1308=Herhaalopties
+1309=Aantal pogingen (nul voor oneindig):
+1310=Tijd tussen de pogingen:
+1312=seconden
+1311=keer
+1058=Windows Inbelnetwerk gebruiken
+
+1320=Kies de geluiden voor gebruik in IDM
+1172=Bladeren
+1091=Afspelen
+
+20436=Site/pad
+20437=Gebruiker
+20438=Wachtwoord
+1087=Nieuw
+1196=Wijzigen
+1050=Verwijderen
+
+135=Eigenschappen voor
+1325=Type:
+1324=Grootte:
+1323=Opslaan in:
+1082=&Bladeren
+1322=Login
+1289=Wachtwoord
+1321=Bevestig wachtwoord
+1164=Openen
+1240=Laatste poging
+1241=Resultaat: 
+
+100=Over Internet Download Manager
+1284=WWW pagina:
+1285=Ondersteuning:
+1286=Dit product is geregistreerd op naam van:
+1181=Ongeregistreerde versie
+1161=Controleer op &Update
+1185=&Registreren
+1085=&Aanschaffen
+1262=Versie:
+t1187=Klik om naar de IDM pagina te gaan
+t1189=Zoek ondersteuning voor IDM
+t1161=Controleer op beschikbare updates via www.internetdownloadmanager.com
+t1185=Registreer IDM met uw registratiecode
+t1201=Klik om een licentie voor IDM te kopen
+t1085=Koop een geregistreerde versie van IDM
+
+150=Afsluiten
+1263=Internet Download Manager is klaar met het verwerken van de wachtrij. Volgens de Planner zal de computer nu afsluiten.
+1170=Nu afsluiten
+
+1163=Ja
+1088=Ja op alles
+1202=Nee
+1051=Nee op alles
+
+177=Planner
+1331=Download Wachtrij
+1333=Download
+1332=Planner
+1218=Download starten om
+1219=Eenmalig op
+1221=Dagelijks
+1062=Zondag
+1057=Maandag
+1066=Dinsdag
+1069=Woensdag
+1222=Donderdag
+1223=Vrijdag
+1224=Zaterdag
+1225=Download stoppen om
+1228=Computer afsluiten indien gereed
+1235=Processen geforceerd afsluiten
+1089=Toepassen
+1232=Nu starten
+1233=Stoppen
+1079=Sluiten
+1227=Modem ophangen indien gereed
+1264=MB
+1265=uur
+1266=Niet meer downloaden dan
+1171=Help
+1267=per
+1268=Waarschuwen voor het stoppen van de downloads
+1271=Internet Download Manager afsluiten indien gereed
+1335=bestanden tegelijk
+t1229=Item omlaag
+t1230=Item omhoog
+t1231=Item uit de wachtrij halen
+t1232=Starten met de wachtrij
+t1233=Stoppen met de wachtrij
+t1235=Gebruik deze optie in noodgevallen. Er kunnen gegevens verloren gaan.
+
+184=Inbellen
+1247=Verbinden ...
+1167=Herhalen
+
+186=Inbelopties
+1336=Bellen
+1237=Wachtwoord opslaan
+1288=Gebruikersnaam
+
+190=Download IDM onderdelen
+1=OK
+1258=Download onderdelen
+
+191=Exporteren downloadlijst
+1259=Exporteren download wachtrij
+1260=Exporteren geselecteerde bestanden
+1261=Exporteren alle bestanden
+
+192=Importeren links naar IDM
+1168=Bewerken
+1090=Verwijderen
+
+193=De volgende bestanden automatisch downloaden:
+
+105=Tip van de Dag
+1001=&Tips tonen bij opstarten
+1003=&Volgende
+107=Ti&p van de Dag...
+108=Wist u dat...
+109=Het Tips bestand bevindt zich niet op de juiste locatie
+110=Leesfout in het Tips bestand
+
+146=Site login
+1337=Server/pad
+1290=Bevestig wachtwoord
+1287=N.B.: Type het pad alleen als u verschillende inlognamen voor verschillende server directories gebruikt.
+
+182=Snelle Update
+1295=Controleren op nieuwe versie
+								
+194=Download limieten bereikt! 
+			
+144=Er is een nieuwe versie van Internet Download manager beschikbaar
+1162=Nu bijwerken
+1086=Annuleren
+
+
+196=Zip voorbeeld
+20254=Bestandsnaam
+20255=Ingepakt
+20256=Grootte
+20257=Gewijzigd
+
+204=IDM categorieën
+1174=Bladeren
+1291=Naam voor de categorie
+1292=De volgende bestanden automatisch in deze categorie plaatsen:
+1293=N.B.: type extensies met een spatie ertussen (bv. avi mpg mpeg)
+1239=Onthoud laatst gebruikte map voor opslaan
+1294=Sla toekomstige downloads voor deze categorie in de volgende map op:
+
+
+m32771=Taken
+32771=Toevoegen &Nieuwe URL
+32809=Toon drop target
+m32821=Exporteren
+32821=Naar IDM exportbestand
+32823=Naar tekstbestand
+m32816=Importeren
+32816=Van IDM exportbestand
+32818=Van tekstbestand
+32772=&Afsluiten
+
+m32774=Bestand
+32774=Download Stoppen
+32775=Verwijderen
+32776=Download Nu
+
+m32778=Downloads
+32778=Alle pauzeren
+32779=Alle Stoppen
+32794=Verwijder Alle Voltooide
+32801=Planner
+32781=Opties
+
+m32825=Weergave
+32825=Categorieën verbergen
+m32828=Bestanden sorteren
+32828=Op Volgorde van Toevoegen
+32830=Op Bestandsnaam
+32832=Op Grootte
+32834=Op Status
+32836=Op Tijd Over
+32838=Op Snelheid
+32840=Op Beschrijving
+m32841=Taal
+
+m57670=Hulp
+32811=Handleidingen
+106=Tip van de dag...
+32813=IDM-startpagina
+32784=IDM-ondersteuning
+32787=Controleren op updates...
+32786=Over IDM
+32788=Vertel een vriend
+
+m32785=Registreren
+32785=Bestel online
+32783=Registreren
+
+
+//Strings & messages
+101=&Over IDM...
+32799=Poort Openen
+32800=Poort Geopend
+32802=Apparaat Verbinden
+32804=Apparaat Verbonden
+32806=Alle Apparaten Verbonden
+32807=Starten Aanmelding
+32808=Mededeling Aanmelding
+32810=Opnieuw Aanmelden
+32812=Terugbellen Aangevraagd
+32814=Wijzigen Wachtwoord Aangevraagd
+32815=Project Fase Gestart
+32817=Berekenen Snelheid
+32819=Aanmelden Gelukt
+32820=Opnieuw Starten Aanmelden
+32822=Aangemeld
+32826=Modem Opnieuw Instellen
+32827=Wachten Op Terugbellen
+32829=Interactief
+32831=Opnieuw Aanmelden
+32833=Terugbellen op Verzoek Beller
+32835=Wachtwoord Verlopen
+32837=Verbonden
+32839=Verbroken
+
+20000=Downloaden bestand %s voltooid.\n\nGedownload %s (%I64d Bytes)\nBestand opgeslagen als %s
+20001=Deze optie is alleen beschikbaar in de geregistreerde versie.
+20002=Kan het gedownloade bestand (%s) niet hernoemen naar %s. Het bestand werd opgeslagen in de tijdelijke map.
+20003=Wachtwoord verifiëren mislukt! Probeer a.u.b. opnieuw.
+20004=Wachtwoordveld is niet ingevuld!
+20005=Gebruikersnaamveld is niet ingevuld! Probeer a.u.b. opnieuw.
+20006=Site/padveld zijn niet ingevuld! Probeer a.u.b. opnieuw.
+20007=Wilt u de login informatie voor deze site echt verwijderen?
+20008=Uw downloadlijst bevat het bestand dat wordt gedownload van de 
+20009=.\nDeze gebruikersnaam en wachtwoord toepassen op deze download?
+20010=.\nGebruikersnaam en wachtwoord van deze download wijzigen in \"anoniem\" ?
+20011=De aanmeldingsgegevens voor deze site/dit pad staan al in uw wachtwoordlijst.\nDe nieuwe aanmeldingsgegevens zijn niet toegevoegd. U kunt de bestaande bewerken.
+20012=U hebt het veld locatie/pad gewijzigd. De aanmeldingsgegevens voor deze nieuwe site/pad bestaan al in uw wachtwoordlijst.\nDe aanmeldingsgegevens zijn niet gewijzigd. U kunt de bestaande bewerken.
+20013=Deze site is tijdelijk niet beschikbaar!
+20014=Autorisatie is vereist voor deze site/pad. U kunt de login informatie voor deze download instellen door eigenschappen te selecteren als u rechts klikt op een menu. Of voeg de login informatie toe aan \"Opties/Sites wachtwoorden\" om telkens wanneer u een bestand download van deze site deze gegevens te gebruiken.
+20015=Proxy autorisatie is vereist voor deze proxy server. U kunt de proxy gebruikersnaam en wachtwoord veranderen in \"Opties/Proxy\"
+20018=Kan dit bestand niet downloaden.
+20019=Kan dit bestand niet downloaden.
+20020=Onvoldoende geheugen om het downloaden te hervatten.
+20021=De verbinding is door de doelmachine geweigerd. \nWaarschijnlijk is de service niet actief op de server of u heeft een firewall geïnstalleerd die Internet Download Manager blokkeert. Indien er een firewall is geïnstalleerd, stel deze zodanig in dat IDM toegang wordt verleend voor downloaden vanaf het Internet.
+20022=Toegang geweigerd.
+20023=Kon het adres niet toewijzen. Het adres wordt niet herkend in deze context.
+20024=Bestaande verbinding geforceerd afgesloten door de remote host. Dit gebeurt gewoonlijk als de peer applicatie op de remote host plotseling werd gestopt, de host herstart is, of de remote host gebruikt een \'hard close\'
+20025=Een socketbewerking is mislukt omdat de doelhost niet actief is. Een socket-bewerking heeft een dode host aangetroffen. Netwerkactiviteit op de lokale host is niet gestart.
+20026=Fout tijdens verbinden, onbekende host. Deze naam is geen officiële hostnaam of alias, of kon niet worden opgezocht in de gezochte database(s).
+20027=Een socket verbinding werd gemaakt met een onbereikbaar netwerk. Dit betekent dat de lokale software geen instellingen heeft om de remote host te bereiken.
+20028=De hostverbinding crashte en is herstart.
+20029=Een socket verbinding bereikte een niet-werkend netwerk. Dit kan een serieuze fout in het netwerk zijn (bv. de protocol stack gerund door de WinSock DLL is vol), de netwerk interface, of in het lokale netwerk zelf.
+20030=Te veel open netwerkverbindingen. Wacht tot sommige downloads zijn voltooid.
+20031=Er is een fout opgetreden tijdens het verbinden
+20032=De grootte van %s is %I64d bytes.\nEr is geen ruimte meer op schijf \'%s\' waar u dit bestand wilt opslaan.\nAls u geen\ruimte vrijmaakt tijdens het downloaden, zal het bestand opgeslagen worden in een tijdelijke map als %s
+20033=Er is geen ruimte meer op schijf \'%s\' om downloaddelen op te slaan.\nOm verder te gaan met downloaden dient u wat ruimte vrij te maken of verander de tijdelijke map in Opties\\Algemeen en hervat de download
+20034=Kan de server %s niet vinden
+20035=Kan de proxy server %s niet vinden
+20036=Kan geen verbinding maken met %s:%ld
+20037=Kan niet verbinden met proxy server %s:%ld
+20038=Kan geen verbinding maken met %s:%ld\nVerbinding time-out
+20039=Kan niet verbinden met proxy server %s:%ld\nVerbinding time-out
+20040=Fout tijdens het samenvoegen van bestanden of delen ervan voor het maken van dit bestand
+20041=Onbekende fout tijdens het samenvoegen van de onderdelen tot één bestand
+20042=Kan bestand niet wegschrijven tijdens samenvoegen van delen tot één bestand
+20043=Onbekende grootte van het volgende onderdeel tijdens het samenvoegen van delen
+20044=Fout in het virtuele geheugen tijdens het samenvoegen van onderdelen tot één bestand
+20045=Fatale schrijffout tijdens samenvoegen van onderdelen tot één bestand
+20046=Fatale leesfout tijdens samenvoegen van onderdelen tot één bestand
+20047=Onbekende bestands- of registerfout tijdens herstellen reeds gedownloade onderdelen
+20048=Kan de server niet vinden
+20049=Internet socket leesfout
+20050=Internet socket schrijffout
+20051=Verbinding time-out
+20052=Verbinding time-out
+20053=Verbinding time-out, opnieuw...
+20054=Verbinden mislukt, opnieuw...
+20055=Fout tijdens ontvangen gegevens
+20056=Verbinding verbroken door de server.
+20057=Kan niet inloggen bij de ftp server.
+20058=Kan dit bestand niet vinden bij de ftp server.
+20059=Ftp server accepteert geen verbindingen.
+20060=Fout bij de reactie van de ftp server.
+20061=Fout bij de reactie van de ftp server: Ongeldig formaat
+20062=Kan het IP adres voor data socket in reactie op PASV commando niet vinden.
+20063=Kan de internet socket niet openen.
+20064=Kan de ftp data socket niet openen
+20065=Kan het adres niet aan de internet socket koppelen
+20066=Fout tijdens luisteren() naar de data socket
+20067=Fout tijdens verbinden() met de internet socket.
+20068=Kan het POORT commando niet versturen.\nFout tijdens verkrijgen van de socketnaam().
+20069=POORT commando mislukt.
+20070=Schrijffout tijdens verkrijgen gegevens van de Internet socket.\nMogelijke reden: De schijf is vol.
+20071=Kan geen verbinding maken omdat de ftp server geen PASSIEVE modus ondersteunt en het hokje bij \'Gebruik FTP in PASSIEVE modus\' in Opties\\Proxy/Firewall is aangevinkt.
+20072=Bestandsgrootte voor %s werd niet gevonden op de server
+20073=Onbekend antwoord van de server tijdens opnieuw verbinden.
+20074=Server gaf een nieuwe locatie en de naam %s is veranderd in %s.\n\nDoorgaan met downloaden?
+20075=Verbreken...
+20076=Download voltooid, alle onderdelen samenvoegen tot één bestand...
+20077=Extra verbindingen zijn opgezet.
+20078=Verbinden...
+20079=Mislukt
+20080=Verbinding OK.
+20081=Schrijffout tijdens ontvangen gegevens van de internet socket.
+20082=Ontv() procedure mislukt
+20083=Verbinding is verbroken door de server.
+20084=Verbreken.
+20085=Wacht op antwoord...
+20086=Antwoord OK
+20087=Gegevens ontvangen...
+20088=Voltooid.
+20089=Data verbinding: verbinden...
+20090=Data verbinding: OK
+20091=Gereed voor gegevens ophalen
+20092=Commando mogelijkheid controleren: twee commando's tegelijk versturen...
+20093=Commando mogelijkheid controleren: eerste antwoord OK, wacht op 2e antwoord...
+20094=Gegevens ontvangen...
+20095=Onbekend einde van de string op de server.
+20096=Onbekend einde van de string op de ftp server.
+20097=Sturen QUIT.
+20098=Server niet klaar voor nieuwe gebruiker.
+20099=Controle socket verbonden.
+20100=Sturen gebruikersnaam...
+20101=Sturen wachtwoord...
+20102=Ongeldige gebruikersnaam
+20103=Gebruikersnaam OK
+20104=Ongeldig wachtwoord
+20105=Wachtwoord OK
+20106=Sturen PASV commando...
+20107=Server ondersteunt geen PASV.
+20108=PASV OK, adres verkrijgen...
+20109=Bind socket OK, luisteren()
+20110=Accepteren...
+20111=Accepteren OK
+20112=Sturen POORT commando...
+20113=POORT OK
+20114=Werkmap server veranderen...
+20115=CWD mislukt.
+20116=CWD OK
+20117=Verbinden mislukt.
+20118=Sturen TYPE ...
+20119=TYPE commando mislukt.
+20120=TYPE OK.
+20121=Sturen REST commando...
+20122=REST mislukt.
+20123=REST OK
+20124=Sturen RETR commando...
+20125=RETR mislukt.
+20126=Sturen SIZE commando...
+20127=Sturen LIST commando.
+20128=LIST mislukt.
+20129=LIST OK
+20130=SIZE mislukt.
+20131=Kan bestandsgrootte niet vinden.
+20132=SIZE OK
+20133=Controle socket niet verbonden met server.
+20134=Opnieuw beginnen omdat lokaal bestand is gewist. Opnieuw starten vanaf willekeurige positie wordt niet ondersteund.
+20135=Verbinden wordt herstart...
+20136=De server ondersteunt waarschijnlijk geen commando overlapping.
+20137=Commando mogelijkheid: OK
+20138=Sturen HEAD...
+20139=Sturen GET...
+20140=Herstellen reeds gedownloade onderdelen...
+20141=Verbinden...
+20142=Download voltooid. %I64d Bytes totaal gedownload
+20143=Gegevens ontvangen...
+20144=Extra verbindingen, verbinden...
+20145=Download mislukt. %I64d Bytes totaal gedownload
+20146=De grootte van %s is %I64d bytes.\nEr is geen vrije ruimte op schijf \'%s\' om de onderdelen op te slaan.\nOm door te gaan met downloaden dient u ruimte vrij te maken of dit bestand te verwijderen uit de lijst, de tijdelijke map in Opties\\Algemeen aan te passen, en het opnieuw te proberen.
+20147=Er is geen ruimte vrij op schijf \'%s\'.
+20148=Kan de delen niet samenvoegen.
+20149=Deze download is bijna voltooid, en de map werd niet gewijzigd.
+20150=Datum laatst gewijzigd is gewijzigd op de server.\nWilt u dit bestand opnieuw downloaden?
+20151=U gebruikt de laatste versie van Internet Download Manager. Controleer op een latere datum voor updates.
+20152=Fout tijdens opslaan van gegevens, probeer het a.u.b. opnieuw.
+20153=Fout tijdens toewijzen virtueel geheugen. Sluit een aantal programma's en druk op \'Opnieuw\'.
+20154=Herstellen
+20155=De server naam is geldig, maar de gekoppelde gegevens zijn onjuist (De host zelf bestaat, maar is niet direct bereikbaar).
+20156=Bestand %s - gedownload %s (%I64d Bytes). Het is wellicht niet volledig gedownload omdat de bestandsgrootte onbekend is.\nBestand opgeslagen als %s
+20157=Niets geselecteerd!
+20158=Omhoog
+20159=Omlaag
+20160=Verwijderen
+20161=Kan bestand niet downloaden. Fout bij de http server.
+20162=Kan geen nieuwe versie van het IDM help bestand vinden!
+20163=Kan het nieuwe helpbestand van IDM niet hernoemen van newIDMan.hlp naar idman.hlp. Probeer het handmatig.
+20164=Snelle Update voor IDM vanaf www.internetdownloadmanager.com. Bestanden ontvangen...
+20165=Snelle Update voor IDM vanaf www.tonec.com. Helpbestand ophalen...
+20166=Internet Download Manager Handleiding
+20167=Download geannuleerd door gebruiker
+20168=Snelle Update mislukt, fout bij downloaden nieuwe IDM bestanden. Probeer het later.
+20169=Bestand bestaat\niet.
+20170=\nWilt u het openen?
+20171=Dit bestand staat reeds in de lijst. Wilt u het als duplicaat vermelden?
+20172=De server geeft aan dat u geen toestemming heeft om dit bestand te downloaden.
+20173=Fout tijdens lezen van het telefoonboek.
+20174=Kan geen verbinding met Internet maken.
+20175=Kan bestand niet downloaden door een time-out
+20199=Kon de integratie van Internet Download Manager in Internet Explorer niet veranderen omdat het systeem u geen toegang verleent tot het register
+20204=Het bestand is verplaatst.
+20205=Het %s bestand is verplaatst.
+20206=Openen downloadbestand
+20207=Download IDM component
+20211=Het bestand %s wordt opgeslagen als %s. Dit bestand bestaat reeds op uw computer. Wilt u het bestaande bestand vervangen?\n\n Druk \"JA\" voor vervangen, \"NEE\" voor opslaan onder een andere naam, \"ANNULEER\" om de download te annuleren.
+20212=Het bestand %s wordt opgeslagen als %s. Dit bestand staat al in de lijst. Wilt u het opslaan onder deze naam?\n\n Druk \"JA\" voor bevestigen, \"NEE\" voor opslaan onder een andere naam, \"ANNULEER\" om de download te annuleren.
+20213=Importeer in IDM
+20214=Kan geen links lezen of het bestand is beschadigd
+20215=Geen geldig IDM export bestand of het bestand is beschadigd
+20216=Er zijn geen links voor dit bestand
+20217=Onbekende fout tijdens uitvoeren van de bewerking!
+20218=Kan bestand niet downloaden, de ftp server ondersteunt geen hervatten van downloads. Wilt u hetzelfde bestand toevoegen en opnieuw downloaden?
+20219=De naam van het bestand om op te slaan is \"%s%s\", maar de naam op de server is \"%s\". Wilt u het bestand opslaan met de naam die is gegeven door de server?
+20220=Download bestand %s voltooid.\nDit m3u bestand bevat een link naar een mp3 bestand. Wilt u dit mp3 bestand downloaden?
+20221=Download bestand %s voltooid.\nDit m3u bestand bevat één of meer links naar mp3 bestanden. Wilt u deze bestanden toevoegen aan de download lijst?
+20222=M3U bestand gedownload.
+20225=Kan het virusprogramma \n%s niet starten
+20226=Internet Download Manager is klaar met verwerken wachtrij. Volgens de instellingen in de planner zal IDM het modem ophangen.
+20227=Modem ophangen
+20228=Nu ophangen
+20229=Nu stoppen
+20230=Downloadlimieten overschreden!
+20231=Ongeldige gegevens
+20232=De waarde van de uren in \"Download limieten\" moet liggen tussen 1 en 23. A.u.b. corrigeren of verwijder het vinkje bij \"Download limieten\".
+20233=Wilt u de download lessen (ongeveer 60 KB) van de IDM pagina downloaden?
+20234=Wilt u het helpbestand (ongeveer 200 KB) downloaden en installeren van de IDM pagina?
+20235=Kan HHCtrl.ocx niet vinden om het helpbestand te tonen!
+20236=IDM help
+20237=De bestandsgrootte is gewijzigd op de server.\nHet zal opnieuw worden gedownload.
+20238=Kan geen verbinding maken via de proxy server.
+20239=Fout tijdens beveiligd verbinden met %s.
+20240=Fout tijdens versleutelen van het bericht.
+20241=Fout tijdens laden van de veiligheids dll. Kan de https verbinding niet opzetten.
+20245=Internet Download Manager opties
+20246=Download voltooid
+20247=Download mislukt
+20248=Wachtrij verwerken gestopt/gereed
+20249=Wachtrij verwerken gestart
+20250=Gebeurtenis
+20251=Geluidsbestand
+20252=Kan het geluidsbestand niet naar de IDM map voor geluiden kopiëren!
+20253=U heeft nog %d dagen om Internet Download Manager te gebruiken. Wilt u IDM nu registreren?
+20258=Alle Downloads
+20259=Onvoltooid
+20260=Voltooid
+20261=Programma's
+20262=Muziek
+20263=Video's
+20264=Spellen
+20265=Documenten
+20266=Nieuwe categorie
+20267=Verwijderen
+20268=Eigenschappen
+20269=Wilt u de categorie \"%s\" uit de IDM categorieën lijst verwijderen?
+20270=Verwijderen van de categorie uit de IDM categorieën lijst
+20271=Toevoegen van de categorie aan de IDM categorieën lijst
+20272=Aanpassen eigenschappen categorie
+20273=Vul a.u.b. het veld \"Categorie naam\" in.
+20274=De map \"%s\" bestaat niet.\r\nWilt u deze map maken?
+20275=Kan de map niet maken!\r\n%s
+20276=Verberg categorieën
+20277=Toon categorieën
+20278=Kies een map
+20279=Algemeen
+20280=Wilt u alle voltooide downloads nu koppelen aan de categorieën zoals vermeld in de downloadgegevens? De bestanden zullen\niet worden verplaatst op de harde schijf, maar worden gekoppeld aan hun downloadcategorieën.
+20281=Wilt u alle voltooide downloads van het type \"%s\" aan deze categorie koppelen? De bestanden zullen\niet worden verplaatst worden op de harde schijf, maar worden gekoppeld aan deze categorie.
+20282=IDM categorieën
+20283=IDM gaf de fout \"Toegang geweigerd\" tijdens het samenstellen van dit bestand. Dit komt omdat een virusprogramma of de firewall het bestand openden, maar niet juist afsloot, of u probeerde het bestand te openen tijdens het downloaden. U dient de computer te herstarten en vervolgens op hervatten drukken voor het samenstellen.
+20284=Standaard map voor downloaden van \"%s\" categorie
+20285=Onthoud laatst gebruikte map voor downloaden \"%s\" categorie
+20307=- Kies uw internet verbinding -
+20319=Anders
+20320=Over IDM
+20321=Herstellen
+20322=Afsluiten
+20323=Contact
+20324=Help
+20325=Bestel online
+20326=Registreren
+20327=Download Stoppen
+20328=Verwijderen
+20329=Download Hervatten
+20330=Eigenschappen
+20331=Ongeldige URL. Probeer het a.u.b. opnieuw.
+20332=Deze download is niet voltooid. Doorgaan met verwijderen?
+20333=De proxy-instellingen uit Internet Explorer zijn niet gevonden
+20334=Dit bestand van deze URL is al gedownload door Internet Download Manager. Wilt u het nogmaals downloaden?
+20335=Dit bestand met deze URL staat in de wachtrij om te downloaden. Wilt u deze download hervatten?
+20336=Teveel bestanden met deze naam. A.u.b. verwijderen of de naam aanpassen
+20337=Geef a.u.b. uw login naam.
+20338=Een geschikte browser is niet gevonden
+20339=De Snelle Update kan niet worden gevonden.
+20340=Geef a.u.b. uw registratie naam.
+20341=Ongeldig registratienummer ingevoerd.
+20343=Geef a.u.b. uw voornaam
+20344=Geef a.u.b. uw achternaam
+20346=Geef a.u.b. uw e-mailadres
+20347=Voer a.u.b. uw serienummer in
+20348=U heeft een ongeldig serienummer ingevoerd
+20349=Internet Download Manager werd geregistreerd met een foutief serienummer. IDM sluit nu af...
+20351=Internet Download Manager werd geregistreerd met een foutief serienummer. IDM sluit nu af...
+20352=Internet Download Manager werkt al 60 dagen zonder registratie. De proefperiode is verlopen en IDM sluit nu af...
+20353=Internet Download Manager werkt al 15 dagen zonder registratie. IDM sluit nu af...
+20354=Onbekende fout tijdens
+20355=Onbekend
+20356=Toevoegen aan wachtrij
+20357=Verwijderen uit wachtrij
+20358=Wachtrij starten
+20359=Wachtrij stoppen
+20360=Openen
+20361=Laatste poging:  
+20362=Resultaat:\n
+20363=U kunt maar één bestand tegelijk openen!
+20364=Openen
+20365= bestaat reeds op uw computer. Wilt u het bestaande bestand vervangen?\n Druk op \"JA\" voor vervangen, \"NEE\" om op te slaan onder een andere naam, \"ANNULEREN\" om af te breken.
+20366=Download vanaf
+20367=Opslaan in
+20368=Wilt u echt alle voltooide downloads verwijderen?
+20384=Toon drop target
+20385=Waarschuwing: Dit computerprogramma wordt beschermd door auteursrechtwetten en internationale auteursrechtverdragen. Ongeautoriseerde vermenigvuldiging of distributie van dit programma, of delen ervan, kunnen leiden tot strenge civiele en criminele straffen, en zullen leiden tot vervolging volgens de strengste wetgeving.
+20386=Kan de map %s niet maken, foutcode = %ld\n
+20387=Fout
+20388=Bestanden
+20389=Alle Bestanden
+20390=Details:\n
+20391=Voltooid.
+20393=Download voltooid. Controleren op virussen...
+20394=AVI: Res. %dx%d, %d samp per sec, Lengte %s
+20395=, Lengte: 
+20396=, Titel: 
+20397=, Artiest: 
+20398=, Album: 
+20399=, Genre: 
+20400=WAV: %d samp per sec, %d bits per samp, Length: %s
+20401=MPEG: Res. %dx%d, %.1f samp per sec, %d bits per samp
+20402=%s,   totaal %ld bestanden
+20403= Test
+20404= Volledige
+20405=Opnieuw  %ld
+20406=Onbekende RAS Inbelfout.
+20407=Het veranderen van de taal vindt pas plaats na het herstarten van IDM. Wilt u IDM nu opnieuw opstarten?
+20408=Van %d:%02d tot %d:%02d heeft u %d MB gedownload. Alle IDM downloads worden gestopt omdat u volgens de Planner uw limieten in IDM heeft overschreden (of kies \'Opties->Verbindingen\')!
+20409=Van %d:%02d tot %d:%02d heeft u %d MB gedownload. Alle IDM downloads werden gestopt om %d:%02d omdat u volgens de Planner in IDM uw limieten heeft overschreden (of kies \'Opties->Verbindingen\')!\r\n\r\nAlle onderbroken downloads zullen automatisch worden hervat om %02d:%02d. Als u de downloads direct wilt hervatten, verander dan de instellingen in Download Limieten en druk op Hervatten.
+20410=Voltooid
+20411=Opnieuw verbinden...
+20412=Verbinding verbreken...
+20413=Tekst Bestanden
+20414=IDM Export Bestanden
+20415=Opslaan als...
+20427=De download dialoog a.u.b. niet sluiten zolang IDM het bestand opbouwt, anders kunnen de gegevens beschadigd raken.
+20428=Snelle Update
+
+20429=Download aan IDM overgedragen...
+20430=Klik 'Terug' om door te gaan met bladeren.
+20431=IDM kon de download niet starten. Uitvoerbaar bestand niet gevonden.
+
+20433=Waarschuwing
+20434=Kies een map
+20435=Virusscan programma
+20439=Geluidsbestanden
+20440=voltooid
+20441=Eigenschappen Bestand
+20442=Internet%20Download%20Manager%20-%20een%20uitstekend%20programma!!!
+20443=download%20van%20
+
+20444=Gebruik a.u.b. Engels
+
+20445=Onbekend
+
+20447=Normaal venster
+20448=Minimaliseren
+20449=Verbergen
+
+q1=Internet Download Manager heeft ontdekt dat u Nederlands als standaardtaal voor Windows gebruikt. Wilt u IDM in het Nederlands gebruiken?
+
+20500=Koop nu IDM en installeer de volledige versie van dit programma!
+1338=Kies a.u.b. de taal voor de interface van IDM (U kunt deze later veranderen via het menu "Weergave->Taal")
+20501=Internet Download Manager werkt al 15 dagen zonder registratie. IDM sluit nu af...
+20502=Aanpassen...
+20503=Datum toegevoegd
+20504=Laatste poging
+20505=Opslaan in
+20506=Verwijzing
+33001=Werkbalk aanpassen...
+33002=URL lijst aanpassen...
+33004=Op map voor opslaan
+33005=Op verwijzing
+33006=Op laatste poging
+20507=Kolommen...
+
+209=Kolommen
+1339=Kies de kolommen die u wilt tonen in de lijst. Gebruik de knoppen omhoog en omlaag om de kolommen te sorteren op uw eigen manier.
+1160=Omhoog
+1083=Omlaag
+1340=Tonen
+1048=Verbergen
+1053=Herstellen
+1341=Deze kolom zou moeten zijn
+1342=pixels breed
+
+20508=Gecomprimeerd
+
+226=Max. verbindingen per server
+1348=Server
+
+1350=Standaard aantal verbindingen
+1343=Max. aantal verbindingen
+1344=Nieuw
+1345=Verwijderen
+1346=Bewerken
+1347=Uitzonderingen:
+20509=Server
+20510=Nummer
+
+228=Alle links downloaden met IDM
+20511=Type Bestand
+20512=Link Tekst
+1234=Gebruik link teksten als download beschrijvingen
+1055=Verberg HTML bestanden
+1060=Verberg dubbele bestanden
+1353=Alle kiezen
+1354=Alle blank
+1352=Bewerken...
+1355=Controleer de links die u wilt toevoegen aan de downloadlijst van IDM, en klik op OK.\r\nU kunt ook wachten totdat IDM dit voor u heeft gedaan.
+
+20513=De naam van het bestand om op te slaan is \"%s\", maar de naam die de server geeft is \"%s\", en u wilt het opslaan als  \"%s\". Wilt u het bestand opslaan onder de naam die overeenkomt met de naam die de server geeft?
+
+20514=Download Opnieuw
+20515=Map openen
+
+q2=The \"%s\" (%s) wants to download \"%s\" file.\n\nWould you like IDM to take over downloads from this application?\nLater you may disable or enable IDM to take over downloads from \"%s\" in IDM->Options->General
+
+20516=\"%s\" dataoverdracht protocol wordt momenteel niet ondersteund door IDM. Of het bevat een spelfout; controleer uw gegevens en probeer het opnieuw.
+20517=IDM gaf de fout \"Toegang Geweigerd\" tijdens samenstellen van onderdelen. Het bestand kan zijn geopend door bv. een antivirus programma, of u probeerde het zelf te openen. Om dit bestand te kunnen maken dient u de computer opnieuw op te starten, het bestand opnieuw aan te klikken in IDM en op hervatten te drukken.
+20518=Registreer IDM a.u.b. vóór het updaten.\r\n Kies \"Registreren->Registreren\" en voer uw registratiegegevens in. Kies dan \"Help->Snelle Update\" om IDM bij te werken.
+20523=Volgens de licentieovereenkomst die u accepteerde mag u Internet Download Manager gedurende één jaar na aankoop gratis updaten. Als u IDM na het eerste jaar nog steeds wilt updaten dient u een update-abonnement te nemen.\r\n Wilt u nu bij IDM kijken naar abonnementen?
+20519=De toets(en) om downloads te blokkeren dienen niet dezelfde te zijn als de toets(en) om downloads te forceren. \r\n Pas a.u.b. de toetsen aan.
+20525=Fout bij verbinden, host onbekend. De naam is geen officiële hostnaam of alias, of hij kan niet in de database(s) worden gevonden.\r\n\r\nMogelijke redenen voor deze foutmelding zijn:\r\n\r\n1. U heeft een firewall geïnstalleerd op de computer, en u heeft een nieuwe versie van Internet Download Manager zojuist geïnstalleerd, bijgewerkt of vervangen. Controleer uw firewall of IDM toegang wordt verleend tot het internet.\r\n\r\n2. Er is een tijdelijk probleem opgetreden met de service die servers zoekt via Domain Name Service (DNS) , of de netwerkverbinding tussen de DNS en uw computer werd verbroken. Het wordt aanbevolen uw computer te herstarten.\r\n\r\n3. De naam van de server bevat een spelfout, probeer het a.u.b. opnieuw.\r\n
+20522=IDM kon %d bestand(en) niet vinden die nodig zijn voor browser en systeem integratie Wilt u ze downloaden?
+
+1370=Nieuwe programma's volgen die downloaden van het Internet
+1368=Toetsen aanpassen voor wel of niet downloaden met IDM
+1367=Toetsen...
+1375=Integreer IDM in de browsers:
+
+229=Speciale toetsen gebruiken
+1361=Gebruik de volgende toets(en) om downloaden met IDM te blokkeren:
+1067=Gebruik de volgende toets(en) om downloaden met IDM te forceren:
+1366=Hou linkerkliks op de muis in de gaten, samen met de speciale toets(en) die u gebruikt om geforceerd te downloaden vanaf een link
+1374=N.B.: Soms na het klikken op een download link verschijnt er een pagina die u vertelt dat het downloaden nog ... seconden duurt eer de download start. In dat geval moet u het vinkje bij de volgende optie weghalen om downloaden met IDM te forceren.
+
+1356=Opslaan in
+1357=Elk bestand in de map op categorie opslaan
+1358=Alle bestanden in dezelfde categorie
+1359=Alle bestanden in dezelfde map
+1360=Bladeren...
+
+1378=Gebruik geen proxy server voor adressen die beginnen met:
+1377=Namen scheiden door spaties
+
+
+20526=Internet Download Manager Netwerk Integratie
+20527=De netwerk integratie van Internet Download Manager werd verwijderd door een extern programma. Wilt u de netwerk integratie van Internet Download Manager herstellen?
+20528=De netwerk integratie van Internet Download Manager werd door een extern programma veranderd. Dit kan gebeuren door een nieuw geïnstalleerd netwerk programma, of door een verkeerd herstelde fout in het register door een programma. Wilt u de netwerk integratie van Internet Download Manager herstellen?
+20529=Internet Download Manager netwerk integratie is veranderd. Het wordt aanbevolen de computer te herstarten. Wilt u nu opnieuw opstarten?
+20530=Internet Download Manager netwerk integratie is veranderd. U dient de computer opnieuw op te starten, omdat uw firewall de verandering niet herkent, en Internet programma's kunnen geen verbinding maken met het Internet totdat u een herstart doet.\r\n\r\nSla uw werk op en sluit alle programma's, de computer zal herstarten zodra u op de JA toets heeft gedrukt.
+
+20531=U wilt Internet Download Manager integreren in een programma dat momenteel is geopend.  U dient dit programma te herstarten omdat IDM niet kan integreren in programma's die zijn geopend.\r\n\r\nNa het integreren van IDM in dit programma moet u de optie \"Volg Nieuwe Programma's\" uit te zetten voor een betere werking.
+20532=Volg nieuwe programma's
+
+1385=Verberg plaatjes op deze webpagina
+1381=Geavanceerde browser integratie
+20547=Wisselen tussen standaard en geavanceerde browser integratie vereist een herstart van uw systeem. Wilt u doorgaan?
+
+230=Testen van de Internetverbinding
+1382=Testen
+20536=IDM download een kleine testpagina om uw internetverbinding te testen. Even geduld a.u.b.
+20537=IDM test de Internet Explorer. Even geduld a.u.b. terwijl Internet Explorer een kleine testpagina download
+
+232=Internet Download Manager Probleem Rapport
+20546=Wij hebben een configuratierapport gemaakt dat u ons kunt toesturen. Stuur ons a.u.b. de volgende informatie om dit probleem in toekomstige versies van IDM te verhelpen. Dit zijn alleen technische gegevens. Wij verzamelen geen persoonlijke informatie, en dit rapport zal vertrouwelijk en anoniem worden behandeld.
+1386=Geef hieronder uw commentaar en suggesties
+1391=Als u wilt weten wanneer het probleem wordt verholpen, vul a.u.b. hieronder uw e-mailadres in
+20545=Gegevens versturen...\r\nEven geduld a.u.b.
+1390=Versturen
+
+20533=IDM heeft ontdekt dat u een proxy server gebruikt voor Internet Explorer. Wilt u dezelfde proxy instellingen gebruiken voor IDM?
+20534=Eerste start van Internet Download Manager
+20535=IDM heeft ontdekt dat uw modem het Windows Inbelnetwerk gebruikt om verbinding te maken met het Internet. Wilt u dezelfde instellingen gebruiken voor IDM?
+
+20538=Kan de testpagina niet downloaden. Het kan zijn dat IDM's netwerk integratie een conflict geeft met een ander Internet programma of een firewall. IDM zet de geavanceerde browser integratie uit en herstelt de originele instellingen. U kunt dit later weer inschakelen in IDM->Opties->Algemeen
+20539=De computer moet worden herstart om de originele instellingen terug te zetten. Sla uw werk op en sluit alle programma's, de computer zal opnieuw opstarten nadat u op OK drukt.
+20540=Internet Download Manager's netwerk integratie werd succesvol geïnstalleerd. In een enkel geval geeft de netwerk integratie een conflict met een nieuw geïnstalleerd 3rd-party Internet programma. Indien u problemen ondervindt, verwijder dan het vinkje bij \"Geavanceerde browser integratie gebruiken\" weg in IDM->Opties->Algemeen
+20541=U heeft de geavanceerde browser integratie uitgeschakeld. Indien dit voor u een probleem heeft opgeleverd willen wij dit probleem graag voor u oplossen. Om het probleem te verhelpen moeten wij technische gegevens verzamelen over uw computer configuratie en de geïnstalleerde internetprogramma's. IDM verzamelt en toont u deze informatie in het volgende stadium voordat deze naar onze ondersteuningsafdeling wordt verstuurd.\r\n\r\n Wilt u dat IDM de informatie voor u verzamelt?
+20542=Uitschakelen geavanceerde browser integratie
+20543=IDM probeert een testpagina te downloaden om uw Internet verbinding te testen. Zorg ervoor dat u met het Internet bent verbonden. Heeft u een firewall, geef IDM dan toegang tot internet voor u verder gaat. Druk daarna op de \"Controleer\" knop hieronder, en IDM zal proberen de testpagina opnieuw te downloaden.
+20544=IDM veranderde de netwerk integratie en moet uw verbinding opnieuw controleren. Maak verbinding als u nog niet bent verbonden met het Internet en druk op de \"Controleer\" knop.
+20548=Internet Download Manager netwerk integratie is veranderd. U dient de computer te herstarten omdat uw Internet programma's anders niet goed zullen werken.\r\n\r\nSla uw werk op en sluit alle programma's, de computer zal herstarten nadat u op OK heeft gedrukt.
+
+20549=Deze versie van Internet Download Manager kent Geavanceerde Browser Integratie. Om dit te installeren moet het systeem worden herstart.\r\n\r\nZodra de Geavanceerde Browser Integratie is ingeschakeld, zal IDM uw downloads overnemen wat hiervoor niet mogelijk was in IDM, of in een andere download manager. De integratie van IDM zorgt er ook voor dat in uw browser of andere internet programma's de FTP/HTTP downloads over worden genomen.\r\n\r\nIn een enkel geval kan deze integratie een probleem geven met een extern geïnstalleerd programma. Heeft u een probleem met de netwerk integratie, kunt u het vinkje weghalen bij \"Geavanceerde browser integratie\" in IDM->Opties->Algemeen.\r\n\r\nWilt u Geavanceerde Browser integratie nu installeren?
+20550=Geavanceerde Browser Integratie werd succesvol geïnstalleerd!
+
+33009=Download Opnieuw
+
+20551=Rij starten
+20552=Rij stoppen
+
+20553=Internet Download Manager nam het downloaden automatisch over tijdens het klikken op een link in een Internet programma. Als u dit bestand NIET wilt downloaden met IDM, open de dialoog Opties door op de knop Opties te drukken\r\n\r\n 1. Als u dit type bestand niet wilt downloaden met IDM, kunt u de desbetreffende bestandsextensie verwijderen uit de lijst van automatisch te starten bestanden.\r\n\r\n 2. Als u alleen van een bepaalde site geen bestanden wilt downloaden met IDM, kunt u deze toevoegen aan de uit te sluiten sites.
+236=IDM tip: Link automatisch volgen
+1393=Deze tip niet meer tonen
+1397=IDM kent een flexibel mechanisme om downloads over te nemen of te negeren in andere internetprogramma's. Wilt u er meer over lezen?
+1396=Lees meer
+
+20569=Foutmelding: IDM wordt op verschillende computers met hetzelfde serienummer gebruikt. IDM heeft licentiebeheer per computer. Om IDM op verschillende computers te gebruiken heeft u per computer een licentie nodig.
+20570=Kleine knoppen
+20571=Grote knoppen
+20572=Klassieke knoppen
+
+m33001=Werkbalk
+33510=Klassieke knoppen
+34010=Kleine knoppen
+34011=Grote knoppen
+
+1371=Help
+
+20575=sec
+20576=GB
+20577=MB
+20578=KB
+20579=Bytes
+
+20588=Kan het downloadbestand niet maken. De volgorde van de delen is fout. Hoieronder staan mogelijke redenen voor dit probleem.\r\n\r\n 1.	De computer werd onverwacht afgesloten door een stroomuitval tijdens downloaden of samenstellen van de delen.\r\n 2.	Een programma of gebruiker verstoorde het Internet Download Manager proces tijdens downloaden of samenstellen van de delen. Het kan even duren om grote delen samen te stellen. Bewaar uw geduld en wacht tot IDM klaar is met samenstellen. Sluit a.u.b. het Internet Download Manager proces niet af via Taakbeheer.\r\n\r\nAls er iets anders aan de hand is, stuur a.u.b. het %s bestand (indien aanwezig) naar de Internet Download Manager ondersteuning voor onderzoek.
+
+
+1429=< Vorige
+1430=Volgende >
+
+1405=Nieuw Filter
+1421=Nieuw Filter
+1437=Alleen zoeken op deze site
+1459=Alle identieke bestanden direct downloaden
+1471=U kunt de site eerst verkennen, de benodigde bestanden controleren en deze vervolgens in het Grabber hoofdvenster downloaden, of ze toevoegen aan de lijst in IDM. Deze optie zal direct alle verkende bestanden downloaden.
+1515=Download de volgende bestanden (extensies)
+1516=Deze bestanden niet downloaden (extensies)
+1480=Minimaal
+1482=Maximaal
+1483=Alleen bestanden binnen deze paden/domeinen downloaden:
+1486=Geen bestanden binnen deze paden/domeinen downloaden:
+1517=Downloaden bij deze grootte
+1488=Punt-komma ( ; ) gebruiken voor spaties.
+
+241=IDM Site Grabber
+1446=Bestanden Gedownload:
+1448=Bestanden Gevonden:
+1450=Webpagina's verwerkt:
+
+244=Filters
+1423=Nieuw
+1424=Bewerken
+1425=Verwijderen
+
+245=Filter
+1426=Naam
+1427=Masker
+
+1414=Grabber Project Naam
+1510=Startpagina/adres
+1439=Autorisatie gebruiken
+1441=Login en wachtwoord handmatig invullen op de volgende webpagina:
+1511=Project template
+1470=Als u een project template kiest, maakt de wizard de vereiste project instellingen voor de gekozen template in de volgende stappen. U kunt de instellingen later altijd wijzigen.
+
+1514=Originele relatieve submappen gebruiken
+1468=Lokale bestanden maken van downloadlinks in html bestanden voor offline browsen
+1469=Bestaande bestanden overschrijven
+1436=Selectie toevoegen aan de IDM lijst en download wachtrij bij afsluiten van de Grabber
+
+262=IDM Grabber Instellingen
+1518=Linkteksten als download beschrijvingen bij bestanden aan IDM lijst toevoegen
+1466=bestanden tegelijk verkennen (1 tot 10)
+1467=bestanden tegelijk downloaden (1 to 10)
+1509=Let op dat een webserver verzoeken kan weigeren als u een groot aantal bestanden tegelijk wilt verkennen (downloaden).
+
+1416=Bovengelegen mappen niet verkennen
+1490=niveaus in basis site
+1435=De hele site verkennen
+1445=Aantal opgegeven link niveaus verkennen:
+1491=niveaus op andere sites
+1474=Alleen webpagina's verkennen binnen deze paden/domeinen:
+1476=Geen webpagina's verkennen binnen deze paden/domeinen:
+1512=In deze stap geeft u aan op welke webpagina's u wilt zoeken naar bestanden. In de volgende stap kiest u de extensies, lokaties en andere filters.
+1489=Wat is het aantal link niveaus?
+1493=Alle sites verkennen in het hoofddomein
+1494=Pop-up vensters negeren
+
+268=Template Naam
+1508=Geef a.u.b. een naam voor de grabber template
+
+269=Project van IDM Grabber opslaan
+1507=Sla dit project onder deze naam op
+1513=Deze dialoog verbergen bij een unieke naam
+
+270=Project laden
+
+32811=Tutorials
+34022=Grabber Help
+      
+
+m1458=Project
+1458=Nieuw
+1438=Laden...
+1442=Opslaan
+34020=Deze instellingen opslaan als template
+m34013=Recente Projecten
+34013=Recente Projecten lijst
+m1457=Opties
+1457=Grabber Instellingen
+34021=Project plannen
+
+t1398=Start Siteverkenner
+t1401=Stop Siteverkenner
+t1353=Alles Selecteren
+t1354=Alles Deselecteren
+t1432=Gekozen bestanden downloaden
+t1433=Dowloaden bestanden stoppen
+t1434=Gekozen bestanden toevoegen aan de IDM lijst en de download wachtrij
+
+
+20580=Aanpassen
+20581=Alle afbeeldingen op de website
+20582=Audiobestanden van de startpagina en één niveau verder
+20583=Alle videobestanden op de website
+20584=Alle bestanden op de website minus de pagina's en afbeeldingen
+20585=De hele website
+
+20589=Webinhoud
+20590=Geavanceerd
+20591=Grabber projecten
+20592=IDM Grabber
+20593=Geef a.u.b. de startpagina/adres
+20594=Startpagina/adres
+20595=Geef a.u.b. login en wachtwoord of vinkje weghalen bij \"Gebruik Authorisatie\"
+20596=Geef a.u.b. handmatige login pagina of haal het corresponderende vinkje weg
+20597=Handmatige inlogpagina
+20598=Niets gekozen!
+20599=%ld bestanden toegevoegd aan de IDM lijst.
+20600=Teveel gekozen bestanden, kan niets toevoegen. A.u.b. in dit project downloaden door klikken op de knop \"Download Selectie\".
+20601=Kan geen nieuwe bestanden toevoegen. De IDM lijst bevat teveel bestanden en dit vertraagt IDM. Verwijder a.u.b. bestanden uit de IDM lijst.
+
+20602=Deze naam is gereserveerd. Kies a.u.b. een andere naam voor uw template.
+20603=De template met deze naam bestaat al. Wilt u de template vervangen?
+20604=Dit Grabber project opslaan?
+
+//right click menu
+20605=Project openen
+20606=Project plannen
+20607=Project verwijderen
+
+20608=Sluit a.u.b. eerst het lopende grabber project.
+20609=Plan het grabber project
+20610=Binnenkort!!!\r\n\r\nKijk voor deze functie in een volgende versie van IDM
+
+//displayed statuses
+20611=Site verkennen
+20612=Downloaden
+20613=Voltooid
+20614=Onderbroken
+
+20615=Het project met de naam \"%s\" bestaat al. Kies a.u.b. een andere naam.
+20616=Geen opgeslagen IDM grabber projecten 
+20617=Kies a.u.b. de project naam!
+20618=Wilt u het grabber project \"%s\" verwijderen?
+20619=Ongeldig aantal bestanden tegelijk verkennen. Kies a.u.b. een juist aantal.
+20620=Ongeldig aantal bestanden tegelijk downloaden. Kies a.u.b. een juist aantal.
+20621=Kan bestand \"%s\"\r\n\r\n%s niet openen
+20622=Wilt u het IDM Grabber helpbestand (ongeveer 100 KB) van de IDM site downloaden/installeren?
+20623=Kan project niet laden.\r\nGeheugen toewijzingsfout.
+20624=Kan project niet laden.\r\nHet grabber project bestand is corrupt of de versie is onjuist.
+20625=Het grabber project bestand is corrupt. Sommige bestanden zijn niet geladen
+20626=Kan template niet laden.\r\nHet template informatie bestand is corrupt of de versie is onjuist.
+20627=Grabber template laden
+20628=Grabber template opslaan
+20629=Grabber project laden
+20630=Grabber project opslaan
+      
+//step dialogs captions
+20631=IDM Site Grabber. Stap %d --- %s
+20632=Startpagina instellen
+20633=Bestanden opslaan
+20634=Verkenner filters instellen
+20635=Bestandsfilters instellen
+
+20636=Handmatige inlogpagina
+20637=Op OK drukken als het inlogproces voltooid is
+20638=OK
+20639=Annuleren
+
+//v4.04
+20640=Als u alleen downloads van Internet Explorer wilt overnemen, heeft u deze\functie niet nodig en dient u \"Nee\" te antwoorden.
+
+//v4.06
+20641=Verbinden met
+20642=Bereik:
+1534=Sla wachtwoord op in IDM wachtwoordlijst
+1536=Typ gebruikersnaam en wachtwoord.
+1537=Gebruiker:
+1538=Wachtwoord:
+
+//v4.07
+
+280=Batch download
+1553=U kunt een groep identieke namen toevoegen zoals afb001.jpg, afb002.jpg, enz., afb100.jpg aan de IDM download wachtrij. Gebruik asteriks wildcard voor het naampatroon. \nBijvoorbeeld:   http://www.internetdownloadmanager.com/afbeeldingen/afb*.jpg
+1540=Nummers
+1541=Letters
+1556=Van:
+1557=Tot:
+1547=Wildcard grootte
+1555=Asteriks vervangen door
+1558=Eerste bestand:
+1559=Tweede bestand:
+1560=Laatste bestand:
+
+20643=Alle bestanden selecteren
+20644=Alle bestanden deselecteren
+
+1552=Vervang bestandsnamen met asterisk wildcard door bestandsnaam patroon:
+
+34024=Batch download toevoegen
+
+20645=Er is geen asterisk wildcard in de URL voor maken downloadlijst!
+20646=Batch download
+20647=Teveel bestanden. Het maximaal aantal bestanden is 1000. Kies een ander \"van : tot :\" bereik.
+20648=Opslaan in map/categorie
+
+//v5.00 beta
+
+20574=Grabber
+20649=Geef a.u.b. de uitlogpagina of verwijder het corresponderende vinkje
+
+20554=Alle Bestanden
+20555=Afbeeldingen
+20556=Videobestanden
+20557=Audiobestanden
+20558=Uitvoerbare bestanden
+20559=Gecomprimeerde bestanden
+20560=PDF Documenten
+
+20561=Geen exclusief filter gebruiken
+
+20562=Site Map
+20563=Instellingen
+
+20564=Filternaam
+20565=Masker
+20566=Vul de filternaam in
+20567=Vul het masker in
+20568=Filter met de naam \"%s\" bestaat al. Kies a.u.b. een andere naam.
+
+20650=Even geduld...
+20651=Tijdelijke bestanden wissen
+20652=Grabber project opslaan
+20653=Grabber project verwijderen
+20654=Wijzigingen toepassen
+20655=Grabber project laden
+20661=Wijzigingen bekijken
+20662=Handmatige inlogpagina downloaden
+
+20656=Onvoldoende vrije ruimte op schijf %s voor verwerken grabber project. A.u.b. ruimte vrijmaken en opnieuw proberen.
+20657=Onvoldoende vrije ruimte op schijf %s voor openen grabber project. A.u.b. ruimte vrijmaken en opnieuw proberen.
+20658=Kan het project niet openen. Sommige projectbestanden zijn corrupt of verwijderd.
+
+20659=De hele startpagina met alle afbeeldingen, stijlen en scripts voor offline browsen
+20660=De hele startpagina
+
+20663=Kan de handmatige inlogpagina niet downloaden. Controleer a.u.b. de URL syntax.
+
+33010=Site Grabber starten
+
+1563=Druk op Geavanceerd voor handmatig inloggen of uitschakelen van een uitlogpagina
+1561=Deze uitlogpagina niet openen:
+1564=Veel sites gebruiken uitlogpagina's die de Grabber kan overslaan.  U kunt een asteriks wildcard gebruiken om een patroon voor uitlogpagina's aan te geven.
+1571=Duplicaten verbergen op verschillende lokaties
+1565=JavaScript verwerken
+1567=Pas op met deze optie. Wat is het risico?
+1573=Bestanden in IE cache bekijken alvorens te downloaden
+1568=Asterisk gebruiken als wildcard patroon. Comma's zonder spaties gebruiken voor spaties 
+
+//grabber dlg tree
+20664=Alle Bestanden
+20665=Linkweergave
+20671=Mapweergave
+20667=Andere sites
+20668=sites
+
+20669=Exclusief filters
+20670=Inclusief filters
+
+t34023=Grabber statistieken tonen
+271=IDM Grabber Statistieken
+1574=Status:
+1575=Webpagina's verwerkt
+1576=Eenvoudig
+1577=Uitgebreid
+1578=Bestanden
+1579=Totaal
+1580=Verkend
+1581=Identiek
+1582=Gedownload
+
+//v5.00 build 3
+20672=Miniatuurweergave
+20673=Geen gedownloade bestanden
+
+20674=Niet gevonden
+20675=Verboden
+20676=Fout
+
+//v5.01
+284=Het grabber-project plannen
+1583=Eenmalig verkennen/downloaden
+1584=Periodieke synchronisatie
+1585=Alleen verkennen
+1586=Bekijk de site en download overeenkomstige bestanden
+1587=Geselecteerde bestanden downloaden
+1588=Stap 3. Planning
+1601=Stap 2. Selecteer actie
+1600=Stap 1. Selecteer type
+1593=Project:
+1590=Open het volgende bestand als u klaar bent:
+1595=Begin elke opnieuw
+1597 = uur
+1598 = min.
+1599=Dagelijks
+1602=Opmerking: IDM moet op het opgegeven tijdstip in het systeemvak worden uitgevoerd om een gepland project te starten
+20677=Als u de projectplanner wilt gebruiken, moet u het project eerst opslaan. Het project nu opslaan?
+20678=Internet Download Manager heeft de verwerking van het grabber-project voltooid. Afhankelijk van de instellingen van de projectplanner wordt uw computer afgesloten.
+t33010=Site grabber uitvoeren
+t34021=Het project plannen
+t34025=Alles bijwerken
+20679=Het geplande grabber-project kon niet worden gestart om %d:%02d omdat het project op dit moment werd uitgevoerd.
+20680=Het geplande grabber-project kon niet worden gestart om %d:%02d omdat de projectinstellingen op dit moment werden bewerkt.
+20681=Het Java-script wordt niet verwerkt voor de webpagina's die al zijn onderzocht/verwerkt. Als u Java-script voor deze pagina's wilt verwerken, moet u op de werkbalkknop \"Alles bijwerken\" in het dialoogvenster Grabber Action drukken.
+20682=Met de knop Update wordt het project bijgewerkt door (a) de site te gaan verkennen vanaf de startpagina, (b) bestanden bij te werken als ze zijn gewijzigd op de server, en (c) nieuwe bestanden te downloaden.
+20683=Met de knop Update wordt het project bijgewerkt door (a) de site te gaan verkennen vanaf de startpagina, (b) gedownloade en gecontroleerde bestanden bij te werken als ze zijn gewijzigd op de server.
+20684=Oude bestanden die voor de update zijn gevonden, worden niet verwijderd. De grabber zal alle webpagina's op de site opnieuw parseren en het kan even duren.\r\n\r\nWeet u zeker dat u dit project wilt bijwerken?
+
+//version 5.02
+20685=Projectnaam wijzigen
+20686=Minimaliseren naar systeemvak
+20688=Alle downloadvensters herstellen
+20689=U kunt dit dialoogvenster inschakelen in \"Opties->Downloads\"
+20690=IDM-instellingen
+20691=Gedownload %s (%I64d bytes)
+20692=Het bestand is mogelijk niet volledig gedownload omdat de bestandsgrootte onbekend is.
+20693=Onthoud dit pad voor de categorie \"%s\"
+20694=Downloaden voltooid
+1610=Adres
+1611=Het bestand opgeslagen als
+1606=Map openen
+1607=Dit dialoogvenster niet meer weergeven
+t1608=Bladeren
+20695=IDM-downloads
+1615=Wijzigingen in de tijd voor het wijzigen van bestanden negeren wanneer u het downloaden hervat
+1613=Lees meer
+20696=IDM controleert elke 2 weken op een nieuwe release door een updatepagina van ITS aan te vragen home-site. Als uw firewall het updateverzoek van IDM blokkeert en een bijbehorend waarschuwingsbericht weergeeft, moet u begrijpen dat het verzoek in orde is en dat het veilig is om het toe te staan.
+1617=Adres
+1619=Adres:
+1618=U kunt een sterretje gebruiken als jokerteken
+
+//De oude tekenreeks van het menu-item is gewijzigd van m32771=URL in m32771=taken
+//Ook de tekenreeksen 32771 en 148 zijn gewijzigd
+
+//v 5.02 build 2
+1621=Updating notice
+290=Kennis over IDM update
+20697=Geen geminiseerde downloads
+
+// v 5.02 build 3
+1622=Opmerking: Deze instellingen hebben geen betrekking op wachtrijverwerking
+
+// v 5.02 build 6
+20698=Bladeren
+
+// v 5.02 build 10
+20586=Hieronder vindt u mogelijke oorzaken voor deze fout:\r\n\r\n 1. De internetverbinding is niet gevonden. Controleer uw internetverbinding.\r\n\r\n 2. U hebt een firewalltoepassing op uw computer en u hebt zojuist uw huidige versie van Internet Download Manager geïnstalleerd, vervangen of bijgewerkt. Controleer uw firewallinstellingen en zorg ervoor dat IDM toestemming heeft om toegang te krijgen tot internet.\r\n\r\n 3. Een service die servers in het Internet met de naam Domain name Service (DNS) vindt, heeft tijdelijke problemen, of de netwerkverbinding tussen DNS en uw computer wordt verbroken. Het is mogelijk dat u uw computer opnieuw moet opstarten.\r\n
+1570=Referentie:
+
+// v 5.02 build 12
+20587=Bij het hervatten van het downloaden kreeg Internet Download Manager een antwoord van de server dat het hervatten van het downloaden niet ondersteunt. \R\nHet is mogelijk dat het een tijdelijke fout van de server is, en u kunt het bestand op een later tijdstip hervatten, maar op dit moment kan IDM dit bestand vanaf het begin downloaden. \R\n\r\n wilt u dit bestand vanaf het begin downloaden?
+
+// v 5.03
+20699=De bestandstypen die niet in een andere categorie worden vermeld
+20700=U hebt op de knop „later downloaden” gedrukt, maar in feite had IDM al een deel van het bestand gedownload. IDM begint altijd met downloaden terwijl het dialoogvenster „Info over downloadbestand” wordt weergegeven. U kunt deze optie uitschakelen in het dialoogvenster "Opties->Downloads"
+20701=Later downloaden
+20702=Tijdelijke map is vereist voor het opslaan van bestandsdelen tijdens het downloaden.\n als u meerdere fysieke schijven op uw computer hebt, moet u verschillende fysieke schijven selecteren voor tijdelijke directory en "Opslaan in" mappen om gedownloade bestanden sneller samen te voegen.
+20703=De volgende bestandstypen worden automatisch in de categorie \"%s\" geplaatst:
+20704=Opslaan in
+20705=Categorieën, bestandstypen, mappen
+1623=Begin onmiddellijk met downloaden terwijl het dialoogvenster "Info over bestand downloaden" wordt weergegeven
+
+292=Computer wordt opnieuw opgestart
+1627=Stoppen
+20706=Opnieuw opstarten over %d seconden
+20707=Start nu opnieuw op.
+
+// v 5.04
+//Options->File types and Options->General Changes (voor basisintegratie)
+20708=Bestandstypen
+20709=Gedownloade bestandstypen
+20711=Opmerking: Opera en OUDE op Mozilla gebaseerde browsers kunnen met behulp van plugins met IDM worden geïntegreerd. Dit integratietype ondersteunt geen lijst met serveruitzonderingen om downloaden met IDM te voorkomen. Ook wanneer u de lijst met bestandstypen wijzigt, moet u deze browsers opnieuw opstarten om plugins opnieuw te laden.\n deze beperkingen worden niet toegepast als u op het tabblad Algemeen \"Geavanceerde browserintegratie\" gebruikt.
+1632=Details
+1633=Browser toevoegen
+1634=Alles opnieuw integreren
+20710=Opmerking: Opera en OUDE op Mozilla gebaseerde browsers kunnen met behulp van plugins met IDM worden geïntegreerd. Dit integratietype ondersteunt geen speciale sleutels om downloaden met IDM vanuit deze browsers te voorkomen of te forceren.\n als u het downloaden met IDM wilt voorkomen of forceren door op speciale toetsen te drukken, moet u \"Geavanceerde browserintegratie\" gebruiken.
+
+//MessageBoxes
+20713=Integratie van IDM-browser
+20712=IDM kan %s-browser niet vinden op uw computer. Zoek het uitvoerbare bestand van de browser in het volgende dialoogvenster.
+20714=De integratie in browsers met behulp van plugins is mislukt!
+20715=Plugins voor browser %s zijn geïnstalleerd.
+20716=Plugins voor browser %s %s zijn geïnstalleerd.
+20717=Plugins voor browser %s zijn verwijderd.
+20718=Start de browser opnieuw om de wijzigingen toe te passen.
+20719=Zoek het uitvoerbare bestand van de browser in het volgende dialoogvenster.
+20720=Kan de browserextensie idmmzcc.xpi niet installeren voor Mozilla Firefox!
+20722=IDM heeft gedetecteerd dat de %s %s-browser de standaardbrowser op uw computer is. \N wilt u het integreren met IDM?
+20723=Kan de browserextensie idmmzcc.xpi niet installeren!
+20724= %s %s browser wordt nu geopend om de extensie voor integratie met IDM te installeren.\n Bevestig de installatie van de extensie idmmzcc.xpi van Tonec Inc. in het overeenkomstige browserdialoogvenster en start de browser opnieuw na de installatie.
+20725=Kan geen plug-ins installeren voor %s %s browser!
+20726=IDM is succesvol geïntegreerd in Internet Explorer.\n u moet IE opnieuw opstarten om de wijzigingen toe te passen.
+20727=IDM heeft gedetecteerd dat browser %s %s ook op uw computer is geïnstalleerd. \N wilt u het ook met IDM integreren?
+20728=De geselecteerde browsers worden nu geopend om de extensie voor integratie met IDM te installeren.\n Bevestig de installatie van de extensie idmmzcc.xpi van Tonec Inc. in het overeenkomstige browserdialoogvenster en start de browser opnieuw na de installatie.
+20729=Plugins voor de geselecteerde browsers zijn geïnstalleerd.\n Start de browsers opnieuw om de wijzigingen toe te passen.
+20730=IDM is al geïntegreerd in Internet Explorer!
+20731=IDM kan deze browser niet vinden in de basis-integratiedatabase. Probeer geavanceerde browserintegratie om downloads van deze browser te vinden.
+20732=Kan geen plugins installeren voor browsers met een overeenkomstig type integratie!
+
+//nieuwe dialoogvensters
+296=Integratie van browsers
+1635=IDM heeft de volgende extra browsers op uw computer gedetecteerd. Selecteer browsers die u met IDM wilt integreren.
+297=Browserdetails
+1636=Versie toevoegen...
+20733=Browser
+20734=Type integratie
+20735=Pad
+20736=Extensie
+20737=Plugins
+
+//nieuw menu-item in het dlg-pop-upmenu en nieuwe knop op Download Complete dlg
+20738=openen met...
+1639=openen met...
+
+//
+20739=Zoek de browser
+
+// v 5.05
+20740=IDM downloadt dit bestand nu!
+20741=Downloadkoppeling dupliceren
+298=Downloadkoppeling dupliceren
+20742=Geef een dialoog weer en vraag wat u moet doen.
+20743=Voeg het duplicaat toe met een genummerde bestandsnaam
+20744=Voeg het duplicaat toe en overschrijf het bestaande bestand
+20745=Als het bestaande bestand is voltooid, geeft u het dialoogvenster Download Complete weer; hervat het anders.
+1641=Dit bestand bestaat al in uw downloadlijst. U kunt een van de volgende opties kiezen of op de knop Annuleren drukken om het downloaden van dit bestand over te slaan
+1645=Mijn selectie onthouden en dit dialoogvenster niet meer weergeven.\r\n u kunt dit later wijzigen in IDM Options->Downloads.
+1646=Als er een dubbele downloadkoppeling wordt toegevoegd:
+
+20746=Internet Explorer, MSN Explorer en op IE gebaseerde browsers
+20747=Netscape 8.0 en hoger
+20748=Netscape 7.xx en 6.xx
+
+// v 5.05 build 2
+20749=U kunt dit bestand slepen en neerzetten
+20750=Sleep dit pictogram om het gedownloade bestand te slepen en neer te zetten.\r\nDruk op F1 om meer te lezen.
+20751=Sleep het gedownloade bestand naar de gewenste positie
+
+// v 5.07
+1647=Doorgaan
+20754=U moet beheerdersrechten bieden om bestanden op de geselecteerde locatie op te slaan
+20755=U moet beheerdersrechten geven om deze bewerking te kunnen uitvoeren
+
+// v 5.07 build 2
+20756=het IDM-installatieprogramma moet uw computer opnieuw opstarten om bestanden te vervangen die in gebruik waren. Druk op de knop OK om uw computer nu opnieuw op te starten
+20757=opnieuw opstarten bevestigen
+20758=Internet Download Manager is geïnstalleerd. Het programma start automatisch en neemt downloads van uw browser over.
+20759=u kunt het programma ook starten via het menu Start -> Alle programma's -> Internet Download Manager.
+
+// v 5.07 build 6
+//new aankruisvak op Opties->Algemeen
+1650=Module uitvoeren voor klikbewaking in IE-gebaseerde browsers (MSN, Avant, etc.)
+
+//v 5.08 build 5
+//new dialogs
+302=Een automatisch gestart downloaden annuleren
+1651=U hebt deze download twee keer geannuleerd.\n\n als IDM deze download altijd per ongeluk overneemt, kunt u dit adres of deze site toevoegen aan de IDM-lijst met uitzonderingen:
+1652=Download niet automatisch vanaf deze site:
+1653=Download niet automatisch vanaf dit adres:
+1655=U kunt ook uitzonderingslijsten bewerken op het tabblad \"Options->File types\" van het dialoogvenster Options
+1654=Dit dialoogvenster niet meer weergeven
+
+303=De lijst met adresuitzonderingen
+1661=Download niet automatisch vanaf de volgende adressen:
+1659=Geef het dialoogvenster weer om een adres toe te voegen aan de lijst met uitzonderingen voor een tweemaal geannuleerde download
+
+304=Voeg een adres toe aan de lijst met uitzonderingen
+
+//wijzigingen in het dialoogvenster "Options->File types":
+1656=lijst bewerken...
+//label 1372 was verdeeld in 2 delen
+1667=Download niet automatisch vanaf de volgende sites:
+1662=(scheid namen door spaties)
+
+//v 5.08 build 7
+20763=Het opgevraagde bestand ziet eruit als een html-webpagina.\r\n\r\n de server heeft een html-pagina verzonden op het tweede verzoek. Op sommige servers is het niet toegestaan om twee keer hetzelfde bestand aan te vragen. Omdat de optie 'Download onmiddellijk starten terwijl het dialoogvenster Download File Info wordt weergegeven' is uitgeschakeld, heeft IDM het eerste verzoek verzonden om het bestandstype en de bestandsgrootte te achterhalen en het tweede verzoek verzonden wanneer u op \'Download starten\' hebt gedrukt. \R\n\r\n Probeer de optie downloaden onmiddellijk starten bij het weergeven van het dialoogvenster Bestandsinfo downloaden in \" Opties->Downloads\" in te schakelen, vernieuw de pagina in uw browser en probeer dit bestand opnieuw te downloaden.
+
+//v 5.09 build 4
+305=IDM kan de download niet overnemen
+20764=op sommige sites is het niet toegestaan om twee keer hetzelfde bestand aan te vragen.\r\n\r\n de browser heeft het eerste verzoek voor het bestand \"%s\" gedaan en toen IDM opnieuw probeerde hetzelfde bestand aan te vragen, De site heeft een webpagina naar IDM gestuurd in plaats van naar de download.\r\n\r\n om deze download over te nemen kunt u een speciale sleutel instellen in \"IDM Options->General->Keys...\". Houd deze toets ingedrukt terwijl u op de downloadlink/-knop klikt, zodat IDM de download kan overnemen voordat de eerste browseraanvraag wordt ingediend. Houd er rekening mee dat de intoetsen voor de meeste browsers moeten werken.
+
+//v 5.11
+//new scheduler dialog
+308=Planner
+1675=Nieuwe wachtrij
+1678=Verwijderen
+1684=Wachtrijen
+20783=Wachtrijen
+306=Schema
+1680=Aantal nieuwe pogingen voor elk bestand als het downloaden is mislukt:
+307=Bestanden in de wachtrij
+1687=Downloadlimieten
+20765=Downloadlimieten
+20767=Wachtrij # %ld
+20768=Primaire downloadwachtrij
+20769=Synchronisatiewachtrij
+
+20770=Nieuwe wachtrij maken
+20771=Naar wachtrij gaan
+20772=Toevoegen aan wachtrij
+20773=Begin nu
+20774=Stoppen
+20775=Wachtrij bewerken
+20776=Schema
+20777=Weet u zeker dat u %s wilt verwijderen?
+20778=Start %s.
+20779=Stop %s.
+20780=IDM-wachtrijen
+20781=De afbeeldingen in de kolom \"Q\" geven aan tot welke wachtrijbestanden behoren.\r\nu kunt bestanden van de ene wachtrij naar de andere verplaatsen met het contextmenu.\r\nRaadpleeg het Help-bestand van de planner voor meer informatie over wachtrijen.
+20782=Wilt u het Help-bestand \"IDM Scheduler and Queues\" (ongeveer 100 kB) van de IDM-homepage downloaden en installeren?
+1685=U hebt de begintijd van de verwerking van de wachtrij gepland.\r\nHoud er rekening mee dat om de wachtrij op het opgegeven tijdstip te starten, IDM op dat moment in het systeemvak op de taakbalk moet worden uitgevoerd (zie de afbeelding hieronder).
+310=Voer de wachtrijnaam in
+1686=Voer een naam in voor de nieuwe wachtrij die wordt weergegeven in de lijst met wachtrijen
+
+//menu items
+m34026=Wachtrij starten
+m34028=Wachtrij stoppen
+34029=Planner en wachtrijen
+//tooltips for "Start queue" and "Stop queue" toolbar buttons.
+t34030=Start de hoofddownloadwachtrij of kies een wachtrij om te beginnen in de vervolgkeuzelijst
+t34031=Stop de hoofddownloadwachtrij of kies een wachtrij om te stoppen in de vervolgkeuzelijst
+
+//v 5.11 build 3
+1679=Eenmalig downloaden
+
+//v 5.11 build 5
+20786=De gegevensoverdracht is onderbroken en de server ondersteunt \"resume\" niet. Het is alleen mogelijk om dit bestand vanaf het begin te downloaden.\r\n\r\n er zijn verschillende manieren om het probleem op te lossen:\r\n 1. Het is mogelijk dat de server tijdelijke problemen heeft. Probeer deze download op een later tijdstip te hervatten.\r\n 2. U kunt dit bestand alleen in de wachtrij laten staan (nog een nieuwe wachtrij maken) en de wachtrij starten. In dit geval probeert IDM het bestand vanaf het begin te downloaden totdat het bestand is gedownload.\r\n voor de beste resultaten moet u ook 1 verbinding voor deze site instellen in de lijst met uitzonderingen op het tabblad IDM \"Opties->verbinding\".\r\n
+20784=\"IDM CC\"-extensie voor op Mozilla gebaseerde browsers is gewijzigd in deze versie van IDM. U moet de extensie opnieuw installeren om nieuwe functies te kunnen gebruiken. Wilt u de extensie voor de browser %s %s opnieuw installeren?
+20785=\"IDM CC\"-extensie voor op Mozilla gebaseerde browsers is gewijzigd in deze versie van IDM. U moet de extensie opnieuw installeren om nieuwe functies te kunnen gebruiken. Wilt u de nieuwe IDM CC-extensie installeren voor browsers met een oude IDM CC-extensie?
+
+//v 5.11 build 7
+//Items in context menu of browsers:
+20810=Downloaden met IDM
+20811=FLV-video downloaden met IDM
+20812=De laatst aangevraagde FLV-video downloaden
+20813=Kies uit 10 laatst aangevraagde FLV-video's
+20814=Download de laatst aangevraagde FLV-video met IDM
+20815=Download FLV-video's met IDM van 10 voor het laatst aangevraagd
+20816=Download alle koppelingen met IDM
+20817=FLV-video-inhoud downloaden met IDM
+
+20790=FLV-video opslaan
+20791=u kunt FLV-video's opslaan die u leuk vindt door het menu-item FLV-video downloaden met IDM in het contextmenu van de browser te gebruiken. \R\n\r\nhet contextmenu van de browser wordt weergegeven als u met de rechtermuisknop op een webpagina klikt (maar niet op een FLV-speler) in uw browser of door de contextmenutoets op het toetsenbord te gebruiken
+20792=kan geen FLV-videokoppelingen vinden op deze webpagina.\r\nHet is mogelijk dat uw browser het videobestand nog niet heeft aangevraagd. U moet wachten tot uw browser het verzoek indient en het opnieuw proberen. In sommige gevallen hoeft u alleen maar op de knop \"afspelen\" op uw webspeler te drukken.
+20793=downloaden met IDM
+20794=Alles downloaden met IDM
+20795=kan de koppelingen niet vinden!\r\nVernieuw deze pagina als deze pagina koppelingen bevat en probeer het opnieuw. Neem contact op met het IDM-ondersteuningsteam als het probleem zich blijft voordoen.
+20796=kan geen FLV-videolinks vinden!
+20797=kan geen internet-videolinks krijgen die door explorer zijn aangevraagd!\r\nu (of een vreemd programma voor het verwijderen van spyware) heeft IDM Browser Helper Object in uw IE uitgeschakeld. Gebruik de menuoptie \"Extra->Invoegtoepassingen beheren->Invoegtoepassingen inschakelen of uitschakelen\" in Internet Explorer. Zoek vervolgens de invoegtoepassing IDMIEHlprObj Class en schakel deze in.
+20798=kan geen verbinding maken met de IDM-interface die internetvideoverbindingen controleert die door explorer zijn aangevraagd.\r\nmogelijke oorzaken:\r\n - u hebt uw computer niet opnieuw opgestart na het upgraden van IDM naar de nieuwste versie. Start uw computer opnieuw op en probeer het opnieuw\r\n - IDM is niet correct geïnstalleerd. Probeer de nieuwste versie van IDM te downloaden van de officiële website en probeer het opnieuw
+
+//new feature in "Options->General" dialog:
+1688=Bewerken...
+1689=Items in het IDM-menu aanpassen in het contextmenu van browsers
+334=Gebaseerd op Internet Explorer en IE
+335=Firefox en andere gebaseerd op Mozilla
+1696=Geselecteerde menu-items worden weergegeven in het contextmenu van de browser:
+20818=Start Internet Explorer opnieuw om de wijzigingen toe te passen
+20819=Contextmenu van IE wijzigen
+
+//v 5.11 b8
+20820=Nu afsluiten
+20821=IDM afsluiten
+20822=Internet Download Manager heeft de wachtrijverwerking voltooid. Volgens de instellingen van de planner wordt IDM afgesloten. Maar er zijn nog andere downloads bezig die worden gestopt bij het afsluiten. Druk op de knop Annuleren om niet af te sluiten.
+
+//v 5.11 build 9
+20823=U hebt soortgelijke downloads geannuleerd.\n\n als IDM dergelijke downloads per ongeluk altijd overneemt, kunt u deze site of een patroon voor vergelijkbare adressen toevoegen aan de IDM-lijst met uitzonderingen:
+20824=Geen downloads van vergelijkbare adressen via dit patroon:
+336=Rapport voor IDM-ontwikkelaars
+1702=U kunt een rapport naar IDM-ontwikkelaars sturen over de downloads die per ongeluk zijn overgenomen om in de toekomstige versies van IDM een tijdelijke oplossing voor deze site te maken
+1698=De volgende uitzondering toegevoegd:
+1700=De URL van de referrer waarvan de download per ongeluk is overgenomen:
+1703=U kunt het jokerteken asterisk gebruiken voor het adrespatroon.
+
+//v5.12
+20825=(beperkt)
+1707=Gebruik snelheidsbegrenzer
+337=Instellingen snelheidsbegrenzer
+1704=Schakel altijd de snelheidsbegrenzer in bij het opstarten van de IDM
+1705=Schakel het selectievakje Snelheidsbeperking gebruiken in het dialoogvenster voortgang downloaden in
+1706=Onthoud door de gebruiker gemaakte uitzonderingen in de dialoogvensters \"Download Progress\" voor het onafhankelijk gebruiken van Speed Limiter, ongeacht of de Global Speed Limiter in- of uitgeschakeld is
+1708=Maximale downloadsnelheid voor één bestand
+1709=KBytes/sec.
+1710=Opmerking: Internetservers kunnen de verbinding verbreken als de snelheid te beperkt is! Het is dus niet raadzaam om Speed Limiter te gebruiken om te downloaden van servers die de functie \"hervatten\" niet ondersteunen.
+1711=Instellingen van de snelheidsbegrenzer voor individuele downloads
+m34033=snelheidsbegrenzer
+34033=Inschakelen
+34034=Uitschakelen
+34035=Instellingen...
+
+//v5.12 build 5
+20831=Als een FLV-video op de webpagina wordt afgespeeld door uw browser, is het mogelijk dat IDM deze FLV-koppeling niet kan koppelen aan deze webpagina. U moet proberen om \"Download FLV video's with IDM from 10 last requested\" browser context menu item te gebruiken.\r\n(het contextmenu van browsers kan worden aangepast in \"IDM Options->General tab\")
+20830=Er Is Een CRC-fout opgetreden tijdens het downloaden. Dat betekent dat u een probleem had met uw harde schijf. U dient uw schijf te scannen op fouten door \"Error-checking\" te gebruiken in het dialoogvenster disk properties->tools Windows.
+
+//5.12b7
+20832=U moet beheerdersrechten bieden om IDM te registreren voor alle gebruikers op deze computer
+
+//5.12b8
+20837=Verwijderen van downloads bevestigen
+20833=De geselecteerde downloads zijn niet voltooid. Weet u zeker dat u deze uit de IDM-lijst met downloads wilt verwijderen?
+20834=De geselecteerde download is niet voltooid. Weet u zeker dat u deze uit de IDM-lijst met downloads wilt verwijderen?
+20835=Er zijn onvolledige downloads onder geselecteerde. Weet u zeker dat u ze ook uit de IDM-lijst met downloads wilt verwijderen?
+20836=Weet u zeker dat u alle voltooide downloads uit de IDM-lijst met downloads wilt verwijderen?
+1715=Weet u zeker dat u geselecteerde downloads uit de IDM-lijst met downloads wilt verwijderen?
+1713=Verwijder ook volledig gedownloade bestanden van uw harde schijf. Wees voorzichtig!
+
+//v5.14
+20850=video
+20851=audio
+20852=Download deze %s
+20853=Download deze %s met IDM
+20854=Info over dit paneel
+20855=Sluiten
+20856=Dit is het IDM-downloadpaneel.\r\n IT Kan worden aangepast of uitgeschakeld in het dialoogvenster \"IDM->Opties->tabblad Algemeen\"
+20857=Downloadpaneel IDM
+20858=Download %s van deze pagina
+20859=Downloaden %s Van deze pagina met IDM
+20860=Alles downloaden
+20861=%ld %s bestanden
+20862=bestand
+
+//new on Options->General
+1724=IDM Download panel voor webspelers in browsers
+1727=IDM kan het Download-paneel op een webspeler in een browser weergeven wanneer IDM een multimediaverzoek van de webspeler detecteert
+1728=Paneelweergave:
+1717=volledige modus
+1718=Mini-modus
+1726=IDM-downloadvenster weergeven voor de volgende bestandstypen:
+20863=Opmerking: Als u een bestandstype in de bovenstaande lijst uitschakelt en het bestandstype in de lijst op het tabblad \"Opties->bestandstypen\" staat, worden downloads van dit bestandstype automatisch door IDM vastgelegd en worden ze niet afgespeeld in de webspeler. Als u dit wilt voorkomen, schakelt u het onderstaande selectievakje in:
+1720=Niet automatisch downloaden van webspelers vastleggen
+
+//on Scheduler dlg
+1729=Download starten bij het opstarten van de IDM
+
+20864=U kunt integratie in deze browser gebruiken nadat u de functie Geavanceerde browserintegratie in dit dialoogvenster hebt ingeschakeld
+1731=Waarschuwing: U gebruikt IDM met beheerdersrechten. \R\n IDM kan in deze modus geen downloads van browsers overnemen.
+20865=Firefox kan het downloaden van bestanden niet overbrengen naar Internet Download Manager omdat het selectievakje dit programma als beheerder uitvoeren is ingeschakeld in het dialoogvenster met bestandseigenschappen van Idman.exe. \R\n\r\nOpen de map IDM, klik met de rechtermuisknop op \"Idman.exe\", selecteer het menu-item \"Eigenschappen\", schakel over naar het tabblad \"compatibiliteit\" en verwijder het vinkje uit het selectievakje \"dit programma als beheerder uitvoeren\".
+
+//v5.16
+20867=Kan het downloaden van het bestand niet hervatten:
+20868=IDM wacht op het nieuwe adres om het bestand te hervatten:
+20869=Het is mogelijk dat het adres van het bestand niet meer geldig is of dat uw sessie is verlopen.
+20870=Is dit het nieuwe adres voor uw verlopen download?
+20872=downloadadres vernieuwen
+20873=IDM wacht op een nieuw adres voor een nieuwe verlopen download. Slechts één verlopen download mag deze functie tegelijkertijd gebruiken.
+20874=IDM opent een webpagina in uw browser waar deze download is vastgelegd. Start het downloaden van hetzelfde bestand opnieuw vanuit uw browser en IDM zal proberen een nieuw adres of nieuwe sessiegegevens vast te leggen om deze download te hervatten
+20871=Wachten op nieuwe gegevens
+1732=Wacht niet langer
+20875=Nieuw verbindingsadres voor dit bestand is ontvangen.
+20876=Start het downloaden van hetzelfde bestand handmatig vanuit uw browser, En IDM zal proberen een nieuw adres of nieuwe sessiegegevens vast te leggen om deze download te hervatten
+20877=Probeer de downloadsessie te vernieuwen en een nieuw adres op te halen met het menu-item \"Download-adres vernieuwen\" in het snelmenu in de IDM-downloadlijst. \R\nor probeer deze download te verwijderen, start deze vervolgens opnieuw vanuit uw browser om deze vanaf het begin te downloaden met IDM.
+20878=Webpagina van eigenaar downloaden om het koppelingsadres te vernieuwen
+20879=De website heeft een webpagina verzonden in plaats van een bestand toen IDM dit bestand de tweede keer opvroeg. Waarschijnlijk maakt deze site gebruik van tijdelijke koppelingen en staat deze niet toe om twee keer hetzelfde adres op te vragen.\r\n\r\nProbeer deze download te verwijderen, start deze vervolgens opnieuw vanuit uw browser en download deze, wanneer IDM deze vastlegt, zonder een stop/pauze.
+1741=De webpagina waar dit bestand vandaan is gekomen:
+20880=Adres controleren: %s.
+20881=U hebt geen bestand gecontroleerd om te downloaden!\r\n als u niets wilt downloaden, sluit u het dialoogvenster \"%s\" met de knop \"Annuleren\".
+20882=Bestanden toevoegen om te downloaden met IDM
+1739=Toon het wachtrijselectiepaneel als u op "later downloaden" drukt
+1738=Toon het wachtrij selectiepaneel over het toevoegen van batch downloads
+1735=Bestanden toevoegen aan de wachtrij:
+20884=Niet toevoegen aan een wachtrij
+1736=Verwerking van wachtrij starten
+1737=Vraag het me niet opnieuw
+20883=U kunt dit paneel inschakelen in \"Opties->Downloads\"
+
+//v5.17b4
+34036=Voeg batch-download toe van &klembord
+20885=Meerdere URL's gevonden op klembord. Wilt u deze downloaden?
+20886=Batch downloaden van klembord.
+20887=Kan geen webadres vinden op het klembord!
+
+//v5.18b3
+m34037=Pictogram IDM-lade
+34037=3D-stijl
+34038=Klassieke stijl
+34039=Niet weergeven
+
+//v5.18b5
+20889=Uw licentie voor Internet Download Manager is verlopen.\r\n IDM werkt niet meer. Vraag een nieuwe licentie aan om IDM te gebruiken
+20890=Let op:\r\nOur licentie voor IDM verloopt over %ld dagen.\r\n\r\n Houd er rekening mee dat het menu-item \"Registratie->Registratie\" nu is uitgeschakeld,\r\n maar wordt ingeschakeld zodra uw licentie verloopt
+
+20891=U hebt GEEN dagen van de week gecontroleerd waarop de planner moet beginnen!
+20892=Begin dagelijks
+
+20893=U hebt een spatie vóór de gebruikersnaam ingevoerd. Als de ruimte per ongeluk is ingevoerd, wilt u dan dat de IDM de ruimte verwijdert?
+20894=U hebt een spatie achter de gebruikersnaam ingevoerd. Als de ruimte per ongeluk is ingevoerd, wilt u dan dat de IDM de ruimte verwijdert?
+20895=U hebt een spatie vóór het wachtwoord ingevoerd. Als de ruimte per ongeluk is ingevoerd, wilt u dan dat de IDM de ruimte verwijdert?
+20896=U hebt een spatie achter het wachtwoord ingevoerd. Als de ruimte per ongeluk is ingevoerd, wilt u dan dat de IDM de ruimte verwijdert?
+
+//5.19
+1748=IDM aanpassen deelvensters downloaden in browsers
+20899=Voor webspelers
+20900=Voor geselecteerde bestanden
+1749=IDM kan het downloadvenster op een webpagina weergeven als u een tekst selecteert die downloadkoppelingen bevat.
+20901=(momenteel werkt deze functie voor Internet Explorer, op IE gebaseerde browsers, Firefox en Mozilla-gebaseerde browsers)
+20903=Geselecteerde bestand(en) met IDM downloaden
+1744=Het downloadvenster weergeven voor alle geselecteerde koppelingen
+1745=Het downloadvenster voor geselecteerde koppelingen niet weergeven
+1746=Toon het downloadvenster alleen voor geselecteerde koppelingen voor de volgende sites:
+1751=Downloads van de volgende browsers vastleggen:
+1742=Alles selecteren
+1743=Alles wissen
+
+//5.19b3
+20904=IDM kan geen onderdeel vinden dat geavanceerde browserintegratie installeert/verwijdert. Installeer IDM opnieuw.
+20911=IDM downloadt een webpagina in plaats van een bestand.
+20909=Wilt u weten hoe u bestanden van Rapidshare met IDM kunt downloaden?
+20910=Wilt u weten hoe u bestanden kunt downloaden van sites voor het delen van bestanden met IDM?
+20905=Kan de download niet overbrengen naar IDM
+20906=Het is mogelijk dat uw browser en IDM zijn ingesteld om te worden uitgevoerd onder verschillende bevoegdheden (verschillende niveaus van hoogte).\r\n\r\nAls u IDM uitvoert met het menu-item \"uitvoeren als beheerder\", sluit u IDM af (kies de menuoptie \"taken->Afsluiten\" in het hoofdvenster van IDM) En voer IDM weer normaal uit.\r\n\r\nHet selectievakje dit programma als beheerder uitvoeren is ingeschakeld in het dialoogvenster met bestandseigenschappen van Idman.exe. Open de IDM-map, klik met de rechtermuisknop op Idman.exe, selecteer het menu-item Eigenschappen, schakel over naar het tabblad compatibiliteit en verwijder het vinkje uit het selectievakje dit programma als beheerder uitvoeren. Ook moet u de compatibiliteit met eerdere versies van Windows verwijderen als deze zijn ingeschakeld. Start IDM daarna opnieuw.
+20907=Als de selectievakjes \"dit programma als beheerder uitvoeren\" of \"compatibiliteit met eerdere versies van Windows\" niet zijn ingeschakeld voor IDM, schakelt u deze uit in de Windows-eigenschappen van uw browser.
+
+//v6.0b
+20897=Video %dx%d, duur %d:%02d
+20912=Duur
+20913=Als u meerdere gebruikers op uw computer hebt, wordt de geavanceerde browserintegratie voor alle gebruikers uitgeschakeld.
+20914=Nadat u Internet Download Manager in de nieuwe toepassing hebt geïntegreerd, kunt u de optie nieuwe toepassingen detecteren uitschakelen voor betere prestaties.
+20915=Dit is een BÈTAVERSIE van Internet Download Manager.\r\nDe installatie van een nieuw netwerkstuurprogramma zal de integratie met webspelers aanzienlijk verbeteren en de oude integratie met verschillende browsers zoals Chrome of Opera veranderen. Als u problemen ondervindt bij het maken van een verbinding met internet, bijvoorbeeld als het systeem vastloopt of vastloopt, opent u IDM-opties en schakelt u het selectievakje Geavanceerde browserintegratie gebruiken op het tabblad Algemeen uit. Het nieuwe stuurprogramma wordt uitgeschakeld.
+
+//v6.03b2
+20919=IDM heeft ontdekt dat uw computer mogelijk geen speler heeft die %s video's zou kunnen afspelen. U moet elke %s-speler installeren.\r\n\r\nWilt u informatie over een %s-speler lezen?
+20920=%s video is gedownload
+
+//
+//Dear translators, please note that we have changed several old strings:
+//
+t1278=Categorieën verbergen
+t32789=Voeg handmatig een nieuw downloadadres toe
+t1004=Voeg een bestand toe aan de IDM-lijst om het later te downloaden
+t1061=Monitor systeem Klembord voor links om te downloaden met IDM
+187=Doel IDM-daling. Zet hier weblinks neer om deze te downloaden.
+20176=Het opgevraagde bestand ziet eruit als een html-webpagina.\r\n\r\nAls deze download automatisch vanuit uw browser is overgenomen toen u op een koppeling klikte, Houd de Alt-toets ingedrukt wanneer u op de koppeling klikt om de pagina door IE te laten openen.\r\n\r\nWilt u doorgaan met het downloaden van het bestand met IDM en het opslaan als html-pagina?
+20177=Het gedownloade bestand ziet eruit als een html-webpagina.\r\n\r\nAls deze download automatisch vanuit uw browser is overgenomen toen u op een koppeling klikte, houdt u de Alt-toets ingedrukt terwijl u op de koppeling klikt om de pagina door IE te laten openen.\r\n\r\nWilt u de naam van het gedownloade bestand wijzigen in een html-pagina?
+34012=Zoek naar nieuwe werkbalken
+20573=Zoek naar nieuwe werkbalken
+57670=Help-inhoud
+20721=IDM is succesvol geïntegreerd in Mozilla Firefox.\n u moet de Firefox-browser opnieuw opstarten om de wijzigingen toe te passen
+20342=Downloadkoppeling gevonden op klembord. Wilt u deze downloaden?
+
+//Old strings 20016, 20017, 20350 replaced with:
+20916=Er is een onbekende fout opgetreden tijdens het downloaden. Probeer het opnieuw.
+20917=Er is een fout opgetreden tijdens het downloaden. Probeer het opnieuw.
+20918=Uw serienummer voor Internet Download Manager is geblokkeerd vanwege verschillende registraties. IDM wordt afgesloten...
+
+//And deleted the following strings: 
+//20178, 20179, 20180, 20181, 20182, 20183, 20184, 20185, 20186, 20187, 20188, 20189, 20190, 20191, 20192, 20193, 20194, 20195, 20196, 20197, 
+//20198, 20200, 20201, 20202, 20208, 20209, 20210, 20223, 20224, 1238, 1251, 1314, t1065, t1068, 20016, 20017, 20350
+
+//v6.03b3
+//We have changed the old strings: 20146 and 20033 (Tab name) 
+
+20921=Wilt u weten hoe u bestanden kunt downloaden van de %s-site met IDM?
+20923=Uitvoerbaar IDM-bestand bevindt zich op het bureaublad
+20922=U hebt het uitvoerbare bestand van IDM op het bureaublad geplaatst. IDM kan niet correct werken zonder de andere bestanden. Verplaats IDMan.exe terug naar programma's en maak in plaats daarvan een snelkoppeling naar IDM op het bureaublad. Als u een snelkoppeling wilt maken, opent u de map IDM in programma's, klikt u met de rechtermuisknop op het bestand IDMan.exe en gebruikt u het pop-upmenu-item \"Verzenden naar -> bureaublad (snelkoppeling maken)\".
+20924=Opmerking 2: Als u op een koppeling klikt, vraagt uw browser soms tegelijkertijd andere bestanden op, zoals Java-scripts, webpagina's, afbeeldingen, enz. als u een speciale sleutel ingedrukt houdt, onderschept IDM deze bestanden, En de browser vraagt mogelijk niet om het benodigde bestand, omdat er geen Javascript wordt uitgevoerd, die ten onrechte door IDM is onderschept. Als u alleen de benodigde bestanden met IDM wilt onderscheppen en downloaden, schakelt u de onderstaande optie in:
+1753=Als u een speciale toets ingedrukt HOUDT, NEEMT u de downloads die webpagina's, afbeeldingen, scripts en dergelijke zijn NIET over
+20925=U hebt een verouderde %s-browserintegratie of de %s-integratie is niet geïnstalleerd. Wilt u lezen hoe u dit kunt oplossen?
+20926=IDM toont een downloadpaneel in plaats van downloads op webspelers vast te leggen wanneer de %s-integratie correct werkt.
+
+//v6.04b2
+20928=IDM heeft dit bestand onderschept van webmediaspeler vanwege het uitgeschakelde downloadvenster voor het betreffende bestandstype in IDM-opties.\r\n\r\n als u wilt dat IDM dergelijke bestanden niet onderschept, gaat u naar het tabblad Algemeen in IDM-opties, Klik op de knop Bewerken voor downloadvensters in browsers en schakel het selectievakje downloaden van webspelers niet automatisch vastleggen in het pop-upvenster in.
+20929=IDM kan Advanced Browser Integration niet inschakelen om een van de volgende redenen:\r\n1. U hebt geen beheerdersrechten of u hebt niet toegestaan dat het IDM-hulpprogramma als beheerder kan worden uitgevoerd.\r\n2. U hebt op de knop Annuleren gedrukt tijdens de installatie van het IDM-netwerkstuurprogramma.\r\n3. U hebt het opstarten of installeren van het IDM-netwerkstuurprogramma geblokkeerd door middel van beveiligingssoftware of antivirus van derden.
+//v6.04b3
+20930=IDM kan %ld bestand(en) niet vinden die nodig zijn voor browser- en systeemintegratie. Installeer IDM opnieuw
+
+//v6.06
+//"Serial Number" explanation on registration dialog
+20931=Wat is de \"%s\"?
+20932=%s is een productcode van Internet Download Manager.\r\nDit is een unieke alfanumerieke code voor elke gebruiker die eruitziet als\r\n xxxxx-xxxxx-xxxxx-xxxxx\r\n\r\nHet serienummer ontvangt u pas na aanschaf van IDM.\r\nDruk op de knop \"%s\" om IDM te kopen.
+
+//v6.07
+20933=Deze instellingen zijn niet beschikbaar voor de downloads die vanuit de IDM-wachtrij worden verwerkt
+20934=Deze instellingen zijn niet beschikbaar als \"%s\" is ingeschakeld
+363=Downloadstatus
+364=Opties na voltooiing
+20935=Internet Download Manager heeft het downloaden van een bestand voltooid. Volgens uw instellingen voor deze download wordt de IDM afgesloten. Maar er zijn nog andere downloads bezig die worden gestopt bij het afsluiten. Druk op de knop Annuleren om niet af te sluiten.
+20936=Internet Download Manager heeft het downloaden van een bestand voltooid. Volgens uw instellingen voor deze download zal IDM uw modem ophangen.
+20937=Internet Download Manager heeft het downloaden van een bestand voltooid. Afhankelijk van uw instellingen voor deze download wordt uw computer afgesloten.
+1762= Downloadpaneel voor beveiligde inhoud weergeven \r\n die IDM mogelijk niet downloadt
+20938=Beveiligde inhoud
+20939=IDM kan deze beveiligde stream om juridische redenen niet downloaden. Het downloaden van dergelijke streams wordt niet ondersteund omdat IDM de technologische maatregelen die zijn getroffen voor de bescherming van audio-, video- en gegevenscontent mogelijk niet omzeilt.\r\n\r\nAls het downloadpaneel kan worden uitgeschakeld voor de beveiligde inhoud die IDM mogelijk niet kan downloaden in \"IDM Options -> General tab\"
+
+//v6.07b7
+365=Snelheidsbegrenzer
+1763=Maximale downloadsnelheid:
+1765=Bewaar de instellingen van de snelheidsbegrenzer voor dit bestand\r\n bij het stoppen/hervatten van het downloaden
+1772=Tabblad verbergen
+367=Dialoogvenster voortgang download aanpassen
+1767=Dialoogvenster voortgang downloaden aanpassen
+1775=Beginweergave:
+1774=Opmerking: De optie „start view” heeft geen betrekking op de verwerking van de wachtrij. Wanneer IDM wachtrijen verwerkt, wordt het dialoogvenster „voortgang downloaden” altijd geminimaliseerd in het systeemvak
+1768=Toon het tabblad „snelheidsbegrenzer”
+1769=Tabblad „Opties na voltooiing” weergeven
+1773=Toon de knoppen „tabblad verbergen”
+
+//v6.07b12
+20941=Fout bij verbinding maken met VPN
+20940=Het is mogelijk dat u de VPN-verbinding moet wijzigen die is ingesteld in IDM-opties, of het selectievakje \"Windows Inbelverbinding/VPN-netwerk gebruiken\" moet uitschakelen in IDM-opties -> tabblad \"Inbelverbinding / VPN\"
+20942=kwaliteit
+
+//v6.08b2 beta
+20949=Proxy/socks
+20948=Proxy-/SOCKS-configuratie
+369=Geavanceerde proxy-instellingen
+1777=Geavanceerd...
+1778=Proxy gebruiken
+1785=Gebruik deze proxy voor de volgende protocollen:
+1779=Gebruik socks
+1786=Socks-serveradres
+20943=Kan geen verbinding maken met SOCKS-server, autorisatie vereist
+20944=Socks-server kan geen verbinding maken met %s.
+20945=Kan geen verbinding maken via SOCKS-server, onbekend SOCKS-type
+20946=Kan geen verbinding maken via SOCKS-server, autorisatie mislukt!
+20947=Kan geen verbinding maken met de SOCKS-server %s.
+
+//v6.09b2 beta
+1787=Uitzonderingen
+370=Uitzonderingen op het deelvenster Download
+1788=IDM-downloadvenster niet weergeven voor de volgende sites:
+1789=Scheid namen door spaties. U kunt een sterretje gebruiken als jokerteken
+20950=IDM kan Advanced Browser Integration niet inschakelen omdat de Windows-service \"Base Filtering Engine\" niet actief is. Klik met de rechtermuisknop op het computerpictogram, selecteer \"beheren\", navigeer naar \"Services and Applications -> Services\", zoek vervolgens \"Base Filtering Engine\" in de lijst en klik er met de rechtermuisknop op om Eigenschappen te openen. Wijzig Opstarttype in \"automatisch\", klik op \"Start\" en bevestig de wijzigingen.\r\n\r\nKlik op OK om naar een webpagina te gaan voor meer informatie.
+20951=IDM kan Advanced Browser Integration niet inschakelen omdat de Windows-service Base Filtering Engine ontbreekt. Dit kan gebeuren omdat uw systeem wordt beschadigd door computermalware.\r\n\r\nKlik op OK om een webpagina met herstelinstructies te openen.
+
+//v6.11
+341=Bestandstype toevoegen
+349=Voer de naam van de site in
+1790=Zet automatisch in deze categorie alleen de bestanden van de volgende sites:
+1793=Afzonderlijke sites op basis van spaties. U kunt een sterretje gebruiken als jokerteken
+20952=Let op: Volgens de IDM-licentie die u hebt geaccepteerd tijdens de installatie van IDM, moet u IDM nu verwijderen of aanschaffen
+
+//v6.11b7
+20953=Recente...
+
+//v6.12b2
+20954=Uw browser opent mogelijk de IDM-website niet omdat een belangrijk systeembestand op uw computer is beschadigd. Dit bestand repareren?
+20955=IDM kan niet controleren op updates omdat een belangrijk systeembestand op uw computer is beschadigd. Dit bestand repareren?
+
+//v6.12b5
+1795=Stel de aanmaakdatum van het bestand in zoals opgegeven door de server
+
+//v6.12b6
+20956=Als u een deel van de IDM-extensie voor Firefox wilt bijwerken, sluit u Firefox (of SeaMonkey) en drukt u op de knop \"opnieuw proberen\"\r\nof u zult uw computer later opnieuw moeten opstarten
+
+//v6.12b8
+//Please pay attention that we added the possibility to translate text for IDM installer and IDM uninstaller. 
+//You can find the template to translate installer in "template_inst.lng" file in "Languages" folder
+
+//v6.12b22
+20995=IDM is begonnen met het downloaden van het bestand via één verbinding als gevolg van gegevensbeschadiging, toen onlangs ontvangen gegevens in verschillende verbindingen niet overeenkwamen met dezelfde eerder gedownloade gegevens.\r\nWilt u meer lezen over mogelijke oorzaken van gegevensbeschadiging?
+20996=IDM is begonnen met het downloaden van het bestand vanaf het begin omdat de gegevens beschadigd waren omdat de ontvangen gegevens niet overeenkomen met de eerder gedownloade gegevens.\r\nWilt u meer lezen over mogelijke oorzaken van gegevensbeschadiging?
+20997=De IDM-extensie is geïnstalleerd in (of bijgewerkt in) de Google Chrome-browser.\nu moet Chrome opnieuw opstarten om de wijzigingen toe te passen
+
+//v6.15
+1796=Gebruik automatisch configuratiescript
+20998=Proxy-autorisatie is vereist voor deze proxyserver. Of schakel het selectievakje \"Use automatic Configuration script\" uit in IDM Options->Proxy/Socks
+20999=IDM heeft gedetecteerd dat u het volgende script voor automatische proxyconfiguratie in Internet Explorer gebruikt:\r\n%s\r\n\r\nWilt u dezelfde proxy-instellingen in IDM gebruiken?
+//v6.15b7
+21000=Dit is een live stream-uitzending. Als u de uitzending stopt, kunt u het downloaden niet hervatten vanaf de huidige positie.\r\nWilt u de uitzending stoppen en opslaan als een volledig bestand?
+21001=Live stream opslaan
+
+//v6.15b9
+21002=Downloaden van proxy-script is mislukt
+21003=Wilt u gedetailleerde instructies lezen hoe u uw firewall configureert voor gebruik met IDM?
+
+//6.15b10
+21004=Onbekende indeling (%d)
+20898=Bezig met downloaden tot een overeenkomst met een frame in het volgende bestandsgedeelte...
+
+//v6.16
+21105=Geavanceerde browserintegratie kan niet worden ingeschakeld omdat er een verkeerde versie van het Kaspersky TDI-stuurprogramma is geïnstalleerd!\r\n als het automatisch bijwerken van uw Kaspersky-product niet helpt, neem dan contact op met Kaspersky Support om een update voor het \"kltdi\"-stuurprogramma te krijgen.
+
+//v6.17b7
+21106=Er is een fout opgetreden tijdens het samenstellen van het bestand
+21109=Deze versie van IDM ondersteunt dit type download niet. Probeer IDM bij te werken naar de nieuwste versie.
+21110=IDM-extensie is geïnstalleerd in (of bijgewerkt in) Google Chrome-browser.\r\nu moet de extensie IDM-integratiemodule inschakelen in Google Chrome-instellingen als u wilt dat IDM goed met Chrome werkt
+21111=1. START Google Chrome OPNIEUW op en druk op het Chrome-menu (pijl 1 op de afbeelding)\r\n2. Selecteer de menuoptie Instellingen (pijl 2 op de afbeelding).\r\n3. Selecteer het tabblad Extensies (pijl 3 op de afbeelding). \r\n4. Controleer of de extensie IDM-integratiemodule is ingeschakeld (pijl 4 op de afbeelding).\r\n5. Als u de incognito-modus in Chrome gebruikt, moet u het selectievakje in incognito toestaan inschakelen (pijl 5 op de afbeelding).
+
+//v6.17b9
+//Dear translators, please pay attention that we have added one new line (1062) to template_inst.lng file. Please translate it, and add it to your installer translation file.
+
+//v6.18b3 
+//One more :) 
+//Please pay attention that we have added one more new line (21112) to template_inst.lng file. Please translate it, and add it to your installer translation file.
+
+//v6.18b8
+//we have changed Options->Connection tab
+21113=Lage snelheid: Inbelmodem / ISDN / Bluetooth / Mobile Edge / IrDA
+21114=Medium snelheid: ADSL / DSL / Mobile 3G / Wi-Fi / Bluetooth 3.0 / Overig
+21115=Hoge snelheid: Directe verbinding (Ethernet/kabel) / Wi-Fi / Mobile 4G / Overig
+21116=Gebruik voorzichtig een groot aantal verbindingen. Sommige servers kunnen specifieke beperkingen hebben voor een aantal verbindingen van één client. Als het aantal verbindingen hoog is, kunnen de servers uw computer in een zwarte lijst zetten, vooral als u meerdere bestanden tegelijk downloadt met een groot aantal verbindingen.\r\n\r\nBovendien geldt voor sommige verbindingstypen of bij computers of routers met lage prestaties kan de downloadsnelheid afnemen als u het aantal verbindingen verhoogt.
+
+//v6.19
+21117=Uw selectie bevat alleen een mapnaam. Voer een naam in voor het bestand.
+21118=De grootte van het bestand %s is %.1f GBytes.\r\nDe schijf %s waar u dit bestand wilt opslaan heeft het bestandssysteem %s. De bestanden groter dan %d GBytes kunnen niet op dit bestandssysteem worden geschreven.\r\n\r\nKies een map voor dit bestand op een ander station met NTFS-bestandssysteem
+21119=De grootte van het bestand \r\n%s\r\n is %.1f GBytes.\r\nde tijdelijke map voor het opslaan van bestandsonderdelen tijdens het downloaden bevindt zich op station \"%s\", dit station heeft %s bestandssysteem. De bestanden groter dan %d GBytes kunnen niet op dit bestandssysteem worden geschreven.\r\n\r\nWijzig de tijdelijke maplocatie in \"Opties->Opslaan naar\" en hervat het downloaden om door te gaan met downloaden
+
+//v6.19b8
+21005=Alleen audiotrack
+21006=Alleen videotrack
+
+//v6.19b9
+21120=Controleren op updates is mislukt, omdat de update-informatie ongeldig is.\r\nAls u wi-fi gebruikt waarvoor aanmelding in de browser vereist is, dient u zich aan te melden voordat u op updates controleert
+21121=Sommige toepassingen hebben de IDM-integratie in browsers beschadigd\r\n\r\nu moet IDM opnieuw installeren om deze te herstellen. Of probeer IDM bij te werken met de menuoptie \"Help->controleren op updates\" IDM.\r\nControleer of IDM-integratie in uw browser is ingeschakeld in IDM-opties -> tabblad Algemeen.
+
+//6.21b3
+21125=Verplaatsen
+21126=Verplaatsen/Hernoemen
+
+//new "Find file" dialog
+487=Bestand zoeken
+21122=Bestand zoeken
+21123=Zulke bestanden zijn niet gevonden
+21124=De zoekopdracht is voltooid
+1807=Bestandsnaam of een deel van de naam:
+1809=Beschrijving of een deel van de beschrijving:
+1811=Hoofdlettergebruik
+1812=Alleen hele tekenreeks overeenkomen
+1673=Zoeken
+//New subitems in "Downloads" main menu
+34040=Zoeken (Ctrl-F)
+34041=Volgende zoeken (F3)
+
+//v6.21b5
+21128=IDM kan de toepassing Update niet starten. Dit kan het gevolg zijn van onjuiste Anti-Virus software-instellingen voor de map met IDM-servicebestanden.\r\n\r\nIDM opent deze map en u kunt het bestand \"idmupdt.exe\" handmatig uitvoeren.\r\n\r\nof u kunt de nieuwste versie van IDM niet downloaden van de IDM-homepage en deze over uw huidige versie heen installeren
+21129=Andere kwaliteiten...
+21130=Als u deze video in een andere kwaliteit wilt downloaden, selecteert u de gewenste kwaliteit in de webspeler. Daarna wordt de geselecteerde kwaliteit weergegeven in het vervolgkeuzemenu van het deelvenster Download van IDM.
+21131=Selecteer een map
+
+//v6.21b11
+21132=IDM heeft %s-bestand gedownload dat gebruikmaakt van een nieuwe codec die niet op uw computer is geïnstalleerd.\r\nLees meer informatie op de startpagina van IDM om dergelijke bestanden op uw speler af te spelen.
+1813=Geavanceerde verwerking van webpagina's gebruiken
+21133=Meerdere IDM-modules zijn niet bijgewerkt. Installeer de nieuwste versie van IDM opnieuw, start uw computer opnieuw op en probeer het opnieuw om dit bestand te downloaden
+
+//v6.21b16
+21134=IDM kan de computer niet uit de slaapstand halen om de downloadwachtrij op een gepland tijdstip te starten.
+21135=Houd er rekening mee dat wanneer u overschakelt naar de Metro-modus, het bureaublad naar de slaapmodus kan gaan.
+21136=Als u wilt dat IDM de wachtrij op een gepland tijdstip downloadt, schakelt u de activeringstimers in de Windows-instellingen in.\r\nOpen \"Configuratiescherm\\Energiebeheer\\Instellingen van plan wijzigen\\Geavanceerde energie-instellingen wijzigen\", open vervolgens het knooppunt \"slaapstand\\Timers van activering toestaan\" en stel deze in op \"inschakelen\".\r\n\r\nWilt u zien hoe u dit moet doen op schermafbeeldingen?
+
+//v6.23b12
+21137=Houd er rekening mee dat deze versie en alle eerdere versies van IDM geen hosts-bestand gebruiken wanneer ze verbinding maken met de IDM-homepage. Wanneer u dit bestand wijzigt, sluit u de toegang tot de IDM-website alleen voor uw webbrowser. Als u op de knop OK drukt, controleert IDM of er updates zijn, zelfs als het bestand met de beschadigde hosts is beschadigd.
+21138=Uw browser opent mogelijk de IDM-website niet omdat een belangrijk systeembestand op uw computer is beschadigd. IDM zal dit bestand nu herstellen.
+
+//v6.25b16
+21139=Het serienummer voor IDM dat u hebt ingevoerd, wordt gebruikt op een andere computer en verbonden met een ander e-mailadres
+21140=Het serienummer voor IDM\r\n%s\r\ndat u hebt ingevoerd, wordt gebruikt op een andere computer.\r\n\r\nAls u dit serienummer op deze computer wilt gebruiken, Vervolgens moet u IDM verwijderen van een andere computer (of alle andere computers) waarop dit serienummer eerder is gebruikt. Als u hetzelfde serienummer op verschillende computers tegelijkertijd gebruikt, wordt dit serienummer automatisch geblokkeerd.\r\n\r\nWilt u doorgaan met de IDM-registratie met\r\n%s\r\nserienummer?
+//Please pay attention that we have added one more new line (1063) to template_inst.lng file. Please translate it, and add it to your installer translation file.
+
+//v6.25b18
+21142=Wilt u meer lezen?
+21141=U hebt IDM geregistreerd met het onderstaande serienummer\r\n%s\r\n\r\nDit serienummer is geblokkeerd op IDM-servers. IDM wordt afgesloten...
+
+//v6.26b5
+21146=IDM heeft niet-gerefereerde en niet-verwijderde delen van oude downloads gevonden in de tijdelijke IDM-map\r\n%s\r\nWilt u dat IDM deze verwijdert om schijfruimte vrij te maken?
+
+//v6.27
+21147=Uw serienummer begint met: %s..................
+488=Minimale grootte
+1822=Min. Grootte
+21148=Het paneel \"Download this audio\" niet weergeven als de grootte van het audiobestand in kilobytes onder de volgende minimumgrootte ligt
+21149=Het deelvenster \"deze video downloaden\" niet weergeven als de grootte van het mediabestand in kilobytes onder de volgende minimumgrootte ligt
+21150=Opmerking: Deze beperking werkt alleen als de grootte van het mediabestand bekend is. Er zijn situaties waarin alleen de duur bekend is of er niets bekend is totdat het bestand volledig is gedownload. In dergelijke situaties zal deze beperking van de bestandsgrootte niet werken.
+
+//v6.28b7
+21151=Het is mogelijk dat u verouderde cryptografische Windows XP-bibliotheken hebt.\r\nWilt u meer lezen?
+
+21153=Uitschakelen
+21154=Slaapstand
+21155=Slaapstand
+21157=Internet Download Manager heeft de wachtrijverwerking voltooid. Afhankelijk van de instellingen van de planner gaat uw computer naar de slaapstand.
+21158=Internet Download Manager heeft de verwerking van het grabber-project voltooid. Afhankelijk van de instellingen van de projectplanner gaat uw computer naar de slaapstand.
+21159=Internet Download Manager heeft het downloaden van een bestand voltooid. Afhankelijk van uw instellingen voor deze download gaat uw computer naar de slaapstand.
+21160=Internet Download Manager heeft de wachtrijverwerking voltooid. Afhankelijk van de instellingen van de planner schakelt uw computer over naar de slaapstand.
+21161=Internet Download Manager heeft de verwerking van het grabber-project voltooid. Afhankelijk van de instellingen van de projectplanner zal uw computer in de slaapstand komen.
+21162=Internet Download Manager heeft het downloaden van een bestand voltooid. Afhankelijk van uw instellingen voor deze download zal uw computer in de slaapstand gaan.
+21163=Slaapmodus
+21164=Slaap nu
+21165=Sluimer nu
+
+21167=IDM-integratie in Firefox 53 en later werkt alleen als \"Geavanceerde browserintegratie gebruiken\" is ingeschakeld in IDM-opties -> tabblad Algemeen
+
+//v6.30
+1823=Handmatige proxy/socksconfiguratie
+1824=Automatisch proxy-instellingen detecteren voor dit netwerk
+1825=Gebruik systeeminstellingen
+1826=Geen proxy/socks
+21169=IDM kan de URL van het Proxy Auto-Configuration-bestand voor dit netwerk niet detecteren!/r/n/r/nAls je geen automatische configuratie hebt ingesteld voor je netwerk, moet je deze optie niet gebruiken om vertragingen te voorkomen wanneer IDM is proberen om het proxypakketbestand te vinden.
+489=Integratie in Microsoft Edge browser
+21170=Er is een nieuwe "IDM integratiemodule" extensie voor Edge uitgebracht. Deze extensie is nodig voor de volwaardige integratie in de Microsoft Edge-browser. IDM start nu de installatie van deze extensie vanuit de Microsoft Store.\r\nHet dialoogvenster Microsoft Store om de IDM-extensie te installeren verschijnt wanneer u dit dialoogvenster sluit.\r\nKlik op de knop "Get" in het Microsoft Store-dialoogvenster zoals geïllustreerd op de afbeelding hieronder.
+1828=Wacht dan tot de installatie is voltooid en start de Edge-browser. Binnen enkele seconden toont Edge een melding van de nieuwe extensie. Bevestig door op de knop "Inschakelen" te drukken. Zie afbeelding hieronder.
+
+//v6.30b7
+p21171=Voer uw e-mailadres in waarnaar we het IDM-serienummer en andere registratie-informatie zullen sturen na de aankoop.
+p21172=Merk op dat deze e-mail kan worden gebruikt om het IDM-serienummer op te halen als u het kwijtraakt, of het kan worden gebruikt voor IDM-ondersteuning met prioriteit. Het is dus belangrijk om een correct e-mailadres in te voeren.
+p21173=Vul je e-mail in
+
+p21174=Uw IDM eenjarige licentie met een serienummer dat begint met %s...
+p21175=verloopt (of is verlopen) op %s
+
+p21176=Wilt u deze licentie verlengen tot volgend jaar?
+p21177=Verleng mijn licentie nu
+p21178=U kunt ook op de knop Kopen in het webpaginamenu drukken om een normale aankooppagina te openen
+
+//v6.30b8
+21179=Uw IDM-licentie is verlengd tot %s
+
+//v6.33
+21180=Het vastleggen van downloads verbeteren
+21181=IDM stuurt een rapport over een probleem met herhaalde downloadverzoeken van de website van %s, En de regels voor het verwerken van downloads van deze website zonder speciale sleutels moeten binnen een bepaalde tijd aan IDM-servers worden toegevoegd.\r\n\r\nAls het ook mogelijk is dat IDM-servers al een oplossing hebben om van deze website te downloaden, zal IDM de database bijwerken nadat dit rapport is verzonden.
+21182=De regels voor het verwerken van downloads van de website van %s zijn bijgewerkt.\r\nNer kunnen downloads van deze website worden onderschept zonder het gebruik van speciale sleutels.\r\n\r\nHoud er rekening mee dat oude downloads die zijn toegevoegd voordat de update werd uitgevoerd, niet worden hervat, u moet ze verwijderen en ze opnieuw uit uw browser overnemen.
+21183=Niet gewijzigd
+21184=IDM onderschept een download die volgens de instellingen van de website van %s slechts één keer kan worden aangevraagd, daarom probeert IDM dit aan te vragen voor de browser. Maar er zijn niet genoeg gegevens in het onderschepte verzoek om dit bestand te downloaden.\r\n\r\nHet is mogelijk dat u een download aan de browser toevoegt op een onconventionele manier die de verwerking van webpagina's op een gedeelde website omzeilt. In dit geval moet u opnieuw beginnen met een openbare koppeling naar een download en alle noodzakelijke stappen doorgeven, zodat het onderschepte verzoek alle benodigde gegevens bevat.\r\n\r\nAls het geen download is en IDM het per ongeluk onderschept, moet u een speciale sleutel instellen („Del” zou voor de meeste browsers moeten werken) In IDM Options -> General -> "Customize Keys to prevent or forceer downloading with IDM" en houd deze ingedrukt terwijl u op een link klikt om downloaden met IDM te voorkomen
+21185=Het bestand met downloadregels dat is gedownload van IDM-servers heeft een nieuwe indeling.\r\nwerk de IDM bij met behulp van \"Help->controleren op updates\" IDM-menu-item zodat IDM deze regels kan gebruiken.
+
+//v6.33b3
+21186=Dit probleem kan optreden omdat de extensie „IDM Integration module” is uitgeschakeld of niet in uw browser is geïnstalleerd.
+
+//v6.33b5
+21187=Installeer de extensie voor de Pale Moon-browser vanaf de IDM-website.
+21188=Uw browser gebruikt een extensie voor het instellen van VPN-verbindingen. Waarschijnlijk kan IDM het bestand niet downloaden omdat de browser verschillende proxy/socks gebruikt voor het aanvragen van dit bestand en de website directe aanvragen van IDM afwijst. IDM kan de proxy- of SOCKS-server die door deze extensie wordt gebruikt niet detecteren.\r\n\r\nProbeer deze extensie in uw browser uit te schakelen en probeer deze download opnieuw te onderscheppen. Als u het bestand niet kunt onderscheppen en downloaden zonder VPN-extensie, probeer dan een andere VPN-extensie.
+21189=Of probeer deze download van een andere browser te onderscheppen
+1838=Instellingen voor viruscontrole
+1839=User-Agent voor handmatig toegevoegde downloads:
+
+//please note that "[File]" in square brackets should not be translated because it's a command line parameter
+21190=Als u Anti-Virus software wilt uitvoeren nadat het downloaden is voltooid, moet u het volledige pad naar het uitvoerbare bestand typen of bladeren. Als IDM op de hoogte is van de noodzakelijke parameters voor een bepaalde uitvoerbare bestandsnaam, worden deze automatisch ingesteld. Anders moet u ze handmatig instellen in \"opdrachtregelparameters\", volgens de documentatie bij de Anti-Virus software. Het gescande bestand tussen verschillende parameters moet worden geschreven als\r\n[File]\r\n(u moet ook vierkante haakjes typen). Als er geen parameters zijn ingesteld, zal IDM Anti-Virus software uitvoeren die het volledige pad van een gedownload bestand opvult.
+21191=Houd er rekening mee dat alle moderne Anti-Virus software de functie 'real-time protection' heeft waarmee alle bewerkingen met bestanden op uw computer worden gecontroleerd, en dat alle bestanden die in IDM zijn gedownload, hierin zijn opgenomen. U moet dus alleen Anti-Virus software-scanner aan de IDM-instellingen toevoegen als de real-time bescherming is uitgeschakeld in de instellingen van de Anti-Virus software.\r\nAlso, in sommige gevallen kan real-time bescherming de assemblage van bestanden die door IDM zijn gemaakt aanzienlijk vertragen. Vervolgens moet u volgens de documentatie van de Anti-Virus software IDMan.exe-processen toevoegen aan uitzonderingen en Anti-Virus controles instellen in deze dialoog.
+
+//v6.35b7
+21192=De video is niet gemengd met de audio omdat de audiostream een andere indeling heeft. Het audiobestand wordt afzonderlijk opgeslagen als\r\n%s.
+21193=Bij dubbelklikken
+21194=U kunt dit bestand niet openen omdat het downloaden ervan niet is voltooid.\r\nu kunt de actie voor dubbelklikken wijzigen in \"Eigenschappen\" in het snelmenu
+
+//v6.35b9
+21195=Een dergelijk probleem is ook mogelijk als een van de IDM-bestanden met downloadregels voor specifieke websites wordt verwijderd of onjuist is geïnstalleerd. Dit kan gebeuren door een ongeldige IDM-installatie.\r\nDownload en installeer de nieuwste IDM-versie van de officiële IDM-website.
+21196=IDM heeft ontdekt dat sommige toepassingen het laden van IDM-module die nodig is voor IDM-integratie in de browser hebben uitgeschakeld.\r\nIDM zal nu proberen de normale werking van deze module te herstellen. U moet bij de volgende stap bevestigen dat u \"Internet Download Manager Assistant\" met beheerdersrechten uitvoert.
+21197=IDM heeft de module gedeblokkeerd voor integratie in browsers. Het kan echter nodig zijn de computer opnieuw op te starten om de wijzigingen door te voeren.
+
+//v6.35b18
+1842=Gebruik TLS 1.3 van Microsoft (Experimenteel)
+21198=Dit is een algemene Windows-instelling, dus sommige toepassingen die gebruikmaken van de Windows Internet Options werken mogelijk met fouten\r\nAls u dus moet bevestigen dat u de \"Internet Download Manager Assistant\" met beheerdersrechten uitvoert bij de volgende stap
+21199=Kan ssl-bibliotheek niet laden. Probeer IDM opnieuw te installeren.
+21200=Fout bij het laden van de ssl-bibliotheek. Probeer IDM opnieuw te installeren.
+21201=Onbekende fout bij het laden van de ssl-bibliotheek.
+1843=Opmerking: IDM gebruikt alleen SOCKS voor de protocollen die hierboven NIET zijn aangevinkt
+
+//v6.35b05
+21202=U moet de extensie „IDM Integraton module” (add-on) installeren om IDM-integratie in de Firefox-browser in te schakelen. IDM opent de installatiepagina voor invoegtoepassingen. Druk vervolgens op de knop „+ Toevoegen aan Firefox” en bevestig de installatie.
+
+//v6.36b07
+1844=Gebruik proxy/socks zoals in browserverzoek voor downloadfouten (voor downloads die vanuit de browser zijn onderschept)
+
+//v6.37b6
+21203=Ondertiteling
+
+//v6.37b7
+21204=Dit is een proefversie van Internet Download Manager van 30 dagen. Wilt u uw exemplaar van IDM nu registreren?
+
+//v6.37b10
+34042=Ondersteuning voor donkere modus
+21205=Deze wijzigingen zijn alleen van toepassing nadat IDM opnieuw is opgestart. Wilt u IDM nu opnieuw opstarten?
+21206=IDM gebruikt de donkere modus als deze is ingeschakeld in Windows-instellingen\r\n(Klik met de rechtermuisknop op bureaublad -> aanpassen -> kleuren -> donkere app-modus)
+
+//v6.37b15
+21143=De digitale handtekening van het IDM-updatebestand is ongeldig. Het is mogelijk dat het updatebestand beschadigd is.\r\nu kunt een nieuwe versie van IDM downloaden van de IDM-startpagina en deze handmatig over uw huidige versie installeren
+21144=IDM kan het updatebestand niet downloaden.\r\nu kunt een nieuwe versie van IDM downloaden van de IDM-startpagina en deze over uw huidige versie installeren versie handmatig
+21145=Deze licentie verloopt op %s.
+21207=IDM is geregistreerd
+
+//v6.38b8
+21208=Al gekocht?
+//this question is used in combination with 20347 line. It looks like:
+//Already purchased? Please enter your Serial Number 
+
+//v6.38b19
+// Dear translators, please pay attention that 21209 line below has "<font color="red"></font>" html tag to 
+// highlight a part of string in red. You must not translate this tag
+// This is our new trial version dialog. It's not activated at the moment, but you can view it and verify 
+// translated strings by using a special query:
+// Press "Add URL" button on IDM toolbar and enter the following special link
+//    test://dl=N
+// where N - the number of days less than 31, for example:
+//    test://dl=10
+// and N is -1 when trial period expires:
+//    test://dl=-1
+// Press OK and wait for 2-3 seconds until IDM requests a file from its web site
+
+21209=U hebt nog <font color="red">%d dagen over</font> om Internet Download Manager te gebruiken
+21210=Wacht niet tot de proefperiode is verlopen. Kies hieronder een speciale prijsoptie om nu een IDM-licentie aan te schaffen
+21211=De gratis proefperiode voor Internet Download Manager is verlopen
+21212=U kunt IDM kopen om deze te blijven gebruiken, of de installatie ongedaan maken. Klik op de knoppen voor de speciale prijs hieronder om IDM te kopen
+
+
+//v6.39
+21213=Dit is een levenslange licentie
+
+// We have changed the search dialog and added SearchBar, find below the new lines for them
+// To test the translation, you can call the search dialog by pressing Ctrl-F (as before) or by using "Downloads->Find" menu item 
+
+1856=Zoeken:
+1076=Instellingen...
+t1076=Instellingen voor IDM zoeken
+t1854=Sluit zoekbalk
+
+1861=Bestandsnaam of een deel van de naam
+1858=Beschrijving of een deel van de beschrijving
+1859=Site name/Download link/parent web page/Referer
+21215=Het selectievakje voor ten minste één van de zoekdoelen moet zijn ingeschakeld
+
+21216=Bovenliggende webpagina
+// new "View->Arrange files->..." main menu item:
+34043=Op bovenliggende webpagina
+
+//v6.39b3
+1862=Start het downloaden niet, voeg alleen bestanden toe aan de wachtrij
+21217=IDM kan de download niet overnemen ondanks de bestaande speciale regels voor het overnemen van downloads van de website van %s. De regels moeten mogelijk worden gewijzigd.\r\nWilt u het rapport over dit probleem naar de IDM-website sturen?
+
+//v6.40
+//new menu
+m34045=Lettertype
+34045=Lettertype kiezen...
+34046=Standaardlettertype herstellen
+21218=De wijzigingen in de lettergrootte in het hoofddialoogvenster zijn alleen van toepassing nadat IDM opnieuw is opgestart. Wilt u IDM nu opnieuw opstarten?
+
+1863=Systeem ophalen
+
+//v6.40b3
+21219=Het mixen van audio- en videostreams in één bestand
+//Options dlg -> Proxy tab
+1863=Get system
+
+//v6.40b3
+21219=Mixing audio and video streams into one file
+
+//v6.41
+//We have changed "Dial up" tab in IDM options to "Dial up / VPN" a long time ago
+//But we have not made the changes in this template file
+//Now we have added new strings for this tab name and its description
+21221=VPN
+21222=VPN-Instellingen
+
+//Also we have changed 1058 string
+//Previously it was higher, and without VPN 1058=Use Windows Dial Up Networking
+//The new one is below
+1058=Windows Inbel-/VPN-netwerken gebruiken 
+
+21223=Vanwege frequente updates van browsers en wijzigingen op websites, moet IDM zich aanpassen aan deze updates en wijzigingen, en daarom wordt IDM regelmatig bijgewerkt.\r\nHet is daarom erg belangrijk om altijd de nieuwste versie van IDM te gebruiken om alle IDM te behouden. functies werken.\r\n\r\nWeet u zeker dat u niet hoeft te updaten naar de nieuwste versie van IDM?

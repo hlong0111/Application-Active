@@ -1,0 +1,1328 @@
+lang=0x141A Bosnian
+tips=tips_ba.txt
+help=idm_ba.chm
+tutor=tut_ba.chm
+
+//This template should be used to translate Internet Download Manager 
+//to foreign languages.
+//All template files should be named using idm_*.lng name pattern convention. 
+//Please place the abbreviated language name (de, en, es, fr, :) 
+//instead of the asterisk. For example: idm_de.lng or idm_fr.lng
+
+//The first string inside the template should be lang=ID Name
+//where Name - the full name of the language (on English),
+//ID - hex number that defines Windows API value of the language.
+//Here are sample primary language IDs:
+//0x06 DANISH
+//0x0b FINNISH
+//0x0c FRENCH
+//0x07 GERMAN
+//0x10 ITALIAN
+//0x11 JAPANESE
+//0x0a SPANISH
+//0x1d SWEDISH
+
+//The strings from second to fourth may contain file names of translated tips, 
+//help and tutorial files. If these strings are absent, 
+//or files cannot be found in <IDM root>/Languages folder, 
+//then IDM uses default English files.
+//Sample:
+//tips=tips_de.txt
+//help=idm_de.chm
+//tutor=tut_de.chm
+
+//Then you need to translate all IDM strings. 
+//It's IMPORTANT when a string has any special characters 
+//(%s %d %x %ld %I64d %%), they should all remain in the translated 
+//string and cannot trade places. Remember that IDM inserts dynamic 
+//values instead of these special characters in a predefined order. 
+//Instead of %s IDM inserts a string, %% - %, in all other cases IDM 
+//inserts a number.
+
+//The strings beginning with // are comments 
+//and you don't need to translate them
+
+
+// Dialogs
+
+//main dialog
+1281=Kategorije
+t1278=Sakrij foldere
+20369=L
+20370=Ime fajla
+20371=Status
+20372=Velièina
+20373=Ostalo vremena
+20374=Stopa transfera
+20375=Opis
+
+//toolbar
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20376=Dodaj URL
+20377=Nastavi
+20378=Stop
+20379=Stop Sve
+20380=Obriši
+20446=Obriši Ko...
+20381=Opcije
+20382=Planer
+20383=Reci prijat...
+//tooltips for buttons
+t32789=Dodaj/Skidaj novi URL ruèno
+t32790=Poèni/Nastavi skidanje izabranog fajla(ova)
+t32791=Zaustavi skidanje izabranog fajla(ova)
+t32792=Zaustavi sva skidanja
+t32793=Ukloni izabrani fajl(ove) sa liste
+t32794=Ukloni sve kompletirane fajlove sa liste
+t32795=Pretraživaè/Sistem integracija, Ekstenzije fajlova, Proxy, Lozinke i drugo
+t32798=Planer i lista skidanja
+t32788=Napiši pismo prijatelju o IDM-u
+
+//Registration dialog
+138=Internet Download Manager Registracija
+1326=Molim unesite svoje registracijske detalje u odgovarajuæa polja i kliknite na tipku U REDU
+1330=Serijski broj
+1327=Ime
+1328=Prezime
+1329=E-mail
+1191=&U REDU
+1201=&Kako licencirati
+1080=&Otkaži
+
+//Download progress dialog
+103=Progres skidanja
+1154=(nepoznato)
+1178=<< Sakrij detalje
+20426=<< Sakrij detalje
+1158=Pauza
+20392=Pauza
+20424=Start
+20425=Pokaži detalje >>
+1300=Velièina fajla
+1301=Skinuto
+1302=Stopa transfera
+1303=Preostalo vremena
+1149=(nepoznato)
+1299=Status:
+1030=Konektovanje...
+1305=Start pozicije i tok skidanja po konekcijama
+1304=Moguænost nastavljanja
+1175=(nepoznato)
+2=Otkaži
+20416=N.
+20417=Skinuto
+20418=Info
+20419=Da
+20420=Ne
+20421=%d sati %d min
+20422=%d min %d sek
+20423=%d sek
+
+130=Info o skidanju fajla
+1006=&Poèni Skidanje
+1010=Pretraži...
+1004=&Skini kasnije
+1298=Opis
+1173=Pregled
+1297=Kategorija
+1296=Snimi kao
+t1004=Dodaj fajl na URL listu za skidanje kasnije
+t1006=Poèni skidanje fajla
+
+148=Unesi novi URL za skidanje
+1182=Koristi &autorizaciju
+1184=Prijava
+1186=Lozinka
+1022=&U redu
+
+//Options Dialog
+134=Konfiguracija Internet Download Manager-a
+1092=U Redu
+20286=Opšte
+20287=Konekcije
+20288=Skidanja
+20289=Proxy
+20290=Prijave na stranice
+20291=Biranje
+20292=Zvukovi
+20293=Opšte
+20294=Konekcije
+20295=Skidanja
+20296=Proxy
+20297=Prijave
+20298=Biranje
+20299=Zvukovi
+20300=Pretraživaè/Sistem integracija
+20301=Tip konekcije
+20302=Polazne postavke skidanja
+20303=HTTP, HTTPS i FTP proxy konfiguracija
+20304=Korisnièka imena i lozinke za servere/stranice
+20305=Postavke biranja
+20306=Zvuène postavke
+//General tab
+1134=Internet Explorer i Netscape 4.x integracija
+1056=Pokreni Internet Download Manager na startup-u
+1061=Automatski poèni skidanje URL stavljenih na clipboard
+1065=Integriraj u Internet Explorer, MSN Explorer, i IE bazirane pretraživaèe
+1068=Integriraj u Netscape 4.x
+1077=&Polazno
+1238=Koristi ALT tipku za spreèavanje skidanja sa IDM sa bilo kojih linkova
+1251=Koristi CTRL tipku za forsiranje skidanja sa IDM sa bilo kojih linkova
+1253=Integriraj u Netscape 6.x
+1255=Integriraj u Operu
+1256=Integriraj u Mozillu
+1257=Integriraj u Netscape 7.x
+1314=Prikljuèci
+1169=Tipovi fajlova...
+1270=Automatski poèni skidanje fajlova sljedeæih tipova:
+t1056=Pokreni Internet Download Manager na sistemskom startup-u
+t1061=Prati sistemski Clipboard za validne URL-ove
+t1065=Prati Internet Explorer za URL klikove
+t1068=Prati Nescape Navigator za URL klikove
+//Proxy tab
+1102=Koristi HTTP Proxy
+1272=Potvrdi lozinku
+1122=Proxy
+1123=Port
+1124=KorisnièkoIme
+1125=Lozinka
+1107=Uzmi iz IE
+1108=Koristi FTP Proxy
+1274=Potvrdi lozinku
+1126=Proxy
+1127=Port
+1128=KorisnièkoIme
+1129=Lozinka
+1113=Uzmi iz IE
+1116=Koristi FTP u PASV modu
+1118=Koristi HTTPS Proxy
+1273=Potvrdi lozinku
+1133=Proxy
+1135=Port
+1137=KorisnièkoIme
+1139=Lozinka
+1141=Uzmi iz IE
+t1107=Pokušaj pronaæi HTTP proxy u konfiguraciji Internet Explorer 
+t1116=Koristi FTP protokol u pasivnom modu (potreban iza firewall-a)
+//Connection tab
+1153=Tip konekcije/Brzina
+1306=Max. broj konekcija
+1254=Ogranièenja skidanja
+//Downloads tab
+1049=Pretraži
+1190=Zapamti zadnju putanju snimanja za kategoriju "Opšte" 
+1136=Polazni folder za snimanje za kategoriju "Opšte" 
+1132=Snimi u...
+1236=Pokaži dijalog završetka skidanja
+1317=Provjera virusa
+1318=Virus skener program
+1165=Pretraži
+1319=Parametri komandne linije
+1316=Dijalog progresa skidanja
+1315=Dijalozi
+1059=Pokaži dijalog poèetka skidanja
+1138=Privremeni folder
+1054=Pretraži 
+//Dial Up tab
+1313=Konekcija:
+1307=Opcije Konekcije
+1166=Primijeni
+1308=Opcije ponovnog biranja
+1309=Broj pokušaja ponovnog biranja (nula za neogranièeno):
+1310=Vrijeme izmeðu pokušaja ponovnog biranja:
+1312=sekundi
+1311=puta
+1058=Koristi Windows Dial Up Networking
+//Sounds tab
+1320=Izaberi zvukove za dogaðaje Internet Download Manager-a
+1172=Pretraži...
+1091=Sviraj
+//Passwords tab
+20436=Stranica/putanja
+20437=Korisnik
+20438=Lozinka
+1087=Novi
+1196=Edituj
+1050=Ukloni
+
+//File properties dialog
+135=Osobine Fajla
+1325=Tip:
+1324=Velièina:
+1323=Snimi u:
+1082=&Pretraži...
+1322=Prijava
+1289=Lozinka
+1321=Potvrdi lozinku
+1164=Otvori
+1240=Zadnji pokušaj
+1241=Rezultat: 
+
+100=O Internet Download Manager-u
+1284=Home Stranica:
+1285=Tim Podrške:
+1286=Ovaj proizvod je licenciran na:
+1181=Neregistrovana verzija
+1161=&Provjeri Nadogradnju
+1185=&Registracija
+1085=&Kupite
+1262=Verzija:
+t1187=Kliknite za posjetu IDM home stranici
+t1189=Kontaktirajte IDM tim podrške
+t1161=Provjerite dostupne nadogradnje na www.internetdownloadmanager.com
+t1185=Registrujte IDM sa vašim regsitracijskim kljuèem
+t1201=Klikni da saznate kako dobiti licencu za IDM
+t1085=Kupite registrovanu kopiju IDM-a
+
+150=Gašenje
+1263=Internet Download Manager je završio procesiranje liste. U skladu sa postavkama planera vršim gašenje vašeg kompjutera.
+1170=Ugasi sada
+
+1163=Da
+1088=Da za sve
+1202=Ne
+1051=Ne za sve
+
+177=Planer
+1331=Lista za skidanje
+1333=Skidanje
+1332=Planer
+1218=Poèni skidanje u 
+1219=Jednom
+1221=Dnevno
+1062=Nedelja
+1057=Ponedeljak
+1066=Utorak
+1069=Srijeda
+1222=Èetvrtak
+1223=Petak
+1224=Subota
+1225=Zaustavi skidanje na 
+1228=Ugasi kompjuter po završetku
+1235=Primoraj procese na završetak
+1089=Primijeni
+1232=Poèni sada
+1233=Zaustavi
+1079=Zatvori
+1227=Prekini vezu po završetku
+1264=MBajta
+1265=sati
+1266=Nemoj skidati više od
+1171=Pomoæ
+1267=svakih 
+1268=Pokaži upozorenje prije prekidanja skidanja
+1271=Izlaz iz Internet Download Manager-a po završetku
+1335=fajlova u isto vrijeme
+t1229=Pomjeri stavku naniže
+t1230=Pomjeri stavku naviše
+t1231=Ukloni stavku sa liste skidanja
+t1232=Poèni listu
+t1233=Zaustavi listu
+t1235=Koristi ovu opciju u hitnim sluèajevima. Ovo može prouzrokovati da aplikacije izgube podatke.
+
+184=Biranje
+1247=Konektovanje...
+1167=Ponovno biranje
+
+186=Opcije biranja
+1336=Biranje
+1237=Snimi lozinku
+1288=Korisnièko ime
+
+187=Baci hiperlinkove ovdje
+
+190=Skini IDM komponente
+1=U Redu
+1258=Komponente skidanja
+
+191=Eksportuj listu skidanja
+1259=Eksportuj listu skidanja
+1260=Eksportuj selektovane fajlove
+1261=Eksportuj sve fajlove
+
+192=Importuj linkove u IDM
+1168=Edituj...
+1090=Obriši
+
+193=Automatski poèni skidanje sljedeæih ekstenzija:
+
+105=Kratka poruka dana
+1001=&Prikazuj na startu
+1003=&Sljedeæa
+107=&Kratka poruka dana...
+108=Da li ste znali...
+109=Fajl sa kratkim porukama ne postoji u predefinisanom folderu
+110=Problem sa èitanjem fajla kratkih poruka
+
+146=Prijava na stranicu
+1337=Server/putanja
+1290=Potvrdi lozinku
+1287=Napomena: Ukucajte samo putanju ako imate razlièita imena za prijavu ili razlièite foldere servera
+
+182=Brza nadogradnja
+1295=Provjera za novom verzijom
+								
+194=Ogranièenja skidanja prekoraèena!
+
+144=Nova verzija Internet Download Manager je dostupna
+1162=Nadogradite sada
+1086=Otkaži
+
+//Zip preview dialog
+196=Zip pregled
+20254=Ime Fajla
+20255=Pakovan
+20256=Velièina
+20257=Modifikovan
+
+//New category dialog
+204=IDM kategorije
+1174=Pretraži...
+1291=Naziv kategorije
+1292=Automatski stavi u kategoriju sljedeæe tipove fajlova:
+1293=Napomena: ekstenzije tipova fajlova rastavljene razmaknicom (t.j. avi mpg mpeg)
+1239=Zapamti zadnju putanju snimanja
+1294=Snimi buduæa skidanja ove kategorije u sljedeæi folder:
+
+
+// Menu
+m32771=Url
+32771=&Dodaj Novi URL
+32809=Pokaži cilj ispuštanja
+m32821=Eksport
+32821=U IDM eksport fajl
+32823=U tekst fajl
+m32816=Import
+32816=Iz IDM eksport fajla
+32818=Iz tekst fajla
+32772=&Izlaz
+
+m32774=Fajl
+32774=Zaustavi Skidanje
+32775=Ukloni
+32776=Skini Sada
+
+m32778=Skidanja
+32778=Pauziraj Sve
+32779=Zaustavi Sve
+32794=Obriši Sve Kompletirane
+32801=Planer
+32803=Poèni listu
+32805=Zaustavi Listu
+32781=Opcije
+
+m32825=Vidi
+32825=Sakrij kategorije
+m32828=Uredi fajlove
+32828=Po Redoslijedu dodavanja
+32830=Po Imenu fajla
+32832=Po Velièini
+32834=Po Statusu
+32836=Po Preostalom vremenu
+32838=Po Stopi transfera
+32840=Po Opisu
+m32841=Jezik
+
+m57670=Pomoæ
+57670=Indeks
+32811=Uputstva
+106=Kratka poruka dana...
+32813=IDM Matièna stranica
+32784=Kontaktirajte nas
+32787=Brza nadogradnja
+32786=O IDM-u
+32788=Recite prijatelju
+
+m32785=Registracija
+32785=Naruèite online
+32783=Registracija
+//end menu
+
+
+//Strings & messages
+101=&O IDM-u...
+32799=Otvaram Port
+32800=Port Otvoren
+32802=Konektujem Ureðaj
+32804=Ureðaj Konektovan
+32806=Svi Ureðaji Konektovani
+32807=Poèetak Provjere Autentiènosti
+32808=Potvrda Autentiènosti
+32810=Ponovni Poèetak Provjere Autentiènosti
+32812=Zahtijevan Povratni Poziv
+32814=Zahtijevana Promjena Lozinke
+32815=Zapoèeta Faza Projekcije
+32817=Kalkulacija Brzine Linka
+32819=Autentiènost Potvrðena
+32820=Zapoèeta Ponovna Provjera Autentiènosti
+32822=Autentiènost Potvrðena
+32826=Èekam na Reset Modema
+32827=Èekam na Povratni Poziv
+32829=Interaktivno
+32831=Ponovo Pokušaj Provjeru Autentiènosti
+32833=Povratni Poziv Podešen od Strane Pozivaoca
+32835=Lozinka Istekla
+32837=Konektovano
+32839=Diskonektovano
+
+20000=Skidanje fajla %s završeno.\n\nSkinuto %s (%I64d Bajta)\nFajl snimljen kao %s
+20001=Ova opcija je dostupna samo u registriranoj verziji.
+20002=Ne mogu preimenovati skinuti fajl iz temp foldera (%s) u %s. Fajl je snimljen u temp folderu.
+20003=Verifikacija lozinke neuspješna! Molim pokušajte ponovo.
+20004=Polje za lozinku je prazno!
+20005=Polje za korisnièko ime je prazno! Molim pokušajte ponovo.
+20006=Polje stranice/putanje je prazno! Molim pokušajte ponovo.
+20007=Jeste li sigurni da želite izbrisati informacije prijave za ovu stranicu?
+20008=Vaša lista skidanja ima fajl koji æe biti skinut sa 
+20009=.\nPrimijeni ovo korisnièko ime i lozinku za ovo skidanje?
+20010=.\nPromijeni korisnièko ime i lozinku ovog skidanja u \"anonymous\" ?
+20011=Informacije prijave za ovu stranicu/putanju veæ postoje u listi lozinki.\nNove informacije prijave nisu dodate. Možda želite editovati postojeæe informacije.
+20012=Promijenili ste \"stranica/putanja polje.\" Informacije prijave za ovu novu stranicu/putanju veæ postoje u vašoj listi lozinki.\nInformacije prijave se nisu promijenile. Možda želite editovati postojeæe informacije.
+20013=Ova stranica je privremeno nedostupna!
+20014=Autorizacija je potrebna za ovu stranicu/putanju. Možete postaviti informacije za ovo skidanje birajuæi stavku osobine u meniju dobijenom desnim klikom miša. Ili dodajte informacije prijave u \"Opcije/Lozinke za stranice\" da bi koristili ovu prijavu/lozinku svaki puta kada skidate fajlove sa ove stranice.
+20015=Proxy autorizacija je potrebna za ovaj proxy server. Možete promijeniti proxy korisnièko ime i lozinku u \"Opcije/Proxy\"
+20016=Nepoznata greška je nastupila za vrijeme skidanja.\nMolim pošaljite log fajlove %s i %s (ako postoje) aplikacijskim proizvoðaèima.
+20017=Greška je nastupila za vrijeme skidanja.\n Molim pokušajte ponovo. Ako možete skinuti ovaj fajl sa drugom aplikacijom, a ne možete sa IDM-om, molim pošaljite nam log fajl %s (ako postoji).
+20018=Nemoguæe skinuti ovaj fajl.
+20019=Nemoguæe skinuti ovaj fajl.
+20020=Nema dovoljno memorije za nastavak skidanja.
+20021=Konekcija nije ostvarena jer ciljni raèunar odbija konekciju. \nVjerovatno je servis neaktivan na server-u ili imate instaliran firewall koji blokira Internet Download Manager. Ako imate firewall, molim provjerite da li njegove postavke dozvoljavaju IDM da skida sa Interneta.
+20022=Dozvola odbijena.
+20023=Ne mogu dodijeliti zahtijevanu adresu. Zahtijevana adresa nije validna po sadržaju.
+20024=Postojeæa konekcija je nasilno prekinuta od strane udaljenog hosta. Ovo se najèešæe dogaða ako je peer aplikacija na udaljenom hostu iznenada zasutavljena, host je restartovan, ili je host koristio \'hard close\'
+20025=Socket operacija je neuspješna zato što je pao destinacijski host. Socket operacija je naišla na \'mrtvi\' host. Mrežne aktivnosti na lokalnom hostu nisu pokrenute.
+20026=Greška u konektovanju. Nije poznat takav host. Ime nije oficijelno ime hosta ili nadimak, ili ne može biti pronaðeno u bazi(ama) koje se pretražuju.
+20027=Socket operacija je okušana na nedostupnoj mreži. Ovo obièno znaèi da lokalni softver ne poznaje putanju kojom bi došao do udaljenog hosta.
+20028=Host koji ste konektovali je pao i restartovan.
+20029=Socket operacija je naišla na \'mrtvu\' mrežu. Ovo može znaèiti ozbiljan pad mrežnog sistema (npr. protokol stek koji koristi WinSock DLL je istekao), mrežnog okruženja, ili same lokalne mreže.
+20030=Previše otvorenih mrežnih konekcija. Molim saèekajte da se neka skidanja završe.
+20031=Greška nastupila prilikom konektovanja.
+20032=Velièina %s je %I64d bajta.\nNema dovoljno prostora na drajvu \'%s\' gdje želite snimiti ovaj fajl.\nAko ne oslobodite nešto prostora za vrijeme skidanja, fajl æe biti snimljen u privremeni folder kao %s
+20033=Nema dovoljno prostora na drajvu \'%s\' za smještanje skinutih dijelova fajla.\nZa nastavak skidanja oslobodite nešto slobodnog prostora ili promijenite lokaciju privremenog foldera u Opcije\\Opšte i onda nastavite skidanje
+20034=Ne mogu pronaæi server %s
+20035=Ne mogu pronaæi proxy server %s
+20036=Ne mogu konektovati %s:%ld
+20037=Ne mogu konektovati proxy server %s:%ld
+20038=Ne mogu konektovati %s:%ld\nKonekcija istekla
+20039=Ne mogu konektovati proxy server %s:%ld\nKonekcija istekla
+20040=Nepoznata greška je nastupila prilikom sastavljanja fajlova ili sklapanja skinutih dijelova fajla u cjelinu
+20041=Nepoznata greška je nastupila prilikom sklapanja skinutih dijelova fajla u cjelinu
+20042=Ne mogu otvoriti lokalni fajl za pisanje prilikom sklapanja skinutih dijelova fajla u cjelinu
+20043=Ne mogu dobiti velièinu sljedeæeg dijela prilikom sklapanja skinutih dijelova fajla u cjelinu
+20044=Greška u alokaciji virtuelne memorije prilikom sklapanja skinutih dijelova fajla u cjelinu
+20045=Fatalna greška u pisanju nastupila prilikom sklapanja skinutih dijelova fajla u cjelinu
+20046=Fatalna greška u èitanju nastupila prilikom sklapanja skinutih dijelova fajla u cjelinu
+20047=Nepoznati fajl ili greška u registriju nastupila prilikom ponovne izgradnje starih skinutih dijelova
+20048=Ne mogu se konektovati na server
+20049=Greška u èitanju Internet soketa
+20050=Greška u pisanju Internet soketa
+20051=Konekcija istekla
+20052=Konekcija istekla
+20053=Konekcija istekla, restartujem...
+20054=Konekcija nesupješna, restartujem...
+20055=Greška nastupila prilikom prijema podataka
+20056=Konekcija prekinuta od strane servera
+20057=Ne mogu se prijaviti na ftp server.
+20058=Ne mogu pronaæi taj fajl na ftp serveru.
+20059=Ftp server ne dozvoljava konekcije.
+20060=Greška nastupila prilikom prijema odgovora sa ftp servera.
+20061=Greška nastpuila prilikom prijema odgovora sa ftp servera: Pogrešan format odgovora
+20062=Ne mogu pronaæi IP adresu za soket podataka u odgovoru na PASV komandu.
+20063=Ne mogu otvoriti internet soket.
+20064=Ne mogu otvoriti ftp soket podataka
+20065=Ne mogu povezati adresu sa internet soketom
+20066=Greška nastala prilikom pozivanja listen() soketa podataka
+20067=Greška nastala prilikom pozivanja accept() internet soketa.
+20068=Ne mgu poslati PORT komandu.\nGreška nastala prilikom pozivanja getsockname().
+20069=PORT komanda neuspješna.
+20070=Greška u pisanju fajla nastala prilikom prijema podataka od Internet soketa.\nMoguæi razlozi: Disk je pun.
+20071=Ne mogu otvoriti konekciju podataka zato što ftp server ne podržava PASV komandu i checkbox \'Koristi FTP u PASV modu\' u Opcije\\Proxy/Firewall je ukljuèeno.
+20072=Velièina fajla %s nije pronaðena u odgovoru servera
+20073=Server je poslao pogrešan odgovor na komandu restart.
+20074=Server je poslao novu lokaciju i ime fajla %s je promijenjeno u %s.\n\nNastaviti skidanje?
+20075=Prekidanje konekcije...
+20076=Skidanje završeno, spajam sve dijelove fajla u cjelinu...
+20077=Opcionalne konekcije su kreirane.
+20078=Konektujem...
+20079=Selektiranje neuspješno
+20080=Konekcija u redu.
+20081=Greška u pisanju fajla nastala prilikom prijema podataka od strane internet soketa.
+20082=Recv() procedura neuspješna
+20083=Konekcija prekinuta od strane servera.
+20084=Prekid veze.
+20085=Èekam odgovor...
+20086=Odgovor u redu
+20087=Primam podatke...
+20088=Završeno.
+20089=Konekcija podataka: konektujem...
+20090=Konekcija podataka: U redu
+20091=Spreman za prijem podataka
+20092=Provjera moguænosti prijema sekvence komandi: šaljem dvije komande zajedno...
+20093=Provjera moguænosti prijema sekvence koandi: prvi odgovor u redu, èekam drugi odgovor...
+20094=Primam informacije o fajlu...
+20095=Ne mogu pronaæi kraj stringa u odgovoru servera.
+20096=Ne mogu pronaæi kraj stringa u odgovoru ftp servera.
+20097=Šaljem QUIT.
+20098=Server nije spreman za novog korisnika.
+20099=Kontrolni soket konektovan.
+20100=Šaljem korisnièko ime...
+20101=Šaljem lozinku...
+20102=Korisnièko ime neuspješno
+20103=Korisnièko ime U redu
+20104=Lozinka pogrešna
+20105=Lozinka U redu
+20106=Šaljem PASV komandu...
+20107=Server ne podržava PASV.
+20108=PASV u redu, ekstraktujem adresu...
+20109=Soket povezivanja u redu, pokušavam pozivanje listen()
+20110=Prihvatam...
+20111=Prihvatanje u redu
+20112=Šaljem PORT komandu...
+20113=PORT u redu
+20114=Mijenjam radni folder servera...
+20115=CWD neuspješan.
+20116=CWD u redu
+20117=Konekcija neuspješna.
+20118=Šaljem TYPE ...
+20119=TYPE komanda nesupješna.
+20120=TYPE u redu.
+20121=Šaljem REST komandu...
+20122=REST neuspješan
+20123=REST u redu
+20124=Šaljem RETR komandu...
+20125=RETR nesupješan.
+20126=Šaljem SIZE komandu...
+20127=Šaljem LIST komandu.
+20128=LIST neuspješna.
+20129=LIST u redu
+20130=SIZE neuspješan.
+20131=Ne mogu pronaæi velièinu fajla u odgovoru.
+20132=SIZE u redu
+20133=Kontrolni soket nije konektovan na server.
+20134=Restarujem na poèetak pošto je lokalni fajl izbrisan. Restart iz arbitražne pozicije nije podržan u ovom sluèaju.
+20135=Konekcija je restartovana...
+20136=Vjerovatno server ne podržava komandni pipelining.
+20137=Moguænost sekvence komandi: U redu
+20138=Šaljem HEAD...
+20139=Šaljem GET...
+20140=Ponovo izgraðujem stare skinute dijelove fajla...
+20141=Konektujem...
+20142=Skidanje završeno. Skinuto %I64d Bajta ukupno
+20143=Primam podatke...
+20144=Opcionalne konekcije, konektujem...
+20145=Skidanje neuspješno. Skinuto: %I64d Bajta ukupno
+20146=Velièina %s je %I64d bajta.\nNema prostora na disku \'%s\' za smještanje skinutih dijelova fajla.\nZa nastavak skidanja oslobodite nešto prostora na disku ili uklonite ovaj fajl sa liste za skidanje, promijenite lokaciju privremenog foldera u Opcije\\Opšte, i onda pokušajte ponovo.
+20147=Nema prostora na disku \'%s\'.
+20148=Ne mogu spojiti skinute dijelove fajla.
+20149=Ovo skidanje je veæ završeno, lokalna putanja nije promijenjena.
+20150=Zadnji datum promjene fajla je promijenjen na serveru.\nDa li želite skinuti ovaj fajl od poèetka.
+20151=Ne postoji novija verzija Internet Download Managera dostupna.
+20152=Greška nastupila prilikom snimanja unešenih podataka, molim pokušajte ponovo.
+20153=Greška nastupila prilikom alociranja virtuelne memorije. Pokušajte zatvoriti neke aplikacije i onda kliknite na \'Ponovo\'.
+20154=Ponovo izgraðujem
+20155=Zahtijevano ime servera je validno, ali nema taènih pridruženih podataka za rješavanje (Host postoji, ali nije direktno dostupan).
+20156=Fajl %s - skinut %s (%I64d bajta). Fajl možda nije skinut u potpunosti, zato što je velièina fajla nepoznata.\nFajl je snimljen kao %s
+20157=Nisu izabrane stavke!
+20158=Pomjeri gore
+20159=Pomjeri dole
+20160=Obriši stavku
+20161=Nemoguæe skinuti ovaj fajl. Pogrešan http server odgovor.
+20162=Ne mogu pronaæi novu verziju IDM fajla pomoæi!
+20163=Ne mogu preimenovati novu verziju IDM fajla pomoæi: newIDMan.hlp u idman.hlp. Pokušajte to uraditi ruèno.
+20164=BrzaNadogradnja za IDM sa www.internetdownloadmanager.com. Primam nove fajlove...
+20165=BrzaNadogradnja za IDM sa www.tonec.com. Primam nove fajlove pomoæi...
+20166=Uputstvo za Internet Download Manager
+20167=Skidanje prekinuto od strane korisnika
+20168=Brza Nadogradnja neuspješna, greška nastupila prilikom skidanja novih IDM fajlova. Pokušajte nadograditi kasnije.
+20169=Zahtijevani fajl ne postoji.
+20170=\nDa li ga želite otvoriti?
+20171=Ovaj fajl veæ postoji u vašoj listi za skidanje. Da li želite dodati duplikat?
+20172=Server odgovara da nemate dozvolu za skidanje ovog fajla.
+20173=Greška nastupila prilikom èitanja telefonskog imenika.
+20174=Ne mogu se konektovati na Internet.
+20175=Ne mogu skinuti fajl zbog isteka vremena
+20176=Traženi fajl izgleda kao html web stranica.\r\n\r\nAko je ovo skidanje preuzeto automatski sa Internet Explorera kada ste kliknuli na link, pokušajte držati pritisnutu tipku Alt kada kliknete na link da bi dopustili IE da otvori tu stranicu.\r\n\r\nDa li želite nastaviti skidanje sa IDM i snimiti fajl kao html stranicu?
+20177=Skinuti fajl izgleda kao html web stranica.\r\n\r\nAko je ovo skidanje preuzeto automatski sa Internet Explorera kada ste kliknuli na link, pokušajte držati pritisnutu tipku Alt kada kliknete na link da bi dopustili IE da otvori tu stranicu.\r\n\r\nDa li želite preimenovati skinuti fajl u html stranicu?
+20178=Internet Download Manager se uspješno integrirao u Netscape 6. Da bi ga mogli koristiti, moraæete zatvoriti Netscape i ponovo ga pokrenuti.
+20179=Ne mogu integrirati Internet Download Manager u vaš Netscape 6.
+20180=IDM integracija je uspješno uklonjena iz Netscape 6. Moraæete zatvoriti Netscape i ponovo ga pokrenuti.
+20181=Ne mogu ukloniti integraciju Internet Download Managera iz Netscape 6. Moraæete zatvoriti Netscape i onda pokušati ponovo.
+20182=Internet Download Manager se uspješno integrirao u Netscape 7. Da bi ga mogli koristiti, moraæete zatvoriti Netscape i ponovo ga pokrenuti.
+20183=Ne mogu integrirati Internet Download Manager u vaš Netscape 7.
+20184=IDM integracije je uspješno uklonjena iz Netscape 7. Moraæete zatvoriti Netscape i ponovo ga pokrenuti.
+20185=Ne mogu ukloniti integraciju Internet Download Managera iz Netscape 7. Moraæete zatvoriti Netscape i pokušati ponovo.
+20186=Internet Download Manager se uspješno integrirao u Netscape pretraživaè. Da bi ga mogli koristiti, moraæete zatvoriti Netscape i ponovo ga pokrenuti.
+20187=Ne mogu integrirati Internet Download Manager u Netscape pretraživaè.
+20188=IDM integracija je uspješno uklonjena iz Netscape. Moraæete zatvoriti Netscape i ponovo ga pokrenuti.
+20189=Ne mogu ukloniti integraciju Internet Download Managera iz Netscapa.
+20190=Internet Download Manager se uspješno integrirao u Operu. Da bi ga mogli koristiti, moraæete zatvoriti Operu i ponovo je pokrenuti, pa onda promijeniti Opera preference u \'File->Preferences->Multimedia->Find_plug-ins...\'
+20191=Ne mogu integrirati Internet Download Manager u vašu Operu.
+20192=IDM integracija je uspješno uklonjena iz Opere. Moraæete zatvoriti Operu i onda je ponovo pokrenuti, pa promijeniti Opera preference u \'File->Preferences->Multimedia->Find_plug-ins...\'
+20193=Ne mogu ukloniti integraciju Internet Download Managera iz Opere. Moraæete zatvoriti Operu i pokušati ponovo.
+20194=Internet Download Manager se uspješno integrirao u Mozillu. Da bi ga mogli koristiti, moraæete zatvoriti Mozillu i ponovo je pokrenuti.
+20195=Ne mogu integrirati Internet Download Manager u vašu Mozillu.
+20196=IDM integracija je uspješno uklonjena iz Mozille. Moraæete zatvoriti Mozillu i ponovo je pokrenuti.
+20197=Ne mogu ukloniti integraciju Internet Download Managera iz Mozille. Moraæete zatvoriti Mozillu i pokušati ponovo.
+20198=Ne mogu promijeniti integraciju Internet Download Managera u IE. Greška je nastupila. Molim pošaljite %s fajl razvojnom timu.
+20199=Ne mogu promijeniti integraciju Internet Download Managera u Internet Explorer zato što možda nemate pristupnih prava sistemskom registriju
+20200=Internet Download Manager se uspješno integrirao u Internet Explorer. Da bi ga mogli koristiti, moraæete zatvoriti Internet Explorer i ponovo ga pokrenuti.
+20201=IDM integracija je uspješno uklonjena iz Internet Explorera. Moraæete zatvoriti Internet Explorer i ponovo ga pokrenuti.
+20202=Ne mogu nadograditi prikljuèke, pogledajte \"%s\" fajl za detalje.
+20203=Ovo je 60-dnevna probna verzija Internet Download Managera.
+20204=Fajl je premješten.
+20205=Fajl %s je premješten.
+20206=Otvaram skinuti fajl
+20207=Skidanje IDM komponenti
+20208=Ne mogu promijeniti integraciju Internet Download Managera u Netscape pretraživaè pošto možda nemate pristupnih prava sistemskom regsitriju
+20209=Verzija etcprotocol.dll fajla je zastarjela. Skinuti novu verziju? Molim zatvorite Internet Explorer da bi prepisali fajl!
+20210=Ne mogu promijeniti ime fajla %s u %s. Pokušajte zatvoriti Internet Explorer i uraditi to ruèno.
+20211=Fajl %s æe biti snimljen kao %s. Takav fajl veæ postoji na vašem kompjuteru. Da li želite zamijeniti postojeæi fajl?\n\n Kliknite na \"DA\" za zamjenu, \"NE\" da snimite fajl sa drugim imenom, \"OTKAŽI\" za otkazivanje dodavanja fajla u vašu listu skidanja.
+20212=Fajl %s æe biti snimljen kao %s. Takav fajl veæ postoji u vašoj listi skidanja. Da li potvrðujete snimanje fajla sa ovim imenom?\n\n Kliknite na \"DA\" za potvrdu, \"NE\" za snimanje fajla pod drugim imenom, \"OTKAŽI\" za otkazivanje dodavanja fajla u vašu listu skidanja.
+20213=Import u IDM
+20214=Ne mogu proèitati linkove iz fajla ili je fajl ošteæen
+20215=Fajl nije validni IDM eksport fajl ili je fajl ošteæen
+20216=Fajl ne sadrži nikakve linkove
+20217=Nepoznata greška je nastupila prilikom izvršavanja operacije!
+20218=Ne mogu skinuti ovaj fajl, moža ovaj ftp server ne podržava nastavak skidanja. Da li želite dodati isti fajl i skinuti ga od poèetka?
+20219=Ime za snimanje fajla je bilo \"%s%s\", ali je server poslao sljedeæe ime \"%s\". Da li želite snimiti fajl sa imenom koje je primljeno sa servera?
+20220=Skidanje fajla %s je završeno.\nOvaj m3u fajl sadrži web link na jedan mp3 fajl. Da li želite skinuti ovaj mp3 fajl?
+20221=Skidanje fajla %s je završeno.\nOvaj m3u fajl sadrži jedan ili više web linkova na to mp3 fajlove. Da li želite dodati ove mp3 fajlove u vašu listu skidanja?
+20222=M3U fajl skinut.
+20223=Nastavak
+20224=Mimetip
+20225=Ne mogu pokrenuti program za provjeru od virusa.\n%s
+20226=Internet Download Manager je završio procesiranje liste. Saglasno sa planerom IDM æe sada prekinuti vezu.
+20227=Prekidanje veze
+20228=Prekini sada
+20229=Stani sada
+20230=Ogranièenja skidanja prekoraèena!
+20231=Neispravni podaci
+20232=Vrijednost sati u \"Ogranièenja skidanja\" mora biti izmeðu 1 i 23. Molim ispravite ili odznaèite opciju \"Ogranièenja skidanja\".
+20233=Da li želite skinuti uputstvo (oko 60 KB) sa IDM matiène stranice?
+20234=Da li želite skinuti i instalirati IDM fajlove pomoæi (oko 200 KB) sa IDM matiène stranice?
+20235=Ne mogu pronaæi HHCtrl.ocx za prikaz fajla pomoæi!
+20236=IDM pomoæ
+20237=Velièina fajla se promijenila na serveru.\nBit æe skidan od poèetka.
+20238=Ne mogu ostvariti konekciju kroz proxy server.
+20239=Greška nastupila prilikom ostvarivanja sigurne konekcije sa %s.
+20240=Greška nastupila prilikom kriptovanja zahtijevane poruke.
+20241=Greška nastupila prilikom uèitavanja sigurnosnog dll-a. Ne mogu ostvariti https konekciju.
+20242=Žao mi je, polja lozinke i potvrde lozinke ne odgovaraju za http proxy server! Molim pokušajte ponovo.
+20243=Žao mi je, polja lozinke i potvrde lozinke ne odgovoraju za https proxy server! Molim pokušajte ponovo.
+20244=Žao mi je, polja lozinke i potvrde lozinke ne odgovaraju za ftp proxy server! Molim pokušajte ponovo.
+20245=Internet Download Manager opcije
+20246=Skidanje završeno
+20247=Skidanje neuspješno
+20248=Procesiranje liste zaustavljeno/završeno
+20249=Procesiranje liste zapoèeto
+20250=Dogaðaj
+20251=Zvuèni fajl
+20252=Ne mogu kopirati izabrani zvuèni fajl u IDM folder sa zvukovima!
+20253=Imate još %d dana za korištenje Internet Download Managera. Da li želite registrovati vašu kopiju IDM-a sada?
+20258=Sva Skidanja
+20259=Nezavršena
+20260=Završena
+20261=Programi
+20262=Muzika
+20263=Video
+20264=Igre
+20265=Dokumenti
+20266=Dodaj kategoriju
+20267=Obriši
+20268=Osobine
+20269=Da li stvarno želite obrisati \"%s\" kategoriju sa IDM liste kategorija?
+20270=Brisanje kategorije sa IDM liste kategorija
+20271=Dodavanje kategorije u IDM listu kategorija
+20272=Editovanje osobina kategorije
+20273=Molim popunite polje \"Ime kategorije\".
+20274=Folder \"%s\" ne postoji.\r\nDa li ga želite kreirati?
+20275=Ne mogu kreirati folder!\r\n%s
+20276=Sakrij kategorije
+20277=Prikaži kategorije
+20278=Izaberi folder
+20279=Opšte
+20280=Da li želite smjestiti sva stara skidanja u ove kategorije u skladu sa tipovima fajlova? Fajlovi neæe biti premještani na hard disku, ali æe biti povezani sa njihovim kategorijama skidanja.
+20281=Da li želite smjestiti sva stara skidanja tipa fajla \"%s\" u ovu kategoriju? Fajlovi neæe biti premještani na hard disku, ali æe biti povezani sa ovom kategorijom.
+20282=IDM kategorije
+20283=IDM je naišao na \"Pristup zabranjen\" grešku dok je kombinovao skinute dijelove fajla. To se možda dogodilo zato što neke aplikacije kao što je antivirusni program ili firewall otvorio taj fajl, ali ga nije zatvorio korektno, ili zato što ste pokušali otvoriti fajl dok se skidao. Trebali biste restartovati vaš kompjuter i kliknuti na tipku Nastavi da bi kombinovali fajl.
+20284=Podrazumijevani folder za skidanje fajlova \"%s\" kategorije
+20285=Zapamti zadnju putanju snimanja za \"%s\" kategoriju
+20307=- Izaberite vašu internet konekciju -
+20314=256K Kablovski/DSL/Drugi
+20315=300K Kablovski/DSL/Drugi
+20316=512K Kablovski/DSL/Drugi
+20319=Drugi
+20320=O IDManageru
+20321=Vrati
+20322=Izlaz
+20323=Kontaktirajte nas
+20324=Pomoæ
+20325=Naruèite online
+20326=Registracija
+20327=Zaustavi Skidanje
+20328=Ukloni
+20329=Nastavi Skidanje
+20330=Osobine
+20331=Pogrešan URL unešen. Molim ispravite.
+20332=Ovo skidanje nije završeno. Nastavi sa brisanjem?
+20333=Ne mogu pronaæi proxy konfiguraciju u Internet Explorer Postavkama
+20334=Fajl sa ovim URL-om je veæ skinut sa Internet Download Managerom. Da li ga želite skinuti ponovo?
+20335=Fajl sa ovim URL veæ postoji u vašoj listi i èeka na završetak skidanja. Da li želite nastaviti skidanje fajla?
+20336=Previše fajlova sa ovim imenom. Molim obrišite ih ili promijenite lokalna imena
+20337=Molim unesite ime za prijavu.
+20338=Ne mogu pronaæi pridruženi Pretraživaè
+20339=Ne mogu pronaæi aplikaciju Brze Nadogradnje.
+20340=Molim unesite registracijsko ime.
+20341=Unešen pogrešan registracijski broj.
+20342=Url pronaðen na clipboardu. Da li ga želite skinuti?
+20343=Molim unesite vaše ime
+20344=Molim unesite vaše prezime
+20346=Molim unesite vašu email adresu
+20347=Molim unesite vaš Serijski Broj
+20348=Unijeli ste pogrešan Serijski Broj
+20349=Internet Download Manager je registrovan sa lažnim Serijskim Brojem. IDM izlazi...
+20350=Internet Download Manager broj registracija sa ovim Serijskim Brojem prekoraèuje ogranièenja. IDM izlazi...
+20351=Internet Download Manager je registrovan sa lažnim Serijskim Brojem. IDM izlazi...
+20352=Internet Download Manager nije registrovan u roku od 60 dana. Probni period je završen i IDM izlazi...
+20353=Internet Download Manager nije registrovan u roku od 15 dana. IDM izlazi...
+20354=Nepoznata greška prilikom
+20355=Nepoznato
+20356=Dodati u listu skidanja
+20357=Izbrisati iz liste
+20358=Poèni listu
+20359=Zaustavi listu
+20360=Otvori
+20361=Zadnji datum pokušaja:  
+20362=Rezultat:\n
+20363=Izaberite samo jedan fajl za otvaranje!
+20364=Otvori
+20365= veæ postoji na vašem kompjuteru. Da li želite prepisati postojeæi fajl?\n Kliknite na \"DA\" za prepisivanje, \"NE\" za snimanje fajla sa drugim imenom, \"OTKAŽI\" za otkazivanje skidanja.
+20366=Skini sa
+20367=Snimi u
+20368=Da li stvarno želite izbrisati sva završena skidanja?
+20384=Pokaži cilj ispuštanja
+20385=Upozorenje: Ovaj kompjuterski program je zaštiæen zakonima prava kopiranja i internacionalnim ugovorima. Nedozvoljena reprodukcija ili distribucija ovog programa, ili bilo kojeg njegovog dijela, može rezultovati strogim prekršajnim i kriviènim kaznama, i biæe tužena na maksimalnom nivou dozvoljenom zakonom.
+20386=Ne mogu kreirati folder %s, šifra greške = %ld\n
+20387=Greška
+20388=Fajlovi
+20389=Svi Fajlovi
+20390=Detalji:\n
+20391=Završeno.
+20393=Skidanje završeno. Provjera virusa u toku...
+20394=AVI: Rez. %dx%d, %d samp po sek, Dužina %s
+20395=, Dužina: 
+20396=, Naslov: 
+20397=, Artist: 
+20398=, Album: 
+20399=, Žanr: 
+20400=WAV: %d samp po sek, %d bita po samp, Dužina: %s
+20401=MPEG: Rez. %dx%d, %.1f samp po sek, %d bita po samp
+20402=%s,   ukupno %ld fajlova
+20403= Probni
+20404= Puni
+20405=Ponovo biraj %ld
+20406=Nedefinisana RAS Greška Biranja.
+20407=Promjene jezika u glavnom dijalogu æe biti primijenjene tek nakon restarta IDM-a. Da li želite restartovati IDM sada?
+20408=Od %d:%02d do %d:%02d skinuli ste %d MB. Sva IDM skidanja su zaustavljena zato što ste prekoraèili vaša ogranièenja skidanja postavljena u IDM Planeru (ili \'Opcije->Konekcije\')!
+20409=Od %d:%02d do %d:%02d skinuli ste %d MB. Sva IDM skidanja su zaustavljena na %d:%02d zato što ste prekoraèili vaša ogranièenja skidanja postavljena u IDM Planeru (ili \'Opcije->Konekcije\')!\r\n\r\nSva zaustavljena skidanja æe biti autoatski nastavljena u %02d:%02d. Ako želite nastaviti skidanja odmah, promijenite postavke u Ogranièenjima skidanja i kliknite na Nastavi.
+20410=Završeno
+20411=Ponovo izgraðujem...
+20412=Prekidam vezu...
+20413=Tekst Fajlovi
+20414=IDM Eksport Fajlovi
+20415=Snimi kao...
+20427=Molim ne zatvarajte dijalog skidanja dok IDM kombinuje fajl, u suprotnom podaci mogu biti ošteæeni.
+20428=Brza Nadogradnja
+
+20429=Skidanje prebaèeno u IDM...
+20430=Kliknite Nazad da se vratite i nastavite pretraživanje.
+20431=IDM nije uspio da poène skidanje. Izvršni fajl nije pronaðen.
+
+20433=Upozorenje
+20434=Izaberite folder
+20435=Virus skener program
+20439=Zvuèni fajlovi
+20440=završeno
+20441=Osobine Fajla
+20442=Internet%20Download%20Manager%20-%20vrlo%20cool%20aplikacija!!!
+20443=skini%20sa%20
+
+//Please don't replace "English" to your local language, please just translate the "English" word
+20444=Molim koristite Engleski
+
+20445=Nepoznato
+
+20447=Prikaži u normalnoj velièini
+20448=Prikaži minimizirano
+20449=Ne prikazuj
+
+//Please change XXX on the language you are translating IDM to.
+q1=Internet Download Manager je otkrio da koristite Bosanski jezik kao vaš podrazumijevani Windows jezik. Da li želite instalirati Bosanski jezik za IDM?
+
+20500=Molim prvo kupite i instalirajte punu verziju IDM-a!
+1338=Molim izaberite jezik za IDM korisnièko okruženje (Možete ga kasnije promijeniti koristeæi "Vidi->Jezik" stavku menija)
+20501=Internet Download Manager nije bio registrovan u roku od 15 dana. IDM izlazi...
+20502=Prilagodi...
+20503=Datum Dodavanja
+20504=Zadnji datum pokušaja
+20505=Snimi u 
+20506=Referer
+33001=Prilagodi TrakuSaAlatima...
+33002=Prilagodi URL Listu...
+33004=Po Putanji Snimanja
+33005=Po Refereru
+33006=Po Zadnjem datumu Pokušaja
+20507=Stupci...
+
+209=Stupci
+1339=Oznaèite stupce koje želite vidjeti u ovoj listi. Koristite tipke Pomjeri Gore i Pomjeri Dole da prerasporedite stupce kako god vam se sviða.
+1160=Pomjeri Gore
+1083=Pomjeri Dole
+1340=Prikaži
+1048=Sakrij
+1053=Reset
+1341=Izabrani stupac bi trebao biti
+1342=piksela širok
+
+//new category
+20508=Kompresovani
+
+//new dialog
+226=Max. connections number for a server
+1348=Server
+
+1350=Polazni max. broj kon.
+1343=Max. broj konekcija
+1344=Novi
+1345=Obriši
+1346=Edituj
+1347=Izuzeci:
+20509=Server
+20510=Broj
+
+228=Skini Sve Linkove sa IDM-om
+20511=Tip Fajla
+20512=Tekst Linka
+1234=Koristi tekst linka kao opise skidanja
+1055=Sakrij HTML fajlove
+1060=Sakrij fajlove koji se ponavljaju
+1353=Oznaèi Sve
+1354=Odznaèi Sve
+1352=Edituj...
+1355=Molim provjerite sve linkove koje želite dodati na listu skidanja u IDM-u, i kliknite na tipku U redu.\r\nMožda æete saèekati dok IDM provjeri i popuni sve tipove fajlova.
+
+20513=Ime za snimanje fajla je bilo \"%s\", ali je server poslao sljedeæi tip fajla \"%s\", i fajl bi trebao biti snimljen kao \"%s\". Da li želite snimiti fajl pod imenom koje odgovara tipu fajla primljenom od strane servera?
+
+//vers. 4.00
+20514=Ponovno skidanje
+20515=Otvori folder
+
+q2=\"%s\" (%s) želi skinuti fajl \"%s\".\n\nŽelite li da IDM preuzme skidanje od ove aplikacije?\nKasnije možete onemoguæiti ili omoguæiti da IDM preuzima skidanja od \"%s\" u IDM->Opcije->Opšte
+
+20516=\"%s\" protokol prenosa podataka trenutno nije podržan od strane IDM-a. Ili je moguæa greška u kucanju, pa molim da provjerite ispravnost teksta, i pokušajate ponovo.
+20517=IDM je dobio \"Pristup zabranjen\" grešku dok je kombinovao dijelove fajla. Moguæe je da zbog toga što je fajl otvoren sa drugim programom kao što su antivirusi, ili ste vi pokušali da otvorite fajl sami. Da bi bilo moguæe kombinovati fajl, moraæete restartovati raèunar, izabrati fajl u IDM-u, i pritisnuti tipku Nastavi.
+20518=Molimo registrirajte IDM prije nadogradnje.\r\n Izaberite \"Registracija->Registracija\" stavku menija i unesite svoje registracijske informacije. Zatim birajte \"Pomoæ->Brza nadogradnja\" stavku menija za poèetak nadogradnje.
+20523=U skladu sa našim licencnim sporazumom koji ste vi prihvatili, dozvoljeno vam je da nadograðujete Internet Download Manager besplatno tokom jedne godine nakon kupovine. Ako želite nastaviti nadograðivati IDM nakon ovog roka, moraæete da se prijavite servisu nadogradnje.\r\n Želite li pogledati stranicu IDM pretplate?
+20519=Tipka(e) za spreèavanje skidanja ne bi trebala biti sadržana u tipci(kama) za forsiranje skidanja. \r\n Molim odaberite druge tipke.
+20525=Greška u konektovanju. Traženi host nije poznat. Ime nije oficijelno ime hosta ili nadimak, ili ne može biti pronaðeno u bazama koje su pretraživane. \r\n\r\nPogledaj donje moguæe razloge za ovu grešku:\r\n\r\n1. Imate firewall aplikaciju na vašem raèunaru, i upravo ste instalirali, zamijenili ili nadogradili verziju Internet Download Managera. Molimo provjerite firewall postavke i osigurajte da IDM ima dozvole za pristup Internetu.\r\n\r\n2. Servis koji pronalazi servere na Internetu, zvani Domain Name Service (DNS) privremeno ima problema, ili je mrežna konekcija izmeðu DNS-a i vašeg raèunara u prekidu. Moguæe je da trebate restartovati vaš raèunar.\r\n\r\n3. Postoji greška u kucanju imena servera. Molimo provjerite taènost imena.\r\n
+20522=IDM ne može pronaæi %d fajl(ove) koji su neophodni za pretraživaè i sistemsku integraciju. Želite li skinuti potrebne fajlove sa Interneta? 
+
+//Options->general
+1370=Ptkrij nove aplikacije i pokušaj skidati fajlove sa Interneta
+1372=Nemoj automatski poèeti skidati fajlove sa sljedeæih adresa (odvoji imena razmacima):
+1368=Podesi tipke za spreèavanje ili forsiranje skidanja sa IDM
+1367=Tipke...
+1375=Integriraj IDM u pretraživaèe:
+
+229=Korištenje specijalnih tipki
+1361=Koristi sljedeæu tipku(e) za spreèavanje skidanja sa IDM-om sa bilo kojih linkova:
+1067=Koristi sljedeæu tipku(e) za forsiranje skidanja sa IDM-om sa bilo kojih linkova:
+1366=Provjeri lijevi klik miša na link, zajedno sa specijalnom tipkom za forsiranje skidanja linka.
+1374=Napomena: Ponekad kada kliknete na link za skidanje, web stranica æe vam reæi da skidanje poèinje za X sekundi. U ovom sluèaju moraæete odznaèiti sljedeæu opciju da bi forsirali skidanje sa IDM-om.
+
+//Download all links with IDM
+1356=Snimi U 
+1357=Svaki fajl u folder u zavisnosti od kategorije fajla
+1358=Svi fajlovi u jednu kategoriju
+1359=Svi fajlovi u jedan folder
+1360=Pretraži...
+
+//Options->Proxy
+1378=Ne koristi proxy server za adrese koje poèinju sa:
+1377=Odvoji imena razmacima
+
+
+20526=Internet Download Manager Mrežna Integracija
+20527=Internet Download Manager je otkrio da je mrežna integracija obrisana od treæe aplikacije. Želite li vratiti mrežnu integraciju Internet Download Manager-a?
+20528=Internet Download Manager je otkrio da je treæa aplikacija promijenila IDM mrežnu integraciju. Ovo se desilo možda zbog novoinstalirane mrežne aplikacije, ili zbog aplikacije koja vraæa registri zapise sa pogrešno. Želite li vratiti mrežnu integraciju Internet Download Managera?
+20529=Internet Download Manager mrežna integracija je promijenjena. Preporuèujemo restart raèunara. Želite li sada restartovati?
+20530=Internet Download Manager mrežna integracija je promijenjena. Trebate restartovati raèunar, zato što vaš firewall nije u moguænosti otkriti ove promjene, i Internet Aplikacije neæe komunicirati sa Internetom dok se raèunar ne restartuje.\r\n\r\nMolimo saèuvajte vaše dokumente i zatvorite sve aplikacije, raèunar æe se restartovati nakon što pritisnete tipku U redu.
+
+20531=Ako želite da integrišete Internet Download Manager u aplikaciju koja je pokrenuta, moraæete restartovati aplikaciju, zato što se IDM ne može integrisati u aplikacije koje su veæ pokrenute.\r\n\r\nNakon integracije IDM-a u aplikaciju možda æete morati iskljuèiti opciju \"Otkrij Nove Aplikacije\" za bolje performanse.
+20532=Otkrij Nove Aplikacije
+
+//v 4.01
+//Download All Links with IDM dialog
+1385=Sakrij slike koje se nalaze na ovoj stranici
+//Options->General dialog
+1381=Koristi naprednu integraciju pretraživaèa
+20547=Prebacivanje izmeðu osnovne i napredne integracije u pretraživaèe može zahtijevati sistemski restart. Da li ste sigurni da želite nastaviti?
+//new dialog
+230=Provjeravam Internet Konekciju
+1382=Provjera
+20536=IDM skida mali test paket da bi provjerio vašu Internet konekciju. Molimo saèekajte par sekundi
+20537=IDM provjerava vaš Internet Explorer. Molimo saèekajte par sekundi dok Internet Explorer uèita malu test stranicu
+//Problem report dialog
+232=Izvještaj o problemu sa Internet Download Manager 
+20546=Kreirali smo konfiguracijski izvještaj koji nam možete poslati. Molimo da nam pošaljete sljedeæe informacije kako bismo mogli popraviti ove probleme u buduæim verzijama IDM-a. Ovi podaci su tehnièke prirode. Mi ne skupljamo vaše liène informacije, i tretiraæemo ovaj izvještaj kao povjerljiv i anoniman.
+1386=Dodajte bilo kakve komentare i zahtjeve niže ako želite
+1391=Ako želite informaciju o tome kada æe problem biti riješen, molimo da dodate i svoj e-mail niže
+20545=Slanje podataka...\r\nMolimo saèekajte par sekundi
+1390=Slanje
+
+//new messages
+20533=IDM je detektovao da koristite proxy server u Internet Exploreru. Želite li koristiti iste proxy postavke u IDM-u?
+20534=Prvo pokretanje Internet Download Manager-a
+20535=IDM je otkrio da koristite Windows DialUp networking da bi konektovali vaš modem na Internet. Želite li koristiti ove postavke u IDM-u?
+
+20538=Nemoguæe uèitati test stranicu. Moguæe je da se Internet Download Manager mrežna integracija sukobi sa drugom Internet aplikacijom ili firewall-om. IDM æe iskljuèiti naprednu integraciju pretraživaèa da bi vratio originalne postavke. Možete ukljuèiti naprednu integraciju u pretraživaèe kasnije u IDM->Opcije->Opšte dijalogu
+20539=Morate restartovati raèunar da bi vratili originalne postavke. Molimo saèuvajte sve dokumente i zatvorite sve aplikacije, raèunar æe se restartovati nakon što pritisnete tipku U redu.
+20540=Internet Download Manager mrežna integracija je instalirana uspješno. U rijetkim sluèajevima mrežna integracija može doæi u sukob sa novoinstaliranom Internet aplikacijom. Ako otkrijete bilo kakve probleme sa mrežnom integracijom, molimo iskljuèite \"Koristi naprednu integraciju pretraživaèa\" opciju u IDM->Opcije->Opšte dijalogu
+20541=Iskljuèili ste naprednu integraciju pretraživaèa. Ako otkrijete problem sa naprednom integracijom pretraživaèa, mi bismo željeli da otklonimo problem umjesto vas. Da bismo to mogli uraditi, treba da prikupimo i analiziramo neke tehnièke informacije o vašoj raèunarskoj konfiguraciji i instaliranim Internet aplikacijama. IDM æe prikupiti i pokazati vam ove informacije u sljedeæem stadijumu prije slanja našem odjeljenju podrške.\r\n\r\n Želite li da IDM generiše ovu informaciju?
+20542=Iskljuèivanje napredne integracije pretraživaèa
+20543=IDM pokušava da skine test stranicu radi provjere vaše Internet konekcije. Molimo provjerite da li ste konektovani na Internet. Ako koristite firewall, molimop provjerite da nova verzija IDM ima dozvolu da pristupa Internetu prije nastavka. Tada kliknite na \"Provjeri\" tipku ispod, i IDM æe pokušati da skine test stranicu ponovo.
+20544=IDM je promijenio svoju mrežnu integraciju i mora ponovo provjeriti vašu Internet konkeciju. Ako niste konektovani molimo konektujte se i kliknite na \"Provjeri\" tipku.
+20548=Internet Download Manager mrežna integracija je promijenjena. Morate restartovati vaš raèunar, zato što vaše Internet aplikacije neæe komunicirati sa Internetom ispravno dok ne restartujete.\r\n\r\nMolimo saèuvajte vaše dokumente i zatvorite sve aplikacije, raèunar æe se restartovati nakon što kliknete na tipku U redu.
+
+//v4.01 build 4
+20549=Ova verzija Internet Download Managera ima moguænost Napredne Integracije Pretraživaèa. Instalacija ove moguænosti može zahtijevati restart raèunara.\r\n\r\nKada je Napredna Integracija Pretraživaèa ukljuèena, IDM može hvatati ona skidanja koja je prije bilo nemoguæe hvatati u IDM-u, ili u bilo kojem drugom download manageru. Takoðe kada se koristi integracija, IDM može biti integrisan u pretraživaèe i Internet aplikacije da preuzme vaša FTP/HTTP skidanja.\r\n\r\nU rijetkim situacijama ova integracija može biti u sukobu sa novoinstaliranim treæim Internet aplikacijama. Ako budete otkrili bilo kakve probleme sa mrežnom integracijom, možete iskljuèiti \"Koristi naprednu integraciju pretraživaèa\" opciju u IDM->Opcije->Opšte dijalogu.\r\n\r\nDa li želite instalirati Naprednu Integraciju Pretraživaèa?
+20550=Napredna Integracija Pretraživaèa je uspješno instalirana!
+
+//menu "File->Redownload"
+33009=Ponovno skidanje
+
+//new (since v4.00) toolbar buttons of the main window
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20551=Poèni Listu
+20552=Zaustavi Listu
+
+//tooltips for these buttons. You can write long descriptions here.
+t32803=Klikom na ovu tipku zapoèinjete skidanje liste fajlova, što znaèi da æe IDM nakon što završi da skidanjem jednih fajlova automatski poèeti sa skidanjem sljedeæih fajlova na listi.
+t32805=Klikom na ovu tipku zaustavljate skidanje fajlova po sistemu liste.
+
+//v4.01 build 5
+20553=Internet Download Manager automatski hvata i preuzima skidanja iz druge Internet aplikacije kada ona pokuša da skida fajl. Ako NE ŽELITE da skidate ovaj fajl sa IDM-om, molimo otvorite dijalog Opcije klikom na tipku Opcije \r\n\r\n 1. Ako ne želite da skidate ovaj tip fajlova sa IDM-om, možete obrisati odgovarajuæi tip fajla (fajl ekstenziju) sa liste automatski uhvaæenih tipova fajlova.\r\n\r\n 2. Ako ne želite da skidate bilo kakve fajlove sa odreðene stranice sa IDM-om, možete dodati tu stranicu listu izostavljenih stranica.
+236=IDM kratka poruka: Automatsko hvatanje linka
+1393=Ne pokazuj više ovu kratku poruku
+1397=IDM ima fleksibilni mehanizam za preuzimanje ili ignorisanje skidanja od drugih Internet aplikacija. Želite li da saznate više o tome?
+1396=Saznaj više
+
+//v4.02
+20569=Ova poruka o grešci je moguæa ako je IDM korišten na više raèunara sa istim serijskim brojem. Molimo uzmite k znanju da je IDM licenca vezana samo za jedan raèunar. Da bi koristili IDM na više raèunara u isto vrijeme molimo nabavite licence za svaki od njih.
+20570=Male Tipke
+20571=Velike Tipke
+20572=Klasiène Tipke
+20573=Potraži nove
+
+//new main menu items
+m33001=Alatna traka
+33510=Klasiène Tipke
+34010=Male Tipke
+34011=Velike Tipke
+34012=Poraži nove
+
+//a new (since 4.401) button on the Options dialog
+1371=Pomoæ
+
+// The abbreviation of second, kilobytes, megabytes and gigabytes, 
+// it's used when denoting download speed measurement units, 
+// e.g. KB/sec --- kilobytes per second, etc.
+20575=sek
+20576=GB
+20577=MB
+20578=KB
+20579=Bajta
+
+//v4.03
+20588=Nemoguæe kombinovati skinuti fajl. Sekvenca skinutih dijelova je prekinuta. Pogledajte ispod moguæe uzroke ovog problema.\r\n\r\n 1. Kompjuter je ugašen neoèekivano zbog nestanka struje za vrijem skidanja/kombinovanja dijelova fajla.\r\n 2. Druga aplikacija ili korisnik je prekinuo Internet Download Manager proces za vrijeme skidanja/kombinovanja dijelova fajla. Primite na znanje da ponekad treba više vremena da bi se kombinovao veæi fajl. Nemojte brinuti, budite strpljivi, i saèekajte da IDM završi sa kombinovanjem. Molimo ne prekidajte Internet Download Manager proces u Task Manageru.\r\n\r\nAko se ove situacije nisu dogodile, molimo pošaljite %s fajl (ako postoji) Odjeljenju podrške Internet Download Managera radi analize.
+
+
+//v 5.00 --- grabber
+1429=< Nazad
+1430=Dalje >
+
+1405=Dodaj Filter
+1421=Dodaj Filter
+1437=Traži fajlove samo na ovoj stranici
+1459=Poèni skidanje svih odgovarajuæih fajlova odjednom
+1471=Možete prvo pregledati stranicu, provjeriti koje fajlove trebate, i onda ih skidati u glavnom ekranu Hvataèa stranica, ili ih dodati u glavnu listu IDM-a. Ova opcija skida sve pregledane fajlove odmah.
+1515=Skini sljedeæe fajlove (tipove fajlova)
+1516=Nemoj skidati sljedeæe fajlove (tipove fajlova)
+1480=Ne manje od
+1482=Ne više od
+1483=Skidaj fajlove locirane samo unutar sljedeæeih putanja/domena:
+1486=Nemoj skidati fajlove locirane unutar sljedeæih putanja/domena:
+1517=Skidaj ako je velièina fajla
+1488=Koristi taèku-zarez ( ; ) za odvajanje unosa.
+
+241=IDM Hvataè Stranica
+1446=Fajlova Skinuto:
+1448=Fajlova Pronaðeno:
+1450=Web stranica procesirano:
+
+244=Filteri
+1423=Dodaj
+1424=Edituj
+1425=Obriši
+
+245=Filter
+1426=Ime
+1427=Maska
+
+1414=Naziv Projekta Hvataèa
+1510=Poèni atranicu/adresu
+1439=Koristi autorizaciju
+1441=Unesi login i lozinku ruèno na sljedeæoj web stranici:
+1511=Projekt šablon
+1470=Ako izaberete šablon projekta, èarobnjak æe napraviti tražene postavke projekta za izabrani šablon u sljedeæem koraku. Ne zaboravite da uvijek možete promijeniti bilo koju postavku ruèno.
+
+1514=Koristi originalne relativne podfoldere
+1468=Konvertuj linkove u skinute html fajlove za pretraživanje van linije
+1469=Prepiši postojeæe fajlove
+1436=Dodaj oznaèene fajlove u glavnu listu IDM-a i skidah ih kao listu nakon zatvaranja hvataèa
+
+262=Postavke IDM Hvataèa
+1518=Koristi tekstove linkova kao opise prilikom dodavanja fajlova u galvnu listu IDM-a
+1466=fajlova za pretraživanje u isto vrijeme (1 do 10)
+1467=fajlova za skidanje u isto vrijeme (1 do 10)
+1509=Molimo ne zaboravite da web server može odbiti zahtjeve ako podesite veliki broj fajlova za pretraživanje (skidanje) u isto vrijeme.
+
+1416=Ne pregledaj roditeljske foldere
+1490=nivoa unutar bazne stranice
+1435=Pretraži cijelu stranicu
+1445=Pretraži odreðeni broj nivoa linkova:
+1491=nivoa na drugim stranicama
+1474=Pretraži web stranice samo unutar sljedeæih putanja/domena:
+1476=Ne pretražuj web stranice unutar sljedeæih putanje/domena:
+1512=U ovom koraku biste trebali navesti koje web stranice pretraživati u potrazi za traženim fajlovima. U ovom koraku, moæi æete podesiti tipove fajlova, lokacije i druge filtere.
+1489=Koji je broj nivoa linkova?
+1493=Pretraži sve stranice unutar glavne domene
+1494=Ignoriši popup prozore
+
+268=Ime Šablona
+1508=Molimo unesite ime za šablon hvataèa
+
+269=Snimanje IDM Hvataè projekta
+1507=Snimi ovaj projekat pod sljedeæim imenom
+1513=Ne pokazuj ovaj dijalog ako je ime jedinstveno
+
+270=Uèitaj projekat
+
+32811=Uputstva
+34022=Hvataè Pomoæ
+      
+
+m1458=Projekat
+1458=Novi
+1438=Uèitaj...
+1442=Snimi
+34020=Snimi trenutne postavke kao šablon
+m34013=Skorašnji Projekti
+34013=Skorašnja lista Projekata
+m1457=Opcije
+1457=Postavke Hvataèa
+34021=Planiraj projekat
+
+t1398=Poèni Pretragu Stranice
+t1401=Zaustavi Pretragu Stranice
+t1353=Oznaèi Sve Fajlove
+t1354=Odznaèi Sve Fajlove
+t1432=Poèni Skidanje oznaèenih fajlova
+t1433=Zaustavi Skidanje oznaèenih fajlova
+t1434=Dodaj oznaèene fajlove u glavnu IDM listu i u listu za skidanje
+
+
+20580=Korisnièke postavke
+20581=Sve Slike na web stranici
+20582=Zvuèni fajlovi sa poèetne stranice i sa jednog sljedeæeg nivoa
+20583=Sve Video fajlove na web stranici
+20584=Sve fajlove na web stranici osim html stranica i slika
+20585=Cijelu web stranicu
+
+20589=Web sadržaj
+20590=Napredno
+20591=Hvataè projekti
+20592=IDM Hvataè
+20593=Molim unesi poèetnu stranicu/adresu
+20594=Poèetna stranica/adresa
+20595=Molim unesite prijavu i lozinku ili odznaèi \"Koristi Autorizaciju\" polje
+20596=Molim unesite ruèno stranicu prijave ili odznaèite odgovarajuæe polje
+20597=Stranica ruène prijave
+20598=Nema oznaèenih fajlova!
+20599=%ld fajlova je dodato na glavnu IDM listu.
+20600=Nemoguæe dodati fajlove. Previše fajlova je oznaèeno. Molim skinite ih u ovom projektu klikom na \"Skini Oznaèene\" tipku na alatnoj traci.
+20601=Nemoguæe dodati nove fajlove. Glavna IDM lista sadrži previše fajlova što može usporiti IDM. Molim obrišite neke fajlove sa glavne liste.
+
+20602=Ovo ime je rezervisano. Molim izaberite drugo ime za vaš šablon.
+20603=Šablon sa tim imenom veæ postoji. Da li želite zamijeniti postojeæi šablon?
+20604=Snimiti projekat hvataèa?
+
+//right click menu
+20605=Otvori projekat
+20606=Planiraj projekat
+20607=Obriši projekat
+
+20608=Molim prvo zatvorite pokrenuti projekat hvataèa.
+20609=Planiraj projekat hvataèa
+20610=Dolazi uskoro!!!\r\n\r\nProvjeravajte ovu funkciju u buduæim verzijama IDM-a
+
+//displayed statuses
+20611=Pretraga stranice
+20612=Skidanje
+20613=Završeno
+20614=Zaustavljeno
+
+20615=Projekat sa imenom \"%s\" veæ postoje. Molim izaberite drugo ime.
+20616=Nema snimljenih projekata IDM hvataèa
+20617=Molim izaberite ime projekta!
+20618=Da li želite obrisati \"%s\" projekat hvataèa?
+20619=Neispravan broj fajlova pretraživanih u isto vrijeme. Molim podesite taèan broj.
+20620=Neispravan broj fajlova skidanih u isto vrijeme. Molim podesite taèan broj.
+20621=Ne mogu otvoriti fajl \"%s\"\r\n\r\n%s
+20622=Da li želite skinuti i instalirati IDM Hvataè fajl pomoæi (oko 100 KB) sa matiène stranice IDM-a?
+20623=Ne mogu uèitati projekat.\r\nGreška u dodjeljivanju memorije.
+20624=Ne mogu uèitati projekat.\r\nFajl projekta hvataèa je ošteæen ili mu verzija nije prihvatljiva.
+20625=Fajl projekta hvataèa je ošteæen. Nekoliko fajlova nije uèitano.
+20626=Ne mogu uèitati šablon.\r\nFajl inforamcije o šablonu je ošteæen ili mu verzija nije prihvatljiva.
+20627=Uèitavanje šablona hvataèa
+20628=Snimanje šablona hvataèa
+20629=Snimanje projekta hvataèa
+20630=Uèitavanje projekta hvataèa
+      
+//step dialogs captions
+20631=IDM Hvataè Stranica. Korak %d --- %s
+20632=Podesi poèetnu stranicu
+20633=Snimi fajlove u 
+20634=Podesi filtere pretraživaèa
+20635=Podesi filtere fajlova
+
+20636=Stranica ruène prijave
+20637=Kliknite na tipku U REDU kada je proces prijave završen
+20638=U REDU
+20639=Otkaži
+
+//v4.04
+20640=Ako planirate preuzimati skidanja samo od Internet Explorera, onda vam ova opcija nije potrebna, i trebate odgovoriti sa \"Ne\".
+
+//v4.06
+20641=Povezujem se sa
+20642=Zona:
+1534=Snimi ovu lozinku u IDM listu lozinki
+1536=Unesite svoje korisinièko ime i lozinku.
+1537=Korisinièko ime:
+1538=Lozinka:
+
+//v4.07
+
+280=Lista skidanja
+1553=Moguæe je dodati grupu nastavljajuæih imena fajlova kao što su img001.jpg, img002.jpg, itd., img100.jpg u listu skidanja u IDM-u. Koristite džoker znak u imenu fajla. \nNa primjer:   http://www.internetdownloadmanager.com/pictures/img*.jpg
+1540=Brojevi
+1541=Slova
+1556=Od:
+1557=Do:
+1547=Velièina džokera
+1555=Zamijeni džoker za
+1558=Prvi fajl:
+1559=Drugi fajl:
+1560=Posljednji fajl:
+
+20643=Oznaèi sve selektovane fajlove
+20644=Odznaèi sve oznaèene fajlove
+
+1552=Zamijeni imena fajlova koristeæi džoker znak za predložak imena fajlova:
+
+34024=Dodaj listu skidanja
+
+20645=Ne postoji džoker u URL-u za kreiranje liste skidanja fajlova!
+20646=Skidanje liste
+20647=Previše fajlova. Broj fajlova ne bi trebao prelaziti 1000. Molim izaberite drugi \"od: do:\" raspon.
+20648=Snimi u folder/kategoriju
+
+//v5.00 beta
+
+20574=Hvataè
+20649=Molim unesite stranicu odjave ili odznaèite odgovarajuæe polje
+
+20554=Svi fajlovi
+20555=Grafièki Fajlovi
+20556=Video Fajlovi
+20557=Zvuèni Fajlovi
+20558=Izvršni Fajlovi
+20559=Kompresovani Fajlovi
+20560=PDF Dokument Fajlovi
+
+20561=Ne koristi iskljuèivi filter
+
+20562=Mapa stanice
+20563=Postavke
+
+20564=Naziv filtera
+20565=Maska
+20566=Molim unesite ime filtera
+20567=Molim popunite masku
+20568=Filter sa imenom \"%s\" veæ postoji. Molim izaberite drugo ime.
+
+20650=Molim saèekajte...
+20651=Brisanje privremenih fajlova
+20652=Snimanje projekta Hvataèa
+20653=Brisanje projekta Hvataèa
+20654=Primjenjivanje promjena
+20655=Uèitavanje projekta Hvataèa
+20661=Provjeravanje promjena
+20662=Skidanje stranice ruène prijave
+
+20656=Nedovoljno slobodnog prostora na drajvu %s za procesiranje projketa hvataèa. Molim oslobodite nešto prostora pa pokušajte ponovo.
+20657=Nedovoljno slobodnog prostora na drajvu %s za otvaranje projekta hvataèa. Molim oslobodite nešto prostora pa pokušajte ponovo.
+20658=Nemoguæe otvoriti projekat. Neki od fajlova projekta su ošteæeni ili obrisani.
+
+20659=Kompletna poèetna stranica sa svim slikama, stilovima i skriptama za pretraživanje van linije
+20660=Kompletna poèetna stranica
+
+20663=Nemoguæe poèeti skidati stranicu ruène prijave. Molim provjerite sintaksu URL-a.
+
+33010=Pokreni hvataè stranica
+
+1563=Kliknite na tipku Napredno da bi omoguæili stranicu ruène prijave ili onemoguæili stranicu odjave
+1561=Ne otvaraj stranicu odjave:
+1564=Mnoge stranice imaju stranicu(e) odjave koje Hvataè ne bi trebao otvarati. Možete koristiti džoker znakove za odreðivanje uzorka razlièite stranice odjave.
+1571=Sakrij duple fajlove pronaðene na razlièitim lokacijama
+1565=Procesiraj JavaScripte
+1567=Koristite ovu opciju oprezno. Koji je rizik?
+1573=Pogledaj fajlove u IE kešu prije skidanja
+1568=Koristite zvjezdicu kao džoker uzorka. Koristite zareze bez razmaka za razdvajanje unosa
+
+//grabber dlg tree
+20664=Svi Fajlovi
+20665=Pregled po Linkovima
+20671=Pregled po Folderima
+20667=Druge stranice
+20668=stranice
+
+20669=Iskljuèivi filteri
+20670=Ukljuèivi filteri
+
+t34023=Pokaži statistiku hvataèa
+271=IDM Hvataè Statistika
+1574=Status:
+1575=Web stranica procesirano
+1576=Jednostavno
+1577=Napredno
+1578=Fajlovi
+1579=Ukupno
+1580=Pretraženih
+1581=Usklaðenih
+1582=Skinutih

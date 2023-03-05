@@ -1,0 +1,1713 @@
+lang=0x1d Swedish
+tips=tips_sw.txt
+
+// Tranlator: Mr Göran Malmberg, Idre parish, Dalarna county, Sweden
+// Address: Idre parish, Dalarna county, Sweden
+// Date: 16 Sept 2009
+//This template should be used to translate Internet Download Manager 
+//to foreign languages.
+//All template files should be named using idm_*.lng name pattern convention. 
+//Please place the abbreviated language name (de, en, es, fr, :) 
+//instead of the asterisk. For example: idm_de.lng or idm_fr.lng
+
+//The first string inside the template should be lang=ID Name
+//where Name - the full name of the language (on English),
+//ID - hex number that defines Windows API value of the language.
+//Here are sample primary language IDs:
+//0x06 DANISH
+//0x0b FINNISH
+//0x0c FRENCH
+//0x07 GERMAN
+//0x10 ITALIAN
+//0x11 JAPANESE
+//0x0a SPANISH
+//0x1d SWEDISH
+
+//The strings from second to fourth may contain file names of translated tips, 
+//help and tutorial files. If these strings are absent, 
+//or files cannot be found in <IDM root>/Languages folder, 
+//then IDM uses default English files.
+//Sample:
+//tips=tips_de.txt
+//help=idm_de.chm
+//tutor=tut_de.chm
+
+//Then you need to translate all IDM strings. 
+//It's IMPORTANT when a string has any special characters 
+//(%s %d %x %ld %I64d %%), they should all remain in the translated 
+//string and cannot trade places. Remember that IDM inserts dynamic 
+//values instead of these special characters in a predefined order. 
+//Instead of %s IDM inserts a string, %% - %, in all other cases IDM 
+//inserts a number.
+
+//The strings beginning with // are comments 
+//and you don't need to translate them
+
+
+// Dialogs
+
+//main dialog
+1281=Kategorier
+t1278=Göm mappar
+20369=Q
+20370=Filnamn
+20371=Status
+20372=Storlek
+20373=Tid Kvar
+20374=Hastighet
+20375=Beskrivning
+
+//toolbar
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20376=Addera URL
+20377=Fortsätt
+20378=Stoppa
+20379=Stoppa Alla
+20380=Ta Bort
+20446=Ta bort Co...
+20381=Val
+20382=Planerare
+20383=Tipsa en Vän
+//tooltips for buttons
+t32789=Addera/Nedladda ny URL manuellt
+t32790=Starta/Fortsätt nedladda valda fil(er)
+t32791=Stoppa Nedladdning av Valda fil(er)
+t32792=Stoppa alla Nedladdningar
+t32793=Ta bort valda fil(er) från listan
+t32794=Ta bort alla klara filer från listan
+t32795=Webbläsar-/Systemintegrering, Filtillägg, Proxy, Lösenord m.m.
+t32798=Planerare och Könedladdning
+t32788=Skriv Epost till vän om IDM
+
+//Registration dialog
+138=Internet Download Manager (IDM) Registrering
+1326=V g inför Dina registreringsdetaljer i motsvarande fält och klicka på OK knappen
+1330=Serienummer
+1327=Förnamn
+1328=Efternamn
+1329=Epost
+1191=&OK
+1201=&Licenshjälp
+1080=&Avbryt
+
+//Download progress dialog
+103=Nedladdning
+1154=(okänd)
+1178=<< Göm detaljer
+20426=<< Göm detaljer
+1158=Ta Paus
+20392=Ta Paus
+20424=Starta
+20425=Visa detaljer >>
+1300=Filstorlek
+1301=Nedladdad
+1302=Hastighet
+1303=Tid kvar
+1149=(okänd)
+1299=Status:
+1030=Ansluter...
+1305=Startläge och nedladdning genom anslutningar
+1304=Fortsättningsförmåga
+1175=(okänd)
+2=Avbryt
+20416=Nr
+20417=Nedladdad
+20418=Info
+20419=Ja
+20420=Nej
+20421=%d tim %d min
+20422=%d min %d sek
+20423=%d sek
+
+130=Nedladda Filinfo
+1006=&Starta Nedladda
+1010=Sök...
+1004=Nedladda &Senare
+1298=Beskrivning
+1173=Övervaka
+1297=Kategori
+1296=Spara Som
+t1004=Addera fil till URL-listan för senare Nedladdning
+t1006=Starta filnedladdning
+
+148=Inför ny adress att nedladda
+1182=Använd &Attest
+1184=Inloggning:
+1186=Lösenord:
+1022=O&K
+
+//Options Dialog
+134=Internet Download Manager (IDM) Konfigurering
+1092=OK
+20286=Allmänt
+20287=Anslutning
+20288=Nedladdar
+20289=Proxy
+20290=Inloggningar
+20291=Uppringning
+20292=Ljud
+20293=Allmänt
+20294=Anslutning
+20295=Nedladdar
+20296=Proxy
+20297=Inloggningar
+20298=Uppringning
+20299=Ljud
+20300=Webbläsar-/Systemintegrering
+20301=Anslutningstyp
+20302=Standard Nedladdningskonfigurering
+20303=HTTP, HTTPS och FTP proxy konfigurering
+20304=Användarnamn/Lösenord för Servrar/Webbsajter
+20305=Uppringningskonfigurering
+20306=Ljudjustering
+//General tab
+1134=IE och Netscape 4.x Integrering
+1056=Kör Internet Download Manager (IDM) vid uppstart
+1061=Starta automatiskt nedladdning av URLs i urklipp
+1065=Integrera i IE, MSN Explorer och IE-baserade webbläsare
+1077=&Standard
+1238=Använd ALT tangent för att hindra IDM nedladdning av länkar
+1251=Använd CTRL tangent för att tvinga IDM nedladdning av länkar
+1253=Integera i Netscape 6.x
+1255=Integrera in Opera
+1256=Integrera i Mozilla
+1257=Integrera i Netscape 7.x
+1314="Plugins"
+1169=Filtyper...
+1270=Starta automatiskt nedladda dessa filtyper:
+t1056=Kör Internet Download Manager (IDM) vid systemuppstart
+t1061=Övervaka systemurklipp för giltiga URLs
+t1065=Övervaka IE för URL klickningar
+t1068=Övervaka Nescape Navigator för URL klickningar
+//Proxy tab
+1102=Använd HTTP Proxy
+1272=Styrk Lösenod:
+1122=Proxy:
+1123=Port:
+1124=Användarnamn:
+1125=Lösenord:
+1107=Fråga från IE
+1108=Använd FTP Proxy
+1274=Styrk Lösenord:
+1126=Proxy:
+1127=Port:
+1128=Användarnamn
+1129=Lösenord:
+1113=Fråga från IE
+1116=Använd FTP i PASV läge
+1118=Använd HTTPS Proxy
+1273=Styrk Lösenord:
+1133=Proxy:
+1135=Port:
+1137=Användarnamn:
+1139=Lösenord:
+1141=Fråga från IE
+t1107=Försök finna HTTP proxy i IE konfigurering
+t1116=Använd FTP protokoll i passivt läge (behövs bakom brandvägg)
+//Connection tal
+1153=Anslutningstyp/Överföringshastighet
+1306=Max Anslutningsantal:
+1254=Nedladdningsgränser
+//Downloads tab
+1049=Sök...
+1190=Minns sista sökväg för "Allmänt" kategorin
+1136=Standardnedladdningsmapp för "Allmänt" kategorin
+1132=Spara Till...
+1236=Visa dialogrutan: "Nedladdning klar"
+1317=Viruskontroll
+1318=Virusskanningsprogram
+1165=Sök...
+1319=Kommandoradparametrar
+1316=Nedladdningdialogsruta
+1315=Dialogrutor
+1059=Visa Nedladdningsstartdialogruta
+1138=Tillfällig mapp
+1054=Sök...
+//Dial Up tab
+1313=Anslutning:
+1307=Anslutningsval
+1166=Använda
+1308=Återuppringningsval
+1309=Återuppringningsförsök (noll om ändlöst):
+1310=Tid mellan Återuppringningsförsök:
+1312=sek
+1311=gång
+1058=Använd Windows Uppringningsnätverk
+//Sounds tab
+1320=Välj Ljud för Nedladdningshändelser
+1172=Sök...
+1091=Spela upp
+//Passwords tab
+20436=Webbsajt/Sökväg:
+20437=Användarnamn:
+20438=Lösenord:
+1087=Ny
+1196=Ändra
+1050=Ta bort
+
+//File properties dialog
+135=Filegenskaper
+1325=Typ:
+1324=Storlek:
+1323=Spara Till:
+1082=&Sök...
+1322=Inloggning:
+1289=Lösenord:
+1321=Styrk Lösenord:
+1164=Öppna
+1240=Senaste Försök:
+1241=Resultat: 
+
+100=Om Internet Download Manager (IDM)
+1284=Hemsida:
+1285=Assistensteamet:
+1286=Denna produkt är licensierad till:
+1181=Oregistrerad Version
+1161=Sök &Uppdatering
+1185=&Registrering
+1085=&Köp
+1262=Version:
+t1187=Klicka för att besöka IDM's hemsida
+t1189=Kontakta IDM's assistensteam
+t1161=Sök gällande uppdateringar på www.internetdownloadmanager.com
+t1185=Registrera IDM med Din registreringsnyckel
+t1201=Klicka för att veta hur man får IDM licens
+t1085=Köp registrerad IDM's fullversion
+
+150=Stäng av
+1263=IDM har slutat Köhanteringen. Enligt planeringskonfiguration stängs Din dator av.
+1170=Stäng av nu
+
+1163=Ja
+1088=Ja till Alla
+1202=Nej
+1051=Nej till Alla
+
+177=Planerare
+1331=Nedladdningskö
+1333=Nedladda från
+1332=Planerare
+1218=Starta nedladdning
+1219=En gång
+1221=Dagligen
+1062=Söndag
+1057=Måndag
+1066=Tisdag
+1069=Onsdag
+1222=Torsdag
+1223=Fredag
+1224=Lördag
+1225=Stoppa nedladdning
+1228=När klart, slå av datorn
+1235=Tvinga processer att sluta
+1089=Använda
+1232=Starta nu
+1233=Stoppa
+1079=Stäng
+1227=När klart, slå av modem
+1264=MB
+1265=tim
+1266=Nedladda ej fler än
+1171=Hjälp
+1267=varje
+1268=Visa varning innan nedladdningsstopp
+1271=När klart, stäng IDM
+1335=filer på samma gång
+t1229=Flytta post ned
+t1230=Flytta post upp
+t1231=Ta bort från nedladdningskö
+t1232=Starta Kö
+t1233=Stoppa Kö
+t1235=Använd detta val i nödläge. Detta kan få applikationer förlora data.
+
+184=Uppringning
+1247=Ansluter....
+1167=Återuppring
+
+186=Uppringningsval
+1336=Ring
+1237=Spara Lösenord
+1288=Användarnamn
+
+187=Släpp hyperlänkar här
+
+190=Nedladda IDM komponenter
+1=OK
+1258=Nedladda komponenter
+
+191=Exportera nedladdningslista
+1259=Exportera nedladdningskö
+1260=Exportera valda filer
+1261=Exportera alla filer
+
+192=Importera länkar till IDM
+1168=Ändra...
+1090=Ta bort
+
+193=Starta automatiskt nedladda dessa tillägg:
+
+105=Dagens Tips
+1001=&Visa Tips vid Uppstart
+1003=&Nästa Tips
+107=Da&gens Tips...
+108=Visste Du...
+109=Tipsfil finns ej i den angivna mappen
+110=Problem att läsa tipsfil
+
+146=WebbSajt Inloggning
+1337=Server/Sökväg:
+1290=Styrk Lösenord:
+1287=OBS: Inskriv sökvägen bara om Du har olika inloggningsnamn för skilda servermappar.
+
+182=Snabb Uppdatering
+1295=Söker ny version...
+								
+194=Nedladdningsgränser överskridna!                                                                   																					
+
+144=Ny version av IDM är tillgänglig
+1162=Uppdatera nu
+1086=Avbryt
+
+//Zip preview dialog
+196=Zip översikt
+20254=Filnamn
+20255=Packad
+20256=Storlek
+20257=Ändrad
+
+//New category dialog
+204=IDM kategorier
+1174=Sök...
+1291=Kategorinamn
+1292=Addera automatiskt dessa filtyper till denna kategori:
+1293=OBS: Skriv in filtillägg åtskilda med mellanrum (t.ex. avi mpg mpeg)
+1239=Minns den sist sparade sökvägen
+1294=Spara framtida nedladdningar för denna kategori till denna mapp:
+
+
+// Menu
+m32771=Projekt
+32771=Addera Ny Nedladdning
+32809=Visa Målkorgsvagn
+m32821=Exportera
+32821=Till IDM's exportfil
+32823=Till Textfil
+m32816=Importera
+32816=Från IDM's exportfil
+32818=Från Textfil
+32772=&Stäng
+
+m32774=Fil
+32774=Stoppa Nedladning
+32775=Ta bort
+32776=Nedladda Nu
+
+m32778=Nedladdningar
+32778=Ta Paus Alla
+32779=Stoppa Alla
+32794=Ta bort Alla Klara
+32801=Planerare
+32803=Starta Kö
+32805=Stoppa Kö
+32781=Val
+
+m32825=Övervaka
+32825=Göm kategorier
+m32828=Ordna filer
+32828=Efter Datum
+32830=Efter Filnamn
+32832=Efter Storlek
+32834=Efter Status
+32836=Efter Tid Kvar
+32838=Efter Överföringshastighet
+32840=Efter Beskrivning
+m32841=Språk
+
+m57670=Hjälp
+57670=Index
+32811=Handledningar
+106=Dagens Tips...
+32813=IDM's Hemsida
+32784=Kontakta oss
+32787=Snabb Uppdatering
+32786=Om IDM
+32788=Tipsa en Vän
+
+m32785=Registrering
+32785=Beställ online
+32783=Registrering
+//end menu
+
+
+//Strings & messages
+101=&Om IDM...
+32799=Öppna Port
+32800=Port Öppnad
+32802=Anslutningstillbehör
+32804=Tillbehör Anslutna
+32806=Alla Tillbehör Anslutna
+32807=Startar Verifiering
+32808=Meddelar Verifiering
+32810=Verifierar på nytt
+32812=Svar Begärt
+32814=Ändra Lösenord Begärt
+32815=Planeringsfas Startad
+32817=Överföringshastighetsberäkning
+32819=Verifiering Godkänd
+32820=Återverifiering Startad
+32822=Verifierad
+32826=Väntar på Modemjustering
+32827=Väntar på Svar
+32829=Växelverkande
+32831=Försök Verifiering igen
+32833=Svar satt av Uppringare
+32835=Lösenord Utgånget
+32837=Ansluten
+32839=Avbruten
+
+20000=Fil %s neddladdning klar.\n\nNedladad %s (%I64d Bytes)\nFil sparad som %s
+20001=Denna funktion finns bara i den registrerade versionen.
+20002=Kan ej ändra namnet på nedladdad fil från tillfällig mapp (%s) till %s. Filen har sparats i tillfällig mapp.
+20003=Lösenordsverifiering fel! V g försök igen.
+20004=Lösenordsfält har ej fyllts i!
+20005=Användarnamnfält har ej fyllts i! V g försök igen.
+20006=Webbsajt-/sökvägsfält har ej fyllts i! V g försök igen.
+20007=Är Du säker på att Du vill ta bort inloggningsinfo för denna webbsajt?
+20008=Din nedladdningslista har filen som skall nedladdas från 
+20009=.\nAnvänd dessa användarnamn och lösenord för denna nedladdning?
+20010=.\nÄndra användarnamn och lösenord för denna nedladdning till \"anonymous\" ?
+20011=Inloggningsinfo för denna webbsajt/sökväg finns redan i Din lösenordslista.\nNy inloggningsinfo har ej tillagts. Du vill kanske ändra den nuvarande.
+20012=Du har ändrat \"webbsajt-/sökvägfältet.\"Inloggningsinfo för denna nya webbsajt/sökväg finns redan i Din lösenordslista.\nInloggningsinfo har ej ändrats. Du kanske vill ändra den nuvarande.
+20013=Denna webbsajt är f. n. ej tillgänglig!
+20014=Verifiering fordras för denna webbsajt/sökväg. Du kan sätta inloggningsinfo för denna nedladdning genom att välja egenskaperposten i en höger-klicksmeny. Eller addera inloggningsinfo till \"Val/Webbajter lösenord\" för att använda dessa inloggningar/lösenord varje gång Du nedladdar filer från denna webbsajt.
+20015=Proxy verifiering fordras för denna proxyserver. Du kan ändra proxy användarnamn och lösenord i \"Val/Proxy\"
+20016=Ett okänt fel under nedladdning.\nV g sänd loggfilerna %s och %s (om de finns) till applikationsutvecklare.
+20017=Ett fel under nedladdning.\nV g försök igen. Om Du kan nedladda denna fil i en annan applikation, men kan ej nedladda filen med IDM, v g sänd oss loggfilen %s (om den finns).
+20018=Kan ej nedladda denna fil.
+20019=Kan ej nedladda denna fil.
+20020=Ej tillräckligt minne för att fortsätta nedladda.
+20021=Anslutning kunde ej göras då målservernt aktivt vägrade det. \nKanske tjänsten är inaktiv på servern eller har Du en brandvägg installerad som blockerar IDM. Om Du har en brandvägg, v g se till att den tillåter IDM att nedladda från Internet.
+20022=Tillstånd nekades.
+20023=Kan ej nå begärd adress. Den begärda adressen är ej giltig.
+20024=En anslutning tvingades stängas av host. Detta händer normalt om applikationen hos host plötligt stoppas, host har startats om, eller host gjorde en \'hård omstart\'
+20025=En sockethandling misslyckades då host stängts. En sockethandling möttes av en död host. Nätverksaktivitet vid localhost har ej initierats.
+20026=Anslutningsfel! Sådan host är okänd. Namnet är ej ett officiellt hostnamn eller alias, eller det kan ej hittas i de undersökta databaserna.
+20027=En sockethandling försöktes till ett oanträffbart nätverk. Detta betyder vanligen att det lokala programmet ej känner någon väg att nå den avlägne hosten.
+20028=Hosten Du var ansluten till kraschade och startade om.
+20029=En sockethandling mötte ett dött nätverk. Detta kunde indikera ett allvarligt fel på nätverkssystemet (t.ex. protokollet travade upp sig så att WinSock DLL kördes över), nätverkets gränssnitt eller själva det lokala nätverket.
+20030=För många öppna nätverksanslutningar. V g vänta på att några nedladdningar avslutas.
+20031=Anslutningsfel!
+20032=Storleken av %s är %I64d bytes.\nInget utrymme är kvar på disken\'%s\' där Du vill spara denna fil.\nOm Du ej frigör diskutrymme under nedladdning, sparas filen i en tillfällig mapp som %s
+20033=Inget utrymme kvar på disken\'%s\' för att lagra nedladdade fildelar.\nFrigör diskutrymme eller ändra tillfällig mapp för att fortsätta nedladdning. Gå till Val\\Allmänt och fortsätt sedan nedladdning.
+20034=Kan ej finna server %s
+20035=Kan ej finna proxyserver %s
+20036=Kan ej ansluta till %s:%ld
+20037=Kan ej ansluta till proxyserver %s:%ld
+20038=Kan ej ansluta till %s:%ld\nAnslutning tidsöverskreds
+20039=Kan ej ansluta till proxyserver %s:%ld\nAnslutning tidsöverskreds
+20040=Ett okänt fel under bifogande av filer eller ihopfogning av nedladdade delar till en fil
+20041=Ett okänt fel under ihopfogning av nedladdade delar till en fil
+20042=Kan ej öppna lokal fil för skrivning under ihopfogning av nedladdade delar till en fil
+20043=Kan ej få storleken på nästa del medan ihopfogning av nedladdade delar till en fil
+20044=Virtuellt minnesallokeringsfel under ihopfogning av nedladdade delar till en fil
+20045=Fatalt skrivfel under ihopfogning av nedladdade delar till en fil
+20046=Fatalt läsfel under ihopfogning av nedladdade delar till en fil
+20047=Ett okänt fil- eller registerfel medan ombyggnad av äldre nedladdade delar
+20048=Kan ej ansluta till server
+20049=Internetsocket läsfel
+20050=Internetsocket skrivfel
+20051=Anslutning tidsöverskreds
+20052=Anslutning tidsöverskreds
+20053=Anslutning tidsöverskreds, startar om...
+20054=Anslutningsfel, startar om...
+20055=Fel medan mottagning av data
+20056=Anslutning har stängts av server.
+20057=Kan ej logga in till FTP server.
+20058=Kan ej finna denna fil på FTP server.
+20059=FTP server tillåter ej anslutningar.
+20060=Fel under mottagning av FTP server svar.
+20061=Fel under mottagning av FTP server svar: Ogiltigt svarsformat
+20062=Kan ej finna IP adress för datasocket i svar på PASV kommando.
+20063=Kan ej öppna internetsocket.
+20064=Kan ej öppna FTP datasocket
+20065=Kan ej binda adressen till internetsocketen
+20066=Fel under försök att lyssna till() datasocket
+20067=Fel under samtal att acceptera() internetsocket.
+20068=Kan ej sända PORT kommando.\nFel under samtal att få socketnamn().
+20069=PORT kommando misslyckades.
+20070=Filskrivfel medan mottagning av data från internetsocket.\nMöjlig orsak: Disken är full.
+20071=Kan ej öppna dataanslutning då FTP server ej stödjer PASV kommando och checkbox \'Använd FTP i PASV läge\' i Val->Proxy är PÅ.
+20072=Filstorlek %s har ej funnits i serversvaret
+20073=Servern sände fel svar på omstartkommando.
+20074=Server sände nytt sökläge, och filnamnet %s har ändrats till %s.\n\nFortsätt nedladdning ?
+20075=Anslutning bryts av....
+20076=Nedladdning klar. Sammanfogar alla nedladdade delar till en fil...
+20077=Alternativa anslutningar har skapats.
+20078=Ansluter...
+20079=Val misslyckades
+20080=Anslutning OK.
+20081=Skrivfel under datamottagning från internetsocket.
+20082=Mottagning () procedur misslyckades
+20083=Anslutning stängdes av servern.
+20084=Avbryter Anslutning...
+20085=Väntar på svar...
+20086=Svar OK
+20087=Mottager Data...
+20088=Klart.
+20089=Dataanslutning: Ansluter...
+20090=Dataanslutning: OK
+20091=Färdig att mottaga data
+20092=Provar kommandosekvenskompetens: Sänder två kommandon tillsammans...
+20093=Provar kommandosekvenskompetens: Första svar OK, väntar på det andra svaret...
+20094=Mottager Filinfo...
+20095=Kan ej finna slutet på serversvarssträngen.
+20096=Kan ej finna slutet på strängen i FTP serversvaret.
+20097=Sänder QUIT.
+20098=Servern är ej färdig för en ny användare.
+20099=Kontrollsocket ansluten.
+20100=Sänder Användarnamn...
+20101=Sänder Lösenord...
+20102=Användarnamn Fel
+20103=Användarnamn OK
+20104=Lösenord Fel
+20105=Lösenord OK
+20106=Sänder PASV kommando...
+20107=Servern stödjer ej PASV.
+20108=PASV OK, uppackande av adress...
+20109=Socket OK, försöker ringa. Lyssna()
+20110=Accepterar...
+20111=Accept OK
+20112=Sänder PORT kommando...
+20113=PORT OK
+20114=Ändrar serverns arbetsmapp...
+20115=CWD Fel.
+20116=CWD OK
+20117=Anslutningsfel.
+20118=Sänder TYPE ...
+20119=TYPE kommando Fel.
+20120=TYPE OK.
+20121=Sänder REST kommando...
+20122=REST Fel
+20123=REST OK
+20124=Sänder RETR kommando...
+20125=RETR Fel.
+20126=Sänder SIZE kommando...
+20127=Sänder LIST kommando...
+20128=LIST Fel.
+20129=LIST OK
+20130=SIZE Fel.
+20131=Kan ej finna filstorlek i svar.
+20132=SIZE OK
+20133=Kontrollsocket är ej ansluten till server.
+20134=Omstartar från början då lokal fil har suddats ut. Att omstarta från godtyckligt läge stöds ej i detta fall.
+20135=Anslutning är omstartad...
+20136=Antagligen stöder inte servern kommando-"pipelining".
+20137=Kommandosekvensmöjlighet: OK
+20138=Sänder HEAD...
+20139=Sänder GET...
+20140=Bygger om äldre nedladdade fildelar...
+20141=Ansluter...
+20142=Nedladdning Klar. Nedladdat %I64d Bytes Totalt
+20143=Mottager data...
+20144=Alternativa anslutningar, ansluter...
+20145=Nedladdning Fel. Nedladdat: %I64d Bytes Totalt
+20146=Storleken av %s är %I64d bytes.\nDet finns ej utrymme kvar på disk \'%s\' för att lagra nedladdede fildelar.\nFrigör diskutrymme för att fortsätta nedladdning eller ta bort denna fil från nedladdningslistan, ändra läge på tillfällig mapp i Val->Allmänt, och försök sedan igen.
+20147=Inget utrymme kvar på disk \'%s\'.
+20148=Kan ej bygga om nedladdade större filbitar.
+20149=Denna nedladdning är redan klar, den lokala sökvägen har ej ändrats.
+20150=Filens senaste ändringsdatum har ändrats på servern.\nVill Du nedladda denna fil från början?
+20151=Du använder den senaste versionen av IDM. V g sök igen för uppdateringar senare.
+20152=Fel under sparande av data, v g försök igen.
+20153=Fel under fördelning av virtuellt minne. Försök stänga några applikationer och sedan tryck på \'Försök Igen\'.
+20154=Bygger om
+20155=Det begärda servernamnet är giltigt, men det har ej korrekt associerad data för konvertering ( hosten själv finns, men kan ej direkt nås).
+20156=Fil %s - nedladdad %s (%I64d Bytes). Filen kanske inte blivit nedladdad helt, då filstorleken är okänd.\nFil sparad som %s
+20157=Inga poster valda!
+20158=Flytta upp
+20159=Flytta ned
+20160=Ta bort post
+20161=Kan ej nedladda denna fil. Ogiltigt HTTP serversvar.
+20162=Kan ej finna ny version av IDM's hjälpfil!
+20163=Kan ej döpa om ny version av IDM's hjälpfil: "newIDMan.hlp" till "idman.hlp". Försök göra det manuellt.
+20164=Snabb Uppdatering för IDM från www.internetdownloadmanager.com. Erhåller nya filer...
+20165=Snabb Uppdatering för IDM från www.tonec.com. Erhåller ny hjälpfil...
+20166=IDM's Handledning
+20167=Nedladdning avbröts av användare
+20168=Snabb Uppdatering gick ej, ett fel uppstod under nedladdning av nya IDM filer. Försök uppdatera senare.
+20169=Den begärda filen saknas.
+20170=\nVill Du öppna den?
+20171=Denna fil finns redan i Din nedladdningslista. Vill Du addera dubbletten?
+20172=Servern svarar, att Du saknar tillstånd att nedladda denna fil.
+20173=Ett fel uppstod under läsning av telefonboken.
+20174=Kan ej ansluta till Internet.
+20175=Kan ej nedladda filen p.g.a. tidsöverskridning
+20176=Den begärda filen ser ut som en HTML webbsida.\r\n\r\nOm denna nedladdning togs över från IE automatiskt när Du klickade på en länk, försök hålla ned Alt-tangenten vid klickande på länken för att låta IE öppna sidan.\r\n\r\nVill Du fortsätta nedladda filen med IDM och spara den som HTML sida?
+20177=Den nedladdade filen ser ut som en HTML webbsida.\r\n\r\nOm denna nedladdning togs över från IE automatiskt när Du klickade på en länk, försök hålla ned Alt-tangenten vid klickande på länken för att låta IE öppna sidan.\r\n\r\nVill Du döpa om den nedladdade filen till en HTML sida?
+20198=Kunde ej ändra integrering av IDM i IE. Ett fel uppstod. V g sänd %s fil till utvecklare.
+20199=Kunde ej ändra integrering av IDM i IE då Du kanske ej har rättigheter till systemregistret
+20200=IDM har integrerats helt med IE. För att starta använda den, behöver Du stänga IE och öppna igen.
+20201=IDM integrering har lyckats tas bort från IE. Du behöver stänga IE och öppna igen.
+20202=Kan ej uppdatera "plugins", Du bör se \"%s\" fil för detaljer.
+20203=Detta är en 60 dagars provversion av IDM.
+20204=Filen har flyttats.
+20205= %s filen har flyttats.
+20206=Öppnar nedladdad fil...
+20207=Nedladda IDM komponent
+20208=Kunde ej ändra integrering av IDM med Netscape webbläsare då Du kanske ej har rättigheter till systemregistret
+20209=Versionen av etcprotocol.dll filen är föråldrad. Nedladda den nya versionen? V g stäng IE för att överskriva filen!
+20210=Kan ej döpa om fil %s till %s. Försök stänga IE och gör det manuellt.
+20211=Filen %s sparas som %s. Sådan fil finns redan i Din dator. Vill Du ersätta nuvarande fil?\n\nTryck på \"JA\" för att ersätta, \"NEJ\" för att spara filen med annat namn, \"AVBRYT\" för att avbryta placerinen av filen till Din nedladdningslista.
+20212=Filen %s sparas som %s. Sådan fil finns redan i Din nedladdningslista. Styrker Du att spara filen med detta namn?\n\nTryck på \"JA\" för att styrka, \"NEJ\" för att spara filen med ett annat namn, \"AVBRYT\" för att avbryta placering av filen till Din nedladdningslista.
+20213=Importera till IDM
+20214=Kan ej läsa länkar från filen eller filen är felaktig
+20215=Filen är ej en giltig IDM exportfil eller filen är felaktig
+20216=Filen har ej webblänkar
+20217=Ett okänt fel under körning!
+20218=Kan ej nedladda denna fil, kanske denna FTP server ej stöder fortsatt nedladdning. Vill Du addera samma fil och nedladda den från början?
+20219=Namnet för sparande av filen var \"%s%s\", men servern sände detta namn \"%s\". Vill Du spara filen med filnamnet givet av servern?
+20220=Fil %s nedladdning klar.\nDenna m3u fil innehåller en webblänk till en mp3 fil. Vill Du nedladda denna mp3 fil?
+20221=Fil %s nedladdning klar.\nDenna m3u fil innehåller en eller flera webblänkar till mp3 filer. Vill Du addera dessa mp3 filer till Din nedladdningslista?
+20222=M3U fil nedladdad.
+20223=Tillägg
+20224=Mimetyp
+20225=Kan ej starta viruskontrollprogram.\n%s
+20226=IDM har avslutat köhanteringen. Enligt Planerarkonfigurering ämnar IDM stänga av Ditt modem.
+20227=Stäng av modem
+20228=Stäng av nu
+20229=Stoppa nu
+20230=Nedladdningsgränser överskridna!
+20231=Ogiltig data
+20232=Värdet på timmar i \"Nedladdningsgränser\" måste vara mellan 1 och 23. V g ändra eller bocka av  \"Nedladdningsgränser\"- rutan.
+20233=Vill Du nedladda handledning (ung. 60 KB) från IDM's hemsida?
+20234=Vill Du nedladda och installera IDM's hjälpfil (ung. 200 KB) från IDM's hemsida?
+20235=Kan ej finna HHCtrl.ocx för att visa hjälpfil!
+20236=IDM Hjälp
+20237=Filstorleken har ändrats på servern.\nNedladdning sker från början.
+20238=Kan ej skapa anslutning via proxyserver.
+20239=Ett fel uppstod under skapande av säkerhetsanslutning till %s.
+20240=Ett fel uppstod under meddelande om krypteringsbegäran.
+20241=Ett fel uppstod under laddning av säkerhets dll. Kan ej skapa HTTPS anslutning.
+20242=Tyvärr, lösenord och styrk lösenord fälten matchar ej för HTTP proxyserver! V g försök igen.
+20243=Tyvärr, lösenord och styrk lösenord fälten matchar ej för HTTPS proxyserver! V g försök igen.
+20244=Tyvärr, lösenord och styrk lösenord fälten matchar ej för FTP proxyserver! V g försök igen.
+20245=IDM Val
+20246=Nedladdning Klar
+20247=Nedladdning Fel
+20248=Köhantering stannade/slutade
+20249=Köhantering startad
+20250=Händelse
+20251=Ljudfil
+20252=Kan ej kopiera vald ljudfil till IDM's ljudmapp!
+20253=Du har %d dagar kvar att använda IDM. Vill Du registrera Din IDM kopia nu?
+20258=Alla Nedladdningar
+20259=Oavslutad(e)
+20260=Avslutad(e)
+20261=Program
+20262=Musik
+20263=Video
+20264=Spel
+20265=Dokument
+20266=Addera till Kategori
+20267=Ta bort
+20268=Egenskaper
+20269=Vill Du verkligen ta bort \"%s\" kategorin från IDM's kategorilista?
+20270=Tar bort en kategori från IDM's kategorilistan...
+20271=Addera en kategori till IDM's kategorilista
+20272=Ändra kategoriegenskaper
+20273=V g fyll i \"Kategorinamn\" fältet.
+20274=Mappen \"%s\" finns ej.\r\nVill Du skapa mappen?
+20275=Kan ej skapa mappen!\r\n%s
+20276=Göm kategoier
+20277=Visa kategorier
+20278=Välj en mapp
+20279=Allmänt
+20280=Vill Du placera alla äldre nedladdningar till dessa kategorier enligt filtyper? Filerna flyttas ej på hårddisken, men blir associerade med sina anvisade nedladdningskategorier.
+20281=Vill Du placera alla äldre nedladdningar med \"%s\" filtyper till denna kategori? Filerna flyttas ej på hårddisken, men blir associerade med denna kategori.
+20282=IDM's kategorier
+20283=IDM fick \"Åtkomst Nekad\" fel under sammansättning av nedladdade delar av filen. Det kan hända då någon applikation som anti-virus program eller brandvägg öppnade filen, men stängde ej den riktigt, eller Du försökte öppna filen under nedladdning. Du bö omstarta Din dator och sedan klicka på Fortsätt-knappen för att sammansätta filen.
+20284=Standard nedladdningsmapp för \"%s\" kategori
+20285=Minns sist sparade sökväg för \"%s\" kategori
+20307=- Välj Din internetanslutning -
+20314=256K Kabel/DSL/Annan
+20315=300K Kabel/DSL/Annan
+20316=512K Kabel/DSL/Annan
+20319=Annan
+20320=Om IDM
+20321=Återställ
+20322=Stäng
+20323=Kontakta oss
+20324=Hjälp
+20325=Beställ online
+20326=Registrering
+20327=Stoppa Nedladdning
+20328=Ta bort
+20329=Fortsätt Nedladdning
+20330=Egenskaper
+20331=Ogiltig URL inmatad. V g korrigera.
+20332=Denna nedladdning är ej komplett. Fortsätta med bortagning från listan?
+20333=Kunde ej finna proxykonfigurering i IE's konfigurering
+20334=Filen med denna URL har redan nedladdats av IDM. Vill Du nedladda den igen?
+20335=Filen med denna URL finns redan i Din lista och väntar på att nedladdningen blir klar. Vill Du fortsätta?
+20336=För många filer med detta namn. V g ta bort dem eller ändra lokala namn
+20337=V g fyll i inloggningsnamn.
+20338=Kunde ej finna associerad Webbläsare
+20339=Kan ej finna Snabb Uppdatering applikationen.
+20340=V g fyll i registreringsnamn.
+20341=Ogiltigt registreringsnummer ifyllt.
+20342=URL funnen i urklipp. Vill Du nedladda?
+20343=V g fyll i Ditt förnamn
+20344=V g fyll i Ditt eftenamn
+20346=V g fyll i Din Epostadress
+20347=V g fyll i Ditt Serienummer
+20348=Du har fyllt i fel Serienummer
+20349=IDM har registrerats med fel Serienummer. IDM stängs av...
+20350=IDM: Antalet registreringar för detta Serienummer överskrider gränserna. IDM stängs av...
+20351=IDM har registrerats med fel Serienummer. IDM stängs av...
+20352=IDM har ej registrerats under 60 dagar. Provperiod är över, och IDM stängs av...
+20353=IDM har ej registrerats under 15 dagar. IDM stängs av...
+20354=Okänt fel under
+20355=Okänd
+20356=Addera i Nedladdningskö
+20357=Ta bort från Kö
+20358=Starta Kö
+20359=Stoppa Kö
+20360=Öppna
+20361=Senaste Försöksdatum:  
+20362=Resultat:\n
+20363=Välj bara en fil för att öppna!
+20364=Öppna
+20365= finns redan i Din dator. Vill Du ersätta existerande fil?\nTryck på \"JA\" för att ersätta, \"NEJ\" för att spara filen med annat namn, \"AVBRYT\" för att avbryta nedladdning.
+20366=Nedladda från
+20367=Spara till
+20368=Vill Du verkligen ta bort alla klara nedladdningar?
+20384=Visa Målkorgsvagn
+20385=Varning: Detta datorprogram skyddas av copyright lagar och internationella fördrag. Ej auktoriserad kopiering eller spridning av detta program, eller någon del därav, kan resultera i stränga civila och kriminella straff och åtal i lagens fulla utsträckning.
+20386=Kan ej skapa mapp %s, felkod = %ld\n
+20387=Fel
+20388=Filer
+20389=Alla Filer
+20390=Detaljer:\n
+20391=Klar.
+20393=Nedladdning klar. Viruskontroll pågår...
+20394=AVI: Res. %dx%d, %d samp per sek, Längd %s
+20395=, Längd: 
+20396=, Titel: 
+20397=, Artist: 
+20398=, Album: 
+20399=, Genre: 
+20400=WAV: %d samp per sek, %d bits per samp, Längd: %s
+20401=MPEG: Res. %dx%d, %.1f samp per sek, %d bits per samp
+20402=%s,   totalt %ld filer
+20403= Prov
+20404= Full
+20405=Återuppring  %ld
+20406=Odefinierat RAS Uppringningsfel!
+20407=Språkändringar i huvuddialogrutan träder i krakt bara efter omstart av IDM. Vill Du omstarta IDM nu?
+20408=Från %d:%02d till %d:%02d nedladdade Du %d MB. Alla IDM nedladdningar stoppas, då Du överskridit Dina nedladdningsgränser satta i IDM's Planerare (eller \'Val->Anslutningar\')!
+20409=Från %d:%02d till %d:%02d nedladdade Du %d MB. Alla IDM nedladdningar har stoppats %d:%02d, då Du överskridit Dina nedladdningsgränser satta i IDM's Planerare (eller \'Options->Anslutningar\')!\r\n\r\nAlla stoppade nedladdningar fortsätter automatiskt %02d:%02d. Om Du vill fotsätta nedladdningar genast, ändra konfigurering i Nedladdnings Gränser och tryck på Fortsätt.
+20410=Komplett
+20411=Bygger om...
+20412=Avbryter anslutning...
+20413=Textfiler
+20414=IDM's Exportfiler
+20415=Spara som...
+20427=V g stäng ej nedladdningsdialogrutan när IDM sammanfogar fil, annars kan data bli skadad.
+20428=Snabb Uppdatering
+
+20429=Nedladdar öveförda till IDM...
+20430=Klicka på 'Tillbaka' för att gå tillbaka för sökning.
+20431=IDM kunde ej starta nedladdning. Körbar fil ej funnen.
+
+20433=Varning
+20434=Välj en mapp
+20435=Virusskanningprogram
+20439=Ljudfiler
+20440=Komplett
+20441=Filegenskaper
+20442=Internet%20Download%20Manager%20-%20mycket%20cool%20applikation!!!
+20443=Nedladdning%20från%20
+
+//Please don't replace "English" to your local language, please just translate the "English" word
+20444=V g använd Engelska
+
+20445=Okänd
+
+20447=Visa normal storlek
+20448=Visa minimerad
+20449=Visa ej
+
+//Please change XXX on the language you are translating IDM to.
+q1=IDM har sett att Du använder Svenska språket som Ditt standard Windows språk. Vill Du installera Svenska språket för IDM?
+
+20500=V g köp och installera den fullständiga versionen av IDM först!
+1338=V g välj språket för IDM's användargränssnitt (Du kan ändra det senare med "Visa->Språk" menyposten)
+20501=IDM har ej registrerats under 15 dagar. IDM stängs av...
+20502=Anpassa...
+20503=Datun Tillagt:
+20504=Senaste Provdatum:
+20505=Spara till...
+20506=Ref.URL
+33001=Anpassar Verktygsfält...
+33002=Anpassar URL Lista...
+33004=Efter Sparad Sökväg
+33005=Efter Ref.URL
+33006=Efter Senaste Provdatum
+20507=Kolumner...
+
+209=Kolumner
+1339=Förbocka kolumnerna Du vill se i denna lista. Använd "Flytta Upp" och "Flytta Ned" knapparna för att ändra kolumnerna som Du vill.
+1160=Flytta Upp
+1083=Flytta Ned
+1340=Visa
+1048=Göm
+1053=Återställ
+1341=Den valda kolumnen borde vara
+1342=pixels bred
+
+//new category
+20508=Komprimerad
+
+//new dialog
+226=Maximalt antal anslutningar för en server
+1348=Server
+
+1350=Standard Antal Anslutningar
+1343=Maximalt anslutningsantal
+1344=Ny
+1345=Ta bort
+1346=Ändra
+1347=Undantag:
+20509=Server
+20510=Antal
+
+228=Nedladda Alla Länkar med IDM
+20511=Filtyp
+20512=Länktext
+1234=Bruka länkar som beskrivningar
+1055=Göm HTML filer
+1060=Göm upprepade filer
+1353=Förbocka Alla
+1354=Avbocka Alla
+1352=Ändra...
+1355=V g förbocka länkarna som Du vill addera till IDM's Nedladdningslista och klicka på OK knappen.\r\nDu bör vänta tills IDM provar och fyller i alla filtyper.
+
+20513=Namnet att spara filen var \"%s\", men servern sände denna filtyp \"%s\" och filen skulle sparas som\"%s\". Vill Du spara filen med namnet som matchade filtypen erhållen från servern?
+
+//vers. 4.00
+20514=Åternedladda
+20515=Öppna mapp
+
+q2= \"%s\" (%s) vill nedladda \"%s\" fil.\n\nVill Du låta IDM överta nedladdningar från denna applikation?\nDu kan senare sätta PÅ eller AV IDM's nedladdningsövertagning från \"%s\" i IDM->Val->Allmänt
+
+20516=\"%s\" dataöverföringsprotokoll stöds ej av IDM f.n.! Eller det kan vara ett stavfel, så v g kontrollera stavningen och försök igen.
+20517=IDM har mottagit fel \"Åtkomst Nekad\" medan sammansättningen av fildelar. Det kan hända då filen öppnades av en annan applikation såsom anti-virus program, eller om Du försökte öppna den själv. För att sammansätta denna fil måste Du omstarta Din dator, välja filen i IDM och trycka på Fortsätt knappen.
+20518=V g registrera IDM innan uppdatering.\r\nVälj \"Registrering->Registrering\" menyposten och inför Din registreringsinfo. Sedan välj \"Hjälp->Snabb Uppdatering\" menyposten för att starta uppdatering.
+20523=Enligt vår licensöverenskommelse, som Du accepterat, tillåts Du uppdatera IDM fritt under ett år efter köpet. Om Du vill fortsätta att uppdatera IDM efter denna period, behöver Du abonnera hos uppdateringstjänsten.\r\nVill Du se IDM's abonnemangssida?
+20519=Tangenter som hindrar nedladdning bör inte förekomma bland tangenter för att tvinga nedladdning. \r\nV g välj andra tangenter.
+20525=Anslutningsfel. Ingen sådan host är känd. Namnet är ej ett officiellt hostnamn eller alias, eller det kan ej hittas i undersökt(a) databas(er).\r\n\r\nSe nedan möjliga orsaker till detta fel:\r\n\r\n1. Du har en brandvägg i Din dator, och Du har just installerat, ersatt eller uppdaterat Din nuvarande version av IDM. V g kontrollera Din brandväggskonfiguration och säkra att IDM har tillstånd att nå Internet.\r\n\r\n2. En tjänst som hittar servrar i Internet kallade "Domain Name Service" (DNS) har tillfälliga problem, eller nätverksanslutningen mellan DNS och Din dator är bruten. Det är möjligt att Du behöver omstarta Din dator.\r\n\r\n3. Det är ett stavfel i servernamnet. V g checka Din stavning.\r\n
+20522=IDM kan ej hitta %d fil(er) som erfordras för webbläsar- och systemintegrering. Vill Du nedladda dem?
+
+//Options->general
+1370=Upptäck nya applikationer som försöker nedladda filer från Internet
+1372=Starta ej Nedladdning av dessa webbsidor automatiskt (Åtskilj Namnen med Mellanrum):
+1368=Anpassa tangenter för att hindra eller tvinga nedladdning med IDM
+1367=Tangenter...
+1375=Integrera IDM i dessa webbläsare:
+
+229=Använd speciella tangentkombinationer
+1361=Förbocka tangent(er) för att hindra nedladdning med IDM för alla länkar:
+1067=Förbocka tangent(er) för att tvinga nedladdning med IDM för alla länkar:
+1366=Kolla att vänster-klick med musen på en länk, med valda tangenter nedtryckta för att hindra/tvinga länknedladdning, fungerar!
+1374=OBS: Ibland efter Din klickning på en nedladdningslänk, laddas en webbsida som säger att nedladdningen börjar om X sekunder. I detta fall behöver Du avbocka tangentvalen för att tvinga nedladdning med IDM.
+
+//Download all links with IDM
+1356=Spara Till
+1357=Varje fil till mappen enligt filens kategori
+1358=Alla filer till en kategori
+1359=Alla filer till en mapp
+1360=Sök...
+
+//Options->Proxy
+1378=Använd ej proxyserver för adresser som börjar med:
+1377=Separera namn med mellanrum
+
+
+20526=IDM's Nätverksintegrering
+20527=IDM märkte att dess nätverksintegrering har tagits bort av någon tredjeparts applikation. Vill Du återställa IDM's nätverksintegrering?
+20528=IDM märkte att någon tredjeparts applikation har ändrat IDM's nätverksintegrering. Detta kan hända p.g.a. en nyligen installerad nätverksapplikation, eller då en applikation återställer registerposter felaktigt. Vill Du återställa IDM's nätverksintegrering?
+20529=IDM märkte att integreringen ändrats. Vi förordar att Du omstartar Din dator. Vill Du omstarta nu?
+20530=IDM märkte att integreringen ändrats. Du behöver omstarta Din dator, då Din brandvägg ej kan märka dessa ändringar, och Internet Applikationer kommer ej riktigt att kommunicera i Internet före omstart.\r\n\r\nV g spara Ditt arbete och stäng alla applikationer nu, datorn omstartas efter att Du tryckt på OK knappen.
+20531=Om Du vill integrera IDM i en applikation som körs, behöver Du omstarta applikationen, då IDM inte kan integrera med applikationer som redan körs.\r\n\r\nEfter IDM's integrering med applikationen, bör Du stänga av \"Upptäck Nya Applikationer\" valet för bättre prestanda.
+20532=Upptäck Nya Applikationer
+
+//v 4.01
+//Download All Links with IDM dialog
+1385=Göm bilder som visas på denna webbsida
+//Options->General dialog
+1381=Använd Avancerad Webbläsarintegrering
+20547=Omkopplingen mellan Normal och Avancerad Webbläsarintegrering fordrar eventuell systemomstart. Är Du säker på att Du vill fortsätta?
+//new dialog
+230=Kontrollerar Internetanslutning
+1382=Kontrollera
+20536=IDM nedladdar en liten testsida för att kontrollera Din Internetanslutning. V g vänta några sekunder
+20537=IDM testar Din IE. V g vänta några sekunder medan IE laddar en liten testsida
+//Problem report dialog
+232=IDM's Problemrapport
+20546=Vi har skapat en konfigureringsrapport som Du kan sända till oss. V g sänd oss denna info för att hjälpa oss fixa detta problem i framtida versioner av IDM. Denna data är av tekniskt slag. Vi samlar ej in Din privata info, och vi behandlar denna rapport som konfidentiell och anonym.
+1386=Addera några kommentarer och frågor nedan, om Du vill
+1391=Om Du vill ha meddelande när problemet kommer att lösas, v g  addera Din Epostadress nedan
+20545=Sänder data...\r\nV g vänta några sekunder
+1390=Sänd
+
+//new messages
+20533=IDM har märkt att Du använder en proxyserver i IE. Vill Du använda samma proxykonfiguration i IDM?
+20534=Första körning med IDM
+20535=IDM har märkt att Du använder Windows Uppringning för att ansluta Ditt modem till Internet. Vill Du använda denna konfigurering i IDM?
+
+20538=Kan ej nedladda testsidan. Kanske IDM's nätverksintegrering är i konflikt med en annan Internetapplikation eller en brandvägg. IDM stänger av Avancerad Webbläsarintegrering för att återställa Din ursprungliga konfigurering. Du kan slå på Avancerad Webbläsarintegrering senare i IDM->Val->Almänt dialogrutan
+20539=Du behöver omstarta Din dator för att återställa ursprunglig konfigurering. V g spara Ditt arbete och stäng alla applikationer nu, datorn omstartas efter att Du tryckt på OK knappen.
+20540=IDM's nätverksintegrering har lyckats installeras. I ett ovanligt fall kan nätverksintegrering skapa konflikt med en ny installerad tredjeparts Internetapplikation. Om Du får problem med nätverksintegreringen, v g avbocka \"Använd Avancerad Webbläsarintegrering\" rutan i IDM->Val->Almänt dialogrutan
+20541=Du ha stängt av Avancerad Webbläsarintegrering. Om Du fann ett problem med Avancerad Webbläsarintegrering, vill vi fixa problemet för Dig. För att fixa problemet, behöver vi samla in och analysera viss teknisk info om Din datorkonfigurering och installerade Internetapplikationer. IDM kommer att samla in och visa Dig denna info i nästa steg före skickandet till vår assistensavdelning.\r\n\r\nVill Du att IDM genererar denna info?
+20542=Avstänger Avancerad Webbläsarintegrering
+20543=IDM försöker nedladda en testsida för att kontrollera Din Internetanslutning. V g se till att Du är ansluten till Internet. Om Du har en brandvägg, v g se till att den nya versionen av IDM har tillgång till Internet för att kunna fortsätta. Tryck sedan på \"Kontrollera\" knappen nedan, och IDM försöker nedladda testsidan igen.
+20544=IDM har ändrat dess nätverksintegrering och behöver kontrollera Din Internetanslutning igen. Om Du ej är ansluten till Internet v g anslut och tryck på \"Kontrollera\" knappen.
+20548=IDM's närverksintegrering har ändrats. Du behöver omstarta Din dator, då Dina Internetapplikationer ej kommer att riktigt kommunicera i Internet före omstarten.\r\n\r\nV g spara Ditt arbete och stäng alla applikationer nu, datorn omstartas efter det att Du tryckt på OK knappen.
+
+//v4.01 build 4
+20549=Denna version av IDM har Avancerad Webbläsarintegrering. Installering av denna modul må fordra systemomstart.\r\n\r\nNär Avancerad Webbläsarintegrering är PÅ, kan IDM fånga in de nedladdningar vilka var omöjliga att tidigare fånga in i IDM, eller i någon annan nedladdningshanterare. Vid bruk av integrering kan IDM integreras in i vilka webbläsare och Internetapplikationer som helst för att överta Dina FTP/HTTP nedladdningar.\r\n\r\nI ett sällsynt fall kan denna integrering skapa konflikt med en ny installerad tredjeparts Internetapplikation. Om Du får problem med närverksintegrering, bör Du avbocka\"Använd Avancerad Webbläsarintegrering \" rutan i IDM->Val->Allmänt dialogrutan för att stänga av den.\r\n\r\nVill Du installera Avancerad Webbläsarintegrering?
+20550=Avancerad Webbläsarintegrering har lyckats installeras!
+
+//menu "File->Redownload"
+33009=Åternedladda
+
+//new (since v4.00) toolbar buttons of the main window
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20551=Starta Kö
+20552=Stoppa Kö
+
+//v4.01 build 5
+20553=IDM fångade automatiskt nedladdningslänken från en annan Internetapplikation när den försökte nedladda en fil. Om Du EJ VILL nedladda denna fil med IDM, v g öppna Val dialogrutan genom att klicka på Val knappen\r\n\r\n 1. Om Du ej vill nedladda denna filtyp med IDM, kan Du ta bort den motsvarande filtypen (filtillägget) från listan över automatiskt fångade filtyper.\r\n\r\n 2. Om Du ej vill nedladda några filer från en viss webbsajt med IDM, kan Du addera denna webbsajt till Exkluderingslistan över webbsajter.
+236=IDM Tips: Automatisk länkfångst (länklagring)
+1393=Visa ej detta tips igen
+1397=IDM har en flexibel mekanism att överta eller ignorera nedladdningar från andra Internetapplikationer. Vill Du läsa mer?
+1396=Läs mer Info
+
+//v4.02
+20569=Detta felmeddelande är möjligt, om IDM används på flera datorer under samma Serienummer. V g notera att IDM har per datorlicens! För att använda IDM på flera datorer på sammaa gång v g  skaffa licenser för var och en!
+20570=Små Knappar
+20571=Stora Knappar
+20572=Klassiska Knappar
+20573=Sök Nya Knapptyper...
+
+//new main menu items
+m33001=Verktygsfält
+33510=Klassiska Knappar
+34010=Små Knappar
+34011=Stora Knappar
+34012=Sök Nya Knapptyper...
+
+//a new (since 4.401) button on the Options dialog
+1371=Hjälp
+
+// The abbreviation of second, kilobytes, megabytes and gigabytes, 
+// it's used when denoting download speed measurement units, 
+// e.g. KB/sec --- kilobytes per second, etc.
+20575=sek
+20576=GB
+20577=MB
+20578=KB
+20579=Bytes
+
+//v4.03
+20588=Kan ej ombygga den nedladdade filen. Byggnadsföljden av nedladdade delar bröts. Sök nedan möjlig orsak till detta problem.\r\n\r\n 1. Datorn har oväntat stängts av p.g.a. spänningsfall under nedladdning/sammansättning av fildelar.\r\n 2. En annan applikation eller användare dödade IDM's processen under nedladdning/sammansättning av fildelar. V g notera att det kan ta en stund att ombygga stora filer. V g hav tålamod, och vänta tills IDM slutar sammanfogningen. V g avsluta ej IDM's process från Aktivitetshanteraren.\r\n\r\nOm dessa händelser ej dyker upp ,v g sänd %s fil (om den finns) till IDM's assistensavdelning för analys.
+
+
+//v 5.00 --- grabber
+1429=< Tillbaka
+1430=Nästa >
+
+1405=Addera till Filter
+1421=Addera till Filter
+1437=Sök filer bara på denna webbsajt
+1459=Starta genast nedladdning av alla matchande filer
+1471=Du kan undersöka webbsajten först, markera filerna som Du behöver och nedladda dem i huvud-Roffare-fönstret, eller addera dem till IDM's huvudlista. Detta alternativ Nedladdar genast alla valda filer.
+1515=Nedladda dessa filer (filtyper)
+1516=Nedladda ej dessa(filtyper)
+1480=Ej mindre än
+1482=Ej mer än
+1483=Nedladda bara filer belägna i dessa sökvägar/domäner/URLS:
+1486=Nedladda ej filer belägna i dessa sökvägar/domäner/URLS:
+1517=Nedladda om filstorlek är
+1488=Använd semikolon ( ; ) för att separera poster.
+
+241=IDM's Webbsajtroffare
+1446=Filer Nedladdade:
+1448=Files Funna:
+1450=Webbsidor Behandlade:
+
+244=Filter
+1423=Addera
+1424=Ändra
+1425=Ta bort
+
+245=Filter
+1426=Namn
+1427=Filmask
+
+1414=Roffare-Projektnamn
+1510=Startsida/Adress
+1439=Använd Verifiering
+1441=Mata in Inloggning och Lösenord manuellt på dessa webbsidor:
+1511=Projektmall
+1470=Om Du väljer en projektmall, kommer guiden att göra erforderlig projektkonfigurering för vald mall vid nästa steg. OBS! Du kan alltid manuellt ändra konfigurering.
+
+1514=Använd originalundermappar
+1468=Omvandla länkarna i nedladdade HTML filer till de lokala filerna för "offline" hantering
+1469=Överskriv nuvarande filer
+1436=Addera markerade filer till IDM's Huvudlista och till Nedladdningskön och stäng av Roffaren
+
+262=IDM's Roffare-Konfigurering
+1518=Bruka länkar som beskrivningar vid placering av filer till IDM's Huvudlista
+1466=Filer att Övervakas på samma gång(1 till 10)
+1467=Filer att Nedladdas på samma gång(1 till 10)
+1509=V g notera, att en webbserver kan avslå begäran, om Du anger ett stort antal filer för Övervakning (Nedladdning) på samma gång.
+
+1416=Övervaka inga huvudmappar
+1490=Nivåer i hostwebbsajten
+1435=Övervaka hela webbsajten
+1445=Övervaka angivet antal länknivåer:
+1491=Nivåer i andra webbsajter
+1474=Övervaka bara webbsidor med dessa sökvägar/domäner:
+1476=Övervaka ej webbsidor med dessa sökvägar/domäner:
+1512=Vid detta steg borde Du fastställa vilka webbsidor att Övervaka för att finna de nödvändiga filerna. Vid nästa steg, kommer Du kunna bestämma filtyper, plats och andra filter.
+1489=Vilket är antalet länknivåer?
+1493=Övervaka alla webbsajter i huvuddomänen
+1494=Ignorera popup-fönster
+
+268=Mallnamn
+1508=V g ange ett namn för Roffar-Mallen
+
+269=Spara projektet i IDM's Roffare
+1507=Spara detta projekt med detta namn
+1513=Visa ej denna dialog, om namnet är unikt
+
+270=Ladda Projekt
+
+32811=Handledningar (Mallar)
+34022=Roffare Hjälp
+      
+
+m1458=Projekt
+1458=Nytt
+1438=Laddar...
+1442=Spara
+34020=Spara nuvarande konfigurering som en mall
+m34013=Nuvarande Projekt
+34013=Nuvarande Projektlista
+m1457=Val
+1457=Roffare-Konfigurering
+34021=Planera Projektet
+
+t1398=Starta Webbsajt-Övervakning
+t1401=Stoppa Webbsajt-Övervakning
+t1353=Förbocka Alla Filer
+t1354=Avbocka Alla Filer
+t1432=Starta Nedladdning av Förbockade filer
+t1433=Stoppa Nedladdning av Förbockade filer
+t1434=Addera Förbockade filer till IDM's Huvudlista och Nedladdningskö
+
+
+20580=Anpassad Konfigurering
+20581=Alla Webbsajtens Bilder
+20582=Ljudfiler från startsida och från nästa nivå
+20583=Webbsajtens Alla Videofiler
+20584=Webbsajtens Alla filer utom webbsidorna själva och deras bilder
+20585=Hela webbsajten
+
+20589=Webbinnehåll
+20590=Avancerad
+20591=Roffare-Projekt
+20592=IDM's Roffare
+20593=V g ange Startsida/-Adress
+20594=Startsida/-Adress
+20595=V g ange inloggning och lösenord eller avbocka \"Använd Verifiering\" rutan
+20596=V g ange manuell inloggningssida eller avbocka motsvarande ruta
+20597=Manuell inloggningssida
+20598=Inga valda filer!
+20599=%ld filer adderades till IDM's Huvudlista.
+20600=Kan ej addera filer. För många filer är förbockade. V g nedladda dem med detta projekt genom att klicka på \"Nedladda Förbockade\" verktygsfältknappen.
+20601=Kan ej addera nya filer. IDM's Huvudlista innehåller för många filer och det kan sakta ned IDM. V g ta bort några filer från Huvudlistan.
+
+20602=Detta namn är reserverat. V g välj ett annat namn för Din Mall.
+20603=Mallen med sådant namn finns redan. Vill Du ersätta mallen?
+20604=Spara Roffare-projekt?
+
+//right click menu
+20605=Öppna Projekt
+20606=Planera Projekt
+20607=Ta bort Projekt
+
+20608=V g avsluta först Roffare-Projektet, som körs!
+20609=Tids-Planera Roffare-Projektet
+20610=Kommer Snart!!!\r\n\r\nMarkera denna funktion i nästa version av IDM
+
+//displayed statuses
+20611=Övervaka Webbsajt
+20612=Nedladda
+20613=Klar(t)
+20614=Stoppad
+
+20615=Projektet med \"%s\" namn finns redan. V g välj ett annat namn.
+20616=Det finns inga sparade IDM's Roffare-Projekt
+20617=V g välj projektnamn!
+20618=Vill Du Ta bort \"%s\" Roffare-Projektet?
+20619=Ogiltigt antal Övervakade filer på samma gång. V g sätt ett korrekt antal.
+20620=Ogiltigt antal filer Nedladdade på samma gång. V g sätt ett korrekt antal.
+20621=Kan ej öppna filen \"%s\"\r\n\r\n%s
+20622=Vill Du nedladda och installera IDM's Roffare Hjälpfil(ung. 100 KB) från IDM's Hemsida?
+20623=Kan ej ladda projektet.\r\nMinnesfördelningsfel.
+20624=Kan ej ladda projektet.\r\nRoffar-Projektets fil är felaktig eller dess version är ej acceptabel.
+20625=Roffar-Projektetfilen är skadad. Flera filer har ej laddats
+20626=Kan ej ladda mallen.\r\nMallinfofilen är skadad eller dess version accepteras ej.
+20627=Laddar Roffar-Mall
+20628=Sparar Roffar-Mall
+20629=Sparar Roffar-Projekt
+20630=Laddar Roffar-Projekt
+      
+//step dialogs captions
+20631=IDM's Webbsajt-Roffare. Steg %d --- %s
+20632=Välj Startsida
+20633=Spara filer
+20634=Välj Övervaknings-Filter
+20635=Välj Fil-Filter
+
+20636=Manuell Inloggningssida
+20637=Tryck på OK knappen, när inloggningen är klar
+20638=OK
+20639=Avbryt
+
+//v4.04
+20640=Om Du planerar att bara överta Nedladdningar från IE, då behöver Du ej denna modul, och Du bör svara \"NEJ\".
+
+//v4.06
+20641=Ansluter till...
+20642=Area:
+1534=Spara detta Lösenord i IDM's Lösenordslista
+1536=Inmata Användarnamn och Lösenord.
+1537=Användarnamn:
+1538=Lösenord:
+
+//v4.07
+
+280=Gruppvis-Netladdning
+1553=Det är möjligt att addera en grupp av en följd av filnamn såsom img001.jpg, img002.jpg, etc., img100.jpg till IDM's Nedladdningskö. Använd asterisk (*) "wildcard" för filnamnsmönster (-mallar). \nT.ex.: http://www.internetdownloadmanager.com/pictures/img*.jpg
+1540=Siffror
+1541=Bokstäver
+1556=Från:
+1557=Till:
+1547="Wildcard" Storlek
+1555=Ersätt asterisk (*) med
+1558=Första Fil:
+1559=Andra Fil:
+1560=Sista Fil:
+
+20643=Förbocka alla valda filer
+20644=Avbocka alla valda filer
+
+1552=Ersätt filnamn med att använda asterisk (*) "wildcard" för följande filnamnsmönster:
+
+34024=Addera Gruppvis-Nedladdning
+
+20645=Det finns ingen asterisk (*) "wildcard" i URL för att skapa en Nedladdningsfillista!
+20646=Nedladda Grupp
+20647=För många filer. Antalet filer bör ej överstiga 1000. V g välj en annan Area \"från : till :\".
+20648=Spara i Mapp/Kategori
+
+//v5.00 beta
+
+20574=Roffare
+20649=V g inmata Utloggnings-Sida eller avbocka motsvarande rutor
+
+20554=Alla Filer
+20555=Bildfiler
+20556=Videofiler
+20557=Ljudfiler
+20558=Körbara Filer
+20559=Komprimerade Filer
+20560=PDF Dokument-Filer
+
+20561=Använd ej Exkluderande Filter
+
+20562=Webbsajtkarta (Diagram)
+20563=Konfigurering
+
+20564=Filternamn
+20565=Filmask
+20566=V g fyll i filternamnet
+20567=V g fyll i filmasken
+20568=Filtret med \"%s\" namn finns redan. V g välj ett annat namn.
+
+20650=V g vänta...
+20651=Tar bort tillfälliga filer
+20652=Spara Roffare-Projekt
+20653=Ta bort Roffare-Projekt
+20654=Tillämpad(e) Ändring(ar)
+20655=Ladda Roffare-Projekt
+20661=Kontrollera Ändringar
+20662=Nedladda Manuell Inloggningssida
+
+20656=Ej tillräckligt fritt utrymme på disk %s för att köra Roffare-Projekt. V g frigör utrymme och försök igen.
+20657=Ej tillräckligt fritt utrymme på disk %s för att öppna Roffare-Projekt. V g frigör utrymme och försök igen.
+20658=Kan ej öppna projektet. Några projektfiler har blivit felaktiga eller borttagna.
+
+20659=Komplettera Startsida med alla bilder, stilar och script för "offline" hantering
+20660=Komplettera Startsida
+
+20663=Kan ej starta nedladdning av manuell startsida. V g kontrollera URL syntaxen.
+
+33010=Kör Webbsajt-Roffare
+
+1563=Tryck på Avancerat-knappen för att aktivera manuell inloggning eller för att inaktivera en utloggningssida
+1561=Öppna ej utloggningssidan:
+1564=Många webbsajter har en utloggningssida, som Roffaren ej bör öppna. Du kan använda asterisk (*) "wildcard" här för att specificera ett mönster för olika utloggningssidor.
+1571=Göm fildubbletter funna på olika platser
+1565=Kör JavaScript
+1567=Använd detta alternativ varsamt. Vilken är risken?
+1573=Granska filer i IE cache innan Nedladdning
+1568=Använd asterisk (*) som ett "wildcard" mönster. Använd komman (,) utan mellanrum för att skilja poster åt (utan mellanrum) 
+
+//grabber dlg tree
+20664=Alla Filer
+20665=Länk Vy
+20671=Mapp Vy
+20667=Andra Webbsajter
+20668=Webbsajter
+
+20669=Exkluderade Filter
+20670=Inkluderade Filter
+
+t34023=Visa Roffare-Statistik
+271=IDM's Roffare-Statistik
+1574=Status:
+1575=Webbsidor Bearbetade:
+1576=Normalt:
+1577=Avancerat:
+1578=Filer:
+1579=Totalt:
+1580=Övervakade:
+1581=Matchade:
+1582=Nedladdade:
+
+//v5.00 build 3
+20672=Tumnaglar Vy 
+20673=Inga nedladdade filer
+
+20674=Ej Funna:
+20675=Förbjudna:
+20676=Fel:
+
+//v5.01
+284=Tids-Planering Roffare-Projekte
+1583=En-Gångs Övervakning/Nedladdning
+1584=Periodisk Synkronisering
+1585=Övervaka Bara
+1586=Övervaka Webbsajt och Nedladda matchande filer
+1587=Nedladda Förbockade Filer
+1588=Steg 3. Schemaläggning
+1601=Steg 2. Välj Handling
+1600=Steg 1. Välj Typ
+1593=Projekt:
+1590=Efter Avslut Öppna denna fil:
+1595=Starta igen varje
+1597=tim
+1598=min
+1599=Dagligen
+1602=OBS: IDM körs i "system tray" vid angiven starttid för ett projekt
+20677=För att använda projektplanerare bör Du spara projektet först. Spara projektet nu?
+20678=IDM har slutfört Roffare-Projekt. Enligt konfigureringen stängs Din dator nu av.
+t33010=Kör Webbsajt-Roffare
+t34021=Tids-Planera projektet
+t34025=Uppdatera Alla
+20679=Det planerade Roffare-Projektet kunde ej startas %d:%02d, då projektet kördes vid denna tid.
+20680=Det planerade Roffare-Projektet kunde ej startas %d:%02d, då konfigureringen ändrades vid denna tid.
+20681=Java-scripten kommer ej att utföras för de Webbsidor, som redan Övervakats/Nedladdats. Om Du vill köra Java-script för dessa sidor, behöver Du trycka på \"Uppdatera Alla\" verktygsfältsknappen i Roffare-Handling dialogen.
+20682=Uppdateringsknappen uppdaterar projektet genom att (a) startar Övervaka webbsajten från startsidan, (b) uppdaterar filer om de har ändrats på servern, och (c) nedladdar nya filer.
+20683=Uppdateringsknappen uppdaterar projektet genom att (a) startar Övervaka webbsajten från startsidan, (b) uppdaterar filer om de har ändrats på servern.
+20684=Notera att de äldre filerna, som har funnits innan uppdateringen, tas ej bort. Roffaren kommer att analysera alla webbsidor på webbsajten igen, och det tar en stund.\r\n\r\nÄr Du säker på att Du vill uppdatera detta projekt?
+
+//version 5.02
+20685=Döp om Projektet
+20686=Minimera till "system tray"
+20688=Återställ alla Nedladdade fönster
+20689=Du kan ställa in dessa alternativ under \"Val->Nedladdningar\"
+20690=IDM's Konfigurering
+20691=Nedladdat %s (%I64d Bytes)
+20692=Filen har kanske ej nedladdats helt, då filstorleken är okänd.
+20693=Minns denna sökväg för \"%s\" kategori
+20694=Nedladdning färdig!
+1610=Adress
+1611=Spara Fil som
+1606=Öppna Mapp
+1607=Visa ej denna dialog igen
+t1608=Sök...
+20695=IDM's Nedladdningar
+1615=Ignorera Filtidsändringar vid Åternedladdning
+1613=Läs mer Info
+20696=IDM söker efter en ny utgåva varje tvåveckorspeiod genom att fråga efter en uppdateringssida från hemsidan. Om Din brandvägg blockerar uppdateringsförfrågan från IDM och visar ett motsvarande varningsmeddelande, bör Du föstå att begäran är OK och säker.
+1617=Adress:
+1619=Adress:
+1618=Du kan använda asterisk (*) som ett "wildcard"- mönster
+
+//Please note that the old menu item string changed from m32771=URL to m32771=Tasks
+//also strings 32771 and 148 have been changed
+
+//v 5.02 Build 2
+1621=Uppdaterings-Notis
+290=IDM's Uppdaterings-Notis
+20697=Inga Minimerade Nedladdningar
+
+// v 5.02 Build 3
+1622=OBS: Dessa inställningar hänvisar ej till Köhantering
+
+// v 5.02 Build 6
+20698=Sök...
+
+// v 5.02 Build 10
+20586=Möjliga Felorsaker:\r\n\r\n 1. Internetanslutning hittades ej. V g kontrollea Din Internetanslutning.\r\n\r\n 2. Du har en brandvägg i Din dator, och Du har just installerat, ersatt eller uppdaterat Din nuvarande version av IDM. V g kontrollera Din brandväggskonfigurering och se till att IDM har tillgång till Internet.\r\n\r\n 3. En tjänst som hittar servrar på Internet kallad "Domain Name Service" (DNS) har tillfälligt problem, eller nätverksanslutningen mellan DNS och Din dator har brutits. Du kanske måste omstarta Din dator.\r\n
+1570=Referer URL:
+
+// v 5.02 Build 12
+20587=Vid försök att fortsätta Nedladdningen fick IDM ett svar från servern att den ej stödjer återupptagning av nedladdningen. \r\nDet är möjligt att det är ett tillfälligt fel på servern, och att Du kan fotsätta senare, men f.n. kan IDM nedladda denna fil från början. \r\n\r\nVill Du nedladda denna fil från början?
+
+// v 5.03
+20699=Filtyper som ej är listade i någon annan kategori
+20700=Du tryckte på "Nedladdning Senare" knappen, men i reliteten har IDM redan nedladdat en del av filen. IDM startar alltid nedladdning medan "Nedladda Filinfo" dialogen visas. Du kan stänga av detta alternativ i "Val->Nedladdningar" dialogen
+20701=Nedladda Senare
+20702=Tillfällig mapp erfordras för att lagra fildelar under nedladdning.\nOm Du har flera fysiska diskar i Din dator, bör Du välja olika fysiska diskar för tillfällig mapp och "Spara Till" mappar för snabbare sammansättning av nedladdade filer.
+20703=Automatiskt lägg i \"%s\" kategori dessa filtyper:
+20704=Spara Till
+20705=Kategorier, Filtyper, Mappar
+1623=Starta nedladdning genast medan "Nedladda Filinfo" dialogen visas
+
+292=Omstartar dator
+1627=Stoppa
+20706=Omstartar om %d sekunder
+20707=Omstarta Nu
+
+// v 5.04
+//Val->Filtyper och Val->Allmäna Ändringar (för Normal Integrering)
+20708=Filtyper
+20709=Nedladdade filtyper
+20711=OBS: Opera och ÄLDRE Mozilla-baserade webbläsare kan integreras med IDM genom att använda "plugins". Denna integreringstyp stödjer ej Serverundantagslistan för att hindra nedladdning med IDM. Även när Du ändrar filtyplistan behöver Du starta om dessa webläsare för att återladda "plugins".\nDessa begränsningar är ej giltiga om Du använder \"Avancerad Webbläsarintegrering\" under \"Allmänt\"-fliken.
+1632=Detaljer
+1633=Addera webbläsare...
+1634=Återintegrera Alla
+20710=OBS: Opera och ÄLDRE Mozilla-baserade webbläsare kan integreras med IDM genom att använda "plugins". Denna integreringstyp stödjer ej specialtangenter för att hindra eller tvinga nedladdning med IDM från dessa webbläsare.\nOm Du vill hindra eller tvinga nedladdning med IDM genom att trycka på speciella tangenter, bör Du använda\"Avancerad Webbläsarintegrering\".
+
+//MessageBoxes
+20713=IDM's Webbläsar-Integrering
+20712=IDM kan ej finna %s webbläsare i Din dator. V g lokalisera webbläsarens körbara fil i nästa dialogruta.
+20714=Integreringen i webbläsare genom att använda "plugins" misslyckades!
+20715="Plugins" för %s webbläsare har installerats.
+20716="Plugins" för %s %s webbläsare har installerats.
+20717="Plugins" för %s webbläsare har borttagits.
+20718=V g omstarta webbläsaren för att tillämpa ändringar.
+20719=V g lokalisera webbläsarens körbara fil i nästa dialogruta.
+20720=Kan ej installera idmmzcc.xpi webbläsartillägg för Mozilla Firefox!
+20721=IDM har lyckats integreras i Mozilla Firefox 1.5 och senare.\nDu behöver omstarta Firefox' webbläsare för att tillämpa ändringar
+20722=IDM har märkt att %s %s webbläsae är standard webbläsare i Din dator.\nVill Du integrera den med IDM?
+20723=Kan ej installera idmmzcc.xpi webbläsartillägg!
+20724= %s %s webbläsare kommer att öppnas nu för att installera tillägget för integrering med IDM.\nV g styrk installationen av idmmzcc.xpi tillägget från Tonec Inc. i motsvarande webbläsardialogruta och omstarta webbläsaren efter installeringen.
+20725=Kan ej installarera "plugins" för %s %s webbläsare!
+20726=IDM har lyckats integrera i IE.\nDu behöve omstarta IE för att tillämpa ändringar.
+20727=IDM märkte att %s %s webbläsare hade även installerats i Din dator. \nVill Du även integrera den med IDM?
+20728=De valda webbläsarna kommer att öppnas nu för att installera tillägget för integrering med IDM.\nV g styrk installationen av idmmzcc.xpi tillägget från Tonec Inc. i motsvarande webbläsardialogruta och omstarta webbläsaren efter installeringen.
+20729="Plugins" för den valda webbläsaren har installerats.\nV g omstarta webbläsaren för att tillämpa ändringar.
+20730=IDM har redan integerats i IE!
+20731=IDM kan ej finna denna webbläsare i den normala integreringsdatabasen. Du bör försöka Avancerad Webbläsarintegrering för att fånga nedladdningar från denna webbläsare.
+20732=Kan ej installera "plugins" för webbläsare med motsvarande typ av integrering!
+
+//new dialogsing
+296=Webbläsar-Integrering
+1635=IDM har märkt dessa webbläsare i Din dator. V g välj webbläsarna som Du vill integrera med IDM.
+297=Webbläsar-Detaljer
+1636=Addera Version...
+20733=Webbläsare
+20734=Typ av Integrering
+20735=Sökväg
+20736=Tillägg
+20737="Plugins"
+
+//new menu item on main dlg popup menu and new button on Download complete dlg
+20738=Öppna med...
+1639=Öppna med...
+
+//
+20739=Lokalisera Webbläsare
+
+// v 5.05
+20740=IDM nedladdar denna fil nu!
+20741=Dubblicerad Nedladdnings-Länk
+298=Dubblicerad Nedladdnings-Länk
+20742=Visa en dialog och fråga vad kan göras.
+20743=Numrera dubbla filbeteckningar.
+20744=Addera kopian och överskriv nuvarande fil
+20745=Om nuvarande fil är komplett, visa nedladdning klar dialog; annars upprepa.
+1641=Denna fil finns redan i Din nedladdningslista. Du kan välja ett av dessa alternativ, eller tryck på Avbryt knappen för att skippa nedladdningen av denna fil
+1645=Minns mitt val och visa ej denna dialog igen.\r\nDu kan ändra det senare i IDM Val->Nedladdningar.
+1646=Om en kopia på nedladdningslänken adderas:
+
+20746=IE, MSN Explorer, och IE baserade webbläsare
+20747=Netscape 8.0 och senare
+20748=Netscape 7.xx och 6.xx
+
+// v 5.05 build 2
+20749=Du kan "Drag & Drop" denna fil
+//Dear translators, if you added "CompleteDlg.htm" topic to your help file, or you did not translate the help file and use the English version, please add and translate the phrase "Press F1 to read more" at the next line.
+//20750="Drag" denna ikon för att starta "drag" och "drop" hanteringen för den nedladdade filen.
+20750=Dra denna ikon för att starta "Drag & Drop"- hanteringen för den Nedladdade filen.\r\nTryck på F1 för att läsa mer Info.
+20751="Drag & Drop" den Nedladdade filen
+
+// v 5.07
+1647=Fortsätt
+20754=Du behöver administratörsrättigheter för att spara filer på den valda platsen
+20755=Du behöver administratörsrättigheter för att utföra denna handling
+
+// v 5.07 build 2
+20756=IDM's Installationsprogram måste omstarta Din dator för att ersätta filer som användes. Tryck på OK knappen för att omstarta Din dator nu
+20757=Bekräfta Omstart
+20758=IDM har lyckats installeras OK. IDM startar automatiskt och tar över nedladdningar från Din webbläsare.
+20759=Du kan även starta IDM från menyn \"Start->Alla Program->Internet Download Manager\".
+
+// v 5.07 build 6
+//new checkbox on Options->General
+1650=Kör modul för klickövervakning i IE-baserad webbläsare (MSN, Avant)
+
+// v 5.07 build 7
+20760=IDM har märkt att Din standardwebbläsare är %s.\nGenerellt är det tillräckligt att använda normal webbläsarintegrering i denna version av IDM för att ta över nedladdningar från alla större webbläsare. \"Avancerad Webbläsarintegrering\"- modulen har reviderats och den kan orsaka nya konflikter med andra Internetapplikationer. Om Du ej använder \"Advancerad Webbläsarintegrering\" för att ta över nedladdningar från andra Internetapplikationer, förordar vi att \"Använd Avancerad Webbläsarintegrering\" slås av i \"Val->Allmänt\" dialogen.
+
+//v 5.08 build 5
+//new dialogs
+302=Avbryter en automatiskt startad nedladdning
+1651=Du har avbrytit denna nedladdning två gånger.\n\nOm IDM alltid tar över denna nedladdning av misstag, kan Du addera denna adress eller denna webbsajt till IDM's Undantagslista:
+1652=Starta ej automatisk nedladdning från denna webbsajt:
+1653=Starta ej automatisk nedladdning från denna adress:
+1655=Du kan även ändra Undantagslistan under fliken \"Val->Filtyp\"
+1654=Visa ej denna dialog igen
+
+303=Adressundantagslistan
+1661=Starta ej automatisk nedladdning från dessa adresser:
+1659=Visa dialogrutan för att addera en adress till Adressundantagslistan för en dubbelt borttagen Nedladdning
+
+304=Addera en adress till Adressundantagslistan
+
+//changes in "Options->File Types" dialog:
+1656=Ändra Lista...
+//label 1372 was divided into 2 parts
+1667=Starta ej automatisk nedladdning från dessa webbsajter:
+1662=Separera URLs med mellanrum
+
+//v 5.08 build 7
+20763=Den begärda filen ser ut som en HTML webbsida.\r\n\r\nServern sände en HTML sida vid den andra förfrågan. Vissa servrar tillåter ej förfrågning om samma fil två gånger. Då Du har avstängt alternativet \"Starta Nedladdning genast medan Nedladdnings Filinfo dialogen visas\", sände IDM den första begäran för att utröna filtyp och storlek och sände den andra begäran när Du tryckte på \"Starta Nedladdning\". \r\n\r\nFörsök att slå på alternativet \"Starta Nedladning genast medan Nedladdnings Fil Info dialogen visas \" i \"Val->Nedladdningar\", uppladda sidan på nytt i Din webbläsare och försök nedladda denna fil igen.
+
+//v 5.09 build 4
+305=IDM kunde ej ta över nedladdningen
+20764=Vissa webbsajter tillåter ej begäran om samma fil två gånger.\r\n\r\nWebbläsaren gjorde den första begäran av \"%s\" filen och sedan när IDM försökte begära samma fil igen, skickade webbsajten en webbsida till IDM i stället för nedladdningen.\r\n\r\nFör att ta över denna nedladdning kan Du sätta en speciell tangent i \"IDM Val->Allmänt->Tangenter...\". Tryck på och håll ned denna tangent medan musklickning på nedladdningslänken/-knappen så att IDM skulle kunna ta över nedladdningen innan den första webbläsarbegäran. Notera att \"Ins\" tangenten bör verka för de flesta webbläsare.
+
+//v 5.11
+//new scheduler dialog
+308=Planerare
+1675=Ny Kö
+1678=Ta bort
+1684=Köer
+20783=Köer
+306=Tidplan
+1680=Antal nya försök för varje fil vid nedladdningfel:
+307=Filer i Kön
+1687=Nedladdnings-Gränser
+20765=Nedladdnings-Gränser
+20767=Kö # %ld
+20768=Huvud-Nedladdnings-Kö
+20769=Synkroniserings-Kö
+
+20770=Skapa en ny Kö
+20771=Flytta till Kö
+20772=Addera till Kön
+20773=Starta nu
+20774=Stoppa
+20775=Ändra Kö
+20776=Tidplan
+20777=Vill Du verkligen ta bort %s?
+20778=Starta %s
+20779=Stoppa %s
+20780=IDM Köer
+20781=Bilderna i \"Q\" kolumnen visar vilken kö filerna tillhör.\r\nDu kan flytta filer från en kö till enannan med filkontextmenyn.\r\nFör mer info om köer, v g studera Planerare Hjälpfil.
+20782=Vill Du nedladda och installera \"IDM's Planerae och Köer\" hjälpfil(ung. 100 KB) från IDM's Hemsida?
+1685=Du har planerat starttid för köhantering.\r\nV g notera att för att starta kön vid specificerad tid, är det nödvändigt att ha IDM påslagen vid den tiden åtminstone i verktygsfältens meddelandeområde - i "system tray" vid klockan. (se bilden nedan)
+310=Ange Könamn
+1686=Ange ett namn för den nya kön, som kommer att visas i listan över köer.
+
+//menu items
+m34026=Starta Kö
+m34028=Stoppa Kö
+34029=Planerare och Köer
+//tooltips for "Start queue" and "Stop queue" toolbar buttons.
+t34030=Starta Huvud-Nedladdnings-Kön, eller välj en kö att starta från rullgardinslistan
+t34031=Stoppa Huvud-Nedladdnings-Kön, eller välj en kö att stoppa från rullgardinslistan
+
+//v 5.11 build 3
+1679=En-gångs Nedladdning
+
+//v 5.11 build 5
+20786=Dataöverföringen har avbrutits och servern stöder ej \"Fortsätt\". Det är bara möjligt att nedladda denna fil från början.\r\n\r\nDet finns flera vägar att lösa problemet:\r\n 1. Det är möjligt att servern hade tillfälliga problem. Försök att fortsätta denna nedladdning senare.\r\n 2. Du kan lämna denna fil ensam i kön (skapa en ny kö) och starta kön. I detta fall kommer IDM att försöka igen att nedladda filen från början tills den nedladdar filen komplett.\r\nFör att nå bästa resultat, borde Du även sätta en anslutning för denna webbsajt i IDM's Undantagslista i fliken \"Val->Anslutning\".\r\n
+20784=\"IDM CC\" tillägg för Mozilla-baserade webbläsare har ändrats i denna version av IDM. Du behöver återinstallera tillägget för att använda nya moduler. Vill Du återinstallera tillägget för %s %s webbläsaren?
+20785=\"IDM CC\" tillägg för Mozilla-baserade webbläsare har ändrats i denna version av IDM. Du behöver återinstallera tillägget för att använda nya moduler. Vill Du installera det nya \"IDM CC\" tillägget för webbläsare som har ett äldre \"IDM CC\" tillägg?
+
+//v 5.11 build 7
+//Items in context menu of browsers:
+20810=Nedladda med IDM
+20811=Nedladda FLV-Video med IDM
+20812=Nedladda senast begärd FLV-Video
+20813=Välj bland de 10 senaste begärda FLV-Videos
+20814=Nedladda senast begärd FLV-Video med IDM
+20815=Nedladda FLV-Videos med IDM från de 10 senaste begärda
+20816=Nedladda alla Länkar med IDM
+20817=Nedladda FLV-Videoinnehåll med IDM
+
+20790=Spara FLV-Video
+20791=Du kan spara FLV-Videos som Du tycker om genom att använda \"Nedladda FLV-Videoinnehåll med IDM\" menyposten i webbläsarens kontextmeny. \r\n\r\nWebbläsarens kontextmeny visar när Du höger-klickar på en webbsida(men ej på en FLV-spelare) i Din webbläsae eller genom att använda kontextmeny-tangenten på tangentbordet
+20792=Kan ej finna FLV-Videolänkar på denna webbsida.\r\nDet är möjligt att Din webbläsare ej har begärt videofilen ännu. Du behöver vänta tills Din webbläsare gör begäran och försök igen. I vissa fall behöver Du bara trycka på kappen \"Spela\" i Din Webbspelare.
+20793=Nedladda med IDM
+20794=Nedladda Alla med IDM
+20795=Kan ej finna länkar!\r\nOm denna sida ej har länkar, v g ladda denna sida igen och försök igen. Om problemet kvarstår, v g kontakta IDM's Assistensteam.
+20796=Kan ej finna några FLV-Video-Länkar!
+20797=Kan ej få internet-video-länkar begärda av explorer!\r\nDu eller något underligt spionvaruavlägsnarprogram har inaktiverat IDM BHO i Din IE. V g använd \"Verktyg->Hantera "Add-ons"->Aktivera eller Inaktivera "Add-ons"\" i IE menypost. Sedan hitta \"IDMIEHlprObj Class\" add-on och aktivera den.
+20798=Kan ej ansluta till IDM's gränssnitt, som övevakar internet-video-länkar begärda av explorer.\r\nMöjliga orsake:\r\n - Du omstartade ej Din dator efter uppgradering av IDM till den senaste versionen. V g omstarta Din dator och försök igen\r\n - IDM var inte installerat korrekt. V g försök nedladda den senaste versionen av IDM från dess officiella webbsajt och försök igen
+
+//new feature in "Options->General" dialog:
+1688=Ändra...
+1689=Anpassa IDM's menyposter i webbläsares kontextmeny
+334=IE och IE-baserade
+335=Firefox och andra Mozilla-baserade
+1696=Valda menyposter visas i webbläsarens kontextmeny:
+20818=V g omstarta IE för att tillämpa ändringar.
+20819=Ändrar IE's kontexteny
+
+//v 5.11 b8
+20820=Avsluta Nu
+20821=Avsluta IDM
+20822=IDM har avslutat Kö-Hanteringen. Enligt planerarkonfigurationen ämnar IDM avsluta nu. Men Du har andra nedladdningar på gång vilka stoppas vid ett avslut. Tryck på Avbryt-knappen för att inte avsluta.
+
+//v 5.11 build 9
+20823=Du har avbrytit liknande nedladdningar.\n\nOm IDM alltid tar över sådana nedladdningar av misstag, kan Du addera denna webbsajt eller ett mönster för liknande adresser till IDM's Undantagslista:
+20824=Fånga ej liknande adresser genom att använda detta mönster:
+336=Rapport för IDM's Utvecklare
+1702=Du kan sända en rapport till IDM's Utvecklare om nedladdningar, som tagits över av misstag för att göra ett undantag för denna webbsajt i framtida versioner av IDM
+1698=Addera detta undantag:
+1700=Referrer-URL från vilken nedladdningen togs över av misstag:
+1703=Använd asterisk (*) "wildcard" för att skapa Adressmönstret.
+
+//v5.12
+20825=(Begränsad)
+1707=Använd Begränsning
+337=Överförings-Hastighets-Begänsning
+1704=Sätt på Begränsning vid IDM's Uppstart
+1705=Visa \"Använd Begränsning\" i \"Nedladdnings-Hantering\" dialogen
+1706=Minns Användargjorda Undantag i \"Nedladdnings-Hantering\" dialogrutan för att använda Begränsning oavsett om den globala Begränsningen är PÅ eller AV
+1708=Max. Nedladdningshastighet för en fil
+1709=KBytes/sek
+1710=OBS: Internetservrar kan avbryta anslutning om hastigheten är för begränsad! Så det förordas ej att använda Hastighetsbegränsare för att nedladda från servrar som ej stöder \"Åternedladda\" modulen.
+1711=Konfigurering av Begränsning för individuella Nedladdningar
+m34033=Överförings-Hastighets-Begränsning
+34033=Sätt PÅ
+34034=Stäng Av
+34035=Konfigurering...
+
+//v5.12 build 5
+20831=Om en FLV-Video på webbsidan spelas av Din webbläsare, är det möjligt att IDM ej kan associera denna FLV-Länk med denna webbsida. Du bör försöka använda webbläsarens kontextmenypost \"Nedladda FLV-Videos med IDM från de 10 senast begärda\".\r\n(Webbläsares kontextmeny kan anpassas i fliken \"IDM Val->Allmänt\")
+20830=Ett CRC fel uppstod under nedladdning. Det betyder att Du hade något problem med Din hårddisk. Du bör skanna Din disk för fel genom att använda Windows dialogen \"Fel-Kontroll\" på Disk->Egenskaper->Verktyg.
+
+//5.12b7
+20832=Du behöver ge alla Administratörer tillstånd att registrera IDM för alla Användare på denna dator
+
+//5.12b8
+20837=Bekräfta Borttagande av Nedladdningar
+20833=De valda Nedladdningarna är ej färdiga. Är Du säker på att Du vill ta bort dem från IDM's Nedladdningslista?
+20834=Den valda Nedladdningen är ej färdig. Är Du säker på att Du vill ta bort den från IDM's Nedladdningslista?
+20835=Det finns ej färdiga Nedladdningar bland de valda. Är Du säker på att Du vill ta bort dem från IDM's Nedladdningslista?
+20836=Är Du säker på att Du vill ta bort alla färdiga Nedladdningar från IDM's Nedladdningslista?
+1715=Är Du säker på att Du vill ta bort valda Nedladdningar från IDM's Nedladdningslista?
+1713=Ta bort helt Nedladdade filer från Din Hårddisk. Var försiktig!
+
+//v5.14
+20850=Video
+20851=Ljud
+20852=Nedladda denna %s
+20853=Nedladda denna %s med IDM
+20854=Om denna Panel
+20855=Stäng
+20856=Detta är IDM's Nedladdningspanel.\r\nDen kan anpassas eller stängas av i fliken \"IDM->Val dialogen->Allmänt\"
+20857=IDM's Nedladdningspanel
+20858=Nedladda %s från denna Webbsajt
+20859=Nedladda %s från denna Webbsajt med IDM
+20860=Nedladda Alla
+20861=%ld %s Filer
+20862=Fil
+
+//new on Options->General
+1724=IDM's Nedladdningspanel för webb-spelare i webbläsaren
+1727=IDM kan visa dess Nedladdningspanel på en webb-spelare i en webbläsare, när IDM märker en multimedia-begäran från webb-spelaren
+1728=Panel Vy:
+1717=Full Vy
+1718=Mini Vy
+1726=Visa IDM's Nedladdningspanel för dessa filtyper:
+20863=OBS: Om Du Avbockar en filtyp på listan ovan och om filtypen är i listan i fliken \"Val->Filtyper\", fångas Nedladdningar av denna filtyp automatiskt av IDM och kommer ej att spelas i webb-spelaren. Om Du vill hindra det, förbocka rutan nedan:
+1720=Fånga ej Nedladdningar från webb-spelare automatiskt
+
+//on Scheduler dlg
+1729=Starta Nedladdning vid IDM's Uppstart
+
+//v5.14b5
+20864=Du kan använda integrering i denna webbläsare efter aktivering av funktionen \"Avancerad Webbläsarintegrering\"
+
+//v5.15b2
+1731=Varning: Du kör IDM med Administratörsrättigheter. \r\nIDM kan ej ta över Nedladdningar från webbläsare i detta läge.
+20865=Firefox kan ej öveföra fil Nedladdning till IDM då Du för Windows filegenskaper i IDMan.exe's dialogruta har förbockat \"Kör detta program som administratör\". \r\n\r\nV g öppna IDM's mapp, höger-klicka på \"IDMan.exe\", välj menyposten \"Egenskaper\", välj fliken \"Kompabilitet\" och ta bort bocken från rutan \"Kör detta program som en administratör\".
+
+//v5.16
+20867=Kan ej åter Nedladda filen:
+20868=IDM väntar på den nya adressen för att åternedladda filen:
+20869=Det är möjligt att filens adress ej är giltig längre eller att Din anslutningstid har utgått.
+20870=Är detta den nya adressen för Din upphörda Nedladdning?
+20872=Förnya Nedladdningsaddress
+20873=IDM väntar på ny adress för en annan upphörd Nedladdning. Bara en upphörd Nedladdnong borde använda denna funktion på samma gång.
+20874=IDM kommer att öppna en webbsida i Din webbläsare, där den fångade denna Nedladdning. V g starta nedladdningen av samma fil från Din webbläsare igen, och IDM kommer att försöka fånga ny adress eller ny session data för att fortsätta denna Nedladdning
+20871=Väntar på ny data
+1732=Stoppa väntan
+20875=Ny länkadress fö denna fil erhölls lyckligt.
+20876=V g starta Nedladdningen av samma fil från Din webbläsare manuellt, och IDM kommer att försöka fånga en ny adress eller session data för att fortsätta denna Nedladdning
+20877=Försök förnya Nedladdningssession och få en ny adress genom att använda \"Förnya Nedladdningsadress\" menyposten genom höger-klickning i IDM's Nedladdningslista. \r\nEller försök ta bort denna Nedladdning, sedan starta den igen från Din webbläsare för att Nedladda den med IDM från början.
+20878=Nedladdar webbsidan för att förnya länkadress
+20879=Webbsajten sände en webbsida i stället för en fil när IDM begärde denna fil andra gången. Denna webbsajt använder antagligen tillfälliga länkar och tillåter ej begäran till samma adress två gånger.\r\n\r\nFörsök ta bort denna Nedladdning, sedan starta den igen från Din webbläsare och, när IDM fångar den, Nedladda den utan stopp eller paus
+1741=Webbsidan som denna fil erhölls från:
+20880=Kontrollerar adress: %s
+20881=Du har ej förbockat någon fil för Nedladdning!\r\nOm Du ej vill Nedladda något,v g stäng \"%s\" dialogrutan genom tryck på knappen \"Avbryt\".
+20882=Adderar filer för Nedladdning med IDM
+1739=Visa Kövalspanelen genom att trycka på "Nedladda Senare"
+1738=Visa Kövalspanelen för att addera Gruppnedladdningar
+1735=Addera filer i kön:
+20884=Addera ej till någon kö
+1736=Starta Köhantering
+1737=Fråga mig ej igen
+20883=Du kan sätta på denna panel i \"Val->Nedladdningar\"
+
+//v5.17b4
+34036=Addera till Gruppnedladdning från urklipp
+20885=Flera URLs funna i urklipp. Vill Du Nedladda dem?
+20886=Gruppnedladdning från urklipp.
+20887=Kan ej finna någon webbadress i urklipp!
+

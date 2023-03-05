@@ -1,0 +1,2078 @@
+lang=0x816 Português
+tips=tips_pt.txt
+tutor=tut_pt.chm
+
+//This template should be used to translate Internet Download Manager 
+//to foreign languages.
+//All template files should be named using idm_*.lng name pattern convention. 
+//Please place the abbreviated language name (de, en, es, fr, :) 
+//instead of the asterisk. For example: idm_de.lng or idm_fr.lng
+
+//The first string inside the template should be lang=ID Name
+//where Name - the full name of the language (on English),
+//ID - hex number that defines Windows API value of the language.
+//Here are sample primary language IDs:
+//0x06 DANISH
+//0x0b FINNISH
+//0x0c FRENCH
+//0x07 GERMAN
+//0x10 ITALIAN
+//0x11 JAPANESE
+//0x0a SPANISH
+//0x1d SWEDISH
+
+//The strings from second to fourth may contain file names of translated tips, 
+//help and tutorial files. If these strings are absent, 
+//or files cannot be found in <IDM root>/Languages folder, 
+//then IDM uses default English files.
+//Sample:
+//tips=tips_de.txt
+//help=idm_de.chm
+//tutor=tut_de.chm
+
+//Then you need to translate all IDM strings. 
+//It's IMPORTANT when a string has any special characters 
+//(%s %d %x %ld %I64d %% \r\n), they should all remain in the translated 
+//string and cannot trade places. Remember that IDM inserts dynamic 
+//values instead of these special characters in a predefined order. 
+//Instead of %s IDM inserts a string, %% - %, in all other cases IDM 
+//inserts a number.
+
+// Dialogs
+
+//main dialog
+1281=Categorias
+20369=F
+20370=Nome do ficheiro
+20371=Estado
+20372=Tamanho
+20373=Tempo restante
+20374=Velocidade
+20375=Descrição
+
+//toolbar
+//of the dialog.
+20376=Adicionar
+20377=Reiniciar
+20378=Parar
+20379=Parar tudo
+20380=Apagar
+20446=Esvaziar
+20381=Opções
+20382=Agendar
+20383=Recomende
+//tooltips for buttons
+t32790=Iniciar/Continuar o download do(s) ficheiro(s) selecionado(s)
+t32791=Interromper o download de ficheiro(s) selecionado(s)
+t32792=Parar todos os downloads
+t32793=Apagar ficheiro(s) selecionado(s) da lista de transferências
+t32794=Esvaziar a lista das transferências completas
+t32795=Integração Browsers/Sistema, tipos de ficheiros, proxy, passwords e outros
+t32798=Agendamento e filas de download
+t32788=Mande um email a um amigo sobre o IDM
+
+//Registration dialog
+138=Registo do Internet Download Manager
+1326=Por favor introduza os seus detalhes de registo nos campos correspondentes e pressione o botão OK
+1330=Número de série
+1327=Primeiro nome
+1328=Último nome
+1329=Email
+1191=&OK
+1201=&Como licenciar
+1080=&Cancelar
+
+//Download progress dialog
+103=Progresso da transferência
+1154=(desconhecido)
+1178=<< Ocultar detalhes
+20426=<< Ocultar detalhes
+1158=Pausar
+20392=Pausar
+20424=Reiniciar
+20425=Mostrar detalhes >>
+1300=Tamanho
+1301=Transferido
+1302=Velocidade
+1303=Tempo restante
+1149=(desconhecido)
+1299=Estado:
+1030=A ligar...
+1305=Posição de início e progresso da transferência por ligação
+1304=Reiniciar
+1175=(desconhecido)
+2=Cancelar
+20416=N.
+20417=Transferido
+20418=Informação
+20419=Sim
+20420=Não
+20421=%d horas %d min
+20422=%d min %d seg
+20423=%d seg
+
+130=Informação sobre o ficheiro a transferir 
+1006=&Transferir
+1010=Procurar...
+1004=&Adiar
+1298=Descrição
+1173=Antever
+1297=Categoria
+1296=Guardar em
+t1006=Transferir
+
+148=Escrever novo endereço para transferir 
+1182=Usar &autorização
+1184=Login
+1186=Password
+1022=O&K
+
+//Options Dialog
+134= Configuração do Internet Download Manager
+1092=OK
+20286=Geral
+20287=Ligações
+20288=Transferências
+20289=Proxy
+20290=Logins
+20291=DialUp
+20292=Sons
+20293=Geral
+20294=Ligações
+20295=Downloads
+20296=Proxy
+20297=Logins
+20298=DialUp
+20299=Sons
+20300=Integração Browser/Sistema
+20301=Tipo de ligação
+20302=Definições padrão de transferência
+20304=Nomes de utilizador e passwords para servidores/sites
+20305=Definições DialUp
+20306=Definições de som
+//General tab
+1056=Iniciar o Internet Download Manager no arranque 
+1061=Transferir automaticamente URL’s colocados na área de transferência 
+1065=Integrar nos browsers Internet Explorer, MSN Explorer e baseados no IE
+1077=&Padrão
+1169=Tipos de ficheiro...
+1270=Transferir automaticamente os seguintes tipos de ficheiro:
+t1056= Iniciar o Internet Download Manager no arranque do sistema 
+//Proxy tab
+1102=Usar HTTP Proxy
+1272=Confirmar password
+1122=Proxy
+1123=Port
+1124=Nome de utilizador
+1125=Password
+1107=Ir buscar ao IE
+1108=Usar FTP Proxy
+1274=Confirmar password
+1126=Proxy
+1127=Port
+1128=Nome de utilizador
+1129=Password
+1113=Ir buscar ao IE
+1116=Usar FTP em modo PASV
+1118=Usar HTTPS Proxy
+1273=Confirmar password
+1133=Proxy
+1135=Port
+1137=Utilizador
+1139=Password
+1141=Ir buscar ao IE
+t1107=Tentar encontrar HTTP proxy na configuração do Internet Explorer
+t1116= Usar o protocolo FTP em modo passivo(se protegido por firewalls) 
+//Connection tal
+1153=Tipo/Velocidade de ligação 
+1306=Nr. máx. de ligações
+1254=Limite de transferência
+//Downloads tab
+1049=Procurar
+1190=Lembrar último caminho para a categoria "Geral"
+1136=Pasta de transferência padrão para a categoria "Geral" 
+1132=Guardar em...
+1236=Mostrar diálogo de transferência completa 
+1317=Verificação de vírus 
+1318=Programa antivírus 
+1165=Procurar
+1319=Parâmetros da linha de comando 
+1316=Diálogo de progresso de transferência 
+1315=Diálogos
+1059=Mostrar diálogo de início de transferência 
+1138=Pasta temporária 
+1054=Procurar
+//Dial Up tab
+1313=Ligação:
+1307=Opções de ligação
+1166=Aplicar
+1308=Opções de remarcação
+1309=Tentativas de remarcação (zero=infinito):
+1310=Tempo entre tentativas de remarcação:
+1312=segundos
+1311=vezes
+1058=Usar Windows DialUp Networking
+//Sounds tab
+1320=Selecione sons para eventos Internet Download Manager 
+1172=Procurar...
+1091=Ouvir
+//Passwords tab
+20436=Site/caminho
+20437=Utilizador
+20438=Password
+1087=Novo
+1196=Editar
+1050=Remover
+
+//File properties dialog
+135=Propriedades do ficheiro
+1325=Tipo:
+1324=Tamanho:
+1323=Guardar em:
+1082=&Procurar...
+1322=Login
+1289=Password
+1321=Confirmar password
+1164=Abrir
+1240=Última tentativa
+1241=Resultado: 
+
+100=Sobre o Internet Download Manager
+1284=Página principal:
+1285=Suporte:
+1286=Este produto está licenciado para:
+1181=Versão não registada
+1161=Procurar &actualização
+1185=&Registo
+1085=&Comprar
+1262=Versão:
+t1187=Clique para visitar o site do IDM
+t1189=Contacte o suporte do IDM
+t1161=Procure por actualizações em www.internetdownloadmanager.com
+t1185=Registe o IDM com a sua chave de registo 
+t1201=Clique para saber como obter uma licença para o IDM 
+t1085=Comprar uma cópia registada do IDM 
+
+150=Desligar
+1263=Internet Download Manager terminou o processamento da fila. De acordo com as definições agendadas o seu computador vai desligar-se. 
+1170=Desligar agora
+
+1163=Sim
+1088=Sim a todos
+1202=Não
+1051=Não a todos
+
+177=Agendamento
+1331=Transferir fila
+1333=Transferir
+1332=Agendamento
+1218=Iniciar o download às
+1219=Uma vez no(a)
+1221=Diariamente
+1062=Domingo
+1057=Segunda-feira
+1066=Terça-feira
+1069=Quarta-feira
+1222=Quinta-feira
+1223=Sexta-feira
+1224=Sábado
+1225=Parar download às
+1228=Desligar o computador quando terminar 
+1235=Forçar processos a terminar
+1089=Aplicar
+1232=Iniciar agora
+1233=Parar
+1079=Fechar
+1227=Desligar modem quando terminar
+1264=MBytes
+1265=horas
+1266=Não transferir mais do que 
+1171=Ajuda
+1267=a cada
+1268=Mostrar aviso antes de parar transferências
+1271=Sair do Internet Download Manager quando terminar
+1335=ficheiros ao mesmo tempo
+t1229=Descer item
+t1230=Subir item
+t1231=Remover item da fila de transferência
+t1232=Iniciar fila 
+t1233=Parar fila
+t1235=Use esta opção em caso de emergência. Pode fazer com que as aplicações percam dados. 
+
+184=DialUp
+1247=A ligar...
+1167=Remarcar
+
+186=Opções DialUp
+1336=Marcar
+1237=Guardar password
+1288=Utilizador
+
+190=Transferir componentes do IDM
+1=OK
+1258=Transferir componentes
+
+191=Exportar lista de transferências
+1259=Exportar fila de transferências
+1260=Exportar ficheiros selecionados 
+1261=Exportar todos os ficheiros
+
+192=Importar links para o IDM
+1168=Editar...
+1090=Apagar
+
+193=Transferir automaticamente as seguintes extensões:
+
+105=Dica do Dia
+1001=&Mostrar Dicas no arranque
+1003=&Próxima Dica
+107=Di&ca do Dia...
+108=Sabia que...
+109=Ficheiro de Dicas não existe na pasta prescrita 
+110=Problema ao ler o ficheiro dicas
+
+146=Iniciar sessão
+1337=Servidor/caminho
+1290=Confirmar password
+1287=Nota: Insira o caminho somente se tiver diferentes nomes de login para diferentes directórios de servidor. 
+
+182=Actualização Rápida
+1295=Verificação de nova versão 
+								
+194=Limite de download excedido!                                                                   																					
+
+144=Está disponível uma nova versão do Internet Download Manager
+1162=Actualizar agora
+1086=Cancelar
+
+//Zip preview dialog
+196=Prever
+20254=Nome do ficheiro
+20255=Compactado
+20256=Tamanho
+20257=Modificado
+
+//New category dialog
+204=Categorias IDM
+1174=Procurar...
+1291=Nome da categoria
+1292=Colocar automaticamente os seguintes tipos de ficheiro nesta categoria:
+1293=Nota: escrever as extensões dos ficheiros separadas por espaço (e.g. avi mpg mpeg)
+1239=Lembrar o último caminho guardado
+1294=Guardar os downloads futuros desta categoria na seguinte pasta:
+
+
+// Menu
+m32771=Tarefas
+32771=Adicionar nova transferência
+32809=Carrinho de transferências
+m32821=Exportar
+32821=Para ficheiro de exportação IDM
+32823=Para ficheiro de texto
+m32816=Importar
+32816=De ficheiro de exportação IDM 
+32818=De ficheiro de texto
+32772=&Sair 
+
+m32774=Ficheiro
+32774=Parar transferência
+32775=Remover
+32776=Transferir agora
+
+m32778=Transferências
+32778=Pausar todas
+32779=Parar todas
+32794=Apagar todas as terminadas
+32801=Agendamento
+32781=Opções
+
+m32825=Aspecto
+32825=Esconder categorias
+m32828=Ordenar ficheiros
+32828=Por ordem de adição
+32830=Por nome do ficheiro
+32832=Por tamanho
+32834=Por estado
+32836=Por tempo restante
+32838=Por velocidade de transferência
+32840=Por descrição
+m32841=Idioma
+
+m57670=Ajuda
+32811=Tutoriais
+106=Dica do Dia...
+32813=Página principal do IDM
+32784=Contacto do suporte do IDM
+32787=Procurar actualizações...
+32786=Sobre o IDM
+32788=Recomendar
+
+m32785=Registo
+32785=Comprar online
+32783=Registo
+//end menu
+
+
+//Strings & messages
+101=&Sobre o IDM...
+32799=A abrir Port
+32800=Port aberto
+32802=A ligar dispositivo
+32804=Dispositivo ligado
+32806=Todos os dispositivos ligados
+32807=A iniciar autenticação
+32808=Notificação de autenticação 
+32810=Nova tentativa de autentificação
+32812=Camada de retorno requerida
+32814=Mudança de password requerida
+32815=Fase de projecção iniciada
+32817=Cálculo de velocidade de link
+32819= Autenticação confirmada
+32820=Reautenticação iniciada
+32822=Autenticado
+32826=À espera do reinício do modem
+32827=À espera da chamada de retorno 
+32829=Interactivo
+32831=Tentar novamente a autenticação 
+32833=Chamada de retorno definida por chamador 
+32835=Password expirada
+32837=Ligado
+32839=Desligado
+
+20000=Ficheiro %s transferido.\n\nTranferidos %s (%I64d Bytes)\nFicheiro guardado como %s
+20001=Esta funcionalidade está disponível apenas na versão registada.
+20002=Impossível renomear o arquivo (%s) para %s. O arquivo foi salvo na pasta temporária.
+20003=Senha inválida! Tente novamente.
+20004=A senha não foi introduzida! Tente novamente.
+20005=O nome de usuário não foi introduzido! Tente novamente.
+20006=O Servidor/Site não foi introduzido! Tente novamente.
+20007=Tem certeza que deseja remover as informações de login para esse site?
+20008=Sua lista de downloads tem um arquivo que será baixado de
+20009=.\nAplicar esse nome de usuário e senha para esse download?
+20010=.\nAlterar nome de usuário e senha desse download para \"anónimo\" ?
+20011=A informação de login para esse servidor/site já existe em sua lista de senhas.\nA nova informação de login não foi adicionada. Você pode editar a informação existente.
+20012=Você alterou o campo \"Servidor/Site\". A informação de login para esse servidor/site já existe em sua lista de senhas.\nA informação de login não foi alterada. Você pode editar a informação existente.
+20013=O site está temporariamente indisponível!
+20014=Esse site requer autorização.
+20015=Esse servidor proxy requer autorização.
+20016=Ocorreu um erro desconhecido durante o download.\nPor favor envie os arquivos de log %s e %s (se existirem) para os desenvolvedores do programa.
+20017=Ocorreu um erro durante o download.\n Por favor, tente novamente. Se você conseguir fazer o download desse arquivo usando outro programa, mas não consegue com o IDM, envie-nos os arquivos de log %s (se existirem).
+20018=Impossível fazer o download desse arquivo.
+20019=Impossível fazer o download desse arquivo.
+20020=Memória insuficiente para continuar o download.
+20021=Nenhuma ligação pode ser concluída. \nProvavelmente o serviço está inactivo no servidor ou você possui um firewall que está a bloquear o Internet Download Manager. Se possui um firewall, certifique-se de permitir que o Internet Download Manager se ligue à internet.
+20022=Permissão negada.
+20023=Impossível determinar os endereços requisitados.
+20024=Uma ligação existente foi fechada pelo servidor.
+20025=A operação falhou porque o servidor está inactivo.
+20026=Erro durante a ligação. Nenhum servidor reconhecido.
+20027=Não é possível se conectar a essa rede.
+20028=O servidor no qual você estava conectado travou e reiniciou.
+20029=A operação encontrou uma rede inactiva. Isso pode indicar uma falha séria na rede.
+20030=Muitas ligações abertas. Por favor espere o término de alguns downloads.
+20031=Ocorreu um erro durante a conexão.
+20032=O tamanho do %s é %I64d bytes.\nNão há espaço suficiente no disco \'%s\' onde você quer salvar o arquivo.\nSe não libertar algum espaço em disco o arquivo será salvo na pasta temporária como %s
+20033=Não há espaço suficiente no disco \'%s\' para armazenar as partes do arquivo.\nPara continuar o download liberte algum espaço no disco ou altere a localização da pasta temporária em Opções\Geral e continue o download
+20034=Não se encontra o servidor %s
+20035=Não é possível localizar o servidor proxy %s
+20036=Não é possível ligar a %s:%ld
+20037=Não é possível ligar ao servidor proxy %s:%ld
+20038=Não é possível ligar a %s:%ld\nA ligação expirou 
+20039=Não é possível ligar ao servidor proxy %s:%ld\nA ligação expirou 
+20040=Ocorreu um erro desconhecido ao anexar ficheiros ou juntar partes transferidas num único ficheiro 
+20041=Ocorreu um erro desconhecido ao juntar partes transferidas num único ficheiro 
+20042=Não é possível abrir ficheiro local para escrita enquanto juntando partes transferidas num único ficheiro 
+20043=Não é possível obter o tamanho da próxima parte enquanto juntando partes transferidas num único ficheiro 
+20044=Erro de atribuição de memória virtual enquanto juntando partes transferidas num único ficheiro 
+20045=Ocorreu um erro grave de gravação enquanto juntando partes transferidas num único ficheiro 
+20046=Ocorreu um erro grave de leitura enquanto juntando partes transferidas num único ficheiro 
+20047=Ocorreu um erro de ficheiro ou registro desconhecido ao reconstruir partes transferidas antigas 
+20048=Não é possível ligar-se ao servidor 
+20049=Erro de leitura da socket de Internet
+20050=Erro de escrita da socket de Internet 
+20051=A ligação expirou 
+20052=A ligação expirou 
+20053=A ligação expirou, a reiniciar...
+20054=A ligação falhou, a reiniciar...
+20055=Ocorreu um erro durante a recepção de dados 
+20056=A ligação foi encerrada pelo servidor. 
+20057=Não consegue entrar no servidor ftp. 
+20058=Não é possível encontrar este ficheiro no servidor ftp.
+20059=Servidor de FTP não permite ligações. 
+20060=Ocorreu um erro ao receber a resposta do servidor ftp. 
+20061=Ocorreu um erro ao receber a resposta do servidor ftp: formato de resposta inválido 
+20062=Não é possível encontrar o endereço IP para a socket de dados em resposta ao comando PASV. 
+20063=Não é possível abrir socket internet.
+20064=Não é possível abrir socket de dados ftp 
+20065=Não é possível vincular o endereço para socket internet 
+20066=Erro durante a chamada para ouvir() socket de dados 
+20067=Erro durante a chamada para aceitar() socket internet. 
+20068=Não é possível enviar o comando PORT.\nErro durante uma chamada para getsockname(). 
+20069=Comando PORT falhou.
+20070=Ocorreu um erro grave de gravação de ficheiro ao receber dados de socket Internet.\nA razão possível: O disco está cheio. 
+20071=Não é possível abrir ligação de dados porque o servidor ftp não suporta comando PASV e a caixa de seleção \"Usar FTP no modo PASV\" em \"Opções-> Proxy/Socks\" está ligada. 
+20072=O tamanho do ficheiro %s não foi encontrado na resposta do servidor 
+20073=O servidor enviou resposta incorrecta no comando reiniciar. 
+20074=O servidor enviou nova localização e o nome do ficheiro %s mudou para %s.\n\nContinuar o download? 
+20075=A desligar...
+20076=Transferência completa, a juntar todas as partes do ficheiro...
+20077=Foram criadas ligações opcionais.
+20078=A ligar...
+20079=Escolha falhou 
+20080=Ligar OK.
+20081=Erro de escrita de ficheiro ao receber dados da socket internet.
+20082=Procedimento Recv() falhou 
+20083=Ligação encerrada pelo servidor.
+20084=Desligado
+20085=À espera de resposta...
+20086=Resposta OK
+20087=A transferir...
+20088=Terminado.
+20089=Ligação de dados: a ligar...
+20090=Ligação de dados: OK
+20091=Pronto para recuperar dados
+20092=A verificar capacidade de sequência de comandos: enviar dois comandos juntos...
+20093=A verificar capacidade de sequência de comandos: primeira resposta OK, esperando segunda resposta...
+20094=A transferir informação do ficheiro...
+20095=Não foi possível encontrar o fim da string na resposta do servidor.
+20096=Não foi possível encontrar o fim da string na resposta do servidor ftp. 
+20097=Enviar SAIR.
+20098=O servidor não está pronto para novo utilizador.
+20099=Socket de controlo ligada.
+20100=A enviar nome de utilizador...
+20101=A enviar password...
+20102=Nome de utilizador falhou
+20103=Nome de utilizador OK
+20104=Password falhou
+20105=Password OK
+20106=Enviar comando PASV...
+20107=O servidor não suporta PASV.
+20108=PASV OK, a extrair endereço...
+20109=Ligar à socket OK, experimentar ligar()
+20110=A aceitar...
+20111=Aceitação OK
+20112=A enviar comando PORT...
+20113=PORT OK
+20114=Alterar directório de trabalho do servidor...
+20115=CWD falhou.
+20116=CWD OK
+20117=Ligação falhou.
+20118=A enviar TIPO...
+20119=Comando TIPO falhou.
+20120=TIPO OK.
+20121=A enviar comando REST...
+20122=REST falhou
+20123=REST OK
+20124=A enviar comando RETR...
+20125=RETR falhou.
+20126=A enviar comando TAMANHO...
+20127=A enviar comando LISTA.
+20128=LISTA falhou.
+20129=LISTA OK
+20130=TAMANHO falhou.
+20131=Não foi possível encontrar tamanho do ficheiro como resposta.
+20132=TAMANHO OK
+20133=Socket de controlo não está ligada ao servidor.
+20134=A reiniciar do princípio porque o ficheiro local foi apagado. Reiniciar a partir de posição arbitrária não é suportado neste caso.
+20135=Ligação restabelecida...
+20136=Provavelmente o servidor não suporta comando pipelining.
+20137=Capacidade de sequência de comandos: OK
+20138=Enviar CABEÇALHO...
+20139=Enviar OBTER...
+20140=A reconstruir partes antigas do ficheiro transferido...
+20141=A ligar...
+20142=Transferência terminada. Transferidos um total de %I64d Bytes
+20143=A transferir...
+20144=Ligações opcionais, a ligar...
+20145=Transferência falhou. Transferido: %I64d Bytes no total
+20146=O tamanho de %s é %I64d bytes.\nNão há espaço livre em disco na unidade \'%s\' para armazenar partes do arquivo baixado.\nPara continuar o download liberte algum espaço em disco ou remova este arquivo da lista de download, mude o directório temporário em \"Opções-> Guardar em\" e tente novamente. 
+20147=Não há espaço livre em disco na unidade \'%s\'.
+20148=Não é possível reconstruir pedaços do ficheiro transferido. 
+20149=Esta transferência já está concluída, o caminho local não foi alterado. 
+20150=A data da última modificação deste ficheiro foi alterada no servidor.\nGostaria de transferir este ficheiro desde o início? 
+20151=Está a utilizar a versão mais recente do Internet Download Manager. Por favor, verifique a existência de atualizações mais tarde. 
+20152=Ocorreu um erro ao guardar os dados inseridos, por favor, tente novamente. 
+20153=Ocorreu um erro durante atribuição de memória virtual. Tente fechar algumas aplicações e, em seguida, pressione \'Repetir\'. 
+20154=A reconstruir 
+20155=O nome do servidor solicitado é válido, mas não tem os dados correctos associados, ainda estão a ser resolvidos (O servidor em si existe, mas não é diretamente acessível). 
+20156=Ficheiro %s – transferidos %s (%I64d Bytes). O ficheiro pode não ter sido transferido completamente, porque o seu tamanho é desconhecido.\nFicheiro guardado como %s 
+20157=Nenhum item selecionado!
+20158=Subir
+20159=Descer 
+20160=Apagar item
+20161=Não é possível transferir este ficheiro. Resposta do servidor http inválida. 
+20164=Actualização Rápida para o IDM de www.internetdownloadmanager.com. A receber novos ficheiros...
+20166=Manual do Internet Download Manager
+20167=Transferência cancelada pelo utilizador
+20168=A actualização rápida falhou, ocorreu um erro durante a transferência dos novos ficheiros. Tente mais tarde.
+20169=O ficheiro pedido não existe.
+20170=\nGostaria de o abrir?
+20171=Este ficheiro já existe na sua lista de download. Deseja adicionar o duplicado? 
+20172=O servidor responde que não tem permissão para transferir este ficheiro. 
+20173=Ocorreu um erro ao ler a lista telefónica. 
+20174=Não é possível ligar-se à Internet. 
+20175=Não é possível transferir o ficheiro por causa do tempo limite 
+20199=Não foi possível alterar a integração do Internet Download Manager no Internet Explorer, porque pode não ter direitos de acesso ao registo do sistema 
+20204=O ficheiro foi movido.
+20205=O ficheiro %s foi movido.
+20206=A abrir o ficheiro transferido
+20207=Transfira componente do IDM
+20211=O ficheiro %s será guardado como %s. Este ficheiro já existe no seu computador. Quer substituí-lo?\n\nPressione \"Sim\" para substituir, \"Não\" para guardar com nome diferente ou \"Cancelar\" para cancelar a adição do ficheiro para sua lista de transferências.
+20212=O ficheiro %s será guardado como %s. Este ficheiro já existe na sua lista de download. Confirma guardar o ficheiro com este nome?\n\nPressione \"Sim \" para confirmar, \"Não\" para guardar com um nome diferente ou \"Cancelar\" para cancelar a adição do ficheiro à lista de download. 
+20213=Importar para o IDM
+20214=Não consegue ler os links do ficheiro ou o ficheiro está danificado 
+20215=O ficheiro não é um ficheiro de exportação IDM válido ou o ficheiro está danificado 
+20216=O ficheiro não tem nenhum link de web 
+20217=Ocorreu um erro desconhecido durante a execução da operação! 
+20218=Não é possível transferir este ficheiro, talvez este servidor FTP não suporte a retoma de transferência. Gostaria de adicionar na mesma o ficheiro e transferi-lo desde o início? 
+20219=O nome para guardar o ficheiro foi \"%s%s\", mas o servidor enviou o seguinte nome \"%s\". Gostaria de guardar o ficheiro com o nome que foi recebido do servidor? 
+20220=Ficheiro %s download terminado.\nEste ficheiro m3u contém um link para um ficheiro mp3. Gostaria de transferir este ficheiro mp3? 
+20221=Ficheiro %s download terminado.\nEste ficheiro m3u contém um ou mais links para ficheiros MP3. Gostaria de adicionar esses ficheiros MP3 à sua lista de download? 
+20222=Ficheiro M3U transferido.
+20225=Não é possível iniciar programa de verificação de vírus.\n%s
+20226=O Internet Download Manager terminou o processamento da fila. De acordo com as definições do agendador, o IDM vai desligar o seu modem. 
+20227=Desligar o modem
+20228=Desligar agora
+20229=Parar agora
+20230=Limite de download excedido!
+20231=Dados inválidos
+20232=O valor de horas em \"Limite de transferência\" deve estar entre 1 e 23. Corrija ou desmarque a caixa \"Limite de transferência\". 
+20233=Gostaria de transferir um tutorial (cerca de 60 KB) do site do IDM? 
+20234=Gostaria de transferir e instalar um ficheiro de ajuda (cerca de 200 KB) do site do IDM? 
+20235=Não foi possível encontrar HHCtrl.ocx para exibir ficheiro de ajuda! 
+20236=Ajuda do IDM
+20237=O tamanho do ficheiro foi alterado no servidor.\nSerá transferido a partir do início. 
+20238=Não é possível criar ligação via servidor proxy. 
+20239=Ocorreu um erro ao criar a ligação de segurança para %s. 
+20240=Ocorreu um erro ao encriptar mensagem de solicitação. 
+20241=Ocorreu um erro ao carregar dll de segurança. Não é possível criar ligação https. 
+20245=Opções do Internet Download Manager
+20246=Transferência completa
+20247=A transferência falhou
+20248= Processamento de fila parado/terminado
+20249=Processamento de fila iniciado
+20250=Evento
+20251=Ficheiro de som
+20252=Não é possível copiar ficheiro de som selecionado para a pasta de sons IDM!
+20253=Tem %d dias para usar o Internet Download Manager. Quer registar a sua cópia do IDM agora? 
+20258=Todas as transferências
+20259=Inacabadas 
+20260=Terminadas
+20261=Programas
+20262=Música
+20263=Vídeo
+20264=Jogos
+20265=Documentos
+20266=Adicionar categoria
+20267=Apagar
+20268=Propriedades
+20269=Quer mesmo apagar a categoria \"%s\" da lista de categorias IDM?
+20270=A apagar a categoria da lista de categorias IDM
+20271=A adicionar uma categoria à lista de categorias IDM
+20272=A editar propriedades das categorias
+20273=Por favor preencha o campo \"Nome da categoria\".
+20274=A pasta \"%s\" não existe.\r\nQuer criar a pasta?
+20275=Não é possível criar a pasta!\r\n%s
+20276=Esconder categorias
+20277=Mostrar categorias
+20278=Escolher um directório
+20279=Geral
+20280=Gostaria de colocar todas as transferências antigas para estas categorias de acordo com tipos de ficheiro? Os ficheiros não serão movidos no disco rígido, mas serão associados às suas categorias de download designadas. 
+20281=Gostaria de colocar todas as transferências antigas com tipos de ficheiro \"%s\" para esta categoria? Os ficheiros não serão movidos no disco rígido, mas serão associados a esta categoria. 
+20282=Categorias IDM
+20283=O IDM obteve o erro \"Acesso negado\" durante a junção das partes transferidas. Pode ter acontecido porque algum aplicativo como o programa antivírus ou firewall abriu o ficheiro e não o fechou correctamente, ou tentou abrir o ficheiro enquanto ele estava a ser transferido. Deve reiniciar o computador e, em seguida, clique no botão Continuar para montar o ficheiro. 
+20284=Directório padrão de transferência para a categoria \"%s\"
+20285=Alterar pasta para categoria \"%s\" para a última selecionada 
+20307=- Seleccione a sua ligação de internet -
+20314=Cabo de 256K/DSL/Outra
+20315=Cabo de 300K/DSL/Outra
+20316=Cabo de 512K/DSL/Outra
+20319=Outra
+20320=Sobre o IDManager
+20321=Restaurar
+20322=Sair
+20323=Contacte-nos
+20324=Ajuda
+20325=Comprar online
+20326=Registo
+20327=Parar transferência
+20328=Remover
+20329=Resumir transferência
+20330=Propriedades
+20331=URL inválido. Corrija por favor.
+20332=Esta transferência não está completa. Pretende apagá-la? 
+20333= Não foi possível encontrar configuração do proxy nas configurações do Internet Explorer 
+20334=O ficheiro com este URL já foi transferido pelo Internet Download Manager. Quer transferi-lo novamente? 
+20335=O ficheiro com este URL já existe na sua lista e espera para que a sua transferência para ser concluída. Quer retomá-la? 
+20336=Demasiados ficheiros com este nome. Por favor, exclua-os ou altere nomes locais
+20337=Por favor introduza o seu nome de login. 
+20338=Não foi possível encontrar browser associado 
+20339=Não foi possível encontrar aplicação Actualização Rápida. 
+20340=Por favor introduza o seu nome de registo. 
+20341=O número de registo introduzido é inválido. 
+20343=Introduza o seu nome próprio 
+20344=Introduza o seu apelido 
+20346=Introduza o seu e-mail 
+20347=Introduza o seu número de série 
+20348=Introduziu um número de série incorrecto 
+20349=O Internet Download Manager foi registado com um número de série falso. O IDM vai encerrar... 
+20351=O Internet Download Manager foi registado com um número de série falso. O IDM vai encerrar...  
+20352=O Internet Download Manager não foi registado durante 30 dias. O período experimental terminou e o IDM vai encerrar... 
+20353=O Internet Download Manager não foi registado durante 15 dias. O IDM vai encerrar...
+20354=Erro desconhecido durante
+20355=Desconhecido
+20356=Adicionar à fila
+20357=Apagar da fila
+20358=Iniciar fila 
+20359=Parar fila
+20360=Abrir
+20361=Data da última tentativa:  
+20362=Resultado:\n
+20363=Selecione apenas um ficheiro para abrir!
+20364=Abrir
+20365= já existe no seu computador. Quer substituir o ficheiro existente?\nPressione \"Sim\" para substituir, \"Não\" para guardá-lo com nome diferente ou \"Cancelar\" para cancelar a transferência.
+20366=Transferir de
+20367=Guardar em
+20368=Deseja realmente apagar todas as transferências concluídas? 
+20384=Carrinho de transferências
+20385= Aviso: Este programa de computador está protegido por leis de direitos de autor e tratados internacionais. A reprodução ou distribuição não autorizada deste programa, ou qualquer parte dele, poderá resultar em sanções civis e criminais que serão processadas na máxima extensão possível sob a lei.
+20386=Impossível criar pasta %s, código de erro = %ld\n
+20387=Erro
+20388=Ficheiro
+20389=Todos os ficheiros
+20390=Detalhes:\n
+20391=Terminado.
+20393=Download completo. Verificação de vírus em progresso...
+20394=AVI: Res. %dx%d, %d samp por seg, Duração %s
+20395=, Duração: 
+20396=, Título: 
+20397=, Artista: 
+20398=, Álbum: 
+20399=, Género: 
+20400=WAV: %d samp por seg, %d bits per samp, Duração: %s
+20401=MPEG: Res. %dx%d, %.1f samp por seg, %d bits por samp
+20402=%s, total %ld ficheiros
+20403=Teste
+20404=Completo
+20405=Remarcar %ld
+20406=Erro RAS Dial indefinido.
+20407=As alterações de idioma no diálogo principal serão aplicadas somente após o reinício do IDM. Deseja reiniciar o IDM agora? 
+20408=De %d:%02d a %d:%02d transferiu %d MB. Todas as transferências serão interrompidas porque excedeu os limites de transferência definidos no Agendador (ou em \'Opções-> Ligações\')!
+20409=De %d:%02d a %d:%02d transferiu %d MB. Todas as transferências foram paradas em %d:%02d porque ultrapassou o limite de transferência definido no Agendador (ou em \'Opções-> Ligações\')!\r\n\r\nTodas as transferências paradas serão retomadas automaticamente em %02d:%02d. Se quiser retomá-las imediatamente, altere as configurações de limite de transferência e carregue em Continuar. 
+20410=Terminado
+20411=Reconstruir...
+20412=A desligar...
+20413=Ficheiros de Texto
+20414=Ficheiros de Exportação do IDM
+20415=Guardar como...
+20427=Por favor, não fechar o diálogo de download enquanto o IDM está a juntar o ficheiro, caso contrário, os dados poderão ser danificados. 
+20428=Actualização Rápida
+
+20429=Download transferido para o IDM...
+20430=Clique em 'Voltar' para voltar e continuar a navegar.
+20431=O IDM não conseguiu iniciar a transferência. Ficheiro executável não encontrado.
+
+20433=Aviso
+20434=Escolher um directório
+20435=Programa antivírus
+20439=Ficheiros de som
+20440=terminada
+20441=Propriedades do ficheiro
+20442=Internet%20Download%20Manager%20-%20aplicação%20muito%20boa!!!
+20443=transferir%20de%20
+
+//Please don't replace "English" to your local language, please just translate the "English" word
+20444=Por favor use Inglês
+
+20445=Desconhecido
+
+20447=Tamanho normal
+20448=Minimizado
+20449=Não mostrar
+
+//Please change XXX on the language you are translating IDM to.
+q1=O Internet Download Manager descobriu que está a usar o idioma Português como o idioma padrão do Windows. Gostaria de instalar o idioma Português para o IDM? 
+
+20500=Por favor, compre e instale a versão completa do IDM primeiro! 
+1338=Por favor, selecione o idioma para a interface de utilizador IDM (Pode alterá-lo posteriormente em "Aspecto-> Idioma") 
+20501=O Internet Download Manager não foi registrado por 15 dias. IDM vai encerrar...
+20502=Personalizar...
+20503=Data de adição
+20504=Data da última tentativa
+20505=Guardar Em
+20506=Referenciador
+33001=Personalizar Barra de Ferramentas...
+33002=Personalizar Lista de URL...
+33004=Por caminho para guardar
+33005=Por referência
+33006=Por data da última tentativa 
+20507=Colunas...
+
+209=Colunas
+1339=Marque as colunas que quer visíveis nesta lista. Use o Subir e Descer para reordenar as colunas como quiser. 
+1160=Subir
+1083=Descer
+1340=Mostrar
+1048=Esconder
+1053=Repor
+1341=A coluna selecionada deve ter
+1342=pixéis de largura
+
+//new category
+20508=Compactados
+
+//new dialog
+226= Número máx. de ligações para um servidor
+1348=Servidor
+
+1350=Nr. máx. padrão de ligações
+1343=Número máx. de ligações
+1344=Novo
+1345=Apagar 
+1346=Editar
+1347=Excepções:
+20509=Servidor
+20510=Número
+
+228=Transferir todos os links com o IDM 
+20511=Tipo de ficheiro
+20512=Texto de link
+1234=Utilizar textos de links como descrições de download 
+1055=Esconder ficheiros HTML
+1060=Esconder ficheiros repetidos
+1353=Marcar todos 
+1354=Desmarcar todos
+1352=Editar...
+1355=Por favor marque os links que deseja adicionar à lista de download do IDM, e clique no botão OK.\r\nEspere até que o IDM verifique e preencha todos os tipos de ficheiro.
+
+20513=O nome para guardar o ficheiro era \"%s\", mas o servidor enviou o seguinte tipo de ficheiro \"%s\", e o ficheiro deve ser guardado como \"%s\". Gostaria de guardar o ficheiro com o nome correspondente ao tipo de ficheiro recebido do servidor? 
+
+//vers. 4.00
+20514=Transferir novamente
+20515=Abrir pasta
+
+q2=A \"%s\" (%s) quer transferir o ficheiro \"%s\".\n\nQuer que o IDM assuma as transferências a partir desta aplicação?\nPode desactivar ou activar o IDM para assumir as transferências a partir de \"%s\" em Opções-> Geral mais tarde. 
+
+20516=\"%s\" o protocolo de transmissão de dados não é suportado pelo IDM neste momento. Ou pode ser um erro de ortografia, portanto, por favor, verifique a ortografia e tente novamente.
+20517=O IDM obteve o erro \"Acesso negado\" durante a junção do ficheiro. Pode ter acontecido porque o ficheiro foi aberto por outra aplicação como software antiviral, ou tentou abri-lo você mesmo. Para juntar este ficheiro, precisa reiniciar o computador e depois selecione o ficheiro na lista e pressione no botão Reiniciar. 
+20518=Por favor registe o IDM antes de actualizar.\r\nVá a \"Registo-> Registo\" e introduza as suas informações de registo. Em seguida, escolha \"Ajuda-> Procurar actualizações\" para iniciar a actualização. 
+20523=De acordo com o contrato de licença que aceitou, tem permissão para actualizar o Internet Download Manager livremente durante um ano após a compra. Se quiser continuar a actualizar o IDM após este prazo, vai precisar de se inscrever no serviço de actualizações.\r\nGostaria de visitar a página de inscrição IDM? 
+20519=A(s) chave(s) para impedir o download não deve(m) estar contida(s) na(s) chave(s) para forçar o download.\r\nPor favor, escolha outra(s) chave(s). 
+20525=Erro ao ligar. Tal servidor não é conhecido. O nome não é um nome oficial do servidor ou alias, ou não pode ser encontrado no(s) banco(s) de dados que está(ão) sendo consultado(s).\r\n\r\nVeja em baixo as possíveis razões para este erro:\r\n\r\n1. Você tem uma aplicação de firewall no seu computador, e acabou de instalar, substituir ou atualizar a sua versão actual do Internet Download Manager. Por favor, verifique as configurações do firewall e garanta que o IDM tem autorização para aceder à Internet.\r\n\r\n2. Um serviço que encontra servidores na Internet chamado Domain Name Service (DNS) tem problemas temporários, ou a ligação de rede entre o DNS e o seu computador foi interrompida. É possível que precise de reiniciar o seu computador.\r\n\r\n3. Há um erro de ortografia no nome do servidor. Por favor, verifique a ortografia.\r\n 
+20522=O IDM não encontra %d ficheiro(s) que são necessários para a integração com o browser e sistema. Gostaria de os transferir?
+
+//Options->general
+1370=Detectar novas aplicações que tentem transferir ficheiros da Internet
+1368=Personalizar chaves para evitar ou forçar transferências
+1367=Chaves...
+1375=Integrar o IDM nos browsers:
+
+229=Usar chaves especiais
+1361=Usar a(s) seguinte(s) chave(s) para evitar transferências com o IDM para qualquer link:
+1067=Usar a(s) seguinte(s) chave(s) para forçar transferências com o IDM para qualquer link:
+1366=Marque se clicou com o botão esquerdo do rato num link junto com a chave(s) especial pressionada(s) para forçar o download do link 
+1374=Nota: Às vezes, depois de clicar num link de download, uma página da web irá carregar dizendo que o download começa em X segundos. Neste caso, terá que desmarcar a opção seguinte para forçar o download com o IDM. 
+
+//Download all links with IDM
+1356=Guardar Em
+1357=Cada ficheiro para o directório de acordo com a categoria do ficheiro 
+1358=Todos os ficheiros para uma categoria 
+1359=Todos os ficheiros para um directório 
+1360=Procurar...
+
+//Options->Proxy
+1378=Não usar servidor proxy para endereços que começam com:
+1377=Separar nomes por espaços
+
+
+20526=Integração de Redes Internet Download Manager
+20527=O Internet Download Manager detectou que a sua integração na rede tinha sido excluída por alguma aplicação de terceiros. Gostaria de restaurar a integração da rede do Internet Download Manager? 
+20528=O Internet Download Manager detectou que alguma aplicação de terceiros mudou a integração de rede IDM. Isso pode acontecer por causa de um aplicativo de rede recém-instalado, ou por causa de um aplicativo que restaura os registos do registo erroneamente. Gostaria de restaurar a integração da rede do Internet Download Manager? 
+20529=A integração da rede Internet Download Manager foi alterada. Recomendamos que reinicie o computador. Deseja reiniciar agora?
+20530=A integração da rede Internet Download Manager foi alterada. É preciso reiniciar o computador, porque o firewall não é capaz de detectar estas mudanças e aplicações da Internet não comunicarão na Internet corretamente até reiniciar.\r\n\r\nPor favor guarde o seu trabalho e feche todas as aplicações agora, o computador será reiniciado após premir o botão OK.
+
+20531=Se quiser integrar o Internet Download Manager numa aplicação que está em execução, terá que reiniciar a aplicação, porque o IDM não pode integrar aplicações que já estão sendo executadas.\r\n\r\nDepois de integrar o IDM na aplicação, pode desligar a opção \"Detectar Novas Aplicações\" para um melhor desempenho. 
+20532=Detectar Novas Aplicações
+
+//v 4.01
+//Download All Links with IDM dialog
+1385=Esconder imagens localizadas nesta página da Web. 
+//Options->General dialog
+1381=Usar integração avançada com o browser
+20547=A mudança entre integrações básicas e avançadas no browser pode exigir a reinicialização do sistema. Tem certeza de que deseja continuar? 
+//new dialog
+230=A verificar a ligação à Internet
+1382=Verificar
+20536=O IDM está a transferir uma página de teste pequeno para verificar a sua ligação à Internet. Por favor, aguarde alguns segundos 
+20537=O IDM está a testar o seu Internet Explorer. Por favor, aguarde alguns segundos, enquanto o Internet Explorer carrega uma pequena página de teste 
+//Problem report dialog
+232=Relatório de Problemas do Internet Download Manager
+20546=Criamos um relatório de configuração que pode enviar-nos. Por favor envie-nos as seguintes informações para nos ajudar a corrigir esse problema em futuras versões do IDM. Estes dados são do tipo técnico. Não recolhemos as suas informações pessoais e vamos tratar este relatório como confidencial e anónimo. 
+1386=Adicione quaisquer comentários e pedidos em baixo se desejar 
+1391=Se quiser uma notificação quando o problema for resolvido, por favor, adicione o seu e-mail em baixo
+20545=A enviar dados...\r\nAguarde uns segundos
+1390=Enviar
+
+//new messages
+20533=O IDM detectou que está a usar um servidor proxy no Internet Explorer. Deseja usar as mesmas configurações proxy no IDM?
+20534=Primeira execução do Internet Download Manager
+20535=O IDM detectou que está a usar a rede Windows DialUp para conectar o seu modem à Internet. Deseja usar estas configurações no IDM?
+20538=Não é possível descarregar a página de teste. É possível que a integração de rede do Internet Download Manager esteja em conflito com outra aplicação de Internet ou uma firewall. O IDM irá desligar a integração avançada com o browser para repor as suas configurações originais. Poderá voltar a ligar a integração avançada com o browser em IDM->Opções->Geral
+20539=Precisará reiniciar o seu computador de modo a restaurar as suas configurações originais. Guarde o seu trabalho e encerre todas as aplicações agora, o computador irá reiniciar após clicar no botão OK. 
+20540=A integração de rede do Internet Download Manager foi instalada com sucesso. Raramente a integração de rede poderá entrar em conflito com alguma aplicação de Internet de terceiros instalada recentemente. Se encontrar algum problema, desmarque \"Usar integração avançada com o browser\" em IDM->Opções->Geral
+20541=Desligou a integração avançada com o browser. Se encontrou algum problema, gostaríamos de o resolver. De modo a resolver o problema, precisamos de recolher e analisar alguma informação técnica acerca da configuração do computador e de aplicações de Internet instaladas. O IDM irá recolher e mostrar-lhe essa informação na próxima etapa antes de a enviar para o nosso departamento de suporte.\r\n\r\nQuer que o IDM crie essa informação?
+20542=A desligar a integração avançada com o browser 
+20543=O IDM está a tentar descarregar uma página de teste para verificar a sua ligação à Internet. Assegure-se de que está conectado. Se possui uma firewall, assegure-se que a nova versão do IDM possui as permissões para aceder à Internet antes de prosseguir. Depois clique no botão \"Verificar\", e o IDM tentará descarregar a página de teste novamente.
+20544=O IDM alterou a sua integração com a rede e precisa de verificar a sua ligação à Internet novamente. Se não está conectado, ligue-se e clique no botão \"Verificar\".
+20548=A integração de rede do Internet Download Manager foi alterada. Necessita de reiniciar o computador, porque as suas aplicações de Internet não comunicarão devidamente com a Internet até ao reinício.\r\n\r\nGuarde o seu trabalho e feche todas as aplicações agora, o computador irá reiniciar após clicar no botão OK.
+//v4.01 build 4
+20549=Esta versão do Internet Download Manager contém a característica Integração Avançada com o Browser. A instalação desta característica pode requerer um reinício do sistema.\r\n\r\nQuando a Integração Avançada está ligada, o IDM pode apanhar todas as transferências que eram impossíveis de apanhar antes no IDM, ou em qualquer outro gestor de transferências. Ao também usar a integração, o IDM pode ser integrado em qualquer browser e aplicações de Internet para apanhar as suas transferências FTP/HTTP.\r\n\r\nRaramente esta integração pode entrar em conflito com alguma aplicação de Internet de terceiros instalada recentemente. Se tiver algum problema com a integração de rede, pode desmarcar a caixa \"Usar a integração avançada com o browser\" em IDM->Opções->Geral para a desligar.\r\n\r\nDeseja instalar a Integração Avançada com o Browser?
+20550=A Integração Avançada com o Browser foi instalada com sucesso!
+
+//menu "File->Redownload"
+33009=Transferir novamente
+
+//new (since v4.00) toolbar buttons of the main window
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20551=Iniciar fila 
+20552=Parar fila
+
+//v4.01 build 5
+20553=O Internet Download Manager capturou automaticamente o link de transferênciade outra aplicação de Internet quando esta tentou transferir um ficheiro. Se NÃO QUER transferir este ficheiro com o IDM, abra o diálogo Opções.\r\n\r\n 1. Se não quer transferir este tipo de ficheiro com o IDM, pode apagar o tipo de ficheiro correspondente (extensão de ficheiro) da lista de tipos de ficheiro capturados automaticamente.\r\n\r\n 2. Se não quer transferir nenhum ficheiro de um determinado site com o IDM, pode adicionar esse site à lista de exclusão de sites.
+236=Dica IDM: Captura de link automática
+1393=Não mostrar esta dica novamente
+1397=O IDM tem um mecanismo flexível para capturar ou ignorar as transferências de outras aplicações de Internet. Gostaria de ler mais? 1396=Ler mais
+
+//v4.02
+20569=Esta mensagem de erro é possível se o IDM foi usado em vários computadores com o mesmo Número de Série. Repare que o IDM possui uma licença por computador. Para utilizar o IDM em vários computadores em simultâneo, deve obter uma licença para cada um
+20570=Botões Pequenos
+20571=Botões Grandes
+20572=Botões Clássicos
+
+//new main menu items
+m33001=Barra de Ferramentas 
+33510=Botões Clássicos
+34010=Botões Pequenos
+34011=Botões Grandes
+
+//a new (since 4.401) button on the Options dialog
+1371=Ajuda
+
+// The abbreviation of second, kilobytes, megabytes and gigabytes, 
+// it's used when denoting download speed measurement units, 
+// e.g. KB/sec --- kilobytes per second, etc.
+20575=seg
+20576=GB
+20577=MB
+20578=KB
+20579=Bytes
+
+//v4.03
+20588=Não é possível reconstruir o ficheiro transferido. A sequência das partes transferidas ficou corrompida. Veja a seguir as causas possíveis do problema.\r\n\r\n 1. O computador foi encerrado inesperadamente devido a uma falha de energia durante a transferência/junção das partes do ficheiro.\r\n 2. Outra aplicação ou utilizador interrompeu o processo do Internet Download Manager durante a transferência/junção das partes do ficheiro. Note que poderá demorar algum tempo a reconstruir ficheiros grandes. Não se preocupe, seja paciente e espere até o IDM terminar. Não termine o processo do IDM no Gestor de Tarefas.\r\n\r\nSe estes eventos não ocorreram, envie o ficheiro %s (se ele existir) para o departamento de suporte do Internet Download Manager para análise.
+
+
+//v 5.00 --- grabber
+1429=< Voltar
+1430=Seguinte >
+
+1405=Adicionar Filtro
+1421=Adicionar Filtro
+1437=Procurar ficheiros apenas neste site
+1459=Começar a transferir todos os ficheiros correspondentes de uma vez 
+1471=Pode explorar o site primeiro, marcar os ficheiros de que necessita, e transferi-los na janela principal do Grabber, ou adicioná-los à lista principal do IDM. Esta opção transfere todos os ficheiros explorados imediatamente.
+1515=Transferir os seguintes ficheiros (tipos de ficheiro)
+1516= Não transferir os seguintes ficheiros (tipos de ficheiro)
+1480=Não menos do que
+1482=Não mais do que
+1483=Transferir apenas os ficheiros localizados nos seguintes caminhos/domínios:
+1486= Não transferir apenas os ficheiros localizados nos seguintes caminhos/domínios:
+1517=Transferir se o tamanho for
+1488=Usar ( ; ) para separar entradas.
+
+241=IDM Site Grabber
+1446=Ficheiros transferidos:
+1448=Ficheiros encontrados:
+1450=Páginas Web processadas:
+
+244=Filtros
+1423=Adicionar
+1424=Editar
+1425=Apagar
+
+245=Filtro
+1426=Nome
+1427=Máscara
+
+1414=Nome do Projecto Grabber
+1510=Página/ endereço de início
+1439=Usar autorização
+1441=Inserir login e password manualmente na seguinte página web:
+1511=Modelo de projecto
+1470=Se seleccionar um modelo de projecto, o assistente fará as configurações de projecto necessárias para o modelo seleccionado nos próximos passos. Note que poderá sempre alterar alguma configuração manualmente.
+
+1514=Usar as subpastas relativas originais
+1468=Converter os links em ficheiros html transferidos para os ficheiros locais para navegação offline
+1469=Sobrescrever ficheiros existentes
+1436=Adicionar os ficheiros marcados à lista principal do IDM e à fila de transferências ao fechar o Grabber
+262=Configurações do IDM Grabber
+1518=Usar textos link como descrição da transferência ao adicionar ficheiros à lista principal do IDM
+1466=ficheiros para explorar em simultâneo (1 a 10)
+1467=ficheiros para transferir em simultâneo (1 a 10)
+1509=Note que um servidor web pode rejeitar pedidos se definir um grande número de ficheiros para explorar (transferir) em simultâneo.
+1416=Não explorar os directórios principais
+1490=níveis dentro do site base
+1435=Explorar o site todo
+1445=Explorar o número especificado de níveis de links:
+1491=níveis em outros sites
+1474=Explorar páginas web dentro dos seguintes caminhos/domínios:
+1476=Não explorar páginas web dentro dos seguintes caminhos/domínios:
+1512=Neste passo deve especificar quais as páginas web a explorar para encontrar os ficheiros necessários. No próximo passo, será possível definir os tipos de ficheiro, localização, e outros filtros.
+1489=Qual é o número de níveis de link?
+1493=Explorar todos os sites dentro do domínio principal
+1494=Ignorar janelas popup
+
+268=Nome do modelo
+1508=Introduza um nome para o modelo do Grabber
+
+269=A guardar o projecto do IDM Grabber
+1507=Guardar este projecto com o seguinte nome
+1513=Não mostrar este diálogo se o nome for único
+
+270=Carregar projecto
+
+32811=Tutoriais
+34022=Ajuda do Grabber
+      
+
+m1458=Projecto
+1458=Novo
+1438=Carregar...
+1442=Guardar
+34020=Guardar configurações actuais como modelo
+m34013=Projectos Recentes
+34013=Lista de Projectos Recentes
+m1457=Opções
+1457=Configurações do Grabber
+34021=Agendar o projecto
+
+t1398=Iniciar a exploração do site
+t1401=Parar a exploração do site
+t1353=Marcar todos os ficheiros
+t1354=Desmarcar todos os ficheiros
+t1432=Iniciar a transferência dos ficheiros marcados
+t1433=Parar a transferência dos ficheiros marcados
+t1434=Adicionar os ficheiros marcados à lista principal do IDM e à fila de transferências
+
+
+20580=Configurações personalizadas
+20581=Todas as imagens do site
+20582=Ficheiros de áudio da página inicial e de um próximo nível
+20583=Todos os vídeos do site
+20584=Todos os ficheiros do site excepto páginas web e imagens
+20585=Todo o website
+
+20589=Conteúdo Web
+20590=Avançado
+20591=Projectos Grabber
+20592=IDM Grabber
+20593=Introduza a página/endereço inicial
+20594=Página/endereço inicial
+20595=Introduza o login e a password ou desmarque a caixa \"Usar Autorização\"
+20596=Introduza a página de login manual ou desmarque a caixa correspondente
+20597=Página de login manual
+20598=Nenhum ficheiro marcado!
+20599=%ld ficheiros foram adicionados à lista principal do IDM.
+20600=Não é possível adicionar ficheiros. Há demasiados ficheiros marcados. Transfira-os neste projecto ao clicar no botão \"Download Marcado\" na barra de ferramentas.
+20601=Não é possível adicionar novos ficheiros. A lista principal do IDM contém demasiados ficheiros e pode abrandar o IDM. Apague alguns ficheiros da lista principal.
+
+20602=Este nome está reservado. Escolha outro nome para o seu modelo.
+20603=Já existe um modelo com este nome. Deseja substituí-lo?
+20604=Guardar o projecto Grabber?
+
+//right click menu
+20605=Abrir projecto
+20606=Agendar projecto
+20607=Apagar projecto
+
+20608= Por favor, primeiro feche o projecto Grabber em curso. 
+20609=Agendar o projecto do Grabber
+20610=Em breve!!!\r\n\r\nConfira este recurso na próxima versão do IDM 
+
+//displayed statuses
+20611=A explorar o site
+20612=A transferir
+20613=Terminado
+20614=Parado
+
+20615=O projecto com o nome \"%s\" já existe. Escolha outro nome.
+20616=Não existem projectos guardados do Grabber 
+20617=Por favor selecione o nome do projecto!
+20618=Quer apagar o projecto Grabber \"%s\"?
+20619=Número inválido de ficheiros explorados em simultâneo. Defina o número correcto.
+20620=Número inválido de ficheiros transferidos em simultâneo. Defina o número correcto.
+20621=Não é possível abrir o ficheiro \"%s\"\r\n\r\n%s
+20622=Gostaría de descarregar e instalar o ficheiro de ajuda do IDM Grabber (cerca de 100 KB) do site do IDM?
+20623=Não é possível carregar o projecto.\r\nErro de alocação de memória.
+20624=Não é possível carregar o projecto.\r\nO ficheiro do projecto do Grabber está corrupto ou a sua versão não é aceitável.
+20625=O ficheiro do projecto do Grabber está corrupto. Vários ficheiros não foram carregados.
+20626=Não é possível carregar o modelo.\r\nO ficheiro do modelo do Grabber está corrupto ou a sua versão não é aceitável.
+20627=A carregar modelo do Grabber 
+20628=A guardar modelo do Grabber
+20629=A guardar projecto do Grabber
+20630=A carregar projecto do Grabber
+      
+//step dialogs captions
+20631=IDM Site Grabber. Passo %d --- %s
+20632=Página inicial
+20633=Guardar ficheiros em
+20634=Definir filtros do explorador 
+20635=Definir filtros de ficheiro
+
+20636=Página de login manual 
+20637=Pressione o botão OK quando o processo de login terminar 
+20638=OK
+20639=Cancelar
+
+//v4.04
+20640=Se pretende assumir os downloads só do Internet Explorer, então não é necessário esse recurso, e você deve responder \"Não\". 
+
+//v4.06
+20641=A ligar a
+20642=Domínio:
+1534=Guardar esta password na lista de passwords do IDM
+1536=Insira o seu nome de Utilizador e Password.
+1537=Utilizador:
+1538=Password:
+
+//v4.07
+
+280=Transferência em lote
+1553=É possível adicionar um grupo sequencial de nomes de ficheiros tipo img001.jpg, img002.jpg, etc., img100.jpg à fila de transferências do IDM. Use o asterisco para o padrão de nome do ficheiro. \nPor exemplo:   http://www.internetdownloadmanager.com/pictures/img*.jpg
+1540=Números
+1541=Letras
+1556=De:
+1557=Até:
+1547=Tamanho
+1555=Substituir asterisco por
+1558=Primeiro ficheiro:
+1559=Segundo ficheiro:
+1560=Último ficheiro:
+
+20643=Marcar todos os ficheiros seleccionados
+20644=Desmarcar todos os ficheiros seleccionados
+
+1552=Substituir nomes de ficheiros que usem asterisco pelo nome de ficheiro padrão:
+
+34024=Adicionar transferência em lote 
+
+20645=Não há nenhum asterisco no URL para criar uma lista de ficheiros a transferir!
+20646=Transferência em lote
+20647=Demasiados ficheiros. O número de ficheiros não deve exceder os 1000. Selecione outro intervalo \"de : até :\".
+20648=Guardar no directório/categoria
+
+//v5.00 beta
+
+20574=Grabber
+20649=Por favor entre na página de logout ou desmarque a caixa de selecção correspondente 
+
+20554=Todos os Ficheiros
+20555=Ficheiros de Imagem
+20556=Ficheiros de Vídeo
+20557=Ficheiros de Áudio
+20558=Ficheiros Executáveis
+20559=Ficheiros Compactados
+20560=Ficheiros de Documento PDF
+
+20561=Não utilizar filtro de exclusão 
+20562=Mapa do Site
+20563=Configurações
+
+20564=Nome do filtro
+20565=Máscara
+20566=Por favor preencha o Nome do filtro 
+20567=Por favor, preencha a Máscara 
+20568=O filtro com o nome \"%s\" já existe. Por favor escolha outro nome.
+
+20650=Aguarde...
+20651=A apagar os ficheiros temporários
+20652=A guardar projecto do Grabber
+20653=A apagar projecto Grabber
+20654=A aplicar as alterações
+20655=A carregar projecto do Grabber
+20661=A verificar alterações
+20662=A transferir a página de login manual
+
+20656=Não há espaço livre suficiente na drive %s para processar o projecto do Grabber. Liberte algum espaço e tente novamente.
+20657=Não há espaço livre suficiente na drive %s para processar o projecto do Grabber. Liberte algum espaço e tente novamente.
+20658=Não é possível abrir o projecto. Alguns dos ficheiros estão corruptos ou foram apagados.
+
+20659=Página inicial completa com todas as imagens, estilos e scripts para navegação offline
+20660=Página inicial completa
+
+20663=Não é possível iniciar a transferência da página de login manual. Verifique a sintaxe do URL.
+
+33010=Executar o Grabber
+
+1563=Clique no botão Avançado para habilitar o login manual ou desabilitar uma página de logout
+1561=Não abrir a página de logout:
+1564=Muitos sites têm páginas de logout que o Grabber não deve abrir. Pode usar o asterisco aqui para especificar um padrão para diferentes páginas de logout.
+1571=Esconder ficheiros duplicados encontrados em localizações diferentes
+1565=Processar JavaScript
+1567=Use esta operação cuidadosamente. Qual é o risco?
+1573=Procure ficheiros na cache do IE antes de transferir
+1568=Use o asterisco como padrão. Use vírgulas sem espaços para separar entradas 
+
+//grabber dlg tree
+20664=Todos os Ficheiros
+20665=Ver por Links
+20671=Ver por Pastas
+20667=Outros sites
+20668=sites
+
+20669=Excluir filtros
+20670=Incluir filtros
+
+t34023=Mostrar estatísticas do Grabber
+271=Estatísticas do Grabber
+1574=Estado:
+1575=Páginas Web processadas
+1576=Simples
+1577=Avançadas
+1578=Ficheiros
+1579=Total
+1580=Explorados
+1581=Correspondentes
+1582=Transferidos
+
+//v5.00 build 3
+20672=Ver miniaturas
+20673=Sem ficheiros transferidos
+
+20674=Não encontrado
+20675=Proibido
+20676=Erro
+
+//v5.01
+284=Agendar o projecto do Grabber
+1583=Explorar/transferir uma vez só
+1584=Sincronização periódica
+1585=Só explorar
+1586=Explorar site e transferir ficheiros correspondentes
+1587=Transferir ficheiros selecionados 
+1588=Passo 3. Agendar
+1601=Passo 2. Selecionar acção
+1600=Passo 1. Selecionar tipo
+1593=Projecto:
+1590=Abrir o seguinte ficheiro quando terminar:
+1595=Reiniciar a cada 
+1597=horas
+1598=min
+1599=Diariamente
+1602=Nota:o IDM deve estar a correr na bandeja do sistema na hora especificada para iniciar um projecto agendado
+20677=Para usar o agendamento de projecto tem de guardar o projecto primeiro. Deseja guardá-lo agora?
+20678=O Internet Download Manager terminou de processar o projecto do Grabber. De acordo com as configurações de agendamento do projecto, o seu computador vai encerrar agora.
+t33010=Executar site Grabber
+t34021=Agendar o projecto
+t34025=Actualizar todos
+20679=O projecto agendado não pôde iniciar às %d:%02d porque o projecto estava a correr a essa hora.
+20680= O projecto agendado não pôde iniciar às %d:%02d porque as configurações do projecto estavam a ser editadas a essa hora.
+20681=O script Java não será processado pelas páginas Web que já foram exploradas/processadas. Se quer processar o script Java para estas páginas tem de clicar no botão \"Actualizar todos\" na barra de ferramentas no diálogo Acção do Grabber.
+20682=O botão de actualização vai actualizar o projecto devido a: (a) começar a explorar o site desde a página inicial, (b) actualizar ficheiros se eles tiverem sido alterados no servidor, e (c) transferir novos ficheiros.
+20683=O botão de actualização vai actualizar o projecto devido a: (a) começar a explorar o site desde a página inicial, (b) actualizar ficheiros transferidos e verificados se eles tiverem sido alterados no servidor.
+20684=Repare que os ficheiros antigos que foram encontrados antes da actualização não serão apagados. O Grabber irá analisar todas as páginas Web novamente, podendo demorar.\r\n\r\nTem a certeza que quer actualizar este projecto?
+
+//version 5.02
+20685=Renomear o projecto
+20686=Minimizar para a bandeja
+20688=Restaurar todas as janelas
+20689=Pode ligar este diálogo em \"Opções-> Transferências\"
+20690=Configurações IDM
+20691=Transferidos %s (%I64d Bytes)
+20692=O ficheiro pode não ter sido transferido totalmente porque o seu tamanho é desconhecido.
+20693=Lembrar este caminho para a categoria \"%s\"
+20694=Transferência terminada
+1610=Endereço
+1611=Ficheiro guardado em
+1606=Abrir pasta
+1607=Não mostrar este diálogo outra vez
+t1608=Procurar
+20695=Transferências IDM
+1615=Ignorar modificações de tempo do ficheiro ao reiniciar um download 
+1613=Ler mais
+20696=O IDM procura uma nova versão a cada 2 semanas, solicitando uma página de actualização do seu local de origem. Se a sua firewall está a bloquear a solicitação de actualização do IDM e mostra uma mensagem de aviso correspondente, deve entender que o pedido é seguro e pode permiti-lo. 
+1617=Endereço
+1619=Endereço:
+1618=Pode usar o asterisco como modelo genérico
+ 
+//Please note that the old menu item string changed from m32771=URL to m32771=Tasks
+//also strings 32771 and 148 have been changed
+
+//v 5.02 Build 2
+1621=Notificação de actualização
+290=Notificação de actualização do IDM
+20697=Sem transferências minimizadas
+
+// v 5.02 Build 3
+1622=Nota: Estas configurações não se aplicam ao processamento de filas
+
+// v 5.02 Build 6
+20698=Procurar
+
+// v 5.02 Build 10
+20586=Encontre abaixo as possíveis razões para este erro:\r\n\r\n 1. Ligação à Internet não encontrada. Verifique a sua ligação à Internet.\r\n\r\n 2. Tem uma aplicação de firewall no seu computador, e acabou de instalar, substituir ou actualizar a sua versão do Internet Download Manager. Verifique as configurações da sua firewall e assegure-se que o IDM possui as permissões necessárias para aceder à Internet.\r\n\r\n 3. Um serviço que encontra servidores na Internet chamado Domain Name Service (DNS) tem problemas temporários, ou a ligação entre o DNS e o computador tem quebras. É possível que possa ter que reiniciar o computador.\r\n
+1570=Referência:
+
+// v 5.02 Build 12
+20587=Quando tentou retomar a transferência, o Internet Download Manager teve como resposta do servidor que não suportava o retomar a transferência. \r\nÉ possível que seja um erro temporário do servidor, e poderá retomar o ficheiro mais tarde, mas neste momento o IDM pode reiniciar a transferência desde o início. \r\n\r\n Deseja transferir este ficheiro desde o início?
+
+// v 5.03
+20699=Os tipos de ficheiro que não estão listados em nenhuma outra categoria
+20700=Clicou no botão "Adiar" mas, na verdade, o IDM já tinha transferido uma parte do ficheiro. O IDM inicia automaticamente o download durante a exibição de diálogo "Informação da transferência". Pode desactivar esta opção em "Opções-> Transferências"
+20701=Adiar
+20702=É necessário um directório temporário para o armazenamento de partes do ficheiro durante o download.\nSe tiver várias unidades físicas no seu computador, deve selecionar diferentes unidades físicas para o directório temporário e pastas "Guardar em" para a montagem mais rápida dos ficheiros transferidos.
+20703=Pôr automaticamente na categoria \"%s\" os seguintes tipos de ficheiro:
+20704=Guardar em
+20705=Categorias, tipos de ficheiro, pastas
+1623=Iniciar o download automaticamente durante a exibição do diálogo "Informação da transferência" 
+
+292=A reiniciar o computador
+1627=Parar
+20706=Reiniciar em %d segundos
+20707=Reiniciar agora
+
+// v 5.04
+//Options->File Types and Options->General changes (for basic integration)
+20708=Tipos de ficheiro
+20709=Tipos de ficheiro transferidos
+20711=Nota: o Opera e browsers antigos baseados no Mozilla podem ser integrados no IDM usando plugins. Este tipo de integração não suporta listas de excepções de servidores para evitar transferir com o IDM. Além disso quando altera a lista de tipos de ficheiros, precisa de reiniciar esses browsers para recarregar os plugins.\nEstas restrições não são aplicadas se usar a \"Integração avançada com o browser\" na aba \"Geral\".
+1632=Detalhes
+1633=Adicionar browser...
+1634=Reintegrar Todos
+20710=Nota: o Opera e browsers antigos baseados no Mozilla podem ser integrados com o IDM usando plugins. Este tipo de integração não suporta chaves especiais para impedir ou forçar transferências com o IDM desde estes browsers.\nSe deseja impedir ou forçar transferências com o IDM ao usar chaves especiais, deve usar a \"Integração avançada com o browser\".
+
+//MessageBoxes
+20713=Integração do IDM com o browser
+20712=O IDM não encontrou o browser %s no seu computador. Localize o executável do browser no seu computador no diálogo seguinte.
+20714=A integração nos browsers usando plugins falhou!
+20715=Os plugins para o browser %s foram instalados.
+20716=Os plugins para o browser %s %s foram instalados.
+20717=Os plugins para o browser %s foram desinstalados.
+20718=Reinicie o browser para aplicar as alterações.
+20719=Localize o executável do browser no próximo diálogo.
+20720=Não é possível instalar a extensão do browser idmmzcc.xpi para o Mozilla Firefox!
+20722=O IDM detectou que o browser %s %s é o seu browser padrão. \nDeseja integrá-lo com o IDM?
+20723=Não é possível instalar a extensão do browser idmmzcc.xpi!
+20724=O browser %s %s será aberto para instalar a extensão para integração com o IDM.\nConfirme a instalação da extensão idmmzcc.xpi da Tonec Inc. no diálogo do browser correspondente e reinicie o browser após a instalação.
+20725=Não é possível instalar plugins para o browser %s %s!
+20726=O IDM foi integrado com sucesso com o Internet Explorer.\nNecessita de reiniciar o IE para aplicar as alterações.
+20727=O IDM detectou que o browser %s %s também foi instalado no seu computador.\nDeseja integrá-lo também com o IDM?
+20728=Os browsers selecionados serão abertos agora para instalar a extensão para integração com o IDM.\nPor favor, confirme a instalação de extensão idmmzcc.xpi da Tonec Inc. no diálogo do navegador correspondente e reinicie o browser após a instalação. 
+20729=Os plugins para os browsers selecionados foram instalados.\nPor favor, reinicie os browsers para aplicar as alterações. 
+20730=O IDM já foi integrado no Internet Explorer!
+20731=O IDM não pôde encontrar este browser no banco de dados básico de integração. Deve tentar a integração avançada browser para capturar downloads deste browser. 
+20732=Não é possível instalar plugins para browsers com o tipo correspondente de integração! 
+
+//new dialogs
+296=Integração com os browsers
+1635=O IDM detectou os seguintes browsers adicionais no seu computador. Por favor seleccione browsers que deseja integrar com o IDM. 
+297=Detalhes do browser
+1636=Adicionar versão...
+20733=Browser
+20734=Tipo de integração
+20735=Caminho
+20736=Extensão
+20737=Plugins
+
+//new menu item on main dlg popup menu and new button on Download complete dlg
+20738=Abrir com...
+1639=Abrir com...
+
+//
+20739=Localizar o browser
+
+// v 5.05
+20740=O IDM já está a transferir este ficheiro!
+20741=Link de transferência duplicado
+298=Link de transferência duplicado 
+20742=Mostrar um diálogo e perguntar o que fazer.
+20743=Adicionar o duplicado com um nome de ficheiro numerado 
+20744=Adicionar o duplicado e substituir o ficheiro existente 
+20745=Se o download estiver completo, mostrar diálogo de download completo, caso contrário retomá-lo. 
+1641=Este ficheiro já existe na sua lista de download. Pode escolher uma das seguintes opções, ou pressionar o botão Cancelar para ignorar a transferência deste ficheiro 
+1645=Lembrar minha selecção e não mostrar este diálogo novamente.\r\nPode alterá-la em Opções-> Transferências posteriormente.
+1646=Se um link duplicado for adicionado:
+
+20746=Internet Explorer, MSN Explorer e browsers baseados no IE
+20747=Netscape 8.0 e seguintes
+20748=Netscape 7.xx e 6.xx
+
+// v 5.05 build 2
+20749=Pode arrastar & largar este ficheiro 
+//Dear translators, if you added "CompleteDlg.htm" topic to your help file, or you did not translate the help file and use the English version, please add and translate the phrase "Press F1 to read more" at the next line.
+20750=Arraste este ícone para iniciar a operação arrastar e soltar para o ficheiro transferido.
+//or 20750=Arraste este ícone para iniciar a operação arrastar e soltar para o ficheiro transferido.\r\nPressione F1 para ler mais.
+20751=Arraste & Solte o ficheiro transferido 
+
+// v 5.07
+1647=Continuar
+20754=Precisará fornecer permissões de administrador para guardar ficheiros na localização selecionada
+20755=Precisará fornecer permissões de administrador para executar esta operação 
+
+// v 5.07 build 2
+20756=O programa de instalação do IDM deve reiniciar o computador para substituir ficheiros que estavam em uso. Pressione o botão OK para reiniciar o seu computador agora
+20757=Confirmar Reiniciar
+20758=O Internet Download Manager foi instalado com sucesso. Começará automaticamente a assumir as transferências do seu browser. 
+20759=Também pode iniciá-lo a partir do menu "Iniciar-> Todos os Programas-> Internet Download Manager". 
+
+// v 5.07 build 6
+//new checkbox on Options->General
+1650=Executar módulo de monitorização de browsers baseados no IE
+//v 5.08 build 5
+//new dialogs
+302=A cancelar uma transferência iniciada automaticamente
+1651=Cancelou este download duas vezes.\n\nSe o IDM sempre assume esse download por engano, pode adicionar este endereço ou este site à lista de excepções IDM:
+1652=Não transferir automaticamente deste site:
+1653=Não transferir automaticamente a partir destes endereços:
+1655=Também pode editar a lista de excepções em \"Opções-> Tipos de Ficheiro\"
+1654=Não mostrar este diálogo novamente
+
+303=A lista de excepções de endereços
+1661=Não transferir automaticamente dos seguintes endereços:
+1659=Mostrar o diálogo para adicionar um endereço à lista de excepções para uma transferência cancelada duas vezes
+
+304=Adicionar um endereço à lista de excepções
+
+//changes in "Options->File Types" dialog:
+1656=Editar lista...
+//label 1372 was divided into 2 parts
+1667=Não transferir automaticamente dos seguintes sites:
+1662=(nomes separados por espaços)
+
+//v 5.08 build 7
+20763=O ficheiro pedido parece ser uma página html.\r\n\r\nO servidor enviou uma página html no segundo pedido. Alguns servidores não permitem solicitar o mesmo ficheiro duas vezes. Como tem a opção "Iniciar o download automaticamente durante a exibição do diálogo "Informação da transferência"" desactivada, o IDM enviou o primeiro pedido para descobrir o tipo e tamanho do ficheiro, e mandou o segundo pedido quando pressionou em "Transferir".\r\n\r\nActive esta opção em "Opções-> Transferências", actualize a página no seu browser e tente transferir este ficheiro novamente. 
+
+//v 5.09 build 4
+305=O IDM não pode assumir o download 
+20764= Alguns sites não permitem solicitar o mesmo ficheiro duas vezes.\r\n\r\nO browser fez o primeiro pedido do ficheiro \"%s\" e depois quando o IDM tentou solicitar o mesmo ficheiro novamente, o site enviou uma página web para o IDM, em vez do download.\r\n\r\nPara assumir esta transferência pode definir uma chave especial em "Opções-> Geral-> Chaves". Pressione e segure esta tecla enquanto clica no download link para que o IDM possa assumir o download antes do primeiro pedido do browser. Note-se que a tecla "Ins" deve funcionar para a maioria dos browsers. 
+
+//v 5.11
+//new scheduler dialog
+308=Agendamento
+1675=Nova fila
+1678=Apagar
+1684=Filas
+20783=Filas
+306=Agenda
+1680=Número de novas tentativas para cada ficheiro se o download falhar:
+307=Ficheiros na fila
+1687=Limites de transferência
+20765=Limites de transferência
+20767=Fila # %ld
+20768=Fila de download principal
+20769=Sincronização de filas
+
+20770=Criar
+20771=Mover para fila
+20772=Adicionar fila
+20773=Iniciar agora
+20774=Parar
+20775=Editar fila
+20776=Agenda
+20777=Quer mesmo apagar %s?
+20778=Iniciar %s
+20779=Parar %s
+20780=Filas IDM
+20781=As fotos na coluna \"F\" mostram a qual fila os ficheiros pertencem.\r\nPode mover ficheiros de uma fila para outra com o menu de contexto de ficheiros.\r\nPara mais informações sobre filas, consulte o ficheiro de ajuda Agendamento. 
+20782=Gostaria de transferir e instalar o ficheiro de ajuda (cerca de 100 KB) \"Agendamento e filas\" do site do IDM? 
+1685=Agendou o horário de início do processamento da fila.\r\nPor favor, note que, a fim de começar a fila no horário especificado, é necessário ter o IDM em execução naquele momento, pelo menos na área de notificação da barra de tarefas-Bandeja (veja a foto seguinte) 
+310=Introduzir nome da fila
+1686= Insira um nome para a nova fila que será exibido na lista de filas 
+
+//menu items
+m34026=Iniciar fila
+m34028=Parar fila
+34029=Agendamento e filas
+//tooltips for "Start queue" and "Stop queue" toolbar buttons.
+t34030=Inicie a fila de transferência principal ou escolha uma fila para começar na lista dropdown
+t34031=Pare a fila de transferência principal ou escolha uma fila para parar na lista dropdown
+ 
+//v 5.11 build 3
+1679=Transferir uma só vez 
+
+//v 5.11 build 5
+20786=A transferência de dados foi interrompida e o servidor não suporta \"retoma\". Só é possível transferir o ficheiro desde o início.\r\n\r\nExistem várias formas de resolver o problema:\r\n 1. É possível que o servidor tenha problemas temporários. Tente retomar a transferência mais tarde.\r\n 2. Pode deixar o ficheiro sozinho na fila (crie uma nova fila) e inicie a fila. Neste caso o IDM tentará transferir o ficheiro novamente desde o início até o fazer com sucesso.\r\nPara obter os melhores resultados, deve também definir 1 ligação para este site na lista de excepções na aba do IDM \"Opções->Ligações\".\r\n
+20784=A extensão \"IDM CC\" para browsers baseados em Mozilla foi alterada nesta versão do IDM. Necessita de reinstalar a extensão para usar as novas funções. Deseja reinstalar a extensão para o browser %s %s?
+20785=A extensão \"IDM CC\" para browsers baseados em Mozilla foi alterada nesta versão do IDM. Necessita de reinstalar a extensão para usar as novas funções. Deseja instalar a nova extensão \"IDM CC\" para browsers que tenham uma extensão \"IDM CC\" mais antiga?
+
+//v 5.11 build 7
+//Items in context menu of browsers:
+20810=Transferir com o IDM
+20811=Transferir vídeo FLV com o IDM
+20812=Transferir o último vídeo FLV requisitado 
+20813=Escolher dos últimos 10 vídeos FLV requisitados
+20814=Transferir o último vídeo FLV requisitado com o IDM
+20815=Transferir vídeos FLV com o IDM a partir dos 10 últimos pedidos 
+20816=Transferir todos os links com o IDM
+20817=Transferir conteúdo de vídeo FLV com o IDM
+
+20790=A guardar vídeo FLV
+20791=Pode guardar os vídeos FLV que quiser usando o menu \"Transferir conteúdo de vídeo FLV com o IDM\" no menu de contexto do browser.\r\n\r\nO menu de contexto do browser é mostrado quando clica com o botão direito numa página web (mas não num player FLV) no seu browser ou ao usar a tecla de menu de contexto no seu teclado.
+20792=Não foi possível encontrar links de vídeos FLV nesta página web.\r\nÉ possível que o seu browser não tenha requerido o ficheiro ainda. Precisa de esperar até o seu browser fazer o pedido e voltar a tentar. Nalguns casos só precisa de carregar no botão \"Reproduzir\" no seu web player.
+20793=Transferir com o IDM 
+20794=Transferir todos como o IDM
+20795=Não é possível encontrar os links!\r\nSe esta página não tem links, refresque a página e tente novamente. Se o problema persistir, contacte a equipa de suporte do IDM.
+20796=Não é possível encontrar links de vídeo FLV!
+20797=Não foi possível obter os links de vídeo da internet pedidos pelo explorador!\r\nVocê (ou algum tipo peculiar de programa de remoção de spyware) desabilitou o IDM Browser Helper Object no seu IE. Use o item do menu do Internet Explorer \"Ferramentas->Gerir add-ons->Habilitar ou desabilitar add-ons\". Depois procure o add-on \"IDMIEHlprObj Class\" e habilite-o.
+20798=Não é possível ligar a interface do IDM que monitoriza os links de vídeo da internet pedidos pelo explorador.\r\nCausas possíveis:\r\n – Não reiniciou o seu computador após actualizar o IDM para a versão mais recente. Reinicie o computador e volte a tentar.\r\n – O IDM não foi instalado correctamente. Tente descarregar a última versão do IDM do site oficial e tente novamente.
+//new feature in "Options->General" dialog:
+1688=Editar...
+1689=Personalizar itens do menu IDM no menu de contexto
+334=Internet Explorer e baseados no IE
+335=Baseados em Firefox e outros Mozilla
+1696=Itens do menu selecionados serão exibidos no menu de contexto do browser:
+20818=Por favor reinicie o Internet Explorer para aplicar as alterações 
+20819=A alterar o menu de contexto do IE 
+
+//v 5.11 b8
+20820=Sair agora
+ 20821=Sair do IDM
+20822=O Internet Download Manager terminou o processamento da fila. De acordo com as definições do agendador, o IDM vai sair. Mas tem outros downloads em andamento que serão parados na saída. Pressione o botão Cancelar para não sair.
+//v 5.11 build 9
+20823=Cancelou downloads semelhantes.\n\nSe o IDM assume tais downloads por erro, pode adicionar este site ou um padrão para endereços semelhantes à lista de excepções IDM: 
+20824=Não capturar downloads de endereços semelhantes usando este padrão: 
+336=Relatório para os desenvolvedores do IDM 
+1702=Pode enviar um relatório para os desenvolvedores do IDM sobre os downloads que foram assumidos por engano para encontrar uma solução para este site em futuras versões do IDM 
+1698=Adicionada a seguinte excepção:
+1700=O URL de referência a partir do qual a transferência foi assumida por engano:
+1703=Pode usar o asterisco para o padrão de endereço. 
+
+//v5.12
+20825=(Limitado)
+1707=Usar Limitador de Velocidade
+337=Definições do Limitador de Velocidade 
+1704=Ligar sempre o Limitador de Velocidade no arranque do IDM
+1705=Mostrar a caixa de selecção \"Usar limitador de velocidade\" no diálogo \"Progresso da transferência\"
+1706=Lembrar as excepções feitas pelo utilizador nos diálogos \"Progresso de transferência\" para usar o limitador de velocidade independentemente do limitador de velocidade global estar ligado ou não
+1708=Velocidade máxima de download para um ficheiro
+1709=KBytes/seg
+1710=Nota: Os servidores de Internet podem quebrar a ligação quando a velocidade é muito limitada! Assim, não é recomendado usar o limitador de velocidade para transferir de servidores que não suportam a função \"Reiniciar\". 
+1711=Configurações do limitador de velocidade para transferências individuais 
+m34033=Limitador de velocidade
+34033=Ligar
+34034=Desligar
+34035=Definições...
+
+//v5.12 build 5
+20831=Se um vídeo FLV na página web é reproduzido pelo seu browser, é possível que o IDM não possa associar este link FLV com esta página web. Deve tentar usar o item do menu de contexto \"Transferir vídeos FLV com o IDM a partir dos últimos 10 pedidos\".\r\n(O menu de contexto dos browser pode ser personalizado na aba \"Opções do IDM->Geral\")
+20830=Um erro CRC ocorreu enquanto transferia. Isso significa que teve algum problema com o seu disco rígido. Deve analisar os seus discos em busca de erros usando o diálogo do Windows \"Verificação de erros\" nas propriedades de disco->ferramentas.
+
+//5.12b7
+20832=Precisa de providenciar permissões de administrador para registar o IDM para todos os utilizadores neste computador
+
+//5.12b8
+20837=Confirmar eliminação de transferências
+20833=Os downloads selecionados não estão completos. Tem a certeza que deseja excluí-los da lista de downloads? 
+20834=O download selecionado não está completo. Tem a certeza que deseja excluí-lo da lista de downloads?
+20835=Há downloads incompletos entre os selecionados. Tem a certeza que deseja excluí-los da lista de downloads também? 
+20836=Tem a certeza que deseja excluir todos os downloads completos da lista de downloads de IDM? 
+1715=Tem a certeza que deseja excluir da lista de downloads os itens selecionados? 
+1713=Elimina também os ficheiros transferidos do seu disco rígido também. Tenha cuidado! 
+//v5.14
+20850=vídeo
+20851=áudio
+20852=Transferir este %s
+20853=Transferir este %s com o IDM
+20854=Sobre este painel
+20855=Fechar
+20856=Este é o painel de transferências do IDM.\r\nPode ser personalizado ou desligado em \"IDM-> Opções-> Geral\"
+20857=Painel de transferências do IDM
+20858=Transferir %s desta página
+20859=Transferir %s desta página com o IDM
+20860=Transferir todos
+20861=%ld %s ficheiros
+20862=ficheiro
+
+//new on Options->General
+1724=Painel de transferências do IDM para web players nos browsers
+1727=O IDM pode mostrar o seu painel de transferência num web player num browser quando o IDM detecta um pedido multimédia do web player
+1728=Aspecto do painel:
+1717=Completo
+1718=Minimizado
+1726=Mostrar o painel de transferência para os seguintes tipos de ficheiro:
+20863=Nota: Se desmarcar um tipo de ficheiro na lista acima e se o tipo de ficheiro estiver na lista de Tipos de ficheiro, os downloads deste tipo de ficheiro serão capturados pelo IDM automaticamente e não serão visualizados no web player. Se quiser evitar isso, marque a caixa a seguir:
+1720=Não capturar downloads dos web players automaticamente
+
+//on Scheduler dlg
+1729= Iniciar a transferência no arranque do IDM 
+20864=Pode utilizar a integração neste browser depois de activar a característica \"Integração avançada no browser\" neste diálogo 
+1731=Aviso: Está a executar o IDM com privilégios de administrador.\r\nO IDM não será capaz de assumir o controlo dos downloads de browsers neste modo. 
+20865=O Firefox não pode transferir o download de ficheiros para o Internet Download Manager, porque tem a caixa \"Executar este programa como administrador\" marcada na janela das propriedades do arquivo IDMan.exe. \r\n\r\nPor favor abra a pasta IDM, clique direito sobre \"IDMan.exe\", selecione \"Propriedades \", mude para \"compatibilidade\", e desmarque \"Executar este programa como administrador\". 
+
+//v5.16
+20867=Não é possível retomar o download do ficheiro:
+20868=O IDM está a aguardar o novo endereço para retomar o ficheiro:
+20869=É possível que o endereço do ficheiro não seja mais válido ou a sua sessão expirou. 
+20870=É este o novo endereço para o seu download expirado? 20872=Actualizar o endereço de download 
+20873=O IDM está a aguardar um novo endereço para uma transferência expirada. Apenas uma transferência expirada deve usar esta característica, de cada vez.
+20874=O IDM vai abrir uma página da web no seu browser onde capturou esta transferência. Inicie novamente a transferência do mesmo ficheiro desde o seu browser, e o IDM vai tentar capturar um novo endereço ou novos dados de sessão para retomar a transferência.
+20871=A aguardar novos dados
+1732=Parar a espera
+20875=Foi recebido um novo link para este ficheiro.
+20876=Inicie novamente a transferência do mesmo ficheiro manualmente desde o seu browser, e o IDM vai tentar capturar um novo endereço ou novos dados de sessão para retomar a transferência.
+20877=Tente refrescar a sessão de transferência e obtenha um novo endereço usando o item \"Refresque o endereço de transferência\" do menu do clique direito na lista de transferências de ficheiros do IDM.\r\nOu tente apagar esta transferência, depois inicie-a desde o seu browser para a transferir com o IDM desde o início.
+20878=A transferir página web do proprietário para actualizar endereço do link
+20879=O website enviou uma página web em vez de um ficheiro quando o IDM o solicitou novamente. Provavelmente este site usa links temporários e não permite solicitar o mesmo endereço duas vezes.\r\n\r\nTente apagar esta transferência, depois recomece-a desde o seu browser e, quando o IDM  a capturar, transfira sem parar/pausar.
+1741=A página web a partir da qual este ficheiro foi obtido:
+20880=A verificar endereço: %s
+20881=Não marcou qualquer ficheiro para download!\r\nSe não quer transferir nada, feche o diálogo \"%s\" clicando no botão \"Cancelar\". 
+20882=Adicionar ficheiros para transferir com o IDM
+1739=Mostrar painel de selecção de fila ao clicar em "Adiar"
+1738=Mostrar painel de selecção de fila ao adicionar transferências em lote
+1735=Adicionar ficheiros à fila:
+20884=Não adicionar a nenhuma fila
+1736=Iniciar o processamento da fila
+1737=Não voltar a perguntar
+20883=Pode ligar este painel em \"Opções-> Transferências\"
+
+//v5.17b4
+34036=Adicionar transferência em lote a partir da &área de transferência
+20885=Vários URLs encontrados na área de transferência. Quer transferi-los? 
+20886=Download em lote a partir da área de transferência. 
+20887=Não é possível localizar qualquer endereço da web na área de transferência! 
+
+//v5.18b3
+m34037=Ícone da bandeja do sistema
+34037=Estilo 3D
+34038=Estilo clássico
+34039=Não mostrar
+
+//v5.18b5
+20889=A sua licença do Internet Download Manager expirou.\r\nO IDM parou de funcionar. Por favor, obtenha uma nova licença para usar o IDM 
+20890=Atenção:.\r\nA sua licença para o IDM irá expirar em %ld dias\r\n\r\nPor favor, note que o item \"Registo-> Registo\" está desactivado agora,\r\nmas vai ser activado assim que a sua licença expirar 
+
+20891=Não marcou nenhum dia da semana em o agendador deve iniciar! 
+20892=Iniciar diariamente 
+
+20893=Introduziu um espaço antes do nome de utilizador. Se o espaço foi inserido por engano, gostaria que o IDM exclua o espaço? 
+20894=Introduziu um espaço após o nome de utilizador. Se o espaço foi inserido por engano, gostaria que o IDM exclua o espaço? 
+20895=Introduziu um espaço antes da password. Se o espaço foi inserido por engano, gostaria que o IDM exclua o espaço? 
+20896=Introduziu um espaço após a password. Se o espaço foi inserido por engano, gostaria que o IDM exclua o espaço? 
+
+//5.19
+1748=Personalizar o painel de transferências do IDM 
+20899=Para web players
+20900=Para ficheiros selecionados
+1749=O IDM pode mostrar o painel de transferência numa página web quando seleccionar um texto que contenha links para download. 
+20901=(Actualmente esse recurso funciona para o Internet Explorer, browsers baseados no IE, Firefox e browsers baseados no Mozilla)
+20903=Transferir ficheiro(s)selecionado(s) com o IDM
+1744=Mostrar painel de transferência para todos os links selecionados 
+1745=Não mostrar o painel Transferir para links selecionados 
+1746=Mostrar o painel Transferir para links selecionados para os seguintes sites:
+1751=Capturar downloads dos seguintes browsers:
+1742=Marcar todos
+1743=Limpar todos
+
+//5.19b3
+20904=O IDM não consegue encontrar um componente que instala/desinstala a integração avançada com o browser. Por favor, reinstale o IDM. 
+20911=O IDM irá transferir uma página web em vez de um ficheiro. 20909=Gostaria de saber como transferir ficheiros do Rapidshare com o IDM? 
+20910=Gostaria de saber como fazer o download a partir de sites de partilha de ficheiros com o IDM? 
+20905=Não é possível transferir o download para o IDM 
+20906=É possível que o seu browser e o IDM estejam definidos para serem executados com diferentes privilégios (diferentes níveis de elevação).\r\n\r\nSe executar o IDM usando \"Executar como administrador\", por favor saia do IDM (\"Tarefas-> Sair\") e execute o IDM normalmente.\r\n\r\nTalvez tenha marcada a caixa \"Executar este programa como administrador\" nas propriedades do Windows do Idman.exe. Por favor abra pasta IDM, clique direito sobre \"IDMan.exe\", selecione o item de menu \"Propriedades\", clique em \"Compatibilidade\" e desmarque a caixa \"Executar este programa como administrador\". Além disso, precisa remover a compatibilidade com versões anteriores do Windows se estiver activada. Por favor reinicie o IDM depois disso. 
+20907=Se as caixas \"Executar este programa como administrador\" ou \"compatibilidade com versões anteriores do Windows\" não estão marcadas para o IDM, por favor, desmarque-as nas propriedades do Windows do seu browser. 
+
+//v6.0b
+20897=vídeo %dx%d, duração %d:%02d
+20912=Duração
+20913=Por favor note que se tiver vários utilizadores no seu computador, a integração avançada do browser será desactivada para todos os utilizadores. 
+20914=Depois de integrar o Internet Download Manager na nova aplicação, pode desligar a opção \"Detectar Novas Aplicações\" para um melhor desempenho. 
+20915=Esta é uma versão beta do Internet Download Manager.\r\nEle irá instalar um novo driver de rede, o que melhora significativamente a integração com os web players e altera antigas integrações com vários browsers como o Chrome ou Opera. Se encontrar algum problema na ligação com a Internet, por exemplo, um congelamento do sistema ou acidentes, etc., por favor, abra as Opções e desmarque a opção \"Usar integração avançada com o browser\" na aba Geral. O novo driver será desligado. 
+
+//v6.03b2
+20919=O IDM descobriu que o seu computador pode não ter um leitor que reproduza vídeos %s. Será necessário instalar qualquer leitor %s.\r\n\r\nGostaria de ler sobre um leitor %s? 
+20920=%s vídeo foi transferido
+
+//
+//Dear translators, please note that we have changed several old strings:
+//
+t1278=Esconder categorias
+t32789=Adicionar manualmente um novo endereço para download
+t1004=Adicionar um ficheiro à lista do IDM list para transferir mais tarde
+t1061=Monitorizar a área de transferências em busca de links para transferir com o IDM
+187=Carrinho de transferências. Coloque links da web para download aqui.
+20176=O ficheiro solicitado parece ser uma página html.\r\n\r\nSe esta transferência foi tomada a partir do seu browser automaticamente quando clicou num link, pressione a tecla Alt ao clicar no link para deixar o IE abrir a página.\r\n\r\nGostaria de continuar o download do ficheiro com o IDM e guardá-lo como página html? 
+20177=O ficheiro transferido parece ser uma página html.\r\n\r\nSe esta transferência foi tomada a partir do seu browser automaticamente quando clicou num link, pressione a tecla Alt ao clicar no link para deixar o IE abrir a página.\r\n\r\nGostaria de mudar o nome do ficheiro transferido para página html?
+34012=Procurar nova Barra de Ferramentas
+20573=Procurar nova Barra de Ferramentas 
+57670=Conteúdos de ajuda
+20721=O IDM foi integrado com sucesso no Mozilla Firefox.\nPrecisa reiniciar o browser Firefox para aplicar as alterações 
+20342=Link para download foi encontrado na área de transferência. Quer fazer o download? 
+
+//Old strings 20016, 20017, 20350 replaced with:
+20916=Ocorreu um erro desconhecido durante o download. Por favor, tente novamente. 
+20917=Ocorreu um erro durante o download. Por favor, tente novamente. 20918=O seu número de série para Internet Download Manager foi bloqueado por causa de registos diferentes. O IDM vai encerrar... 
+
+//v6.03b3
+//We have changed the old strings: 20146 and 20033 (Tab name) 
+
+20921=Gostaria de saber como transferir ficheiros a partir do site %s com o IDM? 
+20923=Executável IDM está no ambiente de trabalho 
+20922=Você colocou o ficheiro executável do IDM no Ambiente de Trabalho.O IDM não pode funcionar correctamente sem os outros ficheiros, por favor, mova IDMan.exe novamente para a sua pasta e crie um atalho para o IDM no Ambiente de Trabalho. Para criar um atalho, dê um clique com o botão direito no Ambiente de Trabalho, selecione Novo-> Atalho, no menu pop-up clique em Procurar-> Computador-> Programas (ou Programas (x86) se for um sitema de 64bits)-> Internet Download Manager, clique no item IDMan-> OK. Depois basta seguir as instruções. 
+20924=Nota 2: Às vezes, quando clica num link, o browser pede outros ficheiros AO MESMO TEMPO, como scripts Java, páginas web, imagens, etc. Quando pressionar e segurar uma tecla especial, o IDM intercepta esses arquivos, e o browser pode não pedir o ficheiro necessário, porque não vai executar um Javascript que foi interceptado por IDM erroneamente. Se quiser interceptar e transferir apenas os ficheiros necessários com o IDM, por favor active a opção a seguir:
+1753=Enquanto mantiver pressionada uma tecla especial NÃO assumir os downloads que sejam páginas web, imagens, scripts e etc. 
+20925=Tem uma integração com o browser %s obsoleta, ou a integração %s não está instalada. Gostaria de saber como corrigir isso? 
+20926=O IDM mostra um painel de transferência em vez de capturar os downloads de web players quando a integração %s está funcionando correctamente. 
+
+//v6.04b2
+20928=O IDM interceptou este ficheiro a partir de um web player por causa do painel de transferência estar desabilitado para o respectivo tipo de ficheiro nas Opções.\r\n\r\nSe quiser que o IDM se abstenha de interceptar tais ficheiros vá a \"Opções-> Geral\", clique em \"Editar..."\ junto a "Personalizar o painel de transferências do IDM"\ e marque a caixa \"Não capturar downloads dos web players automaticamente"\ na janela pop-up. 
+20929=O IDM não pode executar a Integração Avançada do Browser por causa de qualquer uma das seguintes razões:\r\n1. Você não tem direitos de administrador ou não permitiu ao programa IDM executar como administrador.\r\n2. Você pressionou o botão Cancelar durante a instalação do driver de rede IDM.\r\n3. Você bloqueou a inicialização do driver de rede IDM ou a sua instalação por meio do software de segurança de terceiros ou antivírus. 
+//v6.04b3
+20930=O IDM não pode localizar o ficheiro(s) %ld que são necessários para o browser e integração de sistemas. Por favor, reinstale o IDM 
+
+//v6.06
+//"Serial Number" explanation on registration dialog
+20931=O que é o \"%s\"?
+20932=%s é uma chave de producto do Internet Download Manager.\r\nÉ um código alfanumérico único para cada utilizador que se assemelha a isto\r\nxxxxx-xxxxx-xxxxx-xxxxx\r\n\r\nSÓ irá receber a sua Chave de Activação após a compra do IDM.\r\nClique no botão \"%s\" para comprar o IDM.
+
+//v6.07
+20933=Essas configurações estão indisponíveis para os downloads que são processados a partir de fila IDM 
+20934=Configurações indisponíveis quando \"%s\" está ligado
+363=Estado da transferência
+364=Opções após terminar
+20935=O Internet Download Manager terminou o download de um ficheiro. De acordo com as suas configurações para este download o IDM vai fechar. Mas existem outros downloads em andamento que serão parados na saída. Pressione o botão Cancelar para não sair.
+20936=Internet Download Manager terminou de transferir um ficheiro. De acordo com as suas configurações para este download o IDM vai desligar seu modem.
+20937= Internet Download Manager terminou o download do ficheiro. De acordo com as definições para este download o seu computador vai desligar-se. 
+1762=Mostrar painel de transferência para conteúdo protegido\r\nque o IDM não pode transferir
+20938=conteúdo protegido
+20939=O IDM não pode transferir este fluxo protegido por razões legais. O download de tais fluxos não é suportado porque o IDM não pode ignorar as medidas tecnológicas que são feitas para a proteção de áudio, vídeo e conteúdo de dados.\r\n\r\nÉ possível desligar este painel em \"Opções -> Geral\"
+
+//v6.07b7
+365=Limitador de Velocidade 
+1763=Velocidade máx. de transferência:
+1765=Lembrar configuração do Limitador de velocidade para este ficheiro \r\npara paragem/retoma da transferência
+1772=Esconder aba
+367= Personalizar diálogo de progresso de transferência
+1767=Personalizar "Progresso de transferência"
+1775=Aspecto inicial:
+1774=Nota: A opção "Aspecto inicial" não diz respeito à fila de processamento. Quando o IDM está a processar filas, o diálogo "Progresso de transferência" começa sempre minimizado na área de notificação 
+1768=Mostrar aba "Limitador de velocidade" 
+1769=Mostrar aba "Opções após conclusão" 
+1773=Mostrar botões de "Esconder aba" 
+
+//v6.07b12
+20941=Erro ao ligar à VPN
+20940=É possível que tenha que mudar a ligação configurada nas Opções, ou desmarcar a caixa \"Usar Windows DialUp / VPN Networking\" em Opções-> \"DialUp / VPN\"
+20942=qualidade
+
+//v6.08b2 beta
+20949=Proxy/Socks
+20948=Configurações Proxy/Socks
+369=Configurações avançadas de proxy
+1777=Avançadas...
+1778=Usar proxy
+1785=Usar este proxy para os seguintes protocolos:
+1779=Usar socks
+1786=Endereço de servidor Socks 
+20943=Não é possível ligar ao servidor socks, autorização necessária 
+20944=Servidor Socks não consegue ligar a %s 
+20945=Não é possível ligar via servidor socks, tipo socks desconhecidos 
+20946=Não é possível ligar via servidor socks, a autorização falhou! 
+20947=Não é possível ligar ao servidor de socks %s
+
+//v6.09b2 beta
+1787=Excepções
+370=Excepções do painel de transferência
+1788=Não mostrar painel de transferência para os seguintes sites:
+1789=Separe os nomes com espaços. Pode usar asterisco como padrão 
+20950=O IDM não pode executar a Integração Avançada do Browser porque o serviço Windows de \"Motor de Filtragem Base\" não está em execução. Por favor, clique com o botão direito no ícone Computador, selecione \"Gerir\", navegue para \"Serviços e Aplicativos -> Serviços\", em seguida, encontrar \"Motor base de dados de filtragem\" na lista e clique com o botão direito sobre ele para abrir as Propriedades. Alterar o tipo de inicialização para \"Automático\", clique em \"Iniciar\" e confirmar as alterações.\r\n\r\nClique em OK para visitar uma página web para obter informações adicionais. 
+20951=O IDM não pode executar a Integração Avançada do Browser porque o serviço Windows de \" Motor de Filtragem Base\" está em falta. Isso pode acontecer por causa do seu sistema estar a ser danificado por um malware de computador.\r\n\r\nClique em OK para abrir uma página web com instruções de recuperação. 
+//v6.11
+341=Adicionar tipo de ficheiro
+349=Inserir nome do site
+1790=Colocar automaticamente nesta categoria os ficheiros somente a partir dos seguintes sites:
+1793=Sites separados por espaços. Pode usar o asterisco como um padrão
+20952=Por favor, note que de acordo com a licença IDM que aceitou durante a instalação do IDM, agora deve desinstalar o IDM ou comprá-lo 
+
+//v6.11b7
+20953=Recente...
+
+//v6.12b2
+20954=O seu browser não pode abrir o site IDM porque um ficheiro de sistema importante está danificado no seu computador. Reparar o ficheiro? 
+20955=IDM não pode procurar actualizações, pois um ficheiro de sistema importante está danificado no seu computador. Reparar o ficheiro? 
+
+//v6.12b5
+1795=Marcar data de criação do ficheiro fornecida pelo servidor
+
+//v6.12b6
+20956=Para actualizar uma parte da extensão IDM para o Firefox feche o Firefox (ou SeaMonkey) e pressione o botão "\Repetir\"\r\nou terá que reiniciar o computador mais tarde 
+
+//v6.12b22
+20995=O IDM começou a transferir o ficheiro usando uma ligação por causa de corrupção de dados quando os dados recém-recebidos em várias ligações não coincidiram com os mesmos dados transferidos anteriormente.\r\nQuer ler sobre as possíveis razões de corrupção de dados? 
+20996=O IDM começou a fazer o download do ficheiro a partir do início, pois os dados foram corrompidos porque os dados recém-recebidos não correspondem aos mesmos dados transferidos anteriormente.\r\nQuer ler sobre as possíveis razões de corrupção de dados? 
+20997=A extensão IDM foi instalada com sucesso no (ou atualizada no) browser Google Chrome.\nPrecisa reiniciar o Chrome para aplicar as alterações 
+
+//v6.15
+1796=Usar script de configuração automática 
+20998=Autorização proxy é necessária para esse servidor proxy. Ou desmarque a caixa \"Usar script de configuração automática\" em Opções-> Proxy/Socks 
+20999=O IDM detectou que está a usar o seguinte script de configuração automática de proxy no Internet Explorer:\r\n%s\r\n\r\nPretende usar as mesmas configurações de proxy no IDM? 
+//v6.15b7
+21000=Esta é uma transmissão ao vivo. Se parar, não será capaz de continuar a transferência a partir da posição actual.\r\nPretende parar e guardar a transmissão como um ficheiro completo? 
+21001=A guardar Live stream
+
+//v6.15b9
+21002=O download do script de proxy falhou 
+21003=Gostaria de ler as instruções detalhadas sobre como configurar o firewall para funcionar com IDM? 
+
+//6.15b10
+21004=formato desconhecido (%d)
+20898=A transferir até corresponder com um quadro na próxima parte do ficheiro... 
+
+//v6.16
+21105=A integração avançada no browser não pode ser activada porque uma versão defeituosa do driver Kaspersky TDI está instalada!\r\nSe actualizar automaticamente o seu produto Kaspersky não ajudar, entre em contato com o suporte da Kaspersky para obter uma actualização para o driver \"kltdi\". 
+//v6.17b7
+21106=Ocorreu um erro durante a montagem do ficheiro 
+21109=Esta versão do IDM não suporta esse tipo de download. Tente actualizar o IDM para a última versão. 
+21110=A extensão do IDM foi instalada com sucesso no (ou atualizada no) browser Google Chrome.\r\nDeve habilitar a extensão \"Módulo de Integração IDM\" nas configurações do Google Chrome se quiser que o IDM trabalhe com o Chrome correctamente 
+21111=1. Por favor, reinicie o Google Chrome e clique no menu do Chrome (seta 1 na imagem)\r\n2. Selecione o menu \"Configurações\" (seta 2 na imagem).\r\n3. Selecione a aba \"Extensões\" (seta 3 na imagem).\r\n4. Verifique se a extensão \"Módulo de Integração IDM\" está habilitada (seta 4 na imagem).\r\n5. Se usar o modo anónimo no Chrome, tem que marcar a caixa \"Permitir em modo anónimo\" (seta 5 na imagem).
+//v6.18b8
+//we have changed Options->Connection tab
+21113=Vel. Baixa: Dial Up modem / ISDN / Bluetooth / Mobile Edge / IrDA
+21114=Vel. Média: ADSL / DSL /  Mobile 3G / Wi-Fi / Bluetooth 3.0 / Outra
+21115=Alta Vel.: Ligação directa(Ethernet/Cable) / Wi-Fi / Mobile 4G / Outra
+21116=Por favor use um número elevado de ligações com cautela. Alguns servidores podem ter limitações específicas para uma série de ligações a partir de um cliente. Quando o número de ligações é alto, os servidores podem colocar o seu computador numa lista negra, especialmente quando transferir vários ficheiros ao mesmo tempo com um alto número de ligações.\r\n\r\nAlém disso, para alguns tipos de ligação, ou para computadores de baixo desempenho ou routers, a velocidade de download pode diminuir quando aumentar o número de ligações.
+
+//v6.19
+21117=Há apenas um nome de pasta na sua selecção. Por favor insira um nome para o ficheiro.
+21118=O tamanho do ficheiro \"%s\" é %.1f  GBytes.\r\nA unidade \"%s\", onde quer guardar o ficheiro tem sistema de ficheiros %s. Os ficheiros maiores que %d GBytes não podem ser escritos sobre este sistema de ficheiros.\r\n\r\nPor favor escolha uma pasta para este ficheiro noutra unidade com sistema de arquivos NTFS.
+21119=O tamanho do ficheiro\r\n%s\r\né %.1f GBytes.\r\nA pasta temporária do IDM para armazenar partes ficheiros durante o download está localizada na unidade \"%s\", esta unidade tem sistema de ficheiros %s. Os ficheiros maiores que %d GBytes não podem ser escritos sobre este sistema de ficheiros.\r\n\r\nPara continuar o download, por favor, altere a localização da pasta temporária para outra unidade em \"Opções-> Guardar em\" e, em seguida, continuar o download
+
+//v6.19b8
+21005=apenas faixa de áudio
+21006=apenas faixa de vídeo
+
+//v6.19b9
+21120=A procura de actualizações falhou, porque a informação de actualização é inválida.\r\nSe usa WI-FI que necessita de autenticação no browser, autentique-se antes de procurar actualizações.
+21121=Alguma aplicação danificou a integração do IDM com os browsers\r\n\r\nNecessita de reinstalar o IDM para a restaurar. Ou tente actualizar o IDM utilizando o item \"Ajuda->Procurar actualizações\" no menu do IDM.\r\nVerifique também que a integração do IDM com o seu browser está ligada na aba Opções->Geral.
+
+//6.21b3
+21125=Mover
+21126=Mover/Renomear
+
+//new "Find file" dialog
+487=Encontrar ficheiro
+21122=Encontrar ficheiro
+21123=Nenhum destes ficheiros encontrado
+21124=A pesquisa terminou
+1807=Nome do ficheiro ou parte do nome:
+1809=Descrição ou parte da descrição:
+1811=Corresponder letra
+1812=Corresponder apenas a sequência completa
+1673=Procurar
+//New subitems in "Downloads" main menu
+34040=Procurar (Ctrl-F)
+34041=Procurar seguinte (F3)
+
+//v6.21b5
+21128=O IDM não pôde iniciar a aplicação Actualizações. Isto pode ser devido a configurações erradas do antivírus relativas à pasta que contém os ficheiros de serviço do IDM.\r\n\r\nO IDM vai abrir essa pasta e poderá executar o ficheiro \"idmupdt.exe\" manualmente.\r\n\r\nOu pode transferir a última versão do IDM do site principal, e instalá-la sobre a sua versão actual
+21129=Outras qualidades...
+21130=Se deseja transferir este vídeo noutra qualidade, escolha a qualidade desejada no web player. Depois, a qualidade seleccionada irá aparecer no menu dropdown do painel de transferências do IDM.
+21131=Seleccione uma pasta
+
+//v6.21b11
+21132=O IDM transferiu o ficheiro %s que usa um novo codec que não está instalado no seu computador.\r\nLeia mais informação no site principal do IDM sobre como reproduzir este tipo de ficheiros no seu reprodutor de multimédia.
+1813=Usar processamento avançado de páginas web
+21133=Vários módulos do IDM não foram actualizados. Reinstale a última versão do IDM, reinicie o seu computador, e tente transferir este ficheiro novamente.
+
+//v6.21b16
+21134=O IDM não será capaz de acordar o computador para iniciar a sua fila de transferência na hora agendada.
+21135=Note que quando muda para o modo Metro, o computador pode entrar no modo de suspensão.
+21136=Se deseja que o IDM transfira a fila na hora agendada, habilite o despertador nas configurações do Windows.\r\nAbra \"Painel de controlo\\Opções de energia\\Alterar configurações do plano\\Alterar configurações avançadas de energia\", depois abra \"Suspender\\Permitir temporizadores de activação\" e defina para \"Activar\".\r\n\r\nDeseja ver como proceder através de screenshots?
+
+//v6.23b12
+21137=Note que esta versão e as anteriores do IDM pode não usar o ficheiro dos \"anfitriões\" quando eles se ligam ao site principal do IDM. Quando altera este ficheiro, fecha o acesso ao website do IDM apenas para o seu browser. Quando clica no botão OK, o IDM vai procurar actualizações com sucesso mesmo com o ficheiro do \"anfitrião\" danificado.
+21138=O seu browser poderá não abrir o website do IDM porque um ficheiro de sistema importante no seu computador está danificado. O IDM vai tentar reparar este ficheiro agora.
+//v6.25b16
+21139=O número de série do IDM que inseriu é usado noutro computador e está associado a outro endereço de email.
+21140=O número de série\r\n%s\r\nque inseriu é usado noutro computador.\r\n\r\nSe deseja usá-lo neste computador, deve desinstalar o IDM do(s) computador(es) onde este número de série foi usado anteriormente. Se o estiver a usar em vários computadores em simultâneo, este será bloqueado automaticamente.\r\n\r\nDeseja continuar o registo do IDM com o número de série\r\n%s\r\n?
+//Please pay attention that we have added one more new line (1063) to template_inst.lng file. Please translate it, and add it to your installer translation file.
+
+//v6.25b18
+21142=Gostaria de ler mais?
+21141=Registou o IDM com o seguinte número de série\r\n%s\r\n\r\nEste número de série está bloqueado nos servidores do IDM. O IDM vai encerrar...
+
+//v6.26b5
+21146=O IDM encontrou partes não referenciadas de transferências antigas que não foram apagadas da pasta temporária do IDM\r\n%s\r\nDeseja que o IDM as apague para libertar espaço no disco?
+
+//v6.27
+21147=O seu número de série começa com:  %s...............
+488=Tamanho mínimo
+1822=Tam. mínimo
+21148=Não mostrar o painel \"Transferir este áudio\" se o tamanho do ficheiro de áudio for menor do que o tamanho seguinte em kilobytes
+21149=Não mostrar o painel \"Transferir este vídeo\" se o tamanho do ficheiro de vídeo for menor do que o tamanho seguinte em kilobytes
+21150=Nota: Esta limitação apenas funciona se o tamanho do ficheiro de média for conhecido, ou não houver informação até o ficheiro estar totalmente carregado. Para tais situações esta limitação de tamanho de ficheiro não vai funcionar.
+
+//v6.28b7
+21151=É possível que tenha livrarias criptográficas do Windows XP obsoletas.\r\nGostaria de ler mais? 
+21153=Encerrar
+21154=Suspender
+21155=Hibernar
+21157=O Internet Download Manager terminou de processar a fila. De acordo com as suas configurações de agendamento, o seu computador vai entrar em suspensão.
+21158=O Internet Download Manager terminou de processar um projecto do Grabber. De acordo com as suas configurações de agendamento, o seu computador vai entrar em suspensão.
+21159=O Internet Download Manager terminou de transferir um ficheiro. De acordo com as suas configurações, o seu computador vai entrar em suspensão.
+21160=O Internet Download Manager terminou de processar a fila. De acordo com as suas configurações de agendamento, o seu computador vai entrar em hibernação.
+21161=O Internet Download Manager terminou de processar um projecto do Grabber. De acordo com as suas configurações de agendamento, o seu computador vai entrar em hibernação.
+21162=O Internet Download Manager terminou de transferir um ficheiro. De acordo com as suas configurações, o seu computador vai entrar em hibernação.
+21163=Modo de suspensão
+21164=Suspender agora
+21165=Hibernar agora
+
+21167=A integração do IDM com o Firefox 53 e posteriores só funcionará se a opção \"Usar a integração avançada com o browser\" estiver ligada em Opções->Geral
+
+//v6.30
+1823=Configuração manual de proxy/socks
+1824=Detectar automaticamente as configurações de proxy para esta rede
+1825=Usar configurações do sistema
+1826=Sem proxy/socks
+21169=O IDM não pôde detectar o URL do ficheiro de autoconfiguração do proxy para esta rede!/r/n/r/nSe não tem a configuração automática definida para a sua rede, não deve usar esta opção para evitar atrasos quando o IDM está a tentar encontrar o ficheiro do pacote proxy.
+489=Integração no browser Microsoft Edge
+21170=Uma nova extensão "IDM integration module" para o Edge foi publicada. Esta extensão é necessária para uma integração completa com o browser Microsoft Edge. O IDM vai iniciar a instalação desta extensão da Microsoft Store.\r\nO diálogo da Microsoft Store para instalar a extensão do IDM irá aparecer quando fechar este diálogo.\r\nClique no botão "Obter" no diálogo da Microsoft Store conforme o ilustrado na imagem abaixo.
+1828=Espere a instalação terminar e execute o browser Edge. Dentro de segundos o Edge mostrará a notificação da nova extensão. Confirme clicando no botão "Ligar". Veja a imagem abaixo.
+
+//v6.30b7
+p21171=Introduza o endereço de email para o qual enviaremos o número de série do IDM e outra informação de registo após a compra.
+p21172=Repare que este email pode ser usado para recuperar o número de série do IDM se o perder, ou pode ser utilizado para suporte prioritário. Por isso é importante que introduza o email correcto.
+p21173=Introduza o seu email
+
+p21174=A sua licença anual do IDM com um número de série que começa por %s...
+p21175=está a expirar (ou expirou) em %s
+
+p21176=Gostaria de extender esta licença até ao próximo ano?
+p21177=Extender a minha licença agora
+p21178=També pode clicar no botão Comprar no menu da página web para abrir uma página normal de compra
+
+//v6.30b8
+21179=A sua licença do IDM foi extendida até %s
+
+//v6.33
+21180=Melhorar a captura de transferências
+21181=OIDM enviará um relatório acerca do problema com pedidos de transferência repetidos do website %s, e as regras para processar transferências deste website sem chaves especiais deverão ser adicionadas aos servidores do IDM num futuro breve.\r\n\r\nTambém é possível que os servidores do IDM já tenham a solução para transferir deste website, então o IDM irá actualizar a sua base de dados após enviar este relatório.
+21182=As regras para processar transferências do website %s foram actualizadas.\r\nAgora as transferências deste website podem ser interceptadas sem o uso de chaves especiais.\r\n\r\nRepare que as transferências que foram adicionadas antes desta actualização não serão retomadas, tem de as apagar e voltar a capturá-las do seu browser novamente.
+21183=Não modificado
+21184=O IDM interceptou uma transferência que de acordo com as configurações do website %s só pode ser pedido uma vez, por isso o IDM tenta pedi-lo antes do browser. Mas não há dados suficientes no pedido interceptado para transferir este ficheiro.\r\n\r\nÉ possível que tenha adicionado uma transferência ao browser usando uma maneira não convencional contornando o processamento da página web num website de partilha. Neste caso deve recomeçar com um link público e seguir todos ao passos necessários para que o pedido interceptado tenhas todos os dados necessários.\r\n\r\nSe não é uma transferência e o IDM interceptou-a erradamente, defina uma chave especial ("Del" deve funcionar para a maioria dos browsers) em Opções -> Geral -> "Personalizar chaves para evitar ou forçar transferências" e pressioná-la enquanto clica num link para evitar transferi-lo com o IDM 
+21185=O ficheiro com regras de transferência que foi transferido dos servidores do IDM tem um novo formato.\r\nActualize o IDM usando o menu \"Ajuda->Procurar actualizações\" para que o IDM possa usar estas regras.
+
+//v6.33b3
+21186=Este problema pode ocorrer porque a extensão "IDM integration module" está desabilitada ou não está instalada no seu browser.
+
+//v6.33b5
+21187=Instale extensão para o browser Pale Moon do website do IDM.
+21188=Note que o seu browser usa uma extensão para configurar ligações VPN. Certamente o IDM não consegue transferir o ficheiro porque o browser usa diferentes proxy/socks para pedir este ficheiro e o website recusa pedidos directos do IDM. O IDM não consegue detectar qual o servidor proxy ou socks utilizados por esta extensão.\r\n\r\nTente desligar esta extensão no seu browser e tente interceptar este download novamente. Se não conseguir interceptar e transferir o ficheiro sem a extensão VPN, experimente outra extensão VPN.
+21189=Ou tente interceptar esta transferência a partir de outro browser
+1838=Configurações de análise de vírus
+1839=User-Agent para transferências adicionadas manualmente:
+
+//please note that "[File]" in square brackets should not be translated because it's a command line parameter
+21190=Se deseja correr um antivírus após o término da transferência, deve introduzir ou procurar o caminho completo para o ficheiro executável. Se o IDM souber os parâmetros necessários para um dado nome de ficheiro executável, irá defini-los automaticamente. Senão terá de os definir manualmente em \"Parâmetros da linha de comandos\" de acordo com a documentação do software antiviral. O ficheiro analisado entre parâmetros diferentes deve ser escrito como\r\n[File]\r\n(deve escrever com parêntesis quadrados também). Se não houver parâmetros definidos, o IDM executará o software antiviral anexando o caminho completo do ficheiro transferido.
+21191=Note que todos os softwares antivirais modernos têm a função de \"protecção em tempo real\" que verifica todas as operações com ficheiros no seu computador, e isso inclui todos os ficheiros transferidos com o IDM. Por isso você só precisa de adicionar análise antiviral às configurações do IDM apenas quando a protecção em tempo real estiver desligada nas configurações do antivírus.\r\nTambém, em alguns casos, protecção em tempo real pode abrandar significativamente a junção dos ficheiros feita pelo IDM. Então você precisa de adicionar o processo IDMan.exe às excepções de acordo com a documentação do software antivírus, e definir a análise antiviral neste diálogo.
+//v6.35b7
+21192=O vídeo não foi misturado com o áudio porque a faixa de áudio tem um formato diferente. O ficheiro de áudio será guardado separadamente como\r\n%s
+21193=No duplo clique
+21194=Não pode abrir este ficheiro porque a sua transferência não está completa.\r\nPode alterar a acção do duplo clique para \"Propriedades\" no menu do clique direito
+
+//v6.35b9
+21195=Tal problema também é possível quando um dos ficheiros do IDM com regras de transferência para websites específicos é apagado, ou instalado incorrectamente. Pode acontecer devido a instalação inválida do IDM.\r\nTransfira e instale a última versão do IDM do website oficial.\n
+21196=O IDM soube que alguma aplicação desabilitou o carregamento de um módulo necessário para a integração com o browser.\r\nO IDM irá tentar restaurar o funcionamento deste módulo agora. Necessita de confirmar executando o \"assistente do Internet Download Manager\" com direitos administrativos no próximo passo.
+21197=O IDM desbloqueou o módulo para integração com os browsers. Contudo, pode ser necessário reiniciar o computador para as alterações terem efeito.
+
+//v6.35b18
+1842=Usar TLS 1.3 da Microsoft (Experimental)
+21198=Isto é uma configuração global do Windows, por isso algumas aplicações que usem as Opções de Internet do Windows podem funcionar com erros\r\nAlém disso precisará de confirmar a execução do \"assistente do Internet Download Manager\" com direitos administrativos no próximo passo
+21199=Não é possível carregar a livraria ssl. Tente reinstalar o IDM.
+21200=Erro ao carregar a livraria ssl. Tente reinstalar o IDM.
+21201=Erro desconhecido ao carregar a livraria ssl.
+1843=Nota: o IDM irá usar socks apenas para os protocolos que NÃO estejam seleccionados acima
+//v6.35b05
+21202=Deve instalar a extensão "IDM Integraton Module" (add-on) para ligar a integração do IDM no Firefox. O IDM irá abrir a página de instalação do add-on. Clique em "+ Adicionar ao Firefox" e confirme a instalação.
+
+//v6.36b07
+1844=Usar proxy/socks de um pedido de um browser se houver erros de transferência para as transferências interceptadas do browser
+//v6.37b6
+21203=legendas
+
+//v6.37b7
+21204=Esta é uma versão de 30 dias de teste do Internet Download Manager. Deseja registar a sua cópia do IDM agora?
+
+//v6.37b10
+34042=Suporte ao Modo Escuro
+21205=Estas alterações só serão aplicadas após reiniciar o IDM. Deseja reiniciá-lo agora? 
+21206=O IDM irá usar o Modo escuro se este estiver habilitado nas configurações do Windows\r\n(Clique direito no Ambiente de trabalho->Personalizar->Cores->Modo escuro da aplicação)
+
+//v6.37b15
+21143=A assinatura digital do ficheiro de actualização do IDM é inválida. É possível que esteja corrupto.\r\nPode transferir uma nova versão do IDM do site principal e instalá-la manualmente sobre a sua versão actual
+21144=O IDM não pôde transferir o ficheiro de actualização.\r\nPode transferir uma nova versão do IDM do site principal e instalá-la manualmente sobre a sua versão actual
+21145=Esta licença expira em %s
+21207=O IDM está registado
+
+//v6.38b8
+
+21208=Já comprou?
+//this question is used in combination with 20347 line. It looks like:
+//Already purchased? Please enter your Serial Number
+
+//v6.38b19
+// Dear translators, please pay attention that 21209 line below has "<font color="red"></font>" html tag to 
+// highlight a part of string in red. You must not translate this tag
+// This is our new trial version dialog. It's not activated at the moment, but you can view it and verify 
+// translated strings by using a special query:
+// Press "Add URL" button on IDM toolbar and enter the following special link
+//    test://dl=N
+// where N - the number of days less than 31, for example:
+//    test://dl=10
+// and N is -1 when trial period expires:
+//    test://dl=-1
+// Press OK and wait for 2-3 seconds until IDM requests a file from its web site
+
+21209=Tem <font color="red">%d dias restantes</font> para usar o Internet Download Manager
+21210=Não espere pelo final do período de teste. Escolha uma das opções abaixo com preço especial para comprar já uma licença do IDM
+21211=O período de teste grátis do Internet Download Manager terminou
+21212=Pode comprar o IDM para poder continuar a usar, ou desinstale-o. Clique em baixo num dos botões com preço especial para comprar o IDM
+
+
+//v6.39
+21213=Esta é uma licença vitalícia
+
+// We have changed the search dialog and added SearchBar, find below the new lines for them
+// To test the translation, you can call the search dialog by pressing Ctrl-F (as before) or by using "Downloads->Find" menu item 
+
+1856=Encontrar:
+1076=Configurações...
+t1076=Configurações de pesquisa do IDM
+t1854=Fechar barra de pesquisa
+
+1861=Nome do ficheiro ou parte do nome
+1858=Descrição ou parte da descrição
+1859=Nome do site/ Link de transferência/ Pág. Web principal/ Referência
+21215=Pelo menos uma opção de forma de pesquisa tem que estar selecionada
+21216=Página Web principal
+// new "View->Arrange files->..." main menu item:
+34043=Por página Web principal
+
+//v6.39b3
+1862=Não iniciar a transferência, apenas adicionar os ficheiros à fila
+21217=O IDM não conseguiu interceptar a transferência apesar de haverem regras especiais sobre interceptar transferências do site %s. As regras podem ter que ser alteradas.\r\nDeseja enviar um relatório sobre este problema para o site do IDM?
+
+//v6.40
+//new menu
+m34045=Fonte
+34045=Escolher Fonte...
+34046=Repor para a fonte padrão
+21218=As alterações ao tamanho da fonte no diálogo principal só terão efeito após reiniciar o IDM. Deseja reiniciar o IDM agora?
+
+//Options dlg -> Proxy tab
+1863=Obter do sistema
+
+//v6.40b3
+21219=Misturar faixas de áudio e som num só ficheiro
+
+

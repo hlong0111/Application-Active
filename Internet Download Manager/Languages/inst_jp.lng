@@ -1,0 +1,100 @@
+﻿instlng=0x11 Japanese
+full_lng=idm_jp.lng
+
+//This template should be used to translate Internet Download Manager installer to foreign languages.
+//All files of installer translations should be named using inst_*.lng name pattern convention. 
+//Please place the abbreviated language name (e.g. de, en, es, fr, etc. :) instead of the asterisk. 
+//For example: inst_de.lng, inst_fr.lng etc.
+ 
+//The first string inside the template should be lang=ID Name
+//where Name - the full name of the language,
+//ID - hex number that defines Windows API value of the language, it is the same as in the main lng file.
+//The second line "full_lng=idm_*.lng" is the name of your main lng file
+ 
+
+//It's IMPORTANT when a string has any special characters 
+//(%i %s %d %x %ld %I64d %% \r\n), they should all remain in the translated 
+//string and cannot change places. Remember that IDM inserts dynamic 
+//values instead of these special characters in a predefined order. 
+//Instead of %s IDM inserts a string, %% - %, in all other cases IDM inserts a number.
+ 
+//The strings beginning with // are comments 
+//and you don't need to translate them and it is better if you delete them
+
+//You can read how to test installer translation on the following page
+// http://www.internetdownloadmanager.com/support/testinsttr.html
+
+20984=Internet Download Manager インストールウィザード
+20992=IDMの使用許諾契約書をお読みください
+20985=インストール先を指定してください
+20986=プログラムマネージャグループの選択
+20987=Internet Download Managerのインストールを開始します
+20988=インストールしています
+20989=インストールが完了しました
+20990=アンインストール方法の選択
+20991=アンインストールの実行
+20993=Internet Download Manager クイックアップデート
+1050=Internet Download Managerセットアッププログラムへようこそ。このプログラムはお使いのパソコンにInternet Download Managerをインストールします。
+1053=このセットアッププログラムを実行する前に、全てのWebブラウザを閉じる必要があります。インストールを続行するには、次へをクリックしてください。
+1054=警告：この製品は著作権法および国際条約によって保護されています。
+1055=この製品の全部または一部を無断で複製したり、無断で再頒布すると、民事上および刑事上の厳しい処罰を受ける可能性があります。
+1039=セットアップはInternet Download Managerを以下のフォルダにインストールします。
+1040=他のフォルダへインストールする場合は、参照をクリックして別のフォルダを指定してください。
+1041=インストール先フォルダ
+1016=参照...
+1044=Internet Download Managerのショートカットを追加するスタートメニューのフォルダ名を入力してください:
+1047=Internet Download Managerをインストールする準備が出来ました。\r\n\r\n次へをクリックしてインストールを開始するか、戻るをクリックしてインストール情報を変更できます。
+1035=Internet Download Managerは正常にインストールされました。
+1036=完了をクリックしてインストールを終了してください。
+1037=インストール後すぐにIDMにダウンロードを引き継ぎたい場合は、すべてのWebブラウザを閉じてから続行してください。IDMを起動した後であれば、ブラウザを開くことができます。
+1042=現在のファイル
+1038=コピー中のファイル:
+1043=全てのファイル
+108=IDMのインストール
+1059=セットアップは完了していません。セットアッププログラムを終了すると、Internet Download Managerはインストールされません。\r\nインストールを完了するには、後からこのセットアッププログラムを実行してください。
+1060=インストールを続行するには「再開」を、セットアッププログラムを終了するには「終了」をクリックしてください。
+1000=再開
+1001=終了
+1015=< 戻る
+1008=次へ >
+1009=完了 >
+1007=キャンセル
+1058=Internet Download Managerのアンインストールプログラムへようこそ
+1057=このソフトウェアをアンインストール方法を"標準"と"完全"から選択出来ます。
+1027=標準
+1028=完全
+1056="標準"オプションは、IDMの全ての実行ファイルと、ブラウザとの統合を削除します。The "Default" option will delete all executive files of IDM, and the integration of IDM into browsers.
+1061="完全"オプションは、更に全ての完了していないダウンロード、IDMダウンロードリスト、IDM設定を削除します。IDMを後から使用する予定がある場合は、ダウンロードや設定を保持するため、"完全"オプションを選択しないでください。
+1045=Internet Download Managerをお使いのシステムからアインストールする準備が出来ました。
+1046=アンインストールを実行するには完了を、アインストールを終了する場合はキャンセルをクリックしてください。
+1049=Internet Download Managerのアンインストールを実行中です...
+1048=削除中のファイル:
+1051=IDMユーザーインタフェースの言語を選択してください (後から ""表示->言語"" メニューで変更できます)
+20957=An unknown error occurred while removing IDM integration from %s ブラウザからIDM統合を外す時に不明なエラーが発生しました。%s ファイルを手動で削除してください。
+20958=IDMのアンインストール
+20960=残り時間: %i 分 %i 秒
+20962=IDMのインストール
+20963=注意
+20964=このフォルダはファイルが既に存在します。このフォルダへのインストールは、既存のデータを破損させる可能性があります。\r\nそれでもインストールを続行したい場合は、OKをクリックしてください。\r\n他のフォルダを選択する場合はキャンセルをクリックしてください。
+20965=IDMインストールプログラムは使用中のファイルを置換え/削除するために、お使いのコンピュータを再起動する必要があります。すぐに再起動する場合はOKをクリックしてください。
+20966=再起動の確認
+20971=Windowsはフォルダ内の全てのIDMコンポーネントを登録できません。\r\n\"%s\".\r\n\r\nIDMをインストールするには、ラテン文字のみを含むパスを選択してください。
+20972=IDM ネットワークドライバを更新しています...
+20973=Windowsのコピー中ダイアログをキャンセルしないでください
+20974=指定された場所にフォルダを作成する際に、\"アクセス拒否\"エラーが発生しました。IDMのインストール先に他のフォルダを指定するか、administratorとしてログインしてください。
+20975=%s\r\n指定された場所にフォルダを作成出来ませんでした。IDMのインストール先に他のフォルダを選択してください。
+20976=IDMインストールプログラムは約 10 MBytesのディスク容量を必要とします。インストール先に選択されたディスクには十分な空き領域がありません。空き領域を作成するか、IDMのインストール先に他のパスを選択してください。
+20980=IDMの実行ファイルを指定フォルダにコピーする際に、\"アクセス拒否\"エラーが発生しました。\r\n\r\nインストールを続行できません。DMのインストール先に他のフォルダを指定するか、administratorとしてログインしてください。
+20981=IDM インストールプログラムは1つ以上のIDM関連ファイルをインストール出来ませんでした。しかし、これは致命的なエラーでは無いため、IDMは実行でき、インストールを続行できる可能性があります。インストールを続行しますか？
+20982=Internet Download Manager は正常に更新されました。
+20983=Internet Download Manager が実行中です。\r\n続行する前に、IDM のメインウィンドウのメニューから \"タスク->終了\" (古いバージョンの場合は \"URL->終了\") を選択し、Internet Download Managerを閉じてください。
+//Please change XXX on the language you are translating IDM to
+20994=IDM は日本語のメイン言語ファイルを、IDMのサイトからダウンロードする必要があります
+//new v6.17
+1062=デスクトップ上にアイコンを作成する
+//new v6.18b3
+21112=選択されたフォルダにIDMをインストールを行う場合、IDMは拡張保護モードを有効化した状態でInternet Explorerと統合できません。\r\n\r\nIDM を \"%s\" フォルダにインストールする必要があります。\r\n\r\nインストールフォルダを変更しますか\r\n\"%s\"?
+//new v6.25b15
+1063=使用許諾契約の条項に同意します
+//new v6.33b3
+20970=インターネットプロトコル設定が変更されました。再起動するまでインターネットアプリケーションが正しく通信出来なくなる可能性があります。\r\n\r\n作業中の内容を保存し、すべてのアプリケーションを閉じてください。コンピュータはOKボタンをクリックすると再起動します。

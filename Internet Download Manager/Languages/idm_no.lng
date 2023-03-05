@@ -1,0 +1,1003 @@
+lang=0x14 Norwegian(Bokmål)
+
+// Dialogs
+
+//main dialog
+1281=Kategorier
+t1278=Skjul mapper
+20369=Oppgave
+20370=Filnavn
+20371=Status
+20372=Størrelse
+20373=Tid som gjenstår
+20374=Hastighet
+20375=Beskrivelse
+
+//toolbar
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20376=Ny URL
+20377=Fortsett
+20378=Stopp
+20379=Stopp alle
+20380=Slett
+20446=Slett ferdige
+20381=Innstillinger
+20382=Planlegger
+20383=Tips en venn
+//tooltips for buttons
+t32789=Tilføy/last ned en ny adresse manuelt
+t32790=Start/fortsett nedlasting av valgt(e) fil(er)
+t32791=Stopp nedlasting av valgt(e) fil(er)
+t32792=Stopp alle nedlastinger
+t32793=Fjern valgt(e) fil(er) fra listen
+t32794=Fjern alle fullførte filer fra listen
+t32795=Nettleser/systemintegrering, Filutvidelser, Proxy, passord og annet
+t32798=Planlegg dine nedlastinger
+t32788=Send en E-post til din venn om IDM
+
+//Registration dialog
+138=Registrering av Internet Download Manager
+1326=Vennligst fyll ut registreringsfeltene og trykk OK
+1330=Produktnøkkel
+1327=Fornavn
+1328=Etternavn
+1329=E-post
+1191=&OK
+1201=&Lisensinformasjon
+1080=&Avbryt
+
+//Download progress dialog
+103=Nedlastingsfremgang
+1154=(ukjent)
+1178=<< Skjul detaljer
+20426=<< Skjul detaljer
+1158=Pause
+20392=Pause
+20424=Start
+20425=Vis detaljer >>
+1300=Filstørrelse
+1301=Lastet ned
+1302=Hastighet
+1303=Tid som gjenstår
+1149=(ukjent)
+1299=Status:
+1030=Kobler til...
+1305=Startposisjoner og nedlastingsfremdrift
+1304=Kan fortsette senere
+1175=(ukjent)
+2=Lukk
+20416=Nr.
+20417=Lastet ned
+20418=Informasjon
+20419=Ja
+20420=Nei
+20421=%d timer %d min
+20422=%d min %d sek
+20423=%d sek
+
+130=Last ned filinformasjon
+1006=&Start nedlasting
+1010=Plassering
+1004=Last ned &senere
+1298=Beskrivelse
+1173=Forhåndsvis
+1297=Kategori
+1296=Lagre som
+t1004=Sett inn en fil i URL-listen for å laste den ned senere
+t1006=Start nedlasting
+
+148=Sett inn en ny URL som du vil laste ned
+1182=Bruk &påloggingsgodkjennelse
+1184=Brukernavn
+1186=Passord
+1022=O&K
+
+//Innstillinger Dialog
+134=Konfigurasjon av Internet Download Manager
+1092=OK
+20286=Generelt
+20287=Tilkobling
+20288=Nedlasting
+20289=Proxy
+20290=Brukerkonto
+20291=Modem
+20292=Lyd
+20293=Generelt
+20294=Tilkobling
+20295=Nedlasting
+20296=Proxy
+20297=Brukerkonto
+20298=Modem
+20299=Lyd
+20300=Nettleser/systemintegrering
+20301=Tilkoblingstype
+20302=Innstillinger for nedlasting
+20303=Konfigurasjon av HTTP, HTTPS og FTP-Proxy
+20304=Brukernavn og passord for servere/sider
+20305=Nettverksinnstillinger
+20306=Lydinnstillinger
+//General tab
+1134=Internet Explorer og Netscape 4.x integrering
+1056=Start Internet Download Manager ved systemoppstart
+1061=Start automatisk nedlasting av URL`er som er plassert i utklippskurven
+1065=Integrer i Internet Explorer, MSN Explorer og IE baserte nettlesere
+1068=Integrer i Netscape 4.x
+1077=&Standard
+1238=Bruk ALT-tasten for å hindre nedlasting med IDM
+1251=Bruk CTRL-tasten for å tvinge nedlasting med IDM
+1253=Integrer i Netscape 6.x
+1255=Integrer i Opera
+1256=Integrer i Mozilla
+1257=Integrer i Netscape 7.x
+1314=Plug-in
+1169=Filtyper...
+1270=Start automatisk nedlasting av følgende filtyper:
+t1056=Start Internet Download Manager ved systemoppstart
+t1061=Viser utkippskurven med URL`er
+t1065=Viser Internet Explorer med URL-klikk
+t1068=Viser Netscape Navigator med URL-klikk
+//Proxy tab
+1102=Bruk HTTP-Proxy
+1272=Gjenta passord
+1122=Proxy
+1123=Port
+1124=Brukernavn
+1125=Passord
+1107=Hent fra IE
+1108=Bruk FTP-Proxy
+1274=Gjenta passord
+1126=Proxy
+1127=Port
+1128=Brukernavn
+1129=Passord
+1113=Hent fra IE
+1116=Bruk FTP i PASV-modus
+1118=Bruk HTTPS-Proxy
+1273=Gjenta passord
+1133=Proxy
+1135=Port
+1137=Brukernavn
+1139=Passord
+1141=Hent fra IE
+t1107=Forsøk å finne HTTP-Proxy i innstillinger for Internet Explorer
+t1116=Bruk FTP-protokoll i passiv modus (Nødvendig bak brannmur)
+//Connection tal
+1153=Tilkoblingstype/hastighet
+1306=Maks. antall tilkoblinger
+1254=Nedlastingsgrense
+//Downloads tab
+1049=Plassering
+1190=Husk den siste lagrede plasseringen for "Generelt" kategorien
+1136=Standardplassering for "Generelt" kategorien
+1132=Lagre i
+1236=Vis nedlasting fullført dialogboks
+1317=Sikkerhet
+1318=Antivirusprogram
+1165=Plassering
+1319=Komandolinje parameter
+1316=Nedlasting pågår dialogboks
+1315=Dialogboks
+1059=Vis start nedlasting dialogboks
+1138=Midlertidig plassering
+1054=Plassering
+//Dial Up tab
+1313=Tilkobling:
+1307=TilkoblingsInnstillinger
+1166=Bruk
+1308=Innstillinger for oppringninger
+1309=Oppringningsforsøk (0 = uendelig):
+1310=Tid mellom forsøk:
+1312=sekunder
+1311=ganger
+1058=Bruk Windows Dial Up Networking
+//Sounds tab
+1320=Velg lyder for Internet Download Manager hendelser
+1172=Plassering
+1091=Spill
+//Passwords tab
+20436=Side/URL
+20437=Brukernavn
+20438=Passord
+1087=Ny
+1196=Rediger
+1050=Slett
+
+//File properties dialog
+135=Filegenskaper
+1325=Type:
+1324=Størrelse:
+1323=Lagre i:
+1082=&Plassering
+1322=Brukernavn
+1289=Passord
+1321=Gjenta passord
+1164=Åpne
+1240=Siste forsøk
+1241=Resultat: 
+
+100=Om Internet Download Manager
+1284=Hjemmeside:
+1285=Brukerstøtte:
+1286=Denne produktlisensen tilhører:
+1181=Uregistrert versjon
+1161=Se etter &oppdateringer
+1185=&Registrer
+1085=&Kjøp
+1262=Versjon:
+t1187=Besøk IDM`s hjemmeside
+t1189=Kontakt IDM`s brukerstøtte
+t1161=Se etter tilgjengelige oppdateringer på www.internetdownloadmanager.com
+t1185=Registrer IDM med din produktnøkkel
+t1201=Hvordan får jeg en produktlisens for IDM
+t1085=Kjøp en registrert versjon av IDM
+
+150=Slå av
+1263=Internet Download Manager er ferdig med oppgaven. I følge dine innstillinger slår datamaskinen seg av.
+1170=Slå av nå
+
+1163=Ja
+1088=Ja til alle
+1202=Nei
+1051=Nei til alle
+
+177=Planlegg dine nedlastinger
+1331=Nedlastingsliste
+1333=Last ned
+1332=Innstillinger for planlegging
+1218=Start nedlasting
+1219=denne dato
+1221=Daglig
+1062=Søndag
+1057=Mandag
+1066=Tirsdag
+1069=Onsdag
+1222=Torsdag
+1223=Fredag
+1224=Lørdag
+1225=Stopp nedlasting
+1228=Slå av datamaskinen når nedlastingen er ferdig
+1235=Avbryt nedlastingene
+1089=Bruk
+1232=Start
+1233=Stopp
+1079=Lukk
+1227=Legg på modemet når nedlastingen ferdig
+1264=MB
+1265=time
+1266=Ikke last ned mer enn
+1171=Hjelp
+1267=Hver
+1268=Vis advarsel før nedlastingen stoppes
+1271=Avslutt Internet Download Manager når nedlastingen er ferdig
+1335=filer samtidig
+t1229=Flytt ned
+t1230=Flytt opp
+t1231=Fjern fra nedlastingslisten
+t1232=Start oppgaven
+t1233=Stopp oppgaven
+t1235=Bruk dette alternativet kun i nødsituasjoner. Dette kan føre til at programmet mister data.
+
+184=Ring opp
+1247=Kobler til...
+1167=Ring på nytt
+
+186=OppringingsInnstillinger
+1336=Ring
+1237=Lagre passord
+1288=Brukernavn
+
+187=Slipp hyperkoblinger her
+
+190=Last ned IDM-komponenter
+1=OK
+1258=Last ned filer
+
+191=Eksporter
+1259=Eksporter nedlastingslisten
+1260=Eksporter valgte filer
+1261=Eksporter alle filer
+
+192=Importer koblinger IDM
+1168=Rediger...
+1090=Slett
+
+193=Start automatisk nedlasting av følgende filer:
+
+105=Dagens tips
+1001=&Vis tips ved oppstart
+1003=&Neste tips
+107=Dagens& tips...
+108=Visste du at...
+109=Tipsfilen var ikke på den forespurte plasseringen
+110=Problemer med å lese tipsfilen
+
+146=Pålogging
+1337=Server/URL
+1290=Gjenta passord
+1287=Merk: Hvis du har tilgang til forskjellige servere med brukernavn og passord, må du skrive inn URL`en
+
+182=Oppdater IDM
+1295=Ser etter en ny versjon
+								
+194=Nedlastingsgrensen er overskredet!                                                                   																					
+
+144=En ny versjon av Internet Download Manager er tilgjengelig
+1162=Oppdater nå
+1086=Avbryt
+
+//Zip preview dialog
+196=Forhåndsvis Zip-fil
+20254=Filnavn
+20255=Komprimert
+20256=Størrelse
+20257=Endret
+
+//New category dialog
+204=IDM kategorier
+1174=Plassering
+1291=Kategorinavn
+1292=Sett automatisk inn disse filtypene i denne kategorien:
+1293=Merk: Skriv filnavnet med et mellomrom (f.eks. avi mpg mpeg)
+1239=Husk den siste lagrede plasseringen
+1294=Lagre fremtidige nedlastinger av denne kategorien i denne mappen:
+
+
+// Menu
+m32771=URL
+32771=Ny &URL
+32809=Vis utklippskurven
+m32821=Eksporter
+32821=Til IDM`s eksportfil
+32823=Til tekstfil
+m32816=Importer
+32816=Fra IDM`s eksportfil
+32818=Fra tekstfil
+32772=&Avslutt
+
+m32774=Fil
+32774=Stopp nedlasting
+32775=Slett
+32776=Last ned
+
+m32778=Nedlastinger
+32778=Sett alle på pause
+32779=Stopp alle
+32794=Slett alle ferdige
+32801=Planlegging
+32803=Start oppgave
+32805=Stopp oppgave
+32781=Innstillinger
+
+m32825=Vis
+32825=Skjul kategoriene
+m32828=Ordne filene
+32828=etter nedlastingsdato
+32830=etter filnavn
+32832=etter størrelse
+32834=etter status
+32836=etter tid som gjenstår
+32838=etter hastighet
+32840=etter beskrivelse
+m32841=Språk
+
+m57670=Hjelp
+57670=Brukerveiledning
+32811=Hjelp
+106=Dagens tips...
+32813=IDM`s hjemmeside
+32784=Kontakt oss
+32787=Oppdatering
+32786=Om IDM
+32788=Tips en venn
+
+m32785=Registrering
+32785=Bestill på nettet
+32783=Registrer
+//end menu
+
+
+//Strings & messages
+101=&Om IDM...
+32799=Åpner port...
+32800=Port åpnet
+32802=Kobler til enhet
+32804=Kobler til...
+32806=Tilkoblet
+32807=Starter verifisering
+32808=Mottar verifisering
+32810=Forsøker å verifisere på nytt
+32812=Tilbakeoppringning kreves
+32814=Skift passord
+32815=Projection Phase Started
+32817=Beregner hastighet
+32819=Verifiseringen er godtatt
+32820=Må verifisere på nytt
+32822=Verifisering OK
+32826=Venter på tilbakestilling av modem
+32827=Venter på tilbakeoppringning
+32829=Interaktiv
+32831=Prøv på nytt
+32833=Tilbakeoppringning må endres av bruker
+32835=Passordet er foreldet
+32837=Tilkoblet
+32839=Koblet fra
+
+20000=Nedlasting av %s filen er fullført.\n\nNedlastet %s (%I64d Bytes)\nFilen er lagret som %s
+20001=Denne funksjonen er tilgjengelig i den registrerte versjonen.
+20002=Kan ikke gi nytt navn til den nedlastede filen i den midlertidige mappen (%s) til %s. Filen er lagret i den midlertidige mappen.
+20003=Passordgodkjennelsen feilet! Vennligst prøv på nytt.
+20004=Passordfeltet er ikke fylt ut!
+20005=Brukernavnfeltet er ikke fylt ut! Vennligst prøv på nytt.
+20006=Side/URL-felter er ikke fylt ut! Vennligst prøv på nytt.
+20007=Er du sikker på at du vil slette påloggingsinformasjonen for denne siden?
+20008=Nedlastingslisten inneholder filen som du vil laste ned fra 
+20009=.\nBruk denne påloggingsinformasjonen for denne nedlastingen?
+20010=.\nEndre brukernavnet og passordet for denne nedlastingen til \"anonymous\" ?
+20011=Påloggingsinformasjonen for denne siden/URL`en finnes allerede i passordlisten.\nDen nye påloggingsinformasjonen er ikke tilføyd. Du kan redigere den du har fra før.
+20012=Du har forandret \"side/URL-feltet.\" Påloggingsinformasjonen for denne siden/URL`en finnes allerede i passordlisten.\nPåloggingsinformasjonen er ikke endret. Du kan redigere den du har fra før.
+20013=Denne siden er midlertidig ikke tilgjengelig!
+20014=Denne siden/stien krever verifisering. Du kan lagre brukerinformasjonen for denne nedlastingen ved å høyreklikke og velge egenskaper. eller legge inn brukerinformasjonen i \"Innstillinger/Brukerkonto\" for å bruke pålåggingsinnstillingene hver gang du skal laste ned filer fra denne siden.
+20015=Denne Proxy-serveren krever Proxy-verifisering. Du kan endre brukerinformasjonen for Proxy-serveren i \"Innstillinger/Proxy\"
+20016=En ukjent feil oppstod under nedlastingen.\nVennligst send inn loggfilene %s og %s (hvis de finnes) til programutviklerene.
+20017=En feil oppstod under nedlastingen.\n Vennligst prøv på nytt. Hvis du kan laste ned filen i et annet program men ikke med IDM, vennligst send oss loggfilene %s (hvis de finnes).
+20018=Kan ikke laste ned denne filen.
+20019=Kan ikke laste ned denne filen.
+20020=Minnet på lagringsenheten er for lite for å fortsette nedlastingen.
+20021=Tilkoblingen kunne ikke opprettes pga. at serveren du koblet opp mot, hindret dette. \nSannsynligvis er tjenesten ikke aktiv på serveren, eller så hindrer brannmuren din Internet Download Manager å laste ned data fra nettet. Hvis du har en brannmur, se til at innstillingene tillater IDM å laste ned data fra Internett.
+20022=Adgang nektet.
+20023=Kan ikke sette inn URL`en. URL`en er ikke tastet inn korrekt.
+20024=En tilkoblet forbindelse ble plutselig avbrutt av verten. Dette er normalt hvis programmet på serveren ble avsluttet, eller at serveren ble \'slått av/omstartet\'
+20025=En sokketopperasjon mislyktes pga. at verten var nede. En sokketopperasjon oppdaget en død vert. Nettverksaktiviteten på den lokale datamaskinen er ikke opprettet.
+20026=Feil på tilkoblingen. Denne verten er ikke kjent. Navnet er ikke et offensielt vertsnavn aller alias, og kunne heller ikke bli funnet i de forespurte databasene.
+20027=Kunne ikke koble til nettverket. Dette betyr vanligvis at den lokale programvaren ikke kan finne noen stier for å koble til serveren.
+20028=Serveren du var koblet opp mot krasjet og måtte starte opp på nytt.
+20029=En sokketopprasjon har oppdaget et dødt nettverk. Dette kan bety at det har oppstått en alvorlig feil i nettverket.
+20030=For mange åpne nettverkstilkoblinger. Vennligst vent til noen av nedlastingene er ferdige.
+20031=En feil oppstod under tilkobling
+20032=Størrelsen av %s er %I64d bytes.\nDet er ikke mer lagringsplass på lagringsenheten \'%s\' Hvor vil du lagre denne filen.\nHvis du ikke frigjør lagringsplass under nedlastingen, blir filen lagret i den midlertidige mappen som %s
+20033=Det er ikke mer lagringsplass på lagringsenheten \'%s\' til å lagre de nedlastede fildelene.\nFor å fortsette nedlasting av filen må du frigjøre noe lagringsplass eller endre plasseringen for den midlertidige mappen i Innstillinger\\Generelt og fortsette nedlastingen
+20034=Kan ikke finne serveren %s
+20035=Kan ikke finne Proxy-serveren %s
+20036=Kan ikke koble til %s:%ld
+20037=Kan ikke koble til Proxy-serveren %s:%ld
+20038=Kan ikke koble til %s:%ld\nTilkoblingstiden er overskredet
+20039=Kan ikke koble til Proxy-serveren %s:%ld\nTilkoblingstiden er overskredet
+20040=En ukjent feil oppstod ved påbygning av eller sammensettingen av de nedlastede fildelene
+20041=En ukjent feil oppstod under sammensettingen av de nedlastede fildelene til en fil
+20042=Kan ikke åpne den lokale filen samtidig som fildelene settes sammen til en fil
+20043=Kan ikke innhente størrelsen på fildelen samtidig som de nedlastede fildelene settes sammen til en fil
+20044=Det oppstod en feil i det virtuelle minnet under sammensettingen av fildelene til en fil
+20045=En alvorlig skrivefeil oppstod under sammensettingen av fildelene til en fil
+20046=En alvorlig lesefeil oppstod under sammensettingen av fildelene til en fil
+20047=En ukjent fil eller registerfeil oppstod under sammensettingen av gamle nedlastede fildeler
+20048=Kan ikke koble til serveren
+20049=Internet sokket lesefeil
+20050=Internet sokket skrivefeil
+20051=Tilkoblingstiden er overskredet
+20052=Tilkoblingstiden er overskredet
+20053=Tilkoblingstiden er overskredet, kobler til på nytt...
+20054=Tilkoblingen mislykket, kobler til på nytt...
+20055=En feil oppstod ved mottak av data
+20056=Tilkoblingen ble stengt av serveren.
+20057=Kan ikke logge inn på FTP-serveren.
+20058=Kan ikke finne denne filen på FTP-serveren.
+20059=FTP-serveren tillater ikke tilkoblinger.
+20060=En feil oppstod ved mottak av FTP-serversvar.
+20061=En feil oppstod ved mottak av FTP-serversvar: Et ukjent svarformat
+20062=Kan ikke finne IP-adressen for Data-sokket i svaret fra PASV-kommandoen.
+20063=Kan ikke åpne Internett-sokket.
+20064=Kan ikke åpne FTP-datasokket
+20065=Kan ikke koble adressen til Internett-sokket
+20066=En feil under oppringning til listen() Data-sokket
+20067=En feil under oppringning til accept() Internett-sokket.
+20068=Kan ikke sende PORT-kommando.\nEn feil under oppringning til getsockname().
+20069=PORT-kommando misslyktes.
+20070=Filskrivefeil oppstod under mottak av data fra Internett-sokket.\nDen sannsynlige forklaringen er: Lagringsenheten er full.
+20071=Kan ikke åpne datatilkoblingen fordi FTP-serveren ikke støtter PASV-kommando og valget \'Bruk FTP i PASV modus\' i Innstillinger\\Proxy/Brannmuren er slått på.
+20072=Filstørrelsen %s er ikke funnet i serversvaret
+20073=Serveren sendte et feil svar under omstartskommandoen.
+20074=Serveren sendte informasjon om en ny plassering, og filnavnet %s er endret til %s.\n\nVil du fortsette nedlastingen?
+20075=Kobler fra...
+20076=Nedlastingen er fullført, setter sammen delene til en fil...
+20077=Valgfrie tilkoblinger er opprettet.
+20078=Kobler til...
+20079=Valg var mislykket
+20080=Tilkobling OK.
+20081=Det oppstod en skrivefeil ved mottak av data fra Internett-sokket.
+20082=Recv() prosedyren var mislykket
+20083=Tilkoblingen er stengt av serveren.
+20084=Frakoblet
+20085=Venter på svar...
+20086=Svar OK
+20087=Mottar data...
+20088=Fullført.
+20089=Datatilkobling: kobler til...
+20090=Datatilkobling: OK
+20091=Klar til å motta data
+20092=Sjekker kommandosekvensen: sender to kommandoer samtidig...
+20093=Sjekker kommandosekvensens kapasitet: første svar OK, venter på svar nummer to...
+20094=Mottar filinformasjon...
+20095=Kan ikke finne det siste av adressen i serversvaret.
+20096=Kan ikke finne det siste av adressen i FTP-serversvaret.
+20097=Avbryt.
+20098=Serveren er ikke klar for nye brukere.
+20099=Kontroll-socket tilkoblet.
+20100=Sender brukernavn...
+20101=Sender passord...
+20102=Brukernavnet var feil
+20103=Brukernavn OK
+20104=Passordet var feil
+20105=Passord OK
+20106=Sender PASV-kommando...
+20107=Serveren støtter ikke PASV.
+20108=PASW OK, åpner adressen...
+20109=Bind sokket OK, prøv oppringningslisten()
+20110=Tillater...
+20111=Tilatelse OK
+20112=Sender PORT kommando...
+20113=PORT OK
+20114=Endrer serverens arbeidsområde...
+20115=CWD var mislykket.
+20116=CWD OK
+20117=Tilkoblingen var mislykket.
+20118=Sender TYPE...
+20119=TYPE kommando var mislykket.
+20120=TYPE OK.
+20121=Sender REST kommando...
+20122=REST mislyktes
+20123=REST OK
+20124=Sender RETR kommando...
+20125=RETR mislyktes.
+20126=Sender SIZE kommando...
+20127=Sender LIST kommando.
+20128=LIST mislyktes.
+20129=LIST OK
+20130=SIZE mislyktes.
+20131=Kan ikke finne størrelsen i svaret.
+20132=SIZE OK
+20133=Kontrollsocket er ikke koblet til serveren.
+20134=Starter fra begynnelsen fordi den lokale filen er slettet eller skadet
+20135=Tilkoblingen startes på nytt...
+20136=Mulig at serveren ikke støtter pipeliningkommando.
+20137=Kommandosekvens test: OK
+20138=Sender HEAD...
+20139=Sender GET...
+20140=Setter sammen gamle nedlastede filfragmenter...
+20141=Kobler til...
+20142=Nedlasting fullført. Nedlastet %I64d Bytes Totalt
+20143=Mottar data...
+20144=Alternativ tilkobling, kobler til...
+20145=Nedlastingen var mislykket. Nedlastet: %I64d Bytes Totalt
+20146=Størrelsen av %s er %I64d bytes.\nDet er ikke mer ledig lagringsplass på harddisken \'%s\' for å lagre de nedlastede fildelene.\nFor å fortsette nedlastingen må du frigjøre plass på harddisken eller slette filen fra listen, forandre den midlertidige plasseringen i Innstillinger\\Generelt, og prøv på nytt.
+20147=Det er ikke mer ledig lagringsplass på harddisken \'%s\'.
+20148=Kan ikke gjenoppbygge den nedlastede fildelen.
+20149=Denne nedlastingen er allerede fullført, så den lokale adressen er ikke forandret.
+20150=Fildatoen er endret på serveren.\nVil du laste ned filen fra begynnelsen.
+20151=Du har den siste versjonen av Internet Download Manager. Vennligst se etter IDM-oppdateringer senere.
+20152=En feil oppstod under lagring av data, Vennligst prøv på nytt.
+20153=En feil oppstod under lokalisering av det virtuelle minnet. Prøv å avslutte noen programmer og press \'Prøv på nytt\'.
+20154=Setter sammen på nytt
+20155=Det forespurte servernavnet finnes, men mangler data for å tillate adgang (Serveren finnes, men er ikke helt tilgjengelig).
+20156=Filen %s - er lastet ned %s (%I64d Bytes). Filen er muligens ikke fullt nedlastet, fordi filstørrelsen er ukjent.\nFilen er lagret som %s
+20157=Ingen objekter er valgt!
+20158=Flytt opp
+20159=Flytt ned
+20160=Slett objektet
+20161=Kan ikke laste ned denne filen. Ugyldig HTTP-server svar.
+20162=Kan ikke finne en ny versjon av IDM`s hjelpefil!
+20163=Kan ikke endre navnet på den nye hjelpefilen: nyIDMan.hlp til idman.hlp. Prøv å gjøre det manuelt.
+20164=Hurtigoppdatering for IDM fra www.internetdownloadmanager.com. Mottar nye filer...
+20165=Hurtigoppdatering for IDM fra www.tonec.com. Mottar en ny hjelpefil...
+20166=Brukerveiledning for Internet Download Manager
+20167=Nedlastingen er avbrutt av brukeren
+20168=Hurtigoppdateringen feilet, en feil oppstod ved nedlasting av de nye IDM-filene. Prøv å oppdater senere.
+20169=Den forespurte filen finnes ikke.
+20170=\nVil du åpne den?
+20171=Denne filen finnes allerede i nedlastingslisten. Vil du opprette en duplikat?
+20172=Du har ikke tillatelse til å laste ned filen fra denne serveren.
+20173=Det oppstod en feil under lesing av telefonboken.
+20174=Kan ikke koble til Internett.
+20175=Kan ikke laste ned denne filen pga. at tilkoblingstiden er overskredet
+20176=Den forespurte filen ligner på en HTML-nettside.\r\n\r\nFor å forhindre at IDM overtar nedlastingen av siden fra Internet Explorer automatisk, må du holde inne Alt-tasten når du klikker på linken.\r\n\r\nVil du fortsette å laste ned filen med IDM og lagre den som en HTML-side?
+20177=Den nedlastede filen ligner på en HTML-nettside.\r\n\r\nFor å forhindre at IDM overtar nedlastingen av siden fra Internet Explorer automatisk, må du holde inne Alt-tasten når du klikker på linken.\r\n\r\nVil du endre filnavnet på den nedlastede filen til en HTML-side?
+20178=Internet Download Manager er integrert i Netscape 6. Du må avslutte Netscape og starte nettleseren på nytt før endringene trer i kraft.
+20179=Kunne ikke integrere Internet Download Manager i Netscape 6.
+20180=Integreringen av IDM er fjernet fra Netscape 6. Du må avslutte Netscape og starte nettleseren på nytt før endringene trer i kraft.
+20181=Kunne ikke fjerne integreringen av Internet Download Manager fra Netscape 6. Du må avslutte Netscape og prøve på nytt.
+20182=Internet Download Manager er integrert i Netscape 7. Du må avslutte Netscape og starte nettleseren på nytt før endringene trer i kraft.
+20183=Kunne ikke integrere Internet Download Manager i Netscape 7.
+20184=Integreringen av IDM er fjernet fra Netscape 7. Du må avslutte Netscape og starte nettleseren på nytt før endringene trer i kraft.
+20185=Kunne ikke fjerne integreringen av Internet Download Manager fra Netscape 7. Du må avslutte Netscape og starte nettleseren på nytt før endringene trer i kraft.
+20186=Internet Download Manager er integrert i nettleseren Netscape. Du må avslutte Netscape og starte nettleseren på nytt før endringene trer i kraft.
+20187=Kunne ikke integrere Internet Download Manager i nettleseren Netscape.
+20188=Integreringen av IDM er fjernet fra Netscape. Du må avslutte Netscape og starte nettleseren på nytt før endringene trer i kraft.
+20189=Kunne ikke fjerne integreringen av Internet Download Manager fra Netscape.
+20190=Internet Download Manager er integrert i Opera. Du må avslutte Opera og starte nettleseren på nytt før endringene trer i kraft. Endre innstillingene for Opera i \'Fil->Innstillinger->Multimedia->Plug-in...\'
+20191=Kunne ikke integrere Internet Download Manager i Opera.
+20192=Integreringen av IDM er fjernet fra Opera. Du må avslutte Opera og starte nettleseren på nytt før endringene trer i kraft. Endre innstillingene for Opera i \'Fil->Innstillinger->Multimedia->Plug-in...\'
+20193=Kunne ikke fjerne integreringen av Internet Download Manager fra Opera. Du må avslutte Opera og starte nettleseren på nytt før endringene trer i kraft.
+20194=Internet Download Manager er integrert i nettleseren  Mozilla. Du må avslutte Mozilla og starte nettleseren på nytt før endringene trer i kraft.
+20195=Kunne ikke integrere Internet Download Manager i Mozilla.
+20196=Integreringen av IDM er fjernet fra Mozilla. Du må avslutte Mozilla og starte nettleseren på nytt før endringene trer i kraft.
+20197=Kunne ikke fjerne integreringen av Internet Download Manager fra Mozilla. Du må avslutte Mozilla og starte nettleseren på nytt før endringene trer i kraft.
+20198=Kunne ikke endre integrasjonen av Internet Download Manager til Internet Explorer. En feil oppstod. Vennligst send %s filene til utviklerne.
+20199=Kunne ikke endre integrasjonen av Internet Download Manager til Internet Explorer fordi du ikke har tilgangsrettigheter til systemregisteret.
+20200=Internet Download Manager er integrert i nettleseren Internet Explorer. Du må avslutte IE og starte nettleseren på nytt før endringene trer i kraft.
+20201=IDM-integrasjonen er fjernet fra Internet Explorer. Du må avslutte Internet Explorer og åpne nettleseren på nytt.
+20202=Kan ikke oppdatere plug-in, Du kan se \"%s\" filen for detaljer.
+20203=Dette er en 30 dagers demoversjon av Internet Download Manager.
+20204=Filen er flyttet.
+20205=Filen %s er flyttet
+20206=Åpner den nedlastede filen
+20207=Last ned IDM-komponent
+20208=Kunne ikke endre integreringen av Internet Download Manager inn i nettleseren Netscape fordi du muligens ikke har tilgangsrettigheter til systemregisteret
+20209=Versjonen av filen etcprotocol.dll er foreldet. Last ned den nye versjonen? Vennligst avslutt Internet Explorer for å overskrive filen!
+20210=Kan ikke endre filnavnet %s til %s. Avslutt Internet Explorer og prøv å gjør det manuelt.
+20211=Filen %s vil bli lagret som %s. En slik fil finnes allerede på datamaskinen. Vil du overskrive den eksisterende filen?\n\n Press \"JA\" for å overskrive, \"NEI\" for å lagre filen med et annet navn, \"AVBRYT\" for ikke å lagre filen i nedlastingslisten.
+20212=Filen %s vil bli lagret som %s. En slik fil finnes allerede i nedlastingslisten. Vil du lagre filen med dette navnet?\n\n Press \"JA\" for å lagre, \"NEI\" for å lagre filen med et annet navn, \"AVBRYT\" for ikke å lagre filen i nedlastingslisten.
+20213=Importer til IDM
+20214=Kan ikke finne koblingen til filen fordi filen muligens er skadet
+20215=Filen er ikke en gyldig eksportfil i IDM, eller så er filen er skadet
+20216=Filen henviser ikke til noen nettadresser
+20217=Det oppstod en ukjent feil!
+20218=Kan ikke laste ned denne filen. Kanskje denne FTP-serveren ikke støtter "last ned senere" funksjonen. Vil du sette inn denne filen på nytt, og starte nedlastingen fra begynnelsen?
+20219=Filnavnet for denne lagringen var \"%s%s\", men serveren sendte følgende navn \"%s\". Vil du lagre filen med det navnet som serveren anbefaler?
+20220=Filnedlastingen %s er fullført.\nDenne m3u-filen inneholder en nettlink til en mp3-fil. Vil du laste ned denne mp3-filen?
+20221=Filnedlastingen %s er fullført.\nDenne m3u-filen inneholder en eller flere nettlinker til mp3-filer. Vil du sette inn alle disse mp3-filene i nedlastingslisten?
+20222=Mp3-filen er lastet ned.
+20223=Filendelse
+20224=Mimetype
+20225=Kan ikke starte antivirusprogrammet.\n%s
+20226=Internet Download Manager har fullført nedlastingen. I følge innstillingene for planlegging, kobler modemet fra.
+20227=Legg på modem
+20228=Legg på nå
+20229=Stopp nå
+20230=Nedlastingsgrensen er overskredet!
+20231=Invalid data
+20232=Tallet i \"Nedlastingsgrenser\" må være mellom 1 og 23. Vennligst rett opp eller avbryt merkingen  i\"Nedlastingsgrenser\" boksen.
+20233=Vil du laste ned brukerveiledningen (ca. 60 KB) fra IDM`s hjemmeside?
+20234=Vil du laste ned og installere IDM hjelpefilen (ca. 200 KB) fra IDM`s hjemmeside?
+20235=Kan ikke finne HHCtrl.ocx for å vise hjelpefilen!
+20236=IDM hjelp
+20237=Filstørrelsen er endret på serveren.\nDen vil bli lastet ned fra begynnelsen.
+20238=kan ikke opprette tilkobling via Proxy-serveren.
+20239=En feil oppstod under opprettelsen av en sikker tilkobling til %s.
+20240=En feil oppstod ved kryptering av melding.
+20241=En feil oppstod ved åpning av security dll. Kan ikke opprette HTTPS-tilkobling.
+20242=Passord og Gjenta passord feltene stemmer ikke overens i denne HTTP Proxy-serveren! Vennligst prøv på nytt.
+20243=Passord og Gjenta passord feltene stemmer ikke overens i denne HTTPS Proxy-serveren! Vennligst prøv på nytt.
+20244=Passord og Gjenta passord feltene stemmer ikke overens i denne FTP Proxy-serveren! Vennligst prøv på nytt.
+20245=Innstillinger for Internet Download Manager
+20246=Nedlasting fullført
+20247=Nedlasting mislykket
+20248=Nedlastingen er stoppet/fullført
+20249=Nedlastingen er startet
+20250=Hendelse
+20251=Lydfil
+20252=Kan ikke kopiere den valgte lydfilen til IDM`s lydmappe!
+20253=Du har %d dager igjen å bruke demoversjonen av Internet Download Manager. Vil du registrere IDM nå?
+20258=Alle nedlastinger
+20259=Ikke ferdige
+20260=Fullført
+20261=Programmer
+20262=Musikk
+20263=Film
+20264=Spill
+20265=Dokumenter
+20266=Ny kategori
+20267=Slett
+20268=Egenskaper
+20269=Vil du virkelig slette \"%s\" kategorien fra IDM`s kategori liste?
+20270=Slett en kategori
+20271=Sett inn en ny Kategori
+20272=Rediger Kategoriegenskapene
+20273=Vennligst fyll ut \"Kategorinavn\" feltet.
+20274=Mappen \"%s\" finnes ikke.\r\nVil du opprette mappen?
+20275=Kan ikke opprette mappen!\r\n%s
+20276=Skjul Kategoriene
+20277=Vis Kategoriene
+20278=Velg en plassering
+20279=Generelt
+20280=Vil du sette alle de gamle nedlastingene i mappene som tilhører filenes kategori? Filene vil ikke bli flyttet på harddisken, men vil bli tilknyttet en nedlastingskategori.
+20281=Vil du plassere alle gamle nedlastinger med \"%s\" filtypene til denne kategorien? Filene vil ikke bli flyttet på harddisken, men vil bli tilknyttet denne nedlastingskategorien.
+20282=IDM-kategorier
+20283=IDM mottok \"Adgang nektet\" feil under sammensettingen av filen. Dette kan skje fordi noen programmer f.eks. et antivirusprogram eller en brannmur åpnet filen, men som ikke avsluttet den riktig, eller du prøvde å åpne filen under nedlastingen. Du må starte datamaskinen på nytt for å kunne fortsette nedlastingen.
+20284=Standard nedlastingsplassering for \"%s\" kategori
+20285=Husk den siste lagrede plasseringen for \"%s\" kategorien
+20307=- Velg din Internett tilkobling -
+20314=256K Kabel/DSL/Andre
+20315=300K Kabel/DSL/Andre
+20316=512K Kabel/DSL/Andre
+20319=Andre
+20320=Om IDManager
+20321=Åpne IDM
+20322=Avslutt
+20323=Kontakt oss
+20324=Hjelp
+20325=Bestill på Internett
+20326=Registrering
+20327=Stopp nedlasting
+20328=Slett
+20329=Fortsett nedlasting
+20330=Egenskaper
+20331=Du har tastet inn en ugyldig URL(adresse). Vennligst prøv på nytt.
+20332=Denne nedlastingen er ikke ferdig. Fortsette å slette?
+20333=Kunne ikke finne Proxy konfigurasjonen i Internet Explorer.
+20334=Filen som har denne adressen er allerede lastet ned med Internet Download Manager. Vil du laste filen ned på nytt?
+20335=Filen med denne adressen finnes i nedlastingslisten men venter på å bli lastet ned. Vil du fortsette å laste ned filen?
+20336=For mange filer med dette navnet. Vennligst slett dem, eller endre de lokale navnene.
+20337=Vennligst tast inn brukernavn.
+20338=Kan ikke finne en forenelig nettleser.
+20339=Kan ikke finne programmet for nettoppdatering.
+20340=Vennligst tast inn registreringsnavn.
+20341=Du har tastet inn en ugyldig produktnøkkel.
+20342=En URL ligger i utklippskurven. Vil du laste den ned?
+20343=Vennligst tast inn ditt fornavn
+20344=Vennligst tast inn ditt etternavn
+20346=Vennligst tast inn din e-postadresse
+20347=Vennligst tast inn din produktnøkkel
+20348=Du har tastet inn en ugyldig produktnøkkel
+20349=Internet Download Manager er registrert med en ugyldig produktnøkkel. IDM avslutter...
+20350=Internet Download Manager - antall registreringer med denne produktnøkkelen er overskredet. IDM avslutter...
+20351=Internet Download Manager er registrert med en ugyldig produktnøkkel. IDM avslutter...
+20352=Internet Download Manager er ikke registrert på 30 dager. Testperioden er over og IDM avslutter...
+20353=Internet Download Manager er ikke registrert på 15 dager. IDM avslutter...
+20354=Ukjent feil når
+20355=Ukjent
+20356=Sett inn i nedlastingslisten
+20357=Slett fra nedlastingslisten
+20358=Start oppgave
+20359=Stopp oppgave
+20360=Åpne
+20361=Siste nedlastingsdato:  
+20362=Resultat:\n
+20363=Åpne kun en fil!
+20364=Åpne
+20365= finnes allerede på datamaskinen. Vil du erstatte den eksisterende filen?\n Press \"JA\" for å erstatte, \"NEI\" for å lagre filen med et annet navn, \"AVBRYT\" for å avslutte nedlastingen.
+20366=Last ned fra
+20367=Lagre til
+20368=Vil du virkelig slette alle fullførte nedlastinger?
+20384=Vis utklippskurven
+20385=Advarsel: Dette dataprogrammet er beskyttet av copyrightlover og internasjonale avtaler. Uautorisert omproduksjon eller salg av dette programmet, eller deler av det, vil resultere i straff etter gjeldene lov...
+20386=Kan ikke opprette mappe %s, feilkode = %ld\n
+20387=Feil
+20388=Filer
+20389=Alle Filer
+20390=Detaljer:\n
+20391=Fullført.
+20393=Nedlasting fullført. Ser etter virus...
+20394=AVI: Res. %dx%d, %d samp pr. sek, Lengde %s
+20395=, Lengde: 
+20396=, Tittel: 
+20397=, Artist: 
+20398=, Album: 
+20399=, Genre: 
+20400=WAV: %d samp pr. sek, %d bits pr. samp, Lengde: %s
+20401=MPEG: Res. %dx%d, %.1f samp pr. sek, %d bits pr. samp
+20402=%s,   totalt %ld filer
+20403= Test
+20404= Full
+20405=Ring opp %ld
+20406=Udefinert RAS opprigningsfeil.
+20407=Du må starte programmet på nytt for at endringene skal tre i kraft. Vil du starte IDM på nytt?
+20408=Fra %d:%02d til %d:%02d du lastet ned %d MB. Alle nedlastinger avbrytes da programmet har overskredet nedlastingsgrensen du har satt.(eller \'Innstillinger->Tilkoblinger\')!
+20409=Fra %d:%02d til %d:%02d du lastet ned %d MB. Alle nedlastingene i IDM er stoppet ved %d:%02d Alle nedlastingene avbrytes da programmet har overskredet nedlastingsgrensen du har satt. (eller \'Innstillinger->Tilkoblinger\')!\r\n\r\nAlle avbrutte nedlastinger vil automatisk starte nedlastingene på nytt %02d:%02d. Hvis du vil starte nedlastingene omgående, må du endre innstillingene for nedlastingsgrensene.
+20410=Fullført
+20411=Setter sammen filen...
+20412=Kobler fra...
+20413=Tekstfiler
+20414=IDM eksportfiler
+20415=Lagre som...
+20427=Ikke lukk dialogboksen når IDM setter sammen filen, da kan data gå tapt.
+20428=Oppdatering
+
+20429=Nedlasting overført til IDM...
+20430=Klikk 'Tilbake' for å gå tilbake og browse videre.
+20431=IDM kunne ikke starte nedlastingen. Filen ble ikke funnet.
+
+20433=Advarsel
+20434=Velg en plassering
+20435=Antivirusprogram
+20439=Lydfiler
+20440=Fullført
+20441=Filegenskaper
+20442=Internet%20Download%20Manager%20- er et%20utrolig%20bra%20program!!!
+20443=Last ned%20fra%20
+//Please don't replace "English" to your local language, please just translate the "English" word
+20444=Vennligst skriv på English
+
+20445=Ukjent
+
+20447=Vis normalstørrelse
+20448=Vis minimert
+20449=Ikke vis
+
+//Please change XXX on the language you are translating IDM to.
+q1=Internet Download Manager har oppdaget at du bruker norsk som standard språk i Windows. Vil du installere norsk i IDM?
+
+20500=Vennligst kjøp og installer fullversjonen av IDM først!
+1338=Vennligst velg språk (Du kan forandre senere i menyene "Vis->Språk" f.eks. English)
+20501=Internet Download Manager er ikke registrert på 15 dager. IDM avslutter...
+20502=Egendefinert...
+20503=Nedlastingsdato
+20504=Siste nedlastingsdato
+20505=Lagre til
+20506=Henvis
+33001=Egendefinert verktøylinje...
+33002=Egendefinert nedlastingsliste
+33004=Etter URL
+33005=Etter henvisning
+33006=Etter nedlastingsdato
+20507=Kolonner...
+
+209=Kolonner
+1339=Velg kolonnene som du vil vise i nedlastingslisten. Bruk flytt opp eller flytt ned knappene for å velge plasseringene av kolonnene.
+1160=Flytt opp
+1083=Flytt ned
+1340=Vis
+1048=Skjul
+1053=Tilbakestill
+1341=Den valgte kolonnen skal være
+1342=pixel bred
+
+//new category
+20508=Komprimert
+
+//new dialog
+226=Maks. antall tilkoblinger til en server
+1348=Server
+
+1350=Standard maks. antall tilkoblinger
+1343=Maks. antall tilkoblinger
+1344=Ny
+1345=Slett
+1346=Rediger
+1347=Unntak:
+20509=Server
+20510=Nummer
+
+228=Last ned alle linker med IDM
+20511=Filtype
+20512=Tekst på linken
+1234=Bruk teksten på linken som nedlastingsbeskrivelse
+1055=Skjul HTML-filer
+1060=Skjul gjentatte filer
+1353=Merk alle
+1354=Fjern alle
+1352=Rediger...
+1355=Vennligst merk linkene som du vil sette inn i nedlastingslisten, og klikk OK.\r\nDu må vente til IDM har sjekket alle filtypene.
+
+20513=Filnavnet som skulle lagres var \"%s\", Men serveren sendte følgende filtype \"%s\", og filen burde lagres som  \"%s\". Vil du lagre filen med samme navn og filtype som serveren foreslo?
+
+//vers. 4.00
+20514=Last ned på nytt
+20515=Åpne mappe
+
+q2=\"%s\" (%s) vil laste ned \"%s\" filen.\n\nVil du at IDM skal overta nedlastingen fra dette programmet?\nDu kan senere velge om IDM skal overta nedlastingen eller ikke \"%s\" i IDM->Innstillinger->Generelt
+
+20516=\"%s\" dataoverføringsprotokollen støtter ikke IDM nå. Eller det må være en stavefeil, sjekk ordene på nytt, og prøv igjen.
+20517=IDM har mottatt \"Adgang nektet\" feil mens den prøvde å sette sammen filen. Dette kan skje hvis filen ble åpnet av et annet program f.eks. et antivirusprogram, eller du prøvde å åpne den selv. For å sette sammen denne filen, må du starte datamaskinen på nytt, velg filen i IDM, og trykk fortsett-knappen.
+20518=Vennligst registrer IDM før du oppdaterer.\r\n Velg \"Registrering->Registrer\" og tast inn registreringsinformasjonen, og deretter Velg \"Hjelp->Oppdatering\" for å starte oppdateringen.
+20523=Ifølge vår lisensavtale som du har godkjent kan du oppdatere Internet Download Manager fritt, i ett år fra du kjøpte dette produktet. Hvis du fortsatt vil bruke oppdateringen i IDM etter dette, må du kontakte brukerstøtten.\r\n Vil du kontakte brukerstøtte?
+20519=Hurtigtasten som hindrer nedlasting må ikke være lik de som tvinger nedlasting. \r\n Vennligst velg en annen tast.
+20525=Feil ved tilkobling. Verten er ikke kjent. Navnet er verken et offensielt vertsnavn eller alias, eller det kunne ikke bli funnet i databasene som kreves.\r\n\r\nHer finner du noen mulige årsaker til feilen:\r\n\r\n1. Du har en brannmur installert på datamaskinen, og du har akkurat installert og/eller oppdatert til en ny versjon av Internet Download Manager. Sjekk innstillingene på brannmuren og kontroller at IDM har rettigheter for å koble seg opp mot Internett.\r\n\r\n2. En tjeneste som finner servere på Internett, en såkalt Domain Name Service (DNS) har et midlertidig problem, eller tilkoblingen mellom DNS`en og din datamaskin blir brutt. Det er mulig at du må starte datamaskinen på nytt for å løse dette problemet.\r\n\r\n3. Det er en stavefeil på servernavnet. Vennligst sjekk stavelsen.\r\n
+20522=IDM kunne ikke finne %d filen(e) som er nødvendig for nettleseren og systemintegreringen. Vil du laste dem ned?
+
+//Innstillinger->general
+1370=Se etter nye programmer som prøver å laste ned filer fra Internett
+1372=Ikke start automatisk nedlasting fra følgende sider(skill navn med mellomrom):
+1368=Innstilling av
+1367=Hurtigtaster...
+1375=Integrer IDM i disse nettleserne:
+
+229=Egendefinerte hurtigtaster
+1361=Bruk følgende tast(er) for å hindre nedlasting med IDM:
+1067=Bruk følgende tast(er) for å tvinge nedlasting med IDM:
+1366=Trykk ned den venstre musetasten samtidig som du trykker ned hurtigtasten(e) for å tvinge nedlasting
+1374=Merk: Noen ganger kan det hende at etter at du har klikket på en nedlastingslink, kommer det opp en dialogboks som viser at det er X antall sekunder til nedlastingen starter. I dette tilfellet må du fjerne en markering for å tvinge IDM til å laste ned filen.
+
+//Download all links with IDM
+1356=Lagre i
+1357=Alle filer til mappen som tilhører filenes kategori
+1358=Alle filene til denne kategorien
+1359=Alle filene til denne plasseringen
+1360=Plassering
+//Innstillinger->Proxy
+1378=Ikke bruk Proxy-serveren når URL`en starter med:
+1377=Skill navn med mellomrom
+
+
+20526=Internet Download Manager Nettverksintegrering
+20527=Internet Download Manager oppdaget at nettverksintegreringen er blitt slettet av et tredjepartsprogram. Vil du gjenopprette nettverksintegreringen i Internet Download Manager?
+20528=Internet Download Manager har oppdaget at noen tredjepartsprogrammer har endret IDM`s nettverksintegrering. Dette kan skje pga. et nylig installert nettverksprogram, eller fordi noen programmer tilbakestiller registeret feil. Vil du gjenopprette nettverksintegreringen i Internet Download Manager?
+20529=Nettverksintegreringen i Internet Download Manager er endret. Vi anbefaler at du starter datamaskinen på nytt. Vil du starte datamaskinen på nytt?
+20530=Nettverksintegreringen i Internet Download Manager er endret. Du må starte datamaskinen på nytt, fordi brannmuren ikke kan registrere de nye endringene, og at Internettprogrammene ikke kan kommunisere skikkelig på Internett før en omstart.\r\n\r\nVennligst lagre alt arbeid og lukk alle programmer. Datamasiknen vil starte på nytt når du har trykt OK
+
+20531=Hvis du vil integrere Internet Download Manager i et program som kjører, må du starte programmet på nytt fordi IDM ikke kan integreres i et program som kjører.\r\n\r\nEtter at du har integrert IDM med et annet program, kan du slå av \"Finn nye programmer\" alternativet, for å optimalisere programmet.
+20532=Finn nye programmer
+
+//v 4.01
+//Download All Links with IDM dialog
+1385=Skjul bilder som finnes på denne nettsiden
+//Innstillinger->Genereltvindu
+1381=Bruk avansert nettleserintegrering
+20547=Bytte mellom basis og avansert nettleserintegrering krever at du starter datamaskinen på nytt. Er du sikker på at du vil fortsette?
+//new dialog
+230=Kontrollerer Internett tilkoblingen
+1382=Kontroller
+20536=IDM laster ned en liten testside for å kontrollere Internett tilkoblingen. Vennligst vent...
+20537=IDM tester Internet Explorer. Vennligst vent et par sekunder mens Internet Explorer kjører en liten testside
+//Problem report dialog
+232=Feilrapportering av Internet Download Manager
+20546=Vi har opprettet en konfigurasjonsrapport som du kan sende oss. Vennligst send oss følgende informasjonen for at vi kan reparere dette problemet i fremtidige versjoner av IDM. Denne datainformasjonen er kun teknisk. Vi samler ikke inn personlige data, og vil behandle all informasjon konfidensielt og anonymt.
+1386=Du kan skrive kommentarer og forespørsler hvis du ønsker det
+1391=Hvis du vil ha svar om problemet når det er ordnet, vennligst tast inn din E-postadresse under
+20545=Sender data...\r\nVennligst vent et par sekunder.
+1390=Send inn
+
+//new messages
+20533=IDM har oppdaget at du bruker en proxy-server i Internet Explorer. Vil du bruke de samme proxyinnstillingene i IDM?
+20534=Første oppstart av Internet Download Manager
+20535=IDM har oppdaget at du bruker et Windows-nettverk for å koble modemet til Internett. Vil du bruke disse innstillingene i IDM?
+
+20538=Kan ikke laste ned testsiden. Det er mulig at IDM`s nettverksintegrering er i konflikt med et annet Internettprogram eller en brannmur. IDM slår av den avanserte nettleserintegreringen for å gjenopprette dine standardinnstillinger. Du kan slå på den avanserte nettleserintegreringen senere i IDM->Innstilling->Generelt dialogboksen
+20539=Du må starte datamaskinen på nytt for å gjenopprette standardinnstillingene. Vennligst lagre alt arbeid og avslutt alle programmer, Datamaskinen vil starte på nytt etter at du har klikket på OK.
+20540=Nettverksintegrasjonen i IDM er installert. I sjeldne tilfeller kan denne integreringsfunksjonen skape konflikter med nyinstallerte tredjeparts Internettprogrammer. Hvis det oppstår problemer med nettverksintegreringen, slå av \"Bruk avansert nettleserintegrering\" i IDM->Innstillinger->Generelt
+20541=Du har slått av den avanserte nettleserintegreringen. Hvis du finner et problem med den avanserte nettleserintegreringen, vil vi gjerne løse problemet for deg. For å kunne fikse dette problemet må vi samle inn og analysere den tekniske informasjonen om datamaskininnstilling og installerte Internettprogrammer. IDM vil samle inn den tekniske informasjonen, og du kan se rapporten før den sendes til vår brukerstøtteavdeling.\r\n\r\n Vil du at IDM skal opprette den tekniske informasjonen?
+20542=Slår av avansert nettleserintegrering
+20543=IDM prøver å laste ned en testside for å kontrollere Internettilkoblingen. Sikre at du er koblet opp mot Internett. Hvis du har en brannmur, vennligst sjekk at den nye versjonen av IDM har tillatelse til å koble seg opp mot Internett før du fortsetter. Deretter trykk \"Kontroller\" knappen under, og IDM vil prøve å laste ned testsiden en gang til.
+20544=IDM har endret sin nettverksintgrering og må sjekke internettilkoblingen på nytt. Hvis du ikke er tilkoblet, koble til og trykk \"Kontroller\" knappen.
+20548=Nettverksintegrasjonen i IDM er endret. Du må starte datamaskinen på nytt, fordi Internettprogrammene ikke kan kommunisere med Internett på en skikkelig måte før en omstart er foretatt.\r\n\r\nVennligst lagre alt arbeid og avslutt alle programmer, datamaskinen vil starte på nytt når du har klikket OK.
+
+//v4.01 build 4
+20549=Denne versjonen av Internet Download Manager inneholder en avansert nettleserintegrering. Ved installering av denne funksjonen, kan det hende at du må starte datamaskinen på nytt.\r\n\r\nNår den avanserte nettleserintegreringen er slått på, Kan IDM hente ned de nedlastingene som var umulige å hente ned i de tidligere versjonene av IDM, eller i andre nedlastingsprogrammer. Når du bruker integreringen kan IDM integreres med en mengde nettlesere og Internettprogrammer og ta over FTP/HTTP nedlastigene.\r\n\r\nI sjeldne tilfeller kan denne integreringsfunksjonen skape konflikter med nyinstallerte tredjeparts Internettprogrammer. Hvis du oppdager noen feil eller mangler med integreringsfunksjonen, kan du slå den av i \"Bruk avansert nettleserintegrering\" i IDM->Innstillinger->Generelt.\r\n\r\nVil du installere den avanserte nettleserintegreringen?
+20550=Den avanserte nettleserintegreringen er installert!
+
+//menu "File->Redownload"
+33009=Last ned på nytt
+
+//new (since v4.00) toolbar buttons of the main window
+//Please try to make all inscriptions for the buttons on the toolbar shorter. 
+//A long inscription can make all buttons wider and they may cross the border 
+//of the dialog.
+20551=Start oppgave
+20552=Stopp oppgave
+
+//tooltips for these buttons. You can write long descriptions here.
+t32803=Start oppgave
+t32805=Stopp oppgave
+
+//v4.01 build 5
+20553=Internet Download Manager henter automatisk ned nedlastingslinker fra andre programmer som forsøker å laste ned filer fra nettet. Hvis du IKKE vil laste ned filer med IDM, trykk på knappen for Innstillinger\r\n\r\n 1. Hvis du ikke vil laste ned disse filtypene med IDM, kan du slette beskrivelsen for filtypen (filendelsen) fra listen over automatiske hentinger av de aktuelle filtypene.\r\n\r\n 2. Hvis du ikke vil laste ned noen filer med IDM fra en bestemt plassering, kan du legge inn denne URL`en i listen over sider som IDM ikke automatisk skal laste ned filer fra.
+236=IDM tips: Automatisk linkfanger
+1393=Ikke vis dette tipset en gang til
+1397=IDM har en fleksibel funksjon som kan hente/ta over nedlastinger fra andre Internettprogrammer. Vil du lese mer?
+1396=Les mer
+
+//v4.02
+20569=Denne feilmeldingen vises dersom IDM er installert med samme produktnøkkel på flere datamaskiner. IDM lisensen gjelder kun for en datamaskin. For at du skal kunne bruke IDM på flere datamaskiner samtidig, må du skaffe lisens for hver enkelt.
+20570=Små knapper
+20571=Store knapper
+20572=Klassiske knapper
+20573=Se etter en ny
+
+//new main menu items
+m33001=Verktøylinje
+33510=Klassiske knapper
+34010=Små knapper
+34011=Store knapper
+34012=Se etter en ny
+
+//a new (since 4.401) button on the Innstillinger dialog
+1371=Hjelp
+
+// The abbreviation of sekund, kilobytes, megabytes og gigabytes, 
+// it's used when denoting download speed measurement units, 
+// e.g. KB/sek --- kilobytes pr. sekund, etc.
+20575=sek
+20576=GB
+20577=MB
+20578=KB
+20579=Bytes
